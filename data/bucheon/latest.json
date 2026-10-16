@@ -1,9 +1,9 @@
 {
   "region": "부천시",
-  "updated_at": "2026-10-16 12:34:52",
+  "updated_at": "2026-10-17 06:12:59",
   "period": {
-    "from": "20261016",
-    "to": "20261215"
+    "from": "20261017",
+    "to": "20261216"
   },
   "school_count": 127,
   "public_holidays": [
@@ -17,62 +17,6 @@
     }
   ],
   "highlights": [
-    {
-      "school": "계남고등학교",
-      "level": "고등학교",
-      "gu": "원미구",
-      "date": "2026-10-16",
-      "name": "1학년 현장체험학습",
-      "holiday": false
-    },
-    {
-      "school": "계남중학교",
-      "level": "중학교",
-      "gu": "원미구",
-      "date": "2026-10-16",
-      "name": "체육 한마당",
-      "holiday": false
-    },
-    {
-      "school": "범박중학교",
-      "level": "중학교",
-      "gu": "소사구",
-      "date": "2026-10-16",
-      "name": "범박워리렁스포츠축제",
-      "holiday": false
-    },
-    {
-      "school": "상도중학교",
-      "level": "중학교",
-      "gu": "원미구",
-      "date": "2026-10-16",
-      "name": "어울림한마당",
-      "holiday": false
-    },
-    {
-      "school": "상동중학교",
-      "level": "중학교",
-      "gu": "원미구",
-      "date": "2026-10-16",
-      "name": "상동스포츠축제",
-      "holiday": false
-    },
-    {
-      "school": "상일중학교",
-      "level": "중학교",
-      "gu": "원미구",
-      "date": "2026-10-16",
-      "name": "어울림 한마당",
-      "holiday": false
-    },
-    {
-      "school": "역곡중학교",
-      "level": "중학교",
-      "gu": "원미구",
-      "date": "2026-10-16",
-      "name": "학부모공개수업",
-      "holiday": false
-    },
     {
       "school": "송내고등학교",
       "level": "고등학교",
@@ -992,6 +936,14 @@
       "date": "2026-12-15",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "부천신흥초등학교",
+      "level": "초등학교",
+      "gu": "원미구",
+      "date": "2026-12-16",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -1223,11 +1175,6 @@
       "dong": "오정동",
       "events": [
         {
-          "date": "2026-10-16",
-          "name": "인권교육주간",
-          "holiday": false
-        },
-        {
           "date": "2026-10-19",
           "name": "한마음 체육대회",
           "holiday": false
@@ -1414,6 +1361,16 @@
         },
         {
           "date": "2026-12-15",
+          "name": "교육과정 평가회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "학생자치회 임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
           "name": "교육과정 평가회",
           "holiday": false
         }
@@ -1758,6 +1715,11 @@
           "date": "2026-12-15",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-16",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1914,6 +1876,11 @@
         {
           "date": "2026-12-10",
           "name": "전교자치회선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "교육과정평가회",
           "holiday": false
         }
       ]
@@ -2124,11 +2091,6 @@
       "dong": "범박동",
       "events": [
         {
-          "date": "2026-10-16",
-          "name": "범박워리렁스포츠축제",
-          "holiday": false
-        },
-        {
           "date": "2026-11-10",
           "name": "2차 지필평가",
           "holiday": false
@@ -2217,6 +2179,11 @@
           "date": "2026-12-15",
           "name": "1차 지필평가",
           "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1차 지필평가",
+          "holiday": false
         }
       ]
     },
@@ -2250,6 +2217,11 @@
         },
         {
           "date": "2026-12-15",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
           "name": "2차지필평가",
           "holiday": false
         }
@@ -2531,6 +2503,11 @@
           "date": "2026-12-11",
           "name": "진로특강",
           "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "대토론회",
+          "holiday": false
         }
       ]
     },
@@ -2576,6 +2553,11 @@
           "date": "2026-12-15",
           "name": "2차 정기시험(1,2)",
           "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험(1,2)",
+          "holiday": false
         }
       ]
     },
@@ -2607,16 +2589,6 @@
       "gu": "소사구",
       "dong": "옥길동",
       "events": [
-        {
-          "date": "2026-10-16",
-          "name": "동아리(2)",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-16",
-          "name": "(금3,4,5,1)",
-          "holiday": false
-        },
         {
           "date": "2026-10-20",
           "name": "(고)전국연합",
@@ -2765,6 +2737,16 @@
         {
           "date": "2026-12-15",
           "name": "화3,4 => 진로(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "(5교시수업)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "대토론회",
           "holiday": false
         }
       ]
@@ -3050,6 +3032,16 @@
           "date": "2026-12-15",
           "name": "정기시험(1,2학년)",
           "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "학기말 프로그램",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
         }
       ]
     },
@@ -3061,11 +3053,6 @@
       "gu": "원미구",
       "dong": "중동",
       "events": [
-        {
-          "date": "2026-10-16",
-          "name": "체육 한마당",
-          "holiday": false
-        },
         {
           "date": "2026-11-13",
           "name": "지필평가",
@@ -3148,6 +3135,11 @@
         },
         {
           "date": "2026-12-15",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
           "name": "2차 지필평가(1,2학년)",
           "holiday": false
         }
@@ -3372,21 +3364,6 @@
       "dong": "상동",
       "events": [
         {
-          "date": "2026-10-16",
-          "name": "봉사활동",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-16",
-          "name": "어울림한마당",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-16",
-          "name": "환경정화",
-          "holiday": false
-        },
-        {
           "date": "2026-10-21",
           "name": "사이버폭력예방교육",
           "holiday": false
@@ -3462,11 +3439,6 @@
       "dong": "상동",
       "events": [
         {
-          "date": "2026-10-16",
-          "name": "상동스포츠축제",
-          "holiday": false
-        },
-        {
           "date": "2026-11-16",
           "name": "2학기 2차 지필평가(3학년)",
           "holiday": false
@@ -3511,11 +3483,6 @@
       "gu": "원미구",
       "dong": "상동",
       "events": [
-        {
-          "date": "2026-10-16",
-          "name": "어울림 한마당",
-          "holiday": false
-        },
         {
           "date": "2026-11-10",
           "name": "2학기 2차 정기시험",
@@ -3707,11 +3674,6 @@
       "dong": "역곡동",
       "events": [
         {
-          "date": "2026-10-16",
-          "name": "학부모공개수업",
-          "holiday": false
-        },
-        {
           "date": "2026-10-22",
           "name": "학급자치회",
           "holiday": false
@@ -3758,6 +3720,11 @@
         },
         {
           "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
           "name": "2차 정기시험",
           "holiday": false
         }
@@ -3923,6 +3890,11 @@
         {
           "date": "2026-12-15",
           "name": "3학년 진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "대토론회",
           "holiday": false
         }
       ]
@@ -4153,6 +4125,11 @@
           "date": "2026-12-15",
           "name": "지필평가 2차",
           "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "지필평가 2차",
+          "holiday": false
         }
       ]
     },
@@ -4164,11 +4141,6 @@
       "gu": "소사구",
       "dong": "송내동",
       "events": [
-        {
-          "date": "2026-10-16",
-          "name": "수학여행",
-          "holiday": false
-        },
         {
           "date": "2026-10-17",
           "name": "수학여행",
@@ -4288,6 +4260,11 @@
           "date": "2026-12-15",
           "name": "2차 정기시험(1,2학년)",
           "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
         }
       ]
     },
@@ -4379,11 +4356,6 @@
       "gu": "오정구",
       "dong": "오정동",
       "events": [
-        {
-          "date": "2026-10-16",
-          "name": "2학기 1차 정기시험",
-          "holiday": false
-        },
         {
           "date": "2026-10-20",
           "name": "전국연합학력평가",
@@ -4653,6 +4625,11 @@
           "date": "2026-12-11",
           "name": "자율",
           "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "자율",
+          "holiday": false
         }
       ]
     },
@@ -4714,16 +4691,6 @@
       "gu": "원미구",
       "dong": "중동",
       "events": [
-        {
-          "date": "2026-10-16",
-          "name": "수학여행",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-16",
-          "name": "1학년 현장체험학습",
-          "holiday": false
-        },
         {
           "date": "2026-10-20",
           "name": "전국연합학력평가",
@@ -4844,11 +4811,6 @@
       "dong": "도당동",
       "events": [
         {
-          "date": "2026-10-16",
-          "name": "2학기 1차 정기시험",
-          "holiday": false
-        },
-        {
           "date": "2026-10-20",
           "name": "전국연합학력평가",
           "holiday": false
@@ -4865,6 +4827,11 @@
         },
         {
           "date": "2026-12-15",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
           "name": "2학기 2차 정기시험",
           "holiday": false
         }
@@ -4910,6 +4877,11 @@
         },
         {
           "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
           "name": "2차 정기시험",
           "holiday": false
         }
@@ -5167,6 +5139,11 @@
           "date": "2026-12-09",
           "name": "동아리",
           "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "동아리",
+          "holiday": false
         }
       ]
     },
@@ -5248,11 +5225,6 @@
       "gu": "원미구",
       "dong": "역곡동",
       "events": [
-        {
-          "date": "2026-10-16",
-          "name": "수학여행",
-          "holiday": false
-        },
         {
           "date": "2026-10-19",
           "name": "학부모상담주간",
@@ -5349,11 +5321,6 @@
       "dong": "중동",
       "events": [
         {
-          "date": "2026-10-16",
-          "name": "2학기 1차 정기시험",
-          "holiday": false
-        },
-        {
           "date": "2026-10-20",
           "name": "전국연합학력평가",
           "holiday": false
@@ -5395,6 +5362,11 @@
         },
         {
           "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
           "name": "2차 정기시험",
           "holiday": false
         }
