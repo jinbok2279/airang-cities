@@ -484,7 +484,7 @@ function viewHome() {
 }
 
 // ---------- 광고 칸 (홈 맨 아래, "광고" 표시) ----------
-const AD = { id: "lagrills", name: "라그릴스 셀프바베큐", where: "처인구 포곡읍 · 에버랜드 근처", near: "에버랜드 놀고 → 바베큐 → 펜션에서 하룻밤",
+const AD = { id: "lagrills", name: "라그릴스 셀프바베큐", where: "처인구 포곡읍 · 에버랜드 근처", near: "에버랜드에서 놀고 → 당일 바베큐 식사 → 펜션 숙박도 가능",
   stay: { name: "라그릴스펜션", url: "https://map.naver.com/p/search/" + encodeURIComponent("라그릴스펜션"),
     good: ["바베큐장과 같은 곳에 있어서, 저녁 먹고 바로 쉬러 들어가요", "개별 바베큐를 할 수 있어요", "아이와 지내기 좋은 키즈 테마 펜션이에요", "2인실·침대방부터 단체 숙박까지 가능해요", "예약은 네이버 '라그릴스펜션' 객실예약에서 해요"] }, line: "아이랑 가기 좋은 가족 바베큐 · 펜션",
   tags: ["실내 놀이방", "야외 놀이터", "키즈메뉴", "무료 주차", "비 와도 OK", "단체·워크숍 환영"], url: "https://m.place.naver.com/restaurant/1144985469/booking", tel: "010-3768-2246", site: "http://lagrills.co.kr/",
@@ -501,7 +501,7 @@ function homeAd() {
     <div style="position:relative;cursor:pointer" onclick="adOpen('info');go('ad')"><img src="${AD.img}" alt="${esc(AD.name)} 전경" style="display:block;width:100%;aspect-ratio:2.2/1;object-fit:cover"></div>
     <div style="padding:14px 16px 14px">
       <div style="cursor:pointer" onclick="adOpen('info');go('ad')"><div style="font-weight:800;font-size:15.5px">${esc(AD.name)} <span style="color:var(--muted);font-weight:700">›</span></div>
-      <div style="font-size:12px;color:var(--muted);margin-top:3px">${esc(AD.where)} · ${esc(AD.line)}</div>${AD.near ? `<div style="display:inline-block;margin-top:7px;font-size:12px;font-weight:800;padding:4px 10px;border-radius:10px;background:#FFF1E6;color:#B5541C">🎢 ${esc(AD.near)}</div>` : ""}</div>
+      <div style="font-size:12px;color:var(--muted);margin-top:3px">${esc(AD.where)} · ${esc(AD.line)}</div>${AD.near ? `<div style="display:inline-block;margin-top:7px;font-size:12px;font-weight:800;padding:4px 10px;border-radius:10px;background:#FFF1E6;color:#B5541C">🎢 ${AD.near.split("→").map(x => `<span style="white-space:nowrap">${esc(x.trim())}</span>`).join(" → ")}</div>` : ""}</div>
       <div style="display:flex;flex-wrap:wrap;gap:5px;margin:11px 0 12px">${AD.tags.map(t => `<span class="pill pill-gray" style="font-size:11px">${esc(t)}</span>`).join("")}</div>
       <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px">
         <a class="btn btn-soft" style="height:38px;font-size:12.5px;text-decoration:none;padding:0 4px" href="${AD.url}" target="_blank" rel="noopener sponsored" onclick="adOpen('book')">네이버 예약</a>
@@ -517,7 +517,7 @@ function viewAdInfo() {
     <div class="lift" style="padding:0;overflow:hidden;margin-top:14px"><div style="position:relative"><img src="${AD.img}" alt="${esc(AD.name)} 전경" style="display:block;width:100%;aspect-ratio:2.2/1;object-fit:cover">
       <span style="position:absolute;top:10px;right:10px;font-size:10.5px;font-weight:700;color:#fff;background:rgba(20,24,40,.55);border-radius:6px;padding:2px 7px">광고</span></div>
       <div style="padding:16px"><h1 style="font-size:22px;font-weight:800;margin:0">${esc(AD.name)}</h1>
-      <p style="font-size:13px;color:var(--muted);margin:5px 0 0">${esc(AD.where)} · ${esc(AD.line)}</p>${AD.near ? `<div style="display:inline-block;margin-top:7px;font-size:12px;font-weight:800;padding:4px 10px;border-radius:10px;background:#FFF1E6;color:#B5541C">🎢 ${esc(AD.near)}</div>` : ""}
+      <p style="font-size:13px;color:var(--muted);margin:5px 0 0">${esc(AD.where)} · ${esc(AD.line)}</p>${AD.near ? `<div style="display:inline-block;margin-top:7px;font-size:12px;font-weight:800;padding:4px 10px;border-radius:10px;background:#FFF1E6;color:#B5541C">🎢 ${AD.near.split("→").map(x => `<span style="white-space:nowrap">${esc(x.trim())}</span>`).join(" → ")}</div>` : ""}
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px">
         <a class="btn btn-soft" style="height:42px;font-size:13.5px;text-decoration:none" href="${AD.url}" target="_blank" rel="noopener sponsored" onclick="adOpen('book')">네이버 예약</a>
         <a class="btn btn-soft" style="height:42px;font-size:13.5px;text-decoration:none" href="tel:${AD.tel}" onclick="adOpen('tel')">전화 문의</a></div></div></div>
