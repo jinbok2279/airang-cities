@@ -721,6 +721,15 @@ function viewSchool(code) {
 }
 
 // ---------- 화면: 마이 ----------
+// 다른 도시 아이랑 (사이트 링크만). 주소가 정해지면 url만 바꾸면 됨
+const OTHER_CITIES = [["용인", "https://yongin.songgollab.co.kr"], ["수원", "https://suwon.songgollab.co.kr"], ["성남", "https://seongnam.songgollab.co.kr"],
+  ["안양", "https://anyang.songgollab.co.kr"], ["고양", "https://goyang.songgollab.co.kr"], ["화성", "https://hwaseong.songgollab.co.kr"], ["부천", "https://bucheon.songgollab.co.kr"]];
+function otherCities() {
+  const me = document.title.replace("아이랑 ", "").trim();
+  return `<section class="section"><div class="sec-head"><h2>다른 도시 둘러보기</h2></div>
+    <div class="lift card-pad"><div style="display:flex;flex-wrap:wrap;gap:8px">${OTHER_CITIES.filter(([n]) => n !== me).map(([n, u]) => `<a class="btn btn-soft" style="height:40px;font-size:13.5px;padding:0 14px" href="${u}" target="_blank" rel="noopener" onclick="trackEvent('도시-${n}')">아이랑 ${n} ↗</a>`).join("")}</div>
+    <p style="font-size:12px;color:var(--muted);margin:10px 0 0;line-height:1.6">다른 도시 정보를 구경할 수 있어요. 아이 정보는 도시마다 따로 저장돼요.</p></div></section>`;
+}
 function viewMy() {
   const ks = kids();
   const kidRows = ks.map(k => { const sc = kidSchool(k);
@@ -734,6 +743,7 @@ function viewMy() {
       <div class="lift list">${kidRows || `<div class="empty">아직 등록한 아이가 없어요.</div>`}</div>
       ${ks.length < MAX_KIDS ? `<button class="btn btn-soft" style="width:100%;height:50px" onclick="go('kid/new')">+ 아이 추가</button>` : ""}
     </section>
+    ${otherCities()}
     <section class="section"><div class="sec-head"><h2>설정</h2></div>
     <div class="lift card-pad">
       <div class="row"><span>관심 지역</span><button class="btn btn-soft" style="height:38px;font-size:13px" onclick="go('region')">${levelLabel()} · ${esc(regionLabel())} · 변경</button></div>
@@ -1466,7 +1476,7 @@ const NEWS = [
 ];
 function newsDate(d) { const [y, m, dd] = d.split("-").map(Number); return `${m}월 ${dd}일`; }
 // 새 버전으로 바뀐 걸 홈 맨 위에 한 번 알려 줌 (닫거나 소식을 보면 사라짐)
-const APP_VER = "1.0.45";
+const APP_VER = "1.0.46";
 let UPDATED_FROM = null;
 const IS_NEW_PHONE = !store("edu.appVer");   // 이 휴대폰에서 처음 열었는지 (예전에 쓴 적 있으면 앱 버전이 남아 있음)
 (function () { const last = store("edu.appVer"); if (last && last !== APP_VER) UPDATED_FROM = last; if (!last) store("edu.appVer", APP_VER); })();
