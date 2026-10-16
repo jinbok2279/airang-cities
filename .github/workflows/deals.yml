@@ -1,0 +1,34 @@
+name: deals (동네 할인만 다시 모으기)
+# 하루 수집(daily)에도 들어 있다. 이건 할인만 바로 다시 돌릴 때 쓴다.
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: deals, cancel-in-progress: false }
+jobs:
+  deals:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        include:
+          - { city: 성남, d: seongnam }
+          - { city: 안양, d: anyang }
+          - { city: 고양, d: goyang }
+          - { city: 화성, d: hwaseong }
+          - { city: 부천, d: bucheon }
+    env:
+      CITY: ${{ matrix.city }}
+      KAKAO_KEY: ${{ secrets.KAKAO_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: |
+          python -u deals.py
+          mkdir -p data/${{ matrix.d }} && cp output/deals.json data/${{ matrix.d }}/
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/${{ matrix.d }}/deals.json; git diff --cached --quiet && exit 0
+          git commit -m "${{ matrix.city }} 동네 할인"
+          for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && break; sleep $((i*5)); done
