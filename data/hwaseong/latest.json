@@ -1,0 +1,7927 @@
+{
+  "region": "화성시",
+  "updated_at": "2026-10-16 09:49:47",
+  "period": {
+    "from": "20261016",
+    "to": "20261215"
+  },
+  "school_count": 197,
+  "public_holidays": [
+    {
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "방교중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-10-16",
+      "name": "일일형 현장체험학습(진로체험의 날)",
+      "holiday": false
+    },
+    {
+      "school": "방교중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-10-16",
+      "name": "체육한마당",
+      "holiday": false
+    },
+    {
+      "school": "봉담고등학교",
+      "level": "고등학교",
+      "gu": "효행구",
+      "date": "2026-10-16",
+      "name": "스포츠 문화 축제",
+      "holiday": false
+    },
+    {
+      "school": "새동중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-10-16",
+      "name": "스포츠축제",
+      "holiday": false
+    },
+    {
+      "school": "송산초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-10-16",
+      "name": "운동회",
+      "holiday": false
+    },
+    {
+      "school": "안녕초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-10-16",
+      "name": "교내 체험학습",
+      "holiday": false
+    },
+    {
+      "school": "청계중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-10-16",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "청계중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-10-16",
+      "name": "스포츠한마당",
+      "holiday": false
+    },
+    {
+      "school": "화담중학교",
+      "level": "중학교",
+      "gu": "효행구",
+      "date": "2026-10-16",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "화성중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-10-16",
+      "name": "스포츠축제",
+      "holiday": false
+    },
+    {
+      "school": "송화초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-10-19",
+      "name": "늘봄학교 공개수업 주간",
+      "holiday": false
+    },
+    {
+      "school": "안녕초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-10-20",
+      "name": "교내 체험학습",
+      "holiday": false
+    },
+    {
+      "school": "장안여자중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-10-20",
+      "name": "주제체험학습",
+      "holiday": false
+    },
+    {
+      "school": "동탄초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-10-21",
+      "name": "동탄초등학교개교기념일",
+      "holiday": false
+    },
+    {
+      "school": "비봉중학교",
+      "level": "중학교",
+      "gu": "효행구",
+      "date": "2026-10-21",
+      "name": "한마음 운동회",
+      "holiday": false
+    },
+    {
+      "school": "안녕초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-10-21",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "기산중학교",
+      "level": "중학교",
+      "gu": "병점구",
+      "date": "2026-10-22",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "남양중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-10-22",
+      "name": "주제별 체험학습(1학년)",
+      "holiday": false
+    },
+    {
+      "school": "동탄국제고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-10-22",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "동탄목동중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-10-22",
+      "name": "건강체육한마당",
+      "holiday": false
+    },
+    {
+      "school": "두레자연중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-10-22",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "청계중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-10-22",
+      "name": "한마음축제",
+      "holiday": false
+    },
+    {
+      "school": "화성세정중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-10-22",
+      "name": "건강체육한마당",
+      "holiday": false
+    },
+    {
+      "school": "나루고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-10-23",
+      "name": "나루체육한마당",
+      "holiday": false
+    },
+    {
+      "school": "나루고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-10-23",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "남양고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-10-23",
+      "name": "1,2학년 현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "남양중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-10-23",
+      "name": "주제별 체험학습(2학년)",
+      "holiday": false
+    },
+    {
+      "school": "능동중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-10-23",
+      "name": "체육한마당",
+      "holiday": false
+    },
+    {
+      "school": "동탄중앙고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-10-23",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "두레자연중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-10-23",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "바른중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-10-23",
+      "name": "바른한마당",
+      "holiday": false
+    },
+    {
+      "school": "발안바이오과학고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-10-23",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "봉담중학교",
+      "level": "중학교",
+      "gu": "효행구",
+      "date": "2026-10-23",
+      "name": "느티나무축제",
+      "holiday": false
+    },
+    {
+      "school": "비봉고등학교",
+      "level": "고등학교",
+      "gu": "효행구",
+      "date": "2026-10-23",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "비봉중학교",
+      "level": "중학교",
+      "gu": "효행구",
+      "date": "2026-10-23",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "안녕초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-10-23",
+      "name": "교내 체험학습",
+      "holiday": false
+    },
+    {
+      "school": "예당중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-10-23",
+      "name": "체육축제",
+      "holiday": false
+    },
+    {
+      "school": "와우중학교",
+      "level": "중학교",
+      "gu": "효행구",
+      "date": "2026-10-23",
+      "name": "교내 어울림한마당",
+      "holiday": false
+    },
+    {
+      "school": "이솔고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-10-23",
+      "name": "동아리발표회/축제",
+      "holiday": false
+    },
+    {
+      "school": "장안여자중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-10-23",
+      "name": "체육한마당",
+      "holiday": false
+    },
+    {
+      "school": "정남중학교",
+      "level": "중학교",
+      "gu": "효행구",
+      "date": "2026-10-23",
+      "name": "정남너나들이한마당",
+      "holiday": false
+    },
+    {
+      "school": "진안중학교",
+      "level": "중학교",
+      "gu": "병점구",
+      "date": "2026-10-23",
+      "name": "체육한마당",
+      "holiday": false
+    },
+    {
+      "school": "청림중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-10-23",
+      "name": "스포츠축제",
+      "holiday": false
+    },
+    {
+      "school": "호연고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-10-23",
+      "name": "체육한마당",
+      "holiday": false
+    },
+    {
+      "school": "홍익디자인고등학교",
+      "level": "고등학교",
+      "gu": "효행구",
+      "date": "2026-10-23",
+      "name": "개교기념 재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "화성반월고등학교",
+      "level": "고등학교",
+      "gu": "병점구",
+      "date": "2026-10-23",
+      "name": "체험학습",
+      "holiday": false
+    },
+    {
+      "school": "화성세정중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-10-23",
+      "name": "꽃뫼축제",
+      "holiday": false
+    },
+    {
+      "school": "기산중학교",
+      "level": "중학교",
+      "gu": "병점구",
+      "date": "2026-10-26",
+      "name": "재량휴업",
+      "holiday": true
+    },
+    {
+      "school": "수현초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-10-26",
+      "name": "느티나무축제",
+      "holiday": false
+    },
+    {
+      "school": "양감중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-10-26",
+      "name": "진로체험의 날",
+      "holiday": false
+    },
+    {
+      "school": "수현초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-10-27",
+      "name": "느티나무축제",
+      "holiday": false
+    },
+    {
+      "school": "서연고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-10-28",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "수현초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-10-28",
+      "name": "느티나무축제",
+      "holiday": false
+    },
+    {
+      "school": "장안여자중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-10-28",
+      "name": "학부모 공개수업",
+      "holiday": false
+    },
+    {
+      "school": "향남초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-10-28",
+      "name": "진로체험학습",
+      "holiday": false
+    },
+    {
+      "school": "서연고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-10-29",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "수현초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-10-29",
+      "name": "느티나무축제",
+      "holiday": false
+    },
+    {
+      "school": "삼괴고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-10-30",
+      "name": "진로체험학습",
+      "holiday": false
+    },
+    {
+      "school": "서연고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-10-30",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "수현초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-10-30",
+      "name": "느티나무축제",
+      "holiday": false
+    },
+    {
+      "school": "신동고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-10-30",
+      "name": "체육한마당",
+      "holiday": false
+    },
+    {
+      "school": "이산고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-10-30",
+      "name": "체육축제",
+      "holiday": false
+    },
+    {
+      "school": "화성반월중학교",
+      "level": "중학교",
+      "gu": "병점구",
+      "date": "2026-10-30",
+      "name": "한마당축제",
+      "holiday": false
+    },
+    {
+      "school": "화성반월중학교",
+      "level": "중학교",
+      "gu": "병점구",
+      "date": "2026-10-30",
+      "name": "현장체험학습(3학년)",
+      "holiday": false
+    },
+    {
+      "school": "우정초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-11-01",
+      "name": "개교기념일",
+      "holiday": true
+    },
+    {
+      "school": "남양중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-02",
+      "name": "학생상담주간",
+      "holiday": false
+    },
+    {
+      "school": "동탄국제고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-02",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "삼괴고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-02",
+      "name": "학부모상담 주간",
+      "holiday": false
+    },
+    {
+      "school": "남양중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-03",
+      "name": "학생상담주간",
+      "holiday": false
+    },
+    {
+      "school": "삼괴고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-03",
+      "name": "학부모상담 주간",
+      "holiday": false
+    },
+    {
+      "school": "푸른중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-03",
+      "name": "진로체험",
+      "holiday": false
+    },
+    {
+      "school": "남양중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-04",
+      "name": "학생상담주간",
+      "holiday": false
+    },
+    {
+      "school": "삼괴고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-04",
+      "name": "학부모상담 주간",
+      "holiday": false
+    },
+    {
+      "school": "남양중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-05",
+      "name": "학생상담주간",
+      "holiday": false
+    },
+    {
+      "school": "삼괴고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-05",
+      "name": "학부모상담 주간",
+      "holiday": false
+    },
+    {
+      "school": "남양중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-06",
+      "name": "학생상담주간",
+      "holiday": false
+    },
+    {
+      "school": "삼괴고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-06",
+      "name": "학부모상담 주간",
+      "holiday": false
+    },
+    {
+      "school": "안녕초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-11-09",
+      "name": "꿈끼발표회",
+      "holiday": false
+    },
+    {
+      "school": "안녕초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-11-10",
+      "name": "꿈끼발표회",
+      "holiday": false
+    },
+    {
+      "school": "안녕초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-11-11",
+      "name": "꿈끼발표회",
+      "holiday": false
+    },
+    {
+      "school": "두레자연고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-12",
+      "name": "재량휴일",
+      "holiday": true
+    },
+    {
+      "school": "두레자연고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-12",
+      "name": "신입생 입학전형",
+      "holiday": false
+    },
+    {
+      "school": "안녕초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-11-12",
+      "name": "꿈끼발표회",
+      "holiday": false
+    },
+    {
+      "school": "두레자연고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-13",
+      "name": "재량휴일",
+      "holiday": true
+    },
+    {
+      "school": "두레자연고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-13",
+      "name": "신입생 입학전형",
+      "holiday": false
+    },
+    {
+      "school": "안녕초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-11-13",
+      "name": "꿈끼발표회",
+      "holiday": false
+    },
+    {
+      "school": "안녕초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-11-16",
+      "name": "꿈끼발표회",
+      "holiday": false
+    },
+    {
+      "school": "안녕초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-11-17",
+      "name": "꿈끼발표회",
+      "holiday": false
+    },
+    {
+      "school": "안녕초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-11-18",
+      "name": "꿈끼발표회",
+      "holiday": false
+    },
+    {
+      "school": "구봉초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "기산중학교",
+      "level": "중학교",
+      "gu": "병점구",
+      "date": "2026-11-19",
+      "name": "재량휴업",
+      "holiday": true
+    },
+    {
+      "school": "나루고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "나루고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "남양고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "남양고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(3학년)",
+      "holiday": true
+    },
+    {
+      "school": "남양중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "능동고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "능동중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "능동초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "다원중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "수능일(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "동탄고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "동탄국제고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "동탄중앙고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "동탄중앙초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업",
+      "holiday": true
+    },
+    {
+      "school": "동탄중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "동학중학교",
+      "level": "중학교",
+      "gu": "병점구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "바른중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "반석초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "반송고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "반송고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "반송중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "발안바이오과학고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "발안바이오과학고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "방교중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일(유연한학사일정)",
+      "holiday": true
+    },
+    {
+      "school": "병점고등학교",
+      "level": "고등학교",
+      "gu": "병점구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "병점중학교",
+      "level": "중학교",
+      "gu": "병점구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "봉담고등학교",
+      "level": "고등학교",
+      "gu": "효행구",
+      "date": "2026-11-19",
+      "name": "대학수학능력평가",
+      "holiday": true
+    },
+    {
+      "school": "봉담중학교",
+      "level": "중학교",
+      "gu": "효행구",
+      "date": "2026-11-19",
+      "name": "수능시험일",
+      "holiday": true
+    },
+    {
+      "school": "삼괴고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "삼괴중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "삼괴중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "새동중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "새솔고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "서신중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "서연고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "서연중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "석우중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "솔빛중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "대입수능",
+      "holiday": true
+    },
+    {
+      "school": "송린중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "송산고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "송산중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "대학수학능력평가(학교장재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "수현중학교",
+      "level": "중학교",
+      "gu": "효행구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "신동고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "신백중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "신백중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "안녕초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-11-19",
+      "name": "꿈끼발표회",
+      "holiday": false
+    },
+    {
+      "school": "안용중학교",
+      "level": "중학교",
+      "gu": "병점구",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "안화고등학교",
+      "level": "고등학교",
+      "gu": "병점구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "안화중학교",
+      "level": "중학교",
+      "gu": "병점구",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "안화초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "예당고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "예당고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "예당중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "와우고등학교",
+      "level": "고등학교",
+      "gu": "효행구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험 재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "와우중학교",
+      "level": "중학교",
+      "gu": "효행구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이산고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "이산중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "장안여자중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "정남중학교",
+      "level": "중학교",
+      "gu": "효행구",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일(대입수능)",
+      "holiday": true
+    },
+    {
+      "school": "정현고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "진안중학교",
+      "level": "중학교",
+      "gu": "병점구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "창의고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(1,2,3)",
+      "holiday": true
+    },
+    {
+      "school": "청계중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "치동고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "치동중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "대입수능재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "푸른중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "하길고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "하길고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "재량휴업일4",
+      "holiday": true
+    },
+    {
+      "school": "하길중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "한백고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "한백중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "향남고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "향남고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "향남중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "향일고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "향일고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "호연고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "수능재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "홍익디자인고등학교",
+      "level": "고등학교",
+      "gu": "효행구",
+      "date": "2026-11-19",
+      "name": "대학수학능력 시험일",
+      "holiday": true
+    },
+    {
+      "school": "화담고등학교",
+      "level": "고등학교",
+      "gu": "효행구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "화담중학교",
+      "level": "중학교",
+      "gu": "효행구",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "화도중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "학교재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "화성동화중학교",
+      "level": "중학교",
+      "gu": "효행구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "화성반월고등학교",
+      "level": "고등학교",
+      "gu": "병점구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "화성반월중학교",
+      "level": "중학교",
+      "gu": "병점구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "화성상신중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "화성세정중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-19",
+      "name": "수능재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "화성중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "동탄고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "동탄국제고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "배양초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-11-20",
+      "name": "진로체험교육",
+      "holiday": false
+    },
+    {
+      "school": "병점고등학교",
+      "level": "고등학교",
+      "gu": "병점구",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "사창초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-11-20",
+      "name": "예술감성축제",
+      "holiday": false
+    },
+    {
+      "school": "새솔고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "신동고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "안녕초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-11-20",
+      "name": "꿈끼발표회",
+      "holiday": false
+    },
+    {
+      "school": "이산고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "창의고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "향남고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "향일고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "화성세정중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "화성중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-20",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "비봉초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-11-24",
+      "name": "동아리 축제",
+      "holiday": false
+    },
+    {
+      "school": "향남초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-11-25",
+      "name": "계절체험학습",
+      "holiday": false
+    },
+    {
+      "school": "안화고등학교",
+      "level": "고등학교",
+      "gu": "병점구",
+      "date": "2026-11-26",
+      "name": "입학설명회",
+      "holiday": false
+    },
+    {
+      "school": "하길고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-11-26",
+      "name": "입학설명회",
+      "holiday": false
+    },
+    {
+      "school": "능동고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-11-27",
+      "name": "입학설명회",
+      "holiday": false
+    },
+    {
+      "school": "화도중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-11-27",
+      "name": "진로체험",
+      "holiday": false
+    },
+    {
+      "school": "숲속초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-11-30",
+      "name": "학년별 교육과정 발표회주간",
+      "holiday": false
+    },
+    {
+      "school": "숲속초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-01",
+      "name": "학년별 교육과정 발표회주간",
+      "holiday": false
+    },
+    {
+      "school": "반송고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-12-02",
+      "name": "의무등교일(체험학습 불가)",
+      "holiday": false
+    },
+    {
+      "school": "숲속초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-02",
+      "name": "학년별 교육과정 발표회주간",
+      "holiday": false
+    },
+    {
+      "school": "숲속초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-03",
+      "name": "학년별 교육과정 발표회주간",
+      "holiday": false
+    },
+    {
+      "school": "숲속초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-04",
+      "name": "학년별 교육과정 발표회주간",
+      "holiday": false
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-10",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-10",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-11",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-11",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-12",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-12",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-13",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-13",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-14",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-14",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "이산중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-12-15",
+      "name": "진로체험의날",
+      "holiday": false
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-15",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-15",
+      "name": "학년말 방학",
+      "holiday": true
+    }
+  ],
+  "schools": [
+    {
+      "code": "7679464",
+      "name": "늘봄초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄대로24길 51",
+      "gu": "동탄구",
+      "dong": "영천동",
+      "events": []
+    },
+    {
+      "code": "7679018",
+      "name": "능동초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄원천로 315-27",
+      "gu": "동탄구",
+      "dong": "능동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7679540",
+      "name": "다올초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄구 동탄신동2길 21(신동)",
+      "gu": "동탄구",
+      "dong": "신동",
+      "events": []
+    },
+    {
+      "code": "7679405",
+      "name": "다원초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄구 동탄대로24길 112",
+      "gu": "동탄구",
+      "dong": "",
+      "events": []
+    },
+    {
+      "code": "7679419",
+      "name": "동탄목동초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄순환대로20길 10",
+      "gu": "동탄구",
+      "dong": "목동",
+      "events": []
+    },
+    {
+      "code": "7679339",
+      "name": "동탄중앙초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄대로시범길 117",
+      "gu": "동탄구",
+      "dong": "청계동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7679021",
+      "name": "동탄초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄감배산로 26",
+      "gu": "동탄구",
+      "dong": "오산동",
+      "events": [
+        {
+          "date": "2026-10-21",
+          "name": "동탄초등학교개교기념일",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679336",
+      "name": "무봉초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄청계로 303-34",
+      "gu": "동탄구",
+      "dong": "청계동",
+      "events": []
+    },
+    {
+      "code": "7679026",
+      "name": "반석초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄반석로 22",
+      "gu": "동탄구",
+      "dong": "반송동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7679027",
+      "name": "반송초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄솔빛로 14",
+      "gu": "동탄구",
+      "dong": "반송동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "전교임원선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679366",
+      "name": "방교초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄산척로1길 11",
+      "gu": "동탄구",
+      "dong": "",
+      "events": []
+    },
+    {
+      "code": "7679395",
+      "name": "서연초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄대로4가길 25",
+      "gu": "동탄구",
+      "dong": "장지동",
+      "events": []
+    },
+    {
+      "code": "7679037",
+      "name": "석우초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄시범한빛길 32",
+      "gu": "동탄구",
+      "dong": "반송동",
+      "events": []
+    },
+    {
+      "code": "7679421",
+      "name": "세정초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄순환대로12길 74",
+      "gu": "동탄구",
+      "dong": "산척동",
+      "events": []
+    },
+    {
+      "code": "7679039",
+      "name": "솔빛초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄반석로 84",
+      "gu": "동탄구",
+      "dong": "반송동",
+      "events": []
+    },
+    {
+      "code": "7679283",
+      "name": "숲속초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄공원로2길 10",
+      "gu": "동탄구",
+      "dong": "반송동",
+      "events": [
+        {
+          "date": "2026-10-27",
+          "name": "소방안전교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "지진대피훈련",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "학년별 교육과정 발표회주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "학년별 교육과정 발표회주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "학년별 교육과정 발표회주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "학년별 교육과정 발표회주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "학년별 교육과정 발표회주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "전교임원선출",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679337",
+      "name": "아인초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄대로시범길 219",
+      "gu": "동탄구",
+      "dong": "청계동",
+      "events": []
+    },
+    {
+      "code": "7679465",
+      "name": "여울초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄감배산로 95",
+      "gu": "동탄구",
+      "dong": "여울동",
+      "events": []
+    },
+    {
+      "code": "7679334",
+      "name": "영천초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄영천로 36",
+      "gu": "동탄구",
+      "dong": "영천동",
+      "events": []
+    },
+    {
+      "code": "7679048",
+      "name": "예당초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄반석로 245",
+      "gu": "동탄구",
+      "dong": "석우동",
+      "events": []
+    },
+    {
+      "code": "7679341",
+      "name": "예솔초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄순환대로22길 13",
+      "gu": "동탄구",
+      "dong": "청계동",
+      "events": []
+    },
+    {
+      "code": "7679304",
+      "name": "예원초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄반석로 259",
+      "gu": "동탄구",
+      "dong": "석우동",
+      "events": []
+    },
+    {
+      "code": "7679367",
+      "name": "왕배초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄대로12길 101",
+      "gu": "동탄구",
+      "dong": "",
+      "events": []
+    },
+    {
+      "code": "7679467",
+      "name": "이솔초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄순환대로8길 26",
+      "gu": "동탄구",
+      "dong": "장지동",
+      "events": []
+    },
+    {
+      "code": "7679387",
+      "name": "정현초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄산척로 122",
+      "gu": "동탄구",
+      "dong": "산척동",
+      "events": []
+    },
+    {
+      "code": "7679420",
+      "name": "청림초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄산척로 93-22",
+      "gu": "동탄구",
+      "dong": "산척동",
+      "events": []
+    },
+    {
+      "code": "7679369",
+      "name": "청목초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄순환대로21길 10",
+      "gu": "동탄구",
+      "dong": "청계동",
+      "events": []
+    },
+    {
+      "code": "7679386",
+      "name": "치동초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄순환대로 881-34",
+      "gu": "동탄구",
+      "dong": "영천동",
+      "events": []
+    },
+    {
+      "code": "7679061",
+      "name": "푸른초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄공원로 21-38",
+      "gu": "동탄구",
+      "dong": "능동",
+      "events": []
+    },
+    {
+      "code": "7679062",
+      "name": "학동초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄지성로 79-17",
+      "gu": "동탄구",
+      "dong": "반송동",
+      "events": []
+    },
+    {
+      "code": "7679063",
+      "name": "한마음초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄숲속로 69-6",
+      "gu": "동탄구",
+      "dong": "능동",
+      "events": []
+    },
+    {
+      "code": "7679335",
+      "name": "한백초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄순환대로26길 37",
+      "gu": "동탄구",
+      "dong": "영천동",
+      "events": []
+    },
+    {
+      "code": "7679397",
+      "name": "한율초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄순환대로 429-10",
+      "gu": "동탄구",
+      "dong": "목동",
+      "events": []
+    },
+    {
+      "code": "7679529",
+      "name": "현민초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄구 동탄신리천로3길 11",
+      "gu": "동탄구",
+      "dong": "신동",
+      "events": []
+    },
+    {
+      "code": "7679466",
+      "name": "호연초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄대로3길 17-7",
+      "gu": "동탄구",
+      "dong": "장지동",
+      "events": []
+    },
+    {
+      "code": "7679068",
+      "name": "화남초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄순환대로 4길 16",
+      "gu": "동탄구",
+      "dong": "장지동",
+      "events": []
+    },
+    {
+      "code": "7679013",
+      "name": "화성금곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄문화센터로 13",
+      "gu": "동탄구",
+      "dong": "반송동",
+      "events": []
+    },
+    {
+      "code": "7679531",
+      "name": "화성바른초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄신동5길 7",
+      "gu": "동탄구",
+      "dong": "신동",
+      "events": []
+    },
+    {
+      "code": "7679498",
+      "name": "화성신동초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄신동1길 11",
+      "gu": "동탄구",
+      "dong": "신동",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "학년스포츠대회주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-16",
+          "name": "정보통신윤리교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-19",
+          "name": "독도교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "독도교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "독도교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-22",
+          "name": "독도교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "독도교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-26",
+          "name": "인권교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-27",
+          "name": "인권교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-28",
+          "name": "인권교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-29",
+          "name": "인권교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "인권교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-02",
+          "name": "다문화이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "다문화이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "다문화이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "다문화이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "다문화이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "장애이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "장애이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "장애이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "장애이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "장애이해교육주간",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679338",
+      "name": "화성청계초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄대로시범길 39",
+      "gu": "동탄구",
+      "dong": "청계동",
+      "events": [
+        {
+          "date": "2026-12-02",
+          "name": "전교 임원 선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679010",
+      "name": "갈천초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 향남읍 발안로 701-23",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": []
+    },
+    {
+      "code": "7679011",
+      "name": "고정초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 만세구 송산면 공룡로 326",
+      "gu": "만세구",
+      "dong": "송산면",
+      "events": []
+    },
+    {
+      "code": "7679016",
+      "name": "남양초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 남양읍 남양시장로55번길 7",
+      "gu": "만세구",
+      "dong": "남양읍",
+      "events": []
+    },
+    {
+      "code": "7679017",
+      "name": "노진초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 장안면 화곡로 166",
+      "gu": "만세구",
+      "dong": "장안면",
+      "events": []
+    },
+    {
+      "code": "7679380",
+      "name": "대양초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 남양읍 시청로32번길 80",
+      "gu": "만세구",
+      "dong": "남양읍",
+      "events": []
+    },
+    {
+      "code": "7679019",
+      "name": "도이초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 향남읍 행정동로 87",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": []
+    },
+    {
+      "code": "7679020",
+      "name": "동양초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 만세구 남양읍 시청로45번길 11",
+      "gu": "만세구",
+      "dong": "남양읍",
+      "events": []
+    },
+    {
+      "code": "7679024",
+      "name": "마도초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 마도면 석교로 157",
+      "gu": "만세구",
+      "dong": "마도면",
+      "events": []
+    },
+    {
+      "code": "7679025",
+      "name": "마산초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 송산면 송산포도로 582",
+      "gu": "만세구",
+      "dong": "송산면",
+      "events": []
+    },
+    {
+      "code": "7679028",
+      "name": "발안초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 향남읍 발안로 8",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": []
+    },
+    {
+      "code": "7679033",
+      "name": "사창초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 양감면 정문회화로 7",
+      "gu": "만세구",
+      "dong": "양감면",
+      "events": [
+        {
+          "date": "2026-11-20",
+          "name": "예술감성축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679035",
+      "name": "상신초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 향남읍 손개길 7",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": []
+    },
+    {
+      "code": "7679533",
+      "name": "새동초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 남양읍 남양중앙로 346",
+      "gu": "만세구",
+      "dong": "남양읍",
+      "events": []
+    },
+    {
+      "code": "7679440",
+      "name": "새솔초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 수노을1로 123",
+      "gu": "만세구",
+      "dong": "새솔동",
+      "events": []
+    },
+    {
+      "code": "7679534",
+      "name": "서봉초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 향남읍 상신하길로195번길",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": []
+    },
+    {
+      "code": "7679036",
+      "name": "서신초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 서신면 매화3길 17",
+      "gu": "만세구",
+      "dong": "서신면",
+      "events": []
+    },
+    {
+      "code": "7679038",
+      "name": "석천초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 우정읍 석천길 52",
+      "gu": "만세구",
+      "dong": "우정읍",
+      "events": []
+    },
+    {
+      "code": "7679396",
+      "name": "송린초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 만세구 수노을1로 253",
+      "gu": "만세구",
+      "dong": "",
+      "events": []
+    },
+    {
+      "code": "7679041",
+      "name": "송산초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 송산면 사강시장길 15-9",
+      "gu": "만세구",
+      "dong": "송산면",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "운동회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679492",
+      "name": "신남초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 만세구 남양읍 화성시청역로 2",
+      "gu": "만세구",
+      "dong": "남양읍",
+      "events": []
+    },
+    {
+      "code": "7679047",
+      "name": "양감초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 양감면 초록로 49",
+      "gu": "만세구",
+      "dong": "양감면",
+      "events": []
+    },
+    {
+      "code": "7679050",
+      "name": "우정초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 우정읍 버들로 136",
+      "gu": "만세구",
+      "dong": "우정읍",
+      "events": [
+        {
+          "date": "2026-11-01",
+          "name": "개교기념일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7679052",
+      "name": "장명초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 장안면 장명길 19-8",
+      "gu": "만세구",
+      "dong": "장안면",
+      "events": []
+    },
+    {
+      "code": "7679055",
+      "name": "제암초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 향남읍 발안서로 21",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": [
+        {
+          "date": "2026-11-26",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-11",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-12",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-12",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-13",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-13",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "학년말 방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7679058",
+      "name": "청원초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 마도면 해운로 794",
+      "gu": "만세구",
+      "dong": "마도면",
+      "events": []
+    },
+    {
+      "code": "7679060",
+      "name": "팔탄초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 팔탄면 마당바위로31번길 6",
+      "gu": "만세구",
+      "dong": "팔탄면",
+      "events": []
+    },
+    {
+      "code": "7679096",
+      "name": "팔탄초등학교대방분교장",
+      "level": "초등학교",
+      "address": "경기도 화성시 팔탄면 노하길 398",
+      "gu": "만세구",
+      "dong": "팔탄면",
+      "events": []
+    },
+    {
+      "code": "7679368",
+      "name": "하길초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 향남읍 상신하길로 273번길 45",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": []
+    },
+    {
+      "code": "7679064",
+      "name": "한울초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 만세구 향남읍 행정중앙1로 25",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": []
+    },
+    {
+      "code": "7679065",
+      "name": "해운초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 서신면 궁평항로 1374-6",
+      "gu": "만세구",
+      "dong": "서신면",
+      "events": []
+    },
+    {
+      "code": "7679066",
+      "name": "행정초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 만세구 향남읍 행정중앙1로 77",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": []
+    },
+    {
+      "code": "7679067",
+      "name": "향남초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 향남읍 왜골길 7",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": [
+        {
+          "date": "2026-10-28",
+          "name": "진로체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "계절체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "전교학생자치회선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679072",
+      "name": "화성월문초등학교",
+      "level": "초등학교",
+      "address": "경기 화성시 팔탄면 버들로 1537",
+      "gu": "만세구",
+      "dong": "팔탄면",
+      "events": []
+    },
+    {
+      "code": "7679073",
+      "name": "화성장안초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 만세구 장안면 조암동로 8-5",
+      "gu": "만세구",
+      "dong": "장안면",
+      "events": []
+    },
+    {
+      "code": "7679097",
+      "name": "화성장안초등학교석포분교장",
+      "level": "초등학교",
+      "address": "경기도 화성시 장안면 버들로 1201-9",
+      "gu": "만세구",
+      "dong": "장안면",
+      "events": []
+    },
+    {
+      "code": "7679074",
+      "name": "화성화수초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 우정읍 화수동길 145",
+      "gu": "만세구",
+      "dong": "우정읍",
+      "events": []
+    },
+    {
+      "code": "7679333",
+      "name": "화원초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 향남읍 하길로 59",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": []
+    },
+    {
+      "code": "7679075",
+      "name": "활초초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 남양읍 안석길111번길 106",
+      "gu": "만세구",
+      "dong": "남양읍",
+      "events": []
+    },
+    {
+      "code": "7679012",
+      "name": "구봉초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 병점1로 105",
+      "gu": "병점구",
+      "dong": "병점동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7679014",
+      "name": "기산초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 동탄지성로 344",
+      "gu": "병점구",
+      "dong": "반월동",
+      "events": []
+    },
+    {
+      "code": "7679022",
+      "name": "동학초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 병점구 영통로27번길 46",
+      "gu": "병점구",
+      "dong": "",
+      "events": []
+    },
+    {
+      "code": "7679030",
+      "name": "병점초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 경기대로 1052",
+      "gu": "병점구",
+      "dong": "진안동",
+      "events": []
+    },
+    {
+      "code": "7679468",
+      "name": "새봄초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 병점노을로 19",
+      "gu": "병점구",
+      "dong": "병점동",
+      "events": []
+    },
+    {
+      "code": "7679441",
+      "name": "서경초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 병점구 동탄지성로 265",
+      "gu": "병점구",
+      "dong": "기산동",
+      "events": []
+    },
+    {
+      "code": "7679042",
+      "name": "송화초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 병점중앙로35번길 42",
+      "gu": "병점구",
+      "dong": "병점동",
+      "events": [
+        {
+          "date": "2026-10-19",
+          "name": "독도사랑교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-19",
+          "name": "늘봄학교 공개수업 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-26",
+          "name": "재난대응안전한국훈련, 학교안전주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "꿈, 끼 탐색주간",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679045",
+      "name": "안녕초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 화산로 2",
+      "gu": "병점구",
+      "dong": "안녕동",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "교내 체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-16",
+          "name": "인권/양성평등교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-19",
+          "name": "독도사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "독도사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "교내 체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "독도사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-22",
+          "name": "독도사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "독도사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "교내 체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-26",
+          "name": "안전한국훈련주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-26",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-26",
+          "name": "정보통신윤리교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-27",
+          "name": "안전한국훈련주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-27",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-27",
+          "name": "정보통신윤리교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-28",
+          "name": "재난대응훈련",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-28",
+          "name": "안전한국훈련주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-28",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-28",
+          "name": "정보통신윤리교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-29",
+          "name": "안전한국훈련주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-29",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-29",
+          "name": "정보통신윤리교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "안전한국훈련주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "정보통신윤리교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-02",
+          "name": "친구사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "친구사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "친구사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "친구사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "친구사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "꿈끼탐색주간(직업인과의 만남)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "꿈끼발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "꿈끼발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "꿈끼발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "꿈끼발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "꿈끼발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "꿈끼발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "꿈끼발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "꿈끼발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "꿈끼발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "꿈끼발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "전교어린이임원선출",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679046",
+      "name": "안화초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 병점3로 132-5",
+      "gu": "병점구",
+      "dong": "병점동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7679051",
+      "name": "율목초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 영통로50번길 19",
+      "gu": "병점구",
+      "dong": "반월동",
+      "events": []
+    },
+    {
+      "code": "7679056",
+      "name": "진안초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 병점4로 97",
+      "gu": "병점구",
+      "dong": "진안동",
+      "events": []
+    },
+    {
+      "code": "7679059",
+      "name": "태안초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 병점3로 77",
+      "gu": "병점구",
+      "dong": "병점동",
+      "events": []
+    },
+    {
+      "code": "7679069",
+      "name": "화산초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 화산중앙로64번길 17",
+      "gu": "병점구",
+      "dong": "송산동",
+      "events": []
+    },
+    {
+      "code": "7679332",
+      "name": "화성반월초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 효행로 1281-23",
+      "gu": "병점구",
+      "dong": "반월동",
+      "events": []
+    },
+    {
+      "code": "7679071",
+      "name": "화성벌말초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 떡전골로 34",
+      "gu": "병점구",
+      "dong": "병점동",
+      "events": []
+    },
+    {
+      "code": "7679009",
+      "name": "갈담초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 봉담읍 갈담초교길 24",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": []
+    },
+    {
+      "code": "7679015",
+      "name": "기안초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 효행구 기안길 18",
+      "gu": "효행구",
+      "dong": "기안동",
+      "events": []
+    },
+    {
+      "code": "7679512",
+      "name": "내리숲초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 봉담읍 삼봉안1길 21-7",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": []
+    },
+    {
+      "code": "7679023",
+      "name": "동화초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 효행구 봉담읍 동화새터길 130",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": []
+    },
+    {
+      "code": "7679029",
+      "name": "배양초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 융건로 90",
+      "gu": "효행구",
+      "dong": "배양동",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "학생인권교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-19",
+          "name": "독도교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-19",
+          "name": "SW교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "독도교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "SW교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "독도교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "SW교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-22",
+          "name": "독도교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-22",
+          "name": "SW교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "독도교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "SW교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-26",
+          "name": "약식장학주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-27",
+          "name": "약식장학주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-28",
+          "name": "약식장학주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-29",
+          "name": "약식장학주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "약식장학주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "재난대응안전훈련",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "진로체험교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "전교어린이회 임원선출",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679031",
+      "name": "봉담초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 봉담읍 진등3길 15",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": []
+    },
+    {
+      "code": "7679032",
+      "name": "비봉초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 효행구 비봉면 양노로 71",
+      "gu": "효행구",
+      "dong": "비봉면",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "학생인권교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-02",
+          "name": "친구 사랑 및 인성교육 실천 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "친구 사랑 및 인성교육 실천 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "친구 사랑 및 인성교육 실천 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "친구 사랑 및 인성교육 실천 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "친구 사랑 및 인성교육 실천 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "동아리 축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "학생자치회 임원선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679034",
+      "name": "상봉초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 효행구 봉담읍 상봉길 52",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": []
+    },
+    {
+      "code": "7679040",
+      "name": "송라초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 매송면 푸른들판로 1970-16",
+      "gu": "효행구",
+      "dong": "매송면",
+      "events": []
+    },
+    {
+      "code": "7679043",
+      "name": "수기초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 봉담읍 수기웃말길 27",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": []
+    },
+    {
+      "code": "7679044",
+      "name": "수영초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 봉담읍 수영로 63",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": []
+    },
+    {
+      "code": "7679453",
+      "name": "수현초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 효행구 봉담읍 상리3길 110",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "체육대회",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-19",
+          "name": "독도교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-19",
+          "name": "스포츠데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "독도교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "스포츠데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "독도교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "스포츠데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-22",
+          "name": "독도교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-22",
+          "name": "스포츠데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "독도교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "스포츠데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-26",
+          "name": "느티나무축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-27",
+          "name": "느티나무축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-28",
+          "name": "느티나무축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-29",
+          "name": "느티나무축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "느티나무축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-02",
+          "name": "생명존중 및 자살예방교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "생명존중 및 자살예방교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "생명존중 및 자살예방교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "생명존중 및 자살예방교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "생명존중 및 자살예방교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "전교학생자치회 임원 선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679049",
+      "name": "와우초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 봉담읍 식골길 14",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": []
+    },
+    {
+      "code": "7679053",
+      "name": "정남초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 정남면 만년로 516",
+      "gu": "효행구",
+      "dong": "정남면",
+      "events": []
+    },
+    {
+      "code": "7679054",
+      "name": "정림초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 효행구 정남면 망월길 69",
+      "gu": "효행구",
+      "dong": "정남면",
+      "events": []
+    },
+    {
+      "code": "7679057",
+      "name": "청룡초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 비봉면 주석로 610",
+      "gu": "효행구",
+      "dong": "비봉면",
+      "events": []
+    },
+    {
+      "code": "7679516",
+      "name": "청연초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 새비봉서로 68",
+      "gu": "효행구",
+      "dong": "",
+      "events": []
+    },
+    {
+      "code": "7679070",
+      "name": "화성매송초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 매송면 화성로 2403",
+      "gu": "효행구",
+      "dong": "매송면",
+      "events": []
+    },
+    {
+      "code": "7679378",
+      "name": "효행초등학교",
+      "level": "초등학교",
+      "address": "경기도 화성시 봉담읍 와우로 16",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": []
+    },
+    {
+      "code": "7679103",
+      "name": "능동중학교",
+      "level": "중학교",
+      "address": "경기 화성시 동탄원천로 289-17",
+      "gu": "동탄구",
+      "dong": "능동",
+      "events": [
+        {
+          "date": "2026-10-23",
+          "name": "체육한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679399",
+      "name": "다원중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄순환대로 754-12",
+      "gu": "동탄구",
+      "dong": "영천동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능일(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차지필평가(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679422",
+      "name": "동탄목동중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄순환대로20길 52",
+      "gu": "동탄구",
+      "dong": "목동",
+      "events": [
+        {
+          "date": "2026-10-22",
+          "name": "건강체육한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "목동제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679105",
+      "name": "동탄중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄구 동탄대로시범길 97",
+      "gu": "동탄구",
+      "dong": "청계동",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2학기 1차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 1차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2학기 1차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 지필평가(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 지필평가(1, 2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679535",
+      "name": "바른중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄구 동탄신리천로9길 67",
+      "gu": "동탄구",
+      "dong": "신동",
+      "events": [
+        {
+          "date": "2026-10-23",
+          "name": "바른한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7679108",
+      "name": "반송중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 탄요1길 13",
+      "gu": "동탄구",
+      "dong": "반송동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "정기고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679365",
+      "name": "방교중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄산척로1길 23",
+      "gu": "동탄구",
+      "dong": "송동",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "일일형 현장체험학습(진로체험의 날)",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-16",
+          "name": "체육한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-28",
+          "name": "인터넷중독예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일(유연한학사일정)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "학생인권교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "장애인식교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679423",
+      "name": "서연중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄대로4길 40",
+      "gu": "동탄구",
+      "dong": "장지동",
+      "events": [
+        {
+          "date": "2026-10-23",
+          "name": "봉사",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "스포츠데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-02",
+          "name": "자치",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "자율",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "3학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "3학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "3학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "1,2학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "1,2학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "1,2학년 2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679112",
+      "name": "석우중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄구 동탄중앙로 264",
+      "gu": "동탄구",
+      "dong": "반송동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7679113",
+      "name": "솔빛중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄반석로 83",
+      "gu": "동탄구",
+      "dong": "반송동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대입수능",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679295",
+      "name": "예당중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 노작로 226-35",
+      "gu": "동탄구",
+      "dong": "석우동",
+      "events": [
+        {
+          "date": "2026-10-23",
+          "name": "체육축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "3학년 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "3학년 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-14",
+          "name": "3학년 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-15",
+          "name": "3학년 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "3학년 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "1,2학년 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "1,2학년 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "1,2학년 2차 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679409",
+      "name": "이산중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄감배산로 51",
+      "gu": "동탄구",
+      "dong": "오산동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2차정기시험(1,3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차정기시험(1,3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차정기시험(1,3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "진로체험의날",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679329",
+      "name": "청계중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄대로시범길 47",
+      "gu": "동탄구",
+      "dong": "청계동",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-16",
+          "name": "스포츠한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-22",
+          "name": "한마음축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "2차정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2차정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2차정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-03",
+          "name": "학생회장단 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차정기고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679401",
+      "name": "청림중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄구 동탄산척로 94",
+      "gu": "동탄구",
+      "dong": "",
+      "events": [
+        {
+          "date": "2026-10-23",
+          "name": "스포츠축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "지필평가(1,3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "지필평가(1,3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "지필평가(1,3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "지필평가(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "지필평가(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "지필평가(2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679489",
+      "name": "치동중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄순환대로 881-9",
+      "gu": "동탄구",
+      "dong": "영천동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대입수능재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-03",
+          "name": "진로탐색",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679123",
+      "name": "푸른중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄공원로 21-24",
+      "gu": "동탄구",
+      "dong": "능동",
+      "events": [
+        {
+          "date": "2026-10-21",
+          "name": "학교공개의날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "진로체험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2차정기평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-14",
+          "name": "1차정기평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-14",
+          "name": "2차정기평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차정기평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차정기평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-26",
+          "name": "청소년노동인권교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "학급 자치",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "학급 자치",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "학생자치회회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차정기평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-12",
+          "name": "2차정기평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차정기평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차정기평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679328",
+      "name": "한백중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄구 동탄순환대로26길 26",
+      "gu": "동탄구",
+      "dong": "영천동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7679488",
+      "name": "화성세정중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄순환대로12길 60",
+      "gu": "동탄구",
+      "dong": "산척동",
+      "events": [
+        {
+          "date": "2026-10-22",
+          "name": "건강체육한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "꽃뫼축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679518",
+      "name": "화성신동중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄구 동탄신동1길 25",
+      "gu": "동탄구",
+      "dong": "신동",
+      "events": []
+    },
+    {
+      "code": "7679102",
+      "name": "남양중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 남양읍 시청로45번길 9-12",
+      "gu": "만세구",
+      "dong": "남양읍",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "정기시험(2,3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-22",
+          "name": "주제별 체험학습(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "주제별 체험학습(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-02",
+          "name": "학생상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "학생상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "학생상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "학생상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "학생상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "학교자율과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "학교자율과정",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679126",
+      "name": "두레자연중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 우정읍 두레길 42",
+      "gu": "만세구",
+      "dong": "우정읍",
+      "events": [
+        {
+          "date": "2026-10-17",
+          "name": "체육대회",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-22",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-10-23",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7679109",
+      "name": "발안중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 향남읍 발안로 73",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679128",
+      "name": "삼괴중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 우정읍 장안로 35",
+      "gu": "만세구",
+      "dong": "우정읍",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "해피스쿨데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-28",
+          "name": "달빛독서캠프",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679536",
+      "name": "새동중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 만세구 남양읍 남양중앙로 391",
+      "gu": "만세구",
+      "dong": "남양읍",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "스포츠축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679129",
+      "name": "서신중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 만세구 서신면 바다뜰길 49-9",
+      "gu": "만세구",
+      "dong": "서신면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679400",
+      "name": "송린중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 만세구 수노을2로 148",
+      "gu": "만세구",
+      "dong": "새솔동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679130",
+      "name": "송산중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 만세구 송산면 송산포도로 162(사강리 558번지)",
+      "gu": "만세구",
+      "dong": "송산면",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "기획위원회 회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-16",
+          "name": "교과융합주간 및 수업공개주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-17",
+          "name": "주말인재프로그램",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-19",
+          "name": "영어골든벨(본선)",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-19",
+          "name": "수업경연대회",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "수업경연대회",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "학급자치회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "사이버 보안 진단의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "수업경연대회",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-22",
+          "name": "수업경연대회",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "기획위원회 회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "11월 통학버스 일정 안내",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "수업경연대회",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-24",
+          "name": "주말인재프로그램",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-26",
+          "name": "119합동소방훈련(7교시)",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-28",
+          "name": "자체소방훈련",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "송백제",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-31",
+          "name": "주말인재프로그램",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "안전점검의날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "과별협의회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "기획위원회 회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-07",
+          "name": "주말인재프로그램",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "기획위원회 회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-14",
+          "name": "주말인재프로그램",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "사이언스데이(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "4교시 단축수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "사이버 보안 진단의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가(학교장재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "기획위원회 회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-21",
+          "name": "주말인재프로그램",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "학급자치회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "기획위원회 회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "교과아카데미 종료",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-28",
+          "name": "주말인재프로그램",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "안전점검의날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "기획위원회 회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-05",
+          "name": "주말인재프로그램",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "기획위원회 회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679442",
+      "name": "신백중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 남양읍 역골중앙로 56-6",
+      "gu": "만세구",
+      "dong": "남양읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7679116",
+      "name": "양감중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 만세구 양감면 초록로 49",
+      "gu": "만세구",
+      "dong": "양감면",
+      "events": [
+        {
+          "date": "2026-10-19",
+          "name": "독도사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "독도사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "독도사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-22",
+          "name": "독도사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "독도사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "독서 주간 작가와의 만남",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-26",
+          "name": "진로체험의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-26",
+          "name": "독서의 달 행사 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-27",
+          "name": "독서의 달 행사 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-28",
+          "name": "독서의 달 행사 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-29",
+          "name": "독서의 달 행사 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "독서의 달 행사 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "독서 인문 강연 특강",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "인터넷, 스마트폰 과의존 예방 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험(2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679220",
+      "name": "장안여자중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 장안면 기아자동차로 814",
+      "gu": "만세구",
+      "dong": "장안면",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "name": "주제체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "체육한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-28",
+          "name": "학부모 공개수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "학생회장 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679331",
+      "name": "하길중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 만세구 향남읍 상신하길로274번길 10",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-25",
+          "name": "학생자치회장단선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "대토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-12",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-13",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679124",
+      "name": "향남중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 향남읍 행정동로 50",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679133",
+      "name": "화도중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 만세구 마도면 석교로 162",
+      "gu": "만세구",
+      "dong": "마도면",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "거붕예술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-26",
+          "name": "1,2학년 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-27",
+          "name": "교내소방훈련",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "동료교사수업공개주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "인터넷과의존예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2학기 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "진로체험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "학급회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "1,2학년 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1,2학년 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679521",
+      "name": "화성상신중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 향남읍 손개길 8",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679134",
+      "name": "화성중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 향남읍 장짐길 4",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "스포츠축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679100",
+      "name": "기산중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 동탄지성로 286",
+      "gu": "병점구",
+      "dong": "기산동",
+      "events": [
+        {
+          "date": "2026-10-22",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-26",
+          "name": "재량휴업",
+          "holiday": true
+        },
+        {
+          "date": "2026-10-30",
+          "name": "틀뫼어울마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679106",
+      "name": "동학중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 영통로27번길 60",
+      "gu": "병점구",
+      "dong": "반월동",
+      "events": [
+        {
+          "date": "2026-10-28",
+          "name": "대토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "1차정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "1차정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차정기시험(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679110",
+      "name": "병점중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 병점3로 71",
+      "gu": "병점구",
+      "dong": "병점동",
+      "events": [
+        {
+          "date": "2026-10-19",
+          "name": "소방안전교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "학급자치회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "학생자치회 공개토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "학생인권 및 노동인권교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "장애인식개선교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "생명존중 및 자살예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "학생자치회 구성",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679131",
+      "name": "안용중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 병점구 효행로 833",
+      "gu": "병점구",
+      "dong": "송산동",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "별마당잔치",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-22",
+          "name": "학급자치",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "학년특색",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-29",
+          "name": "학교스포츠클럽",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "학급자치",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "학교스포츠클럽",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "학년특색",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "학생자치회장 선거토론회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679115",
+      "name": "안화중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 병점2로 125",
+      "gu": "병점구",
+      "dong": "병점동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "3학년 2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "3학년 2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "3학년 2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학년 2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "1학년 2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학년 2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "1학년 2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학년 2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "1학년 2학기 2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679122",
+      "name": "진안중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 병점동로 138",
+      "gu": "병점구",
+      "dong": "진안동",
+      "events": [
+        {
+          "date": "2026-10-23",
+          "name": "체육한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679330",
+      "name": "화성반월중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 병점구 효행로 1281-76",
+      "gu": "병점구",
+      "dong": "반월동",
+      "events": [
+        {
+          "date": "2026-10-19",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "한마당축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "현장체험학습(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "체육행사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "진로캠프",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "진로캠프",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679101",
+      "name": "기안중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 효행로291번길 29",
+      "gu": "효행구",
+      "dong": "기안동",
+      "events": []
+    },
+    {
+      "code": "7679111",
+      "name": "봉담중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 봉담읍 샘마을길 53",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": [
+        {
+          "date": "2026-10-23",
+          "name": "느티나무축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679127",
+      "name": "비봉중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 효행구 비봉면 양노로109번길 5, ",
+      "gu": "효행구",
+      "dong": "비봉면",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "1차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "한마음 운동회",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-14",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-15",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679469",
+      "name": "수현중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 봉담읍 상리3길 136",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": [
+        {
+          "date": "2026-10-26",
+          "name": "합동소방훈련",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-27",
+          "name": "진로의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-28",
+          "name": "교육공동체 대토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "진로의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "학급자율활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679118",
+      "name": "와우중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 봉담읍 동화역말길 55-40",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "자치활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "교내 어울림한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "자치활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "자치활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "자치활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679121",
+      "name": "정남중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 정남면 신리길 76",
+      "gu": "효행구",
+      "dong": "정남면",
+      "events": [
+        {
+          "date": "2026-10-23",
+          "name": "정남너나들이한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "정남뮤지컬",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일(대입수능)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "창의진로의날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 지필평가(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 지필평가(2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679519",
+      "name": "청연중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 비봉면 새비봉남로 14",
+      "gu": "효행구",
+      "dong": "비봉면",
+      "events": []
+    },
+    {
+      "code": "7679520",
+      "name": "화담중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 봉담읍 상리1길 166",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7679125",
+      "name": "화성동화중학교",
+      "level": "중학교",
+      "address": "경기도 화성시 봉담읍 동화역말길 12",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530880",
+      "name": "나루고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 동탄구 금반2길 13",
+      "gu": "동탄구",
+      "dong": "반송동",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "2학기 1차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "대학수학능력시험 모의평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "나루체육한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-04",
+          "name": "대토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-12",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530942",
+      "name": "능동고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 동탄구 동탄원천로 315-26",
+      "gu": "동탄구",
+      "dong": "",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가(고1,2,3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "수요일수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "입학설명회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530820",
+      "name": "동탄고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 동탄구 동탄공원로1길 26-7",
+      "gu": "동탄구",
+      "dong": "반송동",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530976",
+      "name": "동탄국제고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 동탄나루로 27",
+      "gu": "동탄구",
+      "dong": "반송동",
+      "events": [
+        {
+          "date": "2026-10-22",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-02",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7531159",
+      "name": "동탄중앙고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 동탄구 동탄대로시범길 167",
+      "gu": "동탄구",
+      "dong": "청계동",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "1차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530847",
+      "name": "반송고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 동탄반석로 21",
+      "gu": "동탄구",
+      "dong": "반송동",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "의무등교일(체험학습 불가)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "합창제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531373",
+      "name": "서연고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 동탄대로4가길 6",
+      "gu": "동탄구",
+      "dong": "장지동",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "1차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-28",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-29",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7531528",
+      "name": "신동고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 동탄신동 2길 5",
+      "gu": "동탄구",
+      "dong": "신동",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "체육한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530849",
+      "name": "예당고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 삼성1로 47",
+      "gu": "동탄구",
+      "dong": "석우동",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "1차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-01",
+          "name": "2차 지필평가(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "2차 지필평가(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "2차 지필평가(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "2차 지필평가(1,2)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531290",
+      "name": "이산고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 동탄구 동탄기흥로353번길 61",
+      "gu": "동탄구",
+      "dong": "여울동",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "name": "전국연합평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "체육축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531406",
+      "name": "이솔고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 동탄순환대로7길 10",
+      "gu": "동탄구",
+      "dong": "산척동",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "name": "전국연합평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "동아리발표회/축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531330",
+      "name": "정현고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 동탄구 동탄산척로 93-10",
+      "gu": "동탄구",
+      "dong": "산척동",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531292",
+      "name": "창의고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 동탄신리천로1길 66",
+      "gu": "동탄구",
+      "dong": "목동",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가(1,2,3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(1,2,3)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험(고1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험(고1,2)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531467",
+      "name": "치동고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 동탄구 동탄순환대로 881-15",
+      "gu": "동탄구",
+      "dong": "",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531240",
+      "name": "한백고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 동탄구 동탄순환대로26길 21",
+      "gu": "동탄구",
+      "dong": "",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "대수능예비소집",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531601",
+      "name": "호연고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 동탄구 동탄대로1길 56",
+      "gu": "동탄구",
+      "dong": "장지동",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "체육한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530783",
+      "name": "남양고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 남양읍 시청로45번길 23",
+      "gu": "만세구",
+      "dong": "남양읍",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "1차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-19",
+          "name": "1차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가(전학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "1,2학년 현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(3학년)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-26",
+          "name": "3학년2학기2차지필평가(1일차)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "3학년2학기2차지필평가(2일차)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "민주적 대토론회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530485",
+      "name": "두레자연고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 우정읍 두레길 42",
+      "gu": "만세구",
+      "dong": "우정읍",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "재량휴일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-12",
+          "name": "신입생 입학전형",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "재량휴일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-13",
+          "name": "신입생 입학전형",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530904",
+      "name": "발안바이오과학고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 만세구 향남읍 발안로 71",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": [
+        {
+          "date": "2026-10-21",
+          "name": "벌안제",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "농업인의날",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "신입생원서접수",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "신입생원서접수",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "신입생원서접수",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "신입생 특별전형일",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "신입생 오리엔테이션",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530660",
+      "name": "삼괴고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 우정읍 장안로 35",
+      "gu": "만세구",
+      "dong": "우정읍",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "1차 정기시험(1,2,3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-30",
+          "name": "진로체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-02",
+          "name": "학부모상담 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "학부모상담 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "학부모상담 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "학교공개의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "학부모상담 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "학부모상담 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "대입수능예비소집",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531374",
+      "name": "새솔고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 만세구 큰나래3길 25",
+      "gu": "만세구",
+      "dong": "새솔동",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "수능예비소집",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-12",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530665",
+      "name": "송산고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 송산면 송산포도로 102-21",
+      "gu": "만세구",
+      "dong": "송산면",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "수능예비소집",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531241",
+      "name": "하길고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 향남읍 상신하길로274번길 22",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-19",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일4",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-26",
+          "name": "입학설명회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530879",
+      "name": "향남고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 향남읍 행정동로 49",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "name": "전국연합평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531010",
+      "name": "향일고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 향남읍 행정중앙2로 28 향일고등학교",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "name": "전국연합평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530584",
+      "name": "화성고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 향남읍 장짐길 4",
+      "gu": "만세구",
+      "dong": "향남읍",
+      "events": []
+    },
+    {
+      "code": "7530627",
+      "name": "병점고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 병점중앙로 72",
+      "gu": "병점구",
+      "dong": "병점동",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530821",
+      "name": "안화고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 병점3로 132-19",
+      "gu": "병점구",
+      "dong": "병점동",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가(1,2,3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-26",
+          "name": "입학설명회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531162",
+      "name": "화성반월고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 효행로 1281-66",
+      "gu": "병점구",
+      "dong": "반월동",
+      "events": [
+        {
+          "date": "2026-10-23",
+          "name": "진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530848",
+      "name": "봉담고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 봉담읍 상봉길 42",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "스포츠 문화 축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530603",
+      "name": "비봉고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 비봉면 양노로109번길 5",
+      "gu": "효행구",
+      "dong": "비봉면",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "전국연합학력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-20",
+          "name": "수요일 수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "탄소중립 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-21",
+          "name": "화요일 수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-22",
+          "name": "학부모 대상 대입 설명회",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-27",
+          "name": "사제동행 작가와의 만남",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531428",
+      "name": "와우고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 봉담읍 동화서북안길 5",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험 재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7531117",
+      "name": "홍익디자인고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 효행로 387",
+      "gu": "효행구",
+      "dong": "기안동",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "name": "1,2,3학년 전국연합학력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
+          "name": "개교기념 재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력 시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "3학년 1차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "3학년 1차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "1,2학년 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "1,2학년 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "1,2학년 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "1,2학년 2차 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531529",
+      "name": "화담고등학교",
+      "level": "고등학교",
+      "address": "경기도 화성시 효행구 봉담읍 상리1길 128",
+      "gu": "효행구",
+      "dong": "봉담읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}

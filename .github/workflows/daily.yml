@@ -1,0 +1,49 @@
+name: daily (도시별 하루 수집)
+# 매일 새벽 5시 30분(한국시간)에 도시마다 학교·급식·학원·유치원·도서관·행사·일자리·운동교실·할인을 모은다.
+on:
+  schedule:
+    - cron: "30 20 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      max-parallel: 2      # 도서관 정보나루 하루 요청 한도를 넘지 않게 천천히
+      matrix:
+        include:
+          - { city: 성남, d: seongnam }
+          - { city: 안양, d: anyang }
+          - { city: 고양, d: goyang }
+          - { city: 화성, d: hwaseong }
+          - { city: 부천, d: bucheon }
+    env:
+      CITY: ${{ matrix.city }}
+      NEIS_KEY: ${{ secrets.NEIS_KEY }}
+      KINDER_KEY: ${{ secrets.KINDER_KEY }}
+      CULTURE_KEY: ${{ secrets.CULTURE_KEY }}
+      LIB_KEY: ${{ secrets.LIB_KEY }}
+      KOPIS_KEY: ${{ secrets.KOPIS_KEY }}
+      TOUR_KEY: ${{ secrets.TOUR_KEY }}
+      KAKAO_KEY: ${{ secrets.KAKAO_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: 수집
+        run: |
+          mkdir -p output && cp data/${{ matrix.d }}/*.json output/ 2>/dev/null || true   # 실패한 수집기는 이전 파일 유지
+          for s in collect academies kinder meals libs books events jobs sports deals; do
+            echo "::group::$s"; timeout 1500 python -u $s.py || echo "::warning::${{ matrix.city }} $s 실패 (이전 파일 유지)"; echo "::endgroup::"
+          done
+          if [ "$(date +%d)" = "01" ]; then python -u elite.py || true; fi
+      - name: 저장
+        run: |
+          mkdir -p data/${{ matrix.d }} && cp output/*.json data/${{ matrix.d }}/
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/${{ matrix.d }}; git diff --cached --quiet && exit 0
+          git commit -m "${{ matrix.city }} 하루 수집"
+          for i in 1 2 3 4 5 6; do git pull --rebase --autostash && git push && break; sleep $((i*7)); done

@@ -1,0 +1,31 @@
+name: weather (도시별 날씨)
+on:
+  schedule:
+    - cron: "40 20 * * *"    # 05:40
+    - cron: "50 22 * * *"    # 07:50
+    - cron: "20 2 * * *"     # 11:20
+    - cron: "20 8 * * *"     # 17:20
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: weather, cancel-in-progress: false }
+jobs:
+  weather:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: |
+          for pair in 성남:seongnam 안양:anyang 고양:goyang 화성:hwaseong 부천:bucheon; do
+            c=${pair%%:*}; d=${pair##*:}; rm -rf output; mkdir -p output
+            CITY=$c python -u weather.py && mkdir -p data/$d && cp output/weather.json data/$d/ || echo "::warning::$c 날씨 실패"
+          done
+        env:
+          WEATHER_KEY: ${{ secrets.WEATHER_KEY }}
+      - run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data; git diff --cached --quiet && exit 0
+          git commit -m "날씨 업데이트"
+          for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && break; sleep $((i*5)); done
