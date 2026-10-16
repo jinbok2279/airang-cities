@@ -737,7 +737,7 @@ function viewMy() {
     return `<button class="school" onclick="go('kid/${jsq(k.id)}')"><span class="tile ${KID_TILES[k.color % 5]}" style="width:42px;height:42px;font-weight:800">${esc(k.name[0] || "?")}</span>
       <div style="flex:1;min-width:0"><div class="nm">${esc(k.name)}</div><div class="ad">${sc ? esc((kidGradeText(k, sc) ? levelShort(sc).replace("등", "") + " " + kidGradeText(k, sc) : levelShort(sc)) + " · " + sc.name) : "학교 정보 없음"}${k.acas && k.acas.length ? ` · 학원 ${k.acas.length}곳` : ""}${sc && !k.grade ? ` · <b style="color:var(--coral-ink)">학년을 넣어 주세요</b>` : ""}</div></div><span style="font-size:13px;color:var(--indigo);font-weight:700">수정</span></button>`; }).join("");
   const M = [["acas", "✏️", "t-indigo", "학원<br>찾기"], ["kinders", "🧸", "t-sun", "유치원<br>찾기"], ["library", "📚", "t-mint", "도서관<br>찾기"], ["books", "📖", "t-coral", "대출<br>베스트"],
-    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["premium", "📊", "t-sun", "수강료<br>비교", 1], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"]];
+    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["premium", "📊", "t-sun", "수강료<br>비교", 1], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["region", "📍", "t-lilac", "관심<br>지역"]];
   $view.innerHTML = `<h1 style="font-size:27px;font-weight:800;margin-bottom:16px">전체</h1>
     <div class="lift mgrid">${M.map(([r, e, t, l, p]) => `<button onclick="go('${r}')">${ico3d(e, 52, 46)}<b>${l}</b></button>`).join("")}</div>
     <section class="section" style="margin-top:0"><div class="sec-head"><h2>우리 아이</h2><span style="font-size:12px;color:var(--muted)">${ks.length}/${MAX_KIDS}명</span></div>
@@ -1467,10 +1467,7 @@ function viewElite() {
 // ---------- 이용 안내 · 개인정보 ----------
 // ---------- 업데이트 소식 (날짜별) ----------
 const NEWS = [
-  { d: "2026-10-16", v: "1.0.47", t: "동네에서 아낄 수 있는 할인을 모았어요", items: [
-    "🏷️ 전체 메뉴에 <b>동네 할인</b>이 생겼어요. 매일 아침 새 소식을 모아 보여 드려요.",
-    "💳 <b>지역화폐</b> 충전 혜택(인센티브·캐시백)과 관련 소식을 한곳에서 볼 수 있어요.",
-    "🛍️ 우리 동네 <b>백화점·아울렛 행사</b>와 팝업, 아이와 가기 좋은 체험 소식을 최근 3주 것만 골라 드려요.",
+  { d: "2026-10-16", v: "1.0.48", t: "다른 도시도 둘러볼 수 있어요", items: [
     "🏙️ 전체 메뉴 아래 <b>다른 도시 둘러보기</b>에서 아이랑 7개 도시로 바로 갈 수 있어요."] },
   { d: "2026-10-16", v: "1.0.45", t: "아이랑 고양 시범 운영을 시작했어요", items: [
     "🏫 고양 초·중·고 <b>학교 일정과 급식</b>을 우리 아이 기준으로 모아 보여 드려요. 급식 <b>알레르기</b>도 알려 드려요.",
@@ -1481,7 +1478,7 @@ const NEWS = [
 ];
 function newsDate(d) { const [y, m, dd] = d.split("-").map(Number); return `${m}월 ${dd}일`; }
 // 새 버전으로 바뀐 걸 홈 맨 위에 한 번 알려 줌 (닫거나 소식을 보면 사라짐)
-const APP_VER = "1.0.47";
+const APP_VER = "1.0.48";
 let UPDATED_FROM = null;
 const IS_NEW_PHONE = !store("edu.appVer");   // 이 휴대폰에서 처음 열었는지 (예전에 쓴 적 있으면 앱 버전이 남아 있음)
 (function () { const last = store("edu.appVer"); if (last && last !== APP_VER) UPDATED_FROM = last; if (!last) store("edu.appVer", APP_VER); })();
