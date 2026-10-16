@@ -523,7 +523,9 @@ function viewAdInfo() {
         <a class="btn btn-soft" style="height:42px;font-size:13.5px;text-decoration:none" href="tel:${AD.tel}" onclick="adOpen('tel')">전화 문의</a></div></div></div>
     <section class="section"><div class="sec-head"><h2>아이와 가면 좋은 점</h2></div><div class="lift card-pad">${li(AD.good)}</div></section>
     ${AD.stay ? `<section class="section"><div class="sec-head"><h2>🏡 펜션도 함께 운영해요</h2></div><div class="lift card-pad">${li(AD.stay.good)}
-      <a class="btn btn-3d" style="width:100%;height:44px;margin-top:12px;font-size:14px;text-decoration:none" href="${AD.stay.url}" target="_blank" rel="noopener sponsored" onclick="adOpen('stay')">${esc(AD.stay.name)} 객실 예약 ›</a></div></section>` : ""}
+      <a class="btn btn-3d" style="width:100%;height:44px;margin-top:12px;font-size:14px;text-decoration:none" href="${AD.stay.url}" target="_blank" rel="noopener sponsored" onclick="adOpen('stay')">${esc(AD.stay.name)} 객실 예약 ›</a>
+      <a class="btn btn-soft" style="width:100%;height:44px;margin-top:8px;font-size:14px;text-decoration:none" href="tel:${AD.tel}" onclick="adOpen('tel')">📞 예약 전 주인장에게 문의</a>
+      <p style="font-size:12px;color:var(--muted);margin:8px 2px 0;line-height:1.5">날짜·인원·객실이 궁금하면 예약 전에 편하게 전화로 물어보세요.</p></div></section>` : ""}
     <section class="section"><div class="sec-head"><h2>단체 · 워크숍</h2></div><div class="lift card-pad">${li(AD.group)}</div></section>
     <section class="section"><div class="sec-head"><h2>가게 정보</h2></div><div class="lift card-pad">
       ${row("주소", esc(AD.addr))}${row("운영", esc(AD.open))}${row("전화", `<a href="tel:${AD.tel}" onclick="adOpen('tel')" style="color:var(--indigo);font-weight:700;text-decoration:none">${AD.tel}</a>`)}
