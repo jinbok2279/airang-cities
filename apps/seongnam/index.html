@@ -484,7 +484,9 @@ function viewHome() {
 }
 
 // ---------- 광고 칸 (홈 맨 아래, "광고" 표시) ----------
-const AD = { id: "lagrills", name: "라그릴스 셀프바베큐", where: "처인구 포곡읍 · 에버랜드 근처", near: "에버랜드에서 놀고, 저녁은 바베큐로!", line: "아이랑 가기 좋은 가족 바베큐",
+const AD = { id: "lagrills", name: "라그릴스 셀프바베큐", where: "처인구 포곡읍 · 에버랜드 근처", near: "에버랜드 놀고 → 바베큐 → 펜션에서 하룻밤",
+  stay: { name: "라그릴스펜션", url: "https://map.naver.com/p/search/" + encodeURIComponent("라그릴스펜션"),
+    good: ["바베큐장과 같은 곳에 있어서, 저녁 먹고 바로 쉬러 들어가요", "개별 바베큐를 할 수 있어요", "아이와 지내기 좋은 키즈 테마 펜션이에요", "2인실·침대방부터 단체 숙박까지 가능해요", "예약은 네이버 '라그릴스펜션' 객실예약에서 해요"] }, line: "아이랑 가기 좋은 가족 바베큐 · 펜션",
   tags: ["실내 놀이방", "야외 놀이터", "키즈메뉴", "무료 주차", "비 와도 OK", "단체·워크숍 환영"], url: "https://m.place.naver.com/restaurant/1144985469/booking", tel: "010-3768-2246", site: "http://lagrills.co.kr/",
   addr: "경기도 용인시 처인구 포곡읍 석성로888번길 37-16", open: "낮 12시부터 · 예약제",
   good: ["실내 어린이 놀이방과 야외 놀이시설이 있어요", "키즈메뉴와 유아의자를 준비해 둬요", "넓은 잔디마당에서 아이들이 뛰어놀 수 있어요", "개별 바베큐 사이트에 어닝이 있어 비 오는 날도 괜찮아요", "저녁엔 불멍 파이어피트에서 쉬어 가요", "여름 시즌엔 수영장도 열어요"],
@@ -520,6 +522,8 @@ function viewAdInfo() {
         <a class="btn btn-soft" style="height:42px;font-size:13.5px;text-decoration:none" href="${AD.url}" target="_blank" rel="noopener sponsored" onclick="adOpen('book')">네이버 예약</a>
         <a class="btn btn-soft" style="height:42px;font-size:13.5px;text-decoration:none" href="tel:${AD.tel}" onclick="adOpen('tel')">전화 문의</a></div></div></div>
     <section class="section"><div class="sec-head"><h2>아이와 가면 좋은 점</h2></div><div class="lift card-pad">${li(AD.good)}</div></section>
+    ${AD.stay ? `<section class="section"><div class="sec-head"><h2>🏡 펜션도 함께 운영해요</h2></div><div class="lift card-pad">${li(AD.stay.good)}
+      <a class="btn btn-3d" style="width:100%;height:44px;margin-top:12px;font-size:14px;text-decoration:none" href="${AD.stay.url}" target="_blank" rel="noopener sponsored" onclick="adOpen('stay')">${esc(AD.stay.name)} 객실 예약 ›</a></div></section>` : ""}
     <section class="section"><div class="sec-head"><h2>단체 · 워크숍</h2></div><div class="lift card-pad">${li(AD.group)}</div></section>
     <section class="section"><div class="sec-head"><h2>가게 정보</h2></div><div class="lift card-pad">
       ${row("주소", esc(AD.addr))}${row("운영", esc(AD.open))}${row("전화", `<a href="tel:${AD.tel}" onclick="adOpen('tel')" style="color:var(--indigo);font-weight:700;text-decoration:none">${AD.tel}</a>`)}
@@ -1688,7 +1692,7 @@ function viewAdmin() {
   const per = (a, b) => b ? (Math.round(a / b * 10) / 10).toLocaleString() : "-";
   const uMon = uDays("방문-한달").length ? uDays("방문-한달").filter(x => x.day.slice(0, 7) === mY).reduce((a, x) => a + (x.daily || 0), 0) : ((uRow("방문-한달") || {}).count || 0);
   const list = (rows, label) => rows.length ? `<div class="lift card-pad">${rows.map(([k, v]) => `<div class="row"><span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(k)}</span><span class="val"><b>${v.toLocaleString()}</b></span></div>`).join("")}</div>` : `<div class="lift empty">${label}</div>`;
-  const adK = { book: "네이버 예약", tel: "전화 문의", info: "가게 정보", map: "길찾기", site: "홈페이지" };
+  const adK = { book: "네이버 예약", tel: "전화 문의", info: "가게 정보", map: "길찾기", site: "홈페이지", stay: "펜션 예약" };
   const evLabel = k => evName[k] || (k.startsWith("광고-") ? "광고 · " + (adK[k.split("-").pop()] || k) : { "행사-시청": "행사 원문 보기 (시청)", "행사-도서관": "행사 원문 보기 (도서관)", "행사-공연축제": "행사 원문 보기 (공연·축제)", "행사-체험교육": "행사 원문 보기 (체험·교육)", "앱설치-크롬열기": "앱 설치: 크롬으로 열기" }[k] || k);
   const evName = { "아이-등록": "아이 등록", "아이-수정": "아이 정보 수정", "학원-추가": "학원 추가", "책-클릭": "인기 도서 클릭", "앱-설치": "홈 화면에 설치", "관심-인기학원": "★ 인기 학원 순위 알림 신청", "관심-알림": "★ 알림 기능 알림 신청", "리포트-보기": "수강료 리포트 보기", "내일정-추가": "내 일정 추가", "내일정-수정": "내 일정 수정" , "지인-공유": "지인에게 알려주기", "운동-수강신청": "운동교실 수강신청 바로가기", "할인-지역화폐": "동네 할인: 지역화폐 보기", "할인-백화점": "동네 할인: 백화점 행사 보기", "할인-등록문의": "동네 할인: 가게 등록 문의", "학원-수강료비교": "학원 찾기 → 수강료 비교" };
   $view.innerHTML = `${head}
