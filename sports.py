@@ -13,6 +13,7 @@ import json
 import os
 import re
 import time
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
@@ -36,6 +37,13 @@ CENTERS = [
 
 KID = re.compile(r"초등|어린이|유아|아동|키즈|주니어|생존수영|초\s*\d")
 SKIP = re.compile(r"자유\s*수영|자유\s*이용|대관|탁구|배드민턴|농구|골프|테니스|풋살|축구|일일|자유이용|월자유|사물함|주차|셔틀|그래비티|위탁")
+
+
+def num(v):
+    try:
+        return int(float(str(v).replace(",", "")))
+    except ValueError:
+        return 0
 
 
 def get(url):
@@ -213,12 +221,8 @@ def parse_center(c, page):
 def main():
     now = datetime.now(KST)
     city = os.environ.get("CITY", "성남").strip()
-    if city != "성남":   # 다른 도시는 체육시설 사이트를 아직 연결하지 않음 → 빈 파일(앱은 '준비 중'으로 보여 줌)
-        os.makedirs("output", exist_ok=True)
-        with open("output/sports.json", "w", encoding="utf-8") as f:
-            json.dump({"city": city, "updated": now.strftime("%Y-%m-%d %H:%M"), "status": {}, "live": 0, "soon": 1,
-                       "centers": [], "programs": []}, f, ensure_ascii=False)
-        print(city, ": 운동교실 준비 중 (빈 파일)")
+    if city != "성남":
+        other_city(city, now)
         return
     programs, status = [], {}
     for c in CENTERS:
@@ -243,6 +247,191 @@ def main():
         json.dump(out, f, ensure_ascii=False, indent=1)
     print(f"저장: 강좌 {len(programs)}개 (아이 {sum(1 for p in programs if p.get('kid'))}개)")
 
+
+
+# ---------- 다른 도시 ----------
+UA2 = "Mozilla/5.0 (airang-collector; +https://songgollab.co.kr)"
+GYS = "https://yeyak.gys.or.kr"
+BEST = "https://www.best.or.kr"
+AUC = "https://www.auc.or.kr"
+AUC_APPLY = AUC + "/reservation/program/lesson/list?menuLevel=2&menuNo=354"
+
+
+def get2(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA2})
+    for i in range(2):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return r.read().decode("utf-8", errors="replace")
+        except Exception as e:
+            print("  다시 시도:", url[-60:], e)
+            time.sleep(4)
+    return ""
+
+
+def place(name, city):
+    """카카오 장소 검색으로 주소·전화 (키 없거나 실패하면 빈 값)"""
+    key = os.environ.get("KAKAO_KEY", "").strip()
+    out = {"addr": "", "tel": "", "area": ""}
+    if not key:
+        return out
+    q = urllib.parse.urlencode({"query": city + " " + name, "size": 5})
+    req = urllib.request.Request("https://dapi.kakao.com/v2/local/search/keyword.json?" + q, headers={"Authorization": "KakaoAK " + key})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            docs = json.loads(r.read().decode("utf-8")).get("documents") or []
+    except Exception as e:
+        print("  장소 검색 실패:", name, e)
+        return out
+    for d in docs:
+        if city in d.get("address_name", ""):
+            parts = d["address_name"].split()
+            out = {"addr": d.get("road_address_name") or d["address_name"], "tel": d.get("phone", ""),
+                   "area": " ".join(x for x in parts[2:4] if re.search(r"[구동읍면]$", x))}
+            break
+    time.sleep(0.3)
+    return out
+
+
+def is_kid(t):
+    return 1 if (KID.search(t) or re.search(r"어린이|유아|청소년|초등|아동|학생", t)) else 0
+
+
+def tags_of(progs):
+    order = ["수영", "헬스", "요가·필라테스", "댄스·에어로빅"]
+    have = {p["cat"] for p in progs}
+    return [t for t in order if t in have]
+
+
+def goyang():
+    programs, centers, status = [], {}, {}
+    for i in range(1, 13):
+        code = f"GYS{i:02d}"
+        got = 0
+        for pg in range(1, 40):
+            page = get2(f"{GYS}/fmcs/1?companyCode={code}&page={pg}")
+            body = page[page.find("<tbody"):page.find("</tbody>")] if "<tbody" in page else ""
+            rows = [r for r in re.findall(r"(?s)<tr>(.*?)</tr>", body) if "<td" in r]
+            rows = [re.findall(r"(?s)<td[^>]*>(.*?)</td>", r) for r in rows]
+            rows = [r for r in rows if len(r) >= 9]
+            if not rows:
+                break
+            for r in rows:
+                center = " ".join(text(r[1]))
+                name = " ".join(text(r[2]))
+                tm = text(r[3]); days = tm[0] if tm else ""; times = " ".join(tm[1:]).replace(" ~ ", "~")
+                period = " ".join(text(r[4])); who = " ".join(text(r[5])); fee = " ".join(text(r[6])); state = " ".join(text(r[8]))
+                t = name + " " + who
+                cat = category(t)
+                if not cat or SKIP.search(name):
+                    continue
+                m = re.match(r"\d{4}-(\d{2})", period)
+                programs.append({"c": code, "cat": cat, "name": name, "who": who, "kid": is_kid(who + " " + name),
+                                 "days": days, "times": times, "price": fee + "원" if fee and fee[0].isdigit() else fee,
+                                 "state": state, "month": int(m.group(1)) if m else 0})
+                centers.setdefault(code, center)
+                got += 1
+            if f"page={pg + 1}" not in page:
+                break
+            time.sleep(1)
+        status[code] = "ok" if got else "empty"
+        if got:
+            print(f" 고양 {centers[code]}: {got}개")
+        time.sleep(1)
+    cs = []
+    for code, nm in centers.items():
+        pl = place(nm, "고양")
+        cs.append({"id": code, "name": nm, "area": pl["area"], "addr": pl["addr"], "tel": pl["tel"], "hours": "", "closed": "",
+                   "tags": tags_of([p for p in programs if p["c"] == code]), "web": f"{GYS}/fmcs/1?companyCode={code}", "apply": f"{GYS}/fmcs/1?companyCode={code}"})
+    return {"status": status, "live": 0, "centers": cs, "programs": programs,
+            "note": "접수 상태는 하루 한 번 새로 받아요. 신청은 고양도시관리공사 통합예약에서 해요."}
+
+
+def bucheon():
+    programs, status = [], {}
+    try:
+        comps = json.loads(get2(BEST + "/rest/common/company") or "[]")
+    except ValueError:
+        comps = []
+    comps = [c for c in comps if not re.search(r"종합운동장|배드민턴", c.get("comnm", ""))]
+    for c in comps:
+        got = 0
+        for pg in range(1, 10):
+            q = urllib.parse.urlencode({"company_code": c["comcd"], "mem_no": "", "search_type": "", "category_cd": "", "category_level": 9,
+                                        "class_nm": "", "train_day": "", "adult_gubn": "", "lecturer_nm": "", "page": pg, "page_size": 100})
+            try:
+                rows = json.loads(get2(BEST + "/rest/lecture/list?" + q) or "[]")
+            except ValueError:
+                rows = []
+            if not isinstance(rows, list) or not rows:
+                break
+            for d in rows:
+                name = (d.get("class_nm") or "").strip()
+                t = " ".join([name, d.get("category1") or "", d.get("category2") or "", d.get("target_age_name") or ""])
+                cat = category(t)
+                if not cat or SKIP.search(name + " " + (d.get("category2") or "")):
+                    continue
+                cap, appl = num(d.get("capa")), num(d.get("reg_person"))
+                programs.append({"c": c["comcd"], "cat": cat, "name": re.sub(r"^추첨-\s*", "", name) + (" (추첨)" if name.startswith("추첨") else ""),
+                                 "who": d.get("target_age_name") or "", "kid": is_kid(t), "days": d.get("train_day_nm") or "",
+                                 "times": f"{d.get('train_stime', '')}~{d.get('train_etime', '')}", "price": (d.get("course_fee") or "") + "원",
+                                 "cap": cap, "applied": appl, "month": 0})
+                got += 1
+            total = num(rows[0].get("total_count")) if rows else 0
+            if pg * 100 >= total:
+                break
+            time.sleep(1)
+        status[c["comcd"]] = "ok" if got else "empty"
+        print(f" 부천 {c['comnm']}: {got}개")
+        time.sleep(1)
+    cs = []
+    for c in comps:
+        mine = [p for p in programs if p["c"] == c["comcd"]]
+        if not mine:
+            continue
+        pl = place(c["comnm"], "부천")
+        cs.append({"id": c["comcd"], "name": c["comnm"], "area": pl["area"], "addr": pl["addr"], "tel": pl["tel"], "hours": "", "closed": "",
+                   "tags": tags_of(mine), "web": f"{BEST}/fmcs/271?center={c['comcd']}", "apply": f"{BEST}/fmcs/271?center={c['comcd']}"})
+    return {"status": status, "live": 1, "centers": cs, "programs": programs}
+
+
+def centers_only(city):
+    """강좌 목록을 가져올 수 없는 도시: 센터·전화·신청 바로가기만"""
+    if city == "안양":
+        base = [("안양수영장", f"{AUC}/reservation/contents/view?contentsNo=76&menuLevel=3&menuNo=49", ["수영"]),
+                ("호계수영장", f"{AUC}/reservation/contents/view?contentsNo=307&menuLevel=3&menuNo=76", ["수영"]),
+                ("호현수영장", f"{AUC}/reservation/contents/view?contentsNo=308&menuLevel=3&menuNo=77", ["수영"])]
+        why = "안양도시공사는 강좌 목록을 로그인해야 보여 줘요. 센터 홈페이지에서 강좌와 남은 자리를 확인해 주세요."
+        cs = []
+        for i, (nm, web, tags) in enumerate(base):
+            pl = place(nm, "안양")
+            cs.append({"id": f"a{i}", "name": nm, "area": pl["area"], "addr": pl["addr"], "tel": pl["tel"], "hours": "", "closed": "",
+                       "tags": tags, "web": web, "apply": AUC_APPLY})
+    else:   # 화성: 화성도시공사 체육 사이트는 자동 수집을 막아 두어 홈페이지로 연결만
+        cs = [{"id": "h0", "name": "화성도시공사 체육시설", "area": "화성시", "addr": "", "tel": "", "hours": "", "closed": "",
+               "tags": ["수영", "헬스", "요가·필라테스"], "web": "https://hssports.hscity.go.kr/", "apply": "https://hssports.hscity.go.kr/"}]
+        why = "화성도시공사 체육시설 강좌는 홈페이지에서 직접 확인해 주세요. 강좌 목록은 기관과 협의되면 모아 드릴게요."
+    return {"status": {}, "live": 0, "only": 1, "why": why, "centers": cs, "programs": []}
+
+
+def other_city(city, now):
+    fn = {"고양": goyang, "부천": bucheon}.get(city)
+    res = fn() if fn else centers_only(city) if city in ("안양", "화성") else None
+    if res is None:
+        res = {"status": {}, "live": 0, "soon": 1, "centers": [], "programs": []}
+    elif fn and not res["programs"]:
+        print("강좌를 하나도 못 읽었어요. 이전 파일을 그대로 둡니다.")
+        return
+    for p in res["programs"]:
+        if not p.get("kid"):
+            p.pop("kid", None)
+    order = ["수영", "댄스·에어로빅", "요가·필라테스", "헬스", "사우나"]
+    res["programs"].sort(key=lambda p: (0 if p.get("kid") else 1, order.index(p["cat"]) if p["cat"] in order else 9, p["c"], p.get("times", "")))
+    out = {"city": city, "updated": now.strftime("%Y-%m-%d %H:%M"), **res}
+    os.makedirs("output", exist_ok=True)
+    with open("output/sports.json", "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=1)
+    print(f"저장: {city} 센터 {len(out['centers'])}곳, 강좌 {len(out['programs'])}개 (아이 {sum(1 for p in out['programs'] if p.get('kid'))}개)")
 
 if __name__ == "__main__":
     main()

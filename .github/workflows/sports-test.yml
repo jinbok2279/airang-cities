@@ -1,0 +1,29 @@
+name: sports-test (운동교실 시험 수집, 앱에는 안 나옴)
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        include:
+          - { city: 안양, d: anyang }
+          - { city: 고양, d: goyang }
+          - { city: 화성, d: hwaseong }
+          - { city: 부천, d: bucheon }
+    env:
+      CITY: ${{ matrix.city }}
+      KAKAO_KEY: ${{ secrets.KAKAO_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: |
+          python -u sports.py 2>&1 | tail -25
+          mkdir -p logs/sports-test && cp output/sports.json logs/sports-test/${{ matrix.d }}.json
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add logs/sports-test; git commit -qm "${{ matrix.city }} 운동교실 시험 수집" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && break; sleep $((i*5)); done
