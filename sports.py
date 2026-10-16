@@ -415,6 +415,13 @@ def centers_only(city):
 
 
 def other_city(city, now):
+    if os.environ.get("SPORTS_NEW") != "1":   # 앱 시안 승인 전까지는 '준비 중' 유지 (시험 수집에서만 1)
+        out = {"city": city, "updated": now.strftime("%Y-%m-%d %H:%M"), "status": {}, "live": 0, "soon": 1, "centers": [], "programs": []}
+        os.makedirs("output", exist_ok=True)
+        with open("output/sports.json", "w", encoding="utf-8") as f:
+            json.dump(out, f, ensure_ascii=False)
+        print(city, ": 운동교실 준비 중")
+        return
     fn = {"고양": goyang, "부천": bucheon}.get(city)
     res = fn() if fn else centers_only(city) if city in ("안양", "화성") else None
     if res is None:
