@@ -1467,6 +1467,11 @@ function viewElite() {
 // ---------- 이용 안내 · 개인정보 ----------
 // ---------- 업데이트 소식 (날짜별) ----------
 const NEWS = [
+  { d: "2026-10-16", v: "1.0.47", t: "동네에서 아낄 수 있는 할인을 모았어요", items: [
+    "🏷️ 전체 메뉴에 <b>동네 할인</b>이 생겼어요. 매일 아침 새 소식을 모아 보여 드려요.",
+    "💳 <b>지역화폐</b> 충전 혜택(인센티브·캐시백)과 관련 소식을 한곳에서 볼 수 있어요.",
+    "🛍️ 우리 동네 <b>백화점·아울렛 행사</b>와 팝업, 아이와 가기 좋은 체험 소식을 최근 3주 것만 골라 드려요.",
+    "🏙️ 전체 메뉴 아래 <b>다른 도시 둘러보기</b>에서 아이랑 7개 도시로 바로 갈 수 있어요."] },
   { d: "2026-10-16", v: "1.0.45", t: "아이랑 부천 시범 운영을 시작했어요", items: [
     "🏫 부천 초·중·고 <b>학교 일정과 급식</b>을 우리 아이 기준으로 모아 보여 드려요. 급식 <b>알레르기</b>도 알려 드려요.",
     "📚 부천시 공공도서관 <b>운영시간·휴관일</b>과 부천 아이들이 많이 빌린 <b>인기 도서</b>를 볼 수 있어요.",
@@ -1476,7 +1481,7 @@ const NEWS = [
 ];
 function newsDate(d) { const [y, m, dd] = d.split("-").map(Number); return `${m}월 ${dd}일`; }
 // 새 버전으로 바뀐 걸 홈 맨 위에 한 번 알려 줌 (닫거나 소식을 보면 사라짐)
-const APP_VER = "1.0.46";
+const APP_VER = "1.0.47";
 let UPDATED_FROM = null;
 const IS_NEW_PHONE = !store("edu.appVer");   // 이 휴대폰에서 처음 열었는지 (예전에 쓴 적 있으면 앱 버전이 남아 있음)
 (function () { const last = store("edu.appVer"); if (last && last !== APP_VER) UPDATED_FROM = last; if (!last) store("edu.appVer", APP_VER); })();
@@ -1841,7 +1846,7 @@ function viewDeals() {
   const city = (DEALS && DEALS.city) || document.title.replace("아이랑 ", "");
   const back = `<button class="back glass" onclick="history.back()" aria-label="뒤로">${icon.back}</button>
     <h1 style="font-size:25px;font-weight:800;margin-top:14px">동네 할인</h1>
-    <p style="font-size:13px;color:var(--muted);margin-top:4px">${esc(city)}에서 아낄 수 있는 방법을 모았어요. 매일 아침 새로 받아 와요.</p>`;
+    <p style="font-size:13px;color:var(--muted);margin-top:4px">${esc(city)}에서 아낄 수 있는 방법을 모았어요. 매일 아침 새로 받아 와요.<br><span style="font-size:12px">블로그·기사는 다음(카카오) 검색으로 찾은 <b>제목과 링크</b>만 보여 드려요. 내용은 글쓴 분의 원문에서 확인해 주세요.</span></p>`;
   if (!DEALS) { loadDeals(); $view.innerHTML = back + `<div class="lift empty" style="margin-top:16px">할인 정보를 불러오는 중이에요…</div>`; return; }
   const items = DEALS.items || [];
   const cats = ["전체", ...Object.keys(DEAL_CAT).filter(k => items.some(x => x.cat === k))];
@@ -1853,7 +1858,7 @@ function viewDeals() {
       <div style="display:flex;gap:12px;align-items:flex-start">${ico3d(c[0], 46, 38)}
       <div style="flex:1;min-width:0"><div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">${tag(x.cat, c[1], c[2])}${x.src === "check" ? tag("확인된 혜택", "#FFF7DB", "#8A6A00") : ""}</div>
       <div style="font-size:15.5px;font-weight:800;margin-top:6px;line-height:1.4">${esc(x.title)}</div>
-      ${x.sub ? `<div style="font-size:13px;color:var(--muted);margin-top:4px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">${esc(x.sub)}</div>` : ""}
+      ${x.sub && x.src === "check" ? `<div style="font-size:13px;color:var(--muted);margin-top:4px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">${esc(x.sub)}</div>` : ""}
       <div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px;gap:8px"><span style="font-size:11.5px;color:var(--muted);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(x.meta || "")}</span><span style="font-size:13px;font-weight:800;color:var(--indigo);flex:0 0 auto">자세히 ›</span></div></div></div></a>`; };
   const list = items.filter(x => dlCat === "전체" || x.cat === dlCat);
   const storeNote = !items.some(x => x.cat === "백화점") && (dlCat === "전체" || dlCat === "백화점")
