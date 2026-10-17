@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       K: ${{ secrets.WEATHER_KEY }}
+      CK: ${{ secrets.CULTURE_KEY }}
     steps:
       - uses: actions/checkout@v4
       - run: |
@@ -17,7 +18,9 @@ jobs:
           echo "== 관광공사 ($T)"
           curl -s -m 40 "$T?serviceKey=$ENC&MobileOS=ETC&MobileApp=Airang&_type=json&arrange=A&eventStartDate=20261001&areaCode=31&numOfRows=3&pageNo=1" | head -c 400 | sed "s/$ENC/***/g"; echo
           echo "== 문화포털 (api.kcisa.kr)"
-          curl -s -m 60 "https://api.kcisa.kr/openapi/CNV_060/request?serviceKey=$ENC&numOfRows=2&pageNo=1" | head -c 400 | sed "s/$ENC/***/g"; echo
+          CENC=$(python3 -c "import os,urllib.parse;k=os.environ.get('CK','');print(k if '%' in k else urllib.parse.quote(k,safe=''))")
+          echo "CULTURE_KEY 길이: ${#CK}"
+          curl -s -m 60 -w "\nHTTP %{http_code} %{time_total}s\n" "https://api.kcisa.kr/openapi/CNV_060/request?serviceKey=$CENC&numOfRows=2&pageNo=1" | head -c 600 | sed "s/$CENC/***/g"; echo
           } > logs/keytest.txt 2>&1
           cat logs/keytest.txt
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
