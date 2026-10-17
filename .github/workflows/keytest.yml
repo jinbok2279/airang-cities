@@ -1,0 +1,24 @@
+name: keytest (기존 공공데이터 키로 관광·문화 API 되는지)
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    env:
+      K: ${{ secrets.WEATHER_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          set +e; mkdir -p logs
+          ENC=$(python3 -c "import os,urllib.parse;k=os.environ['K'];print(k if '%' in k else urllib.parse.quote(k,safe=''))")
+          T=$(grep '^TOUR_API' events.py | cut -d'"' -f2)
+          {
+          echo "== 관광공사 ($T)"
+          curl -s -m 40 "$T?serviceKey=$ENC&MobileOS=ETC&MobileApp=Airang&_type=json&arrange=A&eventStartDate=20261001&areaCode=31&numOfRows=3&pageNo=1" | head -c 400 | sed "s/$ENC/***/g"; echo
+          echo "== 문화포털 (api.kcisa.kr)"
+          curl -s -m 60 "https://api.kcisa.kr/openapi/CNV_060/request?serviceKey=$ENC&numOfRows=2&pageNo=1" | head -c 400 | sed "s/$ENC/***/g"; echo
+          } > logs/keytest.txt 2>&1
+          cat logs/keytest.txt
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add logs/keytest.txt; git commit -qm "키 시험 기록" && for i in 1 2 3; do git pull --rebase --autostash && git push origin HEAD:main && break; sleep 5; done
