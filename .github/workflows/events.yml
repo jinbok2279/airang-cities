@@ -13,11 +13,7 @@ jobs:
       max-parallel: 1
       matrix:
         include:
-          - { city: 성남, d: seongnam }
           - { city: 안양, d: anyang }
-          - { city: 고양, d: goyang }
-          - { city: 화성, d: hwaseong }
-          - { city: 부천, d: bucheon }
     env:
       CITY: ${{ matrix.city }}
       KOPIS_KEY: ${{ secrets.KOPIS_KEY }}
@@ -29,9 +25,9 @@ jobs:
         with: { python-version: "3.12" }
       - run: |
           mkdir -p output && cp data/${{ matrix.d }}/events.json output/ 2>/dev/null || true
-          python -u events.py 2>&1 | tail -15
+          mkdir -p logs; python -u events.py 2>&1 | tee logs/events-${{ matrix.d }}.txt | tail -15
           cp output/events.json data/${{ matrix.d }}/
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/${{ matrix.d }}/events.json; git diff --cached --quiet && exit 0
+          git add data/${{ matrix.d }}/events.json logs/events-${{ matrix.d }}.txt; git diff --cached --quiet && exit 0
           git commit -m "${{ matrix.city }} 행사"
           for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && break; sleep $((i*5)); done
