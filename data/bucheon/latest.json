@@ -1,9 +1,9 @@
 {
   "region": "부천시",
-  "updated_at": "2026-10-17 06:12:59",
+  "updated_at": "2026-10-18 06:15:02",
   "period": {
-    "from": "20261017",
-    "to": "20261216"
+    "from": "20261018",
+    "to": "20261217"
   },
   "school_count": 127,
   "public_holidays": [
@@ -944,6 +944,22 @@
       "date": "2026-12-16",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "부천신흥초등학교",
+      "level": "초등학교",
+      "gu": "원미구",
+      "date": "2026-12-17",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상일중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-17",
+      "name": "동계 방학식",
+      "holiday": false
     }
   ],
   "schools": [
@@ -1373,6 +1389,11 @@
           "date": "2026-12-16",
           "name": "교육과정 평가회",
           "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "교육과정 평가회",
+          "holiday": false
         }
       ]
     },
@@ -1718,6 +1739,11 @@
         },
         {
           "date": "2026-12-16",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-17",
           "name": "겨울방학",
           "holiday": true
         }
@@ -2508,6 +2534,11 @@
           "date": "2026-12-16",
           "name": "대토론회",
           "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "동아리부서별활동",
+          "holiday": false
         }
       ]
     },
@@ -2556,6 +2587,11 @@
         },
         {
           "date": "2026-12-16",
+          "name": "2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
           "name": "2차 정기시험(1,2)",
           "holiday": false
         }
@@ -3427,6 +3463,11 @@
           "date": "2026-11-25",
           "name": "인터넷및스마트폰 과의존 예방교육",
           "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "안전교육",
+          "holiday": false
         }
       ]
     },
@@ -3501,6 +3542,16 @@
         {
           "date": "2026-12-03",
           "name": "학생회장단선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "동계 방학식",
           "holiday": false
         }
       ]
@@ -4142,11 +4193,6 @@
       "dong": "송내동",
       "events": [
         {
-          "date": "2026-10-17",
-          "name": "수학여행",
-          "holiday": false
-        },
-        {
           "date": "2026-10-19",
           "name": "토요일대체휴업",
           "holiday": true
@@ -4263,6 +4309,11 @@
         },
         {
           "date": "2026-12-16",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
           "name": "2차 정기시험(1,2학년)",
           "holiday": false
         }
@@ -4834,6 +4885,11 @@
           "date": "2026-12-16",
           "name": "2학기 2차 정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
         }
       ]
     },
@@ -5367,6 +5423,11 @@
         },
         {
           "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
           "name": "2차 정기시험",
           "holiday": false
         }
