@@ -1,16 +1,12 @@
 {
   "region": "고양시",
-  "updated_at": "2026-10-17 06:05:04",
+  "updated_at": "2026-10-18 06:02:35",
   "period": {
-    "from": "20261017",
-    "to": "20261216"
+    "from": "20261018",
+    "to": "20261217"
   },
   "school_count": 174,
   "public_holidays": [
-    {
-      "date": "2026-10-17",
-      "name": "토요일 휴일"
-    },
     {
       "date": "2026-10-24",
       "name": "토요일 휴일"
@@ -1932,6 +1928,46 @@
       "date": "2026-12-16",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "고양제일중학교",
+      "level": "중학교",
+      "gu": "덕양구",
+      "date": "2026-12-17",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "백석중학교",
+      "level": "중학교",
+      "gu": "일산동구",
+      "date": "2026-12-17",
+      "name": "학년소축제",
+      "holiday": false
+    },
+    {
+      "school": "백신고등학교",
+      "level": "고등학교",
+      "gu": "일산동구",
+      "date": "2026-12-17",
+      "name": "동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "일산동중학교",
+      "level": "중학교",
+      "gu": "일산서구",
+      "date": "2026-12-17",
+      "name": "진로체험",
+      "holiday": false
+    },
+    {
+      "school": "현산초등학교",
+      "level": "초등학교",
+      "gu": "일산서구",
+      "date": "2026-12-17",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -3103,6 +3139,11 @@
           "date": "2026-10-23",
           "name": "송포한마음큰잔치",
           "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "전교 임원 선거",
+          "holiday": false
         }
       ]
     },
@@ -3239,6 +3280,11 @@
         },
         {
           "date": "2026-12-16",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-17",
           "name": "겨울방학",
           "holiday": true
         }
@@ -3462,6 +3508,11 @@
         {
           "date": "2026-12-15",
           "name": "진로탐색의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "현장체험학습",
           "holiday": false
         }
       ]
@@ -3953,6 +4004,11 @@
           "date": "2026-12-16",
           "name": "2차 정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "학급자치회의",
+          "holiday": false
         }
       ]
     },
@@ -4007,6 +4063,11 @@
         {
           "date": "2026-12-10",
           "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "창체동아리",
           "holiday": false
         }
       ]
@@ -4081,6 +4142,11 @@
         },
         {
           "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
           "name": "2차 정기시험",
           "holiday": false
         }
@@ -4673,6 +4739,11 @@
           "date": "2026-12-16",
           "name": "2차 정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "성적확인기간",
+          "holiday": false
         }
       ]
     },
@@ -4802,6 +4873,11 @@
         {
           "date": "2026-12-09",
           "name": "2학기 2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "학년소축제",
           "holiday": false
         }
       ]
@@ -5003,6 +5079,11 @@
           "date": "2026-12-16",
           "name": "2차 정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 정기시험",
+          "holiday": false
         }
       ]
     },
@@ -5112,6 +5193,11 @@
         {
           "date": "2026-12-16",
           "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "동아리",
           "holiday": false
         }
       ]
@@ -5488,6 +5574,11 @@
           "date": "2026-12-16",
           "name": "꿈끼탐색주간",
           "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "꿈끼탐색주간",
+          "holiday": false
         }
       ]
     },
@@ -5571,6 +5662,11 @@
         },
         {
           "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
           "name": "2차 정기시험",
           "holiday": false
         }
@@ -5803,6 +5899,11 @@
           "date": "2026-12-16",
           "name": "2차지필평가(1,2학년)",
           "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차지필평가(1,2학년)",
+          "holiday": false
         }
       ]
     },
@@ -5893,6 +5994,11 @@
           "date": "2026-12-09",
           "name": "성폭력예방교육",
           "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "성매매예방교육",
+          "holiday": false
         }
       ]
     },
@@ -5977,6 +6083,16 @@
         {
           "date": "2026-12-16",
           "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "동아리활동평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "진로체험",
           "holiday": false
         }
       ]
@@ -6187,6 +6303,11 @@
         {
           "date": "2026-12-16",
           "name": "1,2학년 2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "자율",
           "holiday": false
         }
       ]
@@ -6443,6 +6564,11 @@
           "date": "2026-12-15",
           "name": "스포츠클럽",
           "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "교육활동평가회",
+          "holiday": false
         }
       ]
     },
@@ -6657,6 +6783,11 @@
         {
           "date": "2026-12-11",
           "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "동아리활동",
           "holiday": false
         }
       ]
@@ -7245,11 +7376,6 @@
       "dong": "화정동",
       "events": [
         {
-          "date": "2026-10-17",
-          "name": "학생회임원수련회",
-          "holiday": false
-        },
-        {
           "date": "2026-10-20",
           "name": "전국연합학력평가(전학년)",
           "holiday": false
@@ -7388,6 +7514,16 @@
           "date": "2026-11-27",
           "name": "2학기 2차 정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "백호제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "동아리발표회",
+          "holiday": false
         }
       ]
     },
@@ -7446,6 +7582,11 @@
         },
         {
           "date": "2026-12-16",
+          "name": "정기시험(2학기 1,2학년 2차)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
           "name": "정기시험(2학기 1,2학년 2차)",
           "holiday": false
         }
@@ -7809,6 +7950,11 @@
         },
         {
           "date": "2026-12-16",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
           "name": "2차 지필평가",
           "holiday": false
         }
