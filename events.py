@@ -482,7 +482,7 @@ def libcms_events(today):
     if not cfg:
         return []
     lst, view = cfg["base"] + cfg["path"] + "lectureList.do", cfg["base"] + cfg["path"] + "lectureDetail.do"
-    clean = lambda h: " ".join(re.sub(r"<[^>]+>", " ", h or "").replace("&nbsp;", " ").split())
+    clean = lambda h: " ".join(re.sub(r"</?[a-zA-Z!][^>]*>", " ", h or "").replace("&nbsp;", " ").split())
     out, seen = [], set()
     for status, label in (("apply", "접수중"), ("ready", "접수전")):
         for page in range(1, 6):
@@ -525,13 +525,51 @@ def libcms_events(today):
     print(f"  {cfg['name']} 아이 프로그램 {len(out)}건")
     return out
 
+
+# ---------- 시 문화재단 공연·전시 (공개 목록) ----------
+def ayac_events(today):
+    """안양문화예술재단 공연·전시 달력 목록 (이번 달·다음 달)"""
+    if CN != "안양":
+        return []
+    out, seen = [], set()
+    clean = lambda h: " ".join(re.sub(r"</?[a-zA-Z!][^>]*>", " ", h or "").replace("&lt;", "<").replace("&gt;", ">").replace("&amp;", "&").split())
+    first = today.replace(day=1)
+    for ym in (first, (first + timedelta(days=32)).replace(day=1)):
+        url = (f"https://ayac.or.kr/base/ayac/performance/calendarList?menuLevel=2&menuNo=1&museumType=&performanceType="
+               f"&year={ym.year}&month={ym.month}&currentDate=1")
+        try:
+            page = get(url, tries=2)
+        except Exception as e:
+            print("  안양문화예술재단 실패:", e); break
+        for it in page.split('class="ticketing-list-item"')[1:]:
+            m = re.search(r'performanceNo=(\d+)', it)
+            if not m or m.group(1) in seen:
+                continue
+            seen.add(m.group(1))
+            title = clean((re.search(r"<figcaption>(.*?)</figcaption>", it, re.S) or [None, ""])[1])
+            place = clean((re.search(r"</figure>\s*<p>(.*?)</p>", it, re.S) or [None, ""])[1])
+            ds = re.findall(r"(\d{4})\.(\d{2})\.(\d{2})", (re.search(r'<dd class="date">(.*?)</dd>', it, re.S) or [None, ""])[1])
+            if not ds or not title:
+                continue
+            start, end = "-".join(ds[0]), "-".join(ds[-1])
+            if end < today.isoformat() or re.search(r"19세|성인 대상", title):
+                continue
+            img = (re.search(r'<img src="([^"]+)"', it) or [None, ""])[1]
+            kind = clean((re.search(r'<dd class="category">(.*?)</dd>', it, re.S) or [None, ""])[1])
+            out.append({"id": "Y" + m.group(1), "title": title, "start": start, "end": end, "place": place, "time": "",
+                        "grade": "", "price": "", "free": False, "kind": kind, "src": "ayac",
+                        "link": f"https://ayac.or.kr/base/ayac/performance/read?performanceNo={m.group(1)}&menuLevel=2&menuNo=1", "img": img})
+        time.sleep(1)
+    print(f"  안양문화예술재단 공연·전시 {len(out)}건")
+    return out
+
 def main():
     today = datetime.now(KST).date()
     city, lib = [], []
     def norm(s):  # 같은 공연이 출처마다 조금 다르게 적혀도 하나로 보기
         s = re.sub(r"\[[^\]]*\]|\([^)]*\)|-\s*" + CN + "$|" + CN + "|가족|뮤지컬|어린이|연극|공연", "", s)
         return re.sub(r"\W", "", s)[:10]
-    for name, fn in (("KOPIS", kopis_events), ("관광공사", tour_festivals)):
+    for name, fn in (("KOPIS", kopis_events), ("관광공사", tour_festivals), ("시 문화재단", ayac_events)):
         try:
             city += [e for e in fn(today) if all(norm(e["title"]) != norm(c["title"]) for c in city)]
         except Exception as e:
