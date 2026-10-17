@@ -537,8 +537,11 @@ def ayac_events(today):
     for ym in (first, (first + timedelta(days=32)).replace(day=1)):
         url = (f"https://ayac.or.kr/base/ayac/performance/calendarList?menuLevel=2&menuNo=1&museumType=&performanceType="
                f"&year={ym.year}&month={ym.month}&currentDate=1")
-        try:
-            page = get(url, tries=2)
+        try:   # 이 사이트는 오래된 암호 방식을 써서 파이썬 기본 설정으로는 접속이 안 됨 → 호환 설정으로 읽기만
+            import ssl
+            ctx = ssl.create_default_context(); ctx.set_ciphers("DEFAULT:@SECLEVEL=1")
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=40, context=ctx) as res:
+                page = res.read().decode("utf-8", errors="replace")
         except Exception as e:
             print("  안양문화예술재단 실패:", e); break
         for it in page.split('class="ticketing-list-item"')[1:]:

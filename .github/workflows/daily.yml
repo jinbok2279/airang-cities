@@ -36,14 +36,14 @@ jobs:
       - name: 수집
         run: |
           mkdir -p output && cp data/${{ matrix.d }}/*.json output/ 2>/dev/null || true   # 실패한 수집기는 이전 파일 유지
-          for s in collect academies kinder meals libs books events jobs sports deals; do
-            echo "::group::$s"; timeout 1500 python -u $s.py || echo "::warning::${{ matrix.city }} $s 실패 (이전 파일 유지)"; echo "::endgroup::"
+          mkdir -p logs; for s in collect academies kinder meals libs books events jobs sports deals; do
+            echo "::group::$s"; timeout 1500 python -u $s.py 2>&1 | tee -a logs/daily-${{ matrix.d }}.txt || echo "::warning::${{ matrix.city }} $s 실패 (이전 파일 유지)"; echo "::endgroup::"
           done
           if [ "$(date +%d)" = "01" ]; then python -u elite.py || true; fi
       - name: 저장
         run: |
           mkdir -p data/${{ matrix.d }} && cp output/*.json data/${{ matrix.d }}/
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/${{ matrix.d }}; git diff --cached --quiet && exit 0
+          git add data/${{ matrix.d }} logs/daily-${{ matrix.d }}.txt 2>/dev/null || git add data/${{ matrix.d }}; git diff --cached --quiet && exit 0
           git commit -m "${{ matrix.city }} 하루 수집"
           for i in 1 2 3 4 5 6; do git pull --rebase --autostash && git push && break; sleep $((i*7)); done

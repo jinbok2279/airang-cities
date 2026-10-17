@@ -13,7 +13,11 @@ jobs:
       max-parallel: 1
       matrix:
         include:
+          - { city: 성남, d: seongnam }
           - { city: 안양, d: anyang }
+          - { city: 고양, d: goyang }
+          - { city: 화성, d: hwaseong }
+          - { city: 부천, d: bucheon }
     env:
       CITY: ${{ matrix.city }}
       KOPIS_KEY: ${{ secrets.KOPIS_KEY }}
