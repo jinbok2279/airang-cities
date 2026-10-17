@@ -490,8 +490,11 @@ def main():
             old = json.load(open("output/events.json", encoding="utf-8"))
         except Exception:
             old = {}
-    if not city and old.get("city"):
-        city = [e for e in old["city"] if e.get("end", "") >= today.isoformat()]
+    # 한 출처가 이번에 실패해서 0건이면, 그 출처의 지난 자료(아직 안 끝난 것)를 그대로 둔다
+    got = {e.get("src") for e in city}
+    for e in old.get("city") or []:
+        if e.get("src") not in got and e.get("end", "") >= today.isoformat() and all(norm(e["title"]) != norm(c["title"]) for c in city):
+            city.append(e)
     if not lib and old.get("lib"):
         lib = [e for e in old["lib"] if (e.get("end") or "9") >= today.isoformat()]
     city.sort(key=lambda e: (max(e["start"], today.isoformat()), e["title"]))
