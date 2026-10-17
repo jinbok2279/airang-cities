@@ -27,7 +27,7 @@ jobs:
       CULTURE_KEY: ${{ secrets.CULTURE_KEY }}
       LIB_KEY: ${{ secrets.LIB_KEY }}
       KOPIS_KEY: ${{ secrets.KOPIS_KEY }}
-      TOUR_KEY: ${{ secrets.TOUR_KEY }}
+      TOUR_KEY: ${{ secrets.TOUR_KEY || secrets.WEATHER_KEY }}   # 공공데이터포털 키는 계정당 하나 (관광공사 API 활용신청만 하면 됨)
       KAKAO_KEY: ${{ secrets.KAKAO_KEY }}
     steps:
       - uses: actions/checkout@v4
