@@ -469,6 +469,62 @@ def culture_events(today):
     return out
 
 
+
+# ---------- 도시 도서관 프로그램 (도서관 통합 홈페이지 강좌 목록, 로그인 없이 공개) ----------
+LIBCMS = {
+    "고양": {"base": "https://www.goyanglib.or.kr", "path": "/center/menu/10045/program/30013/", "name": "고양시도서관센터",
+             "targets": ["CHL", "KID", "CHD1", "CHD2", "CHD3", "CHD4", "CHD5", "CHD6"]},
+}
+
+
+def libcms_events(today):
+    cfg = LIBCMS.get(CN)
+    if not cfg:
+        return []
+    lst, view = cfg["base"] + cfg["path"] + "lectureList.do", cfg["base"] + cfg["path"] + "lectureDetail.do"
+    clean = lambda h: " ".join(re.sub(r"<[^>]+>", " ", h or "").replace("&nbsp;", " ").split())
+    out, seen = [], set()
+    for status, label in (("apply", "접수중"), ("ready", "접수전")):
+        for page in range(1, 6):
+            q = [("lectureStatusCd", status), ("currentPageNo", page)] + [("targetCd", t) for t in cfg["targets"]]
+            try:
+                html_ = get(lst + "?" + urllib.parse.urlencode(q), tries=2)
+            except Exception as e:
+                print("  도서관 목록 실패:", e); break
+            items = html_.split('<div class="program-item">')[1:]
+            for it in items:
+                m = re.search(r"fnDetail\('(\d+)'\)", it)
+                if not m or m.group(1) in seen:
+                    continue
+                seen.add(m.group(1))
+                g = lambda cls: clean((re.search(r'<span class="' + cls + r'">(.*?)</span>', it, re.S) or [None, ""])[1])
+                title = clean((re.search(r'<div class="title">(.*?)</div>', it, re.S) or [None, ""])[1])
+                info = {}
+                for k, v in re.findall(r'<span class="tit">([^<]+)</span>\s*:\s*([^<]*)', it):
+                    info[k.strip()] = v.strip()
+                period, apply_p = info.get("강의기간", ""), info.get("접수기간", "")
+                ds, ads = re.findall(r"(\d{4})\.(\d{2})\.(\d{2})", period), re.findall(r"(\d{4})\.(\d{2})\.(\d{2})", apply_p)
+                d2 = lambda t: f"{t[0]}-{t[1]}-{t[2]}"
+                end = d2(ds[-1]) if ds else ""
+                if end and end < today.isoformat():
+                    continue
+                lib = g("lib")
+                if g("target") in ("성인", "어르신"):
+                    continue
+                out.append({"id": "L" + m.group(1), "title": re.sub(r"^\[[^\]]*\]\s*", "", title),
+                            "lib": lib + ("도서관" if lib and not lib.endswith("도서관") else ""),
+                            "target": g("target") or info.get("참여대상", ""), "place": info.get("장소", ""),
+                            "start": d2(ds[0]) if ds else "", "end": end, "period": period,
+                            "applyStart": d2(ads[0]) if ads else "", "applyEnd": d2(ads[-1]) if ads else "", "apply": apply_p,
+                            "count": clean((re.search(r'<span class="count">(.*?)<span class="wait">', it, re.S) or [None, ""])[1]).replace("신청 :", "").strip(),
+                            "status": label, "btn": "", "free": "paymentN" in it, "src": "lib",
+                            "link": view + "?" + urllib.parse.urlencode({"lectureIdx": m.group(1)})})
+            if len(items) < 15 or f"fnList({page + 1})" not in html_:
+                break
+            time.sleep(1)
+    print(f"  {cfg['name']} 아이 프로그램 {len(out)}건")
+    return out
+
 def main():
     today = datetime.now(KST).date()
     city, lib = [], []
@@ -484,6 +540,10 @@ def main():
         city += [e for e in culture_events(today) if all(norm(e["title"]) != norm(c["title"]) for c in city)]
     except Exception as e:
         print("문화포털 실패:", e)
+    try:
+        lib += libcms_events(today)
+    except Exception as e:
+        print("도서관 프로그램 실패:", e)
     old = {}
     if os.path.exists("output/events.json"):
         try:
