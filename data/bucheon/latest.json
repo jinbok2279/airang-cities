@@ -1,9 +1,9 @@
 {
   "region": "부천시",
-  "updated_at": "2026-10-18 06:15:02",
+  "updated_at": "2026-10-19 06:10:42",
   "period": {
-    "from": "20261018",
-    "to": "20261217"
+    "from": "20261019",
+    "to": "20261218"
   },
   "school_count": 127,
   "public_holidays": [
@@ -960,6 +960,54 @@
       "date": "2026-12-17",
       "name": "동계 방학식",
       "holiday": false
+    },
+    {
+      "school": "계남중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-18",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "내동중학교",
+      "level": "중학교",
+      "gu": "오정구",
+      "date": "2026-12-18",
+      "name": "문화체험학습",
+      "holiday": false
+    },
+    {
+      "school": "부천신흥초등학교",
+      "level": "초등학교",
+      "gu": "원미구",
+      "date": "2026-12-18",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상도중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-18",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "상동고등학교",
+      "level": "고등학교",
+      "gu": "원미구",
+      "date": "2026-12-18",
+      "name": "동아리 발표회",
+      "holiday": false
+    },
+    {
+      "school": "성곡중학교",
+      "level": "중학교",
+      "gu": "오정구",
+      "date": "2026-12-18",
+      "name": "졸업식",
+      "holiday": false
     }
   ],
   "schools": [
@@ -1394,6 +1442,11 @@
           "date": "2026-12-17",
           "name": "교육과정 평가회",
           "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "교육과정 평가회",
+          "holiday": false
         }
       ]
     },
@@ -1744,6 +1797,11 @@
         },
         {
           "date": "2026-12-17",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-18",
           "name": "겨울방학",
           "holiday": true
         }
@@ -2784,6 +2842,16 @@
           "date": "2026-12-16",
           "name": "대토론회",
           "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "(금5,1,2,3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "동아리(2)",
+          "holiday": false
         }
       ]
     },
@@ -2833,6 +2901,11 @@
         {
           "date": "2026-11-23",
           "name": "3학년 진로체험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "1,2학년 지필평가",
           "holiday": false
         }
       ]
@@ -2887,6 +2960,11 @@
         {
           "date": "2026-12-10",
           "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "문화체험학습",
           "holiday": false
         }
       ]
@@ -3018,6 +3096,16 @@
           "date": "2026-12-11",
           "name": "하랑제",
           "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -3102,6 +3190,16 @@
         {
           "date": "2026-11-17",
           "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "종업식",
           "holiday": false
         }
       ]
@@ -3467,6 +3565,16 @@
         {
           "date": "2026-12-17",
           "name": "안전교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "종업식",
           "holiday": false
         }
       ]
@@ -4316,6 +4424,11 @@
           "date": "2026-12-17",
           "name": "2차 정기시험(1,2학년)",
           "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
         }
       ]
     },
@@ -4841,6 +4954,11 @@
           "date": "2026-12-04",
           "name": "2차정기시험(1,2학년)",
           "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "새오름제(1,2학년)",
+          "holiday": false
         }
       ]
     },
@@ -5044,6 +5162,11 @@
         {
           "date": "2026-12-04",
           "name": "정기시험 2학기 2차",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "동아리 발표회",
           "holiday": false
         }
       ]
@@ -5428,6 +5551,11 @@
         },
         {
           "date": "2026-12-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
           "name": "2차 정기시험",
           "holiday": false
         }
