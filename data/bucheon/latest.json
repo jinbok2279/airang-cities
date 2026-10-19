@@ -1,9 +1,9 @@
 {
   "region": "부천시",
-  "updated_at": "2026-10-19 06:10:42",
+  "updated_at": "2026-10-20 06:29:19",
   "period": {
-    "from": "20261019",
-    "to": "20261218"
+    "from": "20261020",
+    "to": "20261219"
   },
   "school_count": 127,
   "public_holidays": [
@@ -14,33 +14,13 @@
     {
       "date": "2026-12-03",
       "name": "국민주권의 날"
+    },
+    {
+      "date": "2026-12-19",
+      "name": "동계방학"
     }
   ],
   "highlights": [
-    {
-      "school": "송내고등학교",
-      "level": "고등학교",
-      "gu": "소사구",
-      "date": "2026-10-19",
-      "name": "토요일대체휴업",
-      "holiday": true
-    },
-    {
-      "school": "역곡고등학교",
-      "level": "고등학교",
-      "gu": "원미구",
-      "date": "2026-10-19",
-      "name": "학부모상담주간",
-      "holiday": false
-    },
-    {
-      "school": "옥길중학교",
-      "level": "중학교",
-      "gu": "소사구",
-      "date": "2026-10-19",
-      "name": "2학년 진로체험",
-      "holiday": false
-    },
     {
       "school": "역곡고등학교",
       "level": "고등학교",
@@ -1008,6 +988,30 @@
       "date": "2026-12-18",
       "name": "졸업식",
       "holiday": false
+    },
+    {
+      "school": "계남중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "부천신흥초등학교",
+      "level": "초등학교",
+      "gu": "원미구",
+      "date": "2026-12-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상도중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-19",
+      "name": "동계방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -1238,11 +1242,6 @@
       "gu": "오정구",
       "dong": "오정동",
       "events": [
-        {
-          "date": "2026-10-19",
-          "name": "한마음 체육대회",
-          "holiday": false
-        },
         {
           "date": "2026-10-20",
           "name": "한마음 체육대회",
@@ -1804,6 +1803,11 @@
           "date": "2026-12-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1918,16 +1922,6 @@
       "dong": "중동",
       "events": [
         {
-          "date": "2026-10-19",
-          "name": "재난대응 안전훈련",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-19",
-          "name": "독도교육주간, 사이버폭력예방",
-          "holiday": false
-        },
-        {
           "date": "2026-10-21",
           "name": "지진 및 화재대피훈련",
           "holiday": false
@@ -1977,11 +1971,6 @@
       "gu": "원미구",
       "dong": "상동",
       "events": [
-        {
-          "date": "2026-10-19",
-          "name": "독도사랑주간",
-          "holiday": false
-        },
         {
           "date": "2026-10-20",
           "name": "독도사랑주간",
@@ -2864,11 +2853,6 @@
       "dong": "옥길동",
       "events": [
         {
-          "date": "2026-10-19",
-          "name": "2학년 진로체험",
-          "holiday": false
-        },
-        {
           "date": "2026-10-23",
           "name": "체육한마당",
           "holiday": false
@@ -3201,6 +3185,11 @@
           "date": "2026-12-18",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3576,6 +3565,11 @@
           "date": "2026-12-18",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-19",
+          "name": "동계방학",
+          "holiday": true
         }
       ]
     },
@@ -4301,11 +4295,6 @@
       "dong": "송내동",
       "events": [
         {
-          "date": "2026-10-19",
-          "name": "토요일대체휴업",
-          "holiday": true
-        },
-        {
           "date": "2026-10-20",
           "name": "전국연합학력평가",
           "holiday": false
@@ -4777,17 +4766,17 @@
         },
         {
           "date": "2026-12-11",
-          "name": "봉사활동(환경보호활동)",
-          "holiday": false
-        },
-        {
-          "date": "2026-12-11",
           "name": "학교축제",
           "holiday": false
         },
         {
           "date": "2026-12-11",
           "name": "자율",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "봉사활동(환경보호활동)",
           "holiday": false
         },
         {
@@ -5404,11 +5393,6 @@
       "gu": "원미구",
       "dong": "역곡동",
       "events": [
-        {
-          "date": "2026-10-19",
-          "name": "학부모상담주간",
-          "holiday": false
-        },
         {
           "date": "2026-10-20",
           "name": "전국연합학력평가",
