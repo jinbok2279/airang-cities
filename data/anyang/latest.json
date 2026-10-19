@@ -1,9 +1,9 @@
 {
   "region": "안양시",
-  "updated_at": "2026-10-19 05:55:25",
+  "updated_at": "2026-10-20 06:00:20",
   "period": {
-    "from": "20261019",
-    "to": "20261218"
+    "from": "20261020",
+    "to": "20261219"
   },
   "school_count": 86,
   "public_holidays": [
@@ -17,22 +17,6 @@
     }
   ],
   "highlights": [
-    {
-      "school": "귀인중학교",
-      "level": "중학교",
-      "gu": "동안구",
-      "date": "2026-10-19",
-      "name": "교육과정발표회",
-      "holiday": false
-    },
-    {
-      "school": "백영고등학교",
-      "level": "고등학교",
-      "gu": "동안구",
-      "date": "2026-10-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
     {
       "school": "귀인중학교",
       "level": "중학교",
@@ -678,7 +662,7 @@
       "level": "고등학교",
       "gu": "동안구",
       "date": "2026-11-19",
-      "name": "대학수학능력시험",
+      "name": "재량휴업일",
       "holiday": true
     },
     {
@@ -686,7 +670,7 @@
       "level": "고등학교",
       "gu": "동안구",
       "date": "2026-11-19",
-      "name": "재량휴업일",
+      "name": "대학수학능력시험",
       "holiday": true
     },
     {
@@ -936,6 +920,22 @@
       "date": "2026-12-18",
       "name": "자기개발발표회",
       "holiday": false
+    },
+    {
+      "school": "샘모루초등학교",
+      "level": "초등학교",
+      "gu": "동안구",
+      "date": "2026-12-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "안양부안초등학교",
+      "level": "초등학교",
+      "gu": "동안구",
+      "date": "2026-12-19",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -1064,6 +1064,11 @@
           "date": "2026-12-18",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1176,6 +1181,11 @@
           "date": "2026-12-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1202,11 +1212,6 @@
       "gu": "동안구",
       "dong": "호계동",
       "events": [
-        {
-          "date": "2026-10-19",
-          "name": "독도사랑주간",
-          "holiday": false
-        },
         {
           "date": "2026-10-20",
           "name": "독도사랑주간",
@@ -1554,21 +1559,6 @@
       "dong": "석수동",
       "events": [
         {
-          "date": "2026-10-19",
-          "name": "정보통신윤리교육",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-19",
-          "name": "독도교육",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-19",
-          "name": "생태학습",
-          "holiday": false
-        },
-        {
           "date": "2026-10-28",
           "name": "소방안전교육",
           "holiday": false
@@ -1635,11 +1625,6 @@
       "gu": "동안구",
       "dong": "평촌동",
       "events": [
-        {
-          "date": "2026-10-19",
-          "name": "교육과정발표회",
-          "holiday": false
-        },
         {
           "date": "2026-10-20",
           "name": "교육과정발표회",
@@ -2219,6 +2204,31 @@
           "holiday": false
         },
         {
+          "date": "2026-11-06",
+          "name": "합동소방훈련",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
           "date": "2026-11-19",
           "name": "대입수능평가",
           "holiday": true
@@ -2553,11 +2563,6 @@
       "dong": "비산동",
       "events": [
         {
-          "date": "2026-10-19",
-          "name": "신입생원서접수",
-          "holiday": false
-        },
-        {
           "date": "2026-10-20",
           "name": "신입생원서접수",
           "holiday": false
@@ -2727,11 +2732,6 @@
       "gu": "동안구",
       "dong": "평촌동",
       "events": [
-        {
-          "date": "2026-10-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-10-20",
           "name": "전국연합평가",
@@ -2939,12 +2939,12 @@
         },
         {
           "date": "2026-11-19",
-          "name": "대학수학능력시험",
+          "name": "재량휴업일",
           "holiday": true
         },
         {
           "date": "2026-11-19",
-          "name": "재량휴업일",
+          "name": "대학수학능력시험",
           "holiday": true
         },
         {
@@ -3116,6 +3116,11 @@
           "date": "2026-12-18",
           "name": "학교자율과정운영",
           "holiday": false
+        },
+        {
+          "date": "2026-12-19",
+          "name": "학교자율과정운영",
+          "holiday": false
         }
       ]
     },
@@ -3159,6 +3164,11 @@
         },
         {
           "date": "2026-12-18",
+          "name": "학교주도활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-19",
           "name": "학교주도활동",
           "holiday": false
         }
