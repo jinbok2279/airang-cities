@@ -1854,7 +1854,8 @@ function viewDeals() {
   const city = (DEALS && DEALS.city) || document.title.replace("아이랑 ", "");
   const back = `<button class="back glass" onclick="history.back()" aria-label="뒤로">${icon.back}</button>
     <h1 style="font-size:25px;font-weight:800;margin-top:14px">동네 할인</h1>
-    <p style="font-size:13px;color:var(--muted);margin-top:4px">${esc(city)}에서 아낄 수 있는 방법을 모았어요. 매일 아침 새로 받아 와요.<br><span style="font-size:12px">블로그·기사는 다음(카카오) 검색으로 찾은 <b>제목과 링크</b>만 보여 드려요. 내용은 글쓴 분의 원문에서 확인해 주세요.</span></p>`;
+    <p style="font-size:13px;color:var(--muted);margin-top:4px">${esc(city)}에서 아낄 수 있는 방법을 모았어요. 매일 아침 새로 받아 와요.<br><span style="font-size:12px">블로그·기사는 다음(카카오) 검색으로 찾은 <b>제목과 링크</b>만 보여 드려요. 내용은 글쓴 분의 원문에서 확인해 주세요.</span></p>
+    <div style="margin-top:10px;padding:10px 12px;border-radius:12px;background:#FFF7DB;color:#7A5A00;font-size:12.5px;line-height:1.55">⚠️ 자동으로 모은 정보라 실제와 다를 수 있어요. <b>정확한 할인 내용과 기간은 해당 가게·기관에 직접 문의해 주세요.</b></div><p style="display:none"></p>`;
   if (!DEALS) { loadDeals(); $view.innerHTML = back + `<div class="lift empty" style="margin-top:16px">할인 정보를 불러오는 중이에요…</div>`; return; }
   const items = DEALS.items || [];
   const cats = ["전체", ...Object.keys(DEAL_CAT).filter(k => items.some(x => x.cat === k))];
