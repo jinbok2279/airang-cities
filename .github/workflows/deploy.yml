@@ -2,6 +2,7 @@ name: deploy (앱 화면을 Cloudflare Pages로)
 # 앱 화면(apps/<도시>)이 바뀔 때만 올린다. 데이터는 앱이 이 저장소(raw)에서 바로 읽어서 항상 최신.
 on:
   push:
+    branches: [main]
     paths: ["apps/**"]
   workflow_dispatch:
 permissions:
