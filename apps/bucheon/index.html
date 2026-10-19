@@ -743,7 +743,7 @@ function viewMy() {
     return `<button class="school" onclick="go('kid/${jsq(k.id)}')"><span class="tile ${KID_TILES[k.color % 5]}" style="width:42px;height:42px;font-weight:800">${esc(k.name[0] || "?")}</span>
       <div style="flex:1;min-width:0"><div class="nm">${esc(k.name)}</div><div class="ad">${sc ? esc((kidGradeText(k, sc) ? levelShort(sc).replace("등", "") + " " + kidGradeText(k, sc) : levelShort(sc)) + " · " + sc.name) : "학교 정보 없음"}${k.acas && k.acas.length ? ` · 학원 ${k.acas.length}곳` : ""}${sc && !k.grade ? ` · <b style="color:var(--coral-ink)">학년을 넣어 주세요</b>` : ""}</div></div><span style="font-size:13px;color:var(--indigo);font-weight:700">수정</span></button>`; }).join("");
   const M = [["acas", "✏️", "t-indigo", "학원<br>찾기"], ["kinders", "🧸", "t-sun", "유치원<br>찾기"], ["library", "📚", "t-mint", "도서관<br>찾기"], ["books", "📖", "t-coral", "대출<br>베스트"],
-    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["premium", "📊", "t-sun", "수강료<br>비교", 1], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["region", "📍", "t-lilac", "관심<br>지역"]];
+    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["premium", "📊", "t-sun", "수강료<br>비교", 1], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"]];
   $view.innerHTML = `<h1 style="font-size:27px;font-weight:800;margin-bottom:16px">전체</h1>
     <div class="lift mgrid">${M.map(([r, e, t, l, p]) => `<button onclick="go('${r}')">${ico3d(e, 52, 46)}<b>${l}</b></button>`).join("")}</div>
     <section class="section" style="margin-top:0"><div class="sec-head"><h2>우리 아이</h2><span style="font-size:12px;color:var(--muted)">${ks.length}/${MAX_KIDS}명</span></div>
@@ -1473,6 +1473,10 @@ function viewElite() {
 // ---------- 이용 안내 · 개인정보 ----------
 // ---------- 업데이트 소식 (날짜별) ----------
 const NEWS = [
+  { d: "2026-10-19", v: "1.0.49", t: "동네에서 아낄 수 있는 할인을 모았어요", items: [
+    "🏷️ 전체 메뉴에 <b>동네 할인</b>이 생겼어요. 매일 아침 새 소식을 모아 보여 드려요.",
+    "💳 <b>지역화폐</b> 충전 혜택(인센티브·캐시백)과 관련 소식을 한곳에서 볼 수 있어요.",
+    "🛍️ 우리 동네 <b>백화점·아울렛 행사</b>와 팝업 소식을 최근 3주 것만 골라 드려요. 끝난 행사는 자동으로 빠져요."] },
   { d: "2026-10-16", v: "1.0.48", t: "다른 도시도 둘러볼 수 있어요", items: [
     "🏙️ 전체 메뉴 아래 <b>다른 도시 둘러보기</b>에서 아이랑 7개 도시로 바로 갈 수 있어요."] },
   { d: "2026-10-16", v: "1.0.45", t: "아이랑 부천 시범 운영을 시작했어요", items: [
@@ -1484,7 +1488,7 @@ const NEWS = [
 ];
 function newsDate(d) { const [y, m, dd] = d.split("-").map(Number); return `${m}월 ${dd}일`; }
 // 새 버전으로 바뀐 걸 홈 맨 위에 한 번 알려 줌 (닫거나 소식을 보면 사라짐)
-const APP_VER = "1.0.48";
+const APP_VER = "1.0.49";
 let UPDATED_FROM = null;
 const IS_NEW_PHONE = !store("edu.appVer");   // 이 휴대폰에서 처음 열었는지 (예전에 쓴 적 있으면 앱 버전이 남아 있음)
 (function () { const last = store("edu.appVer"); if (last && last !== APP_VER) UPDATED_FROM = last; if (!last) store("edu.appVer", APP_VER); })();
@@ -1843,6 +1847,7 @@ function go(route) { if (location.hash === "#" + route) render(); else location.
 let DEALS = null, dlLoading = null, dlCat = "전체";
 function loadDeals() { if (!dlLoading) dlLoading = dataFetch("deals.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(j => { DEALS = j; if (location.hash === "#deals") render(); }).catch(() => { DEALS = { items: [], err: 1 }; if (location.hash === "#deals") render(); }); return dlLoading; }
 function pickDeal(c) { dlCat = c; render(); }
+function dealAgo(d) { const n = Math.round((new Date(todayYmd() + "T00:00:00") - new Date(d + "T00:00:00")) / 864e5); return n <= 0 ? "오늘 글" : n === 1 ? "어제 글" : n + "일 전 글"; }
 function dealUrl(u) { return /^https?:\/\//i.test(u || "") ? u : "#deals"; }
 const DEAL_CAT = { "지역화폐": ["💳", "#E6F6EF", "#127A52"], "백화점": ["🛍️", "#FFF0E6", "#B5541C"], "동네 가게": ["🏪", "#EEF0FF", "#4B4FD6"] };
 function viewDeals() {
@@ -1859,7 +1864,7 @@ function viewDeals() {
   const card = x => { const c = DEAL_CAT[x.cat] || ["🏷️", "#EEF0F6", "#7A8094"];
     return `<a class="lift" href="${esc(dealUrl(x.link))}" target="_blank" rel="noopener" onclick="trackEvent('할인-${esc(x.cat)}')" style="display:block;padding:14px 16px;margin-bottom:10px;color:inherit;text-decoration:none">
       <div style="display:flex;gap:12px;align-items:flex-start">${ico3d(c[0], 46, 38)}
-      <div style="flex:1;min-width:0"><div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">${tag(x.cat, c[1], c[2])}${x.src === "check" ? tag("확인된 혜택", "#FFF7DB", "#8A6A00") : ""}</div>
+      <div style="flex:1;min-width:0"><div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">${tag(x.cat, c[1], c[2])}${x.src === "check" ? tag("확인된 혜택", "#FFF7DB", "#8A6A00") : ""}${x.date && x.src !== "check" ? tag(dealAgo(x.date), "#F1F3F8", "#5C6478") : ""}</div>
       <div style="font-size:15.5px;font-weight:800;margin-top:6px;line-height:1.4">${esc(x.title)}</div>
       ${x.sub && x.src === "check" ? `<div style="font-size:13px;color:var(--muted);margin-top:4px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">${esc(x.sub)}</div>` : ""}
       <div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px;gap:8px"><span style="font-size:11.5px;color:var(--muted);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(x.meta || "")}</span><span style="font-size:13px;font-weight:800;color:var(--indigo);flex:0 0 auto">자세히 ›</span></div></div></div></a>`; };
@@ -1872,7 +1877,7 @@ function viewDeals() {
     <div style="font-size:13px;color:var(--muted);margin-top:4px;line-height:1.5">학원 오픈 할인, 키즈카페, 식당 이벤트를 ${esc(city)} 엄마·아빠에게 바로 알려요.</div>
     <a class="btn btn-3d" style="width:100%;height:44px;margin-top:12px;font-size:14px" href="mailto:songgollab@gmail.com?subject=${encodeURIComponent("[아이랑 " + city + "] 동네 할인 등록 문의")}" onclick="trackEvent('할인-등록문의')">할인 올리기 문의</a></div>`;
   $view.innerHTML = back + chips + (list.map(card).join("") || (storeNote ? "" : `<div class="lift empty">아직 모은 할인 정보가 없어요.</div>`)) + storeNote + ad +
-    `<div class="foot">할인 내용은 시청 발표·기사·블로그에서 모아요. 바뀔 수 있으니 이용 전에 원문을 꼭 확인해 주세요.${DEALS.updated ? `<br>${esc(DEALS.updated)} 기준` : ""}</div>`;
+    `<div class="foot">할인 내용은 시청 발표·기사·블로그에서 모아요. 바뀔 수 있으니 이용 전에 원문을 꼭 확인해 주세요.${DEALS.updated ? `<br>${esc(DEALS.updated)} 기준` : ""}<br>글쓴 분이나 가게에서 목록에서 빼기를 원하시면 <a href="mailto:songgollab@gmail.com?subject=${encodeURIComponent("[아이랑] 동네 할인 글 빼기 요청")}">메일로 알려 주세요</a>. 바로 빼 드려요.</div>`;
 }
 function render() {
   if (!DATA) return;
