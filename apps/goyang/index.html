@@ -175,12 +175,17 @@ a.ev{color:inherit;text-decoration:none}
 .mtile:active{transform:translateY(2px)}
 @media (max-width:350px){.mtile img{width:56px;height:56px}.libgrid{grid-template-columns:1fr}}
 
-/* ---- 모든 메뉴 맨 위 도시 풍경 띠 ---- */
-.topscape{max-width:560px;margin:0 auto;padding:16px 18px 0}
-.topscape div{height:96px;border-radius:22px;overflow:hidden;background:linear-gradient(180deg,var(--city-soft),#fff);box-shadow:0 10px 22px -16px rgba(70,56,30,.35)}
-.topscape img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 42%}
-.topscape:not([hidden]) + .wrap{padding-top:12px}
-@media (max-width:350px){.topscape div{height:80px}}
+/* ---- 모든 메뉴 맨 위 도시 풍경 (뒤로 가기·제목이 풍경 위에 올라감) ---- */
+.topscape{position:absolute;left:0;right:0;top:0;max-width:560px;margin:0 auto;padding:12px 12px 0;pointer-events:none}
+.topscape div{position:relative;height:168px;border-radius:24px;overflow:hidden;background:linear-gradient(180deg,var(--city-soft),#fff)}
+.topscape div::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,0) 30%,rgba(247,245,240,.72) 66%,var(--ground) 100%)}
+.topscape img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 38%}
+.topscape:not([hidden]) + .wrap{position:relative;padding-top:24px}
+.topscape:not([hidden]) + .wrap > .back:first-child{margin-left:-4px}
+.topscape:not([hidden]) + .wrap > .back:first-child + h1{margin-top:54px !important}
+.topscape:not([hidden]) + .wrap > h1:first-child{margin-top:98px !important}
+.topscape:not([hidden]) + .wrap > .back:first-child + h1,.topscape:not([hidden]) + .wrap > h1:first-child{text-shadow:0 1px 0 #fff,0 0 14px rgba(255,255,255,.95),0 0 4px rgba(255,255,255,.9)}
+@media (max-width:350px){.topscape div{height:150px}.topscape:not([hidden]) + .wrap > .back:first-child + h1{margin-top:40px !important}.topscape:not([hidden]) + .wrap > h1:first-child{margin-top:84px !important}}
 </style>
 <script data-goatcounter="https://goyang-edu-app.goatcounter.com/count" data-goatcounter-settings='{"no_onload": true}' async src="https://gc.zgo.at/count.js"></script>
 </head>
@@ -1553,7 +1558,7 @@ const NEWS = [
 ];
 function newsDate(d) { const [y, m, dd] = d.split("-").map(Number); return `${m}월 ${dd}일`; }
 // 새 버전으로 바뀐 걸 홈 맨 위에 한 번 알려 줌 (닫거나 소식을 보면 사라짐)
-const APP_VER = "1.0.54";
+const APP_VER = "1.0.55";
 let UPDATED_FROM = null;
 const IS_NEW_PHONE = !store("edu.appVer");   // 이 휴대폰에서 처음 열었는지 (예전에 쓴 적 있으면 앱 버전이 남아 있음)
 (function () { const last = store("edu.appVer"); if (last && last !== APP_VER) UPDATED_FROM = last; if (!last) store("edu.appVer", APP_VER); })();
