@@ -1,5 +1,5 @@
 // 아이랑 안양 - 오프라인 지원
-const CACHE = "anyang-app-v6";
+const CACHE = "anyang-app-v7";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#5161F7">
+<meta name="theme-color" content="#11908A">
 <meta name="description" content="안양 아이 키우는 집을 위한 급식·학교 일정·도서관·유치원·학원·행사 정보 모음">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https://raw.githubusercontent.com https://*.goatcounter.com https://gc.zgo.at; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
@@ -137,6 +137,43 @@ a.ev{color:inherit;text-decoration:none}
 .loading{padding:60px 0;text-align:center;color:var(--muted);font-size:14px}
 .tbox input{border:1px solid var(--line)}.tbox input:invalid{border:1.5px dashed #9AA6F5;color:transparent}.tbox input:invalid::-webkit-datetime-edit{opacity:0}.tbox .ph{position:absolute;left:12px;top:0;line-height:44px;font-size:14px;font-weight:700;color:#6C78E0;pointer-events:none}.tbox input:valid+.ph{display:none}
 .ic3d{position:relative;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto}.ic3d::after{content:"";position:absolute;bottom:-1px;left:50%;width:62%;height:16%;transform:translateX(-50%);border-radius:50%;background:rgba(40,50,110,.16);filter:blur(3px);z-index:0}.ic3d img{position:relative;z-index:1;filter:drop-shadow(0 5px 5px rgba(30,40,90,.16))}
+
+/* ---- 3D 지역 디자인 (도시 색 · 입체 아이콘) ---- */
+:root{--city:#11908A;--city-ink:#0A6A65;--city-deep:#07514D;--city-soft:#DFF2F0;--ground:#F7F5F0;--indigo:#0A6A65;--indigo-ink:#0A6A65}
+.bg{background:radial-gradient(circle at 92% 0%,#DFF2F0,transparent 46%),radial-gradient(circle at 0% 72%,rgba(255,232,196,.38),transparent 46%),var(--ground)}
+.lift{box-shadow:inset 0 1px 0 #fff,0 1px 2px rgba(40,32,16,.05),0 14px 30px -14px rgba(70,56,30,.22)}
+.btn-3d{background:linear-gradient(180deg,#11908A,#0A6A65);box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 4px 0 #07514D,0 12px 18px -8px #11908A99}
+.pill-indigo{color:#0A6A65;background:#DFF2F0}
+.school.mine{background:#DFF2F0}
+.shelf .no{background:#0A6A65}
+.navi.on{color:#0A6A65}
+.navi.on .ic{background:#DFF2F0}
+.navi .ic img{width:30px;height:30px;object-fit:contain}
+.navi.on .ic img{width:34px;height:34px}
+.scape{padding:0;overflow:hidden;margin-bottom:2px}
+.scape-img{display:block;width:100%;height:auto;aspect-ratio:12/5;background:linear-gradient(180deg,#DFF2F0,#fff)}
+.scape-body{padding:2px 16px 14px;background:#fff}
+.kidadd{display:flex;align-items:center;gap:12px;width:100%;min-height:56px;border:0;background:none;font:inherit;color:var(--ink);text-align:left;cursor:pointer;padding:6px 2px}
+.kidadd b{font-size:16px;font-weight:800}
+.kidadd small{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+.kidadd .plus{margin-left:auto;flex:0 0 auto;width:34px;height:34px;border-radius:17px;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#11908A,#0A6A65);color:#fff;font-size:22px;font-weight:700;box-shadow:0 3px 0 #07514D}
+.kidinfo .date{font-size:12px;color:var(--muted);font-weight:600;margin-top:10px}
+.kidinfo h1{font-size:19px;font-weight:800;line-height:1.35;margin-top:4px;white-space:pre-line}
+.kidinfo .next{font-size:14px;color:var(--muted);margin:4px 0 0;line-height:1.5}
+.kidinfo .dday{flex:0 0 auto;text-align:center;background:#DFF2F0;color:#0A6A65;border-radius:16px;padding:8px 12px;min-width:76px}
+.kidinfo .dday b{display:block;font-size:22px;font-weight:800;line-height:1.1}
+.kidinfo .dday span{font-size:11px;font-weight:700}
+.libgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}
+.libtile{min-width:0;display:flex;align-items:center;gap:8px;border:0;font:inherit;color:var(--ink);text-align:left;cursor:pointer;padding:14px 10px 14px 12px;min-height:84px}
+.libtile img{width:40px;height:40px;object-fit:contain;flex:0 0 auto}
+.libtile .nm{font-size:13px;font-weight:700;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;word-break:break-all}
+.libtile .chev{color:var(--muted);font-size:16px;flex:0 0 auto}
+.mgrid3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:28px}
+.mtile{border:0;font:inherit;color:var(--ink);background:#fff;border-radius:20px;padding:14px 4px 12px;display:flex;flex-direction:column;align-items:center;gap:6px;cursor:pointer;min-height:112px;box-shadow:inset 0 1px 0 #fff,0 1px 2px rgba(40,32,16,.05),0 12px 24px -14px rgba(70,56,30,.24)}
+.mtile img{width:68px;height:68px;object-fit:contain;filter:drop-shadow(0 6px 6px rgba(60,40,10,.12))}
+.mtile b{font-size:13.5px;font-weight:700;letter-spacing:-.2px;word-break:keep-all;text-align:center}
+.mtile:active{transform:translateY(2px)}
+@media (max-width:350px){.mtile img{width:56px;height:56px}.libgrid{grid-template-columns:1fr}}
 </style>
 <script data-goatcounter="https://anyang-edu-app.goatcounter.com/count" data-goatcounter-settings='{"no_onload": true}' async src="https://gc.zgo.at/count.js"></script>
 </head>
@@ -145,11 +182,11 @@ a.ev{color:inherit;text-decoration:none}
 <main class="wrap" id="view"><div class="loading">불러오는 중…</div></main>
 
 <nav class="nav glass" aria-label="주요 메뉴">
-  <button class="navi" data-tab="home" style="--pill:#E8EBFF"><span class="ic"><img src="https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/House/3D/house_3d.png" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('🏠'))"></span>홈</button>
-  <button class="navi" data-tab="events" style="--pill:#FFE8EE"><span class="ic"><img src="https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/Circus%20tent/3D/circus_tent_3d.png" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('🎪'))"></span>문화생활</button>
-  <button class="navi" data-tab="sports" style="--pill:#E0F4FA"><span class="ic"><img src="https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/Person%20swimming/Default/3D/person_swimming_3d_default.png" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('🏊'))"></span>운동교실</button>
-  <button class="navi" data-tab="jobs" style="--pill:#FFF0E0"><span class="ic"><img src="https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/Briefcase/3D/briefcase_3d.png" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('💼'))"></span>엄마일자리</button>
-  <button class="navi" data-tab="my" style="--pill:#EFE6FF"><span class="ic"><img src="https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/Puzzle%20piece/3D/puzzle_piece_3d.png" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('🧩'))"></span>전체</button>
+  <button class="navi" data-tab="home" style="--pill:#E8EBFF"><span class="ic"><img src="assets/nav-home.webp" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('🏠'))"></span>홈</button>
+  <button class="navi" data-tab="events" style="--pill:#FFE8EE"><span class="ic"><img src="assets/nav-culture.webp" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('🎪'))"></span>문화생활</button>
+  <button class="navi" data-tab="sports" style="--pill:#E0F4FA"><span class="ic"><img src="assets/nav-sports.webp" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('🏊'))"></span>운동교실</button>
+  <button class="navi" data-tab="jobs" style="--pill:#FFF0E0"><span class="ic"><img src="assets/nav-jobs.webp" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('💼'))"></span>엄마일자리</button>
+  <button class="navi" data-tab="my" style="--pill:#EFE6FF"><span class="ic"><img src="assets/nav-all.webp" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('🧩'))"></span>전체</button>
 </nav>
 <div class="toast" id="toast" role="status"></div>
 
@@ -447,12 +484,7 @@ function viewHome() {
     const title = one ? `${one.name}\n${oneSchool ? oneSchool.name : "학교 정보 없음"}` : `우리 아이 ${ks.length}명\n다가오는 일정`;
     const nextTxt = next ? `다음 일정 · ${one ? "" : next.kid.name + " "}${next.name}` : "예정된 학교 일정이 없어요";
     const cta = one && oneSchool ? `<button class="cta" onclick="go('school/${jsq(oneSchool.code)}')">학교 일정 전체 보기 →</button>` : `<button class="cta" onclick="go('my')">아이 관리 →</button>`;
-    hero = `<section class="hero"><div class="glow"></div>
-      <div class="date">${dateStr}</div>
-      <h1>${esc(title)}</h1>
-      <p class="next">${esc(nextTxt)}</p>
-      ${next ? `<div class="dday"><b>${ddayText(dday(next.date))}</b><span>${mdw(next.date)}</span></div>` : `<div class="deco fl"><div class="orb-sun" style="width:56px;height:56px"></div></div>`}
-    </section>`;
+    hero = `<section class="scape lift"><img class="scape-img" src="assets/hero-anyang-800.webp" srcset="assets/hero-anyang-800.webp 800w, assets/hero-anyang.webp 1200w" sizes="(max-width:560px) 100vw, 524px" width="1200" height="500" alt="" fetchpriority="high" decoding="async"><div class="scape-body"><div class="kidinfo" style="display:flex;gap:12px;align-items:flex-end"><div style="flex:1;min-width:0"><div class="date">${dateStr}</div><h1>${esc(title)}</h1><p class="next">${esc(nextTxt)}</p></div>${next ? `<div class="dday"><b>${ddayText(dday(next.date))}</b><span>${mdw(next.date)}</span></div>` : ""}</div><div style="margin-top:12px">${cta.replace('class="cta"', 'class="btn btn-soft" style="height:40px;font-size:13px;padding:0 14px"')}</div></div></section>`;
     const chip = (id, label, extra = "") => `<button class="btn ${homeKid === id ? "btn-3d" : "btn-soft"}" style="height:38px;font-size:13px;padding:0 14px;flex:0 0 auto" onclick="pickKid('${jsq(id)}')">${extra}${esc(label)}</button>`;
     const chips = ks.length > 1 ? `<div style="display:flex;gap:8px;overflow-x:auto;padding:2px 2px 10px">${chip("all", "전체")}${ks.map(k => chip(k.id, k.name, `<span class="tile ${KID_TILES[k.color % 5]}" style="width:18px;height:18px;border-radius:6px"></span>`)).join("")}</div>` : "";
     const list = evs.slice(0, homeAllEv ? 8 : 3);
@@ -464,13 +496,7 @@ function viewHome() {
       <button class="btn btn-soft" style="width:100%;height:42px;margin-top:10px;font-size:13px;color:var(--indigo)" onclick="go('myev/new')">+ 내 일정 추가 (준비물·병원·생일 등)</button>
       ${evs.length > 3 ? `<button onclick="homeAllEv=!homeAllEv;render()" style="width:100%;border:0;background:none;padding:12px 0 4px;font:inherit;font-size:13px;font-weight:700;color:var(--indigo);cursor:pointer">${homeAllEv ? "접기 ▲" : `일정 더보기 (${Math.min(evs.length, 8) - 3}개 더) ▼`}</button>` : ""}</div></section>`;
   } else {
-    hero = `<section class="hero"><div class="glow"></div>
-      <div class="date">${dateStr}</div>
-      <h1>우리 아이를\n등록해 주세요</h1>
-      <p class="next">형제자매가 여러 명이어도 한 번에 볼 수 있어요</p>
-      <button class="cta" onclick="go('kid/new')">아이 등록하기 →</button>
-      <div class="deco fl"><div class="orb-sun" style="width:58px;height:58px"></div></div>
-    </section>`;
+    hero = `<section class="scape lift"><img class="scape-img" src="assets/hero-anyang-800.webp" srcset="assets/hero-anyang-800.webp 800w, assets/hero-anyang.webp 1200w" sizes="(max-width:560px) 100vw, 524px" width="1200" height="500" alt="" fetchpriority="high" decoding="async"><div class="scape-body"><button class="kidadd" onclick="go('kid/new')">${e3d("🧒", 40)}<span style="min-width:0"><b>우리 아이 추가</b><small>형제자매가 여러 명이어도 한 번에 볼 수 있어요</small></span><span class="plus" aria-hidden="true">+</span></button></div></section>`;
   }
 
   const install = "";
@@ -478,7 +504,7 @@ function viewHome() {
   const addrNote = "";  // 안양은 주소 변경 안내 없음
   $view.innerHTML = `<div style="display:flex;align-items:center;gap:9px;margin:2px 0 14px">
       <img src="icon-192.png" alt="송골랩 로고" width="32" height="32" style="border-radius:9px;box-shadow:0 2px 8px rgba(30,40,90,.12);flex:0 0 auto">
-      <div style="min-width:0;flex:1;line-height:1.15"><div style="font-size:18px;font-weight:800;letter-spacing:-.3px;white-space:nowrap">아이랑 안양</div><div style="font-size:10.5px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">by 송골랩</div></div>
+      <div style="min-width:0;flex:1;line-height:1.15"><div style="font-size:18px;font-weight:800;letter-spacing:-.3px;white-space:nowrap">아이랑 <span style="color:var(--city-ink)">안양</span></div><div style="font-size:10.5px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">by 송골랩</div></div>
       <button class="chip glass" aria-label="지인에게 알려주기" title="지인에게 알려주기" style="flex:0 0 auto;width:34px;height:34px;padding:0;justify-content:center;color:var(--indigo)" onclick="shareApp()"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg></button>
       <button class="chip glass" style="flex:0 0 auto;font-size:12px;padding:0 12px;height:34px" onclick="go('region')">${icon.pin} ${esc(regionLabel().replace("안양시 전체", "안양").replace("안양 ", ""))} · ${levelLabel()} ▾</button></div>
     ${addrNote}${homeUpdated()}${hero}${homeToday(ks)}${ks.length ? homeMeals(homeKid === "all" ? ks : ks.filter(k => k.id === homeKid)) : ""}${mine}${notice}${homeEvents()}${homeLibrary()}${homeBooks()}${homeAd()}${footer()}`;
@@ -538,7 +564,7 @@ function viewAdInfo() {
 
 // ---------- 입체 아이콘 (Microsoft Fluent Emoji 3D, MIT) ----------
 const F3D_BASE = "https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/";
-const F3D = { "🏥": ["Hospital", "hospital"], "🚑": ["Ambulance", "ambulance"], "🩺": ["Stethoscope", "stethoscope"], "🏷️": ["Label", "label"], "💳": ["Credit card", "credit_card"], "🛍️": ["Shopping bags", "shopping_bags"], "🏪": ["Convenience store", "convenience_store"], "🎪": ["Circus tent", "circus_tent"], "🎓": ["Graduation cap", "graduation_cap"], "💼": ["Briefcase", "briefcase"], "📊": ["Bar chart", "bar_chart"], "🏫": ["School", "school"],
+const F3D = { "🧒": ["Child/Default", "", "child_3d_default.png"], "🏥": ["Hospital", "hospital"], "🚑": ["Ambulance", "ambulance"], "🩺": ["Stethoscope", "stethoscope"], "🏷️": ["Label", "label"], "💳": ["Credit card", "credit_card"], "🛍️": ["Shopping bags", "shopping_bags"], "🏪": ["Convenience store", "convenience_store"], "🎪": ["Circus tent", "circus_tent"], "🎓": ["Graduation cap", "graduation_cap"], "💼": ["Briefcase", "briefcase"], "📊": ["Bar chart", "bar_chart"], "🏫": ["School", "school"],
   "📚": ["Books", "books"], "📖": ["Open book", "open_book"], "✏️": ["Pencil", "pencil"], "🧸": ["Teddy bear", "teddy_bear"], "📍": ["Round pushpin", "round_pushpin"],
   "🍚": ["Cooked rice", "cooked_rice"], "☀️": ["Sun", "sun"], "🌤️": ["Sun behind small cloud", "sun_behind_small_cloud"], "☁️": ["Cloud", "cloud"], "🌧️": ["Cloud with rain", "cloud_with_rain"],
   "🏊": ["Person swimming/Default", "", "person_swimming_3d_default.png"], "🧘": ["Person in lotus position/Default", "", "person_in_lotus_position_3d_default.png"],
@@ -596,6 +622,16 @@ function newEvCount() {
 async function loadWeather() { try { const r = await dataFetch("weather.json"); if (!r.ok) return; WEATHER = await r.json(); if (DATA) render(); } catch (e) {} }
 function markEvSeen() { if (EVENTS) store(KEY_SEEN_EV, JSON.stringify(evAll().map(e => e.id))); }
 function shortTitle(x) { x = x.replace(/^\[[^\]]*\]\s*/, "").replace(/\s*\(.*$/, "").replace(/[「」<>]/g, "").trim(); return x.length > 16 ? x.slice(0, 16) + "…" : x; }
+function wxBlock(w) {  // 오늘 아침 체크 — 날씨 크게 (실제 날씨 데이터)
+  const air = WEATHER.air;
+  return `<div style="display:flex;gap:12px;align-items:center;padding:12px 0;border-top:1px solid var(--line);">
+    <div style="display:flex;align-items:center;gap:8px;flex:1 1 52%;min-width:0">${e3d(w.icon || "🌤️", 46)}
+      <div style="min-width:0"><div style="display:flex;align-items:baseline;gap:6px;flex-wrap:wrap"><b style="font-size:28px;font-weight:800;letter-spacing:-1px;line-height:1.1">${w.hi}°</b><span style="font-size:14px;font-weight:700">${esc(w.sky)}</span></div>
+      <div style="font-size:12px;color:var(--muted);margin-top:2px">최저 ${w.lo}°${w.pop ? ` · 비 ${w.pop}%` : ""}</div></div></div>
+    <div style="flex:1 1 48%;min-width:0;border-left:1px solid var(--line);padding-left:12px;display:flex;flex-direction:column;gap:6px;font-size:12.5px;line-height:1.45">
+      <div style="color:var(--city-ink);font-weight:700">${esc(weatherTip({ ...w, air }))}</div>
+      ${air ? `<div>미세먼지 <b>${esc(air.pm10)}</b>${air.pm25 ? ` · 초미세 <b>${esc(air.pm25)}</b>` : ""}</div>` : ""}</div></div>`;
+}
 function weatherTip(w) {
   const t = [];
   if (w.pop >= 60) t.push("☔ 비 소식이 있어요. 우산 챙기세요");
@@ -612,7 +648,7 @@ function homeToday(ks) {
       <div style="flex:1;min-width:0"><div style="font-size:11.5px;color:var(--muted);font-weight:700;margin-bottom:2px">${label}</div><div style="font-size:13.5px;line-height:1.5">${body}</div></div>${act ? `<span style="color:var(--muted);font-size:13px;line-height:20px">›</span>` : ""}</div>`;
   if (WEATHER && WEATHER.now && (!WEATHER.date || WEATHER.date === todayYmd())) {  // 어제 받은 날씨는 안 보여 줌
     const w = WEATHER.now;
-    rows.push(row(w.icon || "🌤️", "날씨 · 미세먼지", `<b>${esc(w.sky)}</b> ${w.lo}° / ${w.hi}°${w.pop ? ` · 비 ${w.pop}%` : ""}${WEATHER.air ? ` · 미세먼지 <b>${esc(WEATHER.air.pm10)}</b>` : ""}<div style="color:var(--indigo);font-weight:700;margin-top:2px">${esc(weatherTip({ ...w, air: WEATHER.air }))}</div>`));
+    rows.push(wxBlock(w));
   }
   if (ks.length && MEALS) {
     const seen = new Set(), lines = [];
@@ -639,7 +675,7 @@ function homeToday(ks) {
     if (due.length || nw) rows.push(row("🎪", "행사 · 프로그램", [due.length ? `<b style="color:#C93D22">오늘 신청 마감 ${due.length}건</b> · ${esc(shortTitle(due[0].title))}${due.length > 1 ? " 외" : ""}` : "", nw ? `새로 올라온 행사 <b>${nw}개</b>` : ""].filter(Boolean).join("<br>"), "go('events')"));
   }
   if (!rows.length) return "";
-  return `<section class="lift" style="padding:4px 16px 4px;margin:14px 0 2px"><div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0 8px"><b style="font-size:15px;display:flex;align-items:center;gap:6px">${e3d("☀️", 20)} 오늘 아침 체크</b><span style="font-size:11.5px;color:var(--muted)">등원 전에 한 번에</span></div>${rows.join("").replace('border-top:1px solid var(--line);', '')}</section>`;
+  return `<section class="lift" style="padding:4px 16px 4px;margin:14px 0 2px"><div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0 8px"><b style="font-size:15px;display:flex;align-items:center;gap:6px">${e3d("☀️", 20)} 오늘 아침 체크</b><span style="font-size:12px;color:var(--muted);font-weight:600">${now.getMonth() + 1}월 ${now.getDate()}일 (${WD[now.getDay()]})</span></div>${rows.join("").replace('border-top:1px solid var(--line);', '')}</section>`;
 }
 
 // ---------- 급식 ----------
@@ -737,6 +773,7 @@ function otherCities() {
     <div class="lift card-pad"><div style="display:flex;flex-wrap:wrap;gap:8px">${OTHER_CITIES.filter(([n]) => n !== me).map(([n, u]) => `<a class="btn btn-soft" style="height:40px;font-size:13.5px;padding:0 14px" href="${u}" target="_blank" rel="noopener" onclick="trackEvent('도시-${n}')">아이랑 ${n} ↗</a>`).join("")}</div>
     <p style="font-size:12px;color:var(--muted);margin:10px 0 0;line-height:1.6">다른 도시 정보를 구경할 수 있어요. 아이 정보는 도시마다 따로 저장돼요.</p></div></section>`;
 }
+const MICON = {"acas": "icon-acas", "kinders": "icon-kindergarten", "library": "icon-library", "books": "icon-bestsellers", "schools": "icon-school-calendar", "premium": "icon-tuition", "elite": "icon-special-schools", "deals": "icon-discount", "hosp": "icon-hospital"};
 function viewMy() {
   const ks = kids();
   const kidRows = ks.map(k => { const sc = kidSchool(k);
@@ -744,8 +781,8 @@ function viewMy() {
       <div style="flex:1;min-width:0"><div class="nm">${esc(k.name)}</div><div class="ad">${sc ? esc((kidGradeText(k, sc) ? levelShort(sc).replace("등", "") + " " + kidGradeText(k, sc) : levelShort(sc)) + " · " + sc.name) : "학교 정보 없음"}${k.acas && k.acas.length ? ` · 학원 ${k.acas.length}곳` : ""}${sc && !k.grade ? ` · <b style="color:var(--coral-ink)">학년을 넣어 주세요</b>` : ""}</div></div><span style="font-size:13px;color:var(--indigo);font-weight:700">수정</span></button>`; }).join("");
   const M = [["acas", "✏️", "t-indigo", "학원<br>찾기"], ["kinders", "🧸", "t-sun", "유치원<br>찾기"], ["library", "📚", "t-mint", "도서관<br>찾기"], ["books", "📖", "t-coral", "대출<br>베스트"],
     ["schools", "🏫", "t-lilac", "학교<br>일정"], ["premium", "📊", "t-sun", "수강료<br>비교", 1], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["hosp", "🏥", "t-mint", "동네<br>병원"]];
-  $view.innerHTML = `<h1 style="font-size:27px;font-weight:800;margin-bottom:16px">전체</h1>
-    <div class="lift mgrid">${M.map(([r, e, t, l, p]) => `<button onclick="go('${r}')">${ico3d(e, 52, 46)}<b>${l}</b></button>`).join("")}</div>
+  $view.innerHTML = `<h1 style="font-size:27px;font-weight:800;margin-bottom:16px">전체 메뉴</h1>
+    <div class="mgrid3">${M.map(([r, e, t, l]) => `<button class="mtile" onclick="go('${r}')"><img src="assets/${MICON[r]}.webp" alt="" width="68" height="68" decoding="async"><b>${l.replace("·<br>", "·").replace("<br>", " ")}</b></button>`).join("")}</div>
     <section class="section" style="margin-top:0"><div class="sec-head"><h2>우리 아이</h2><span style="font-size:12px;color:var(--muted)">${ks.length}/${MAX_KIDS}명</span></div>
       <div class="lift list">${kidRows || `<div class="empty">아직 등록한 아이가 없어요.</div>`}</div>
       ${ks.length < MAX_KIDS ? `<button class="btn btn-soft" style="width:100%;height:50px" onclick="go('kid/new')">+ 아이 추가</button>` : ""}
@@ -825,6 +862,11 @@ function closedToday(l, d = new Date()) {
   });
 }
 function libHours(h) { return (h || "").replace(/\s*\/\s*/g, " · "); }
+function libTile(l) {  // 홈 두 칸용 (오늘 여는 도서관)
+  return `<button class="libtile lift" onclick="go('library/${jsq(libKey(l))}')"><img src="assets/icon-library.webp" alt="" width="40" height="40" loading="lazy" decoding="async">
+    <div style="flex:1;min-width:0"><div class="nm">${esc(l.name)}</div><div style="font-size:12px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(l.gu || "")}</div>
+    <span class="pill pill-mint" style="display:inline-block;margin-top:6px;font-size:11px;padding:3px 8px">오늘 운영</span></div><span class="chev">›</span></button>`;
+}
 function libCard(l) {
   const off = closedToday(l);
   return `<button class="school" onclick="go('library/${jsq(libKey(l))}')"><span class="tile ${off ? "t-lilac" : "t-mint"}" style="width:40px;height:40px">${icon.book}</span>
@@ -909,7 +951,7 @@ function homeLibrary() {
   const open = list.filter(l => !closedToday(l)).slice(0, 2);
   if (!open.length) return "";
   return `<section class="section"><div class="sec-head"><h2>오늘 여는 ${esc(g || "안양")} 도서관</h2><button onclick="go('library')">전체보기</button></div>
-    <div class="lift list">${open.map(libCard).join("")}</div></section>`;
+    <div class="libgrid">${open.map(libTile).join("")}</div></section>`;
 }
 
 // ---------- 아이와 함께 갈 만한 행사 (문화포털 공연·전시 · 안양) ----------
@@ -1473,6 +1515,9 @@ function viewElite() {
 // ---------- 이용 안내 · 개인정보 ----------
 // ---------- 업데이트 소식 (날짜별) ----------
 const NEWS = [
+  { d: "2026-10-22", v: "1.0.52", t: "새 옷을 입었어요", items: [
+    "🏞️ 홈 맨 위에 우리 동네를 닮은 <b>3D 풍경</b>이 생겼어요.",
+    "🧩 <b>전체 메뉴</b>와 아래 메뉴 아이콘을 입체로 새로 그렸어요. 기능은 그대로예요."] },
   { d: "2026-10-22", v: "1.0.51", t: "우리 동네 병원을 한곳에서", items: [
     "🏥 전체 메뉴에 <b>동네 병원</b>이 생겼어요. 의원·병원·응급실을 나눠서 볼 수 있어요.",
     "🩺 소아청소년과·이비인후과 등 <b>진료과</b>로 고르고, <b>지금 진료 중</b>인지 오늘 진료 시간을 바로 봐요.",
@@ -1496,7 +1541,7 @@ const NEWS = [
 ];
 function newsDate(d) { const [y, m, dd] = d.split("-").map(Number); return `${m}월 ${dd}일`; }
 // 새 버전으로 바뀐 걸 홈 맨 위에 한 번 알려 줌 (닫거나 소식을 보면 사라짐)
-const APP_VER = "1.0.51";
+const APP_VER = "1.0.52";
 let UPDATED_FROM = null;
 const IS_NEW_PHONE = !store("edu.appVer");   // 이 휴대폰에서 처음 열었는지 (예전에 쓴 적 있으면 앱 버전이 남아 있음)
 (function () { const last = store("edu.appVer"); if (last && last !== APP_VER) UPDATED_FROM = last; if (!last) store("edu.appVer", APP_VER); })();
