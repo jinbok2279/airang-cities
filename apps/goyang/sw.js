@@ -1,5 +1,5 @@
 // 아이랑 고양 - 오프라인 지원
-const CACHE = "goyang-app-v10";
+const CACHE = "goyang-app-v11";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {

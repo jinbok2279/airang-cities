@@ -197,8 +197,8 @@ a.ev{color:inherit;text-decoration:none}
 <nav class="nav glass" aria-label="주요 메뉴">
   <button class="navi" data-tab="home" style="--pill:#E8EBFF"><span class="ic"><img src="assets/nav-home.webp" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('🏠'))"></span>홈</button>
   <button class="navi" data-tab="events" style="--pill:#FFE8EE"><span class="ic"><img src="assets/nav-culture.webp" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('🎪'))"></span>문화생활</button>
-  <button class="navi" data-tab="sports" style="--pill:#E0F4FA"><span class="ic"><img src="assets/nav-sports.webp" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('🏊'))"></span>운동교실</button>
-  <button class="navi" data-tab="jobs" style="--pill:#FFF0E0"><span class="ic"><img src="assets/nav-jobs.webp" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('💼'))"></span>엄마일자리</button>
+  <button class="navi" data-tab="bene"><span class="ic"><img src="https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/Wrapped%20gift/3D/wrapped_gift_3d.png" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('🎁'))"></span>혜택</button>
+  <button class="navi" data-tab="hosp"><span class="ic"><img src="assets/icon-hospital.webp" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('🏥'))"></span>동네병원</button>
   <button class="navi" data-tab="my" style="--pill:#EFE6FF"><span class="ic"><img src="assets/nav-all.webp" alt="" width="32" height="32" decoding="async" onerror="this.replaceWith(document.createTextNode('🧩'))"></span>전체</button>
 </nav>
 <div class="toast" id="toast" role="status"></div>
@@ -786,14 +786,14 @@ function otherCities() {
     <div class="lift card-pad"><div style="display:flex;flex-wrap:wrap;gap:8px">${OTHER_CITIES.filter(([n]) => n !== me).map(([n, u]) => `<a class="btn btn-soft" style="height:40px;font-size:13.5px;padding:0 14px" href="${u}" target="_blank" rel="noopener" onclick="trackEvent('도시-${n}')">아이랑 ${n} ↗</a>`).join("")}</div>
     <p style="font-size:12px;color:var(--muted);margin:10px 0 0;line-height:1.6">다른 도시 정보를 구경할 수 있어요. 아이 정보는 도시마다 따로 저장돼요.</p></div></section>`;
 }
-const MICON = {"acas": "icon-acas", "kinders": "icon-kindergarten", "library": "icon-library", "books": "icon-bestsellers", "schools": "icon-school-calendar", "premium": "icon-tuition", "elite": "icon-special-schools", "deals": "icon-discount", "hosp": "icon-hospital"};
+const MICON = {"acas": "icon-acas", "kinders": "icon-kindergarten", "library": "icon-library", "books": "icon-bestsellers", "schools": "icon-school-calendar", "premium": "icon-tuition", "elite": "icon-special-schools", "deals": "icon-discount", "hosp": "icon-hospital", "sports": "icon-sports", "jobs": "icon-jobs"};
 function viewMy() {
   const ks = kids();
   const kidRows = ks.map(k => { const sc = kidSchool(k);
     return `<button class="school" onclick="go('kid/${jsq(k.id)}')"><span class="tile ${KID_TILES[k.color % 5]}" style="width:42px;height:42px;font-weight:800">${esc(k.name[0] || "?")}</span>
       <div style="flex:1;min-width:0"><div class="nm">${esc(k.name)}</div><div class="ad">${sc ? esc((kidGradeText(k, sc) ? levelShort(sc).replace("등", "") + " " + kidGradeText(k, sc) : levelShort(sc)) + " · " + sc.name) : "학교 정보 없음"}${k.acas && k.acas.length ? ` · 학원 ${k.acas.length}곳` : ""}${sc && !k.grade ? ` · <b style="color:var(--coral-ink)">학년을 넣어 주세요</b>` : ""}</div></div><span style="font-size:13px;color:var(--indigo);font-weight:700">수정</span></button>`; }).join("");
   const M = [["acas", "✏️", "t-indigo", "학원<br>찾기"], ["kinders", "🧸", "t-sun", "유치원<br>찾기"], ["library", "📚", "t-mint", "도서관<br>찾기"], ["books", "📖", "t-coral", "대출<br>베스트"],
-    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["premium", "📊", "t-sun", "수강료<br>비교", 1], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["hosp", "🏥", "t-mint", "동네<br>병원"], ["bene", "🎁", "t-coral", "놓치기 쉬운<br>혜택"]];
+    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["premium", "📊", "t-sun", "수강료<br>비교", 1], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["sports", "🏊", "t-mint", "운동<br>교실"], ["jobs", "💼", "t-coral", "엄마<br>일자리"]];
   $view.innerHTML = `<h1 style="font-size:27px;font-weight:800;margin-bottom:16px">전체 메뉴</h1>
     <div class="mgrid3">${M.map(([r, e, t, l]) => `<button class="mtile" onclick="go('${r}')">${MICON[r] ? `<img src="assets/${MICON[r]}.webp" alt="" width="68" height="68" decoding="async">` : e3d(e, 68)}<b>${l.replace("·<br>", "·").replace("<br>", " ")}</b></button>`).join("")}</div>
     <section class="section" style="margin-top:0"><div class="sec-head"><h2>우리 아이</h2><span style="font-size:12px;color:var(--muted)">${ks.length}/${MAX_KIDS}명</span></div>
@@ -1528,6 +1528,9 @@ function viewElite() {
 // ---------- 이용 안내 · 개인정보 ----------
 // ---------- 업데이트 소식 (날짜별) ----------
 const NEWS = [
+  { d: "2026-10-23", v: "1.0.56", t: "아래 메뉴가 바뀌었어요", items: [
+    "🎁 아래 메뉴에 <b>혜택</b>과 <b>동네병원</b>이 생겼어요. 한 번에 바로 들어갈 수 있어요.",
+    "🏊 <b>운동교실</b>과 <b>엄마 일자리</b>는 <b>전체</b> 메뉴 안으로 옮겼어요."] },
   { d: "2026-10-23", v: "1.0.53", t: "놓치기 쉬운 혜택 · 동네 약국", items: [
     "🎁 전체 메뉴에 <b>놓치기 쉬운 혜택</b>이 생겼어요. 임신·출산, 영유아, 아동, 다자녀처럼 상황별로 받을 수 있는 혜택을 모았어요.",
     "👶 아이를 등록했다면 <b>우리 아이 맞춤</b>으로 해당될 만한 혜택만 골라 볼 수 있어요.",
@@ -1558,7 +1561,7 @@ const NEWS = [
 ];
 function newsDate(d) { const [y, m, dd] = d.split("-").map(Number); return `${m}월 ${dd}일`; }
 // 새 버전으로 바뀐 걸 홈 맨 위에 한 번 알려 줌 (닫거나 소식을 보면 사라짐)
-const APP_VER = "1.0.55";
+const APP_VER = "1.0.56";
 let UPDATED_FROM = null;
 const IS_NEW_PHONE = !store("edu.appVer");   // 이 휴대폰에서 처음 열었는지 (예전에 쓴 적 있으면 앱 버전이 남아 있음)
 (function () { const last = store("edu.appVer"); if (last && last !== APP_VER) UPDATED_FROM = last; if (!last) store("edu.appVer", APP_VER); })();
@@ -2109,7 +2112,7 @@ function viewBene(keepFocus) {
 function render() {
   if (!DATA) return;
   const r = (location.hash || "#home").slice(1);
-  const tab = r.startsWith("school") ? "home" : r === "events" ? "events" : r === "sports" ? "sports" : r === "jobs" ? "jobs" : r === "home" || r === "" ? "home" : r.startsWith("myev/") ? "home" : "my";
+  const tab = r.startsWith("school") ? "home" : r === "events" ? "events" : r === "bene" ? "bene" : r === "hosp" ? "hosp" : r === "home" || r === "" ? "home" : r.startsWith("myev/") ? "home" : "my";
   document.querySelectorAll(".navi").forEach(b => b.classList.toggle("on", b.dataset.tab === tab));
   if (r !== "admin") { adminOpen = false; ADMIN = null; adminMonths = null; adminViaTap = false; }
   if (r !== "events") evVisit = false;
