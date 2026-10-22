@@ -537,7 +537,7 @@ function viewAdInfo() {
 
 // ---------- 입체 아이콘 (Microsoft Fluent Emoji 3D, MIT) ----------
 const F3D_BASE = "https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/";
-const F3D = { "🏷️": ["Label", "label"], "💳": ["Credit card", "credit_card"], "🛍️": ["Shopping bags", "shopping_bags"], "🏪": ["Convenience store", "convenience_store"], "🎪": ["Circus tent", "circus_tent"], "🎓": ["Graduation cap", "graduation_cap"], "💼": ["Briefcase", "briefcase"], "📊": ["Bar chart", "bar_chart"], "🏫": ["School", "school"],
+const F3D = { "🏥": ["Hospital", "hospital"], "🚑": ["Ambulance", "ambulance"], "🩺": ["Stethoscope", "stethoscope"], "🏷️": ["Label", "label"], "💳": ["Credit card", "credit_card"], "🛍️": ["Shopping bags", "shopping_bags"], "🏪": ["Convenience store", "convenience_store"], "🎪": ["Circus tent", "circus_tent"], "🎓": ["Graduation cap", "graduation_cap"], "💼": ["Briefcase", "briefcase"], "📊": ["Bar chart", "bar_chart"], "🏫": ["School", "school"],
   "📚": ["Books", "books"], "📖": ["Open book", "open_book"], "✏️": ["Pencil", "pencil"], "🧸": ["Teddy bear", "teddy_bear"], "📍": ["Round pushpin", "round_pushpin"],
   "🍚": ["Cooked rice", "cooked_rice"], "☀️": ["Sun", "sun"], "🌤️": ["Sun behind small cloud", "sun_behind_small_cloud"], "☁️": ["Cloud", "cloud"], "🌧️": ["Cloud with rain", "cloud_with_rain"],
   "🏊": ["Person swimming/Default", "", "person_swimming_3d_default.png"], "🧘": ["Person in lotus position/Default", "", "person_in_lotus_position_3d_default.png"],
@@ -742,7 +742,7 @@ function viewMy() {
     return `<button class="school" onclick="go('kid/${jsq(k.id)}')"><span class="tile ${KID_TILES[k.color % 5]}" style="width:42px;height:42px;font-weight:800">${esc(k.name[0] || "?")}</span>
       <div style="flex:1;min-width:0"><div class="nm">${esc(k.name)}</div><div class="ad">${sc ? esc((kidGradeText(k, sc) ? levelShort(sc).replace("등", "") + " " + kidGradeText(k, sc) : levelShort(sc)) + " · " + sc.name) : "학교 정보 없음"}${k.acas && k.acas.length ? ` · 학원 ${k.acas.length}곳` : ""}${sc && !k.grade ? ` · <b style="color:var(--coral-ink)">학년을 넣어 주세요</b>` : ""}</div></div><span style="font-size:13px;color:var(--indigo);font-weight:700">수정</span></button>`; }).join("");
   const M = [["acas", "✏️", "t-indigo", "학원<br>찾기"], ["kinders", "🧸", "t-sun", "유치원<br>찾기"], ["library", "📚", "t-mint", "도서관<br>찾기"], ["books", "📖", "t-coral", "대출<br>베스트"],
-    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["premium", "📊", "t-sun", "수강료<br>비교", 1], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"]];
+    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["premium", "📊", "t-sun", "수강료<br>비교", 1], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["hosp", "🏥", "t-mint", "동네<br>병원"]];
   $view.innerHTML = `<h1 style="font-size:27px;font-weight:800;margin-bottom:16px">전체</h1>
     <div class="lift mgrid">${M.map(([r, e, t, l, p]) => `<button onclick="go('${r}')">${ico3d(e, 52, 46)}<b>${l}</b></button>`).join("")}</div>
     <section class="section" style="margin-top:0"><div class="sec-head"><h2>우리 아이</h2><span style="font-size:12px;color:var(--muted)">${ks.length}/${MAX_KIDS}명</span></div>
@@ -1472,6 +1472,14 @@ function viewElite() {
 // ---------- 이용 안내 · 개인정보 ----------
 // ---------- 업데이트 소식 (날짜별) ----------
 const NEWS = [
+  { d: "2026-10-22", v: "1.0.51", t: "우리 동네 병원을 한곳에서", items: [
+    "🏥 전체 메뉴에 <b>동네 병원</b>이 생겼어요. 의원·병원·응급실을 나눠서 볼 수 있어요.",
+    "🩺 소아청소년과·이비인후과 등 <b>진료과</b>로 고르고, <b>지금 진료 중</b>인지 오늘 진료 시간을 바로 봐요.",
+    "📍 <b>가까운 순</b>으로 볼 수 있어요. 내 위치는 휴대폰 안에서만 쓰고 어디에도 보내지 않아요.",
+    "🚑 응급실 탭에서 응급실 전화와 위치를 바로 찾을 수 있어요. 위급하면 바로 119!"] },
+  { d: "2026-10-22", v: "1.0.50", t: "동네 가게가 직접 알려 주는 할인", items: [
+    "🏪 <b>동네 할인</b>에 가게가 직접 알려 준 할인이 올라와요. 📞 전화·📍 길찾기를 바로 누를 수 있어요.",
+    "✉️ 사장님이라면 <b>할인 올리기 문의</b>로 우리 가게 할인을 올려 보세요."] },
   { d: "2026-10-19", v: "1.0.49", t: "동네에서 아낄 수 있는 할인을 모았어요", items: [
     "🏷️ 전체 메뉴에 <b>동네 할인</b>이 생겼어요. 매일 아침 새 소식을 모아 보여 드려요.",
     "💳 <b>지역화폐</b> 충전 혜택(인센티브·캐시백)과 관련 소식을 한곳에서 볼 수 있어요.",
@@ -1488,7 +1496,7 @@ const NEWS = [
 ];
 function newsDate(d) { const [y, m, dd] = d.split("-").map(Number); return `${m}월 ${dd}일`; }
 // 새 버전으로 바뀐 걸 홈 맨 위에 한 번 알려 줌 (닫거나 소식을 보면 사라짐)
-const APP_VER = "1.0.49";
+const APP_VER = "1.0.51";
 let UPDATED_FROM = null;
 const IS_NEW_PHONE = !store("edu.appVer");   // 이 휴대폰에서 처음 열었는지 (예전에 쓴 적 있으면 앱 버전이 남아 있음)
 (function () { const last = store("edu.appVer"); if (last && last !== APP_VER) UPDATED_FROM = last; if (!last) store("edu.appVer", APP_VER); })();
@@ -1896,6 +1904,84 @@ function viewDeals() {
   $view.innerHTML = back + chips + (list.map(card).join("") || (storeNote ? "" : `<div class="lift empty">아직 모은 할인 정보가 없어요.</div>`)) + storeNote + ad +
     `<div class="foot">할인 내용은 시청 발표·기사·블로그에서 모으고, 동네 가게 할인은 가게가 직접 알려 준 내용이에요. 바뀔 수 있으니 이용 전에 원문을 꼭 확인해 주세요.${DEALS.updated ? `<br>${esc(DEALS.updated)} 기준` : ""}<br>글쓴 분이나 가게에서 목록에서 빼기를 원하시면 <a href="mailto:songgollab@gmail.com?subject=${encodeURIComponent("[아이랑] 동네 할인 글 빼기 요청")}">메일로 알려 주세요</a>. 바로 빼 드려요.</div>`;
 }
+// ---------- 화면: 동네 병원 (의원 / 병원 / 응급실) ----------
+const HS_HINT = { "소아청소년과": "소아", "이비인후과": "이비인후", "내과": "내과", "피부과": "피부", "안과": "안과", "가정의학과": "가정의학|가정의원", "산부인과": "산부인|여성", "정형외과": "정형", "치과": "치과" };
+let HOSP = null, hsLoading = null, hsTab = "clinic", hsDept = "전체", hsGu = "전체", hsQ = "", hsNear = null, hsMore = 40;
+function loadHosp() { if (!hsLoading) hsLoading = dataFetch("hospitals.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(j => { HOSP = j; if (location.hash === "#hosp") render(); }).catch(() => { HOSP = { clinics: [], hospitals: [], er: [], err: 1 }; if (location.hash === "#hosp") render(); }); return hsLoading; }
+function hsSet(k, v) { if (k === "tab") { hsTab = v; hsMore = 40; } if (k === "dept") { hsDept = v; hsMore = 40; } if (k === "gu") { hsGu = v; hsMore = 40; } if (k === "more") hsMore += 40; viewHosp(); }
+function hsKm(x) { if (!hsNear || x.y == null) return null; const R = 6371, r = Math.PI / 180, dy = (x.y - hsNear.y) * r, dx = (x.x - hsNear.x) * r * Math.cos(hsNear.y * r); return R * Math.sqrt(dx * dx + dy * dy); }
+function hsLocate() {
+  if (hsNear) { hsNear = null; return viewHosp(); }
+  if (!navigator.geolocation) return toast("이 휴대폰에서는 위치를 쓸 수 없어요");
+  toast("내 위치를 확인하는 중이에요…");
+  navigator.geolocation.getCurrentPosition(p => { hsNear = { y: p.coords.latitude, x: p.coords.longitude }; hsMore = 40; trackEvent("병원-가까운순"); viewHosp(); },
+    () => toast("위치를 허용하면 가까운 순으로 볼 수 있어요"), { enableHighAccuracy: false, timeout: 8000, maximumAge: 300000 });
+}
+// 오늘 진료시간: h = [월,화,수,목,금,토,일,공휴일] 각 "09001900"
+function hsToday(x) {
+  if (!x.h) return null;
+  const now = new Date(), s = x.h[(now.getDay() + 6) % 7] || "";
+  if (s.length < 8) return { open: false, text: "오늘 휴진(확인 필요)" };
+  const a = +s.slice(0, 4), b = +s.slice(4, 8), t = now.getHours() * 100 + now.getMinutes(), f = v => String(v).padStart(4, "0").replace(/(\d\d)(\d\d)/, "$1:$2");
+  return { open: b > a ? t >= a && t < b : t >= a || t < b, text: `오늘 ${f(a)}~${f(b)}` };
+}
+function hsRow(x, er) {
+  const tag = (t, bg, c) => `<span style="display:inline-block;font-size:11px;font-weight:800;padding:3px 8px;border-radius:8px;background:${bg};color:${c}">${esc(t)}</span>`;
+  const td = hsToday(x), km = hsKm(x), tel = (x.t || "").replace(/[^\d-]/g, "");
+  const map = "https://map.naver.com/p/search/" + encodeURIComponent((x.n || "") + " " + (x.a || "").split(" ").slice(0, 2).join(" "));
+  const kindTag = er ? tag(x.k, x.k.startsWith("권역") ? "#FFE3E0" : "#FFF0E6", x.k.startsWith("권역") ? "#C42B1C" : "#B5541C")
+    : tag(x.k, x.k.includes("종합") ? "#E8EEFF" : "#EEF6F3", x.k.includes("종합") ? "#3B47D6" : "#127A52");
+  return `<div class="lift" style="padding:14px 16px;margin-bottom:10px">
+    <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">${kindTag}${td ? (td.open ? tag("지금 진료 중", "#E6F6EF", "#127A52") : tag("진료 시간 아님", "#F1F3F8", "#5C6478")) : ""}${km != null ? tag(km < 1 ? Math.round(km * 1000) + "m" : km.toFixed(1) + "km", "#F4F2FF", "#5B4FD6") : ""}</div>
+    <div style="font-size:15.5px;font-weight:800;margin-top:6px;line-height:1.4">${esc(x.n)}</div>
+    <div style="font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.5">${esc([(x.d || []).slice(0, 3).join("·"), x.a].filter(Boolean).join(" · "))}${td ? `<br>${esc(td.text)}` : ""}</div>
+    <div style="display:flex;gap:8px;margin-top:10px">${tel ? `<a class="btn ${er ? "btn-3d" : "btn-soft"}" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="tel:${esc(tel)}" onclick="trackEvent('병원-전화${er ? "-응급실" : ""}')">📞 전화</a>` : ""}<a class="btn btn-soft" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="${esc(map)}" target="_blank" rel="noopener" onclick="trackEvent('병원-길찾기')">📍 길찾기</a>${x.u ? `<a class="btn btn-soft" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="${esc(x.u)}" target="_blank" rel="noopener" onclick="trackEvent('병원-홈페이지')">홈페이지 ›</a>` : ""}</div></div>`;
+}
+function viewHosp(keepFocus) {
+  const city = (HOSP && HOSP.city) || document.title.replace("아이랑 ", "");
+  const sos = `<a href="tel:119" onclick="trackEvent('병원-119')" style="display:flex;align-items:center;gap:10px;margin-top:12px;padding:12px 14px;border-radius:14px;background:linear-gradient(135deg,#FF6B5A,#E0402E);color:#fff;text-decoration:none;font-weight:800;font-size:14px;box-shadow:0 6px 16px rgba(224,64,46,.28)">${ico3d("🚑", 34, 28)}<span style="flex:1">위급하면 바로 119에 전화하세요</span><span style="background:rgba(255,255,255,.22);padding:6px 12px;border-radius:10px">📞 119</span></a>`;
+  const head = `<button class="back glass" onclick="history.back()" aria-label="뒤로">${icon.back}</button>
+    <h1 style="font-size:25px;font-weight:800;margin-top:14px">동네 병원</h1>
+    <p style="font-size:13px;color:var(--muted);margin-top:4px">${esc(city)}의 의원·병원·응급실을 모았어요. 일주일마다 새로 받아 와요.</p>${sos}`;
+  if (!HOSP) { loadHosp(); $view.innerHTML = head + `<div class="lift empty" style="margin-top:16px">병원 정보를 불러오는 중이에요…</div>`; return; }
+  const all = { clinic: HOSP.clinics || [], hosp: HOSP.hospitals || [], er: HOSP.er || [] };
+  if (!all.clinic.length && !all.hosp.length && !all.er.length) { $view.innerHTML = head + `<div class="lift empty" style="margin-top:16px">병원 정보를 준비하고 있어요. 곧 볼 수 있어요.</div>`; return; }
+  const seg = [["clinic", "의원", "🩺"], ["hosp", "병원", "🏥"], ["er", "응급실", "🚑"]].map(([k, l, e]) =>
+    `<button class="btn ${hsTab === k ? "btn-3d" : "btn-soft"}" style="flex:1;height:44px;font-size:14px;padding:0 6px" onclick="hsSet('tab','${k}')">${e3d(e, 18)} ${l} <span style="opacity:.7;font-size:12px;margin-left:2px">${all[k].length}</span></button>`).join("");
+  const chip = (k, v, on, label) => `<button class="btn ${on ? "btn-3d" : "btn-soft"}" style="height:34px;font-size:12.5px;padding:0 12px;flex:0 0 auto" onclick="hsSet('${k}','${v}')">${esc(label || v)}</button>`;
+  let list = all[hsTab];
+  const gus = ["전체", ...[...new Set(list.map(x => x.g).filter(Boolean))].sort()];
+  if (!gus.includes(hsGu)) hsGu = "전체";
+  let depts = "";
+  if (hsTab === "clinic") {
+    const ds = ["전체", ...(HOSP.depts || []).filter(d => list.some(x => (x.d || []).includes(d)))];
+    if (!ds.includes(hsDept)) hsDept = "전체";
+    depts = `<div style="display:flex;gap:6px;overflow-x:auto;padding:2px 2px 6px;margin-top:10px">${ds.map(d => chip("dept", d, hsDept === d)).join("")}</div>`;
+    if (hsDept !== "전체") list = list.filter(x => (x.d || []).includes(hsDept) && (hsDept === "치과") === x.k.startsWith("치과")); if (hsDept !== "전체") { const re = new RegExp(HS_HINT[hsDept] || hsDept); list.sort((a, b) => (re.test(a.n) ? 0 : 1) - (re.test(b.n) ? 0 : 1)); }  // 이름에 그 과가 있는 의원 먼저
+  }
+  if (hsGu !== "전체") list = list.filter(x => x.g === hsGu);
+  const q = hsQ.trim();
+  if (q) list = list.filter(x => (x.n + " " + x.a + " " + (x.d || []).join(" ")).includes(q));
+  if (hsNear) list = [...list].sort((a, b) => (hsKm(a) ?? 1e9) - (hsKm(b) ?? 1e9));
+  const filters = `${depts}<div style="display:flex;gap:6px;overflow-x:auto;padding:2px 2px 6px;margin-top:4px">${gus.map(g => chip("gu", g, hsGu === g)).join("")}
+      <button class="btn ${hsNear ? "btn-3d" : "btn-soft"}" style="height:34px;font-size:12.5px;padding:0 12px;flex:0 0 auto" onclick="hsLocate()">📍 가까운 순</button></div>
+    ${hsTab !== "er" ? `<label class="search lift" style="margin-top:6px">${icon.search}<input id="hq" placeholder="병원 이름·동네로 찾기" value="${esc(hsQ)}" aria-label="병원 이름 검색"></label>` : ""}`;
+  const erNote = hsTab === "er" ? `<div style="margin:10px 0;padding:10px 12px;border-radius:12px;background:#FFF1EE;color:#9A2E1F;font-size:12.5px;line-height:1.6">응급실 빈 병상은 수시로 바뀌어요. 가기 전에 <b>응급실에 전화</b>하거나 <a href="https://www.e-gen.or.kr/" target="_blank" rel="noopener" onclick="trackEvent('병원-응급의료포털')" style="color:#C42B1C;font-weight:800">응급의료포털(실시간 병상) ›</a>에서 확인하세요. 아이가 밤·휴일에 아플 때 문 여는 <b>달빛어린이병원</b>도 응급의료포털에서 찾을 수 있어요.</div>` : "";
+  const shown = list.slice(0, hsMore);
+  const more = list.length > hsMore ? `<button class="btn btn-soft" style="width:100%;height:46px;font-size:14px" onclick="hsSet('more')">더 보기 (${list.length - hsMore}곳 더)</button>` : "";
+  const nearNote = hsNear ? `<div style="font-size:11.5px;color:var(--muted);margin:2px 0 8px">내 위치는 이 휴대폰 안에서 거리 계산에만 쓰고, 어디에도 보내지 않아요.</div>` : "";
+  $view.innerHTML = head + `<div style="display:flex;gap:8px;margin-top:16px">${seg}</div>` + filters + erNote +
+    `<div style="font-size:12.5px;color:var(--muted);margin:12px 2px 8px">${list.length}곳${hsNear ? " · 가까운 순" : ""}</div>` + nearNote +
+    (shown.map(x => hsRow(x, hsTab === "er")).join("") || `<div class="lift empty">조건에 맞는 곳이 없어요.</div>`) + more +
+    `<div class="foot">⚠️ 진료 과목·진료 시간·휴진일은 바뀔 수 있어요. <b>가기 전에 꼭 병원에 전화로 확인해 주세요.</b><br>위급한 상황이면 바로 119에 전화하세요.<br>
+      출처: 국립중앙의료원 전국 병·의원 찾기 서비스 (공공데이터포털)${HOSP.updated ? `<br>${esc(HOSP.updated)} 기준` : ""}<br>
+      잘못된 정보는 <a href="mailto:songgollab@gmail.com?subject=${encodeURIComponent("[아이랑 " + city + "] 동네 병원 정보 수정 요청")}">메일로 알려 주세요</a>.</div>`;
+  const inp = document.getElementById("hq");
+  if (inp) {
+    inp.addEventListener("input", () => { hsQ = inp.value; hsMore = 40; viewHosp(true); });
+    if (keepFocus) { inp.focus(); inp.setSelectionRange(hsQ.length, hsQ.length); }
+  }
+}
 function render() {
   if (!DATA) return;
   const r = (location.hash || "#home").slice(1);
@@ -1922,6 +2008,7 @@ function render() {
   else if (r === "events") viewEvents();
   else if (r === "sports") viewSports();
   else if (r === "deals") viewDeals();
+  else if (r === "hosp") viewHosp();
   else if (r === "jobs") viewJobs();
   else if (r === "elite") viewElite();
   else if (r === "about") viewAbout();
