@@ -1,9 +1,9 @@
 {
   "region": "안양시",
-  "updated_at": "2026-10-22 06:01:52",
+  "updated_at": "2026-10-23 06:02:51",
   "period": {
-    "from": "20261022",
-    "to": "20261221"
+    "from": "20261023",
+    "to": "20261222"
   },
   "school_count": 86,
   "public_holidays": [
@@ -17,22 +17,6 @@
     }
   ],
   "highlights": [
-    {
-      "school": "귀인중학교",
-      "level": "중학교",
-      "gu": "동안구",
-      "date": "2026-10-22",
-      "name": "교육과정발표회",
-      "holiday": false
-    },
-    {
-      "school": "안양예술고등학교",
-      "level": "고등학교",
-      "gu": "만안구",
-      "date": "2026-10-22",
-      "name": "신입생 선발전형",
-      "holiday": true
-    },
     {
       "school": "관양고등학교",
       "level": "고등학교",
@@ -944,6 +928,30 @@
       "date": "2026-12-21",
       "name": "진로체험활동",
       "holiday": false
+    },
+    {
+      "school": "샘모루초등학교",
+      "level": "초등학교",
+      "gu": "동안구",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "안양부안초등학교",
+      "level": "초등학교",
+      "gu": "동안구",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "평촌과학기술고등학교",
+      "level": "고등학교",
+      "gu": "동안구",
+      "date": "2026-12-22",
+      "name": "학교 축제",
+      "holiday": false
     }
   ],
   "schools": [
@@ -1087,6 +1095,11 @@
           "date": "2026-12-21",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1214,6 +1227,11 @@
           "date": "2026-12-21",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1240,11 +1258,6 @@
       "gu": "동안구",
       "dong": "호계동",
       "events": [
-        {
-          "date": "2026-10-22",
-          "name": "독도사랑주간",
-          "holiday": false
-        },
         {
           "date": "2026-10-23",
           "name": "독도사랑주간",
@@ -1328,6 +1341,11 @@
         {
           "date": "2026-12-17",
           "name": "전교학생자치선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "문화예술관람",
           "holiday": false
         }
       ]
@@ -1457,11 +1475,6 @@
       "gu": "만안구",
       "dong": "박달동",
       "events": [
-        {
-          "date": "2026-10-22",
-          "name": "교육동행의 날",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "학교장재량휴업일",
@@ -1649,11 +1662,6 @@
       "dong": "평촌동",
       "events": [
         {
-          "date": "2026-10-22",
-          "name": "교육과정발표회",
-          "holiday": false
-        },
-        {
           "date": "2026-10-23",
           "name": "학교축제(귀인제)",
           "holiday": false
@@ -1726,6 +1734,16 @@
         {
           "date": "2026-12-18",
           "name": "재능계발영재학급 수료식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "학급자치(학생회임원선거)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "학생자치임원선거 토론회",
           "holiday": false
         }
       ]
@@ -1926,6 +1944,11 @@
         {
           "date": "2026-12-21",
           "name": "진로적성탐색 프로그램",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "학생자치회장 선거",
           "holiday": false
         }
       ]
@@ -2471,11 +2494,6 @@
       "dong": "석수동",
       "events": [
         {
-          "date": "2026-10-22",
-          "name": "금요일 수업",
-          "holiday": false
-        },
-        {
           "date": "2026-10-23",
           "name": "와룡제",
           "holiday": false
@@ -2566,11 +2584,6 @@
       "dong": "비산동",
       "events": [
         {
-          "date": "2026-10-22",
-          "name": "신입생원서접수",
-          "holiday": false
-        },
-        {
           "date": "2026-10-30",
           "name": "신입생 면접일",
           "holiday": true
@@ -2588,6 +2601,11 @@
         {
           "date": "2026-11-20",
           "name": "창의주제활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "2학기 2차 정기시험",
           "holiday": false
         }
       ]
@@ -2650,11 +2668,6 @@
       "gu": "동안구",
       "dong": "평촌동",
       "events": [
-        {
-          "date": "2026-10-22",
-          "name": "중3대상 교육과정설명회",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "대학수학능력시험",
@@ -2827,6 +2840,16 @@
         },
         {
           "date": "2026-12-21",
+          "name": "SLAT",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "학교자율과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
           "name": "SLAT",
           "holiday": false
         }
@@ -3014,6 +3037,11 @@
           "date": "2026-12-03",
           "name": "지필평가",
           "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "학교 축제",
+          "holiday": false
         }
       ]
     },
@@ -3104,6 +3132,11 @@
           "date": "2026-12-21",
           "name": "학교자율과정운영",
           "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "학교자율과정운영",
+          "holiday": false
         }
       ]
     },
@@ -3157,6 +3190,11 @@
         },
         {
           "date": "2026-12-21",
+          "name": "학교주도활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
           "name": "학교주도활동",
           "holiday": false
         }
@@ -3321,16 +3359,6 @@
       "dong": "안양동",
       "events": [
         {
-          "date": "2026-10-22",
-          "name": "입시설명회",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-22",
-          "name": "학부모대상 수업 공개",
-          "holiday": false
-        },
-        {
           "date": "2026-10-30",
           "name": "학교설명회",
           "holiday": false
@@ -3375,11 +3403,6 @@
       "gu": "만안구",
       "dong": "안양동",
       "events": [
-        {
-          "date": "2026-10-22",
-          "name": "신입생 선발전형",
-          "holiday": true
-        },
         {
           "date": "2026-10-27",
           "name": "신입생 합격자 발표",
