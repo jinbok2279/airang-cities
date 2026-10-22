@@ -563,7 +563,7 @@ function viewAdInfo() {
 
 // ---------- 입체 아이콘 (Microsoft Fluent Emoji 3D, MIT) ----------
 const F3D_BASE = "https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/";
-const F3D = { "🧒": ["Child/Default", "", "child_3d_default.png"], "🏥": ["Hospital", "hospital"], "🚑": ["Ambulance", "ambulance"], "🩺": ["Stethoscope", "stethoscope"], "🏷️": ["Label", "label"], "💳": ["Credit card", "credit_card"], "🛍️": ["Shopping bags", "shopping_bags"], "🏪": ["Convenience store", "convenience_store"], "🎪": ["Circus tent", "circus_tent"], "🎓": ["Graduation cap", "graduation_cap"], "💼": ["Briefcase", "briefcase"], "📊": ["Bar chart", "bar_chart"], "🏫": ["School", "school"],
+const F3D = { "💊": ["Pill", "pill"], "🎁": ["Wrapped gift", "wrapped_gift"], "🧒": ["Child/Default", "", "child_3d_default.png"], "🏥": ["Hospital", "hospital"], "🚑": ["Ambulance", "ambulance"], "🩺": ["Stethoscope", "stethoscope"], "🏷️": ["Label", "label"], "💳": ["Credit card", "credit_card"], "🛍️": ["Shopping bags", "shopping_bags"], "🏪": ["Convenience store", "convenience_store"], "🎪": ["Circus tent", "circus_tent"], "🎓": ["Graduation cap", "graduation_cap"], "💼": ["Briefcase", "briefcase"], "📊": ["Bar chart", "bar_chart"], "🏫": ["School", "school"],
   "📚": ["Books", "books"], "📖": ["Open book", "open_book"], "✏️": ["Pencil", "pencil"], "🧸": ["Teddy bear", "teddy_bear"], "📍": ["Round pushpin", "round_pushpin"],
   "🍚": ["Cooked rice", "cooked_rice"], "☀️": ["Sun", "sun"], "🌤️": ["Sun behind small cloud", "sun_behind_small_cloud"], "☁️": ["Cloud", "cloud"], "🌧️": ["Cloud with rain", "cloud_with_rain"],
   "🏊": ["Person swimming/Default", "", "person_swimming_3d_default.png"], "🧘": ["Person in lotus position/Default", "", "person_in_lotus_position_3d_default.png"],
@@ -779,9 +779,9 @@ function viewMy() {
     return `<button class="school" onclick="go('kid/${jsq(k.id)}')"><span class="tile ${KID_TILES[k.color % 5]}" style="width:42px;height:42px;font-weight:800">${esc(k.name[0] || "?")}</span>
       <div style="flex:1;min-width:0"><div class="nm">${esc(k.name)}</div><div class="ad">${sc ? esc((kidGradeText(k, sc) ? levelShort(sc).replace("등", "") + " " + kidGradeText(k, sc) : levelShort(sc)) + " · " + sc.name) : "학교 정보 없음"}${k.acas && k.acas.length ? ` · 학원 ${k.acas.length}곳` : ""}${sc && !k.grade ? ` · <b style="color:var(--coral-ink)">학년을 넣어 주세요</b>` : ""}</div></div><span style="font-size:13px;color:var(--indigo);font-weight:700">수정</span></button>`; }).join("");
   const M = [["acas", "✏️", "t-indigo", "학원<br>찾기"], ["kinders", "🧸", "t-sun", "유치원<br>찾기"], ["library", "📚", "t-mint", "도서관<br>찾기"], ["books", "📖", "t-coral", "대출<br>베스트"],
-    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["premium", "📊", "t-sun", "수강료<br>비교", 1], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["hosp", "🏥", "t-mint", "동네<br>병원"]];
+    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["premium", "📊", "t-sun", "수강료<br>비교", 1], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["hosp", "🏥", "t-mint", "동네<br>병원"], ["bene", "🎁", "t-coral", "놓치기 쉬운<br>혜택"]];
   $view.innerHTML = `<h1 style="font-size:27px;font-weight:800;margin-bottom:16px">전체 메뉴</h1>
-    <div class="mgrid3">${M.map(([r, e, t, l]) => `<button class="mtile" onclick="go('${r}')"><img src="assets/${MICON[r]}.webp" alt="" width="68" height="68" decoding="async"><b>${l.replace("·<br>", "·").replace("<br>", " ")}</b></button>`).join("")}</div>
+    <div class="mgrid3">${M.map(([r, e, t, l]) => `<button class="mtile" onclick="go('${r}')">${MICON[r] ? `<img src="assets/${MICON[r]}.webp" alt="" width="68" height="68" decoding="async">` : e3d(e, 68)}<b>${l.replace("·<br>", "·").replace("<br>", " ")}</b></button>`).join("")}</div>
     <section class="section" style="margin-top:0"><div class="sec-head"><h2>우리 아이</h2><span style="font-size:12px;color:var(--muted)">${ks.length}/${MAX_KIDS}명</span></div>
       <div class="lift list">${kidRows || `<div class="empty">아직 등록한 아이가 없어요.</div>`}</div>
       ${ks.length < MAX_KIDS ? `<button class="btn btn-soft" style="width:100%;height:50px" onclick="go('kid/new')">+ 아이 추가</button>` : ""}
@@ -1514,6 +1514,10 @@ function viewElite() {
 // ---------- 이용 안내 · 개인정보 ----------
 // ---------- 업데이트 소식 (날짜별) ----------
 const NEWS = [
+  { d: "2026-10-23", v: "1.0.53", t: "놓치기 쉬운 혜택 · 동네 약국", items: [
+    "🎁 전체 메뉴에 <b>놓치기 쉬운 혜택</b>이 생겼어요. 임신·출산, 영유아, 아동, 다자녀처럼 상황별로 받을 수 있는 혜택을 모았어요.",
+    "👶 아이를 등록했다면 <b>우리 아이 맞춤</b>으로 해당될 만한 혜택만 골라 볼 수 있어요.",
+    "💊 동네 병원에 <b>약국</b> 탭이 생겼어요. 지금 문 연 약국, 일요일·공휴일, 밤 9시 이후 여는 약국을 찾을 수 있어요."] },
   { d: "2026-10-22", v: "1.0.52", t: "새 옷을 입었어요", items: [
     "🏞️ 홈 맨 위에 우리 동네를 닮은 <b>3D 풍경</b>이 생겼어요.",
     "🧩 <b>전체 메뉴</b>와 아래 메뉴 아이콘을 입체로 새로 그렸어요. 기능은 그대로예요."] },
@@ -1541,7 +1545,7 @@ const NEWS = [
 ];
 function newsDate(d) { const [y, m, dd] = d.split("-").map(Number); return `${m}월 ${dd}일`; }
 // 새 버전으로 바뀐 걸 홈 맨 위에 한 번 알려 줌 (닫거나 소식을 보면 사라짐)
-const APP_VER = "1.0.52";
+const APP_VER = "1.0.53";
 let UPDATED_FROM = null;
 const IS_NEW_PHONE = !store("edu.appVer");   // 이 휴대폰에서 처음 열었는지 (예전에 쓴 적 있으면 앱 버전이 남아 있음)
 (function () { const last = store("edu.appVer"); if (last && last !== APP_VER) UPDATED_FROM = last; if (!last) store("edu.appVer", APP_VER); })();
@@ -1951,9 +1955,9 @@ function viewDeals() {
 }
 // ---------- 화면: 동네 병원 (의원 / 병원 / 응급실) ----------
 const HS_HINT = { "소아청소년과": "소아", "이비인후과": "이비인후", "내과": "내과", "피부과": "피부", "안과": "안과", "가정의학과": "가정의학|가정의원", "산부인과": "산부인|여성", "정형외과": "정형", "치과": "치과" };
-let HOSP = null, hsLoading = null, hsTab = "clinic", hsDept = "전체", hsGu = "전체", hsQ = "", hsNear = null, hsMore = 40;
+let HOSP = null, hsLoading = null, hsTab = "clinic", hsDept = "전체", hsGu = "전체", hsQ = "", hsNear = null, hsMore = 40, hsPf = "전체";
 function loadHosp() { if (!hsLoading) hsLoading = dataFetch("hospitals.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(j => { HOSP = j; if (location.hash === "#hosp") render(); }).catch(() => { HOSP = { clinics: [], hospitals: [], er: [], err: 1 }; if (location.hash === "#hosp") render(); }); return hsLoading; }
-function hsSet(k, v) { if (k === "tab") { hsTab = v; hsMore = 40; } if (k === "dept") { hsDept = v; hsMore = 40; } if (k === "gu") { hsGu = v; hsMore = 40; } if (k === "more") hsMore += 40; viewHosp(); }
+function hsSet(k, v) { if (k === "tab") { hsTab = v; hsMore = 40; } if (k === "dept") { hsDept = v; hsMore = 40; } if (k === "gu") { hsGu = v; hsMore = 40; } if (k === "pf") { hsPf = v; hsMore = 40; } if (k === "more") hsMore += 40; viewHosp(); }
 function hsKm(x) { if (!hsNear || x.y == null) return null; const R = 6371, r = Math.PI / 180, dy = (x.y - hsNear.y) * r, dx = (x.x - hsNear.x) * r * Math.cos(hsNear.y * r); return R * Math.sqrt(dx * dx + dy * dy); }
 function hsLocate() {
   if (hsNear) { hsNear = null; return viewHosp(); }
@@ -1977,7 +1981,7 @@ function hsRow(x, er) {
   const kindTag = er ? tag(x.k, x.k.startsWith("권역") ? "#FFE3E0" : "#FFF0E6", x.k.startsWith("권역") ? "#C42B1C" : "#B5541C")
     : tag(x.k, x.k.includes("종합") ? "#E8EEFF" : "#EEF6F3", x.k.includes("종합") ? "#3B47D6" : "#127A52");
   return `<div class="lift" style="padding:14px 16px;margin-bottom:10px">
-    <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">${kindTag}${td ? (td.open ? tag("지금 진료 중", "#E6F6EF", "#127A52") : tag("진료 시간 아님", "#F1F3F8", "#5C6478")) : ""}${km != null ? tag(km < 1 ? Math.round(km * 1000) + "m" : km.toFixed(1) + "km", "#F4F2FF", "#5B4FD6") : ""}</div>
+    <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">${kindTag}${td ? (td.open ? tag(x.k === "약국" ? "지금 영업 중" : "지금 진료 중", "#E6F6EF", "#127A52") : tag(x.k === "약국" ? "영업 시간 아님" : "진료 시간 아님", "#F1F3F8", "#5C6478")) : ""}${km != null ? tag(km < 1 ? Math.round(km * 1000) + "m" : km.toFixed(1) + "km", "#F4F2FF", "#5B4FD6") : ""}</div>
     <div style="font-size:15.5px;font-weight:800;margin-top:6px;line-height:1.4">${esc(x.n)}</div>
     <div style="font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.5">${esc([(x.d || []).slice(0, 3).join("·"), x.a].filter(Boolean).join(" · "))}${td ? `<br>${esc(td.text)}` : ""}</div>
     <div style="display:flex;gap:8px;margin-top:10px">${tel ? `<a class="btn ${er ? "btn-3d" : "btn-soft"}" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="tel:${esc(tel)}" onclick="trackEvent('병원-전화${er ? "-응급실" : ""}')">📞 전화</a>` : ""}<a class="btn btn-soft" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="${esc(map)}" target="_blank" rel="noopener" onclick="trackEvent('병원-길찾기')">📍 길찾기</a>${x.u ? `<a class="btn btn-soft" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="${esc(x.u)}" target="_blank" rel="noopener" onclick="trackEvent('병원-홈페이지')">홈페이지 ›</a>` : ""}</div></div>`;
@@ -1987,12 +1991,12 @@ function viewHosp(keepFocus) {
   const sos = `<a href="tel:119" onclick="trackEvent('병원-119')" style="display:flex;align-items:center;gap:10px;margin-top:12px;padding:12px 14px;border-radius:14px;background:linear-gradient(135deg,#FF6B5A,#E0402E);color:#fff;text-decoration:none;font-weight:800;font-size:14px;box-shadow:0 6px 16px rgba(224,64,46,.28)">${ico3d("🚑", 34, 28)}<span style="flex:1">위급하면 바로 119에 전화하세요</span><span style="background:rgba(255,255,255,.22);padding:6px 12px;border-radius:10px">📞 119</span></a>`;
   const head = `<button class="back glass" onclick="history.back()" aria-label="뒤로">${icon.back}</button>
     <h1 style="font-size:25px;font-weight:800;margin-top:14px">동네 병원</h1>
-    <p style="font-size:13px;color:var(--muted);margin-top:4px">${esc(city)}의 의원·병원·응급실을 모았어요. 일주일마다 새로 받아 와요.</p>${sos}`;
+    <p style="font-size:13px;color:var(--muted);margin-top:4px">${esc(city)}의 의원·병원·약국·응급실을 모았어요. 일주일마다 새로 받아 와요.</p>${sos}`;
   if (!HOSP) { loadHosp(); $view.innerHTML = head + `<div class="lift empty" style="margin-top:16px">병원 정보를 불러오는 중이에요…</div>`; return; }
-  const all = { clinic: HOSP.clinics || [], hosp: HOSP.hospitals || [], er: HOSP.er || [] };
-  if (!all.clinic.length && !all.hosp.length && !all.er.length) { $view.innerHTML = head + `<div class="lift empty" style="margin-top:16px">병원 정보를 준비하고 있어요. 곧 볼 수 있어요.</div>`; return; }
-  const seg = [["clinic", "의원", "🩺"], ["hosp", "병원", "🏥"], ["er", "응급실", "🚑"]].map(([k, l, e]) =>
-    `<button class="btn ${hsTab === k ? "btn-3d" : "btn-soft"}" style="flex:1;height:44px;font-size:14px;padding:0 6px" onclick="hsSet('tab','${k}')">${e3d(e, 18)} ${l} <span style="opacity:.7;font-size:12px;margin-left:2px">${all[k].length}</span></button>`).join("");
+  const all = { clinic: HOSP.clinics || [], hosp: HOSP.hospitals || [], pharm: HOSP.pharm || [], er: HOSP.er || [] };
+  if (!all.clinic.length && !all.hosp.length && !all.pharm.length && !all.er.length) { $view.innerHTML = head + `<div class="lift empty" style="margin-top:16px">병원 정보를 준비하고 있어요. 곧 볼 수 있어요.</div>`; return; }
+  const seg = [["clinic", "의원", "🩺"], ["hosp", "병원", "🏥"], ["pharm", "약국", "💊"], ["er", "응급실", "🚑"]].filter(([k]) => k !== "pharm" || all.pharm.length).map(([k, l, e]) =>
+    `<button class="btn ${hsTab === k ? "btn-3d" : "btn-soft"}" style="flex:1;min-width:0;height:44px;font-size:13px;padding:0 4px;gap:3px;white-space:nowrap" onclick="hsSet('tab','${k}')">${e3d(e, 18)} ${l} <span style="opacity:.7;font-size:12px;margin-left:2px">${all[k].length}</span></button>`).join("");
   const chip = (k, v, on, label) => `<button class="btn ${on ? "btn-3d" : "btn-soft"}" style="height:34px;font-size:12.5px;padding:0 12px;flex:0 0 auto" onclick="hsSet('${k}','${v}')">${esc(label || v)}</button>`;
   let list = all[hsTab];
   const gus = ["전체", ...[...new Set(list.map(x => x.g).filter(Boolean))].sort()];
@@ -2003,6 +2007,13 @@ function viewHosp(keepFocus) {
     if (!ds.includes(hsDept)) hsDept = "전체";
     depts = `<div style="display:flex;gap:6px;overflow-x:auto;padding:2px 2px 6px;margin-top:10px">${ds.map(d => chip("dept", d, hsDept === d)).join("")}</div>`;
     if (hsDept !== "전체") list = list.filter(x => (x.d || []).includes(hsDept) && (hsDept === "치과") === x.k.startsWith("치과")); if (hsDept !== "전체") { const re = new RegExp(HS_HINT[hsDept] || hsDept); list.sort((a, b) => (re.test(a.n) ? 0 : 1) - (re.test(b.n) ? 0 : 1)); }  // 이름에 그 과가 있는 의원 먼저
+  }
+  if (hsTab === "pharm") {   // 약국: 지금 영업 / 일요일·공휴일 / 밤 9시 이후 (h = [월~일, 공휴일] "09002100")
+    const PF = { "지금 영업": x => (hsToday(x) || {}).open, "일요일·공휴일": x => x.h && (x.h[6] || x.h[7]),
+      "밤 9시 이후": x => x.h && x.h.slice(0, 5).some(t => t.length >= 8 && (+t.slice(4) >= 2100 || +t.slice(4) < +t.slice(0, 4))) };
+    if (!PF[hsPf]) hsPf = "전체";
+    depts = `<div style="display:flex;gap:6px;overflow-x:auto;padding:2px 2px 6px;margin-top:10px">${["전체", ...Object.keys(PF)].map(v => chip("pf", v, hsPf === v)).join("")}</div>`;
+    if (hsPf !== "전체") list = list.filter(PF[hsPf]);
   }
   if (hsGu !== "전체") list = list.filter(x => x.g === hsGu);
   const q = hsQ.trim();
@@ -2019,13 +2030,68 @@ function viewHosp(keepFocus) {
     `<div style="font-size:12.5px;color:var(--muted);margin:12px 2px 8px">${list.length}곳${hsNear ? " · 가까운 순" : ""}</div>` + nearNote +
     (shown.map(x => hsRow(x, hsTab === "er")).join("") || `<div class="lift empty">조건에 맞는 곳이 없어요.</div>`) + more +
     `<div class="foot">⚠️ 진료 과목·진료 시간·휴진일은 바뀔 수 있어요. <b>가기 전에 꼭 병원에 전화로 확인해 주세요.</b><br>위급한 상황이면 바로 119에 전화하세요.<br>
-      출처: 국립중앙의료원 전국 병·의원 찾기 서비스 (공공데이터포털)${HOSP.updated ? `<br>${esc(HOSP.updated)} 기준` : ""}<br>
+      출처: 국립중앙의료원 전국 병·의원 찾기·약국 정보 서비스 (공공데이터포털)${HOSP.updated ? `<br>${esc(HOSP.updated)} 기준` : ""}<br>
       잘못된 정보는 <a href="mailto:songgollab@gmail.com?subject=${encodeURIComponent("[아이랑 " + city + "] 동네 병원 정보 수정 요청")}">메일로 알려 주세요</a>.</div>`;
   const inp = document.getElementById("hq");
   if (inp) {
     inp.addEventListener("input", () => { hsQ = inp.value; hsMore = 40; viewHosp(true); });
     if (keepFocus) { inp.focus(); inp.setSelectionRange(hsQ.length, hsQ.length); }
   }
+}
+// ---------- 화면: 놓치기 쉬운 혜택 (복지로 · 나라 혜택 + 우리 시 혜택) ----------
+let BENE = null, bnLoading = null, bnCat = "전체", bnQ = "", bnMore = 30;
+const BN_CAT = [["우리 아이 맞춤", "kid"], ["임신·출산", "임신"], ["영유아", "영유아"], ["아동", "아동"], ["청소년", "청소년"], ["다자녀", "다자녀"], ["한부모", "한부모"]];
+function loadBene() { if (!bnLoading) bnLoading = dataFetch("benefits.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(j => { BENE = j; if (location.hash === "#bene") render(); }).catch(() => { BENE = { items: [], err: 1 }; if (location.hash === "#bene") render(); }); return bnLoading; }
+function bnSet(k, v) { if (k === "cat") { bnCat = v; bnMore = 30; } if (k === "more") bnMore += 30; viewBene(); }
+function bnKidLife() {  // 등록한 아이 학교로 생애주기 (휴대폰 안에서만 계산)
+  const st = new Set();
+  kids().forEach(k => { const sc = kidSchool(k), l = sc ? levelShort(sc) : ""; if (l === "초등") st.add("아동"); else if (l) st.add("청소년"); });
+  return st;
+}
+function bnCard(x) {
+  const tag = (t, bg, c) => `<span style="display:inline-block;font-size:11px;font-weight:800;padding:3px 8px;border-radius:8px;background:${bg};color:${c}">${esc(t)}</span>`;
+  const who = [...x.life, ...x.tgt].filter((v, i, a) => a.indexOf(v) === i).slice(0, 5);
+  const tel = (x.tel || "").replace(/[^\d-]/g, "");
+  return `<div class="lift" style="padding:14px 16px;margin-bottom:10px">
+    <div style="display:flex;gap:6px;flex-wrap:wrap">${x.scope === "local" ? tag("우리 시", "var(--city-soft)", "var(--city-ink)") : tag("나라", "#EEF0F6", "#3A4256")}${x.online ? tag("온라인 신청", "#E6F6EF", "#127A52") : ""}${x.kind ? tag(x.kind, "#F4F2FF", "#5B4FD6") : ""}${x.cyc ? tag(x.cyc, "#F1F3F8", "#5C6478") : ""}</div>
+    <div style="font-size:15.5px;font-weight:800;margin-top:7px;line-height:1.4">${esc(x.n)}</div>
+    ${x.org ? `<div style="font-size:12px;color:var(--muted);margin-top:2px">${esc(x.org)}</div>` : ""}
+    ${x.sum ? `<div style="font-size:13px;margin-top:7px;line-height:1.55">${esc(x.sum)}</div>` : ""}
+    ${who.length ? `<div style="font-size:12px;color:var(--muted);margin-top:7px">대상 · ${esc(who.join(", "))}</div>` : ""}
+    <div style="display:flex;gap:8px;margin-top:11px">${x.link ? `<a class="btn btn-soft" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="${esc(x.link)}" target="_blank" rel="noopener" onclick="trackEvent('혜택-자세히')">자세히 보기 ›</a>` : ""}${tel ? `<a class="btn btn-soft" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="tel:${esc(tel)}" onclick="trackEvent('혜택-전화')">📞 문의</a>` : ""}</div>
+    ${[x.apply ? "신청 · " + x.apply : "", !tel && x.telTxt ? "문의 · " + x.telTxt : ""].filter(Boolean).map(t => `<div style="font-size:11.5px;color:var(--muted);margin-top:6px">${esc(t)}</div>`).join("")}</div>`;
+}
+function viewBene(keepFocus) {
+  const city = (BENE && BENE.city) || document.title.replace("아이랑 ", "");
+  const head = `<button class="back glass" onclick="history.back()" aria-label="뒤로">${icon.back}</button>
+    <h1 style="font-size:25px;font-weight:800;margin-top:14px">놓치기 쉬운 혜택</h1>
+    <p style="font-size:13px;color:var(--muted);margin-top:4px">임신·출산부터 아이 키우는 집이 신청하면 받을 수 있는 혜택을 모았어요. 일주일마다 새로 받아 와요.</p>
+    <div style="margin-top:10px;padding:10px 12px;border-radius:12px;background:#FFF7DB;color:#7A5A00;font-size:12.5px;line-height:1.55">⚠️ 받을 수 있는지는 소득·나이·거주 기간 같은 조건에 따라 달라요. <b>신청 전에 꼭 담당 기관에 확인해 주세요.</b></div>`;
+  if (!BENE) { loadBene(); $view.innerHTML = head + `<div class="lift empty" style="margin-top:16px">혜택 정보를 불러오는 중이에요…</div>`; return; }
+  const items = BENE.items || [];
+  if (!items.length) { $view.innerHTML = head + `<div class="lift empty" style="margin-top:16px">혜택 정보를 준비하고 있어요. 곧 볼 수 있어요.</div>`; return; }
+  const kidLife = bnKidLife();
+  const cats = ["전체", ...BN_CAT.filter(([l, v]) => v === "kid" ? kidLife.size : items.some(x => [...x.life, ...x.tgt].join(" ").includes(v))).map(([l]) => l)];
+  if (!cats.includes(bnCat)) bnCat = "전체";
+  let list = items;
+  if (bnCat !== "전체") { const v = BN_CAT.find(([l]) => l === bnCat)[1];
+    list = v === "kid" ? items.filter(x => x.life.some(l => [...kidLife].some(k => l.includes(k)))) : items.filter(x => [...x.life, ...x.tgt].join(" ").includes(v)); }
+  const q = bnQ.trim();
+  if (q) list = list.filter(x => (x.n + " " + x.sum + " " + x.org).includes(q));
+  const chip = l => `<button class="btn ${bnCat === l ? "btn-3d" : "btn-soft"}" style="height:34px;font-size:12.5px;padding:0 12px;flex:0 0 auto" onclick="bnSet('cat','${l}')">${esc(l)}</button>`;
+  const loc = list.filter(x => x.scope === "local"), nat = list.filter(x => x.scope !== "local");
+  const sec = (title, arr) => arr.length ? `<div style="font-size:16px;font-weight:800;margin:16px 2px 10px">${title} <span style="font-size:12.5px;color:var(--muted);font-weight:600">${arr.length}개</span></div>${arr.slice(0, bnMore).map(bnCard).join("")}` : "";
+  const more = Math.max(loc.length, nat.length) > bnMore ? `<button class="btn btn-soft" style="width:100%;height:46px;font-size:14px" onclick="bnSet('more')">더 보기</button>` : "";
+  $view.innerHTML = head + `<div style="display:flex;gap:6px;overflow-x:auto;padding:2px 2px 6px;margin-top:14px">${cats.map(chip).join("")}</div>
+    <label class="search lift" style="margin-top:6px">${icon.search}<input id="bq" placeholder="혜택 이름으로 찾기 (예: 첫만남, 돌봄)" value="${esc(bnQ)}" aria-label="혜택 검색"></label>
+    ${bnCat === "우리 아이 맞춤" ? `<div style="font-size:11.5px;color:var(--muted);margin:8px 2px 0">등록한 아이 학교로 골랐어요. 아이 정보는 이 휴대폰 안에서만 써요.</div>` : ""}
+    ${sec(esc(city) + "시 혜택", loc)}${sec("나라 혜택", nat)}${list.length ? "" : `<div class="lift empty" style="margin-top:14px">조건에 맞는 혜택이 없어요.</div>`}${more}
+    ${BENE.src && !BENE.src.local ? `<div style="font-size:12px;color:var(--muted);margin:14px 2px 0;line-height:1.6">${esc(city)}시가 따로 주는 혜택(다자녀·출산 지원 등)은 준비 중이에요. 지금은 시청 홈페이지에서 확인해 주세요.</div>` : ""}
+    <div class="foot">출처: 한국사회보장정보원 복지서비스 정보 (복지로, 공공데이터포털)${BENE.updated ? `<br>${esc(BENE.updated)} 기준` : ""}<br>
+      잘못된 정보는 <a href="mailto:songgollab@gmail.com?subject=${encodeURIComponent("[아이랑 " + city + "] 혜택 정보 수정 요청")}">메일로 알려 주세요</a>.</div>`;
+  const inp = document.getElementById("bq");
+  inp.addEventListener("input", () => { bnQ = inp.value; bnMore = 30; viewBene(true); });
+  if (keepFocus) { inp.focus(); inp.setSelectionRange(bnQ.length, bnQ.length); }
 }
 function render() {
   if (!DATA) return;
@@ -2054,6 +2120,7 @@ function render() {
   else if (r === "sports") viewSports();
   else if (r === "deals") viewDeals();
   else if (r === "hosp") viewHosp();
+  else if (r === "bene") viewBene();
   else if (r === "jobs") viewJobs();
   else if (r === "elite") viewElite();
   else if (r === "about") viewAbout();
