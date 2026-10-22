@@ -1,0 +1,41 @@
+name: hospitals (동네 병원 — 의원·병원·응급실)
+on:
+  schedule:
+    - cron: "50 19 * * 0"   # 매주 월요일 04:50 (한국시간)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: hospitals, cancel-in-progress: false }
+jobs:
+  hospitals:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        include:
+          - { city: 성남, d: seongnam }
+          - { city: 안양, d: anyang }
+          - { city: 고양, d: goyang }
+          - { city: 화성, d: hwaseong }
+          - { city: 부천, d: bucheon }
+    env:
+      CITY: ${{ matrix.city }}
+      WEATHER_KEY: ${{ secrets.WEATHER_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: |
+          mkdir -p output logs
+          cp data/${{ matrix.d }}/hospitals.json output/ 2>/dev/null || true   # 실패하면 지난번 것을 그대로 쓰게
+          set -o pipefail
+          python -u hospitals.py 2>&1 | tee logs/hospitals-${{ matrix.d }}.txt
+      - if: always()
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add logs/hospitals-${{ matrix.d }}.txt
+          if [ -f output/hospitals.json ]; then mkdir -p data/${{ matrix.d }} && cp output/hospitals.json data/${{ matrix.d }}/ && git add data/${{ matrix.d }}/hospitals.json; fi
+          git diff --cached --quiet && exit 0
+          git commit -m "${{ matrix.city }} 동네 병원"
+          for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && break; sleep $((i*5)); done
