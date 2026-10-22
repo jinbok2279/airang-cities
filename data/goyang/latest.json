@@ -1,9 +1,9 @@
 {
   "region": "고양시",
-  "updated_at": "2026-10-22 06:12:52",
+  "updated_at": "2026-10-23 06:12:05",
   "period": {
-    "from": "20261022",
-    "to": "20261221"
+    "from": "20261023",
+    "to": "20261222"
   },
   "school_count": 174,
   "public_holidays": [
@@ -62,81 +62,13 @@
     {
       "date": "2026-12-21",
       "name": "겨울방학"
+    },
+    {
+      "date": "2026-12-22",
+      "name": "겨울방학"
     }
   ],
   "highlights": [
-    {
-      "school": "고양오금초등학교",
-      "level": "초등학교",
-      "gu": "덕양구",
-      "date": "2026-10-22",
-      "name": "학급 교육과정 발표회",
-      "holiday": false
-    },
-    {
-      "school": "능곡고등학교",
-      "level": "고등학교",
-      "gu": "덕양구",
-      "date": "2026-10-22",
-      "name": "학부모 상담주간",
-      "holiday": false
-    },
-    {
-      "school": "백석중학교",
-      "level": "중학교",
-      "gu": "일산동구",
-      "date": "2026-10-22",
-      "name": "학부모상담주간",
-      "holiday": false
-    },
-    {
-      "school": "백송고등학교",
-      "level": "고등학교",
-      "gu": "일산서구",
-      "date": "2026-10-22",
-      "name": "학교장 재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "신일중학교",
-      "level": "중학교",
-      "gu": "일산서구",
-      "date": "2026-10-22",
-      "name": "학부모상담주간",
-      "holiday": false
-    },
-    {
-      "school": "안곡중학교",
-      "level": "중학교",
-      "gu": "일산동구",
-      "date": "2026-10-22",
-      "name": "학부모 대상 공개수업",
-      "holiday": false
-    },
-    {
-      "school": "용두초등학교",
-      "level": "초등학교",
-      "gu": "덕양구",
-      "date": "2026-10-22",
-      "name": "별자리체험교실",
-      "holiday": false
-    },
-    {
-      "school": "장성중학교",
-      "level": "중학교",
-      "gu": "일산서구",
-      "date": "2026-10-22",
-      "name": "학부모 상담주간",
-      "holiday": false
-    },
-    {
-      "school": "저동초등학교",
-      "level": "초등학교",
-      "gu": "일산동구",
-      "date": "2026-10-22",
-      "name": "독서축제기간",
-      "holiday": false
-    },
     {
       "school": "가좌고등학교",
       "level": "고등학교",
@@ -518,7 +450,7 @@
       "level": "중학교",
       "gu": "일산동구",
       "date": "2026-10-29",
-      "name": "스포츠 한마당",
+      "name": "스포츠한마당",
       "holiday": false
     },
     {
@@ -2024,6 +1956,102 @@
       "date": "2026-12-21",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "대화중학교",
+      "level": "중학교",
+      "gu": "일산서구",
+      "date": "2026-12-22",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "대화초등학교",
+      "level": "초등학교",
+      "gu": "일산서구",
+      "date": "2026-12-22",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "성저초등학교",
+      "level": "초등학교",
+      "gu": "일산서구",
+      "date": "2026-12-22",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "용두초등학교",
+      "level": "초등학교",
+      "gu": "덕양구",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "일산동고등학교",
+      "level": "고등학교",
+      "gu": "일산서구",
+      "date": "2026-12-22",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "일산은행초등학교",
+      "level": "초등학교",
+      "gu": "일산동구",
+      "date": "2026-12-22",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "정발중학교",
+      "level": "중학교",
+      "gu": "일산동구",
+      "date": "2026-12-22",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "행남초등학교",
+      "level": "초등학교",
+      "gu": "덕양구",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "현산초등학교",
+      "level": "초등학교",
+      "gu": "일산서구",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "호곡초등학교",
+      "level": "초등학교",
+      "gu": "일산서구",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "화중초등학교",
+      "level": "초등학교",
+      "gu": "덕양구",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "황룡초등학교",
+      "level": "초등학교",
+      "gu": "일산서구",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -2063,11 +2091,6 @@
       "dong": "오금동",
       "events": [
         {
-          "date": "2026-10-22",
-          "name": "학급 교육과정 발표회",
-          "holiday": false
-        },
-        {
           "date": "2026-10-23",
           "name": "학급 교육과정 발표회",
           "holiday": false
@@ -2101,6 +2124,11 @@
           "date": "2026-12-11",
           "name": "1학기전교임원선출",
           "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "신입생예비소집",
+          "holiday": false
         }
       ]
     },
@@ -2112,11 +2140,6 @@
       "gu": "덕양구",
       "dong": "행신동",
       "events": [
-        {
-          "date": "2026-10-22",
-          "name": "독도교육주간",
-          "holiday": false
-        },
         {
           "date": "2026-10-23",
           "name": "독도교육주간",
@@ -2377,11 +2400,6 @@
       "dong": "신원동",
       "events": [
         {
-          "date": "2026-10-22",
-          "name": "독도교육주간",
-          "holiday": false
-        },
-        {
           "date": "2026-10-23",
           "name": "독도교육주간",
           "holiday": false
@@ -2452,11 +2470,6 @@
       "dong": "용두동",
       "events": [
         {
-          "date": "2026-10-22",
-          "name": "별자리체험교실",
-          "holiday": false
-        },
-        {
           "date": "2026-11-04",
           "name": "스케이트체험학습",
           "holiday": false
@@ -2485,6 +2498,11 @@
           "date": "2026-12-21",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2592,6 +2610,11 @@
           "date": "2026-12-21",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2653,6 +2676,11 @@
           "date": "2026-12-21",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2930,7 +2958,18 @@
       "address": "경기도 고양시 일산동구 은행마을로 70",
       "gu": "일산동구",
       "dong": "식사동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-22",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7621089",
@@ -2940,11 +2979,6 @@
       "gu": "일산동구",
       "dong": "정발산동",
       "events": [
-        {
-          "date": "2026-10-22",
-          "name": "독서축제기간",
-          "holiday": false
-        },
         {
           "date": "2026-10-23",
           "name": "독서축제기간",
@@ -3134,7 +3168,18 @@
       "address": "경기도 고양시 일산서구 송포로 50",
       "gu": "일산서구",
       "dong": "대화동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-22",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7621059",
@@ -3188,7 +3233,13 @@
       "address": "경기도 고양시 일산서구 성저로 92",
       "gu": "일산서구",
       "dong": "대화동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-22",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7621075",
@@ -3245,11 +3296,6 @@
       "gu": "일산서구",
       "dong": "대화동",
       "events": [
-        {
-          "date": "2026-10-22",
-          "name": "장성어울림교육주간",
-          "holiday": false
-        },
         {
           "date": "2026-10-23",
           "name": "장성어울림교육주간",
@@ -3355,6 +3401,11 @@
           "date": "2026-12-21",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3388,6 +3439,11 @@
         },
         {
           "date": "2026-12-21",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-22",
           "name": "겨울방학",
           "holiday": true
         }
@@ -3425,6 +3481,11 @@
           "date": "2026-12-21",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3445,11 +3506,6 @@
       "gu": "덕양구",
       "dong": "관산동",
       "events": [
-        {
-          "date": "2026-10-22",
-          "name": "방과후 수업",
-          "holiday": false
-        },
         {
           "date": "2026-10-26",
           "name": "자율(자치)활동",
@@ -3624,6 +3680,11 @@
           "date": "2026-12-21",
           "name": "해피아워",
           "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "스포츠클럽활동",
+          "holiday": false
         }
       ]
     },
@@ -3706,11 +3767,6 @@
       "dong": "토당동",
       "events": [
         {
-          "date": "2026-10-22",
-          "name": "가정폭력 및 아동학대 예방교육",
-          "holiday": false
-        },
-        {
           "date": "2026-10-23",
           "name": "현장체험학습(미급식)",
           "holiday": false
@@ -3778,6 +3834,11 @@
         {
           "date": "2026-12-09",
           "name": "2학기 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "2학기 3주체 교육과정 평가",
           "holiday": false
         }
       ]
@@ -4114,6 +4175,11 @@
           "date": "2026-12-17",
           "name": "학급자치회의",
           "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "동아리활동",
+          "holiday": false
         }
       ]
     },
@@ -4267,17 +4333,17 @@
       "events": [
         {
           "date": "2026-10-23",
+          "name": "교내환경정화활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-23",
           "name": "부서별동아리활동",
           "holiday": false
         },
         {
           "date": "2026-10-23",
           "name": "스포츠데이",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-23",
-          "name": "교내환경정화활동",
           "holiday": false
         },
         {
@@ -4473,6 +4539,16 @@
         {
           "date": "2026-12-16",
           "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "자율·자치(5,6교시)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "자율(5,6교시)",
           "holiday": false
         }
       ]
@@ -4911,11 +4987,6 @@
       "dong": "백석동",
       "events": [
         {
-          "date": "2026-10-22",
-          "name": "학부모상담주간",
-          "holiday": false
-        },
-        {
           "date": "2026-10-23",
           "name": "학부모상담주간",
           "holiday": false
@@ -5041,11 +5112,6 @@
       "dong": "중산동",
       "events": [
         {
-          "date": "2026-10-22",
-          "name": "학부모 대상 공개수업",
-          "holiday": false
-        },
-        {
           "date": "2026-10-27",
           "name": "스포츠클럽",
           "holiday": false
@@ -5149,6 +5215,16 @@
           "date": "2026-12-17",
           "name": "2차 정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "스포츠클럽",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "학생자치회 정부회장 후보 토론회",
+          "holiday": false
         }
       ]
     },
@@ -5161,11 +5237,6 @@
       "dong": "식사동",
       "events": [
         {
-          "date": "2026-10-22",
-          "name": "동아리",
-          "holiday": false
-        },
-        {
           "date": "2026-10-29",
           "name": "봉사활동",
           "holiday": false
@@ -5177,7 +5248,7 @@
         },
         {
           "date": "2026-10-29",
-          "name": "스포츠 한마당",
+          "name": "스포츠한마당",
           "holiday": false
         },
         {
@@ -5275,11 +5346,6 @@
       "gu": "일산동구",
       "dong": "정발산동",
       "events": [
-        {
-          "date": "2026-10-22",
-          "name": "자율활동",
-          "holiday": false
-        },
         {
           "date": "2026-10-29",
           "name": "자율활동",
@@ -5469,6 +5535,16 @@
           "date": "2026-12-18",
           "name": "다올페스티벌",
           "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -5649,6 +5725,11 @@
           "date": "2026-12-21",
           "name": "꿈끼탐색주간",
           "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "꿈끼탐색주간",
+          "holiday": false
         }
       ]
     },
@@ -5789,6 +5870,16 @@
           "date": "2026-12-09",
           "name": "드림페스티벌",
           "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -5800,11 +5891,6 @@
       "gu": "일산서구",
       "dong": "덕이동",
       "events": [
-        {
-          "date": "2026-10-22",
-          "name": "아리솔제",
-          "holiday": false
-        },
         {
           "date": "2026-11-10",
           "name": "2차 정기시험(3학년)",
@@ -5930,11 +6016,6 @@
       "gu": "일산서구",
       "dong": "일산동",
       "events": [
-        {
-          "date": "2026-10-22",
-          "name": "학부모상담주간",
-          "holiday": false
-        },
         {
           "date": "2026-10-23",
           "name": "학부모상담주간",
@@ -6072,6 +6153,11 @@
         },
         {
           "date": "2026-12-21",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
           "name": "2차 정기시험",
           "holiday": false
         }
@@ -6230,16 +6316,6 @@
       "gu": "일산서구",
       "dong": "대화동",
       "events": [
-        {
-          "date": "2026-10-22",
-          "name": "학부모 상담주간",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-22",
-          "name": "자율",
-          "holiday": false
-        },
         {
           "date": "2026-10-23",
           "name": "학부모 상담주간",
@@ -6624,6 +6700,11 @@
           "date": "2026-12-17",
           "name": "교육활동평가회",
           "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "스포츠클럽",
+          "holiday": false
         }
       ]
     },
@@ -6715,11 +6796,6 @@
       "gu": "덕양구",
       "dong": "고양동",
       "events": [
-        {
-          "date": "2026-10-22",
-          "name": "동아리활동",
-          "holiday": false
-        },
         {
           "date": "2026-10-26",
           "name": "학부모상담",
@@ -6856,11 +6932,6 @@
       "dong": "토당동",
       "events": [
         {
-          "date": "2026-10-22",
-          "name": "학부모 상담주간",
-          "holiday": false
-        },
-        {
           "date": "2026-10-23",
           "name": "학부모 상담주간",
           "holiday": false
@@ -6892,12 +6963,12 @@
         },
         {
           "date": "2026-12-03",
-          "name": "2학기 2차 지필평가(1,2학년)",
+          "name": "현장체험학습(3학년)",
           "holiday": false
         },
         {
           "date": "2026-12-03",
-          "name": "현장체험학습(3학년)",
+          "name": "2학기 2차 지필평가(1,2학년)",
           "holiday": false
         },
         {
@@ -7979,11 +8050,6 @@
       "dong": "덕이동",
       "events": [
         {
-          "date": "2026-10-22",
-          "name": "학교장 재량휴업일",
-          "holiday": true
-        },
-        {
           "date": "2026-10-23",
           "name": "동아리 활동",
           "holiday": false
@@ -8112,6 +8178,11 @@
           "date": "2026-12-21",
           "name": "2차 정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "2차 정기시험",
+          "holiday": false
         }
       ]
     },
@@ -8161,6 +8232,16 @@
         {
           "date": "2026-12-11",
           "name": "동아리 발표회 및 축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "종업식",
           "holiday": false
         }
       ]
