@@ -1,5 +1,5 @@
 // 아이랑 성남 - 오프라인 지원
-const CACHE = "seongnam-app-v8";
+const CACHE = "seongnam-app-v9";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {
