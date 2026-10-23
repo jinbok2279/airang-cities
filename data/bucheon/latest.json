@@ -1,9 +1,9 @@
 {
   "region": "부천시",
-  "updated_at": "2026-10-23 06:25:35",
+  "updated_at": "2026-10-24 06:26:54",
   "period": {
-    "from": "20261023",
-    "to": "20261222"
+    "from": "20261024",
+    "to": "20261223"
   },
   "school_count": 127,
   "public_holidays": [
@@ -30,65 +30,13 @@
     {
       "date": "2026-12-22",
       "name": "동계방학"
+    },
+    {
+      "date": "2026-12-23",
+      "name": "동계방학"
     }
   ],
   "highlights": [
-    {
-      "school": "경기예술고등학교",
-      "level": "고등학교",
-      "gu": "원미구",
-      "date": "2026-10-23",
-      "name": "신입학 전형일",
-      "holiday": true
-    },
-    {
-      "school": "덕산고등학교",
-      "level": "고등학교",
-      "gu": "오정구",
-      "date": "2026-10-23",
-      "name": "1일형 현장체험학습",
-      "holiday": false
-    },
-    {
-      "school": "부천중학교",
-      "level": "중학교",
-      "gu": "원미구",
-      "date": "2026-10-23",
-      "name": "체육한마당",
-      "holiday": false
-    },
-    {
-      "school": "소사고등학교",
-      "level": "고등학교",
-      "gu": "소사구",
-      "date": "2026-10-23",
-      "name": "현장체험학습",
-      "holiday": false
-    },
-    {
-      "school": "역곡고등학교",
-      "level": "고등학교",
-      "gu": "원미구",
-      "date": "2026-10-23",
-      "name": "학부모상담주간",
-      "holiday": false
-    },
-    {
-      "school": "옥길새길중학교",
-      "level": "중학교",
-      "gu": "소사구",
-      "date": "2026-10-23",
-      "name": "스포츠축제",
-      "holiday": false
-    },
-    {
-      "school": "옥길중학교",
-      "level": "중학교",
-      "gu": "소사구",
-      "date": "2026-10-23",
-      "name": "체육한마당",
-      "holiday": false
-    },
     {
       "school": "소사고등학교",
       "level": "고등학교",
@@ -1072,6 +1020,70 @@
       "date": "2026-12-22",
       "name": "졸업식 및 종업식",
       "holiday": false
+    },
+    {
+      "school": "계남중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "부천신흥초등학교",
+      "level": "초등학교",
+      "gu": "원미구",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "부천여월중학교",
+      "level": "중학교",
+      "gu": "오정구",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "부천중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-23",
+      "name": "Dream Up 꿈끼펼침한마당",
+      "holiday": false
+    },
+    {
+      "school": "상도중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-23",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "상원고등학교",
+      "level": "고등학교",
+      "gu": "원미구",
+      "date": "2026-12-23",
+      "name": "축제 및 동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "석천중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "수주고등학교",
+      "level": "고등학교",
+      "gu": "오정구",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -1302,11 +1314,6 @@
       "gu": "오정구",
       "dong": "오정동",
       "events": [
-        {
-          "date": "2026-10-23",
-          "name": "한마음 체육대회",
-          "holiday": false
-        },
         {
           "date": "2026-10-26",
           "name": "독도사랑주간",
@@ -1589,6 +1596,11 @@
         },
         {
           "date": "2026-12-22",
+          "name": "학예회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
           "name": "학예회 주간",
           "holiday": false
         }
@@ -1878,6 +1890,11 @@
           "date": "2026-12-22",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2036,11 +2053,6 @@
       "gu": "원미구",
       "dong": "상동",
       "events": [
-        {
-          "date": "2026-10-23",
-          "name": "독도사랑주간",
-          "holiday": false
-        },
         {
           "date": "2026-10-26",
           "name": "다문화교육주간",
@@ -2439,11 +2451,6 @@
       "dong": "범박동",
       "events": [
         {
-          "date": "2026-10-23",
-          "name": "고입설명회",
-          "holiday": false
-        },
-        {
           "date": "2026-11-04",
           "name": "특성화고 원서접수",
           "holiday": false
@@ -2545,12 +2552,12 @@
         },
         {
           "date": "2026-11-19",
-          "name": "대학수학능력평가",
+          "name": "특성화고 원서접수",
           "holiday": false
         },
         {
           "date": "2026-11-19",
-          "name": "특성화고 원서접수",
+          "name": "대학수학능력평가",
           "holiday": false
         },
         {
@@ -2694,11 +2701,6 @@
       "dong": "소사본동",
       "events": [
         {
-          "date": "2026-10-23",
-          "name": "소새울제",
-          "holiday": false
-        },
-        {
           "date": "2026-11-19",
           "name": "재량휴업일",
           "holiday": true
@@ -2713,16 +2715,6 @@
       "gu": "소사구",
       "dong": "옥길동",
       "events": [
-        {
-          "date": "2026-10-23",
-          "name": "스포츠축제",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-23",
-          "name": "자율(6)",
-          "holiday": false
-        },
         {
           "date": "2026-10-30",
           "name": "(금3,4,5,1,2,2)",
@@ -2889,11 +2881,6 @@
       "dong": "옥길동",
       "events": [
         {
-          "date": "2026-10-23",
-          "name": "체육한마당",
-          "holiday": false
-        },
-        {
           "date": "2026-11-13",
           "name": "3학년 지필평가",
           "holiday": false
@@ -2958,11 +2945,6 @@
       "dong": "내동",
       "events": [
         {
-          "date": "2026-10-23",
-          "name": "함성제",
-          "holiday": false
-        },
-        {
           "date": "2026-11-16",
           "name": "2차 정기시험",
           "holiday": false
@@ -3007,11 +2989,6 @@
       "gu": "오정구",
       "dong": "오정동",
       "events": [
-        {
-          "date": "2026-10-23",
-          "name": "덕산제",
-          "holiday": false
-        },
         {
           "date": "2026-11-09",
           "name": "정기시험(3학년)",
@@ -3096,6 +3073,11 @@
           "date": "2026-12-22",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3254,6 +3236,11 @@
         },
         {
           "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
           "name": "겨울방학",
           "holiday": true
         }
@@ -3498,11 +3485,6 @@
       "dong": "중동",
       "events": [
         {
-          "date": "2026-10-23",
-          "name": "체육한마당",
-          "holiday": false
-        },
-        {
           "date": "2026-11-12",
           "name": "2학기 정기시험(3학년)",
           "holiday": false
@@ -3530,6 +3512,11 @@
         {
           "date": "2026-12-14",
           "name": "2학기 정기시험(1학년, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "Dream Up 꿈끼펼침한마당",
           "holiday": false
         }
       ]
@@ -3634,6 +3621,11 @@
         },
         {
           "date": "2026-12-22",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
           "name": "동계방학",
           "holiday": true
         }
@@ -3801,6 +3793,11 @@
           "date": "2026-12-22",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3849,6 +3846,11 @@
         },
         {
           "date": "2026-12-22",
+          "name": "목련제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
           "name": "목련제",
           "holiday": false
         }
@@ -3907,11 +3909,6 @@
       "gu": "원미구",
       "dong": "역곡동",
       "events": [
-        {
-          "date": "2026-10-23",
-          "name": "역곡제",
-          "holiday": false
-        },
         {
           "date": "2026-11-06",
           "name": "동아리활동",
@@ -4291,11 +4288,6 @@
       "dong": "소사본동",
       "events": [
         {
-          "date": "2026-10-23",
-          "name": "현장체험학습",
-          "holiday": false
-        },
-        {
           "date": "2026-10-24",
           "name": "현장체험학습",
           "holiday": false
@@ -4556,11 +4548,6 @@
       "dong": "오정동",
       "events": [
         {
-          "date": "2026-10-23",
-          "name": "1일형 현장체험학습",
-          "holiday": false
-        },
-        {
           "date": "2026-11-02",
           "name": "학부모상담주간",
           "holiday": false
@@ -4694,6 +4681,11 @@
           "date": "2026-12-22",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -4819,6 +4811,11 @@
           "date": "2026-12-16",
           "name": "자율",
           "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "자율",
+          "holiday": false
         }
       ]
     },
@@ -4830,11 +4827,6 @@
       "gu": "원미구",
       "dong": "중동",
       "events": [
-        {
-          "date": "2026-10-23",
-          "name": "신입학 전형일",
-          "holiday": true
-        },
         {
           "date": "2026-11-19",
           "name": "대학수학능력시험(3학년)",
@@ -4958,6 +4950,11 @@
         {
           "date": "2026-12-18",
           "name": "새오름제(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "진급사정회",
           "holiday": false
         }
       ]
@@ -5198,6 +5195,11 @@
           "date": "2026-12-11",
           "name": "1,2학년 2차 정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "축제 및 동아리발표회",
+          "holiday": false
         }
       ]
     },
@@ -5288,6 +5290,11 @@
           "date": "2026-12-16",
           "name": "동아리",
           "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "동아리",
+          "holiday": false
         }
       ]
     },
@@ -5364,11 +5371,6 @@
       "gu": "원미구",
       "dong": "역곡동",
       "events": [
-        {
-          "date": "2026-10-23",
-          "name": "학부모상담주간",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "대학수학능력시험",
