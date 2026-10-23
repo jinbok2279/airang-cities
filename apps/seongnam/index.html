@@ -1382,9 +1382,6 @@ function viewPremium() {
       <div style="flex:1"><div style="font-weight:800">${title} <span class="pill pill-gray" style="margin-left:4px">준비 중</span></div><div style="font-size:12px;color:var(--muted);margin-top:4px;line-height:1.5">${desc}</div></div></div>
       <button class="btn ${premWant(key) ? "btn-soft" : "btn-3d"}" style="width:100%;height:44px;margin-top:12px;font-size:14px" onclick="premAsk('${key}','${ev}')">${premWant(key) ? "✓ 출시 알림 신청됨" : "출시되면 알려 주세요"}</button></div>`;
   $view.innerHTML = `${head}
-    <button class="lift" style="display:flex;gap:14px;align-items:center;width:100%;padding:18px;margin-top:16px;border:0;text-align:left;cursor:pointer;font:inherit;color:var(--ink)" onclick="go('jobs')">
-      <span class="tile t-mint" style="width:44px;height:44px;font-size:20px">💼</span>
-      <div style="flex:1;min-width:0"><div style="font-weight:800">엄마 일자리</div><div style="font-size:12px;color:var(--muted);margin-top:4px">학교 시간강사·방과후·기간제 · 유치원 · 어린이집 채용</div></div><span style="color:var(--muted)">›</span></button>
     <section class="section"><div class="sec-head"><h2>우리 동네 수강료 비교</h2></div>
       <div style="display:flex;gap:8px;overflow-x:auto;padding:2px 2px 6px">${GUS.map(g => chip(g, f.gu === g, `premSet('gu','${g}')`)).join("")}</div>
       ${f.gu ? `<select id="premdong" class="lift" style="width:100%;height:44px;border:0;border-radius:14px;padding:0 14px;font:inherit;font-size:14px;background:#fff;margin:4px 0" aria-label="동 선택"><option value="">${esc(f.gu)} 전체</option>${dongs.map(d => `<option value="${esc(d)}" ${d === f.dong ? "selected" : ""}>${esc(d)}</option>`).join("")}</select>` : ""}
@@ -1561,11 +1558,11 @@ const NEWS = [
 ];
 function newsDate(d) { const [y, m, dd] = d.split("-").map(Number); return `${m}월 ${dd}일`; }
 // 새 버전으로 바뀐 걸 홈 맨 위에 한 번 알려 줌 (닫거나 소식을 보면 사라짐)
-const APP_VER = "1.0.57";
+const APP_VER = "1.0.58";
 let UPDATED_FROM = null;
 const IS_NEW_PHONE = !store("edu.appVer");   // 이 휴대폰에서 처음 열었는지 (예전에 쓴 적 있으면 앱 버전이 남아 있음)
 (function () { const last = store("edu.appVer"); if (last && last !== APP_VER) UPDATED_FROM = last; if (!last) store("edu.appVer", APP_VER); })();
-function closeUpdated(go2) { store("edu.appVer", APP_VER); UPDATED_FROM = null; if (go2) go("news"); else render(); }
+function closeUpdated(go2) { store("edu.appVer", APP_VER); store("edu.newsSeen", NEWS[0].v); UPDATED_FROM = null; if (go2) go("news"); else render(); }
 function homeUpdated() {
   if (!UPDATED_FROM) return "";
   const fresh = newsUnseen();
@@ -1576,7 +1573,7 @@ function homeUpdated() {
 }
 function newsUnseen() { return store("edu.newsSeen") !== NEWS[0].v; }
 function homeNews() {
-  if (!newsUnseen()) return "";
+  if (UPDATED_FROM || !newsUnseen()) return "";   // 위쪽 "새 버전" 알림이 있으면 가운데 카드는 안 보임 (한 번만)
   const n = NEWS[0], days = (new Date(todayYmd() + "T00:00:00") - new Date(n.d + "T00:00:00")) / 864e5;
   if (days > 14) return "";
   return `<section class="section"><div class="lift" style="padding:14px 16px;display:flex;align-items:center;gap:12px">
