@@ -1,9 +1,9 @@
 {
   "region": "안양시",
-  "updated_at": "2026-10-23 06:02:51",
+  "updated_at": "2026-10-24 06:01:13",
   "period": {
-    "from": "20261023",
-    "to": "20261222"
+    "from": "20261024",
+    "to": "20261223"
   },
   "school_count": 86,
   "public_holidays": [
@@ -17,38 +17,6 @@
     }
   ],
   "highlights": [
-    {
-      "school": "관양고등학교",
-      "level": "고등학교",
-      "gu": "동안구",
-      "date": "2026-10-23",
-      "name": "한볕제 및 동아리 발표회",
-      "holiday": false
-    },
-    {
-      "school": "귀인중학교",
-      "level": "중학교",
-      "gu": "동안구",
-      "date": "2026-10-23",
-      "name": "학교축제(귀인제)",
-      "holiday": false
-    },
-    {
-      "school": "부안중학교",
-      "level": "중학교",
-      "gu": "동안구",
-      "date": "2026-10-23",
-      "name": "학교축제",
-      "holiday": false
-    },
-    {
-      "school": "신기중학교",
-      "level": "중학교",
-      "gu": "동안구",
-      "date": "2026-10-23",
-      "name": "한마음 스포츠 축제",
-      "holiday": false
-    },
     {
       "school": "양명고등학교",
       "level": "고등학교",
@@ -952,6 +920,22 @@
       "date": "2026-12-22",
       "name": "학교 축제",
       "holiday": false
+    },
+    {
+      "school": "샘모루초등학교",
+      "level": "초등학교",
+      "gu": "동안구",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "안양부안초등학교",
+      "level": "초등학교",
+      "gu": "동안구",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -1100,6 +1084,11 @@
           "date": "2026-12-22",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1232,6 +1221,11 @@
           "date": "2026-12-22",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1258,11 +1252,6 @@
       "gu": "동안구",
       "dong": "호계동",
       "events": [
-        {
-          "date": "2026-10-23",
-          "name": "독도사랑주간",
-          "holiday": false
-        },
         {
           "date": "2026-11-02",
           "name": "도서관 행사 주간",
@@ -1662,11 +1651,6 @@
       "dong": "평촌동",
       "events": [
         {
-          "date": "2026-10-23",
-          "name": "학교축제(귀인제)",
-          "holiday": false
-        },
-        {
           "date": "2026-10-28",
           "name": "학급자치(대토론회)",
           "holiday": false
@@ -1744,6 +1728,11 @@
         {
           "date": "2026-12-22",
           "name": "학생자치임원선거 토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "노동인권교육",
           "holiday": false
         }
       ]
@@ -1912,11 +1901,6 @@
       "dong": "관양동",
       "events": [
         {
-          "date": "2026-10-23",
-          "name": "학교축제",
-          "holiday": false
-        },
-        {
           "date": "2026-11-19",
           "name": "대학수학능력시험일",
           "holiday": true
@@ -1970,11 +1954,6 @@
       "gu": "동안구",
       "dong": "호계동",
       "events": [
-        {
-          "date": "2026-10-23",
-          "name": "한마음 스포츠 축제",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "대학수학능력시험",
@@ -2220,11 +2199,6 @@
       "dong": "안양동",
       "events": [
         {
-          "date": "2026-10-23",
-          "name": "동아리활동",
-          "holiday": false
-        },
-        {
           "date": "2026-10-30",
           "name": "동아리발표회",
           "holiday": false
@@ -2314,11 +2288,6 @@
       "gu": "만안구",
       "dong": "안양동",
       "events": [
-        {
-          "date": "2026-10-23",
-          "name": "독도의 날",
-          "holiday": false
-        },
         {
           "date": "2026-10-29",
           "name": "합동소방훈련",
@@ -2494,11 +2463,6 @@
       "dong": "석수동",
       "events": [
         {
-          "date": "2026-10-23",
-          "name": "와룡제",
-          "holiday": false
-        },
-        {
           "date": "2026-11-04",
           "name": "6교시 수업",
           "holiday": false
@@ -2557,6 +2521,11 @@
           "date": "2026-12-21",
           "name": "가정폭력예방교육",
           "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "학급회의",
+          "holiday": false
         }
       ]
     },
@@ -2607,6 +2576,11 @@
           "date": "2026-12-22",
           "name": "2학기 2차 정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
         }
       ]
     },
@@ -2618,11 +2592,6 @@
       "gu": "동안구",
       "dong": "관양동",
       "events": [
-        {
-          "date": "2026-10-23",
-          "name": "한볕제 및 동아리 발표회",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "대학수학능력시험",
@@ -2852,6 +2821,16 @@
           "date": "2026-12-22",
           "name": "SLAT",
           "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "학교자율과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "SLAT",
+          "holiday": false
         }
       ]
     },
@@ -2997,6 +2976,11 @@
           "date": "2026-12-11",
           "name": "2차 지필평가",
           "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "동아리전일제",
+          "holiday": false
         }
       ]
     },
@@ -3053,11 +3037,6 @@
       "gu": "만안구",
       "dong": "안양동",
       "events": [
-        {
-          "date": "2026-10-23",
-          "name": "무궁화제",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "수능",
@@ -3137,6 +3116,11 @@
           "date": "2026-12-22",
           "name": "학교자율과정운영",
           "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "학교자율과정운영",
+          "holiday": false
         }
       ]
     },
@@ -3195,6 +3179,11 @@
         },
         {
           "date": "2026-12-22",
+          "name": "학교주도활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
           "name": "학교주도활동",
           "holiday": false
         }
@@ -3511,6 +3500,11 @@
         {
           "date": "2026-12-18",
           "name": "2학기2차정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "뮤지컬콘서트",
           "holiday": false
         }
       ]
