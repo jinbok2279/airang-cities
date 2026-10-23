@@ -39,7 +39,7 @@ jobs:
           mkdir -p logs; for s in collect academies kinder meals libs books events jobs sports deals; do
             echo "::group::$s"; timeout 1500 python -u $s.py 2>&1 | tee -a logs/daily-${{ matrix.d }}.txt || echo "::warning::${{ matrix.city }} $s 실패 (이전 파일 유지)"; echo "::endgroup::"
           done
-          if [ "$(date +%d)" = "01" ]; then python -u elite.py || true; fi
+          if [ "$(date +%d)" = "01" ] || [ ! -f output/elite.json ]; then python -u elite.py || true; fi   # 매달 1일 + 아직 없는 도시는 바로
       - name: 저장
         run: |
           mkdir -p data/${{ matrix.d }} && cp output/*.json data/${{ matrix.d }}/

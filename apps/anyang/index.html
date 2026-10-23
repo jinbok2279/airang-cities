@@ -209,8 +209,8 @@ a.ev{color:inherit;text-decoration:none}
 const REPO = "jinbok2279/airang-cities";
 const RAW = "https://raw.githubusercontent.com/" + REPO + "/main/data/anyang/";
 function dataFetch(name) {
-  return fetch("./data/" + name, { cache: "no-cache" }).then(r => r.ok ? r : Promise.reject(r.status))
-    .catch(() => fetch(RAW + name, { cache: "no-cache" }));
+  return fetch(RAW + name, { cache: "no-cache" }).then(r => r.ok ? r : Promise.reject(r.status))   // 앱 서버엔 데이터가 없어서 원본에 바로 묻기
+    .catch(() => fetch("./data/" + name, { cache: "no-cache" }));
 }
 // 접속 통계 (GoatCounter · 쿠키/개인정보 없음)
 let lastTracked = "";
@@ -1506,7 +1506,7 @@ function viewElite() {
       const soon = !on && ((c.m[0] - m + 12) % 12) <= 2;
       return `<div class="ev"><div class="ev-body"><div class="ev-name">${esc(c.k)} ${on ? '<span class="pill pill-coral" style="font-size:11px;padding:3px 8px">지금 진행</span>' : soon ? '<span class="pill pill-indigo" style="font-size:11px;padding:3px 8px">곧 시작</span>' : ""}</div><div class="ev-sub">${esc(c.steps)}</div></div></div>`; }).join("")}
       <p style="font-size:11px;color:var(--muted);margin:8px 0 0">예년 기준 대략적인 시기예요. 정확한 날짜는 학교별 입학요강을 꼭 확인하세요.</p></div></section>`;
-  if (!ELITE) { $view.innerHTML = back + mineHtml + cal + `<div class="lift empty" style="margin-top:16px">학교 목록을 불러오는 중이에요…</div>`; loadElite().then(() => { if (location.hash === "#elite") render(); }).catch(() => {}); return; }
+  if (!ELITE) { $view.innerHTML = back + mineHtml + cal + `<div class="lift empty" style="margin-top:16px">학교 목록을 불러오는 중이에요…</div>`; loadElite().then(() => { if (location.hash === "#elite") render(); }, () => { const e = [...document.querySelectorAll("#view .lift.empty")].pop(); if (location.hash === "#elite" && e) e.textContent = "학교 목록을 아직 불러오지 못했어요. 잠시 후 다시 열어 주세요."; }).catch(() => {}); return; }
   const chip = (label, on, fn) => `<button class="btn ${on ? "btn-3d" : "btn-soft"}" style="height:36px;font-size:13px;padding:0 13px;flex:0 0 auto" onclick="${fn}">${esc(label)}</button>`;
   const base = ELITE.schools.filter(s => !eliteF.near || eliteNear(s));
   const list = base.filter(s => !eliteF.kind || (eliteF.kind === "자사고" ? s.kind.startsWith("자사고") : s.kind === eliteF.kind));
@@ -1561,7 +1561,7 @@ const NEWS = [
 ];
 function newsDate(d) { const [y, m, dd] = d.split("-").map(Number); return `${m}월 ${dd}일`; }
 // 새 버전으로 바뀐 걸 홈 맨 위에 한 번 알려 줌 (닫거나 소식을 보면 사라짐)
-const APP_VER = "1.0.56";
+const APP_VER = "1.0.57";
 let UPDATED_FROM = null;
 const IS_NEW_PHONE = !store("edu.appVer");   // 이 휴대폰에서 처음 열었는지 (예전에 쓴 적 있으면 앱 버전이 남아 있음)
 (function () { const last = store("edu.appVer"); if (last && last !== APP_VER) UPDATED_FROM = last; if (!last) store("edu.appVer", APP_VER); })();
