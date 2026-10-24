@@ -1,9 +1,9 @@
 {
   "region": "부천시",
-  "updated_at": "2026-10-24 06:26:54",
+  "updated_at": "2026-10-25 06:20:53",
   "period": {
-    "from": "20261024",
-    "to": "20261223"
+    "from": "20261025",
+    "to": "20261224"
   },
   "school_count": 127,
   "public_holidays": [
@@ -34,17 +34,13 @@
     {
       "date": "2026-12-23",
       "name": "동계방학"
+    },
+    {
+      "date": "2026-12-24",
+      "name": "동계방학"
     }
   ],
   "highlights": [
-    {
-      "school": "소사고등학교",
-      "level": "고등학교",
-      "gu": "소사구",
-      "date": "2026-10-24",
-      "name": "현장체험학습",
-      "holiday": false
-    },
     {
       "school": "소사고등학교",
       "level": "고등학교",
@@ -1084,6 +1080,126 @@
       "date": "2026-12-23",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "경기국제통상고등학교",
+      "level": "고등학교",
+      "gu": "원미구",
+      "date": "2026-12-24",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "경기예술고등학교",
+      "level": "고등학교",
+      "gu": "원미구",
+      "date": "2026-12-24",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "계남중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "도당고등학교",
+      "level": "고등학교",
+      "gu": "원미구",
+      "date": "2026-12-24",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "부명중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-24",
+      "name": "종업식/졸업식",
+      "holiday": false
+    },
+    {
+      "school": "부인중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-24",
+      "name": "다솜어울림한마당",
+      "holiday": false
+    },
+    {
+      "school": "부천부곡중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-24",
+      "name": "모두의축제",
+      "holiday": false
+    },
+    {
+      "school": "부천신흥초등학교",
+      "level": "초등학교",
+      "gu": "원미구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "부천여월중학교",
+      "level": "중학교",
+      "gu": "오정구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상도중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-24",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "상도초등학교",
+      "level": "초등학교",
+      "gu": "원미구",
+      "date": "2026-12-24",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "상동고등학교",
+      "level": "고등학교",
+      "gu": "원미구",
+      "date": "2026-12-24",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "석천중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "송내고등학교",
+      "level": "고등학교",
+      "gu": "소사구",
+      "date": "2026-12-24",
+      "name": "학교축제",
+      "holiday": false
+    },
+    {
+      "school": "수주고등학교",
+      "level": "고등학교",
+      "gu": "오정구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -1603,6 +1719,11 @@
           "date": "2026-12-23",
           "name": "학예회 주간",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학예회 주간",
+          "holiday": false
         }
       ]
     },
@@ -1895,6 +2016,11 @@
           "date": "2026-12-23",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1947,7 +2073,18 @@
       "address": "경기도 부천시 장말로 149",
       "gu": "원미구",
       "dong": "상동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-24",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7581077",
@@ -2325,6 +2462,11 @@
           "date": "2026-12-16",
           "name": "1차 지필평가",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "남송제",
+          "holiday": false
         }
       ]
     },
@@ -2429,6 +2571,11 @@
         {
           "date": "2026-12-09",
           "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동녘제",
           "holiday": false
         }
       ]
@@ -2552,12 +2699,12 @@
         },
         {
           "date": "2026-11-19",
-          "name": "특성화고 원서접수",
+          "name": "대학수학능력평가",
           "holiday": false
         },
         {
           "date": "2026-11-19",
-          "name": "대학수학능력평가",
+          "name": "특성화고 원서접수",
           "holiday": false
         },
         {
@@ -2643,6 +2790,11 @@
         {
           "date": "2026-12-17",
           "name": "동아리부서별활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "일신 심포니 정기 연주회",
           "holiday": false
         }
       ]
@@ -3078,6 +3230,11 @@
           "date": "2026-12-23",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3243,6 +3400,11 @@
           "date": "2026-12-23",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3353,6 +3515,11 @@
           "date": "2026-12-03",
           "name": "2차 지필평가",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "종업식/졸업식",
+          "holiday": false
         }
       ]
     },
@@ -3398,6 +3565,11 @@
           "date": "2026-12-11",
           "name": "진로체험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "다솜어울림한마당",
+          "holiday": false
         }
       ]
     },
@@ -3437,6 +3609,11 @@
         {
           "date": "2026-12-09",
           "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "모두의축제",
           "holiday": false
         }
       ]
@@ -3628,6 +3805,11 @@
           "date": "2026-12-23",
           "name": "동계방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동계방학",
+          "holiday": true
         }
       ]
     },
@@ -3672,6 +3854,11 @@
         {
           "date": "2026-12-09",
           "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "윗고을제",
           "holiday": false
         }
       ]
@@ -3796,6 +3983,11 @@
         },
         {
           "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
           "name": "겨울방학",
           "holiday": true
         }
@@ -4288,11 +4480,6 @@
       "dong": "소사본동",
       "events": [
         {
-          "date": "2026-10-24",
-          "name": "현장체험학습",
-          "holiday": false
-        },
-        {
           "date": "2026-10-26",
           "name": "재량휴업일",
           "holiday": true
@@ -4400,6 +4587,11 @@
         {
           "date": "2026-12-15",
           "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학교축제",
           "holiday": false
         }
       ]
@@ -4686,6 +4878,11 @@
           "date": "2026-12-23",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -4816,6 +5013,16 @@
           "date": "2026-12-23",
           "name": "자율",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -4851,6 +5058,11 @@
           "date": "2026-12-03",
           "name": "국민주권의날",
           "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "방학식",
+          "holiday": false
         }
       ]
     },
@@ -4955,6 +5167,16 @@
         {
           "date": "2026-12-23",
           "name": "진급사정회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "졸업식",
           "holiday": false
         }
       ]
@@ -5150,6 +5372,16 @@
           "date": "2026-12-18",
           "name": "동아리 발표회",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -5295,6 +5527,11 @@
           "date": "2026-12-23",
           "name": "동아리",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "자율·자치/자율",
+          "holiday": false
         }
       ]
     },
@@ -5360,6 +5597,11 @@
           "date": "2026-12-11",
           "name": "2차지필평가",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동아리 행사",
+          "holiday": false
         }
       ]
     },
@@ -5400,6 +5642,11 @@
           "date": "2026-12-11",
           "name": "2차 정기시험(1,2)",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동아리발표",
+          "holiday": false
         }
       ]
     },
@@ -5435,6 +5682,11 @@
           "date": "2026-11-19",
           "name": "대학수학능력평가",
           "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "해울제",
+          "holiday": false
         }
       ]
     },
