@@ -1,9 +1,9 @@
 {
   "region": "안양시",
-  "updated_at": "2026-10-24 06:01:13",
+  "updated_at": "2026-10-25 05:55:29",
   "period": {
-    "from": "20261024",
-    "to": "20261223"
+    "from": "20261025",
+    "to": "20261224"
   },
   "school_count": 86,
   "public_holidays": [
@@ -936,6 +936,30 @@
       "date": "2026-12-23",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "박달중학교",
+      "level": "중학교",
+      "gu": "만안구",
+      "date": "2026-12-24",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "샘모루초등학교",
+      "level": "초등학교",
+      "gu": "동안구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "안양부안초등학교",
+      "level": "초등학교",
+      "gu": "동안구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -1089,6 +1113,11 @@
           "date": "2026-12-23",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1224,6 +1253,11 @@
         },
         {
           "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
           "name": "겨울방학",
           "holiday": true
         }
@@ -2277,6 +2311,11 @@
           "date": "2026-12-16",
           "name": "정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "현장체험학습",
+          "holiday": false
         }
       ]
     },
@@ -2435,6 +2474,11 @@
         {
           "date": "2026-12-16",
           "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "수리산제",
           "holiday": false
         }
       ]
@@ -2831,6 +2875,16 @@
           "date": "2026-12-23",
           "name": "SLAT",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학교자율과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "SLAT",
+          "holiday": false
         }
       ]
     },
@@ -2981,6 +3035,11 @@
           "date": "2026-12-23",
           "name": "동아리전일제",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "평촌제",
+          "holiday": false
         }
       ]
     },
@@ -3121,6 +3180,11 @@
           "date": "2026-12-23",
           "name": "학교자율과정운영",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학교자율과정운영",
+          "holiday": false
         }
       ]
     },
@@ -3184,6 +3248,11 @@
         },
         {
           "date": "2026-12-23",
+          "name": "학교주도활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
           "name": "학교주도활동",
           "holiday": false
         }
