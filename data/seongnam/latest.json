@@ -1,16 +1,12 @@
 {
   "region": "성남시",
-  "updated_at": "2026-10-24 06:01:13",
+  "updated_at": "2026-10-25 05:55:30",
   "period": {
-    "from": "20261024",
-    "to": "20261223"
+    "from": "20261025",
+    "to": "20261224"
   },
   "school_count": 155,
   "public_holidays": [
-    {
-      "date": "2026-10-24",
-      "name": "추석연휴"
-    },
     {
       "date": "2026-10-31",
       "name": "사계절방학(가을)"
@@ -2376,6 +2372,166 @@
       "date": "2026-12-23",
       "name": "졸업진급사정회",
       "holiday": false
+    },
+    {
+      "school": "내정중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2026-12-24",
+      "name": "세계문화체험주간",
+      "holiday": false
+    },
+    {
+      "school": "늘푸른고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대하초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "백현초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "분당경영고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2026-12-24",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "불곡초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2026-12-24",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "서현고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2026-12-24",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "성남신기초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남신흥초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남외국어고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2026-12-24",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "성남테크노과학고등학교",
+      "level": "고등학교",
+      "gu": "중원구",
+      "date": "2026-12-24",
+      "name": "축제(동아리발표회)",
+      "holiday": false
+    },
+    {
+      "school": "운중고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "위례고운초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "위례중앙중학교",
+      "level": "중학교",
+      "gu": "수정구",
+      "date": "2026-12-24",
+      "name": "꿈길축제",
+      "holiday": false
+    },
+    {
+      "school": "위례푸른초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2026-12-24",
+      "name": "종업식, 졸업식",
+      "holiday": false
+    },
+    {
+      "school": "위례한빛고등학교",
+      "level": "고등학교",
+      "gu": "수정구",
+      "date": "2026-12-24",
+      "name": "동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "은행중학교",
+      "level": "중학교",
+      "gu": "중원구",
+      "date": "2026-12-24",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "이매고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2026-12-24",
+      "name": "이매제 및 동아리 발표회",
+      "holiday": false
+    },
+    {
+      "school": "중탑초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "효성고등학교",
+      "level": "고등학교",
+      "gu": "수정구",
+      "date": "2026-12-24",
+      "name": "동아리 발표회",
+      "holiday": false
     }
   ],
   "schools": [
@@ -2512,6 +2668,11 @@
           "date": "2026-12-23",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2594,6 +2755,11 @@
         },
         {
           "date": "2026-12-23",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
           "name": "학년말 방학",
           "holiday": true
         }
@@ -2859,6 +3025,11 @@
           "date": "2026-12-23",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3041,6 +3212,11 @@
           "date": "2026-12-23",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3181,6 +3357,11 @@
           "date": "2026-12-22",
           "name": "신입생예비소집일",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "생활통지표 제출",
+          "holiday": false
         }
       ]
     },
@@ -3299,6 +3480,11 @@
           "date": "2026-12-23",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3405,6 +3591,11 @@
           "date": "2026-12-23",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3424,7 +3615,13 @@
       "address": "경기도 성남시 수정구 위례순환로 205",
       "gu": "수정구",
       "dong": "창곡동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-24",
+          "name": "종업식, 졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7551281",
@@ -3530,6 +3727,11 @@
           "date": "2026-12-23",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3802,6 +4004,11 @@
         },
         {
           "date": "2026-12-23",
+          "name": "세계문화체험주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
           "name": "세계문화체험주간",
           "holiday": false
         }
@@ -4354,6 +4561,11 @@
           "date": "2026-12-17",
           "name": "학급자치",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학생회회장선거",
+          "holiday": false
         }
       ]
     },
@@ -4604,6 +4816,11 @@
           "date": "2026-12-10",
           "name": "2학기 2차 정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "양영제",
+          "holiday": false
         }
       ]
     },
@@ -4723,6 +4940,11 @@
         {
           "date": "2026-12-16",
           "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "매화제",
           "holiday": false
         }
       ]
@@ -4917,6 +5139,11 @@
         {
           "date": "2026-12-18",
           "name": "성적처리이의신청",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학생 자치회장 선거",
           "holiday": false
         }
       ]
@@ -5242,6 +5469,11 @@
         {
           "date": "2026-12-18",
           "name": "독서주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "꿈길축제",
           "holiday": false
         }
       ]
@@ -6008,6 +6240,11 @@
           "date": "2026-12-11",
           "name": "2학기 2차 지필평가",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "축제",
+          "holiday": false
         }
       ]
     },
@@ -6103,6 +6340,11 @@
           "date": "2026-12-23",
           "name": "음악과 정기연주회",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "연영과 2년 W/S발표",
+          "holiday": false
         }
       ]
     },
@@ -6114,11 +6356,6 @@
       "gu": "분당구",
       "dong": "판교동",
       "events": [
-        {
-          "date": "2026-10-24",
-          "name": "신입생 교육과정 설명회",
-          "holiday": false
-        },
         {
           "date": "2026-10-26",
           "name": "학부모상담주간",
@@ -6233,6 +6470,11 @@
           "date": "2026-12-23",
           "name": "자율교육과정",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학생주도활동",
+          "holiday": false
         }
       ]
     },
@@ -6291,6 +6533,11 @@
         },
         {
           "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
           "name": "겨울방학",
           "holiday": true
         }
@@ -6408,6 +6655,11 @@
           "date": "2026-12-23",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동계방학",
+          "holiday": true
         }
       ]
     },
@@ -7033,6 +7285,16 @@
           "date": "2026-12-18",
           "name": "동아리발표회",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -7077,6 +7339,16 @@
         {
           "date": "2026-12-11",
           "name": "축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "졸업식",
           "holiday": false
         }
       ]
@@ -7263,6 +7535,11 @@
           "date": "2026-12-23",
           "name": "동아리활동",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동아리발표대회",
+          "holiday": false
         }
       ]
     },
@@ -7423,6 +7700,11 @@
           "date": "2026-12-23",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -7462,6 +7744,11 @@
         {
           "date": "2026-12-15",
           "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "이매제 및 동아리 발표회",
           "holiday": false
         }
       ]
@@ -7943,6 +8230,16 @@
           "date": "2026-12-16",
           "name": "2학기 2차 지필평가",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "꿈빛제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동아리발표회",
+          "holiday": false
         }
       ]
     },
@@ -8238,6 +8535,16 @@
           "date": "2026-12-23",
           "name": "수시충원마감",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "봉사활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동아리 발표회",
+          "holiday": false
         }
       ]
     },
@@ -8528,6 +8835,11 @@
           "date": "2026-12-16",
           "name": "2차 지필평가",
           "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "축제(동아리발표회)",
+          "holiday": false
         }
       ]
     },
@@ -8632,6 +8944,11 @@
         {
           "date": "2026-12-12",
           "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학생회장선거",
           "holiday": false
         }
       ]
