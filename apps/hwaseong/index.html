@@ -10,8 +10,8 @@
 <meta name="apple-mobile-web-app-title" content="아이랑화성">
 <title>아이랑 화성</title>
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="icon-192.png">
-<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" href="icon-192.png?v=59">
+<link rel="apple-touch-icon" href="icon-192.png?v=59">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap">
 <style>
@@ -516,7 +516,7 @@ function viewHome() {
   const notice = homeNews() + homeInstall();  // 앱처럼 쓰기 카드는 소식과 상관없이 항상 (닫기 전까지)
   const addrNote = "";  // 화성은 주소 변경 안내 없음
   $view.innerHTML = `<div style="display:flex;align-items:center;gap:9px;margin:2px 0 14px">
-      <img src="icon-192.png" alt="송골랩 로고" width="32" height="32" style="border-radius:9px;box-shadow:0 2px 8px rgba(30,40,90,.12);flex:0 0 auto">
+      <img src="icon-192.png?v=59" alt="송골랩 로고" width="32" height="32" style="border-radius:9px;box-shadow:0 2px 8px rgba(30,40,90,.12);flex:0 0 auto">
       <div style="min-width:0;flex:1;line-height:1.15"><div style="font-size:18px;font-weight:800;letter-spacing:-.3px;white-space:nowrap">아이랑 <span style="color:var(--city-ink)">화성</span></div><div style="font-size:10.5px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">by 송골랩</div></div>
       <button class="chip glass" aria-label="지인에게 알려주기" title="지인에게 알려주기" style="flex:0 0 auto;width:34px;height:34px;padding:0;justify-content:center;color:var(--indigo)" onclick="shareApp()"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg></button>
       <button class="chip glass" style="flex:0 0 auto;font-size:12px;padding:0 12px;height:34px" onclick="go('region')">${icon.pin} ${esc(regionLabel().replace("화성시 전체", "화성").replace("화성 ", ""))} · ${levelLabel()} ▾</button></div>
@@ -1558,7 +1558,7 @@ const NEWS = [
 ];
 function newsDate(d) { const [y, m, dd] = d.split("-").map(Number); return `${m}월 ${dd}일`; }
 // 새 버전으로 바뀐 걸 홈 맨 위에 한 번 알려 줌 (닫거나 소식을 보면 사라짐)
-const APP_VER = "1.0.58";
+const APP_VER = "1.0.59";
 let UPDATED_FROM = null;
 const IS_NEW_PHONE = !store("edu.appVer");   // 이 휴대폰에서 처음 열었는지 (예전에 쓴 적 있으면 앱 버전이 남아 있음)
 (function () { const last = store("edu.appVer"); if (last && last !== APP_VER) UPDATED_FROM = last; if (!last) store("edu.appVer", APP_VER); })();
@@ -2204,7 +2204,7 @@ function mock(k) {
     more: `<div style="display:flex;gap:4px"><div class="rb"><i>⧉</i>복사</div><div class="rb"><i>▭</i>기기로 보내기</div><div class="rb"><i>☰</i>읽기 목록</div><div class="rb"><i class="hl">⌄</i><b>더 보기</b></div></div>`,
     addHome: `<div style="border-radius:12px;overflow:hidden"><div class="li" style="opacity:.55">▦ QR 코드 만들기</div><div class="li hl" style="font-weight:800">${ICON_PLUS} 홈 화면에 추가</div><div class="li" style="opacity:.55">✎ 새로운 빠른 메모에 추가</div></div>`,
     addBtn: `<div style="display:flex;justify-content:space-between;align-items:center;background:#fff;border-radius:12px;padding:8px 10px"><span style="color:#1a73e8">취소</span><b>홈 화면에 추가</b><span class="hl" style="color:#1a73e8;font-weight:800;padding:2px 8px">추가</span></div>
-      <div style="display:flex;align-items:center;gap:8px;margin-top:8px"><img src="icon-192.png" width="30" height="30" style="border-radius:8px" alt=""><span>아이랑 화성</span></div>`,
+      <div style="display:flex;align-items:center;gap:8px;margin-top:8px"><img src="icon-192.png?v=59" width="30" height="30" style="border-radius:8px" alt=""><span>아이랑 화성</span></div>`,
     safariBar: `<div class="bar" style="justify-content:space-between"><span>‹</span><span style="flex:1;text-align:center;opacity:.7">${esc(location.host)}</span><span class="hl" style="padding:2px 8px;font-weight:800">⋯</span></div><div style="font-size:11px;color:var(--muted);margin-top:6px;text-align:center">화면 맨 아래 주소창 오른쪽</div>`,
     safariShare: `<div style="border-radius:12px;overflow:hidden"><div class="li hl" style="font-weight:800">${sh} 공유</div><div class="li" style="opacity:.55">☆ 책갈피에 추가</div></div>`,
     kakao: `<div class="bar" style="justify-content:space-between"><span>✕</span><span style="flex:1;text-align:center;opacity:.7">${esc(location.host)}</span><span class="hl" style="padding:2px 8px;font-weight:800">⋮</span></div><div style="font-size:11px;color:var(--muted);margin-top:6px;text-align:center">카톡 화면 오른쪽 위 또는 아래</div>`,
@@ -2249,7 +2249,7 @@ function openInstall(auto) {
   el.style.cssText = "position:fixed;inset:0;z-index:50;background:rgba(20,26,46,.45);display:flex;align-items:flex-end;justify-content:center";
   el.innerHTML = `<div style="background:#fff;width:min(560px,100%);border-radius:26px 26px 0 0;padding:22px 20px calc(26px + env(safe-area-inset-bottom));box-shadow:0 -10px 30px rgba(20,26,46,.25);max-height:88vh;overflow:auto">
       <div style="display:flex;align-items:center;gap:12px">
-        <img src="icon-192.png" alt="" width="44" height="44" style="border-radius:12px;box-shadow:0 3px 10px rgba(30,40,90,.15)">
+        <img src="icon-192.png?v=59" alt="" width="44" height="44" style="border-radius:12px;box-shadow:0 3px 10px rgba(30,40,90,.15)">
         <div style="flex:1;min-width:0"><div style="font-size:12px;color:var(--muted)">아이랑 화성 · 앱처럼 쓰기</div><div style="font-size:18px;font-weight:800;margin-top:2px">${esc(title)}</div></div>
         <button onclick="closeInstall()" aria-label="닫기" style="border:0;background:#EEF0F6;width:34px;height:34px;border-radius:17px;font-size:18px;color:var(--muted);cursor:pointer">×</button></div>
       ${MOCK_CSS}<div style="margin-top:6px">${body}</div>

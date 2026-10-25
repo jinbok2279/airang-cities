@@ -1,5 +1,5 @@
 // 아이랑 부천 - 오프라인 지원
-const CACHE = "bucheon-app-v13";
+const CACHE = "bucheon-app-v14";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {
