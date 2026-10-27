@@ -1,9 +1,9 @@
 {
   "region": "부천시",
-  "updated_at": "2026-10-27 06:32:44",
+  "updated_at": "2026-10-28 06:31:31",
   "period": {
-    "from": "20261027",
-    "to": "20261226"
+    "from": "20261028",
+    "to": "20261227"
   },
   "school_count": 127,
   "public_holidays": [
@@ -50,17 +50,13 @@
     {
       "date": "2026-12-26",
       "name": "동계방학"
+    },
+    {
+      "date": "2026-12-27",
+      "name": "동계방학"
     }
   ],
   "highlights": [
-    {
-      "school": "수주고등학교",
-      "level": "고등학교",
-      "gu": "오정구",
-      "date": "2026-10-27",
-      "name": "주제별 체험학습",
-      "holiday": false
-    },
     {
       "school": "상지초등학교",
       "level": "초등학교",
@@ -1316,6 +1312,62 @@
       "date": "2026-12-26",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "계남중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "부천신흥초등학교",
+      "level": "초등학교",
+      "gu": "원미구",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "부천여월중학교",
+      "level": "중학교",
+      "gu": "오정구",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상도중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-27",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "상도초등학교",
+      "level": "초등학교",
+      "gu": "원미구",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "석천중학교",
+      "level": "중학교",
+      "gu": "원미구",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "수주고등학교",
+      "level": "고등학교",
+      "gu": "오정구",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -1546,16 +1598,6 @@
       "gu": "오정구",
       "dong": "오정동",
       "events": [
-        {
-          "date": "2026-10-27",
-          "name": "독도사랑주간",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-27",
-          "name": "학교안전주간",
-          "holiday": false
-        },
         {
           "date": "2026-10-28",
           "name": "독도사랑주간",
@@ -2137,6 +2179,11 @@
           "date": "2026-12-26",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2207,6 +2254,11 @@
         },
         {
           "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
           "name": "겨울방학",
           "holiday": true
         }
@@ -2316,11 +2368,6 @@
       "gu": "원미구",
       "dong": "상동",
       "events": [
-        {
-          "date": "2026-10-27",
-          "name": "다문화교육주간",
-          "holiday": false
-        },
         {
           "date": "2026-10-28",
           "name": "다문화교육주간",
@@ -3030,6 +3077,11 @@
         },
         {
           "date": "2026-11-18",
+          "name": "2~4교시:자율(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
           "name": "학급자치회 선거",
           "holiday": false
         },
@@ -3041,11 +3093,6 @@
         {
           "date": "2026-11-18",
           "name": "1교시:수6",
-          "holiday": false
-        },
-        {
-          "date": "2026-11-18",
-          "name": "2~4교시:자율(3)",
           "holiday": false
         },
         {
@@ -3366,6 +3413,11 @@
           "date": "2026-12-26",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3544,6 +3596,11 @@
         },
         {
           "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
           "name": "겨울방학",
           "holiday": true
         }
@@ -3961,6 +4018,11 @@
           "date": "2026-12-26",
           "name": "동계방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "동계방학",
+          "holiday": true
         }
       ]
     },
@@ -4149,6 +4211,11 @@
         },
         {
           "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
           "name": "겨울방학",
           "holiday": true
         }
@@ -4971,11 +5038,6 @@
       "dong": "고강동",
       "events": [
         {
-          "date": "2026-10-27",
-          "name": "주제별 체험학습",
-          "holiday": false
-        },
-        {
           "date": "2026-10-28",
           "name": "체험학습",
           "holiday": false
@@ -5037,6 +5099,11 @@
         },
         {
           "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
           "name": "겨울방학",
           "holiday": true
         }
