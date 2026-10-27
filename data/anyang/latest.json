@@ -1,9 +1,9 @@
 {
   "region": "안양시",
-  "updated_at": "2026-10-27 06:04:12",
+  "updated_at": "2026-10-28 06:07:14",
   "period": {
-    "from": "20261027",
-    "to": "20261226"
+    "from": "20261028",
+    "to": "20261227"
   },
   "school_count": 86,
   "public_holidays": [
@@ -26,17 +26,13 @@
     {
       "date": "2026-12-26",
       "name": "동계방학"
+    },
+    {
+      "date": "2026-12-27",
+      "name": "동계방학"
     }
   ],
   "highlights": [
-    {
-      "school": "양명고등학교",
-      "level": "고등학교",
-      "gu": "만안구",
-      "date": "2026-10-27",
-      "name": "동아리 발표회",
-      "holiday": false
-    },
     {
       "school": "경기게임마이스터고등학교",
       "level": "고등학교",
@@ -1012,6 +1008,22 @@
       "date": "2026-12-26",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "샘모루초등학교",
+      "level": "초등학교",
+      "gu": "동안구",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "안양부안초등학교",
+      "level": "초등학교",
+      "gu": "동안구",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -1180,6 +1192,11 @@
           "date": "2026-12-26",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1332,6 +1349,11 @@
           "date": "2026-12-26",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1360,12 +1382,12 @@
       "events": [
         {
           "date": "2026-11-02",
-          "name": "도박예방교육 주간",
+          "name": "도서관 행사 주간",
           "holiday": false
         },
         {
           "date": "2026-11-02",
-          "name": "도서관 행사 주간",
+          "name": "도박예방교육 주간",
           "holiday": false
         },
         {
@@ -2514,11 +2536,6 @@
       "dong": "안양동",
       "events": [
         {
-          "date": "2026-10-27",
-          "name": "학부모 초청 수업 공개의 날",
-          "holiday": false
-        },
-        {
           "date": "2026-11-19",
           "name": "재량휴업일",
           "holiday": true
@@ -2915,12 +2932,12 @@
         },
         {
           "date": "2026-12-18",
-          "name": "학교자율과정",
+          "name": "SLAT",
           "holiday": false
         },
         {
           "date": "2026-12-18",
-          "name": "SLAT",
+          "name": "학교자율과정",
           "holiday": false
         },
         {
@@ -3539,11 +3556,6 @@
       "dong": "안양동",
       "events": [
         {
-          "date": "2026-10-27",
-          "name": "신입생 합격자 발표",
-          "holiday": false
-        },
-        {
           "date": "2026-10-30",
           "name": "백일장(추계)",
           "holiday": false
@@ -3678,16 +3690,6 @@
       "gu": "만안구",
       "dong": "안양동",
       "events": [
-        {
-          "date": "2026-10-27",
-          "name": "동아리 발표회",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-27",
-          "name": "스포츠클럽대회",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "대학수학능력시험",
