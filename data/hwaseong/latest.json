@@ -1,9 +1,9 @@
 {
   "region": "화성시",
-  "updated_at": "2026-10-27 06:19:53",
+  "updated_at": "2026-10-28 06:21:24",
   "period": {
-    "from": "20261027",
-    "to": "20261226"
+    "from": "20261028",
+    "to": "20261227"
   },
   "school_count": 197,
   "public_holidays": [
@@ -29,14 +29,6 @@
     }
   ],
   "highlights": [
-    {
-      "school": "수현초등학교",
-      "level": "초등학교",
-      "gu": "효행구",
-      "date": "2026-10-27",
-      "name": "느티나무축제",
-      "holiday": false
-    },
     {
       "school": "서연고등학교",
       "level": "고등학교",
@@ -274,16 +266,16 @@
       "level": "고등학교",
       "gu": "만세구",
       "date": "2026-11-12",
-      "name": "재량휴일",
-      "holiday": true
+      "name": "신입생 입학전형",
+      "holiday": false
     },
     {
       "school": "두레자연고등학교",
       "level": "고등학교",
       "gu": "만세구",
       "date": "2026-11-12",
-      "name": "신입생 입학전형",
-      "holiday": false
+      "name": "재량휴일",
+      "holiday": true
     },
     {
       "school": "안녕초등학교",
@@ -291,6 +283,14 @@
       "gu": "병점구",
       "date": "2026-11-12",
       "name": "꿈끼발표회",
+      "holiday": false
+    },
+    {
+      "school": "정림초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-11-12",
+      "name": "1일형 주제별 체험학습",
       "holiday": false
     },
     {
@@ -1860,6 +1860,46 @@
       "date": "2026-12-26",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "석천초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "송라초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-27",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "화성매송초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -2035,11 +2075,6 @@
       "gu": "동탄구",
       "dong": "반송동",
       "events": [
-        {
-          "date": "2026-10-27",
-          "name": "소방안전교육",
-          "holiday": false
-        },
         {
           "date": "2026-11-20",
           "name": "지진대피훈련",
@@ -2289,11 +2324,6 @@
       "gu": "동탄구",
       "dong": "신동",
       "events": [
-        {
-          "date": "2026-10-27",
-          "name": "인권교육주간",
-          "holiday": false
-        },
         {
           "date": "2026-10-28",
           "name": "인권교육주간",
@@ -2588,6 +2618,11 @@
           "date": "2026-12-26",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2838,6 +2873,16 @@
           "date": "2026-12-26",
           "name": "학년말 방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "학년말 방학",
+          "holiday": true
         }
       ]
     },
@@ -3072,38 +3117,23 @@
       "dong": "안녕동",
       "events": [
         {
-          "date": "2026-10-27",
+          "date": "2026-10-28",
+          "name": "안전한국훈련주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-10-28",
           "name": "꿈끼탐색주간",
           "holiday": false
         },
         {
-          "date": "2026-10-27",
+          "date": "2026-10-28",
           "name": "정보통신윤리교육",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-27",
-          "name": "안전한국훈련주간",
           "holiday": false
         },
         {
           "date": "2026-10-28",
           "name": "재난대응훈련",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-28",
-          "name": "안전한국훈련주간",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-28",
-          "name": "꿈끼탐색주간",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-28",
-          "name": "정보통신윤리교육",
           "holiday": false
         },
         {
@@ -3349,11 +3379,6 @@
       "dong": "배양동",
       "events": [
         {
-          "date": "2026-10-27",
-          "name": "약식장학주간",
-          "holiday": false
-        },
-        {
           "date": "2026-10-28",
           "name": "약식장학주간",
           "holiday": false
@@ -3495,6 +3520,11 @@
           "date": "2026-12-26",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3524,11 +3554,6 @@
       "gu": "효행구",
       "dong": "봉담읍",
       "events": [
-        {
-          "date": "2026-10-27",
-          "name": "느티나무축제",
-          "holiday": false
-        },
         {
           "date": "2026-10-28",
           "name": "느티나무축제",
@@ -3601,7 +3626,33 @@
       "address": "경기도 화성시 효행구 정남면 망월길 69",
       "gu": "효행구",
       "dong": "정남면",
-      "events": []
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "청렴교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "친구사랑의날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "1일형 주제별 체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "다가치 화성탐사대",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "흡연예방교육",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679057",
@@ -3656,6 +3707,11 @@
         },
         {
           "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
           "name": "겨울방학",
           "holiday": true
         }
@@ -5097,11 +5153,6 @@
       "dong": "양감면",
       "events": [
         {
-          "date": "2026-10-27",
-          "name": "독서의 달 행사 주간",
-          "holiday": false
-        },
-        {
           "date": "2026-10-28",
           "name": "독서의 달 행사 주간",
           "holiday": false
@@ -5351,11 +5402,6 @@
       "gu": "만세구",
       "dong": "마도면",
       "events": [
-        {
-          "date": "2026-10-27",
-          "name": "교내소방훈련",
-          "holiday": false
-        },
         {
           "date": "2026-11-03",
           "name": "동료교사수업공개주간",
@@ -6070,11 +6116,6 @@
       "gu": "효행구",
       "dong": "봉담읍",
       "events": [
-        {
-          "date": "2026-10-27",
-          "name": "진로의 날",
-          "holiday": false
-        },
         {
           "date": "2026-10-28",
           "name": "교육공동체 대토론회",
@@ -7261,13 +7302,13 @@
       "events": [
         {
           "date": "2026-11-12",
-          "name": "재량휴일",
-          "holiday": true
+          "name": "신입생 입학전형",
+          "holiday": false
         },
         {
           "date": "2026-11-12",
-          "name": "신입생 입학전형",
-          "holiday": false
+          "name": "재량휴일",
+          "holiday": true
         },
         {
           "date": "2026-11-13",
@@ -7902,13 +7943,7 @@
       "address": "경기도 화성시 비봉면 양노로109번길 5",
       "gu": "효행구",
       "dong": "비봉면",
-      "events": [
-        {
-          "date": "2026-10-27",
-          "name": "사제동행 작가와의 만남",
-          "holiday": false
-        }
-      ]
+      "events": []
     },
     {
       "code": "7531428",
