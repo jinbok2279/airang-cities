@@ -1,9 +1,9 @@
 {
   "region": "화성시",
-  "updated_at": "2026-10-28 06:21:24",
+  "updated_at": "2026-10-29 06:27:47",
   "period": {
-    "from": "20261028",
-    "to": "20261227"
+    "from": "20261029",
+    "to": "20261228"
   },
   "school_count": 197,
   "public_holidays": [
@@ -26,41 +26,13 @@
     {
       "date": "2026-12-25",
       "name": "겨울방학"
+    },
+    {
+      "date": "2026-12-28",
+      "name": "겨울방학"
     }
   ],
   "highlights": [
-    {
-      "school": "서연고등학교",
-      "level": "고등학교",
-      "gu": "동탄구",
-      "date": "2026-10-28",
-      "name": "현장체험학습",
-      "holiday": false
-    },
-    {
-      "school": "수현초등학교",
-      "level": "초등학교",
-      "gu": "효행구",
-      "date": "2026-10-28",
-      "name": "느티나무축제",
-      "holiday": false
-    },
-    {
-      "school": "장안여자중학교",
-      "level": "중학교",
-      "gu": "만세구",
-      "date": "2026-10-28",
-      "name": "학부모 공개수업",
-      "holiday": false
-    },
-    {
-      "school": "향남초등학교",
-      "level": "초등학교",
-      "gu": "만세구",
-      "date": "2026-10-28",
-      "name": "진로체험학습",
-      "holiday": false
-    },
     {
       "school": "서연고등학교",
       "level": "고등학교",
@@ -266,16 +238,16 @@
       "level": "고등학교",
       "gu": "만세구",
       "date": "2026-11-12",
-      "name": "신입생 입학전형",
-      "holiday": false
+      "name": "재량휴일",
+      "holiday": true
     },
     {
       "school": "두레자연고등학교",
       "level": "고등학교",
       "gu": "만세구",
       "date": "2026-11-12",
-      "name": "재량휴일",
-      "holiday": true
+      "name": "신입생 입학전형",
+      "holiday": false
     },
     {
       "school": "안녕초등학교",
@@ -1900,6 +1872,62 @@
       "date": "2026-12-27",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "반송고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "석천초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "송라초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "안용중학교",
+      "level": "중학교",
+      "gu": "병점구",
+      "date": "2026-12-28",
+      "name": "1학년 체육축제",
+      "holiday": false
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-28",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "화성매송초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -2325,11 +2353,6 @@
       "dong": "신동",
       "events": [
         {
-          "date": "2026-10-28",
-          "name": "인권교육주간",
-          "holiday": false
-        },
-        {
           "date": "2026-10-29",
           "name": "인권교육주간",
           "holiday": false
@@ -2623,6 +2646,11 @@
           "date": "2026-12-27",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2883,6 +2911,16 @@
           "date": "2026-12-27",
           "name": "학년말 방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "학년말 방학",
+          "holiday": true
         }
       ]
     },
@@ -2957,11 +2995,6 @@
       "gu": "만세구",
       "dong": "향남읍",
       "events": [
-        {
-          "date": "2026-10-28",
-          "name": "진로체험학습",
-          "holiday": false
-        },
         {
           "date": "2026-11-25",
           "name": "계절체험학습",
@@ -3116,26 +3149,6 @@
       "gu": "병점구",
       "dong": "안녕동",
       "events": [
-        {
-          "date": "2026-10-28",
-          "name": "안전한국훈련주간",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-28",
-          "name": "꿈끼탐색주간",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-28",
-          "name": "정보통신윤리교육",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-28",
-          "name": "재난대응훈련",
-          "holiday": false
-        },
         {
           "date": "2026-10-29",
           "name": "안전한국훈련주간",
@@ -3379,11 +3392,6 @@
       "dong": "배양동",
       "events": [
         {
-          "date": "2026-10-28",
-          "name": "약식장학주간",
-          "holiday": false
-        },
-        {
           "date": "2026-10-29",
           "name": "약식장학주간",
           "holiday": false
@@ -3525,6 +3533,11 @@
           "date": "2026-12-27",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3554,11 +3567,6 @@
       "gu": "효행구",
       "dong": "봉담읍",
       "events": [
-        {
-          "date": "2026-10-28",
-          "name": "느티나무축제",
-          "holiday": false
-        },
         {
           "date": "2026-10-29",
           "name": "느티나무축제",
@@ -3712,6 +3720,11 @@
         },
         {
           "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
           "name": "겨울방학",
           "holiday": true
         }
@@ -3989,11 +4002,6 @@
       "gu": "동탄구",
       "dong": "송동",
       "events": [
-        {
-          "date": "2026-10-28",
-          "name": "인터넷중독예방교육",
-          "holiday": false
-        },
         {
           "date": "2026-11-17",
           "name": "2차 정기시험",
@@ -4697,6 +4705,11 @@
           "date": "2026-12-24",
           "name": "학교자율과정",
           "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "대토론회",
+          "holiday": false
         }
       ]
     },
@@ -4747,11 +4760,6 @@
       "gu": "만세구",
       "dong": "우정읍",
       "events": [
-        {
-          "date": "2026-10-28",
-          "name": "달빛독서캠프",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "재량휴업일",
@@ -4942,11 +4950,6 @@
       "gu": "만세구",
       "dong": "송산면",
       "events": [
-        {
-          "date": "2026-10-28",
-          "name": "자체소방훈련",
-          "holiday": false
-        },
         {
           "date": "2026-10-30",
           "name": "송백제",
@@ -5153,11 +5156,6 @@
       "dong": "양감면",
       "events": [
         {
-          "date": "2026-10-28",
-          "name": "독서의 달 행사 주간",
-          "holiday": false
-        },
-        {
           "date": "2026-10-29",
           "name": "독서의 달 행사 주간",
           "holiday": false
@@ -5221,6 +5219,11 @@
           "date": "2026-12-24",
           "name": "학교자율교육주간",
           "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "학교자율교육주간",
+          "holiday": false
         }
       ]
     },
@@ -5232,11 +5235,6 @@
       "gu": "만세구",
       "dong": "장안면",
       "events": [
-        {
-          "date": "2026-10-28",
-          "name": "학부모 공개수업",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "대학수학능력시험",
@@ -5628,11 +5626,6 @@
       "dong": "반월동",
       "events": [
         {
-          "date": "2026-10-28",
-          "name": "대토론회",
-          "holiday": false
-        },
-        {
           "date": "2026-11-09",
           "name": "1차정기시험(3학년)",
           "holiday": false
@@ -5741,6 +5734,16 @@
           "date": "2026-12-22",
           "name": "대토론회",
           "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "뜨락제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "융합프로젝트",
+          "holiday": false
         }
       ]
     },
@@ -5820,6 +5823,16 @@
         {
           "date": "2026-12-24",
           "name": "학생인권교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "1학년 체육축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "동아리활동",
           "holiday": false
         }
       ]
@@ -5986,6 +5999,11 @@
           "date": "2026-12-24",
           "name": "체육행사/한마당축제",
           "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "학생회장선거",
+          "holiday": false
         }
       ]
     },
@@ -6116,11 +6134,6 @@
       "gu": "효행구",
       "dong": "봉담읍",
       "events": [
-        {
-          "date": "2026-10-28",
-          "name": "교육공동체 대토론회",
-          "holiday": false
-        },
         {
           "date": "2026-11-13",
           "name": "2차 정기시험",
@@ -6524,6 +6537,11 @@
           "date": "2026-12-22",
           "name": "금요일수업",
           "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "금요일수업",
+          "holiday": false
         }
       ]
     },
@@ -6714,6 +6732,11 @@
           "date": "2026-12-24",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -6725,11 +6748,6 @@
       "gu": "동탄구",
       "dong": "장지동",
       "events": [
-        {
-          "date": "2026-10-28",
-          "name": "현장체험학습",
-          "holiday": false
-        },
         {
           "date": "2026-10-29",
           "name": "현장체험학습",
@@ -7302,13 +7320,13 @@
       "events": [
         {
           "date": "2026-11-12",
-          "name": "신입생 입학전형",
-          "holiday": false
+          "name": "재량휴일",
+          "holiday": true
         },
         {
           "date": "2026-11-12",
-          "name": "재량휴일",
-          "holiday": true
+          "name": "신입생 입학전형",
+          "holiday": false
         },
         {
           "date": "2026-11-13",
