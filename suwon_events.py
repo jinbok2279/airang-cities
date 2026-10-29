@@ -321,8 +321,16 @@ def xml_items(raw, tag):
 def kopis_events(today):
     """KOPIS 공연예술통합전산망: 경기도 아동공연(kidstate=Y) 중 수원 공연장"""
     if not KOPIS_KEY:
-        print("  KOPIS_KEY 없음: 공연예술통합전산망 건너뜀")
-        return []
+        # 키를 찾기 전까지: 예전 수원 수집기(suwon-edu-collector, KOPIS 키 있음)가 받아 둔 공연을 가져다 쓴다 (2026-10-30)
+        try:
+            u = "https://raw.githubusercontent.com/jinbok2279/suwon-edu-collector/main/output/events.json"
+            with urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "airang"}), timeout=30) as r:
+                got = [e for e in json.load(r).get("city", []) if e.get("src") == "kopis" and e.get("end", "") >= today.isoformat()]
+            print(f"  KOPIS_KEY 없음: 예전 수원 수집기의 공연 {len(got)}건을 씀")
+            return got
+        except Exception as e:
+            print("  KOPIS_KEY 없음, 예전 수원 수집기 공연도 못 받음:", e)
+            return []
     t0, t1 = today.strftime("%Y%m%d"), (today + timedelta(days=HORIZON)).strftime("%Y%m%d")
     rows, out, seen = [], [], set()
     # 수원시 코드(4111)로 먼저 받고, 비어 있으면 경기도 전체에서 공연장 이름으로 거른다
