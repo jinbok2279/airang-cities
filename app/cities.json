@@ -1,0 +1,89 @@
+{
+  "note": "아이랑 도시 설정 — 새 도시는 여기에 한 줄(블록) 추가 + app/cities/<도시>/ 에 그림",
+  "cities": {
+    "yongin": {
+      "name": "용인",
+      "colors": {
+        "city": "#2F8F5B",
+        "ink": "#1E6A41",
+        "deep": "#175233",
+        "soft": "#E6F3EA"
+      },
+      "domain": "yongin.songgollab.co.kr",
+      "pages": "airang-yongin",
+      "has404": false
+    },
+    "suwon": {
+      "name": "수원",
+      "colors": {
+        "city": "#D2643A",
+        "ink": "#A84A24",
+        "deep": "#86391A",
+        "soft": "#FBEDE4"
+      },
+      "domain": "suwon.songgollab.co.kr",
+      "pages": "airang-suwon",
+      "has404": false
+    },
+    "seongnam": {
+      "name": "성남",
+      "colors": {
+        "city": "#1E97AE",
+        "ink": "#127184",
+        "deep": "#0D5766",
+        "soft": "#E2F3F6"
+      },
+      "domain": "seongnam.songgollab.co.kr",
+      "pages": "airang-seongnam",
+      "has404": true
+    },
+    "anyang": {
+      "name": "안양",
+      "colors": {
+        "city": "#11908A",
+        "ink": "#0A6A65",
+        "deep": "#07514D",
+        "soft": "#DFF2F0"
+      },
+      "domain": "anyang.songgollab.co.kr",
+      "pages": "airang-anyang",
+      "has404": true
+    },
+    "goyang": {
+      "name": "고양",
+      "colors": {
+        "city": "#8C6BD1",
+        "ink": "#6A4BB3",
+        "deep": "#523891",
+        "soft": "#F0EBFA"
+      },
+      "domain": "goyang.songgollab.co.kr",
+      "pages": "airang-goyang",
+      "has404": true
+    },
+    "hwaseong": {
+      "name": "화성",
+      "colors": {
+        "city": "#EA6A3A",
+        "ink": "#BF4C1F",
+        "deep": "#963A16",
+        "soft": "#FDEDE5"
+      },
+      "domain": "hwaseong.songgollab.co.kr",
+      "pages": "airang-hwaseong",
+      "has404": true
+    },
+    "bucheon": {
+      "name": "부천",
+      "colors": {
+        "city": "#6A4BC4",
+        "ink": "#5236A8",
+        "deep": "#3F2884",
+        "soft": "#EEE9FA"
+      },
+      "domain": "bucheon.songgollab.co.kr",
+      "pages": "airang-bucheon",
+      "has404": true
+    }
+  }
+}
