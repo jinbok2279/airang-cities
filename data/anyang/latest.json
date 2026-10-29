@@ -1,9 +1,9 @@
 {
   "region": "안양시",
-  "updated_at": "2026-10-29 23:12:23",
+  "updated_at": "2026-10-30 06:14:30",
   "period": {
-    "from": "20261029",
-    "to": "20261228"
+    "from": "20261030",
+    "to": "20261229"
   },
   "school_count": 86,
   "public_holidays": [
@@ -33,6 +33,10 @@
     },
     {
       "date": "2026-12-28",
+      "name": "동계방학"
+    },
+    {
+      "date": "2026-12-29",
       "name": "동계방학"
     }
   ],
@@ -578,7 +582,7 @@
       "level": "고등학교",
       "gu": "동안구",
       "date": "2026-11-19",
-      "name": "수학능력평가",
+      "name": "학교장재량휴업일",
       "holiday": true
     },
     {
@@ -586,7 +590,7 @@
       "level": "고등학교",
       "gu": "동안구",
       "date": "2026-11-19",
-      "name": "학교장재량휴업일",
+      "name": "수학능력평가",
       "holiday": true
     },
     {
@@ -1052,6 +1056,38 @@
       "date": "2026-12-28",
       "name": "향상발표회",
       "holiday": false
+    },
+    {
+      "school": "샘모루초등학교",
+      "level": "초등학교",
+      "gu": "동안구",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "안양부안초등학교",
+      "level": "초등학교",
+      "gu": "동안구",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "연현초등학교",
+      "level": "초등학교",
+      "gu": "만안구",
+      "date": "2026-12-29",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "평촌과학기술고등학교",
+      "level": "고등학교",
+      "gu": "동안구",
+      "date": "2026-12-29",
+      "name": "졸업식",
+      "holiday": false
     }
   ],
   "schools": [
@@ -1230,6 +1266,11 @@
           "date": "2026-12-28",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1390,6 +1431,11 @@
         },
         {
           "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
           "name": "겨울방학",
           "holiday": true
         }
@@ -1777,7 +1823,18 @@
       "address": "경기도 안양시 만안구 연현로1번길 55",
       "gu": "만안구",
       "dong": "석수동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-29",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7569051",
@@ -1894,6 +1951,11 @@
         {
           "date": "2026-12-23",
           "name": "노동인권교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "성매매예방교육",
           "holiday": false
         }
       ]
@@ -2235,11 +2297,6 @@
       "dong": "평촌동",
       "events": [
         {
-          "date": "2026-10-29",
-          "name": "동아리활동",
-          "holiday": false
-        },
-        {
           "date": "2026-11-19",
           "name": "대입수능시험",
           "holiday": true
@@ -2454,11 +2511,6 @@
       "gu": "만안구",
       "dong": "안양동",
       "events": [
-        {
-          "date": "2026-10-29",
-          "name": "합동소방훈련",
-          "holiday": false
-        },
         {
           "date": "2026-11-16",
           "name": "2학기 2차 정기시험(3학년)",
@@ -2697,6 +2749,11 @@
           "date": "2026-12-28",
           "name": "금요일 수업",
           "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "생명존중교육",
+          "holiday": false
         }
       ]
     },
@@ -2755,6 +2812,11 @@
         },
         {
           "date": "2026-12-28",
+          "name": "동계 게임잼",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
           "name": "동계 게임잼",
           "holiday": false
         }
@@ -2990,12 +3052,12 @@
         },
         {
           "date": "2026-12-22",
-          "name": "학교자율과정",
+          "name": "SLAT",
           "holiday": false
         },
         {
           "date": "2026-12-22",
-          "name": "SLAT",
+          "name": "학교자율과정",
           "holiday": false
         },
         {
@@ -3016,6 +3078,16 @@
         {
           "date": "2026-12-24",
           "name": "SLAT",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "진학콘서트",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "동아리활동",
           "holiday": false
         }
       ]
@@ -3060,12 +3132,12 @@
       "events": [
         {
           "date": "2026-11-19",
-          "name": "수학능력평가",
+          "name": "학교장재량휴업일",
           "holiday": true
         },
         {
           "date": "2026-11-19",
-          "name": "학교장재량휴업일",
+          "name": "수학능력평가",
           "holiday": true
         },
         {
@@ -3216,6 +3288,16 @@
         {
           "date": "2026-12-22",
           "name": "학교 축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "종업식",
           "holiday": false
         }
       ]
@@ -3716,6 +3798,11 @@
         {
           "date": "2026-12-28",
           "name": "푸른소리발간식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "실용음악콘서트",
           "holiday": false
         }
       ]
