@@ -14,7 +14,17 @@
       "has404": false,
       "areas": "처인구 · 기흥구 · 수지구",
       "lat": 37.2411,
-      "lon": 127.1776
+      "lon": 127.1776,
+      "gus": [
+        "수지구",
+        "기흥구",
+        "처인구"
+      ],
+      "searchEx": "마성, 수지중",
+      "fields": {
+        "start": "2026-10-16",
+        "startVer": "1.0.45"
+      }
     },
     "suwon": {
       "name": "수원",
@@ -29,7 +39,18 @@
       "has404": false,
       "areas": "장안구 · 권선구 · 팔달구 · 영통구",
       "lat": 37.2636,
-      "lon": 127.0286
+      "lon": 127.0286,
+      "gus": [
+        "장안구",
+        "권선구",
+        "팔달구",
+        "영통구"
+      ],
+      "searchEx": "매탄, 영통중",
+      "fields": {
+        "start": "2026-10-16",
+        "startVer": "1.0.45"
+      }
     },
     "seongnam": {
       "name": "성남",
@@ -44,7 +65,17 @@
       "has404": true,
       "areas": "수정구 · 중원구 · 분당구",
       "lat": 37.42,
-      "lon": 127.1265
+      "lon": 127.1265,
+      "gus": [
+        "수정구",
+        "중원구",
+        "분당구"
+      ],
+      "searchEx": "정자, 서현중",
+      "fields": {
+        "start": "2026-10-16",
+        "startVer": "1.0.45"
+      }
     },
     "anyang": {
       "name": "안양",
@@ -59,7 +90,16 @@
       "has404": true,
       "areas": "만안구 · 동안구",
       "lat": 37.3943,
-      "lon": 126.9568
+      "lon": 126.9568,
+      "gus": [
+        "만안구",
+        "동안구"
+      ],
+      "searchEx": "평촌, 귀인중",
+      "fields": {
+        "start": "2026-10-16",
+        "startVer": "1.0.45"
+      }
     },
     "goyang": {
       "name": "고양",
@@ -74,7 +114,17 @@
       "has404": true,
       "areas": "덕양구 · 일산동구 · 일산서구",
       "lat": 37.6584,
-      "lon": 126.832
+      "lon": 126.832,
+      "gus": [
+        "덕양구",
+        "일산동구",
+        "일산서구"
+      ],
+      "searchEx": "백석, 오마중",
+      "fields": {
+        "start": "2026-10-16",
+        "startVer": "1.0.45"
+      }
     },
     "hwaseong": {
       "name": "화성",
@@ -89,7 +139,18 @@
       "has404": true,
       "areas": "동탄 · 병점 · 봉담 · 향남",
       "lat": 37.2006,
-      "lon": 127.073
+      "lon": 127.073,
+      "gus": [
+        "만세구",
+        "효행구",
+        "병점구",
+        "동탄구"
+      ],
+      "searchEx": "동탄, 반송중",
+      "fields": {
+        "start": "2026-10-16",
+        "startVer": "1.0.45"
+      }
     },
     "bucheon": {
       "name": "부천",
@@ -104,7 +165,59 @@
       "has404": true,
       "areas": "원미구 · 소사구 · 오정구",
       "lat": 37.5034,
-      "lon": 126.766
+      "lon": 126.766,
+      "gus": [
+        "원미구",
+        "소사구",
+        "오정구"
+      ],
+      "searchEx": "중동, 부천중",
+      "fields": {
+        "start": "2026-10-16",
+        "startVer": "1.0.45"
+      }
+    },
+    "pyeongtaek": {
+      "name": "평택",
+      "colors": {
+        "city": "#2F74C8",
+        "ink": "#1F57A0",
+        "deep": "#163F78",
+        "soft": "#E4EEFA"
+      },
+      "areas": "평택·송탄·안중·고덕",
+      "lat": 36.9921,
+      "lon": 127.1129,
+      "searchEx": "비전, 평택중",
+      "domain": "pyeongtaek.songgollab.co.kr",
+      "pages": "airang-pyeongtaek",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-10-30",
+        "startVer": "1.0.61"
+      }
+    },
+    "osan": {
+      "name": "오산",
+      "colors": {
+        "city": "#C9932A",
+        "ink": "#94701C",
+        "deep": "#6E5214",
+        "soft": "#FAF1DD"
+      },
+      "areas": "세교·운암·궐동·원동",
+      "lat": 37.1499,
+      "lon": 127.0775,
+      "searchEx": "세교, 오산중",
+      "domain": "osan.songgollab.co.kr",
+      "pages": "airang-osan",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-10-30",
+        "startVer": "1.0.61"
+      }
     }
   },
   "entry": {

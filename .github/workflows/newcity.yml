@@ -1,0 +1,46 @@
+name: newcity (새 도시 열기 — 처음 한 번 모두 모으기)
+# 도시 생성기 1단계: city.py 에 도시를 넣은 뒤, 여기서 도시 이름을 넣고 실행하면 그 도시 데이터를 처음부터 다 모은다.
+# 예) 도시: 평택,오산 / 폴더: pyeongtaek,osan (같은 순서)
+on:
+  workflow_dispatch:
+    inputs:
+      cities: { description: "도시 이름 (쉼표로)", default: "평택,오산" }
+      dirs:   { description: "폴더 이름 (같은 순서)", default: "pyeongtaek,osan" }
+permissions:
+  contents: write
+concurrency: { group: newcity, cancel-in-progress: false }
+jobs:
+  open:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      NEIS_KEY: ${{ secrets.NEIS_KEY }}
+      KINDER_KEY: ${{ secrets.KINDER_KEY }}
+      CULTURE_KEY: ${{ secrets.CULTURE_KEY }}
+      LIB_KEY: ${{ secrets.LIB_KEY }}
+      KOPIS_KEY: ${{ secrets.KOPIS_KEY }}
+      TOUR_KEY: ${{ secrets.TOUR_KEY || secrets.WEATHER_KEY }}
+      KAKAO_KEY: ${{ secrets.KAKAO_KEY }}
+      WEATHER_KEY: ${{ secrets.WEATHER_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: 모으기
+        run: |
+          IFS=, read -ra CS <<< "${{ github.event.inputs.cities }}"; IFS=, read -ra DS <<< "${{ github.event.inputs.dirs }}"
+          mkdir -p logs
+          for i in "${!CS[@]}"; do
+            export CITY="${CS[$i]}"; d="${DS[$i]}"; log=logs/newcity-$d.txt; : > $log
+            rm -rf output; mkdir -p output data/$d; cp data/$d/*.json output/ 2>/dev/null || true
+            for s in collect academies kinder meals libs books events jobs sports deals elite weather benefits hospitals; do
+              f=$(python3 -c "import city;print(city.SCRIPTS.get('$s','$s'))")
+              echo "::group::$CITY $s"; echo "== $s" >> $log
+              timeout 1500 python -u $f.py 2>&1 | tee -a $log | tail -5 || echo "::warning::$CITY $s 실패"
+              echo "::endgroup::"
+            done
+            cp output/*.json data/$d/ 2>/dev/null || true
+            echo "== 결과 파일" >> $log; ls -la data/$d >> $log
+            git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/$d $log; git diff --cached --quiet || { git commit -qm "$CITY 처음 모으기"; for k in 1 2 3 4 5; do git pull --rebase --autostash && git push && break; sleep $((k*7)); done; }
+          done

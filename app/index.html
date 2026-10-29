@@ -271,21 +271,7 @@ function loadAcas() {
 }
 const KEY_DATA = "edu.data";
 const KEY_REGION = "edu.region";
-{{#if suwon}}
-const GUS = ["장안구", "권선구", "팔달구", "영통구"];
-{{#elif seongnam}}
-const GUS = ["수정구", "중원구", "분당구"];
-{{#elif anyang}}
-const GUS = ["만안구", "동안구"];
-{{#elif goyang}}
-const GUS = ["덕양구", "일산동구", "일산서구"];
-{{#elif hwaseong}}
-const GUS = ["만세구", "효행구", "병점구", "동탄구"];
-{{#elif bucheon}}
-const GUS = ["원미구", "소사구", "오정구"];
-{{#else}}
-const GUS = ["수지구", "기흥구", "처인구"];
-{{/if}}
+const GUS = {{f.gus}};
 const KEY_LEVEL = "edu.level";
 const LEVELS = [["초등학교", "초등"], ["중학교", "중등"], ["고등학교", "고등"]];
 const IMPORTANT = /휴업|방학|개학|졸업|입학|체험|기념일|운동회|한마당|발표회|축제|상담|공개수업/;
@@ -823,21 +809,7 @@ function viewSchools(q = "") {
   const kidCodes = new Set(kids().map(k => k.code));
   const base = q ? levelSchools() : regionSchools();
   const list = base.filter(s => !q || s.name.includes(q) || s.address.includes(q) || (s.dong || "").includes(q));
-{{#if suwon}}
-  const tileCls = { "장안구": "t-mint", "권선구": "t-indigo", "팔달구": "t-coral", "영통구": "t-sun" };
-{{#elif seongnam}}
-  const tileCls = { "수정구": "t-mint", "중원구": "t-indigo", "분당구": "t-coral" };
-{{#elif anyang}}
-  const tileCls = { "만안구": "t-mint", "동안구": "t-indigo" };
-{{#elif goyang}}
-  const tileCls = { "덕양구": "t-mint", "일산동구": "t-indigo", "일산서구": "t-coral" };
-{{#elif hwaseong}}
-  const tileCls = { "만세구": "t-mint", "효행구": "t-indigo", "병점구": "t-coral", "동탄구": "t-sun" };
-{{#elif bucheon}}
-  const tileCls = { "원미구": "t-mint", "소사구": "t-indigo", "오정구": "t-coral" };
-{{#else}}
-  const tileCls = { "수지구": "t-mint", "기흥구": "t-indigo", "처인구": "t-coral" };
-{{/if}}
+  const tileCls = {{f.tileCls}};
   const rows = list.map(s => {
     const next = upcoming(group(s.events || []))[0];
     const mineS = kidCodes.has(s.code);
@@ -885,28 +857,7 @@ function viewSchool(code) {
 
 // ---------- 화면: 마이 ----------
 // 다른 도시 아이랑 (사이트 링크만). 주소가 정해지면 url만 바꾸면 됨
-{{#if suwon}}
-const OTHER_CITIES = [["용인", "https://yongin.songgollab.co.kr"], ["{{name}}", "https://{{key}}.songgollab.co.kr"], ["성남", "https://seongnam.songgollab.co.kr"],
-  ["안양", "https://anyang.songgollab.co.kr"], ["고양", "https://goyang.songgollab.co.kr"], ["화성", "https://hwaseong.songgollab.co.kr"], ["부천", "https://bucheon.songgollab.co.kr"]];
-{{#elif seongnam}}
-const OTHER_CITIES = [["용인", "https://yongin.songgollab.co.kr"], ["수원", "https://suwon.songgollab.co.kr"], ["{{name}}", "https://{{key}}.songgollab.co.kr"],
-  ["안양", "https://anyang.songgollab.co.kr"], ["고양", "https://goyang.songgollab.co.kr"], ["화성", "https://hwaseong.songgollab.co.kr"], ["부천", "https://bucheon.songgollab.co.kr"]];
-{{#elif anyang}}
-const OTHER_CITIES = [["용인", "https://yongin.songgollab.co.kr"], ["수원", "https://suwon.songgollab.co.kr"], ["성남", "https://seongnam.songgollab.co.kr"],
-  ["{{name}}", "https://{{key}}.songgollab.co.kr"], ["고양", "https://goyang.songgollab.co.kr"], ["화성", "https://hwaseong.songgollab.co.kr"], ["부천", "https://bucheon.songgollab.co.kr"]];
-{{#elif goyang}}
-const OTHER_CITIES = [["용인", "https://yongin.songgollab.co.kr"], ["수원", "https://suwon.songgollab.co.kr"], ["성남", "https://seongnam.songgollab.co.kr"],
-  ["안양", "https://anyang.songgollab.co.kr"], ["{{name}}", "https://{{key}}.songgollab.co.kr"], ["화성", "https://hwaseong.songgollab.co.kr"], ["부천", "https://bucheon.songgollab.co.kr"]];
-{{#elif hwaseong}}
-const OTHER_CITIES = [["용인", "https://yongin.songgollab.co.kr"], ["수원", "https://suwon.songgollab.co.kr"], ["성남", "https://seongnam.songgollab.co.kr"],
-  ["안양", "https://anyang.songgollab.co.kr"], ["고양", "https://goyang.songgollab.co.kr"], ["{{name}}", "https://{{key}}.songgollab.co.kr"], ["부천", "https://bucheon.songgollab.co.kr"]];
-{{#elif bucheon}}
-const OTHER_CITIES = [["용인", "https://yongin.songgollab.co.kr"], ["수원", "https://suwon.songgollab.co.kr"], ["성남", "https://seongnam.songgollab.co.kr"],
-  ["안양", "https://anyang.songgollab.co.kr"], ["고양", "https://goyang.songgollab.co.kr"], ["화성", "https://hwaseong.songgollab.co.kr"], ["{{name}}", "https://{{key}}.songgollab.co.kr"]];
-{{#else}}
-const OTHER_CITIES = [["{{name}}", "https://{{key}}.songgollab.co.kr"], ["수원", "https://suwon.songgollab.co.kr"], ["성남", "https://seongnam.songgollab.co.kr"],
-  ["안양", "https://anyang.songgollab.co.kr"], ["고양", "https://goyang.songgollab.co.kr"], ["화성", "https://hwaseong.songgollab.co.kr"], ["부천", "https://bucheon.songgollab.co.kr"]];
-{{/if}}
+{{f.otherCities}}
 function otherCities() {
   const me = document.title.replace("아이랑 ", "").trim();
   return `<section class="section"><div class="sec-head"><h2>다른 도시 둘러보기</h2></div>
@@ -1383,21 +1334,7 @@ function viewKid(arg, pre) {
     <section class="section"><div class="sec-head"><h2>학교</h2></div>
       ${sc ? `<div class="lift" style="padding:16px;display:flex;align-items:center;gap:12px"><span class="tile t-sun" style="width:40px;height:40px">${icon.star}</span>
         <div style="flex:1;min-width:0"><div style="font-weight:700">${esc(sc.name)}</div><div style="font-size:12px;color:var(--muted)">${levelShort(sc)} · ${esc(sc.gu || "")} ${esc(sc.dong || "")}</div></div></div>` : ""}
-{{#if suwon}}
-      <label class="search lift">${icon.search}<input id="kq" placeholder="${sc ? "다른 학교로 바꾸기 (학교 이름 검색)" : "학교 이름 검색 (예: 매탄, 영통중)"}" value="${esc(kidForm.q)}" aria-label="학교 이름 검색"></label>
-{{#elif seongnam}}
-      <label class="search lift">${icon.search}<input id="kq" placeholder="${sc ? "다른 학교로 바꾸기 (학교 이름 검색)" : "학교 이름 검색 (예: 정자, 서현중)"}" value="${esc(kidForm.q)}" aria-label="학교 이름 검색"></label>
-{{#elif anyang}}
-      <label class="search lift">${icon.search}<input id="kq" placeholder="${sc ? "다른 학교로 바꾸기 (학교 이름 검색)" : "학교 이름 검색 (예: 평촌, 귀인중)"}" value="${esc(kidForm.q)}" aria-label="학교 이름 검색"></label>
-{{#elif goyang}}
-      <label class="search lift">${icon.search}<input id="kq" placeholder="${sc ? "다른 학교로 바꾸기 (학교 이름 검색)" : "학교 이름 검색 (예: 백석, 오마중)"}" value="${esc(kidForm.q)}" aria-label="학교 이름 검색"></label>
-{{#elif hwaseong}}
-      <label class="search lift">${icon.search}<input id="kq" placeholder="${sc ? "다른 학교로 바꾸기 (학교 이름 검색)" : "학교 이름 검색 (예: 동탄, 반송중)"}" value="${esc(kidForm.q)}" aria-label="학교 이름 검색"></label>
-{{#elif bucheon}}
-      <label class="search lift">${icon.search}<input id="kq" placeholder="${sc ? "다른 학교로 바꾸기 (학교 이름 검색)" : "학교 이름 검색 (예: 중동, {{name}}중)"}" value="${esc(kidForm.q)}" aria-label="학교 이름 검색"></label>
-{{#else}}
-      <label class="search lift">${icon.search}<input id="kq" placeholder="${sc ? "다른 학교로 바꾸기 (학교 이름 검색)" : "학교 이름 검색 (예: 마성, 수지중)"}" value="${esc(kidForm.q)}" aria-label="학교 이름 검색"></label>
-{{/if}}
+      <label class="search lift">${icon.search}<input id="kq" placeholder="${sc ? "다른 학교로 바꾸기 (학교 이름 검색)" : "학교 이름 검색 (예: {{f.searchEx}})"}" value="${esc(kidForm.q)}" aria-label="학교 이름 검색"></label>
       <div class="lift list" id="kres"></div></section>
     ${sc ? `<section class="section"><div class="sec-head"><h2>학년</h2>${kidForm.grade > maxGrade(sc) ? `<span style="font-size:12px;color:var(--coral-ink)">학교를 바꿔 주세요 (진학)</span>` : ""}</div>
       <div style="display:grid;grid-template-columns:repeat(${maxGrade(sc)},1fr);gap:8px">${Array.from({ length: maxGrade(sc) }, (_, i) => i + 1).map(g => `<button class="btn ${kidForm.grade === g ? "btn-3d" : "btn-soft"}" style="height:44px;font-size:15px;padding:0" onclick="pickGrade(${g})">${g}</button>`).join("")}</div>
@@ -2037,7 +1974,7 @@ const NEWS = [
     "🎪 아이와 갈 만한 <b>공연·축제</b>와 학교·어린이집 <b>엄마 일자리</b>도 매일 모아 드려요.",
     "🔒 이름·전화번호를 받지 않아요. 아이 정보는 이 휴대폰에만 저장돼요."] },
 {{#else}}
-  { d: "2026-10-16", v: "1.0.45", t: "아이랑 {{name}} 시범 운영을 시작했어요", items: [
+  { d: "{{f.start}}", v: "{{f.startVer}}", t: "아이랑 {{name}} 시범 운영을 시작했어요", items: [
     "🏫 {{name}} 초·중·고 <b>학교 일정과 급식</b>을 우리 아이 기준으로 모아 보여 드려요. 급식 <b>알레르기</b>도 알려 드려요.",
     "📚 {{name}}시 공공도서관 <b>운영시간·휴관일</b>과 {{name}} 아이들이 많이 빌린 <b>인기 도서</b>를 볼 수 있어요.",
     "🧸 <b>유치원</b> 빈자리·통학버스, 교육청에 등록된 <b>학원·교습소</b>와 수강료를 동네별로 찾아볼 수 있어요.",
@@ -2047,7 +1984,7 @@ const NEWS = [
 ];
 function newsDate(d) { const [y, m, dd] = d.split("-").map(Number); return `${m}월 ${dd}일`; }
 // 새 버전으로 바뀐 걸 홈 맨 위에 한 번 알려 줌 (닫거나 소식을 보면 사라짐)
-const APP_VER = "1.0.60";
+const APP_VER = "1.0.61";
 let UPDATED_FROM = null;
 const IS_NEW_PHONE = !store("edu.appVer");   // 이 휴대폰에서 처음 열었는지 (예전에 쓴 적 있으면 앱 버전이 남아 있음)
 (function () { const last = store("edu.appVer"); if (last && last !== APP_VER) UPDATED_FROM = last; if (!last) store("edu.appVer", APP_VER); })();

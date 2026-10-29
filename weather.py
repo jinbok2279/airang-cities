@@ -176,6 +176,8 @@ def air_now(stations):
                 arr.append(float(it.get(f)))
             except (TypeError, ValueError):
                 pass
+    if js and not p10 and not p25:   # 측정소 이름이 하나도 안 맞으면 경기 측정소 이름을 기록에 남겨 고칠 수 있게
+        print("  측정소 이름 확인 필요. 경기 측정소:", ", ".join(sorted({it.get("stationName", "") for it in items(js)}))[:1500])
     out = {}
     if p10:
         out["pm10"] = grade_pm10(sum(p10) / len(p10))

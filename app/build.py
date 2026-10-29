@@ -24,6 +24,14 @@ def tokens(city):
         t["c." + k] = v
     for k, v in c.get("fields", {}).items():
         t["f." + k] = v
+    # 도시마다 다른 값 (cities.json 에서 만들어 냄)
+    g = c.get("gus", [])
+    t["f.gus"] = json.dumps(g, ensure_ascii=False)
+    tiles = ["t-mint", "t-indigo", "t-coral", "t-sun", "t-lilac"]
+    t["f.tileCls"] = "{ " + ", ".join(f'"{x}": "{tiles[i % len(tiles)]}"' for i, x in enumerate(g)) + " }"
+    t["f.searchEx"] = c.get("searchEx", "")
+    oc = [f'["{v["name"]}", "https://{k}.songgollab.co.kr"]' for k, v in CFG["cities"].items()]
+    t["f.otherCities"] = "const OTHER_CITIES = [" + ", ".join(oc[:3]) + ",\n  " + ", ".join(oc[3:]) + "];"
     return t
 
 

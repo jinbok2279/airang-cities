@@ -22,6 +22,8 @@ jobs:
           - { city: 부천, d: bucheon }
           - { city: 용인, d: yongin }
           - { city: 수원, d: suwon }
+          - { city: 평택, d: pyeongtaek }
+          - { city: 오산, d: osan }
     env:
       CITY: ${{ matrix.city }}
       NEIS_KEY: ${{ secrets.NEIS_KEY }}
