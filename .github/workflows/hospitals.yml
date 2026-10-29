@@ -19,6 +19,8 @@ jobs:
           - { city: 고양, d: goyang }
           - { city: 화성, d: hwaseong }
           - { city: 부천, d: bucheon }
+          - { city: 용인, d: yongin }
+          - { city: 수원, d: suwon }
     env:
       CITY: ${{ matrix.city }}
       WEATHER_KEY: ${{ secrets.WEATHER_KEY }}

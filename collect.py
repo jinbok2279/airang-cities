@@ -9,13 +9,13 @@ KST = timezone(timedelta(hours=9))
 API = "https://open.neis.go.kr/hub/"
 KEY = os.environ.get("NEIS_KEY", "")
 OFFICE = "J10"            # 경기도교육청
-from city import AREA, gu_of  # 주소에 이 글자가 들어간 학교만 (도시 전체, 초·중·고)
+from city import AREA, gu_of, C  # 주소에 이 글자가 들어간 학교만 (도시 전체, 초·중·고)
 DAYS_AHEAD = 60           # 오늘부터 며칠 뒤까지 일정을 모을지
 SKIP_EVENTS = {"토요휴업일"}
 PUBLIC_HOLIDAYS = {"한글날", "개천절", "추석", "설날", "성탄절", "기독탄신일", "신정",
                    "삼일절", "어린이날", "부처님오신날", "석가탄신일", "현충일", "광복절",
                    "대체공휴일", "선거일"}
-RENAMED = {}   # 이름이 바뀐 옛 동 이름이 있으면 여기에 (예: "옛이름": "새이름")
+RENAMED = C.get("renamed", {})   # 이름이 바뀐 옛 동 이름 (city.py, 예: "옛이름": "새이름")
 HIGHLIGHT_WORDS = ["재량휴업", "방학", "개학", "졸업", "입학", "체험", "기념일", "운동회",
                    "한마당", "발표회", "축제", "상담", "공개수업"]
 

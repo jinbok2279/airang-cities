@@ -1,5 +1,5 @@
 name: daily (도시별 하루 수집)
-# 매일 새벽 5시 30분(한국시간)에 도시마다 학교·급식·학원·유치원·도서관·행사·일자리·운동교실·할인을 모은다.
+# 매일 새벽 5시 30분(한국시간)에 도시 7곳마다 (용인·수원은 city.py 의 scripts 로 그 도시만의 수집기) 학교·급식·학원·유치원·도서관·행사·일자리·운동교실·할인을 모은다.
 on:
   schedule:
     - cron: "30 20 * * *"
@@ -20,6 +20,8 @@ jobs:
           - { city: 고양, d: goyang }
           - { city: 화성, d: hwaseong }
           - { city: 부천, d: bucheon }
+          - { city: 용인, d: yongin }
+          - { city: 수원, d: suwon }
     env:
       CITY: ${{ matrix.city }}
       NEIS_KEY: ${{ secrets.NEIS_KEY }}
@@ -37,7 +39,7 @@ jobs:
         run: |
           mkdir -p output && cp data/${{ matrix.d }}/*.json output/ 2>/dev/null || true   # 실패한 수집기는 이전 파일 유지
           mkdir -p logs; for s in collect academies kinder meals libs books events jobs sports deals; do
-            echo "::group::$s"; timeout 1500 python -u $s.py 2>&1 | tee -a logs/daily-${{ matrix.d }}.txt || echo "::warning::${{ matrix.city }} $s 실패 (이전 파일 유지)"; echo "::endgroup::"
+            echo "::group::$s"; f=$(python3 -c "import city;print(city.SCRIPTS.get('$s','$s'))"); timeout 1500 python -u $f.py 2>&1 | tee -a logs/daily-${{ matrix.d }}.txt || echo "::warning::${{ matrix.city }} $s 실패 (이전 파일 유지)"; echo "::endgroup::"
           done
           if [ "$(date +%d)" = "01" ] || [ ! -f output/elite.json ]; then python -u elite.py || true; fi   # 매달 1일 + 아직 없는 도시는 바로
       - name: 저장

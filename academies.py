@@ -4,7 +4,7 @@
 output/academies.json 으로 저장한다. 앱에서 아이의 학원을 고를 때 쓴다.
 """
 
-from city import AREA, gu_of
+from city import AREA, gu_of, C
 import json
 import os
 import re
@@ -65,6 +65,9 @@ def area(addr, detail):
                     break
             if dong:
                 break
+    dong = C.get("renamed_aca", {}).get(dong, dong)   # 읍으로 바뀐 곳은 지금 이름으로 (city.py)
+    if not gu and dong.endswith(("읍", "면")) and C.get("eupmyeon_gu"):
+        gu = C["eupmyeon_gu"]
     return gu, dong
 
 

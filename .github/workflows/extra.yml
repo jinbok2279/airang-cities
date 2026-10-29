@@ -1,0 +1,57 @@
+name: extra (용인·수원 자주 받는 것)
+# 2026-10-29 예전 yongin-edu-collector·suwon-edu-collector 에서 옮겨 옴 — 같은 시간에 돌게
+#  - 용인 도서관 좌석: 09:00~22:30, 30분마다
+#  - 용인·수원 학교 일정(collect): 12:00, 18:00 (아침은 daily 에서)
+#  - 수원 체육센터 남은 자리(sports): 12:10, 18:10 (아침은 daily 에서)
+on:
+  schedule:
+    - cron: "*/30 0-13 * * *"   # 한국시간 09:00~22:30, 30분마다 (용인 좌석)
+    - cron: "0 3,9 * * *"       # 12:00, 18:00 (학교 일정)
+    - cron: "10 3,9 * * *"      # 12:10, 18:10 (수원 체육센터)
+  workflow_dispatch:
+    inputs:
+      what: { description: "seats / collect / sports", default: "seats" }
+permissions:
+  contents: write
+concurrency: { group: extra, cancel-in-progress: false }
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      NEIS_KEY: ${{ secrets.NEIS_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: 무엇을 돌릴지
+        id: w
+        run: |
+          w="${{ github.event.inputs.what }}"
+          if [ -z "$w" ]; then
+            case "${{ github.event.schedule }}" in
+              "0 3,9 * * *") w=collect ;;
+              "10 3,9 * * *") w=sports ;;
+              *) w=seats ;;
+            esac
+          fi
+          echo "what=$w" >> $GITHUB_OUTPUT; echo "할 일: $w"
+      - name: 수집
+        run: |
+          mkdir -p logs
+          run() {  # $1=도시 $2=폴더 $3=수집기 $4=결과 파일
+            rm -rf output; mkdir -p output; cp data/$2/*.json output/ 2>/dev/null || true
+            CITY=$1 timeout 1200 python -u $3.py 2>&1 | tee logs/extra-$2-$3.txt || echo "::warning::$1 $3 실패 (이전 파일 유지)"
+            [ -f output/$4 ] && cp output/$4 data/$2/
+          }
+          case "${{ steps.w.outputs.what }}" in
+            seats)   run 용인 yongin yongin_seats seats.json ;;
+            collect) run 용인 yongin collect latest.json; run 수원 suwon collect latest.json ;;
+            sports)  run 수원 suwon suwon_sports sports.json ;;
+          esac
+      - name: 저장
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data logs; git diff --cached --quiet && exit 0
+          git commit -m "용인·수원 ${{ steps.w.outputs.what }}"
+          for i in 1 2 3 4 5 6; do git pull --rebase --autostash && git push && break; sleep $((i*7)); done

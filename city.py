@@ -10,6 +10,29 @@ import os
 import re
 
 CITIES = {
+    "용인": {
+        "area": "용인시", "gus": {"처인구": 41461, "기흥구": 41463, "수지구": 41465},
+        "lib": {}, "signgu": "41460", "kopis": "4146",
+        "lat": 37.2411, "lon": 127.1776, "stations": [], "region": "경기남부",
+        "places": r"용인|에버랜드|한국민속촌|수지|기흥|처인|동백|죽전|보정|신갈|구성|상현|성복|풍덕천|김량장|역북|포은아트홀|용인포은아트홀|처인구|기흥구|수지구",
+        "not_places": r"수원|성남|화성|오산|안성|평택|이천|광주시|서울",
+        "domain": "yongin", "lib_home": "https://lib.yongin.go.kr",
+        # 2026-10-29 용인 수집을 이 저장소로 옮김 — 예전 yongin-edu-collector 와 같은 결과가 나오게
+        "renamed": {"남사면": "남사읍", "모현면": "모현읍", "이동면": "이동읍"},            # 학교 주소 (collect)
+        "renamed_aca": {"남사면": "남사읍", "이동면": "이동읍", "모현면": "모현읍", "양지면": "양지읍"},   # 학원 주소
+        "eupmyeon_gu": "처인구",    # 구가 없는 읍·면 학원 주소는 처인구
+        # 용인만의 수집기 (시 도서관 좌석·도서관 홈페이지 인기 도서·시 행사·체육센터)
+        "scripts": {"libs": "yongin_seats", "books": "yongin_books", "events": "yongin_events", "sports": "yongin_sports"},
+    },
+    "수원": {
+        "area": "수원시", "gus": {"장안구": 41111, "권선구": 41113, "팔달구": 41115, "영통구": 41117},
+        "lib": {"장안구": 31011, "권선구": 31012, "팔달구": 31013, "영통구": 31014}, "signgu": "41110", "kopis": "4111",
+        "lat": 37.2636, "lon": 127.0286, "stations": [], "region": "경기남부",
+        "places": r"수원|광교|영통|권선|장안|팔달|매탄|망포|호매실|화성행궁|수원화성|수원SK아트리움|경기아트센터|수원컨벤션센터|장안구|권선구|팔달구|영통구",
+        "not_places": r"화성시|용인|성남|오산|의왕|안산|군포|서울",
+        "domain": "suwon", "lib_home": "https://www.suwonlib.go.kr",
+        "scripts": {"events": "suwon_events", "sports": "suwon_sports"},
+    },
     "성남": {
         "area": "성남시", "gus": {"수정구": 41131, "중원구": 41133, "분당구": 41135},
         "lib": {"수정구": 31021, "중원구": 31022, "분당구": 31023}, "signgu": "41130", "kopis": "4113",
@@ -69,6 +92,7 @@ GUS = list(C["gus"])                 # 구 이름 목록 ('' 하나면 구 없�
 GU_RE = "|".join(g for g in GUS if g) or "(?!)"
 PLACES = re.compile(C["places"], re.I)
 NOT_PLACES = re.compile(C["not_places"])
+SCRIPTS = C.get("scripts", {})       # 그 도시만 다른 수집기 (없으면 공통)
 
 
 def gu_of(addr, detail=""):
