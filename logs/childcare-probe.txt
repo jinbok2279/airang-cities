@@ -1,0 +1,31 @@
+키 길이: 32
+cpmsapi020 ['arcode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi020 ['arcode', 'stcode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi020 ['sidocode', 'sigungucode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi020 ['arcode', 'type'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi020 ['arname'] item 0 | <response><errcode>INFO-100</errcode><errmsg>인증키가 유효하지 않습니다. 인증키를 확인하십시오!</errmsg></response>
+cpmsapi020 ['stcode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi022 ['arcode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi022 ['arcode', 'stcode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi022 ['sidocode', 'sigungucode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi022 ['arcode', 'type'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi022 ['arname'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi022 ['stcode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi030 ['arcode'] item 1 | <response><item><sidoname>01</sidoname><sigunname>02</sigunname><stcode>03</stcode><crname>04</crname><crtypename>05</crtypename><crstatusname>06</crstatusname><zipcode>07</zipcode><craddr>08</craddr><crtelno>09</crtelno
+cpmsapi030 ['arcode', 'stcode'] item 1 | <response><item><sidoname>01</sidoname><sigunname>02</sigunname><stcode>03</stcode><crname>04</crname><crtypename>05</crtypename><crstatusname>06</crstatusname><zipcode>07</zipcode><craddr>08</craddr><crtelno>09</crtelno
+cpmsapi030 ['sidocode', 'sigungucode'] item 0 | <response><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg><errcode>ERROR-100</errcode></response>
+cpmsapi030 ['arcode', 'type'] item 1 | <response><item><sidoname>01</sidoname><sigunname>02</sigunname><stcode>03</stcode><crname>04</crname><crtypename>05</crtypename><crstatusname>06</crstatusname><zipcode>07</zipcode><craddr>08</craddr><crtelno>09</crtelno
+cpmsapi030 ['arname'] item 0 | <response><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg><errcode>ERROR-100</errcode></response>
+cpmsapi030 ['stcode'] item 0 | <response><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg><errcode>ERROR-100</errcode></response>
+cpmsapi018 ['arcode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi018 ['arcode', 'stcode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi018 ['sidocode', 'sigungucode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi018 ['arcode', 'type'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi018 ['arname'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi018 ['stcode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi019 ['arcode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi019 ['arcode', 'stcode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi019 ['sidocode', 'sigungucode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi019 ['arcode', 'type'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi019 ['arname'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
+cpmsapi019 ['stcode'] item 0 | <response><errcode>ERROR-100</errcode><errmsg>필수 값이 누락되어 있습니다. 필수 값을 확인하십시오!</errmsg></response>
