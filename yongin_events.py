@@ -247,8 +247,9 @@ def lib_events():
 def main():
     today = datetime.now(KST).date()
     city, lib = [], []
+    hall_ok = False
     try:
-        city = city_events(today)
+        city = city_events(today); hall_ok = True
     except Exception as e:
         print("시청 행사 실패:", e)
     try:
@@ -265,6 +266,10 @@ def main():
             old = json.load(open("output/events.json", encoding="utf-8"))
         except Exception:
             old = {}
+    if not hall_ok and old.get("city"):   # 시청 사이트가 잠깐 안 될 때: 지난번 시청 행사(아직 안 끝난 것)를 그대로 둔다
+        keep = [e for e in old["city"] if e.get("src") != "culture" and e.get("end", "") >= today.isoformat()]
+        city = keep + [e for e in city if all(e["title"] != c["title"] for c in keep)]
+        print(f"  시청 행사: 지난번 목록 {len(keep)}건 유지")
     if not city and old.get("city"):
         city = [e for e in old["city"] if e.get("end", "") >= today.isoformat()]
     if not lib and old.get("lib"):
