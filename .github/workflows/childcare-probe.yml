@@ -23,27 +23,16 @@ jobs:
           def get(url):
               with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "airang/1.0"}), timeout=60) as r:
                   return r.read().decode("utf-8", "replace")
-          base = None
-          for b in BASES:
-              try:
-                  t = get(b + "?" + urllib.parse.urlencode({"key": K, "arcode": 41461}))
-                  print("주소", b.split("/mediate")[0], "응답 길이", len(t)); print(re.sub(r"\s+", " ", t.replace(K, "***"))[:900]); base = b; break
-              except Exception as e:
-                  print("주소", b.split("/mediate")[0], "실패:", str(e).replace(K, "***")[:200])
-          if base:
-              tot = 0
-              for n, code in SGG.items():
+          for api in ["cpmsapi030", "cpmsapi020", "cpmsapi021", "cpmsapi022", "cpmsapi031", "cpmsapi010", "cpmsapi011"]:
+              for q in ({"key": K, "arcode": 41461}, {"key": K, "arcode": 41461, "stcode": ""}):
+                  u = f"https://api.childcare.go.kr/mediate/rest/{api}/{api}/request?" + urllib.parse.urlencode(q)
                   try:
-                      t = get(base + "?" + urllib.parse.urlencode({"key": K, "arcode": code}))
-                      items = re.findall(r"<item>(.*?)</item>", t, re.S)
-                      st = collections.Counter(re.search(r"<crstatusname>([^<]*)", i).group(1) if re.search(r"<crstatusname>([^<]*)", i) else "?" for i in items)
-                      ty = collections.Counter(re.search(r"<crtypename>([^<]*)", i).group(1) if re.search(r"<crtypename>([^<]*)", i) else "?" for i in items)
-                      tot += len(items); print(f"{n}: {len(items)}곳 · 상태 {dict(st)} · 유형 {dict(ty)}")
+                      t = get(u); items = re.findall(r"<item>(.*?)</item>", t, re.S)
+                      nm = [re.search(r"<crname>([^<]*)", i).group(1) for i in items[:3] if re.search(r"<crname>", i)]
+                      print(api, list(q), "길이", len(t), "item", len(items), "이름 예", nm, "|", re.sub(r"\s+", " ", t.replace(K, "***"))[:160])
                   except Exception as e:
-                      print(n, "실패:", str(e).replace(K, "***")[:150])
-              print("합계", tot)
-              if items:
-                  print("칸 이름:", sorted(set(re.findall(r"<(\w+)>", items[0]))))
+                      print(api, "실패", str(e).replace(K, "***")[:120])
+                  break
           PY
           cat logs/childcare-probe.txt
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
