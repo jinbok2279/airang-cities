@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29 23:31:56",
+  "updated_at": "2026-10-30 06:35:07",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -27,7 +27,7 @@
           "isbn": "9791168417786",
           "loans": 13,
           "rank": 2,
-          "series": 4
+          "series": 3
         },
         {
           "title": "흔한남매 이상한 나라의 고전 읽기",
@@ -36,7 +36,7 @@
           "cover": "https://image.aladin.co.kr/product/33575/91/cover/k582939392_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6840920",
           "isbn": "9791168415331",
-          "loans": 12,
+          "loans": 11,
           "rank": 3,
           "series": 6
         },
@@ -49,7 +49,7 @@
           "isbn": "9791168418011",
           "loans": 11,
           "rank": 4,
-          "series": 12
+          "series": 13
         },
         {
           "title": "설민석의 한국사 대모험",
@@ -60,7 +60,7 @@
           "isbn": "9791193031025",
           "loans": 10,
           "rank": 5,
-          "series": 7
+          "series": 5
         },
         {
           "title": "페인트 :이희영 장편소설",
@@ -118,17 +118,6 @@
           "series": 3
         },
         {
-          "title": "돈 주운 자의 최후",
-          "author": "이여민 글, 유영근 그림",
-          "publisher": "비룡소",
-          "cover": "https://image.aladin.co.kr/product/38878/20/cover200/8949162687_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7240913",
-          "isbn": "9788949162683",
-          "loans": 8,
-          "rank": 11,
-          "series": 1
-        },
-        {
           "title": "리보와 앤 :아무도 오지 않는 도서관의 두 로봇",
           "author": "어윤정 글, 해마 그림",
           "publisher": "문학동네",
@@ -136,7 +125,7 @@
           "link": "https://data4library.kr/bookV?seq=6630275",
           "isbn": "9788954690690",
           "loans": 8,
-          "rank": 12,
+          "rank": 11,
           "series": 1
         },
         {
@@ -147,7 +136,7 @@
           "link": "https://data4library.kr/bookV?seq=5383781",
           "isbn": "9788963192956",
           "loans": 8,
-          "rank": 13,
+          "rank": 12,
           "series": 1
         },
         {
@@ -158,7 +147,7 @@
           "link": "https://data4library.kr/bookV?seq=6893935",
           "isbn": "9791193939031",
           "loans": 8,
-          "rank": 14,
+          "rank": 13,
           "series": 1
         },
         {
@@ -168,6 +157,17 @@
           "cover": "https://image.aladin.co.kr/product/36670/38/cover200/8936448951_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7087444",
           "isbn": "9788936448950",
+          "loans": 7,
+          "rank": 14,
+          "series": 1
+        },
+        {
+          "title": "돈 주운 자의 최후",
+          "author": "이여민 글, 유영근 그림",
+          "publisher": "비룡소",
+          "cover": "https://image.aladin.co.kr/product/38878/20/cover200/8949162687_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7240913",
+          "isbn": "9788949162683",
           "loans": 7,
           "rank": 15,
           "series": 1
@@ -184,17 +184,6 @@
           "series": 1
         },
         {
-          "title": "세계를 건너 너에게 갈게 :이꽃님 장편소설",
-          "author": "글쓴이: 이꽃님",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/25611/81/cover/8954675603_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5805421",
-          "isbn": "9788954675604",
-          "loans": 7,
-          "rank": 17,
-          "series": 1
-        },
-        {
           "title": "여름을 한 입 베어 물었더니 :이꽃님 장편소설",
           "author": "글쓴이: 이꽃님",
           "publisher": "문학동네",
@@ -202,7 +191,7 @@
           "link": "https://data4library.kr/bookV?seq=6749899",
           "isbn": "9788954694575",
           "loans": 7,
-          "rank": 18,
+          "rank": 17,
           "series": 1
         },
         {
@@ -213,8 +202,8 @@
           "link": "https://data4library.kr/bookV?seq=3536738",
           "isbn": "9788960867093",
           "loans": 7,
-          "rank": 19,
-          "series": 1
+          "rank": 18,
+          "series": 2
         },
         {
           "title": "죽이고 싶은 아이 :이꽃님 장편소설",
@@ -223,6 +212,17 @@
           "cover": "https://image.aladin.co.kr/product/34179/34/cover200/k122931213_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6893936",
           "isbn": "9791167552723",
+          "loans": 7,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "흔한남매 이무기 :이해하면 무서운 이야기",
+          "author": "원작: 흔한남매, 도니패밀리",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/32095/72/cover/k502834901_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6735778",
+          "isbn": "9791168415577",
           "loans": 7,
           "rank": 20,
           "series": 1
@@ -290,28 +290,6 @@
           "series": 1
         },
         {
-          "title": "고요한 우연 :김수빈 장편소설",
-          "author": "글쓴이: 김수빈",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/31113/80/cover/s002831046_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6642859",
-          "isbn": "9788954691154",
-          "loans": 4,
-          "rank": 6,
-          "series": 1
-        },
-        {
-          "title": "비스킷",
-          "author": "김선미",
-          "publisher": "위즈덤하우스",
-          "cover": "https://image.aladin.co.kr/product/32443/92/cover/k002935195_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6759494",
-          "isbn": "9791168127630",
-          "loans": 4,
-          "rank": 7,
-          "series": 1
-        },
-        {
           "title": "종의 기원 :자연선택을 통한 종의 기원에 관하여 또는 생존 투쟁에서 선호된 품종의 보존에 관하여",
           "author": "찰스 다윈, 장대익",
           "publisher": "사이언스북스",
@@ -319,7 +297,7 @@
           "link": "https://data4library.kr/bookV?seq=5448318",
           "isbn": "9791189198862",
           "loans": 4,
-          "rank": 8,
+          "rank": 6,
           "series": 1
         },
         {
@@ -330,7 +308,7 @@
           "link": "https://data4library.kr/bookV?seq=6036502",
           "isbn": "9791191043297",
           "loans": 4,
-          "rank": 9,
+          "rank": 7,
           "series": 1
         },
         {
@@ -341,7 +319,7 @@
           "link": "https://data4library.kr/bookV?seq=3423096",
           "isbn": "9788936434267",
           "loans": 3,
-          "rank": 10,
+          "rank": 8,
           "series": 1
         },
         {
@@ -352,7 +330,7 @@
           "link": "https://data4library.kr/bookV?seq=6869283",
           "isbn": "9788936457259",
           "loans": 3,
-          "rank": 11,
+          "rank": 9,
           "series": 1
         },
         {
@@ -363,7 +341,7 @@
           "link": "https://data4library.kr/bookV?seq=2763348",
           "isbn": "9788936460341",
           "loans": 3,
-          "rank": 12,
+          "rank": 10,
           "series": 1
         },
         {
@@ -374,7 +352,7 @@
           "link": "https://data4library.kr/bookV?seq=5448422",
           "isbn": "9788936477196",
           "loans": 3,
-          "rank": 13,
+          "rank": 11,
           "series": 1
         },
         {
@@ -385,7 +363,7 @@
           "link": "https://data4library.kr/bookV?seq=1245351",
           "isbn": "9788954427173",
           "loans": 3,
-          "rank": 14,
+          "rank": 12,
           "series": 1
         },
         {
@@ -396,7 +374,18 @@
           "link": "https://data4library.kr/bookV?seq=3451595",
           "isbn": "9788954646079",
           "loans": 3,
-          "rank": 15,
+          "rank": 13,
+          "series": 1
+        },
+        {
+          "title": "고요한 우연 :김수빈 장편소설",
+          "author": "글쓴이: 김수빈",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/31113/80/cover/s002831046_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6642859",
+          "isbn": "9788954691154",
+          "loans": 3,
+          "rank": 14,
           "series": 1
         },
         {
@@ -407,7 +396,7 @@
           "link": "https://data4library.kr/bookV?seq=6749899",
           "isbn": "9788954694575",
           "loans": 3,
-          "rank": 16,
+          "rank": 15,
           "series": 1
         },
         {
@@ -418,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=7254655",
           "isbn": "9788960909878",
           "loans": 3,
-          "rank": 17,
+          "rank": 16,
           "series": 1
         },
         {
@@ -429,7 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=5296188",
           "isbn": "9788962622560",
           "loans": 3,
-          "rank": 18,
+          "rank": 17,
           "series": 1
         },
         {
@@ -440,7 +429,7 @@
           "link": "https://data4library.kr/bookV?seq=6428072",
           "isbn": "9788965965046",
           "loans": 3,
-          "rank": 19,
+          "rank": 18,
           "series": 1
         },
         {
@@ -450,6 +439,17 @@
           "cover": "https://bookthumb-phinf.pstatic.net/cover/001/067/00106772.jpg?type=m1&udate=20130115",
           "link": "https://data4library.kr/bookV?seq=1583350",
           "isbn": "9788995151204",
+          "loans": 3,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "나는 소망한다 내게 금지된 것을 :양귀자 장편소설",
+          "author": "양귀자",
+          "publisher": "쓰다",
+          "cover": "https://image.aladin.co.kr/product/18936/52/cover/8998441071_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5395822",
+          "isbn": "9788998441074",
           "loans": 3,
           "rank": 20,
           "series": 1
@@ -468,7 +468,7 @@
           "cover": "https://image.aladin.co.kr/product/26942/84/cover/k582730818_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5962217",
           "isbn": "9791161571188",
-          "loans": 61,
+          "loans": 60,
           "rank": 1,
           "series": 2
         },
@@ -479,7 +479,7 @@
           "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
           "link": "https://data4library.kr/bookV?seq=2037399",
           "isbn": "9788936434120",
-          "loans": 57,
+          "loans": 55,
           "rank": 2,
           "series": 1
         },
@@ -490,7 +490,7 @@
           "cover": "https://image.aladin.co.kr/product/34618/90/cover200/k522933982_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6945239",
           "isbn": "9791168418844",
-          "loans": 47,
+          "loans": 46,
           "rank": 3,
           "series": 8
         },
@@ -501,7 +501,7 @@
           "cover": "https://image.aladin.co.kr/product/36101/66/cover200/893643974x_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7035395",
           "isbn": "9788936439743",
-          "loans": 46,
+          "loans": 44,
           "rank": 4,
           "series": 1
         },
@@ -512,19 +512,8 @@
           "cover": "https://image.aladin.co.kr/product/34474/76/cover200/k292932634_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6933234",
           "isbn": "9791141601300",
-          "loans": 44,
+          "loans": 43,
           "rank": 5,
-          "series": 1
-        },
-        {
-          "title": "안녕이라 그랬어 :김애란 소설",
-          "author": "김애란",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7073819",
-          "isbn": "9791141602376",
-          "loans": 42,
-          "rank": 6,
           "series": 1
         },
         {
@@ -534,8 +523,8 @@
           "cover": "https://image.aladin.co.kr/product/36786/80/cover200/k472030698_2.jpg",
           "link": "https://data4library.kr/bookV?seq=7094855",
           "isbn": "9791170612759",
-          "loans": 42,
-          "rank": 7,
+          "loans": 41,
+          "rank": 6,
           "series": 1
         },
         {
@@ -546,6 +535,17 @@
           "link": "https://data4library.kr/bookV?seq=6791651",
           "isbn": "9791130646381",
           "loans": 40,
+          "rank": 7,
+          "series": 1
+        },
+        {
+          "title": "안녕이라 그랬어 :김애란 소설",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7073819",
+          "isbn": "9791141602376",
+          "loans": 39,
           "rank": 8,
           "series": 1
         },
@@ -556,19 +556,8 @@
           "cover": "https://image.aladin.co.kr/product/34179/34/cover200/k122931213_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6893936",
           "isbn": "9791167552723",
-          "loans": 40,
+          "loans": 39,
           "rank": 9,
-          "series": 1
-        },
-        {
-          "title": "작별하지 않는다 :한강 장편소설",
-          "author": "한강",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/27877/5/cover/8954682154_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6086446",
-          "isbn": "9788954682152",
-          "loans": 38,
-          "rank": 10,
           "series": 1
         },
         {
@@ -578,9 +567,20 @@
           "cover": "https://image.aladin.co.kr/product/29683/83/cover/k122838384_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6489268",
           "isbn": "9791168412248",
-          "loans": 38,
-          "rank": 11,
+          "loans": 37,
+          "rank": 10,
           "series": 4
+        },
+        {
+          "title": "작별하지 않는다 :한강 장편소설",
+          "author": "한강",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/27877/5/cover/8954682154_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6086446",
+          "isbn": "9788954682152",
+          "loans": 35,
+          "rank": 11,
+          "series": 1
         },
         {
           "title": "지구 끝의 온실 :김초엽 장편소설",
@@ -594,50 +594,6 @@
           "series": 1
         },
         {
-          "title": "여름을 한 입 베어 물었더니 :이꽃님 장편소설",
-          "author": "글쓴이: 이꽃님",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/32294/5/cover/8954694578_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6749899",
-          "isbn": "9788954694575",
-          "loans": 34,
-          "rank": 13,
-          "series": 1
-        },
-        {
-          "title": "모순 :양귀자 장편소설",
-          "author": "양귀자",
-          "publisher": "쓰다",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/071/902/07190270.jpg?type=m1&udate=20170801",
-          "link": "https://data4library.kr/bookV?seq=1938053",
-          "isbn": "9788998441012",
-          "loans": 34,
-          "rank": 14,
-          "series": 1
-        },
-        {
-          "title": "흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식",
-          "author": "원작: 흔한남매, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/33398/15/cover/k562938512_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6831155",
-          "isbn": "9791168414488",
-          "loans": 34,
-          "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "절창 :구병모 장편소설",
-          "author": "구병모",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/37172/36/cover200/k662031678_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7149374",
-          "isbn": "9791141602451",
-          "loans": 33,
-          "rank": 16,
-          "series": 1
-        },
-        {
           "title": "슈뻘맨의 숨은 과학 찾기 :엉뚱 도전 속에 숨은 과학 상식",
           "author": "슈뻘맨 원작, 류수형 그림",
           "publisher": "미래엔",
@@ -645,7 +601,7 @@
           "link": "https://data4library.kr/bookV?seq=6754113",
           "isbn": "9791168415188",
           "loans": 33,
-          "rank": 17,
+          "rank": 13,
           "series": 1
         },
         {
@@ -656,7 +612,40 @@
           "link": "https://data4library.kr/bookV?seq=6428779",
           "isbn": "9788936434595",
           "loans": 32,
-          "rank": 18,
+          "rank": 14,
+          "series": 1
+        },
+        {
+          "title": "여름을 한 입 베어 물었더니 :이꽃님 장편소설",
+          "author": "글쓴이: 이꽃님",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/32294/5/cover/8954694578_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6749899",
+          "isbn": "9788954694575",
+          "loans": 32,
+          "rank": 15,
+          "series": 1
+        },
+        {
+          "title": "모순 :양귀자 장편소설",
+          "author": "양귀자",
+          "publisher": "쓰다",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/071/902/07190270.jpg?type=m1&udate=20170801",
+          "link": "https://data4library.kr/bookV?seq=1938053",
+          "isbn": "9788998441012",
+          "loans": 32,
+          "rank": 16,
+          "series": 1
+        },
+        {
+          "title": "절창 :구병모 장편소설",
+          "author": "구병모",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/37172/36/cover200/k662031678_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7149374",
+          "isbn": "9791141602451",
+          "loans": 32,
+          "rank": 17,
           "series": 1
         },
         {
@@ -666,18 +655,29 @@
           "cover": "https://image.aladin.co.kr/product/18958/95/cover/893645689x_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5397461",
           "isbn": "9788936456894",
-          "loans": 32,
+          "loans": 31,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "박곰희 연금 부자 수업 :4개의 통장으로 월 300만원 만들기",
+          "author": "박곰희 지음",
+          "publisher": "인플루엔셜",
+          "cover": "https://image.aladin.co.kr/product/36661/52/cover200/k972030181_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7086495",
+          "isbn": "9791168342941",
+          "loans": 31,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "마흔에 읽는 쇼펜하우어 :마음의 위기를 다스리는 철학 수업",
-          "author": "강용수 지음",
-          "publisher": "유노콘텐츠그룹",
-          "cover": "https://image.aladin.co.kr/product/32361/59/cover/k592935565_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6754766",
-          "isbn": "9791192300818",
-          "loans": 32,
+          "title": "흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식",
+          "author": "원작: 흔한남매, 유난희",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/33398/15/cover/k562938512_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6831155",
+          "isbn": "9791168414488",
+          "loans": 31,
           "rank": 20,
           "series": 1
         }
