@@ -11,7 +11,10 @@
       },
       "domain": "yongin.songgollab.co.kr",
       "pages": "airang-yongin",
-      "has404": false
+      "has404": false,
+      "areas": "처인구 · 기흥구 · 수지구",
+      "lat": 37.2411,
+      "lon": 127.1776
     },
     "suwon": {
       "name": "수원",
@@ -23,7 +26,10 @@
       },
       "domain": "suwon.songgollab.co.kr",
       "pages": "airang-suwon",
-      "has404": false
+      "has404": false,
+      "areas": "장안구 · 권선구 · 팔달구 · 영통구",
+      "lat": 37.2636,
+      "lon": 127.0286
     },
     "seongnam": {
       "name": "성남",
@@ -35,7 +41,10 @@
       },
       "domain": "seongnam.songgollab.co.kr",
       "pages": "airang-seongnam",
-      "has404": true
+      "has404": true,
+      "areas": "수정구 · 중원구 · 분당구",
+      "lat": 37.42,
+      "lon": 127.1265
     },
     "anyang": {
       "name": "안양",
@@ -47,7 +56,10 @@
       },
       "domain": "anyang.songgollab.co.kr",
       "pages": "airang-anyang",
-      "has404": true
+      "has404": true,
+      "areas": "만안구 · 동안구",
+      "lat": 37.3943,
+      "lon": 126.9568
     },
     "goyang": {
       "name": "고양",
@@ -59,7 +71,10 @@
       },
       "domain": "goyang.songgollab.co.kr",
       "pages": "airang-goyang",
-      "has404": true
+      "has404": true,
+      "areas": "덕양구 · 일산동구 · 일산서구",
+      "lat": 37.6584,
+      "lon": 126.832
     },
     "hwaseong": {
       "name": "화성",
@@ -71,7 +86,10 @@
       },
       "domain": "hwaseong.songgollab.co.kr",
       "pages": "airang-hwaseong",
-      "has404": true
+      "has404": true,
+      "areas": "동탄 · 병점 · 봉담 · 향남",
+      "lat": 37.2006,
+      "lon": 127.073
     },
     "bucheon": {
       "name": "부천",
@@ -83,7 +101,14 @@
       },
       "domain": "bucheon.songgollab.co.kr",
       "pages": "airang-bucheon",
-      "has404": true
+      "has404": true,
+      "areas": "원미구 · 소사구 · 오정구",
+      "lat": 37.5034,
+      "lon": 126.766
     }
+  },
+  "entry": {
+    "domain": "airang.songgollab.co.kr",
+    "pages": "airang-entry"
   }
 }

@@ -2,7 +2,7 @@
 
   python3 app/build.py                 # out/<도시>/ 에 7개 앱을 만든다
   python3 app/build.py --out 폴더       # 다른 곳에 만들기
-  python3 app/build.py --city yongin   # 한 도시만
+  python3 app/build.py --city yongin   # 한 도시만 (--city entry = 입구)
 
 템플릿 문법 (줄 단위)
   {{name}} {{key}} {{c.city}} …           도시 설정 값으로 바뀜 (cities.json)
@@ -72,10 +72,29 @@ def build(city, out):
     return d
 
 
+def build_entry(out):
+    """입구(airang.songgollab.co.kr): 도시 고르기 화면. 도시 카드는 cities.json 에서."""
+    d = os.path.join(out, "entry")
+    if os.path.exists(d): shutil.rmtree(d)
+    os.makedirs(os.path.join(d, "img"))
+    rows = [[k, c["name"], c["colors"]["city"], c.get("areas", ""), c.get("lat", 0), c.get("lon", 0)] for k, c in CFG["cities"].items()]
+    src = open(os.path.join(HERE, "entry", "index.html"), encoding="utf-8").read()
+    assert "/*CITIES*/[]" in src
+    src = src.replace("/*CITIES*/[]", json.dumps(rows, ensure_ascii=False))
+    open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(src)
+    for f in ("icon-192.png", "icon-512.png"):
+        shutil.copy(os.path.join(HERE, "entry", f), d)
+    for k in CFG["cities"]:
+        own = os.path.join(HERE, "cities", k)
+        shutil.copy(os.path.join(own, f"hero-{k}-800.webp"), os.path.join(d, "img"))
+        shutil.copy(os.path.join(own, "icon-192.png"), os.path.join(d, "img", f"ic-{k}.png"))
+    return d
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default=os.path.join(os.path.dirname(HERE), "out"))
     ap.add_argument("--city", action="append")
     a = ap.parse_args()
-    for c in a.city or CFG["cities"]:
-        print("만듦:", build(c, a.out))
+    for c in a.city or list(CFG["cities"]) + ["entry"]:
+        print("만듦:", build_entry(a.out) if c == "entry" else build(c, a.out))

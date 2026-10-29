@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ko"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>아이랑 경기</title>
+<meta name="theme-color" content="#2B3478">
+<meta name="description" content="경기도 아이 키우는 집을 위한 동네 정보 — 학교 일정·급식·도서관·유치원·학원·병원·혜택을 한곳에서. 무료, 가입 없이.">
+<link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">
+<meta property="og:title" content="아이랑 경기"><meta property="og:description" content="우리 동네 아이 정보, 한곳에서. 무료·가입 없이."><meta property="og:image" content="icon-512.png">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ground:#F7F5F0;--ink:#1B2033;--muted:#6B7185;--line:#ECE7DD;--navy:#2B3478}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at 90% 0%,#E8EBFF,transparent 42%),radial-gradient(circle at 0% 60%,rgba(255,232,196,.45),transparent 45%),var(--ground);color:var(--ink);font-family:'Noto Sans KR','Noto Sans CJK KR',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:560px;margin:0 auto;padding:18px 18px 40px}
+.lift{background:#fff;border-radius:24px;box-shadow:inset 0 1px 0 #fff,0 1px 2px rgba(20,26,46,.05),0 14px 30px -12px rgba(43,52,120,.24)}
+.top{display:flex;align-items:center;gap:10px}
+.top img{width:40px;height:40px;border-radius:11px;box-shadow:0 4px 10px -4px rgba(0,0,0,.4)}
+.top b{font-size:18px;font-weight:800;letter-spacing:-.3px}.top small{display:block;font-size:11px;color:var(--muted);font-weight:600;margin-top:1px}
+h1{font-size:28px;font-weight:800;letter-spacing:-.8px;line-height:1.28;margin:26px 2px 8px}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,#FFE08A 62%)}
+.sub{font-size:14px;color:var(--muted);line-height:1.6;margin:0 2px 16px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 18px}
+.chips span{font-size:12px;font-weight:700;padding:5px 10px;border-radius:99px;background:#fff;color:#3A4160;box-shadow:0 1px 2px rgba(0,0,0,.06)}
+.again{display:flex;align-items:center;gap:12px;padding:12px 14px;margin-bottom:14px;text-decoration:none;color:inherit;border:2px solid var(--c)}
+.again img{width:44px;height:44px;border-radius:12px}.again .t{flex:1}.again .t small{display:block;font-size:12px;color:var(--muted)}.again .t b{font-size:16px}
+.go{font-weight:800;color:#fff;background:var(--c);border-radius:12px;padding:8px 12px;font-size:13px}
+.locate{width:100%;height:54px;border:0;border-radius:16px;font:inherit;font-size:15px;font-weight:800;color:#fff;background:linear-gradient(180deg,#3B46A8,#2B3478);box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 4px 0 #1D2457,0 12px 20px -10px #2B3478;display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:6px}
+.note{font-size:11.5px;color:var(--muted);text-align:center;margin:6px 0 20px}
+.sec{display:flex;justify-content:space-between;align-items:baseline;margin:6px 2px 10px}.sec h2{font-size:17px;margin:0}.sec span{font-size:12px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.city{display:block;text-decoration:none;color:inherit;overflow:hidden;position:relative;transition:transform .15s}
+.city:active{transform:scale(.97)}
+.city .pic{height:92px;background-size:cover;background-position:center 40%;position:relative}
+.city .pic::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,rgba(255,255,255,.95))}
+.city .ic{position:absolute;left:12px;top:66px;width:44px;height:44px;border-radius:12px;box-shadow:0 6px 14px -6px rgba(0,0,0,.5);z-index:1}
+.city .body{padding:22px 12px 12px}
+.city .nm{font-size:16px;font-weight:800}.city .nm span{color:var(--c)}
+.city .gu{font-size:11.5px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.city .bar{height:4px;border-radius:2px;background:var(--c);margin-top:10px;opacity:.85}
+.city.near{outline:3px solid var(--c);outline-offset:2px}
+.city .badge{position:absolute;top:8px;right:8px;z-index:1;font-size:11px;font-weight:800;color:#fff;background:var(--c);padding:3px 8px;border-radius:8px}
+.soon{padding:14px 16px;margin-top:16px}
+.soon h3{font-size:14px;margin:0 0 4px}.soon p{font-size:12.5px;color:var(--muted);margin:0 0 10px;line-height:1.55}
+.soon .list{display:flex;flex-wrap:wrap;gap:6px}.soon .list span{font-size:12px;color:#7A8094;background:#F3F1EC;border-radius:8px;padding:4px 8px}
+.ask{display:block;margin-top:12px;text-align:center;height:42px;line-height:42px;border-radius:12px;background:#F1F2FB;color:var(--navy);font-weight:800;font-size:13.5px;text-decoration:none}
+.foot{font-size:11.5px;color:var(--muted);text-align:center;line-height:1.7;margin-top:22px}
+@media (min-width:700px){.wrap{max-width:880px}.grid{grid-template-columns:repeat(4,minmax(0,1fr))}h1{font-size:34px}}
+</style></head><body>
+<div class="wrap">
+  <div class="top"><img src="icon-192.png" alt=""><div><b>아이랑 경기</b><small>아이 키우는 집을 위한 동네 정보 · by 송골랩</small></div></div>
+  <h1>우리 동네를 골라 주세요<br><em>필요한 정보만 한곳에</em></h1>
+  <p class="sub">학교 일정·급식부터 도서관·유치원·학원·병원·혜택까지.<br>무료이고, 가입 없이 바로 써요.</p>
+  <div class="chips"><span>🏫 학교·급식</span><span>📚 도서관</span><span>🧸 유치원</span><span>✏️ 학원</span><span>🏥 동네병원</span><span>🎁 놓치기 쉬운 혜택</span><span>🎪 주말 행사</span></div>
+
+  <div id="again"></div>
+  <button class="locate" onclick="locate()">📍 내 위치로 우리 도시 찾기</button>
+  <div class="note">위치는 이 휴대폰 안에서만 써요. 어디에도 보내지 않아요.</div>
+
+  <div class="sec"><h2>지금 열려 있는 도시</h2><span>7곳</span></div>
+  <div class="grid" id="grid"></div>
+
+  <div class="lift soon">
+    <h3>🌱 곧 열려요</h3>
+    <p>경기도 다른 시·군도 차례로 열고 있어요. 우리 동네가 먼저 열렸으면 좋겠다면 알려 주세요.</p>
+    <div class="list"><span>안산</span><span>평택</span><span>시흥</span><span>김포</span><span>의정부</span><span>광명</span><span>하남</span><span>광주</span><span>군포</span><span>오산</span><span>이천</span><span>파주</span><span>남양주</span><span>의왕</span><span>…</span></div>
+    <a class="ask" href="mailto:songgollab@gmail.com?subject=%EC%95%84%EC%9D%B4%EB%9E%91%20%EC%9A%B0%EB%A6%AC%20%EB%8F%99%EB%84%A4%EB%8F%84%20%EC%97%B4%EC%96%B4%20%EC%A3%BC%EC%84%B8%EC%9A%94">✉️ 우리 동네도 열어 주세요</a>
+  </div>
+  <div class="foot">아이랑은 공공기관이 아닌 송골랩이 만든 무료 서비스예요.<br>정보는 나이스·유치원 알리미·도서관 정보나루 등 공공데이터를 모아 보여 드려요.<br>문의 songgollab@gmail.com</div>
+</div>
+<script>
+const CITIES = /*CITIES*/[];   // build.py 가 cities.json 으로 채움
+const url = k => `https://${k}.songgollab.co.kr/`;
+const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
+function pick(k) { store.set("airang.city", k); }
+function render(near) {
+  document.getElementById("grid").innerHTML = CITIES.map(([k, n, c, gu]) => `
+    <a class="lift city ${near === k ? "near" : ""}" style="--c:${c}" href="${url(k)}" onclick="pick('${k}')">
+      ${near === k ? `<span class="badge">가까운 곳</span>` : ""}
+      <div class="pic" style="background-image:url(img/hero-${k}-800.webp)"></div>
+      <img class="ic" src="img/ic-${k}.png" alt="">
+      <div class="body"><div class="nm">아이랑 <span>${n}</span></div><div class="gu">${gu}</div><div class="bar"></div></div>
+    </a>`).join("");
+  const last = CITIES.find(x => x[0] === store.get("airang.city"));
+  document.getElementById("again").innerHTML = last ? `
+    <a class="lift again" style="--c:${last[2]}" href="${url(last[0])}"><img src="img/ic-${last[0]}.png" alt="">
+      <div class="t"><small>지난번에 본 도시</small><b>아이랑 ${last[1]}</b></div><span class="go">바로 가기 ›</span></a>` : "";
+}
+function locate() {
+  if (!navigator.geolocation) return;
+  navigator.geolocation.getCurrentPosition(p => {
+    const { latitude: a, longitude: o } = p.coords;
+    const d = ([, , , , la, lo]) => (la - a) ** 2 + ((lo - o) * Math.cos(a * Math.PI / 180)) ** 2;
+    const best = CITIES.slice().sort((x, y) => d(x) - d(y))[0];
+    render(best[0]); document.querySelector(".city.near")?.scrollIntoView({ behavior: "smooth", block: "center" });
+  }, () => {}, { timeout: 8000, maximumAge: 600000 });
+}
+render(new URLSearchParams(location.search).get("near"));
+</script>
+</body></html>
