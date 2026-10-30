@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30 07:09:46",
+  "updated_at": "2026-10-31 07:04:54",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -8,26 +8,26 @@
       "desc": "평택시 공공도서관 · 초등(8~13세) 대출 · 최근 1달",
       "books": [
         {
-          "title": "흔한남매",
-          "author": "원작: 흔한남매, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/29286/99/cover/k082837005_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6447451",
-          "isbn": "9791168411685",
-          "loans": 13,
-          "rank": 1,
-          "series": 11
-        },
-        {
           "title": "브릿지 :문경민 장편소설",
           "author": "문경민",
           "publisher": "우리학교",
           "cover": "https://image.aladin.co.kr/product/35533/31/cover200/k432036076_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6997812",
           "isbn": "9791167553157",
-          "loans": 11,
-          "rank": 2,
+          "loans": 12,
+          "rank": 1,
           "series": 1
+        },
+        {
+          "title": "흔한남매",
+          "author": "원작: 흔한남매, 유난희",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/29286/99/cover/k082837005_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6447451",
+          "isbn": "9791168411685",
+          "loans": 12,
+          "rank": 2,
+          "series": 11
         },
         {
           "title": "흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식",
@@ -52,6 +52,17 @@
           "series": 1
         },
         {
+          "title": "흔한남매 과학 탐험대",
+          "author": "원작: 흔한남매, 임혜영",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/33970/53/cover200/8934905859_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6878576",
+          "isbn": "9788934905851",
+          "loans": 8,
+          "rank": 5,
+          "series": 4
+        },
+        {
           "title": "놓지 마 과학!",
           "author": "글·신태훈,나승훈",
           "publisher": "위즈덤하우스",
@@ -59,19 +70,8 @@
           "link": "https://data4library.kr/bookV?seq=6718347",
           "isbn": "9791168126336",
           "loans": 8,
-          "rank": 5,
-          "series": 2
-        },
-        {
-          "title": "흔한남매 과학 탐험대",
-          "author": "원작: 흔한남매, 임혜영",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/33970/53/cover200/8934905859_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6878576",
-          "isbn": "9788934905851",
-          "loans": 7,
           "rank": 6,
-          "series": 4
+          "series": 2
         },
         {
           "title": "흔한남매 과학 탐험대 4 : 물질",
@@ -118,17 +118,6 @@
           "series": 1
         },
         {
-          "title": "타키포오 얼렁뚱땅 상식스쿨",
-          "author": "원작: 캐릭온TV, 조수현",
-          "publisher": "대원씨아이",
-          "cover": "https://image.aladin.co.kr/product/33037/28/cover/k642937586_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6806859",
-          "isbn": "9791171722747",
-          "loans": 7,
-          "rank": 11,
-          "series": 1
-        },
-        {
           "title": "김영하의 세계문학 원정대",
           "author": "기획 및 해설: 김영하, 정보 김지혜",
           "publisher": "김영사",
@@ -136,7 +125,7 @@
           "link": "https://data4library.kr/bookV?seq=7099758",
           "isbn": "9791173322600",
           "loans": 7,
-          "rank": 12,
+          "rank": 11,
           "series": 1
         },
         {
@@ -147,7 +136,7 @@
           "link": "https://data4library.kr/bookV?seq=6698060",
           "isbn": "9788934942641",
           "loans": 6,
-          "rank": 13,
+          "rank": 12,
           "series": 1
         },
         {
@@ -158,7 +147,7 @@
           "link": "https://data4library.kr/bookV?seq=2037399",
           "isbn": "9788936434120",
           "loans": 6,
-          "rank": 14,
+          "rank": 13,
           "series": 1
         },
         {
@@ -169,7 +158,7 @@
           "link": "https://data4library.kr/bookV?seq=7028235",
           "isbn": "9788936443412",
           "loans": 6,
-          "rank": 15,
+          "rank": 14,
           "series": 1
         },
         {
@@ -180,18 +169,7 @@
           "link": "https://data4library.kr/bookV?seq=6323714",
           "isbn": "9788936448097",
           "loans": 6,
-          "rank": 16,
-          "series": 1
-        },
-        {
-          "title": "돈 주운 자의 최후",
-          "author": "이여민 글, 유영근 그림",
-          "publisher": "비룡소",
-          "cover": "https://image.aladin.co.kr/product/38878/20/cover200/8949162687_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7240913",
-          "isbn": "9788949162683",
-          "loans": 6,
-          "rank": 17,
+          "rank": 15,
           "series": 1
         },
         {
@@ -202,7 +180,7 @@
           "link": "https://data4library.kr/bookV?seq=6918442",
           "isbn": "9788950941659",
           "loans": 6,
-          "rank": 18,
+          "rank": 16,
           "series": 1
         },
         {
@@ -213,7 +191,7 @@
           "link": "https://data4library.kr/bookV?seq=6796238",
           "isbn": "9788950996567",
           "loans": 6,
-          "rank": 19,
+          "rank": 17,
           "series": 1
         },
         {
@@ -223,6 +201,28 @@
           "cover": "https://image.aladin.co.kr/img/noimg_b.gif",
           "link": "https://data4library.kr/bookV?seq=6950058",
           "isbn": "9791129713513",
+          "loans": 6,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "수상한 이웃집 시노다",
+          "author": "도미야스 요코 글, 송지현 옮김",
+          "publisher": "다산북스",
+          "cover": "https://image.aladin.co.kr/product/31864/57/cover/k812833425_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6707446",
+          "isbn": "9791130642710",
+          "loans": 6,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "온 더 볼 6 - 오프 더 볼",
+          "author": "성완 (지은이), 돌만 (그림)",
+          "publisher": "다산어린이",
+          "cover": "https://image.aladin.co.kr/product/37543/11/cover200/k112032126_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7170866",
+          "isbn": "9791130671772",
           "loans": 6,
           "rank": 20,
           "series": 1
@@ -378,17 +378,6 @@
           "series": 1
         },
         {
-          "title": "작별하지 않는다 :한강 장편소설",
-          "author": "한강",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/27877/5/cover/8954682154_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6086446",
-          "isbn": "9788954682152",
-          "loans": 3,
-          "rank": 14,
-          "series": 1
-        },
-        {
           "title": "종의 기원 =정유정 장편소설 /The origin of species",
           "author": "정유정",
           "publisher": "은행나무",
@@ -396,7 +385,7 @@
           "link": "https://data4library.kr/bookV?seq=3151708",
           "isbn": "9788956609959",
           "loans": 3,
-          "rank": 15,
+          "rank": 14,
           "series": 1
         },
         {
@@ -407,7 +396,7 @@
           "link": "https://data4library.kr/bookV?seq=6442406",
           "isbn": "9791130689241",
           "loans": 3,
-          "rank": 16,
+          "rank": 15,
           "series": 1
         },
         {
@@ -418,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=7073819",
           "isbn": "9791141602376",
           "loans": 3,
-          "rank": 17,
+          "rank": 16,
           "series": 1
         },
         {
@@ -429,7 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=6363146",
           "isbn": "9791157855506",
           "loans": 3,
-          "rank": 18,
+          "rank": 17,
           "series": 1
         },
         {
@@ -440,7 +429,7 @@
           "link": "https://data4library.kr/bookV?seq=7073824",
           "isbn": "9791172634001",
           "loans": 3,
-          "rank": 19,
+          "rank": 18,
           "series": 1
         },
         {
@@ -450,6 +439,17 @@
           "cover": "https://image.aladin.co.kr/product/19804/82/cover/k072635131_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5446546",
           "isbn": "9791188862290",
+          "loans": 3,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "작별인사 :김영하 장편소설",
+          "author": "김영하",
+          "publisher": "복복서가",
+          "cover": "https://image.aladin.co.kr/product/29281/68/cover/k122837904_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6446085",
+          "isbn": "9791191114225",
           "loans": 3,
           "rank": 20,
           "series": 1
@@ -468,7 +468,7 @@
           "cover": "https://image.aladin.co.kr/product/36960/26/cover200/k092030722_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7110707",
           "isbn": "9791169813839",
-          "loans": 90,
+          "loans": 88,
           "rank": 1,
           "series": 1
         },
@@ -479,7 +479,7 @@
           "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7073819",
           "isbn": "9791141602376",
-          "loans": 74,
+          "loans": 75,
           "rank": 2,
           "series": 1
         },
@@ -490,7 +490,7 @@
           "cover": "https://image.aladin.co.kr/product/35533/31/cover200/k432036076_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6997812",
           "isbn": "9791167553157",
-          "loans": 74,
+          "loans": 72,
           "rank": 3,
           "series": 1
         },
@@ -501,7 +501,7 @@
           "cover": "https://image.aladin.co.kr/product/35307/5/cover200/k312035178_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6982535",
           "isbn": "9791165735838",
-          "loans": 67,
+          "loans": 62,
           "rank": 4,
           "series": 1
         },
@@ -512,7 +512,7 @@
           "cover": "https://image.aladin.co.kr/product/35496/97/cover200/k012035658_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6996299",
           "isbn": "9791169813488",
-          "loans": 50,
+          "loans": 47,
           "rank": 5,
           "series": 1
         },
@@ -523,7 +523,7 @@
           "cover": "https://image.aladin.co.kr/product/36101/66/cover200/893643974x_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7035395",
           "isbn": "9788936439743",
-          "loans": 41,
+          "loans": 42,
           "rank": 6,
           "series": 1
         },
@@ -534,7 +534,7 @@
           "cover": "https://image.aladin.co.kr/product/36041/32/cover200/8949137046_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7028217",
           "isbn": "9788949137049",
-          "loans": 37,
+          "loans": 40,
           "rank": 7,
           "series": 1
         },
@@ -561,17 +561,6 @@
           "series": 1
         },
         {
-          "title": "4×4의 세계 :조우리 장편동화",
-          "author": "조우리, 그린이: 노인경",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/36020/60/cover200/8936443410_3.jpg",
-          "link": "https://data4library.kr/bookV?seq=7028235",
-          "isbn": "9788936443412",
-          "loans": 33,
-          "rank": 10,
-          "series": 1
-        },
-        {
           "title": "불편한 편의점 :김호연 장편소설",
           "author": "김호연",
           "publisher": "나무옆의자",
@@ -579,7 +568,7 @@
           "link": "https://data4library.kr/bookV?seq=5962217",
           "isbn": "9791161571188",
           "loans": 33,
-          "rank": 11,
+          "rank": 10,
           "series": 1
         },
         {
@@ -590,18 +579,18 @@
           "link": "https://data4library.kr/bookV?seq=6798659",
           "isbn": "9791190853514",
           "loans": 33,
-          "rank": 12,
+          "rank": 11,
           "series": 1
         },
         {
-          "title": "이 지랄맞음이 쌓여 축제가 되겠지 :조승리 에세이",
-          "author": "조승리",
-          "publisher": "달 출판사",
-          "cover": "https://image.aladin.co.kr/product/33696/25/cover/k962939047_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6854342",
-          "isbn": "9791158161767",
+          "title": "4×4의 세계 :조우리 장편동화",
+          "author": "조우리, 그린이: 노인경",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/36020/60/cover200/8936443410_3.jpg",
+          "link": "https://data4library.kr/bookV?seq=7028235",
+          "isbn": "9788936443412",
           "loans": 32,
-          "rank": 13,
+          "rank": 12,
           "series": 1
         },
         {
@@ -611,7 +600,18 @@
           "cover": "https://image.aladin.co.kr/product/30048/51/cover/8936438832_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6551957",
           "isbn": "9788936438838",
-          "loans": 30,
+          "loans": 31,
+          "rank": 13,
+          "series": 1
+        },
+        {
+          "title": "이 지랄맞음이 쌓여 축제가 되겠지 :조승리 에세이",
+          "author": "조승리",
+          "publisher": "달 출판사",
+          "cover": "https://image.aladin.co.kr/product/33696/25/cover/k962939047_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6854342",
+          "isbn": "9791158161767",
+          "loans": 31,
           "rank": 14,
           "series": 1
         },
@@ -622,9 +622,9 @@
           "cover": "https://image.aladin.co.kr/product/34875/95/cover200/k482933053_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6956464",
           "isbn": "9791168419018",
-          "loans": 30,
+          "loans": 31,
           "rank": 15,
-          "series": 4
+          "series": 2
         },
         {
           "title": "홍학의 자리 :정해연 장편소설",
@@ -633,7 +633,7 @@
           "cover": "https://image.aladin.co.kr/product/27587/94/cover/8954681158_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6050062",
           "isbn": "9788954681155",
-          "loans": 27,
+          "loans": 26,
           "rank": 16,
           "series": 1
         },
@@ -644,7 +644,7 @@
           "cover": "https://image.aladin.co.kr/product/35741/92/cover200/k342036749_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7011380",
           "isbn": "9791141608873",
-          "loans": 27,
+          "loans": 26,
           "rank": 17,
           "series": 1
         },
@@ -655,8 +655,19 @@
           "cover": "https://image.aladin.co.kr/product/38600/67/cover200/k562136472_2.jpg",
           "link": "https://data4library.kr/bookV?seq=7222787",
           "isbn": "9791167764119",
-          "loans": 27,
+          "loans": 26,
           "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "빵충 사육 준수 사항",
+          "author": "김혜영 (지은이)",
+          "publisher": "안전가옥",
+          "cover": "https://image.aladin.co.kr/product/39872/66/cover200/k242130313_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7301611",
+          "isbn": "9791194891178",
+          "loans": 26,
+          "rank": 19,
           "series": 1
         },
         {
@@ -666,18 +677,7 @@
           "cover": "https://bookthumb-phinf.pstatic.net/cover/071/902/07190270.jpg?type=m1&udate=20170801",
           "link": "https://data4library.kr/bookV?seq=1938053",
           "isbn": "9788998441012",
-          "loans": 26,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "달러구트 꿈 백화점 :주문하신 꿈은 매진입니다",
-          "author": "이미예",
-          "publisher": "팩토리나인",
-          "cover": "https://image.aladin.co.kr/product/24512/70/cover/k392630952_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5707051",
-          "isbn": "9791165341909",
-          "loans": 26,
+          "loans": 25,
           "rank": 20,
           "series": 1
         }
