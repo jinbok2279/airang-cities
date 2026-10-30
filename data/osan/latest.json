@@ -1,9 +1,9 @@
 {
   "region": "오산시",
-  "updated_at": "2026-10-30 07:17:17",
+  "updated_at": "2026-10-31 07:09:59",
   "period": {
-    "from": "20261030",
-    "to": "20261229"
+    "from": "20261031",
+    "to": "20261230"
   },
   "school_count": 47,
   "public_holidays": [
@@ -21,30 +21,6 @@
     }
   ],
   "highlights": [
-    {
-      "school": "광성초등학교",
-      "level": "초등학교",
-      "gu": "",
-      "date": "2026-10-30",
-      "name": "꿈이룸축제",
-      "holiday": false
-    },
-    {
-      "school": "성호고등학교",
-      "level": "고등학교",
-      "gu": "",
-      "date": "2026-10-30",
-      "name": "현장체험학습",
-      "holiday": false
-    },
-    {
-      "school": "성호중학교",
-      "level": "중학교",
-      "gu": "",
-      "date": "2026-10-30",
-      "name": "스포츠축제",
-      "holiday": false
-    },
     {
       "school": "경기오산소프트웨어고등학교",
       "level": "고등학교",
@@ -356,6 +332,86 @@
       "date": "2026-12-29",
       "name": "교육과정발표회",
       "holiday": false
+    },
+    {
+      "school": "매홀초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "삼미초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "성산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "세담초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "세미초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "양산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "오산대원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "오산정보고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "원동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
     }
   ],
   "schools": [
@@ -376,11 +432,6 @@
       "gu": "",
       "dong": "세교동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "꿈이룸축제",
-          "holiday": false
-        },
         {
           "date": "2026-11-09",
           "name": "친구사랑주간",
@@ -486,7 +537,18 @@
       "address": "경기도 오산시 청학로147번길 10",
       "gu": "",
       "dong": "수청동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679280",
@@ -504,7 +566,18 @@
       "address": "경기도 오산시 북삼미로 183-9",
       "gu": "",
       "dong": "외삼미동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679080",
@@ -513,7 +586,18 @@
       "address": "경기도 오산시 성호대로 43",
       "gu": "",
       "dong": "오산동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679081",
@@ -531,7 +615,18 @@
       "address": "경기도 오산시 죽담2로 8",
       "gu": "",
       "dong": "",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679434",
@@ -549,7 +644,18 @@
       "address": "경기도 오산시 내삼미로 127",
       "gu": "",
       "dong": "내삼미동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679082",
@@ -567,7 +673,13 @@
       "address": "경기도 오산시 양산로 448",
       "gu": "",
       "dong": "양산동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679083",
@@ -589,6 +701,16 @@
         {
           "date": "2026-12-18",
           "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
           "holiday": false
         }
       ]
@@ -618,7 +740,18 @@
       "address": "경기도 오산시 고을1길 27",
       "gu": "",
       "dong": "",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679088",
@@ -687,7 +820,13 @@
       "address": "경기도 오산시 오산로 92",
       "gu": "",
       "dong": "원동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679282",
@@ -803,6 +942,11 @@
           "date": "2026-12-24",
           "name": "한마당축제",
           "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학생회임원선거",
+          "holiday": false
         }
       ]
     },
@@ -874,11 +1018,6 @@
       "gu": "",
       "dong": "원동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "스포츠축제",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "재량휴업일",
@@ -1310,16 +1449,6 @@
       "dong": "원동",
       "events": [
         {
-          "date": "2026-10-30",
-          "name": "학급자치",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-30",
-          "name": "현장체험학습",
-          "holiday": false
-        },
-        {
           "date": "2026-11-06",
           "name": "동아리활동",
           "holiday": false
@@ -1567,6 +1696,11 @@
         {
           "date": "2026-11-19",
           "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
           "holiday": true
         }
       ]
