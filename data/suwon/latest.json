@@ -1,16 +1,12 @@
 {
   "region": "수원시",
-  "updated_at": "2026-10-30 18:49:54",
+  "updated_at": "2026-10-31 06:45:38",
   "period": {
-    "from": "20261030",
-    "to": "20261229"
+    "from": "20261031",
+    "to": "20261230"
   },
   "school_count": 205,
   "public_holidays": [
-    {
-      "date": "2026-10-30",
-      "name": "재량휴업일"
-    },
     {
       "date": "2026-11-19",
       "name": "재량휴업일"
@@ -54,113 +50,13 @@
     {
       "date": "2026-12-29",
       "name": "겨울방학"
+    },
+    {
+      "date": "2026-12-30",
+      "name": "겨울방학"
     }
   ],
   "highlights": [
-    {
-      "school": "경기체육고등학교",
-      "level": "고등학교",
-      "gu": "장안구",
-      "date": "2026-10-30",
-      "name": "학교장재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "대평고등학교",
-      "level": "고등학교",
-      "gu": "장안구",
-      "date": "2026-10-30",
-      "name": "학부모상담주간",
-      "holiday": false
-    },
-    {
-      "school": "동우여자고등학교",
-      "level": "고등학교",
-      "gu": "장안구",
-      "date": "2026-10-30",
-      "name": "학부모 상담 주간",
-      "holiday": false
-    },
-    {
-      "school": "매원고등학교",
-      "level": "고등학교",
-      "gu": "영통구",
-      "date": "2026-10-30",
-      "name": "현장체험학습(2)",
-      "holiday": false
-    },
-    {
-      "school": "매향중학교",
-      "level": "중학교",
-      "gu": "팔달구",
-      "date": "2026-10-30",
-      "name": "체육축제",
-      "holiday": false
-    },
-    {
-      "school": "서호중학교",
-      "level": "중학교",
-      "gu": "권선구",
-      "date": "2026-10-30",
-      "name": "어울림한마당",
-      "holiday": false
-    },
-    {
-      "school": "수성고등학교",
-      "level": "고등학교",
-      "gu": "장안구",
-      "date": "2026-10-30",
-      "name": "어울림 체육 한마당",
-      "holiday": false
-    },
-    {
-      "school": "수원정보과학고등학교",
-      "level": "고등학교",
-      "gu": "영통구",
-      "date": "2026-10-30",
-      "name": "공개수업주간",
-      "holiday": false
-    },
-    {
-      "school": "율천고등학교",
-      "level": "고등학교",
-      "gu": "팔달구",
-      "date": "2026-10-30",
-      "name": "체험학습",
-      "holiday": false
-    },
-    {
-      "school": "이의중학교",
-      "level": "중학교",
-      "gu": "영통구",
-      "date": "2026-10-30",
-      "name": "축제한마당",
-      "holiday": false
-    },
-    {
-      "school": "조원고등학교",
-      "level": "고등학교",
-      "gu": "장안구",
-      "date": "2026-10-30",
-      "name": "스포츠대축제",
-      "holiday": false
-    },
-    {
-      "school": "청명고등학교",
-      "level": "고등학교",
-      "gu": "영통구",
-      "date": "2026-10-30",
-      "name": "현장체험학습",
-      "holiday": false
-    },
-    {
-      "school": "호매실고등학교",
-      "level": "고등학교",
-      "gu": "권선구",
-      "date": "2026-10-30",
-      "name": "테마별체험활동(1,2)",
-      "holiday": false
-    },
     {
       "school": "매향중학교",
       "level": "중학교",
@@ -3632,6 +3528,598 @@
       "date": "2026-12-29",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "고색고등학교",
+      "level": "고등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "곡반초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "곡반초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "곡선초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "곡정고등학교",
+      "level": "고등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "동아리 발표회",
+      "holiday": false
+    },
+    {
+      "school": "광교호수초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "다솔초등학교",
+      "level": "초등학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "당수초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대선초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "대평중학교",
+      "level": "중학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "학년예능발표회",
+      "holiday": false
+    },
+    {
+      "school": "동수원중학교",
+      "level": "중학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "망포고등학교",
+      "level": "고등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "매교초등학교",
+      "level": "초등학교",
+      "gu": "팔달구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "매교초등학교",
+      "level": "초등학교",
+      "gu": "팔달구",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "매원초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "매현중학교",
+      "level": "중학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "매현초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "매현초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "명당초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "명인초등학교",
+      "level": "초등학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상률초등학교",
+      "level": "초등학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "세곡초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "졸업식(6학년)",
+      "holiday": false
+    },
+    {
+      "school": "세류초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "종업식 및 졸업식",
+      "holiday": false
+    },
+    {
+      "school": "송림초등학교",
+      "level": "초등학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "송원중학교",
+      "level": "중학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "송원초등학교",
+      "level": "초등학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "수원금곡초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "수원매화초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "수원매화초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "수원선일초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "수원신곡초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "수원신곡초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "수원여자고등학교",
+      "level": "고등학교",
+      "gu": "팔달구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "수원정보과학고등학교",
+      "level": "고등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "꿈끼꾼 한마당",
+      "holiday": false
+    },
+    {
+      "school": "수원제일중학교",
+      "level": "중학교",
+      "gu": "팔달구",
+      "date": "2026-12-30",
+      "name": "졸업식 및 종업식",
+      "holiday": false
+    },
+    {
+      "school": "수원중촌초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "수원중학교",
+      "level": "중학교",
+      "gu": "팔달구",
+      "date": "2026-12-30",
+      "name": "음악축제",
+      "holiday": false
+    },
+    {
+      "school": "수원하이텍고등학교",
+      "level": "고등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "학생축제",
+      "holiday": false
+    },
+    {
+      "school": "수일중학교",
+      "level": "중학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "겨울 방학",
+      "holiday": true
+    },
+    {
+      "school": "수일초등학교",
+      "level": "초등학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "영덕초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "영동초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "영통초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "영화초등학교",
+      "level": "초등학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "오현초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "우만초등학교",
+      "level": "초등학교",
+      "gu": "팔달구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "원일초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "원일초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "겨울방학 안전교육기간",
+      "holiday": false
+    },
+    {
+      "school": "율전초등학교",
+      "level": "초등학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "율현중학교",
+      "level": "중학교",
+      "gu": "팔달구",
+      "date": "2026-12-30",
+      "name": "학년말방학",
+      "holiday": true
+    },
+    {
+      "school": "이의초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인계초등학교",
+      "level": "초등학교",
+      "gu": "팔달구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "일월초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "잠원초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "정천중학교",
+      "level": "중학교",
+      "gu": "팔달구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "정천초등학교",
+      "level": "초등학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "조원중학교",
+      "level": "중학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "지동초등학교",
+      "level": "초등학교",
+      "gu": "팔달구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "청명초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "칠보초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "칠보초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "태장고등학교",
+      "level": "고등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "파장초등학교",
+      "level": "초등학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "한일초등학교",
+      "level": "초등학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "호매실고등학교",
+      "level": "고등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "동아리발표회(축제)",
+      "holiday": false
+    },
+    {
+      "school": "호매실중학교",
+      "level": "중학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "화서초등학교",
+      "level": "초등학교",
+      "gu": "팔달구",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "화서초등학교",
+      "level": "초등학교",
+      "gu": "팔달구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "화양초등학교",
+      "level": "초등학교",
+      "gu": "팔달구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "황곡초등학교",
+      "level": "초등학교",
+      "gu": "영통구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "효성초등학교",
+      "level": "초등학교",
+      "gu": "팔달구",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "효성초등학교",
+      "level": "초등학교",
+      "gu": "팔달구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "효천초등학교",
+      "level": "초등학교",
+      "gu": "장안구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "효탑초등학교",
+      "level": "초등학교",
+      "gu": "권선구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
     }
   ],
   "schools": [
@@ -3711,7 +4199,23 @@
       "address": "경기도 수원시 권선구 덕영대로1323번길 26-14",
       "gu": "권선구",
       "dong": "권선동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541069",
@@ -3788,6 +4292,11 @@
         },
         {
           "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
           "name": "겨울방학",
           "holiday": true
         }
@@ -3911,6 +4420,11 @@
         },
         {
           "date": "2026-12-29",
+          "name": "방과후교실 작품 전시 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
           "name": "방과후교실 작품 전시 주간",
           "holiday": false
         }
@@ -4067,6 +4581,11 @@
           "date": "2026-12-29",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -4082,6 +4601,16 @@
           "date": "2026-11-19",
           "name": "재량휴업일",
           "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -4235,6 +4764,16 @@
           "date": "2026-11-03",
           "name": "소방훈련",
           "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식(6학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -4249,6 +4788,16 @@
         {
           "date": "2026-12-23",
           "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식 및 졸업식",
           "holiday": false
         }
       ]
@@ -4354,6 +4903,11 @@
           "date": "2026-12-29",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -4373,7 +4927,13 @@
       "address": "경기도 수원시 권선구 권중로120번길 17",
       "gu": "권선구",
       "dong": "권선동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541091",
@@ -4382,7 +4942,23 @@
       "address": "경기도 수원시 권선구 정조로544번길 13-7",
       "gu": "권선구",
       "dong": "세류동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541342",
@@ -4391,7 +4967,18 @@
       "address": "경기도 수원시 권선구 금곡로 140번길 30",
       "gu": "권선구",
       "dong": "금곡동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541097",
@@ -4418,7 +5005,18 @@
       "address": "경기도 수원시 권선구 서수원로 220",
       "gu": "권선구",
       "dong": "오목천동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541142",
@@ -4512,6 +5110,11 @@
           "date": "2026-12-29",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -4557,7 +5160,18 @@
       "address": "경기도 수원시 권선구 금호로37번길 15",
       "gu": "권선구",
       "dong": "금곡동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541143",
@@ -4624,7 +5238,18 @@
       "address": "경기도 수원시 권선구 효탑로16번길 17",
       "gu": "권선구",
       "dong": "탑동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541329",
@@ -4642,7 +5267,18 @@
       "address": "경기도 수원시 영통구 광교호수공원로 205",
       "gu": "영통구",
       "dong": "원천동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541453",
@@ -4660,7 +5296,18 @@
       "address": "경기도 수원시 영통구 봉영로 1432-19",
       "gu": "영통구",
       "dong": "망포동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541075",
@@ -4750,6 +5397,11 @@
         },
         {
           "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
           "name": "겨울방학",
           "holiday": true
         }
@@ -4876,6 +5528,21 @@
           "date": "2026-12-29",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -4913,7 +5580,18 @@
       "address": "경기도 수원시 영통구 권광로304번길 47-17",
       "gu": "영통구",
       "dong": "매탄동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541094",
@@ -4949,7 +5627,18 @@
       "address": "경기도 수원시 영통구 영통로 438",
       "gu": "영통구",
       "dong": "영통동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541100",
@@ -4958,7 +5647,18 @@
       "address": "경기도 수원시 영통구 봉영로1517번길 40",
       "gu": "영통구",
       "dong": "영통동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541101",
@@ -4967,13 +5667,7 @@
       "address": "경기도 수원시 영통구 덕영대로1673번길 17",
       "gu": "영통구",
       "dong": "영통동",
-      "events": [
-        {
-          "date": "2026-10-30",
-          "name": "학급학예회(1-5학년)",
-          "holiday": false
-        }
-      ]
+      "events": []
     },
     {
       "code": "7541102",
@@ -4982,7 +5676,13 @@
       "address": "경기 수원시 영통구 영통로 328",
       "gu": "영통구",
       "dong": "영통동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541141",
@@ -4992,11 +5692,6 @@
       "gu": "영통구",
       "dong": "원천동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "대피 훈련",
-          "holiday": false
-        },
         {
           "date": "2026-11-09",
           "name": "먼내들 꿈자람터 독서축제",
@@ -5101,6 +5796,21 @@
           "date": "2026-12-29",
           "name": "겨울방학 안전교육기간",
           "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학 안전교육기간",
+          "holiday": false
         }
       ]
     },
@@ -5120,7 +5830,18 @@
       "address": "경기도 수원시 영통구 법조로 150",
       "gu": "영통구",
       "dong": "하동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541110",
@@ -5199,6 +5920,11 @@
           "date": "2026-12-29",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -5222,6 +5948,16 @@
         {
           "date": "2026-12-03",
           "name": "전교어린이임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
           "holiday": false
         }
       ]
@@ -5398,6 +6134,11 @@
           "date": "2026-12-29",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -5442,6 +6183,16 @@
         {
           "date": "2026-12-17",
           "name": "1학기 전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
           "holiday": false
         }
       ]
@@ -5527,6 +6278,11 @@
           "date": "2026-12-29",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -5537,7 +6293,18 @@
       "address": "경기도 수원시 장안구 덕영대로417번길 98",
       "gu": "장안구",
       "dong": "율전동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541139",
@@ -5546,7 +6313,18 @@
       "address": "경기도 수원시 장안구 대평로51번길 65",
       "gu": "장안구",
       "dong": "정자동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541140",
@@ -5633,6 +6411,11 @@
         },
         {
           "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
           "name": "겨울방학",
           "holiday": true
         }
@@ -5722,6 +6505,11 @@
           "date": "2026-12-29",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -5732,7 +6520,18 @@
       "address": "경기도 수원시 장안구 경수대로 838",
       "gu": "장안구",
       "dong": "조원동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541107",
@@ -5741,7 +6540,18 @@
       "address": "경기도 수원시 장안구 율전로 113",
       "gu": "장안구",
       "dong": "율전동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541111",
@@ -5759,7 +6569,18 @@
       "address": "경기도 수원시 장안구 화산로 83",
       "gu": "장안구",
       "dong": "천천동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541113",
@@ -5815,7 +6636,13 @@
       "address": "경기도 수원시 장안구 경수대로1081번길 32-9",
       "gu": "장안구",
       "dong": "파장동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541144",
@@ -5824,7 +6651,18 @@
       "address": "경기도 수원시 장안구 수일로 150",
       "gu": "장안구",
       "dong": "조원동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541131",
@@ -5913,6 +6751,11 @@
           "date": "2026-12-29",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -5932,7 +6775,23 @@
       "address": "경기도 수원시 팔달구 정조로 676",
       "gu": "팔달구",
       "dong": "매교동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541076",
@@ -5986,7 +6845,18 @@
       "address": "경기도 수원시 팔달구 창룡대로210번길 20",
       "gu": "팔달구",
       "dong": "우만동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541108",
@@ -6004,7 +6874,18 @@
       "address": "경기도 수원시 팔달구 장다리로245번길 12",
       "gu": "팔달구",
       "dong": "인계동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541114",
@@ -6013,7 +6894,18 @@
       "address": "경기도 수원시 팔달구 중부대로 67",
       "gu": "팔달구",
       "dong": "지동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541065",
@@ -6036,6 +6928,21 @@
           "date": "2026-11-03",
           "name": "개교기념일",
           "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
         }
       ]
     },
@@ -6046,7 +6953,18 @@
       "address": "경기도 수원시 팔달구 덕영대로735번길 65",
       "gu": "팔달구",
       "dong": "화서동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541126",
@@ -6064,7 +6982,18 @@
       "address": "경기도 수원시 팔달구 월드컵로 256",
       "gu": "팔달구",
       "dong": "우만동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7541012",
@@ -6139,11 +7068,6 @@
       "gu": "권선구",
       "dong": "권선동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "곡선제",
-          "holiday": false
-        },
         {
           "date": "2026-11-20",
           "name": "3학년 2학기 2차 정기시험",
@@ -6325,11 +7249,6 @@
       "dong": "서둔동",
       "events": [
         {
-          "date": "2026-10-30",
-          "name": "어울림한마당",
-          "holiday": false
-        },
-        {
           "date": "2026-11-23",
           "name": "1차 지필평가",
           "holiday": false
@@ -6487,6 +7406,16 @@
         {
           "date": "2026-12-24",
           "name": "학년데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
           "holiday": false
         }
       ]
@@ -6673,6 +7602,16 @@
           "date": "2026-12-24",
           "name": "매봉제",
           "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -6847,6 +7786,11 @@
           "date": "2026-12-29",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -6959,12 +7903,12 @@
         },
         {
           "date": "2026-12-10",
-          "name": "1학년2차지필평가",
+          "name": "2학년2차지필평가",
           "holiday": false
         },
         {
           "date": "2026-12-10",
-          "name": "2학년2차지필평가",
+          "name": "1학년2차지필평가",
           "holiday": false
         },
         {
@@ -6987,11 +7931,6 @@
       "gu": "영통구",
       "dong": "이의동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "한마음 연무제",
-          "holiday": false
-        },
         {
           "date": "2026-11-13",
           "name": "1차정기시험(3학년)",
@@ -7099,6 +8038,11 @@
         },
         {
           "date": "2026-12-29",
+          "name": "학교자율과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
           "name": "학교자율과정",
           "holiday": false
         }
@@ -7287,11 +8231,6 @@
       "gu": "영통구",
       "dong": "하동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "축제한마당",
-          "holiday": false
-        },
         {
           "date": "2026-11-13",
           "name": "정기시험(3학년)",
@@ -7545,6 +8484,11 @@
           "date": "2026-12-29",
           "name": "학년예능발표회",
           "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학년예능발표회",
+          "holiday": false
         }
       ]
     },
@@ -7673,6 +8617,11 @@
         },
         {
           "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
           "name": "겨울방학",
           "holiday": true
         }
@@ -7822,6 +8771,11 @@
         },
         {
           "date": "2026-12-29",
+          "name": "겨울 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
           "name": "겨울 방학",
           "holiday": true
         }
@@ -7979,6 +8933,11 @@
           "date": "2026-12-29",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -8059,11 +9018,6 @@
       "gu": "팔달구",
       "dong": "매향동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "체육축제",
-          "holiday": false
-        },
         {
           "date": "2026-10-31",
           "name": "토요휴무일",
@@ -8378,6 +9332,11 @@
           "date": "2026-12-08",
           "name": "2학기 2차정기시험(2학년)",
           "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식 및 종업식",
+          "holiday": false
         }
       ]
     },
@@ -8428,6 +9387,11 @@
           "date": "2026-12-18",
           "name": "독서골든벨",
           "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "음악축제",
+          "holiday": false
         }
       ]
     },
@@ -8454,11 +9418,6 @@
       "gu": "팔달구",
       "dong": "화서동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "향나무잔치",
-          "holiday": false
-        },
         {
           "date": "2026-11-09",
           "name": "진로활동",
@@ -8628,6 +9587,11 @@
           "date": "2026-12-29",
           "name": "학년말방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학년말방학",
+          "holiday": true
         }
       ]
     },
@@ -8682,6 +9646,16 @@
         {
           "date": "2026-12-22",
           "name": "합창제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
           "holiday": false
         }
       ]
@@ -8748,6 +9722,11 @@
           "date": "2026-12-29",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -8802,6 +9781,11 @@
         {
           "date": "2026-12-18",
           "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "동아리 발표회",
           "holiday": false
         }
       ]
@@ -9065,16 +10049,6 @@
       "dong": "호매실동",
       "events": [
         {
-          "date": "2026-10-30",
-          "name": "테마별체험활동(1,2)",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-30",
-          "name": "학급특색활동(3)",
-          "holiday": false
-        },
-        {
           "date": "2026-11-19",
           "name": "대학수학능력시험",
           "holiday": true
@@ -9112,6 +10086,11 @@
         {
           "date": "2026-12-23",
           "name": "졸업사정회(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "동아리발표회(축제)",
           "holiday": false
         }
       ]
@@ -9333,6 +10312,11 @@
           "date": "2026-12-29",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -9344,11 +10328,6 @@
       "gu": "영통구",
       "dong": "매탄동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "현장체험학습(2)",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "학교장재량휴업일",
@@ -9550,11 +10529,6 @@
       "dong": "원천동",
       "events": [
         {
-          "date": "2026-10-30",
-          "name": "공개수업주간",
-          "holiday": false
-        },
-        {
           "date": "2026-11-19",
           "name": "학교장재량휴업일",
           "holiday": true
@@ -9582,6 +10556,11 @@
         {
           "date": "2026-12-29",
           "name": "축제 및 합창제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "꿈끼꾼 한마당",
           "holiday": false
         }
       ]
@@ -9653,6 +10632,11 @@
           "date": "2026-12-18",
           "name": "2차 정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학생축제",
+          "holiday": false
         }
       ]
     },
@@ -9664,11 +10648,6 @@
       "gu": "영통구",
       "dong": "영통동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "독서논술신문행사",
-          "holiday": false
-        },
         {
           "date": "2026-11-05",
           "name": "학부모와 함께하는 진로진학컨설팅",
@@ -9743,6 +10722,11 @@
           "date": "2026-12-29",
           "name": "학교주도활동",
           "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학교주도활동",
+          "holiday": false
         }
       ]
     },
@@ -9808,6 +10792,11 @@
           "date": "2026-12-18",
           "name": "2학기 2차 정기시험(1,2학년)",
           "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "이랑제",
+          "holiday": false
         }
       ]
     },
@@ -9828,11 +10817,6 @@
       "gu": "영통구",
       "dong": "영통동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "현장체험학습",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "대학수학능력시험",
@@ -9977,6 +10961,16 @@
           "date": "2026-12-23",
           "name": "동아리발표회",
           "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
         }
       ]
     },
@@ -10079,11 +11073,6 @@
       "dong": "천천동",
       "events": [
         {
-          "date": "2026-10-30",
-          "name": "학교장재량휴업일",
-          "holiday": true
-        },
-        {
           "date": "2026-11-18",
           "name": "수능예비소집일",
           "holiday": false
@@ -10134,11 +11123,6 @@
       "dong": "정자동",
       "events": [
         {
-          "date": "2026-10-30",
-          "name": "학부모상담주간",
-          "holiday": false
-        },
-        {
           "date": "2026-11-19",
           "name": "재량휴업일",
           "holiday": true
@@ -10188,16 +11172,6 @@
       "gu": "장안구",
       "dong": "이목동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "학부모수업공개",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-30",
-          "name": "학부모 상담 주간",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "대학수학능력시험",
@@ -10268,11 +11242,6 @@
       "gu": "장안구",
       "dong": "정자동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "어울림 체육 한마당",
-          "holiday": false
-        },
         {
           "date": "2026-11-08",
           "name": "방송고 출석수업일",
@@ -10383,11 +11352,6 @@
       "gu": "장안구",
       "dong": "영화동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "광교제",
-          "holiday": false
-        },
         {
           "date": "2026-11-10",
           "name": "재량휴업일",
@@ -10644,11 +11608,6 @@
       "dong": "조원동",
       "events": [
         {
-          "date": "2026-10-30",
-          "name": "스포츠대축제",
-          "holiday": false
-        },
-        {
           "date": "2026-11-18",
           "name": "수능 출정식",
           "holiday": false
@@ -10762,6 +11721,11 @@
           "date": "2026-12-29",
           "name": "학교 주도 활동 시간",
           "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학교 주도 활동 시간",
+          "holiday": false
         }
       ]
     },
@@ -10773,11 +11737,6 @@
       "gu": "팔달구",
       "dong": "매향동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "3학년 도제실습(메타,호텔,보건)",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "대학수학능력시험(재량휴업일)",
@@ -10908,16 +11867,6 @@
       "gu": "팔달구",
       "dong": "인계동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "창체없음",
-          "holiday": false
-        },
-        {
-          "date": "2026-10-30",
-          "name": "4교시 단축수업",
-          "holiday": false
-        },
         {
           "date": "2026-11-03",
           "name": "특별전형원서접수",
@@ -11085,6 +12034,11 @@
         },
         {
           "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
           "name": "겨울방학",
           "holiday": true
         }
@@ -11268,11 +12222,6 @@
       "gu": "팔달구",
       "dong": "화서동",
       "events": [
-        {
-          "date": "2026-10-30",
-          "name": "체험학습",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "대학수학능력시험",
