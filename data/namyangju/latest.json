@@ -1,0 +1,7816 @@
+{
+  "region": "남양주시",
+  "updated_at": "2026-11-01 02:07:47",
+  "period": {
+    "from": "20261101",
+    "to": "20261231"
+  },
+  "school_count": 128,
+  "public_holidays": [
+    {
+      "date": "2026-11-01",
+      "name": "공휴일"
+    },
+    {
+      "date": "2026-11-08",
+      "name": "공휴일"
+    },
+    {
+      "date": "2026-11-15",
+      "name": "공휴일"
+    },
+    {
+      "date": "2026-11-19",
+      "name": "대학수학능력시험"
+    },
+    {
+      "date": "2026-11-19",
+      "name": "대학수능일"
+    },
+    {
+      "date": "2026-11-19",
+      "name": "대학수학능력 시험일"
+    },
+    {
+      "date": "2026-11-20",
+      "name": "재량휴업일"
+    },
+    {
+      "date": "2026-11-22",
+      "name": "공휴일"
+    },
+    {
+      "date": "2026-11-29",
+      "name": "공휴일"
+    },
+    {
+      "date": "2026-12-06",
+      "name": "공휴일"
+    },
+    {
+      "date": "2026-12-13",
+      "name": "공휴일"
+    },
+    {
+      "date": "2026-12-20",
+      "name": "공휴일"
+    },
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    },
+    {
+      "date": "2026-12-27",
+      "name": "공휴일"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "남양주다산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-02",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "광동고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-04",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "덕소고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-04",
+      "name": "주제별 체험학습",
+      "holiday": false
+    },
+    {
+      "school": "가양초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-05",
+      "name": "어울림 대축제",
+      "holiday": false
+    },
+    {
+      "school": "덕소고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-05",
+      "name": "주제별 체험학습",
+      "holiday": false
+    },
+    {
+      "school": "덕소고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-06",
+      "name": "주제별 체험학습",
+      "holiday": false
+    },
+    {
+      "school": "진건고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-06",
+      "name": "주제별체험학습 나눔회(2학년)",
+      "holiday": false
+    },
+    {
+      "school": "남양주금곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-12",
+      "name": "끼꿈땀 발표회",
+      "holiday": false
+    },
+    {
+      "school": "화광중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-12",
+      "name": "대입수능일",
+      "holiday": true
+    },
+    {
+      "school": "가운고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "가운중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능휴업",
+      "holiday": true
+    },
+    {
+      "school": "구룡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "금곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "남양주고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "남양주다산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "남양주다산중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "남양주양지초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능휴업일",
+      "holiday": true
+    },
+    {
+      "school": "다산새봄중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "다산새봄중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "다산한강중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "덕소고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "덕소중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능시험재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "도농고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수능일",
+      "holiday": true
+    },
+    {
+      "school": "도농중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "동화고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "동화고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "동화중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능일",
+      "holiday": true
+    },
+    {
+      "school": "마석고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "마석중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "미금중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능일 (재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "별가람고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "별가람중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "별내고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(1,2,3학년)",
+      "holiday": true
+    },
+    {
+      "school": "별내중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "송라중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업(대학수학능력시험)",
+      "holiday": true
+    },
+    {
+      "school": "수동중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력평가",
+      "holiday": true
+    },
+    {
+      "school": "심석고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능일휴업",
+      "holiday": true
+    },
+    {
+      "school": "심석중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수능일",
+      "holiday": true
+    },
+    {
+      "school": "심석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "양오중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "어람중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "연세중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험 재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "예봉중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "오남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "오남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "와부고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "와부중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "장내중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "장내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "주곡중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "진건고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력평가",
+      "holiday": true
+    },
+    {
+      "school": "진건중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "진접고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "진접중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일(수능일)",
+      "holiday": true
+    },
+    {
+      "school": "천마중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "청학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대수능(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "퇴계원고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "퇴계원중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일(대학수능일)",
+      "holiday": true
+    },
+    {
+      "school": "판곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "판곡중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "평내고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "평내중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "풍양중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장 재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "하랑중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "한별중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "호평고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "호평중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "화접중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "가운고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "금곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "남양주다산중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "덕소고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "덕소중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "도농고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "동화고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "별내고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "심석고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "양오중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "어람중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "예봉중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "오남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "와부고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "진접고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "진접중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천마중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "퇴계원고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "평내고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "하랑초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "하랑축제",
+      "holiday": false
+    },
+    {
+      "school": "호평고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "가운고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-25",
+      "name": "입학설명회",
+      "holiday": false
+    },
+    {
+      "school": "남양주고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-27",
+      "name": "천마제(축제)",
+      "holiday": false
+    },
+    {
+      "school": "예봉중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-30",
+      "name": "상담주간",
+      "holiday": false
+    },
+    {
+      "school": "양오중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-01",
+      "name": "현장체험학습주간",
+      "holiday": false
+    },
+    {
+      "school": "예봉중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-01",
+      "name": "상담주간",
+      "holiday": false
+    },
+    {
+      "school": "양오중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-02",
+      "name": "현장체험학습주간",
+      "holiday": false
+    },
+    {
+      "school": "예봉중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-02",
+      "name": "상담주간",
+      "holiday": false
+    },
+    {
+      "school": "와부고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-02",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "양오중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-03",
+      "name": "현장체험학습주간",
+      "holiday": false
+    },
+    {
+      "school": "예봉중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-03",
+      "name": "상담주간",
+      "holiday": false
+    },
+    {
+      "school": "와부고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-03",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "예봉중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-04",
+      "name": "상담주간",
+      "holiday": false
+    },
+    {
+      "school": "와부고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-04",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "와부고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-07",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "별내고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-09",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "판곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-09",
+      "name": "교과융합진로체험",
+      "holiday": false
+    },
+    {
+      "school": "별내고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-10",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "별내고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-11",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "별내고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-14",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "별내고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-15",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-15",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-15",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-16",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-16",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "와부중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-17",
+      "name": "교과연계 체험학습",
+      "holiday": false
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-17",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-17",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "판곡중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "현장체험학습(3)",
+      "holiday": false
+    },
+    {
+      "school": "평동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "심석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "평동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-19",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "심석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-20",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-20",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "평동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-20",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-20",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "심석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-21",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-21",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "평동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-21",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-21",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "심석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "평동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "심석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "교육과정축제",
+      "holiday": false
+    },
+    {
+      "school": "진접고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "진접고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "평동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "가운중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "남양주다산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "다산새봄중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "덕소고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "덕소고 찬양축제",
+      "holiday": false
+    },
+    {
+      "school": "덕소중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "한가람축제",
+      "holiday": false
+    },
+    {
+      "school": "마석고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "맷돌축제",
+      "holiday": false
+    },
+    {
+      "school": "마석고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "3학년체험학습",
+      "holiday": false
+    },
+    {
+      "school": "미금중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "목련축제",
+      "holiday": false
+    },
+    {
+      "school": "별가람고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "학교축제",
+      "holiday": false
+    },
+    {
+      "school": "별내중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "심석고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "동아리 발표회",
+      "holiday": false
+    },
+    {
+      "school": "심석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "와부고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "달마루 축제",
+      "holiday": false
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "동아리 연계 어울림한마당",
+      "holiday": false
+    },
+    {
+      "school": "퇴계원고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "평동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "풍양중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "풍양축제",
+      "holiday": false
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "심석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "평동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "심석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "평동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "심석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "평동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "심석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양오초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "오남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "용신초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "평동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "남양주동곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "졸업식, 종업식",
+      "holiday": false
+    },
+    {
+      "school": "사능초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "심석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양오초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "오남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "용신초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "평동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "가곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "가곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "구룡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "남양주금곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "남양주다산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "남양주동곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "남양주샛별초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "남양주송라초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "남양주양정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "덕소초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "도제원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "부평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "사능초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "심석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양오중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "양오초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "어람초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "6학년 졸업식",
+      "holiday": false
+    },
+    {
+      "school": "오남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "용신초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "은솔초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "장승초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "진건고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "진건초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "평내고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "솔빛제(학교축제)",
+      "holiday": false
+    },
+    {
+      "school": "평내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "평동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "화도초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "화접초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "가곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "가양초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "가운고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "가운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식(6학년)",
+      "holiday": false
+    },
+    {
+      "school": "광동고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "광릉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "구룡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "금남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "남양주금곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "남양주다산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "남양주다산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "남양주덕송초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "남양주덕송초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "남양주도곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "남양주동곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "남양주백봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "남양주백봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "남양주샛별초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "남양주송라초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "남양주양정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "남양주양지초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "남양주양지초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "남양주월문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "남양주월산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "다산가람초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "다산별빛초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "다산별빛초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "다산하늘초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "답내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "덕소초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울 방학",
+      "holiday": true
+    },
+    {
+      "school": "도농중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "도농중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "도심초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "도제원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "마석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "별가람초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "부평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "사능초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "수동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "수동초등학교송천분교장",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "심석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양오초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "어람중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "학교축제",
+      "holiday": false
+    },
+    {
+      "school": "어람초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "예봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "오남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "오남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "와부중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "와부초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "용신초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "은솔초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "장승초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "장현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "조안초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "주곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "진건초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "진접고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "진접초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "진접초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "차산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "창현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "퇴계원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "판곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "평내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "평동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "풍양초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "하랑초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "호평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "화도초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "화봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "화접초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    }
+  ],
+  "schools": [
+    {
+      "code": "7652009",
+      "name": "가곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 화도읍 비룡로379번길 3",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652010",
+      "name": "가양초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 수동면 비룡로1243번길 7",
+      "gu": "",
+      "dong": "수동면",
+      "events": [
+        {
+          "date": "2026-11-05",
+          "name": "어울림 대축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2027학년도 전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652162",
+      "name": "가운초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 가운로2길 54",
+      "gu": "",
+      "dong": "가운동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식(6학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식(1~5학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652014",
+      "name": "광릉초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 진접읍 광릉내로82번길 29",
+      "gu": "",
+      "dong": "진접읍",
+      "events": [
+        {
+          "date": "2026-12-18",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652167",
+      "name": "구룡초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 늘을3로 120",
+      "gu": "",
+      "dong": "호평동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-17",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652026",
+      "name": "금교초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 미금로 194",
+      "gu": "",
+      "dong": "다산동",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "꿈끼락음악회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "꿈끼락음악회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "꿈끼락음악회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "꿈끼락음악회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "꿈끼락음악회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "학생자치회 임원선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652028",
+      "name": "금남초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 화도읍 북한강로 1506",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652030",
+      "name": "남양주금곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 금곡로 65-6",
+      "gu": "",
+      "dong": "금곡동",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "끼꿈땀 발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652294",
+      "name": "남양주다산초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 다산중앙로146번길 55",
+      "gu": "",
+      "dong": "다산동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652249",
+      "name": "남양주덕송초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 별내3로 356",
+      "gu": "",
+      "dong": "별내동",
+      "events": [
+        {
+          "date": "2026-12-11",
+          "name": "전교어린이 임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652031",
+      "name": "남양주도곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 와부읍 덕소로 179",
+      "gu": "",
+      "dong": "와부읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652033",
+      "name": "남양주동곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 홍유릉로248번길 56",
+      "gu": "",
+      "dong": "금곡동",
+      "events": [
+        {
+          "date": "2026-12-29",
+          "name": "졸업식, 종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652035",
+      "name": "남양주미금초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 미금로56번길 32-13",
+      "gu": "",
+      "dong": "다산동",
+      "events": []
+    },
+    {
+      "code": "7652037",
+      "name": "남양주백봉초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 의안로 158",
+      "gu": "",
+      "dong": "평내동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652262",
+      "name": "남양주샛별초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 송산로307번길 50",
+      "gu": "",
+      "dong": "별내동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652038",
+      "name": "남양주송라초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 화도읍 마석로45번길 33",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652040",
+      "name": "남양주송촌초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 조안면 북한강로499번길 30",
+      "gu": "",
+      "dong": "조안면",
+      "events": []
+    },
+    {
+      "code": "7652041",
+      "name": "남양주신촌초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 평내로 122",
+      "gu": "",
+      "dong": "평내동",
+      "events": []
+    },
+    {
+      "code": "7652043",
+      "name": "남양주양정초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 경춘로 468-33",
+      "gu": "",
+      "dong": "지금동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "소방훈련",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652045",
+      "name": "남양주양지초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 오남읍 진건오남로 808번길",
+      "gu": "",
+      "dong": "오남읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-11",
+          "name": "전교어린이회임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652047",
+      "name": "남양주월문초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 와부읍 수레로 519",
+      "gu": "",
+      "dong": "와부읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652274",
+      "name": "남양주월산초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 화도읍 경춘로2290번길 50",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652300",
+      "name": "다산가람초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 다산중앙로81번길 51",
+      "gu": "",
+      "dong": "다산동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652326",
+      "name": "다산별빛초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 다산중앙로82번안길 40",
+      "gu": "",
+      "dong": "다산동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652304",
+      "name": "다산새봄초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 다산순환로 417",
+      "gu": "",
+      "dong": "다산동",
+      "events": []
+    },
+    {
+      "code": "7652324",
+      "name": "다산하늘초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 다산순환로 199",
+      "gu": "",
+      "dong": "다산동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652305",
+      "name": "다산한강초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 다산지금로146번길 11",
+      "gu": "",
+      "dong": "다산동",
+      "events": []
+    },
+    {
+      "code": "7652051",
+      "name": "답내초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 화도읍 경춘로2347번길 44-7",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652054",
+      "name": "덕소초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 와부읍 수레로 17",
+      "gu": "",
+      "dong": "와부읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울 방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652057",
+      "name": "도농초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 도농로 72",
+      "gu": "",
+      "dong": "도농동",
+      "events": []
+    },
+    {
+      "code": "7652061",
+      "name": "도심초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 와부읍 석실로 45",
+      "gu": "",
+      "dong": "와부읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652063",
+      "name": "도제원초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 퇴계원읍 경춘북로558번길 10-1",
+      "gu": "",
+      "dong": "퇴계원읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652072",
+      "name": "마석초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 화도읍 수레로 1234-52",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652273",
+      "name": "별가람초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 별내3로 173",
+      "gu": "",
+      "dong": "별내동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652080",
+      "name": "별내초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 별내면 청학로92번길 38",
+      "gu": "",
+      "dong": "별내면",
+      "events": []
+    },
+    {
+      "code": "7652237",
+      "name": "부평초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 진접읍 부평로48번길 27",
+      "gu": "",
+      "dong": "진접읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652084",
+      "name": "사능초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 진건읍 사릉로372번길 2",
+      "gu": "",
+      "dong": "진건읍",
+      "events": [
+        {
+          "date": "2026-12-29",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652087",
+      "name": "수동초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 수동면 비룡로 832",
+      "gu": "",
+      "dong": "수동면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652089",
+      "name": "수동초등학교송천분교장",
+      "level": "초등학교",
+      "address": "경기도 남양주시 수동면 비룡로586번길 98",
+      "gu": "",
+      "dong": "수동면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652093",
+      "name": "심석초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 화도읍 마석로76번길 10",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-19",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-20",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-21",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652095",
+      "name": "양오초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 오남읍 양지로 261-35",
+      "gu": "",
+      "dong": "오남읍",
+      "events": [
+        {
+          "date": "2026-12-28",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652096",
+      "name": "어람초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 오남읍 진건오남로550번길 25",
+      "gu": "",
+      "dong": "오남읍",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "학예회 발표",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "학예회 발표",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "친구사랑의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "전교어린이임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "꿈·끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "6학년 졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652161",
+      "name": "예봉초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 와부읍 수레로 108",
+      "gu": "",
+      "dong": "와부읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652099",
+      "name": "오남초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 오남읍 진건오남로 696",
+      "gu": "",
+      "dong": "오남읍",
+      "events": [
+        {
+          "date": "2026-12-24",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652102",
+      "name": "와부초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 와부읍 월문천로 63",
+      "gu": "",
+      "dong": "와부읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652104",
+      "name": "용신초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 진건읍 사릉로 474",
+      "gu": "",
+      "dong": "진건읍",
+      "events": [
+        {
+          "date": "2026-12-28",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652311",
+      "name": "은솔초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 화도읍 경춘보학2길 9",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652110",
+      "name": "장내초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 평내로 64",
+      "gu": "",
+      "dong": "평내동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652112",
+      "name": "장승초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 진접읍 금강로1576번길 12",
+      "gu": "",
+      "dong": "진접읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652117",
+      "name": "장현초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 진접읍 장현천로 37",
+      "gu": "",
+      "dong": "진접읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652119",
+      "name": "조안초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 조안면 북한강로229번길 20",
+      "gu": "",
+      "dong": "조안면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652238",
+      "name": "주곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 진접읍 해밀예당1로 277",
+      "gu": "",
+      "dong": "진접읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652122",
+      "name": "진건초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 진건읍 사릉로 408-9",
+      "gu": "",
+      "dong": "진건읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "       ",
+      "name": "진접1초(202803신설예정)",
+      "level": "초등학교",
+      "address": "경기도 남양주시 경춘로 520",
+      "gu": "",
+      "dong": "다산동",
+      "events": []
+    },
+    {
+      "code": "7652168",
+      "name": "진접초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 진접읍 해밀예당2로 102",
+      "gu": "",
+      "dong": "진접읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652169",
+      "name": "차산초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 화도읍 수레로 1105-23",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652125",
+      "name": "창현초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 화도읍 녹촌로 12",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652127",
+      "name": "천마초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 화도읍 경춘로 1707",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "전교어린이회 임원 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-17",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-19",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-20",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-21",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652133",
+      "name": "퇴계원초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 퇴계원읍 퇴계원로59번길 16",
+      "gu": "",
+      "dong": "퇴계원읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652136",
+      "name": "판곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 늘을3로 15",
+      "gu": "",
+      "dong": "호평동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652139",
+      "name": "평내초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 경춘로 1292-11",
+      "gu": "",
+      "dong": "평내동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652141",
+      "name": "평동초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 호평로68번길 16",
+      "gu": "",
+      "dong": "호평동",
+      "events": [
+        {
+          "date": "2026-12-18",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-19",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-20",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-21",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652143",
+      "name": "풍양초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 진접읍 내각1로 31-1",
+      "gu": "",
+      "dong": "진접읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652318",
+      "name": "하랑초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 백봉로 92",
+      "gu": "",
+      "dong": "호평동",
+      "events": [
+        {
+          "date": "2026-11-20",
+          "name": "하랑축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652261",
+      "name": "한별초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 별내4로 40",
+      "gu": "",
+      "dong": "",
+      "events": []
+    },
+    {
+      "code": "7652275",
+      "name": "해밀초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 진접읍 해밀예당3로 103",
+      "gu": "",
+      "dong": "진접읍",
+      "events": []
+    },
+    {
+      "code": "7652146",
+      "name": "호평초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 천마산로 63",
+      "gu": "",
+      "dong": "호평동",
+      "events": [
+        {
+          "date": "2026-12-15",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-17",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-18",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-19",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-20",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-21",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학년말 방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "학년말 방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652239",
+      "name": "화도초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 화도읍 비룡로116번길 24-42",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-12-10",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652240",
+      "name": "화봉초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 진접읍 해밀예당2로 21",
+      "gu": "",
+      "dong": "진접읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652149",
+      "name": "화접초등학교",
+      "level": "초등학교",
+      "address": "경기도 남양주시 별내중앙로 148",
+      "gu": "",
+      "dong": "별내동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652170",
+      "name": "가운중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 가운로2길 74",
+      "gu": "",
+      "dong": "가운동",
+      "events": [
+        {
+          "date": "2026-11-18",
+          "name": "수능감독관연수(3교시운영)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능휴업",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "3학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "3학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "3학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652013",
+      "name": "광동중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 진접읍 장현로광동1길 10",
+      "gu": "",
+      "dong": "진접읍",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "2학기 2차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2학기 2차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2학기 2차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 2차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2학기 2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "학년평가회(1)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "학년평가회(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "학생자치회장선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652163",
+      "name": "광릉중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 진접읍 진벌로 78-23",
+      "gu": "",
+      "dong": "진접읍",
+      "events": []
+    },
+    {
+      "code": "7652025",
+      "name": "금곡중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 경춘로 1008",
+      "gu": "",
+      "dong": "금곡동",
+      "events": []
+    },
+    {
+      "code": "7652298",
+      "name": "남양주다산중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 다산중앙로172번길 50",
+      "gu": "",
+      "dong": "다산동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "학교안전주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-26",
+          "name": "고교학점제캠프",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "대토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학생자치회 임원 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "평정회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652343",
+      "name": "다산새봄중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 다산순환로 435",
+      "gu": "",
+      "dong": "다산동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-25",
+          "name": "학생자치회 임원선출",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "학급자치회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "지진대피훈련",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652309",
+      "name": "다산한강중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 다산지금로145번길 20",
+      "gu": "",
+      "dong": "다산동",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "인터넷 스마트폰 과의존 예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "진로특강",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "환경교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "아동학대예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "장애이해교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "가정폭력 예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학생자치회 선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652053",
+      "name": "덕소중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 와부읍 도곡길 7",
+      "gu": "",
+      "dong": "와부읍",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능시험재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "마약예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "가정폭력예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "학생회장 소견발표",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "성폭력예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "학생회장 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "마약 및 약물오남용 예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "학급회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "금요일수업 진행",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "한가람축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "장애인식개선교육",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652056",
+      "name": "도농중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 미금로 234",
+      "gu": "",
+      "dong": "도농동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 지필평가(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 지필평가(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652070",
+      "name": "동화중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 경춘로 434",
+      "gu": "",
+      "dong": "다산동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652071",
+      "name": "마석중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 화도읍 수레로 1234-38",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652076",
+      "name": "미금중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 미금로 140",
+      "gu": "",
+      "dong": "지금동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "교직원 회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일 (재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "성적이의 신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "성적이의 신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "성적이의 신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "교직원 회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "성적이의 신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "성적이의 신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "성적이의 신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "목련축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "교직원 회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "평정회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652250",
+      "name": "별가람중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 별내3로 ",
+      "gu": "",
+      "dong": "",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652079",
+      "name": "별내중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 별내면 청학로132번길 30",
+      "gu": "",
+      "dong": "별내면",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "성매매예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "학급자치회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "학생자치회 임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "학급자치회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "봉사활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "지속가능한 환경교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "사정회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652085",
+      "name": "송라중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 화도읍 마석로45번길 31",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업(대학수학능력시험)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "학급자치활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "학급자치활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "양성평등교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "마약예방교육",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652086",
+      "name": "수동중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 수동면 비룡로 790-22",
+      "gu": "",
+      "dong": "수동면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652092",
+      "name": "심석중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 화도읍 마석로 62",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-16",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "기말고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652094",
+      "name": "양오중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 오남읍 양지로 261-31",
+      "gu": "",
+      "dong": "오남읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "동아리 활동(6~7교시)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "현장체험학습주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "현장체험학습주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "현장체험학습주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "교육과정평가회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "동아리 활동(6~7교시)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "재능발현활동(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "재능발현활동(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "재능발현활동(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652156",
+      "name": "어람중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 오남읍 진건오남로550번길 35",
+      "gu": "",
+      "dong": "오남읍",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "학교축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652097",
+      "name": "연세중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 조안면 북한강로 545",
+      "gu": "",
+      "dong": "조안면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험 재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기고사(1학년, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "정기고사(1학년, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "정기고사(1학년, 2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652164",
+      "name": "예봉중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 와부읍 수레로 127-37",
+      "gu": "",
+      "dong": "와부읍",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2학기정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2학기정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-30",
+          "name": "상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "진로탐색의날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "예스티벌",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "학생회장선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652098",
+      "name": "오남중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 오남읍 진건오남로808번길 34",
+      "gu": "",
+      "dong": "오남읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "교육과정축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652101",
+      "name": "와부중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 와부읍 월문천로 65",
+      "gu": "",
+      "dong": "와부읍",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "3학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "3학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "3학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "창체동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "2학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "1,2학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "1,2학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "대토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "학급자치",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1학년 진로캠프",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2,3학년 진로활동의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "교과연계 체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "창체동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "송향제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "창체동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "아름다운 사제동행",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "안전건강교육",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652109",
+      "name": "장내중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 평내로 37",
+      "gu": "",
+      "dong": "평내동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "1차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "1차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "1차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "전교학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "1차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "솔담제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652241",
+      "name": "주곡중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 진접읍 해밀예당1로 283",
+      "gu": "",
+      "dong": "진접읍",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2학기 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-14",
+          "name": "2학기 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2학기 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 정기시험(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652121",
+      "name": "진건중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 진건읍 진건오남로 39",
+      "gu": "",
+      "dong": "진건읍",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "2학기 2차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "2학기 2차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2학기 2차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2학기 2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 정기시험(1,2)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652124",
+      "name": "진접중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 진접읍 금강로 1641-1",
+      "gu": "",
+      "dong": "진접읍",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일(수능일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "학생자치정부회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "솔향제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652272",
+      "name": "천마중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 화도읍 먹갓로28번길 12",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "학생자치회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "천마라온제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "천마라온제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652132",
+      "name": "퇴계원중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 퇴계원면 퇴계원로 49-8",
+      "gu": "",
+      "dong": "퇴계원면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일(대학수능일)",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652135",
+      "name": "판곡중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 늘을1로 115",
+      "gu": "",
+      "dong": "호평동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "2차 지필평가(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2차 지필평가(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2차 지필평가(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 지필평가(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차 지필평가(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2차 지필평가(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "현장체험학습(3)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652138",
+      "name": "평내중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 경춘로1286번길 23",
+      "gu": "",
+      "dong": "평내동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "1차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652171",
+      "name": "풍양중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 진접읍 해밀예당1로 109",
+      "gu": "",
+      "dong": "진접읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장 재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "풍양축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652319",
+      "name": "하랑중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 백봉로 92",
+      "gu": "",
+      "dong": "호평동",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "진로행사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "사정회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652263",
+      "name": "한별중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 별내4로 70",
+      "gu": "",
+      "dong": "별내동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652145",
+      "name": "호평중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 호평로 76-7",
+      "gu": "",
+      "dong": "호평동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7652148",
+      "name": "화광중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 화도읍 경춘로 2226",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "대입수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2학기 1회 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-14",
+          "name": "2학기 1회 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-15",
+          "name": "2학기 1회 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2학기 1회 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 1회 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2회 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2회 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2회 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7652350",
+      "name": "화접중학교",
+      "level": "중학교",
+      "address": "경기도 남양주시 별내4로 26",
+      "gu": "",
+      "dong": "별내동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "동아리제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530974",
+      "name": "가운고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 가운로2길 115",
+      "gu": "",
+      "dong": "가운동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-25",
+          "name": "입학설명회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "스포츠데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동아리발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "하람제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530542",
+      "name": "광동고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 진접읍 장현로광동1길 10",
+      "gu": "",
+      "dong": "진접읍",
+      "events": [
+        {
+          "date": "2026-11-01",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-01",
+          "name": "심성수련활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-02",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-02",
+          "name": "심성수련활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "심성수련활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "성적이의신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "성적이의신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "성적이의신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530629",
+      "name": "금곡고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 경춘로992번길 10",
+      "gu": "",
+      "dong": "금곡동",
+      "events": [
+        {
+          "date": "2026-11-05",
+          "name": "합동소방훈련",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "수능예비소집일",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "봉사활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "학급회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "생명존중교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "대토론회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531425",
+      "name": "남양주고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 화도읍 경춘로2192번길 25",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "천마제(축제)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531376",
+      "name": "남양주다산고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 다산중앙로146번길 50",
+      "gu": "",
+      "dong": "다산동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "1차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "1차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "1차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "1차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동아리발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530151",
+      "name": "덕소고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 와부읍 덕소로 194",
+      "gu": "",
+      "dong": "와부읍",
+      "events": [
+        {
+          "date": "2026-11-03",
+          "name": "학생의날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "리더십캠프",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "주제별 체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "리더십캠프",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "주제별 체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "리더십캠프",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "주제별 체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "덕소고 찬양축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530857",
+      "name": "도농고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 다산순환로 1",
+      "gu": "",
+      "dong": "다산동",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "동아리(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "자율(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "자율(1)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "봉사(1)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "자율(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "자율(1), 봉사(1)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "자율(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "자율(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "동아리(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동아리(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "자율(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학교주도활동시간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "학교주도활동시간",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530156",
+      "name": "동화고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 경춘로 434",
+      "gu": "",
+      "dong": "다산동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-26",
+          "name": "고입 학교설명회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "학술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "학술제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530972",
+      "name": "마석고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 화도읍 녹촌로 35",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "맷돌축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "3학년체험학습",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531247",
+      "name": "별가람고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 순화궁로 393",
+      "gu": "",
+      "dong": "별내동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "학생 주도 활동 및 학교자율과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "학생 주도 활동 및 학교자율과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학교축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "학생 주도 활동 및 학교자율과정",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531113",
+      "name": "별내고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 별내5로 36",
+      "gu": "",
+      "dong": "별내동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(1,2,3학년)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 2차 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2학기 2차 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "2학기 2차 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "2학기 2차 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "현장체험학습",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530546",
+      "name": "심석고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 화도읍 마석로 62",
+      "gu": "",
+      "dong": "화도읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능일휴업",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동아리 발표회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530893",
+      "name": "오남고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 오남읍 진건오남로 784-27",
+      "gu": "",
+      "dong": "오남읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530858",
+      "name": "와부고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 와부읍 수레로 127-20",
+      "gu": "",
+      "dong": "와부읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-28",
+          "name": "입시설명회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "방송제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "달마루 축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530526",
+      "name": "진건고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 진건읍 진건오남로 369-1",
+      "gu": "",
+      "dong": "진건읍",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "북씨앗",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "학급특색활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "주제별체험학습 나눔회(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "교내환경정화활동(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "교내환경정화활동(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "영양식생활교육(전학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "교내환경정화활동(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "교내환경정화활동(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "교내환경정화활동(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "동아리활동(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "교내환경정화활동(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "대토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "학급특색활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "동아리 평가 및 차년도 계획 수립(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "동아리활동(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "학급특색활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학급특색활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530932",
+      "name": "진접고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 진접읍 해밀예당2로 13",
+      "gu": "",
+      "dong": "진접읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "동아리발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530550",
+      "name": "청학고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 별내면 청학로68번길 47",
+      "gu": "",
+      "dong": "별내면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대수능(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동아리 연계 어울림한마당",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530130",
+      "name": "퇴계원고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 퇴계원읍 퇴계원로 ",
+      "gu": "",
+      "dong": "퇴계원읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기 시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기 시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기 시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기 시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기 시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "은행제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동아리발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "SLAT(1,2)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531045",
+      "name": "판곡고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 늘을1로 127",
+      "gu": "",
+      "dong": "호평동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "교과융합진로체험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530771",
+      "name": "평내고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 평내로 57",
+      "gu": "",
+      "dong": "평내동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "솔빛제(학교축제)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530772",
+      "name": "호평고등학교",
+      "level": "고등학교",
+      "address": "경기도 남양주시 호평로 109",
+      "gu": "",
+      "dong": "호평동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "2차 꿈길주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "2차 꿈길주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "2차 꿈길주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "2차 꿈길주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "2차 꿈길주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "2차 꿈길주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "2차 꿈길주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2차 꿈길주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2차 꿈길주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2차 꿈길주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "동아리발표제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "1,2학년 2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1,2학년 2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1,2학년 2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "1,2학년 2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "1,2학년 2학기 2차 지필평가",
+          "holiday": false
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
