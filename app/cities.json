@@ -218,6 +218,72 @@
         "start": "2026-10-30",
         "startVer": "1.0.61"
       }
+    },
+    "gangnam": {
+      "name": "강남",
+      "colors": {
+        "city": "#D14B7A",
+        "ink": "#A3355C",
+        "deep": "#7A2645",
+        "soft": "#FBE6EE"
+      },
+      "areas": "대치·도곡·개포·역삼",
+      "lat": 37.5172,
+      "lon": 127.0473,
+      "searchEx": "대치, 대치초",
+      "domain": "gangnam.songgollab.co.kr",
+      "pages": "airang-gangnam",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-10-31",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "yangcheon": {
+      "name": "양천",
+      "colors": {
+        "city": "#7A9A2E",
+        "ink": "#5E7722",
+        "deep": "#445718",
+        "soft": "#EEF3DD"
+      },
+      "areas": "목동·신정·신월",
+      "lat": 37.517,
+      "lon": 126.8665,
+      "searchEx": "목동, 목운중",
+      "domain": "yangcheon.songgollab.co.kr",
+      "pages": "airang-yangcheon",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-10-31",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "nowon": {
+      "name": "노원",
+      "colors": {
+        "city": "#B5651D",
+        "ink": "#8C4E16",
+        "deep": "#663910",
+        "soft": "#F6E8DA"
+      },
+      "areas": "중계·상계·하계·공릉",
+      "lat": 37.6542,
+      "lon": 127.0568,
+      "searchEx": "중계, 을지초",
+      "domain": "nowon.songgollab.co.kr",
+      "pages": "airang-nowon",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-10-31",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
     }
   },
   "entry": {
