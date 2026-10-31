@@ -1,0 +1,3041 @@
+{
+  "region": "광주시",
+  "updated_at": "2026-11-01 02:59:47",
+  "period": {
+    "from": "20261101",
+    "to": "20261231"
+  },
+  "school_count": 57,
+  "public_holidays": [
+    {
+      "date": "2026-11-01",
+      "name": "일요일"
+    },
+    {
+      "date": "2026-11-08",
+      "name": "일요일"
+    },
+    {
+      "date": "2026-11-15",
+      "name": "일요일"
+    },
+    {
+      "date": "2026-11-19",
+      "name": "수능"
+    },
+    {
+      "date": "2026-11-22",
+      "name": "일요일"
+    },
+    {
+      "date": "2026-11-29",
+      "name": "일요일"
+    },
+    {
+      "date": "2026-12-03",
+      "name": "국민주권의 날"
+    },
+    {
+      "date": "2026-12-06",
+      "name": "일요일"
+    },
+    {
+      "date": "2026-12-13",
+      "name": "일요일"
+    },
+    {
+      "date": "2026-12-20",
+      "name": "일요일"
+    },
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    },
+    {
+      "date": "2026-12-27",
+      "name": "일요일"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "광남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-02",
+      "name": "찾아오는 체험학습",
+      "holiday": false
+    },
+    {
+      "school": "광남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-03",
+      "name": "찾아오는 체험학습",
+      "holiday": false
+    },
+    {
+      "school": "광남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-04",
+      "name": "찾아오는 체험학습",
+      "holiday": false
+    },
+    {
+      "school": "경안중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능일(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "경화여자English Business고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "경화여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일(1,2학년)",
+      "holiday": true
+    },
+    {
+      "school": "경화여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일(대학수학능력시험)",
+      "holiday": true
+    },
+    {
+      "school": "곤지암고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "곤지암중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "광남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "광일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "광주고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "광주광남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장 재량 휴업일",
+      "holiday": true
+    },
+    {
+      "school": "광주중앙고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "광주중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능일",
+      "holiday": true
+    },
+    {
+      "school": "매양중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "신현중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "오포고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "초월고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "초월중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "탄벌중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "태전중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "경화여자English Business고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "경화여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "경화여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "광남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "광주중앙고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "태전고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "광남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-16",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "초월고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "초월고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "곤지암중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "학교축제",
+      "holiday": false
+    },
+    {
+      "school": "광남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "광일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "학교축제",
+      "holiday": false
+    },
+    {
+      "school": "광주광명초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "광주광명초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "초월고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "광남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "광주광명초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "초월고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "광남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "광주광명초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "초월고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "광남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "광주광명초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "초월고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "광남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "광주광명초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "초월고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "광남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "광주광명초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "남한산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "신현중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "교내축제",
+      "holiday": false
+    },
+    {
+      "school": "초월고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "초월초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "졸업식(3, 4교시)",
+      "holiday": false
+    },
+    {
+      "school": "고산별빛초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "고산별빛초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "고산하늘초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "광남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "광남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "광주광명초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "광주도평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "광주매곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "남한산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "능평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "도곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "삼리초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "신현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "양벌초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "양벌초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "오포초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "초월고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "초월초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "탄벌초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "태전초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "한아람초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "고산별빛초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "고산하늘초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "곤지암고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "곤지암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "광남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "광남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "광주광남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "학교축제",
+      "holiday": false
+    },
+    {
+      "school": "광주광명초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "광주도평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "광주매곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "광주송정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "광주송정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "광주푸른초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "광지원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "광지원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "남한산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "능평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "도곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "도수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "번천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "번천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "벌원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "6학년 졸업식",
+      "holiday": false
+    },
+    {
+      "school": "분원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "삼리초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "선동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "신현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "쌍동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "쌍령초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "양벌초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "역동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "오포초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "초월고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "초월초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "탄벌초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "태성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "태전초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "한아람초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    }
+  ],
+  "schools": [
+    {
+      "code": "7692003",
+      "name": "경안초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 광주역로 77",
+      "gu": "",
+      "dong": "경안동",
+      "events": []
+    },
+    {
+      "code": "7692230",
+      "name": "고산별빛초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 고산별빛로 6",
+      "gu": "",
+      "dong": "",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692219",
+      "name": "고산하늘초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 태성3로 26",
+      "gu": "",
+      "dong": "",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692005",
+      "name": "곤지암초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 곤지암읍 곤지암로 70-13",
+      "gu": "",
+      "dong": "곤지암읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692006",
+      "name": "광남초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 고불로46번길 15",
+      "gu": "",
+      "dong": "중대동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "찾아오는 체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "찾아오는 체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "찾아오는 체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "장애이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "인권교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692007",
+      "name": "광주광명초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 문형산길 7",
+      "gu": "",
+      "dong": "신현동",
+      "events": [
+        {
+          "date": "2026-12-24",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692008",
+      "name": "광주도평초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 초월읍 현산로 89-16",
+      "gu": "",
+      "dong": "초월읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692009",
+      "name": "광주매곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 양벌로 303-5",
+      "gu": "",
+      "dong": "양벌동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692194",
+      "name": "광주송정초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 송정4길 21",
+      "gu": "",
+      "dong": "송정동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692010",
+      "name": "광주초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 중앙로123번길 22",
+      "gu": "",
+      "dong": "경안동",
+      "events": []
+    },
+    {
+      "code": "7692188",
+      "name": "광주푸른초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 경충대로1461번길 31",
+      "gu": "",
+      "dong": "쌍령동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692011",
+      "name": "광지원초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 남한산성면 회안대로 1386",
+      "gu": "",
+      "dong": "남한산성면",
+      "events": [
+        {
+          "date": "2026-11-07",
+          "name": "학교공개의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "장애인식개선교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "1학기학생자치회임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "안전교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692012",
+      "name": "남한산초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 남한산성면 남한산성로 770",
+      "gu": "",
+      "dong": "남한산성면",
+      "events": [
+        {
+          "date": "2026-12-29",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692222",
+      "name": "능평초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 창뜰아랫길 14-3",
+      "gu": "",
+      "dong": "능평동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692014",
+      "name": "도곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 초월읍 경충대로 1033-13",
+      "gu": "",
+      "dong": "초월읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692015",
+      "name": "도궁초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 도척면 도척윗로 270",
+      "gu": "",
+      "dong": "도척면",
+      "events": []
+    },
+    {
+      "code": "7692016",
+      "name": "도수초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 퇴촌면 도수길 11",
+      "gu": "",
+      "dong": "퇴촌면",
+      "events": [
+        {
+          "date": "2026-11-17",
+          "name": "어울누리예술제 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "어울누리예술제 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "어울누리예술제 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692017",
+      "name": "도척초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 도척면 노곡로 33",
+      "gu": "",
+      "dong": "도척면",
+      "events": []
+    },
+    {
+      "code": "7692019",
+      "name": "만선초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 곤지암읍 상탑길 9",
+      "gu": "",
+      "dong": "곤지암읍",
+      "events": []
+    },
+    {
+      "code": "7692021",
+      "name": "번천초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 남한산성면 해공로 82",
+      "gu": "",
+      "dong": "남한산성면",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "번천예술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "다모임",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "패밀리동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "다모임",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "교육나눔협의회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "패밀리동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "문화의날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "다모임",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692115",
+      "name": "벌원초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 회안대로 621-36",
+      "gu": "",
+      "dong": "탄벌동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "6학년 졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692022",
+      "name": "분원초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 남종면 산수로 1642-1",
+      "gu": "",
+      "dong": "남종면",
+      "events": [
+        {
+          "date": "2026-11-18",
+          "name": "다모임",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "학생자율교육과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "분원예술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "학생자율교육과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "다모임",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692024",
+      "name": "삼리초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 곤지암읍 평촌길 30-28",
+      "gu": "",
+      "dong": "곤지암읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692026",
+      "name": "선동초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 초월읍 동막골길 5",
+      "gu": "",
+      "dong": "초월읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692192",
+      "name": "신현초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 오포읍 신현로12번길",
+      "gu": "",
+      "dong": "오포읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692226",
+      "name": "쌍동초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 초월읍 경충대로1127번길 56",
+      "gu": "",
+      "dong": "초월읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692029",
+      "name": "쌍령초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 경충대로1422번길 71",
+      "gu": "",
+      "dong": "쌍령동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692030",
+      "name": "양벌초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 양벌동 290-20",
+      "gu": "",
+      "dong": "양벌동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692153",
+      "name": "역동초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 순암로36번길 45",
+      "gu": "",
+      "dong": "역동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692031",
+      "name": "오포초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 오포읍 추자길 28-7",
+      "gu": "",
+      "dong": "오포읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692033",
+      "name": "초월초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 초월읍 산수로 523",
+      "gu": "",
+      "dong": "초월읍",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "학교스포츠클럽대회주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-02",
+          "name": "불조심 강조의 달 행사주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "학교스포츠클럽대회주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "불조심 강조의 달 행사주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "학교스포츠클럽대회주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "불조심 강조의 달 행사주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "학교스포츠클럽대회주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "불조심 강조의 달 행사주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "학교스포츠클럽대회주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "불조심 강조의 달 행사주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "아동학대예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "아동학대예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "아동학대예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "아동학대예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "아동학대예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1학기 학생자치회임원선출",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "졸업식(3, 4교시)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692034",
+      "name": "탄벌초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 이배재로 20-12",
+      "gu": "",
+      "dong": "탄벌동",
+      "events": [
+        {
+          "date": "2026-12-16",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692165",
+      "name": "태성초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 태성로 37",
+      "gu": "",
+      "dong": "태전동",
+      "events": [
+        {
+          "date": "2026-12-16",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692035",
+      "name": "태전초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 태봉로 56",
+      "gu": "",
+      "dong": "태전동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692182",
+      "name": "한아람초등학교",
+      "level": "초등학교",
+      "address": "경기도 광주시 태봉로 152(태전동 51-1)",
+      "gu": "",
+      "dong": "태전동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692038",
+      "name": "경안중학교",
+      "level": "중학교",
+      "address": "경기도 광주시 장지1길 6",
+      "gu": "",
+      "dong": "장지동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2학기2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기2차 정기시험(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692046",
+      "name": "경화여자중학교",
+      "level": "중학교",
+      "address": "경기도 광주시 수하길11번길 43",
+      "gu": "",
+      "dong": "송정동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일(대학수학능력시험)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692039",
+      "name": "곤지암중학교",
+      "level": "중학교",
+      "address": "경기도 광주시 곤지암읍 곤지암로 82",
+      "gu": "",
+      "dong": "곤지암읍",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "수능감독관연수",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학교축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "교육과정 평가회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692040",
+      "name": "광수중학교",
+      "level": "중학교",
+      "address": "경기도 광주시 퇴촌면 도수길23번길 23",
+      "gu": "",
+      "dong": "퇴촌면",
+      "events": []
+    },
+    {
+      "code": "7692041",
+      "name": "광일중학교",
+      "level": "중학교",
+      "address": "경기도 광주시 도척면 노곡로 32",
+      "gu": "",
+      "dong": "도척면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-30",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학교축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692047",
+      "name": "광주광남중학교",
+      "level": "중학교",
+      "address": "경기도 광주시 벼루개길42번길 50",
+      "gu": "",
+      "dong": "태전동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장 재량 휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "학교축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692042",
+      "name": "광주중학교",
+      "level": "중학교",
+      "address": "경기도 광주시 경안로42번길 11",
+      "gu": "",
+      "dong": "경안동",
+      "events": [
+        {
+          "date": "2026-11-18",
+          "name": "수능예비소집일",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "2차정기시험/3학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-21",
+          "name": "2차정기시험/3학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차정기시험/3학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차정기시험/3학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차정기시험/1, 2학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차정기시험/1, 2학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차정기시험/1, 2학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "꿈끼활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "느티제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692162",
+      "name": "매양중학교",
+      "level": "중학교",
+      "address": "경기도 광주시 오포읍 양벌로 331-20",
+      "gu": "",
+      "dong": "오포읍",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학생인권교육",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692151",
+      "name": "신현중학교",
+      "level": "중학교",
+      "address": "경기도 광주시 태재로 20-17",
+      "gu": "",
+      "dong": "신현동",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "교내축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692237",
+      "name": "오포중학교",
+      "level": "중학교",
+      "address": "경기도 광주시 고산달빛로 36",
+      "gu": "",
+      "dong": "고산동",
+      "events": []
+    },
+    {
+      "code": "7692119",
+      "name": "초월중학교",
+      "level": "중학교",
+      "address": "경기도 광주시 초월읍 도곡길21번길 28",
+      "gu": "",
+      "dong": "초월읍",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-03",
+          "name": "대토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "나래제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "나래제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "나래제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692045",
+      "name": "탄벌중학교",
+      "level": "중학교",
+      "address": "경기도 광주시 포돌이로 77",
+      "gu": "",
+      "dong": "탄벌동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-14",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692224",
+      "name": "태전중학교",
+      "level": "중학교",
+      "address": "경기도 광주시 태성로 110",
+      "gu": "",
+      "dong": "태전동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530993",
+      "name": "경화여자English Business고등학교",
+      "level": "고등학교",
+      "address": "경기도 광주시 수하길11번길 43",
+      "gu": "",
+      "dong": "송정동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530535",
+      "name": "경화여자고등학교",
+      "level": "고등학교",
+      "address": "경기도 광주시 수하길11번길 43",
+      "gu": "",
+      "dong": "송정동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일(1,2학년)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 2차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 2차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2학기 2차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2학기 2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "동아리페스티벌",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530632",
+      "name": "곤지암고등학교",
+      "level": "고등학교",
+      "address": "경기도 광주시 곤지암읍 곤지암로 82",
+      "gu": "",
+      "dong": "곤지암읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "태화제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530885",
+      "name": "광남고등학교",
+      "level": "고등학교",
+      "address": "경기도 광주시 회안대로 350-32",
+      "gu": "",
+      "dong": "장지동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-30",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동계방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530521",
+      "name": "광주고등학교",
+      "level": "고등학교",
+      "address": "경기도 광주시 수하길19번길 43",
+      "gu": "",
+      "dong": "송정동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "솔향제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530786",
+      "name": "광주중앙고등학교",
+      "level": "고등학교",
+      "address": "경기도 광주시 역동로63번길 1",
+      "gu": "",
+      "dong": "역동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차정기시험(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "학술제 및 은행제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531605",
+      "name": "오포고등학교",
+      "level": "고등학교",
+      "address": "경기도 광주시 태성3로 35",
+      "gu": "",
+      "dong": "고산동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531136",
+      "name": "초월고등학교",
+      "level": "고등학교",
+      "address": "경기도 광주시 초월읍 무들로 3-25",
+      "gu": "",
+      "dong": "초월읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-30",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "최소성취도보장",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "최소성취도보장",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "최소성취도보장",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7531289",
+      "name": "태전고등학교",
+      "level": "고등학교",
+      "address": "경기도 광주시 태전동로 38",
+      "gu": "",
+      "dong": "태전동",
+      "events": [
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
