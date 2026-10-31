@@ -1,0 +1,4366 @@
+{
+  "region": "김포시",
+  "updated_at": "2026-11-01 02:43:55",
+  "period": {
+    "from": "20261101",
+    "to": "20261231"
+  },
+  "school_count": 90,
+  "public_holidays": [
+    {
+      "date": "2026-11-19",
+      "name": "대체공휴일"
+    },
+    {
+      "date": "2026-11-19",
+      "name": "재량휴업일"
+    },
+    {
+      "date": "2026-11-20",
+      "name": "재량휴업일"
+    },
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "김포외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-02",
+      "name": "학부모상담기간",
+      "holiday": false
+    },
+    {
+      "school": "양곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-02",
+      "name": "학부모상담주간",
+      "holiday": false
+    },
+    {
+      "school": "하성고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-02",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "김포외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-03",
+      "name": "학부모상담기간",
+      "holiday": false
+    },
+    {
+      "school": "양곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-03",
+      "name": "학부모상담주간",
+      "holiday": false
+    },
+    {
+      "school": "김포외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-04",
+      "name": "학부모상담기간",
+      "holiday": false
+    },
+    {
+      "school": "양곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-04",
+      "name": "학부모상담주간",
+      "holiday": false
+    },
+    {
+      "school": "통진고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-04",
+      "name": "주제별체험학습",
+      "holiday": false
+    },
+    {
+      "school": "김포외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-05",
+      "name": "학부모상담기간",
+      "holiday": false
+    },
+    {
+      "school": "양곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-05",
+      "name": "학부모상담주간",
+      "holiday": false
+    },
+    {
+      "school": "통진고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-05",
+      "name": "주제별체험학습",
+      "holiday": false
+    },
+    {
+      "school": "김포외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-06",
+      "name": "학부모상담기간",
+      "holiday": false
+    },
+    {
+      "school": "양곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-06",
+      "name": "학부모상담주간",
+      "holiday": false
+    },
+    {
+      "school": "통진고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-06",
+      "name": "추계현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "통진고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-06",
+      "name": "주제별체험학습",
+      "holiday": false
+    },
+    {
+      "school": "장기초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-09",
+      "name": "진로체험교육 주간",
+      "holiday": false
+    },
+    {
+      "school": "김포과학기술고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-13",
+      "name": "동아리 발표회",
+      "holiday": false
+    },
+    {
+      "school": "고촌고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일(수능)",
+      "holiday": true
+    },
+    {
+      "school": "금파중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "김포고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "김포과학기술고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "김포여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "김포제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력평가",
+      "holiday": true
+    },
+    {
+      "school": "김포호수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "마송고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "마송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "분진중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "사우고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "사우초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "솔터고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능일",
+      "holiday": true
+    },
+    {
+      "school": "솔터초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "솔터초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능일",
+      "holiday": true
+    },
+    {
+      "school": "신양고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "신양중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "양곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "양곡중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "양도초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "운양고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "운양초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능일",
+      "holiday": true
+    },
+    {
+      "school": "운유고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "운유초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "은여울중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "장기고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "휴업일",
+      "holiday": true
+    },
+    {
+      "school": "장기고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(3학년)",
+      "holiday": true
+    },
+    {
+      "school": "청수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능(학교장재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "통진고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "통진중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "풍무고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "풍무중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "하성고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "하성중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "고촌고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "고촌중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업",
+      "holiday": true
+    },
+    {
+      "school": "김포과학기술고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "김포외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일(3학년)",
+      "holiday": true
+    },
+    {
+      "school": "사우고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "운양고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "장기고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "통진고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "통진중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "풍무고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "하성고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "하성중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "양곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-30",
+      "name": "개교기념일",
+      "holiday": true
+    },
+    {
+      "school": "양곡중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-01",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "금파중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-15",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "양곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-17",
+      "name": "체험학습(고3)",
+      "holiday": false
+    },
+    {
+      "school": "나래중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "체험학습",
+      "holiday": false
+    },
+    {
+      "school": "사우고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "축제 및 동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "양도중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "발표회",
+      "holiday": false
+    },
+    {
+      "school": "양도중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "발표회",
+      "holiday": false
+    },
+    {
+      "school": "양도중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "발표회",
+      "holiday": false
+    },
+    {
+      "school": "김포외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울 방학식",
+      "holiday": false
+    },
+    {
+      "school": "김포호수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "솔터고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "학교축제",
+      "holiday": false
+    },
+    {
+      "school": "양곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "동아리 발표회",
+      "holiday": false
+    },
+    {
+      "school": "운양고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "동아리발표회 및 청운제",
+      "holiday": false
+    },
+    {
+      "school": "운유고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "장기고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "해찬솔 축제",
+      "holiday": false
+    },
+    {
+      "school": "향산중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "축제(향빛제)",
+      "holiday": false
+    },
+    {
+      "school": "김포호수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "김포호수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "김포호수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "김포외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "김포호수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "김포외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "김포호수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "개곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "금란초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식, 종업식",
+      "holiday": false
+    },
+    {
+      "school": "금성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "금성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "김포외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "김포초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "김포호수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "나래중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "문화축제",
+      "holiday": false
+    },
+    {
+      "school": "나비초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "마송중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "사우초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "서암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "솔터초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "신곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "양곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "은여울초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "푸른솔초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "푸른솔초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "가현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "감정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "개곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "걸포초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "종업식 및 졸업식",
+      "holiday": false
+    },
+    {
+      "school": "고창초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "고촌고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "고촌초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "금란초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "금성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "금성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "금파초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "김포구래초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "김포금빛초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "김포나진초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "김포서초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "김포신풍초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "김포신풍초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "김포외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "김포제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "김포초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "김포호수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "나비초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대곶초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "대곶초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "마송중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "마송초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "마송초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "사우고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "사우초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "석정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "석정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "솔터초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "수남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "종업식.졸업식",
+      "holiday": false
+    },
+    {
+      "school": "신곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "양도초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "양도초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "옹정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "운유초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "월곶초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식 및 종업식",
+      "holiday": false
+    },
+    {
+      "school": "유현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "은여울초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "장기초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "장기초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "청수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "통진초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "푸른솔초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "하늘빛초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "하성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    }
+  ],
+  "schools": [
+    {
+      "code": "7771115",
+      "name": "가현초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 김포한강2로 83",
+      "gu": "",
+      "dong": "장기동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771039",
+      "name": "감정초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 중봉로 11",
+      "gu": "",
+      "dong": "감정동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771016",
+      "name": "개곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 월곶면 애기봉로 445",
+      "gu": "",
+      "dong": "월곶면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771107",
+      "name": "걸포초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 걸포로 22",
+      "gu": "",
+      "dong": "걸포동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식 및 졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771017",
+      "name": "고창초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 김포한강1로98번길 35",
+      "gu": "",
+      "dong": "장기동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771018",
+      "name": "고촌초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 고촌읍 신곡로29번길 30",
+      "gu": "",
+      "dong": "고촌읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771019",
+      "name": "금란초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 고촌읍 장곡로 42",
+      "gu": "",
+      "dong": "고촌읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식, 종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771020",
+      "name": "금성초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 하성면 하성로 795번길 26",
+      "gu": "",
+      "dong": "하성면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771038",
+      "name": "금파초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 김포대로926번길 74",
+      "gu": "",
+      "dong": "북변동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771185",
+      "name": "김포구래초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 김포한강9로 12번길 77",
+      "gu": "",
+      "dong": "구래동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771172",
+      "name": "김포금빛초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 태장로 821",
+      "gu": "",
+      "dong": "장기동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771187",
+      "name": "김포나진초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 걸포2로 58",
+      "gu": "",
+      "dong": "걸포동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771023",
+      "name": "김포대명초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 대곶면 대곶로20번길 17",
+      "gu": "",
+      "dong": "대곶면",
+      "events": []
+    },
+    {
+      "code": "7771024",
+      "name": "김포서초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 봉화로 188",
+      "gu": "",
+      "dong": "북변동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771015",
+      "name": "김포신풍초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 풍무로208번길 14",
+      "gu": "",
+      "dong": "풍무동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771022",
+      "name": "김포초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 북변중로65번길 4-24",
+      "gu": "",
+      "dong": "북변동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771118",
+      "name": "김포한가람초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 김포한강9로 115번길 57",
+      "gu": "",
+      "dong": "구래동",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "아동학대예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "교사학생인권교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "도박중독예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "정보통신윤리교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "학생안전건강주간",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771136",
+      "name": "김포호수초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 김포한강4로420번길 87",
+      "gu": "",
+      "dong": "구래동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771153",
+      "name": "나비초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 김포한강10로134번길 70",
+      "gu": "",
+      "dong": "구래동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771025",
+      "name": "대곶초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 대곶면 율생중앙로36번길 19",
+      "gu": "",
+      "dong": "대곶면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771101",
+      "name": "마송중앙초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 통진읍 마송1로 140",
+      "gu": "",
+      "dong": "통진읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771026",
+      "name": "마송초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 통진읍 흥신로 315",
+      "gu": "",
+      "dong": "통진읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771207",
+      "name": "모담초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 운양로 158",
+      "gu": "",
+      "dong": "운양동",
+      "events": []
+    },
+    {
+      "code": "7771182",
+      "name": "보름초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 고촌읍 태리로 267",
+      "gu": "",
+      "dong": "고촌읍",
+      "events": []
+    },
+    {
+      "code": "7771037",
+      "name": "사우초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 사우로 20",
+      "gu": "",
+      "dong": "사우동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771027",
+      "name": "서암초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 통진읍 서암로184번길 9",
+      "gu": "",
+      "dong": "통진읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771028",
+      "name": "석정초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 대곶면 대곶로331번길 10",
+      "gu": "",
+      "dong": "대곶면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771119",
+      "name": "솔터초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 김포한강7로22번길 61",
+      "gu": "",
+      "dong": "마산동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771029",
+      "name": "수남초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 대곶면 수남로21번길 24",
+      "gu": "",
+      "dong": "대곶면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식.졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771071",
+      "name": "신곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 고촌읍 수기로 67-30",
+      "gu": "",
+      "dong": "고촌읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771102",
+      "name": "신양초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 양촌읍 양곡3로 47",
+      "gu": "",
+      "dong": "양촌읍",
+      "events": []
+    },
+    {
+      "code": "7771030",
+      "name": "양곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 양촌읍 양곡로 548",
+      "gu": "",
+      "dong": "양촌읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771041",
+      "name": "양도초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 풍무로93번길 31",
+      "gu": "",
+      "dong": "풍무동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771031",
+      "name": "옹정초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 통진읍 옹정로185번길 26",
+      "gu": "",
+      "dong": "통진읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771040",
+      "name": "운양초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 전원로 38번길 99",
+      "gu": "",
+      "dong": "운양동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771120",
+      "name": "운유초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 김포한강2로 239",
+      "gu": "",
+      "dong": "장기동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771033",
+      "name": "월곶초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 월곶면 군하로276번길 28",
+      "gu": "",
+      "dong": "월곶면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식 및 종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771032",
+      "name": "유현초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 유현로33번길 50",
+      "gu": "",
+      "dong": "풍무동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771178",
+      "name": "은여울초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 김포한강8로 173-38",
+      "gu": "",
+      "dong": "마산동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771072",
+      "name": "장기초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 김포한강2로 173",
+      "gu": "",
+      "dong": "장기동",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "진로체험교육 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771146",
+      "name": "청수초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 김포한강11로 256",
+      "gu": "",
+      "dong": "운양동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능(학교장재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-16",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771014",
+      "name": "통진초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 통진읍 조강로 116",
+      "gu": "",
+      "dong": "통진읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771121",
+      "name": "푸른솔초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 김포한강2로 306",
+      "gu": "",
+      "dong": "장기동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771034",
+      "name": "풍무초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 풍무로96번길 71",
+      "gu": "",
+      "dong": "풍무동",
+      "events": []
+    },
+    {
+      "code": "7771137",
+      "name": "하늘빛초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 김포한강11로 374",
+      "gu": "",
+      "dong": "운양동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771035",
+      "name": "하성초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 하성면 애기봉로 857",
+      "gu": "",
+      "dong": "하성면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771036",
+      "name": "학운초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 양촌읍 황금로70번길 13",
+      "gu": "",
+      "dong": "양촌읍",
+      "events": []
+    },
+    {
+      "code": "7771189",
+      "name": "향산초등학교",
+      "level": "초등학교",
+      "address": "경기도 김포시 고촌읍 상미1로 26",
+      "gu": "",
+      "dong": "고촌읍",
+      "events": []
+    },
+    {
+      "code": "7771067",
+      "name": "감정중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 감정로 25",
+      "gu": "",
+      "dong": "감정동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "3학년 2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "3학년 2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "3학년 2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학년별프로그램",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771073",
+      "name": "고창중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 초당로 15",
+      "gu": "",
+      "dong": "장기동",
+      "events": []
+    },
+    {
+      "code": "7771004",
+      "name": "고촌중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 고촌읍 신곡로 106",
+      "gu": "",
+      "dong": "고촌읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771021",
+      "name": "금파중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 김포대로926번길 88-9",
+      "gu": "",
+      "dong": "북변동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "현장체험학습",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771166",
+      "name": "김포신곡중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 고촌읍 수기로 54-20",
+      "gu": "",
+      "dong": "고촌읍",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "2차정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2차정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2차정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "한마음문화제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771005",
+      "name": "김포여자중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 봉화로 37-15",
+      "gu": "",
+      "dong": "사우동",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "학급회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "학급특색활동",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771006",
+      "name": "김포중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 봉화로 83",
+      "gu": "",
+      "dong": "북변동",
+      "events": [
+        {
+          "date": "2026-11-23",
+          "name": "3학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "3학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "3학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1,2학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1,2학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "1,2학년 2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771134",
+      "name": "김포한가람중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 김포한강9로 140",
+      "gu": "",
+      "dong": "구래동",
+      "events": []
+    },
+    {
+      "code": "7771202",
+      "name": "나래중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 김포한강9로 19",
+      "gu": "",
+      "dong": "구래동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "3학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "3학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "3학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "대토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1,2학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1,2학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "문화축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771007",
+      "name": "대곶중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 대곶면 율생중앙로 8",
+      "gu": "",
+      "dong": "대곶면",
+      "events": []
+    },
+    {
+      "code": "7771103",
+      "name": "마송중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 통진읍 서암로 7",
+      "gu": "",
+      "dong": "통진읍",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "솔빛제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771208",
+      "name": "모담중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 운양로 158",
+      "gu": "",
+      "dong": "운양동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "성적이의신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "성적이의신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "성적이의신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "장애인인식개선교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "정보통신윤리교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "응급처치교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학급자치회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "진로탐색의날(2,3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "흡연예방 및 마약류 약물 오남용 예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "6. 5교시 교과수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "성적이의신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "5-6 동아리 활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "성적이의신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "성적이의신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "성폭력,성희롱,성매매 예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "6. 5교시 교과수업",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771008",
+      "name": "분진중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 월곶면 애기봉로11번길 86",
+      "gu": "",
+      "dong": "월곶면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771104",
+      "name": "신양중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 양촌읍 양곡4로 243",
+      "gu": "",
+      "dong": "양촌읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7771009",
+      "name": "양곡중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 양촌읍 양곡4로 138",
+      "gu": "",
+      "dong": "양촌읍",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "학생자치회 회장,부회장 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771105",
+      "name": "양도중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 양도로56번길 59-25",
+      "gu": "",
+      "dong": "풍무동",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2차 지필평가(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 지필평가(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2차 지필평가(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학생회장선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771148",
+      "name": "운양중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 김포한강2로24번길 50",
+      "gu": "",
+      "dong": "장기동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "창체의날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771135",
+      "name": "은여울중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 김포한강8로 173-48",
+      "gu": "",
+      "dong": "마산동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "학기말 특색프로그램운영",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "학기말 특색프로그램운영",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학기말 특색프로그램운영",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "학기말 특색프로그램운영",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771010",
+      "name": "장기중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 청송로 5",
+      "gu": "",
+      "dong": "장기동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771012",
+      "name": "통진중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 통진읍 김포대로 2165",
+      "gu": "",
+      "dong": "통진읍",
+      "events": [
+        {
+          "date": "2026-11-18",
+          "name": "스포츠클럽데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "예술제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771122",
+      "name": "푸른솔중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 김포한강2로 328",
+      "gu": "",
+      "dong": "장기동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "블루페스티벌",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771013",
+      "name": "풍무중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 유현로33번길 60",
+      "gu": "",
+      "dong": "풍무동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771147",
+      "name": "하늘빛중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 김포한강11로 354",
+      "gu": "",
+      "dong": "운양동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771011",
+      "name": "하성중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 하성면 애기봉로806번길 30",
+      "gu": "",
+      "dong": "하성면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7771191",
+      "name": "향산중학교",
+      "level": "중학교",
+      "address": "경기도 김포시 고촌읍 상미1로 26",
+      "gu": "",
+      "dong": "고촌읍",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "축제(향빛제)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531375",
+      "name": "고촌고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 고촌읍 태리로47번길 20",
+      "gu": "",
+      "dong": "고촌읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일(수능)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530058",
+      "name": "김포고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 봉화로 37-15",
+      "gu": "",
+      "dong": "사우동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7531517",
+      "name": "김포과학기술고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 봉화로 69",
+      "gu": "",
+      "dong": "북변동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "안전점검의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "동아리 발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "금행제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "안전점검의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530745",
+      "name": "김포외국어고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 월곶면 김포대로 2537",
+      "gu": "",
+      "dong": "월곶면",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "학부모상담기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "학부모상담기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "학부모상담기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "학부모상담기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "학부모상담기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일(3학년)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-12",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "학술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울 방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7531149",
+      "name": "김포제일고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 김포한강11로 242",
+      "gu": "",
+      "dong": "운양동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "청수제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531530",
+      "name": "김포호수고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 김포한강4로420번길 115",
+      "gu": "",
+      "dong": "구래동",
+      "events": []
+    },
+    {
+      "code": "7530930",
+      "name": "마송고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 통진읍 마송1로 155",
+      "gu": "",
+      "dong": "통진읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530474",
+      "name": "사우고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 김포대로 824",
+      "gu": "",
+      "dong": "사우동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-02",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "축제 및 동아리발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531102",
+      "name": "솔터고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 김포한강7로22번길 109",
+      "gu": "",
+      "dong": "마산동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학교축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531607",
+      "name": "신양고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 양촌읍 양곡3로 57",
+      "gu": "",
+      "dong": "양촌읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530609",
+      "name": "양곡고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 양촌읍 양곡4로 138",
+      "gu": "",
+      "dong": "양촌읍",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "학부모상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "학부모상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "학부모상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "학부모상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "대입진학설명회(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "학부모상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "수능 예비 소집일",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "개교기념일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-02",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "체험학습(고3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "선명제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동아리 발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531103",
+      "name": "운양고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 김포한강11로 58",
+      "gu": "",
+      "dong": "운양동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동아리발표회 및 청운제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531468",
+      "name": "운유고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 김포한강2로 236",
+      "gu": "",
+      "dong": "장기동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530890",
+      "name": "장기고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 김포한강2로 131",
+      "gu": "",
+      "dong": "장기동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(3학년)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "해찬솔 축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530661",
+      "name": "통진고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 통진읍 김포대로 2165",
+      "gu": "",
+      "dong": "통진읍",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "주제별체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "주제별체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "추계현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "주제별체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "지필평가(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530621",
+      "name": "풍무고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 풍무로93번길 53",
+      "gu": "",
+      "dong": "풍무동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-12",
+          "name": "2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험(1,2)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530651",
+      "name": "하성고등학교",
+      "level": "고등학교",
+      "address": "경기도 김포시 하성면 애기봉로806번길 30",
+      "gu": "",
+      "dong": "하성면",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "진급평가회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동성제",
+          "holiday": false
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
