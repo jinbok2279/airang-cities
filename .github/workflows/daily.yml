@@ -24,6 +24,9 @@ jobs:
           - { city: 수원, d: suwon }
           - { city: 평택, d: pyeongtaek }
           - { city: 오산, d: osan }
+          - { city: 강남, d: gangnam }
+          - { city: 양천, d: yangcheon }
+          - { city: 노원, d: nowon }
     env:
       CITY: ${{ matrix.city }}
       NEIS_KEY: ${{ secrets.NEIS_KEY }}

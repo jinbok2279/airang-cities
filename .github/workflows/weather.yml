@@ -19,7 +19,7 @@ jobs:
         with: { python-version: "3.12" }
       - run: |
           mkdir -p logs; : > logs/weather.txt
-          for pair in 용인:yongin 수원:suwon 성남:seongnam 안양:anyang 고양:goyang 화성:hwaseong 부천:bucheon 평택:pyeongtaek 오산:osan; do
+          for pair in 용인:yongin 수원:suwon 성남:seongnam 안양:anyang 고양:goyang 화성:hwaseong 부천:bucheon 평택:pyeongtaek 오산:osan 강남:gangnam 양천:yangcheon 노원:nowon; do
             c=${pair%%:*}; d=${pair##*:}; rm -rf output; mkdir -p output
             CITY=$c python -u weather.py 2>&1 | tee -a logs/weather.txt; [ -f output/weather.json ] && mkdir -p data/$d && cp output/weather.json data/$d/ || echo "::warning::$c 날씨 실패"
           done
