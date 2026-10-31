@@ -1,0 +1,4086 @@
+{
+  "region": "의정부시",
+  "updated_at": "2026-11-01 02:52:13",
+  "period": {
+    "from": "20261101",
+    "to": "20261231"
+  },
+  "school_count": 70,
+  "public_holidays": [
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "회룡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-02",
+      "name": "독서축제",
+      "holiday": false
+    },
+    {
+      "school": "부용고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-03",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "회룡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-03",
+      "name": "독서축제",
+      "holiday": false
+    },
+    {
+      "school": "회룡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-04",
+      "name": "독서축제",
+      "holiday": false
+    },
+    {
+      "school": "회룡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-05",
+      "name": "독서축제",
+      "holiday": false
+    },
+    {
+      "school": "회룡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-06",
+      "name": "독서축제",
+      "holiday": false
+    },
+    {
+      "school": "의순초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-18",
+      "name": "학생자율동아리 발표회",
+      "holiday": false
+    },
+    {
+      "school": "경민고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력평가휴업일(1,2)",
+      "holiday": true
+    },
+    {
+      "school": "경민비즈니스고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(1,2학년)",
+      "holiday": true
+    },
+    {
+      "school": "경민여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "경민중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "경민중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "금오중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일(수능)",
+      "holiday": true
+    },
+    {
+      "school": "녹양중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "동국대학교사범대학부속영석고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "동암중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일(대학수학능력시험)",
+      "holiday": true
+    },
+    {
+      "school": "민락중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "발곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "발곡중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부용고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "부용중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "솔뫼중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "송양고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "송양고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "송양중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능일",
+      "holiday": true
+    },
+    {
+      "school": "송현고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(휴업)",
+      "holiday": true
+    },
+    {
+      "school": "신곡중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "의순초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학생자율동아리 발표회",
+      "holiday": false
+    },
+    {
+      "school": "의정부고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "의정부광동고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "의정부여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "의정부여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업",
+      "holiday": true
+    },
+    {
+      "school": "의정부여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일(대입수능일)",
+      "holiday": true
+    },
+    {
+      "school": "천보중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "충의중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "호원고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "호원중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "회룡중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "효자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "효자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "효자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "훈민중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "경기북과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "상우고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "호원중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "효자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "의정부호원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-23",
+      "name": "교육과정 발표회 주간",
+      "holiday": false
+    },
+    {
+      "school": "의정부호원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-24",
+      "name": "교육과정 발표회 주간",
+      "holiday": false
+    },
+    {
+      "school": "의정부호원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-25",
+      "name": "교육과정 발표회 주간",
+      "holiday": false
+    },
+    {
+      "school": "의정부호원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-26",
+      "name": "교육과정 발표회 주간",
+      "holiday": false
+    },
+    {
+      "school": "의순초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-27",
+      "name": "드림인발표회",
+      "holiday": false
+    },
+    {
+      "school": "의정부호원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-27",
+      "name": "교육과정 발표회 주간",
+      "holiday": false
+    },
+    {
+      "school": "경민중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-07",
+      "name": "영재학급 산출물 발표회",
+      "holiday": false
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-11",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-12",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-13",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-14",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-15",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-16",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "민락초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-17",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-17",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "민락초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "민락초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "민락초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-20",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-20",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-20",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "민락초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-21",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-21",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-21",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "민락초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "녹양중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "진급 및 졸업 평정회",
+      "holiday": false
+    },
+    {
+      "school": "민락초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "민락초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "민락초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "민락초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "민락초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "민락초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "경민비즈니스고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "민락초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "효자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "가능초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "경민중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "학교교육활동평가회 및 졸업 진급 사정회",
+      "holiday": false
+    },
+    {
+      "school": "금오중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "녹양중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식/3학년",
+      "holiday": false
+    },
+    {
+      "school": "녹양초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업",
+      "holiday": false
+    },
+    {
+      "school": "민락초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "발곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "발곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "어룡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "가능초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "경기북과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "종업식 및 졸업식",
+      "holiday": false
+    },
+    {
+      "school": "경민비즈니스고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "금오초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "금오초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "녹양중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "녹양초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "동암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "민락초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "발곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "배영초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "버들개초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "새말초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식 및 종업식",
+      "holiday": false
+    },
+    {
+      "school": "새말초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "신동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "어룡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "의순초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "의정부부용초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "의정부서초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식(6)",
+      "holiday": false
+    },
+    {
+      "school": "의정부신곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "의정부용현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부장암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "의정부중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "의정부청룡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "의정부초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "의정부호원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "의정부효자초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "호암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "호암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "회룡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식(6학년)",
+      "holiday": false
+    },
+    {
+      "school": "훈민중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    }
+  ],
+  "schools": [
+    {
+      "code": "7561020",
+      "name": "가능초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 의정로140번길 15",
+      "gu": "",
+      "dong": "가능동",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "교육과정나눔회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "교육과정나눔회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "교육과정나눔회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "교육과정나눔회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "교육과정나눔회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "교육과정나눔회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "교육과정나눔회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "교육과정나눔회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "교육과정나눔회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "교육과정나눔회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "학생자치회 대표선출",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7561023",
+      "name": "경의초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 경의로 135",
+      "gu": "",
+      "dong": "의정부동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "교육과정 설문조사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "교육과정 설문조사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "교육과정 설문조사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "교육과정 설문조사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "교육과정 설문조사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "친구사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "친구사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "친구사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "친구사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "친구사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "학교스포츠클럽대회 운영주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "학교스포츠클럽대회 운영주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "교육공동체대토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "학교스포츠클럽대회 운영주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "학교스포츠클럽대회 운영주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "학교스포츠클럽대회 운영주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "학교스포츠클럽대회 운영주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "학교스포츠클럽대회 운영주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "학교스포츠클럽대회 운영주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "학교스포츠클럽대회 운영주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "학교스포츠클럽대회 운영주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "학교자치회 임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "학생자치회 행사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학생자치회 행사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561019",
+      "name": "고산초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 문화로 41",
+      "gu": "",
+      "dong": "",
+      "events": []
+    },
+    {
+      "code": "7561021",
+      "name": "금오초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 천보로 418",
+      "gu": "",
+      "dong": "금오동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561022",
+      "name": "녹양초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 체육로 265-25",
+      "gu": "",
+      "dong": "",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7561073",
+      "name": "동암초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 장곡로 206",
+      "gu": "",
+      "dong": "장암동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561024",
+      "name": "동오초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 추동로23번길 10",
+      "gu": "",
+      "dong": "신곡동",
+      "events": []
+    },
+    {
+      "code": "7561043",
+      "name": "민락초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 용현로159번길 26",
+      "gu": "",
+      "dong": "민락동",
+      "events": [
+        {
+          "date": "2026-12-17",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-19",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-20",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-21",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7561025",
+      "name": "발곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 동일로454번길",
+      "gu": "",
+      "dong": "신곡동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7561026",
+      "name": "배영초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 가능로 135",
+      "gu": "",
+      "dong": "의정부동",
+      "events": [
+        {
+          "date": "2026-12-08",
+          "name": "전교어린이임원선출",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561074",
+      "name": "버들개초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 체육로 201",
+      "gu": "",
+      "dong": "녹양동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561132",
+      "name": "삼현초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 송양로 87",
+      "gu": "",
+      "dong": "민락동",
+      "events": []
+    },
+    {
+      "code": "7561027",
+      "name": "새말초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 추동로124번길 37",
+      "gu": "",
+      "dong": "신곡동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "친구사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "친구사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "친구사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "친구사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "친구사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "장애인식개선교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "스포츠클럽대회운영주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "장애인식개선교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "스포츠클럽대회운영주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "장애인식개선교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "스포츠클럽대회운영주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "장애인식개선교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "스포츠클럽대회운영주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "장애인식개선교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "스포츠클럽대회운영주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "교육과정 성과 나눔회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "3차 향상도 평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "3차 향상도 평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "3차 향상도 평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "3차 향상도 평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "3차 향상도 평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "정보통신윤리교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "정보통신윤리교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정보통신윤리교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "정보통신윤리교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "정보통신윤리교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "생활안전교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "생활안전교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "생활안전교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "생활안전교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "생활안전교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식 및 종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561045",
+      "name": "솔뫼초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 시민로 442",
+      "gu": "",
+      "dong": "용현동",
+      "events": []
+    },
+    {
+      "code": "7561028",
+      "name": "송양초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 송양로 49",
+      "gu": "",
+      "dong": "낙양동",
+      "events": []
+    },
+    {
+      "code": "7561044",
+      "name": "신동초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 시민로179번길 42",
+      "gu": "",
+      "dong": "신곡동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561029",
+      "name": "어룡초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 부용로 241",
+      "gu": "",
+      "dong": "용현동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7561030",
+      "name": "오동초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 용민로 151",
+      "gu": "",
+      "dong": "민락동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561031",
+      "name": "의순초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 부용로 77",
+      "gu": "",
+      "dong": "금오동",
+      "events": [
+        {
+          "date": "2026-11-18",
+          "name": "학생자율동아리 발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "재난대피훈련",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학생자율동아리 발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "드림인발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "교육과정워크숍",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "전교임원선거(3~5학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561033",
+      "name": "의정부부용초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 오목로 83",
+      "gu": "",
+      "dong": "민락동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561034",
+      "name": "의정부서초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 둔야로 57",
+      "gu": "",
+      "dong": "가능동",
+      "events": [
+        {
+          "date": "2026-12-14",
+          "name": "전교임원선출",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "전교임원선출",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "전교임원선출",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "전교임원선출",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "전교임원선출",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식(1-5)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식(6)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561127",
+      "name": "의정부송산초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 오목로 228",
+      "gu": "",
+      "dong": "민락동",
+      "events": []
+    },
+    {
+      "code": "7561035",
+      "name": "의정부신곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 능곡로 31",
+      "gu": "",
+      "dong": "신곡동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561036",
+      "name": "의정부용현초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 용민로 87",
+      "gu": "",
+      "dong": "용현동",
+      "events": [
+        {
+          "date": "2026-12-11",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-12",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-13",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-16",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-17",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-19",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-20",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-21",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7561037",
+      "name": "의정부장암초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 동일로 417",
+      "gu": "",
+      "dong": "장암동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561038",
+      "name": "의정부중앙초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 호국로1291번길 17",
+      "gu": "",
+      "dong": "의정부동",
+      "events": [
+        {
+          "date": "2026-12-18",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-19",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-20",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-21",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7561039",
+      "name": "의정부청룡초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 장곡로322번길 21",
+      "gu": "",
+      "dong": "신곡동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561032",
+      "name": "의정부초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 동일로522번길 30",
+      "gu": "",
+      "dong": "신곡동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "도담도담 문화예술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561040",
+      "name": "의정부호동초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 호동로 45",
+      "gu": "",
+      "dong": "호원동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "호동꿈나래시화전",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "학생자치회선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561046",
+      "name": "의정부호원초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 전좌로156번길 20",
+      "gu": "",
+      "dong": "호원동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "친구사랑의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "교육과정 발표회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "교육과정 발표회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "교육과정 발표회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "교육과정 발표회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "교육과정 발표회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "교육과정 나눔회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "교육과정 나눔회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "교육과정 나눔회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "교육과정 나눔회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "교육과정 나눔회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561017",
+      "name": "의정부효자초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 부용로204번길 16",
+      "gu": "",
+      "dong": "신곡동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561041",
+      "name": "호암초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 호암로 47",
+      "gu": "",
+      "dong": "호원동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561042",
+      "name": "회룡초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 안말로 57",
+      "gu": "",
+      "dong": "호원동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "독서축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "독서축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "독서축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "독서축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "독서축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식(6학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561135",
+      "name": "훈민초등학교",
+      "level": "초등학교",
+      "address": "경기도 의정부시 훈민로 14",
+      "gu": "",
+      "dong": "고산동",
+      "events": []
+    },
+    {
+      "code": "7561004",
+      "name": "경민여자중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 서부로 545",
+      "gu": "",
+      "dong": "가능동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7561003",
+      "name": "경민중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 서부로 545",
+      "gu": "",
+      "dong": "가능동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "동교과 협의회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "출제 마감",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "대학수학능력시험 시험장 종사요원 사전연수",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "수행평가 마감",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "정기 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "학부모회 대의원회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "동교과 협의회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "출제 마감",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-05",
+          "name": "영재학급 선발시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "영재학급 산출물 발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "수행평가 마감",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "정기 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "영재학급 수료식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "성탄예배",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "3대천왕 프로그램 수료식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학교교육활동평가회 및 졸업 진급 사정회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561075",
+      "name": "금오중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 금신로 380",
+      "gu": "",
+      "dong": "금오동",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "정기고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "정기고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "정기고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일(수능)",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "정기고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "정기고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561080",
+      "name": "녹양중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 체육로 187",
+      "gu": "",
+      "dong": "녹양동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 지필평가-3학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 지필평가-3학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 지필평가-3학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "2학기 지필평가-1,2학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "2학기 지필평가-1,2학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "2학기 지필평가-1,2학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "진급 및 졸업 평정회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "녹양제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식/3학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식/1.2학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7561134",
+      "name": "다온중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 둔야로49번길 30",
+      "gu": "",
+      "dong": "가능동",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "진로활동(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "진로활동(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561081",
+      "name": "동암중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 장곡로226번길 132",
+      "gu": "",
+      "dong": "장암동",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-14",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일(대학수학능력시험)",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "융합수업 나눔주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "융합수업 나눔주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "융합수업 나눔주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "융합수업 나눔주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "융합수업 나눔주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "꿈끼",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "꿈끼",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "솔향제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561005",
+      "name": "민락중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 오목로 151",
+      "gu": "",
+      "dong": "민락동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7561006",
+      "name": "발곡중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 회룡로 185",
+      "gu": "",
+      "dong": "신곡동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7561007",
+      "name": "부용중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 오목로 86",
+      "gu": "",
+      "dong": "민락동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7561082",
+      "name": "솔뫼중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 시민로 464-14",
+      "gu": "",
+      "dong": "용현동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7561125",
+      "name": "송양중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 용민로 308",
+      "gu": "",
+      "dong": "낙양동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "송양제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561008",
+      "name": "신곡중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 추동로24번길 23",
+      "gu": "",
+      "dong": "신곡동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561011",
+      "name": "의정부여자중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 신흥로365번길 40",
+      "gu": "",
+      "dong": "가능동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일(대입수능일)",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7561010",
+      "name": "의정부중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 가능로 75",
+      "gu": "",
+      "dong": "가능동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "교육과정 대토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "정기시험(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561012",
+      "name": "천보중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 부용로 61",
+      "gu": "",
+      "dong": "금오동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "정보통신 윤리교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "학급회의",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561013",
+      "name": "충의중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 용현로 125",
+      "gu": "",
+      "dong": "민락동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "정기시험(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "정기시험(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "정기시험(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "정기시험(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기시험(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기시험(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "단비제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561014",
+      "name": "호원중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 호암로 205",
+      "gu": "",
+      "dong": "호원동",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2학기 3학년 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 3학년 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2학기 3학년 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 1, 2학년 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 1, 2학년 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 1, 2학년 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561016",
+      "name": "회룡중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 안말로 45",
+      "gu": "",
+      "dong": "호원동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7561015",
+      "name": "효자중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 부용로185번길 15",
+      "gu": "",
+      "dong": "신곡동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "사정회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7561145",
+      "name": "훈민중학교",
+      "level": "중학교",
+      "address": "경기도 의정부시 홈다리길 10",
+      "gu": "",
+      "dong": "고산동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530851",
+      "name": "경기북과학고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 체육로135번길 32",
+      "gu": "",
+      "dong": "녹양동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-01",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "송련제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식 및 졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530995",
+      "name": "경민IT고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 서부로 545",
+      "gu": "",
+      "dong": "가능동",
+      "events": []
+    },
+    {
+      "code": "7530141",
+      "name": "경민고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 서부로 545",
+      "gu": "",
+      "dong": "가능동",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가휴업일(1,2)",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-04",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동아리공연/평가회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531061",
+      "name": "경민비즈니스고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 서부로 545",
+      "gu": "",
+      "dong": "가능동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(1,2학년)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "동아리활동평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동계방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530999",
+      "name": "동국대학교사범대학부속영석고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 시민로 363",
+      "gu": "",
+      "dong": "용현동",
+      "events": [
+        {
+          "date": "2026-11-18",
+          "name": "대학수능력시험 예비소집",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530933",
+      "name": "발곡고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 동일로454번길 150",
+      "gu": "",
+      "dong": "신곡동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "3학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "3학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "3학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "3학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "3학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "3학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "3학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "3학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "1,2학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "1,2학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "1,2학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1,2학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1,2학년 2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530575",
+      "name": "부용고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 오목로 96",
+      "gu": "",
+      "dong": "민락동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "수련활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "수련활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "학교주도활동시간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "학교주도활동시간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "학교주도활동시간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "대토론회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530571",
+      "name": "상우고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 범골로 79",
+      "gu": "",
+      "dong": "의정부동",
+      "events": [
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7531167",
+      "name": "송양고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 송양로 6",
+      "gu": "",
+      "dong": "낙양동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "지필평가(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "지필평가(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "지필평가(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "지필평가(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "지필평가(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "낙양제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530481",
+      "name": "송현고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 용민로 159",
+      "gu": "",
+      "dong": "민락동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(휴업)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-12",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "솔뫼제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530109",
+      "name": "의정부고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 녹양로 29",
+      "gu": "",
+      "dong": "가능동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530663",
+      "name": "의정부광동고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 서부로 691",
+      "gu": "",
+      "dong": "가능동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530110",
+      "name": "의정부여자고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 신흥로365번길 10",
+      "gu": "",
+      "dong": "가능동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "백학제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531615",
+      "name": "한국모빌리티고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 가능로 57",
+      "gu": "",
+      "dong": "가능동",
+      "events": [
+        {
+          "date": "2026-12-15",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530483",
+      "name": "호원고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 망월로 56",
+      "gu": "",
+      "dong": "호원동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530773",
+      "name": "효자고등학교",
+      "level": "고등학교",
+      "address": "경기도 의정부시 부용로 165",
+      "gu": "",
+      "dong": "신곡동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "제2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "제2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "제2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "제2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "제2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "제2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "제2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "제2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "제2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "제2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "효천제",
+          "holiday": false
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
