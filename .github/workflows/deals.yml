@@ -18,6 +18,11 @@ jobs:
           - { city: 고양, d: goyang }
           - { city: 화성, d: hwaseong }
           - { city: 부천, d: bucheon }
+          - { city: 평택, d: pyeongtaek }
+          - { city: 오산, d: osan }
+          - { city: 강남, d: gangnam }
+          - { city: 양천, d: yangcheon }
+          - { city: 노원, d: nowon }
     env:
       CITY: ${{ matrix.city }}
       KAKAO_KEY: ${{ secrets.KAKAO_KEY }}
