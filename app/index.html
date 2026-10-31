@@ -374,7 +374,7 @@ function level() { const v = store(KEY_LEVEL); return LEVELS.some(l => l[0] === 
 function levelLabel() { return (LEVELS.find(l => l[0] === level()) || LEVELS[0])[1]; }
 function levelSchools() { return DATA.schools.filter(s => levelOf(s) === level()); }
 function inRegion(s) { const r = region(); return levelOf(s) === level() && (!r.gu || s.gu === r.gu) && (!r.dong || dongOf(s) === r.dong); }
-function regionLabel() { const r = region(); return r.gu ? `{{name}} ${r.gu}${r.dong ? " " + r.dong : ""}` : "{{name}}시 전체"; }
+function regionLabel() { const r = region(); return r.gu ? `{{name}} ${r.gu}${r.dong ? " " + r.dong : ""}` : "{{f.sgg}} 전체"; }
 function regionSchools() { return DATA.schools.filter(inRegion); }
 
 // ---------- 우리 아이(여러 명) ----------
@@ -578,7 +578,7 @@ function viewHome() {
       <img src="icon-192.png?v=59" alt="송골랩 로고" width="32" height="32" style="border-radius:9px;box-shadow:0 2px 8px rgba(30,40,90,.12);flex:0 0 auto">
       <div style="min-width:0;flex:1;line-height:1.15"><div style="font-size:18px;font-weight:800;letter-spacing:-.3px;white-space:nowrap">아이랑 <span style="color:var(--city-ink)">{{name}}</span></div><div style="font-size:10.5px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">by 송골랩</div></div>
       <button class="chip glass" aria-label="지인에게 알려주기" title="지인에게 알려주기" style="flex:0 0 auto;width:34px;height:34px;padding:0;justify-content:center;color:var(--indigo)" onclick="shareApp()"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg></button>
-      <button class="chip glass" style="flex:0 0 auto;font-size:12px;padding:0 12px;height:34px" onclick="go('region')">${icon.pin} ${esc(regionLabel().replace("{{name}}시 전체", "{{name}}").replace("{{name}} ", ""))} · ${levelLabel()} ▾</button></div>
+      <button class="chip glass" style="flex:0 0 auto;font-size:12px;padding:0 12px;height:34px" onclick="go('region')">${icon.pin} ${esc(regionLabel().replace("{{f.sgg}} 전체", "{{name}}").replace("{{name}} ", ""))} · ${levelLabel()} ▾</button></div>
     ${addrNote}${homeUpdated()}${hero}${homeToday(ks)}${ks.length ? homeMeals(homeKid === "all" ? ks : ks.filter(k => k.id === homeKid)) : ""}${mine}${notice}${homeEvents()}${homeLibrary()}${homeBooks()}${homeAd()}${footer()}`;
 }
 
@@ -588,7 +588,7 @@ const AD = { id: "lagrills", name: "라그릴스 셀프바베큐", where: "처�
     good: ["바베큐장과 같은 곳에 있어서, 저녁 먹고 바로 쉬러 들어가요", "개별 바베큐를 할 수 있어요", "아이와 지내기 좋은 키즈 테마 펜션이에요", "2인실·침대방부터 단체 숙박까지 가능해요", "예약은 네이버 '라그릴스펜션' 객실예약에서 해요"] }, line: "아이랑 가기 좋은 가족 바베큐 · 펜션",
   tags: ["실내 놀이방", "야외 놀이터", "키즈메뉴", "무료 주차", "비 와도 OK", "단체·워크숍 환영"], url: "https://m.place.naver.com/restaurant/1144985469/booking", tel: "010-3768-2246", site: "http://lagrills.co.kr/",
 {{#if yongin}}
-  addr: "경기도 {{name}}시 처인구 포곡읍 석성로888번길 37-16", open: "낮 12시부터 · 예약제",
+  addr: "경기도 {{f.sgg}} 처인구 포곡읍 석성로888번길 37-16", open: "낮 12시부터 · 예약제",
 {{#else}}
   addr: "경기도 용인시 처인구 포곡읍 석성로888번길 37-16", open: "낮 12시부터 · 예약제",
 {{/if}}
@@ -825,7 +825,7 @@ function viewSchools(q = "") {
   $view.innerHTML = `<button class="back glass" onclick="go('home')" aria-label="홈으로">${icon.back}</button>
     <h1 style="font-size:27px;font-weight:800;margin-top:14px">학교 일정</h1>
     <div style="display:flex;justify-content:space-between;align-items:center;margin:8px 0 16px;gap:10px">
-      <span style="font-size:13px;color:var(--muted)">${q ? "{{name}}시 전체에서 검색" : esc(regionLabel())} · ${level()} ${list.length}곳</span>
+      <span style="font-size:13px;color:var(--muted)">${q ? "{{f.sgg}} 전체에서 검색" : esc(regionLabel())} · ${level()} ${list.length}곳</span>
       <button class="btn btn-soft" style="height:36px;font-size:12px;padding:0 12px" onclick="go('region')">지역 변경</button></div>
     <label class="search lift">${icon.search}<input id="q" placeholder="학교 이름 검색" value="${esc(q)}" aria-label="학교 이름 검색"></label>
     <div class="lift list" style="margin-top:16px">${rows || `<div class="empty">검색 결과가 없어요.</div>`}</div>${footer()}`;
@@ -879,7 +879,11 @@ function viewMy() {
 {{#else}}
   const M = [["acas", "✏️", "t-indigo", "학원<br>찾기"], ["kinders", "🧸", "t-sun", "유치원<br>찾기"], ["library", "📚", "t-mint", "도서관<br>찾기"], ["books", "📖", "t-coral", "대출<br>베스트"],
 {{/if}}
+{{#if seoul}}
+    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["premium", "📊", "t-sun", "수강료<br>비교", 1], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["sports", "🏊", "t-mint", "운동<br>교실"]];
+{{#else}}
     ["schools", "🏫", "t-lilac", "학교<br>일정"], ["premium", "📊", "t-sun", "수강료<br>비교", 1], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["sports", "🏊", "t-mint", "운동<br>교실"], ["jobs", "💼", "t-coral", "엄마<br>일자리"]];
+{{/if}}
   $view.innerHTML = `<h1 style="font-size:27px;font-weight:800;margin-bottom:16px">전체 메뉴</h1>
     <div class="mgrid3">${M.map(([r, e, t, l]) => `<button class="mtile" onclick="go('${r}')">${MICON[r] ? `<img src="assets/${MICON[r]}.webp" alt="" width="68" height="68" decoding="async">` : e3d(e, 68)}<b>${l.replace("·<br>", "·").replace("<br>", " ")}</b></button>`).join("")}</div>
     <section class="section" style="margin-top:0"><div class="sec-head"><h2>우리 아이</h2><span style="font-size:12px;color:var(--muted)">${ks.length}/${MAX_KIDS}명</span></div>
@@ -961,7 +965,7 @@ function seatColor(r) { const p = r.total ? r.left / r.total : 0; return p >= 0.
 {{/if}}
 let libGu = null;
 {{#if yongin}}
-// 실시간 좌석을 공개하지 않는 {{name}}시 공공도서관 (홈페이지만 안내)
+// 실시간 좌석을 공개하지 않는 {{f.sgg}} 공공도서관 (홈페이지만 안내)
 const OTHER_LIBS = [["{{name}}중앙도서관","처인구","{{key}}"],["남사도서관","처인구","namsa"],["모현도서관","처인구","mohyeon"],["양지해밀도서관","처인구","haemil"],["이동꿈틀도서관","처인구","idong"],
   ["구갈희망누리도서관","기흥구","gugal"],["보정도서관","기흥구","bojeong"],["영덕도서관","기흥구","yeongdeok"],["청덕도서관","기흥구","cheongdeok"],["동천도서관","수지구","dongcheon"],["성복도서관","수지구","seongbok"]];
 function allLibs() {
@@ -970,13 +974,13 @@ function allLibs() {
   return seat.concat(OTHER_LIBS.filter(([n]) => !names.has(n)).map(([name, gu, code]) => ({ name, gu, status: "none", message: "", rooms: [], link: "", home: `https://lib.{{key}}.go.kr/${code}/index.do` })));
 }
 {{#elif suwon}}
-// {{name}}시 공공도서관 목록 (도서관 정보나루 · libs.json). {{name}}시는 실시간 좌석을 공개하지 않아 운영 정보만 보여 줘요.
+// {{f.sgg}} 공공도서관 목록 (도서관 정보나루 · libs.json). {{f.sgg}}는 실시간 좌석을 공개하지 않아 운영 정보만 보여 줘요.
 function allLibs() { return (SEATS && SEATS.libraries) || []; }
 {{#elif seongnam}}
-// {{name}}시 공공도서관 목록 (도서관 정보나루 · libs.json). {{name}}시도서관은 좌석 자동 수집을 막아 두어 운영 정보만 보여 줘요.
+// {{f.sgg}} 공공도서관 목록 (도서관 정보나루 · libs.json). {{f.sgg}}도서관은 좌석 자동 수집을 막아 두어 운영 정보만 보여 줘요.
 function allLibs() { return (SEATS && SEATS.libraries) || []; }
 {{#else}}
-// {{name}}시 공공도서관 목록 (도서관 정보나루 · libs.json). 열람실 좌석은 아직 연결하지 않아 운영 정보만 보여 줘요.
+// {{f.sgg}} 공공도서관 목록 (도서관 정보나루 · libs.json). 열람실 좌석은 아직 연결하지 않아 운영 정보만 보여 줘요.
 function allLibs() { return (SEATS && SEATS.libraries) || []; }
 {{/if}}
 function libList() { const g = libGu ?? (region().gu || ""); return { g, list: allLibs().filter(l => !g || l.gu === g) }; }
@@ -1129,7 +1133,7 @@ function viewLibrary() {
 {{#if yongin}}
     <p style="font-size:13px;color:var(--muted);margin:0 0 12px">열람실 빈자리 · ${agoText(ago)} 기준 · 운영시간에 30분마다 갱신</p>
 {{#else}}
-    <p style="font-size:13px;color:var(--muted);margin:0 0 12px">{{name}}시 공공도서관 ${allLibs().length}곳 · 운영시간·휴관일</p>
+    <p style="font-size:13px;color:var(--muted);margin:0 0 12px">{{f.sgg}} 공공도서관 ${allLibs().length}곳 · 운영시간·휴관일</p>
 {{/if}}
     <div style="display:flex;gap:8px;overflow-x:auto;padding:2px 2px 12px">${chip("", "전체")}${GUS.map(x => chip(x, x)).join("")}</div>
 {{#if yongin}}
@@ -1138,19 +1142,19 @@ function viewLibrary() {
     ${list.some(l => l.status === "none") ? `<section class="section"><div class="sec-head"><h2>좌석 정보가 없는 도서관</h2></div>
       <div class="lift list">${list.filter(l => l.status === "none").map(l => `<button class="school" onclick="go('library/${libKey(l)}')"><span class="tile t-lilac" style="width:40px;height:40px">${icon.book}</span>
         <div style="flex:1;min-width:0"><div class="nm">${esc(l.name)}</div><div class="ad">${esc(l.gu)} · 실시간 좌석 미제공</div></div><span style="color:var(--muted)">›</span></button>`).join("")}</div></section>` : ""}
-    <div class="foot">데이터 · <a href="${esc(SEATS.source_url || "https://lib.{{key}}.go.kr")}" target="_blank" rel="noopener">{{name}}시도서관 좌석현황</a><br>좌석 수는 수집 시점 기준이라 실제와 다를 수 있어요.</div>`;
+    <div class="foot">데이터 · <a href="${esc(SEATS.source_url || "https://lib.{{key}}.go.kr")}" target="_blank" rel="noopener">{{f.sgg}}도서관 좌석현황</a><br>좌석 수는 수집 시점 기준이라 실제와 다를 수 있어요.</div>`;
 {{#elif suwon}}
     ${open.length ? `<div class="lift list">${open.map(libCard).join("")}</div>` : `<div class="lift empty">이 지역 도서관은 오늘 모두 휴관일이에요.</div>`}
     ${off.length ? `<section class="section"><div class="sec-head"><h2>오늘 휴관일</h2></div><div class="lift list">${off.map(libCard).join("")}</div></section>` : ""}
-    <div class="foot">데이터 · 도서관 정보나루 (국립중앙도서관) · 매주 갱신<br>{{name}}시는 열람실 실시간 좌석을 공개하지 않아 운영 정보만 보여 드려요.</div>`;
+    <div class="foot">데이터 · 도서관 정보나루 (국립중앙도서관) · 매주 갱신<br>{{f.sgg}}는 열람실 실시간 좌석을 공개하지 않아 운영 정보만 보여 드려요.</div>`;
 {{#elif seongnam}}
     ${open.length ? `<div class="lift list">${open.map(libCard).join("")}</div>` : `<div class="lift empty">이 지역 도서관은 오늘 모두 휴관일이에요.</div>`}
     ${off.length ? `<section class="section"><div class="sec-head"><h2>오늘 휴관일</h2></div><div class="lift list">${off.map(libCard).join("")}</div></section>` : ""}
-    <div class="foot">데이터 · 도서관 정보나루 (국립중앙도서관) · 매주 갱신<br>{{name}}시도서관은 열람실 좌석을 자동으로 받아 볼 수 없어 운영 정보만 보여 드려요.</div>`;
+    <div class="foot">데이터 · 도서관 정보나루 (국립중앙도서관) · 매주 갱신<br>{{f.sgg}}도서관은 열람실 좌석을 자동으로 받아 볼 수 없어 운영 정보만 보여 드려요.</div>`;
 {{#else}}
     ${open.length ? `<div class="lift list">${open.map(libCard).join("")}</div>` : `<div class="lift empty">이 지역 도서관은 오늘 모두 휴관일이에요.</div>`}
     ${off.length ? `<section class="section"><div class="sec-head"><h2>오늘 휴관일</h2></div><div class="lift list">${off.map(libCard).join("")}</div></section>` : ""}
-    <div class="foot">데이터 · 도서관 정보나루 (국립중앙도서관) · 매주 갱신<br>{{name}}시 도서관 열람실 좌석은 아직 연결하지 않아 운영 정보만 보여 드려요.</div>`;
+    <div class="foot">데이터 · 도서관 정보나루 (국립중앙도서관) · 매주 갱신<br>{{f.sgg}} 도서관 열람실 좌석은 아직 연결하지 않아 운영 정보만 보여 드려요.</div>`;
 {{/if}}
 }
 function pickLibGu(v) { libGu = v; render(); }
@@ -1181,16 +1185,16 @@ function bookRow(b) {
 function viewBooks() {
   const cur = currentBookList();
   if (!cur) { $view.innerHTML = libHead("books") + `<div class="lift empty">인기 도서를 아직 불러오지 못했어요. 잠시 후 다시 열어 주세요.</div>`; return; }
-  const chip = l => `<button class="btn ${l.key === cur.key ? "btn-3d" : "btn-soft"}" style="height:38px;font-size:13px;padding:0 14px;flex:0 0 auto" onclick="pickBooks('${l.key}')">${esc(l.title.replace(" 인기 도서", "").replace("{{name}}시 대출 베스트", "{{name}} 전체"))}</button>`;
+  const chip = l => `<button class="btn ${l.key === cur.key ? "btn-3d" : "btn-soft"}" style="height:38px;font-size:13px;padding:0 14px;flex:0 0 auto" onclick="pickBooks('${l.key}')">${esc(l.title.replace(" 인기 도서", "").replace("{{f.sgg}} 대출 베스트", "{{name}} 전체"))}</button>`;
   $view.innerHTML = `${libHead("books")}
     <div style="display:flex;gap:8px;overflow-x:auto;padding:2px 2px 12px">${bookLists().map(chip).join("")}</div>
     <div class="sec-head" style="margin-top:4px"><h2>${esc(cur.title)}</h2></div>
     <p style="font-size:12px;color:var(--muted);margin:-4px 0 12px">${esc(cur.desc)} · ${esc((BOOKS.updated_at || "").slice(0, 10))} 기준</p>
     <div class="lift" style="padding:4px 0">${cur.books.map(bookRow).join("")}</div>
 {{#if yongin}}
-    <div class="foot">책을 누르면 {{name}}시도서관에서 소장 도서관과 대출 가능 여부를 볼 수 있어요.<br>데이터 · {{name}}시도서관 대출베스트 · 도서관 정보나루 (하루 한 번 갱신)</div>`;
+    <div class="foot">책을 누르면 {{f.sgg}}도서관에서 소장 도서관과 대출 가능 여부를 볼 수 있어요.<br>데이터 · {{f.sgg}}도서관 대출베스트 · 도서관 정보나루 (하루 한 번 갱신)</div>`;
 {{#else}}
-    <div class="foot">책을 누르면 도서관 정보나루에서 책 소개와 소장 도서관을 볼 수 있어요.<br>데이터 · 도서관 정보나루 {{name}}시 공공도서관 대출 순위 (하루 한 번 갱신)</div>`;
+    <div class="foot">책을 누르면 도서관 정보나루에서 책 소개와 소장 도서관을 볼 수 있어요.<br>데이터 · 도서관 정보나루 {{f.sgg}} 공공도서관 대출 순위 (하루 한 번 갱신)</div>`;
 {{/if}}
 }
 function pickBooks(k) { bookKey = k; render(); }
@@ -1228,7 +1232,7 @@ function homeLibrary() {
 }
 
 {{#if yongin}}
-// ---------- 아이와 함께 갈 만한 행사 ({{name}}시청 문화달력 · {{name}}시도서관 프로그램) ----------
+// ---------- 아이와 함께 갈 만한 행사 ({{f.sgg}}청 문화달력 · {{f.sgg}}도서관 프로그램) ----------
 {{#else}}
 // ---------- 아이와 함께 갈 만한 행사 (문화포털 공연·전시 · {{name}}) ----------
 {{/if}}
@@ -1311,7 +1315,7 @@ function viewEvents() {
 {{/if}}
   }
 {{#if yongin}}
-  $view.innerHTML = back + seg + body + `<div class="foot">누르면 {{name}}시청·{{name}}시도서관 페이지에서 자세한 내용과 신청 방법을 볼 수 있어요.<br>데이터 · {{name}}시청 문화달력 · {{name}}시도서관 문화행사 (하루 한 번 갱신${EVENTS.updated_at ? " · " + esc(EVENTS.updated_at.slice(0, 10)) + " 기준" : ""})</div>`;
+  $view.innerHTML = back + seg + body + `<div class="foot">누르면 {{f.sgg}}청·{{f.sgg}}도서관 페이지에서 자세한 내용과 신청 방법을 볼 수 있어요.<br>데이터 · {{f.sgg}}청 문화달력 · {{f.sgg}}도서관 문화행사 (하루 한 번 갱신${EVENTS.updated_at ? " · " + esc(EVENTS.updated_at.slice(0, 10)) + " 기준" : ""})</div>`;
 {{#elif suwon}}
   $view.innerHTML = back + seg + body + `<div class="foot">누르면 {{name}}문화재단 페이지나 예약 페이지에서 자세한 내용과 신청 방법을 볼 수 있어요.<br>데이터 · {{name}}문화재단 행사·교육정보 · 경기아트센터 · 한국관광공사 · 출처: (재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr) (하루 한 번 갱신${EVENTS.updated_at ? " · " + esc(EVENTS.updated_at.slice(0, 10)) + " 기준" : ""})</div>`;
 {{#else}}
@@ -1354,11 +1358,11 @@ function viewKid(arg, pre) {
       ${kidForm.acas.length < 10 ? `<label class="search lift">${icon.search}<input id="aq" placeholder="학원 이름 검색 (예: 수학, 태권도)" value="${esc(kidForm.aq)}" aria-label="학원 이름 검색"></label>
       <div class="lift list" id="ares"></div>` : ""}
 {{#if yongin}}
-      <p style="font-size:12px;color:var(--muted);line-height:1.6;margin-top:10px">교육청에 등록된 {{name}}시 학원·교습소 목록에서 골라요. 요일·시간을 넣고 <b>📅 캘린더에 추가</b>를 누르면 휴대폰 캘린더가 수업 시작·끝 10분 전에 알려 줘요. 시간이 바뀌면 캘린더에서 예전 일정을 지우고 다시 추가해 주세요.<br>학원 정보는 접속한 본인 휴대폰에만 저장돼요.</p></section>
+      <p style="font-size:12px;color:var(--muted);line-height:1.6;margin-top:10px">교육청에 등록된 {{f.sgg}} 학원·교습소 목록에서 골라요. 요일·시간을 넣고 <b>📅 캘린더에 추가</b>를 누르면 휴대폰 캘린더가 수업 시작·끝 10분 전에 알려 줘요. 시간이 바뀌면 캘린더에서 예전 일정을 지우고 다시 추가해 주세요.<br>학원 정보는 접속한 본인 휴대폰에만 저장돼요.</p></section>
     <button class="btn btn-3d" style="width:100%;height:54px;margin-top:24px;font-size:15px" onclick="saveKid('${editing ? editing.id : ""}')">${editing ? "저장하기" : "등록하기"}</button>
     ${editing ? `<button class="btn btn-soft" style="width:100%;height:46px;margin-top:12px;color:var(--coral-ink)" onclick="deleteKid('${editing.id}')">${kidForm.arm ? "한 번 더 누르면 삭제돼요" : "이 아이 삭제"}</button>` : ""}`;
 {{#else}}
-      <p style="font-size:12px;color:var(--muted);line-height:1.6;margin-top:10px">교육청에 등록된 {{name}}시 학원·교습소 목록에서 골라요. 요일·시간을 넣고 <b>📅 캘린더에 추가</b>를 누르면 휴대폰 캘린더가 수업 시작·끝 10분 전에 알려 줘요. 시간이 바뀌면 캘린더에서 예전 일정을 지우고 다시 추가해 주세요.<br>학원 정보는 접속한 본인 휴대폰에만 저장돼요.<br>앞으로 동의한 분들의 학원 정보만 <b>이름 없이</b> 모아 "우리 동네 인기 학원"을 보여 드릴 예정이에요.</p></section>
+      <p style="font-size:12px;color:var(--muted);line-height:1.6;margin-top:10px">교육청에 등록된 {{f.sgg}} 학원·교습소 목록에서 골라요. 요일·시간을 넣고 <b>📅 캘린더에 추가</b>를 누르면 휴대폰 캘린더가 수업 시작·끝 10분 전에 알려 줘요. 시간이 바뀌면 캘린더에서 예전 일정을 지우고 다시 추가해 주세요.<br>학원 정보는 접속한 본인 휴대폰에만 저장돼요.<br>앞으로 동의한 분들의 학원 정보만 <b>이름 없이</b> 모아 "우리 동네 인기 학원"을 보여 드릴 예정이에요.</p></section>
     <button class="btn btn-3d" style="width:100%;height:54px;margin-top:24px;font-size:15px" onclick="saveKid('${jsq(editing ? editing.id : "")}')">${editing ? "저장하기" : "등록하기"}</button>
     ${editing ? `<button class="btn btn-soft" style="width:100%;height:46px;margin-top:12px;color:var(--coral-ink)" onclick="deleteKid('${jsq(editing.id)}')">${kidForm.arm ? "한 번 더 누르면 삭제돼요" : "이 아이 삭제"}</button>` : ""}`;
 {{/if}}
@@ -1530,7 +1534,7 @@ function viewAcaList() {
   const dongs = [...new Set(ACAS.academies.filter(a => !f.gu || a.gu === f.gu).map(a => a.dong).filter(Boolean))].sort((x, y) => x.localeCompare(y));
   const chip = (label, on, fn) => `<button class="btn ${on ? "btn-3d" : "btn-soft"}" style="height:36px;font-size:13px;padding:0 13px;flex:0 0 auto" onclick="${fn}">${esc(label)}</button>`;
   const myAcas = kids().flatMap(k => (k.acas || []).map(a => ({ ...a, kid: k.name })));
-  const area = (f.dong || f.gu || "{{name}}시") + (f.cat === "전체" ? "" : " " + f.cat);
+  const area = (f.dong || f.gu || "{{f.sgg}}") + (f.cat === "전체" ? "" : " " + f.cat);
   const feeRange = a => { const v = (a.f || []).map(x => x[1]).filter(x => x >= 30000); return v.length ? (Math.min(...v) === Math.max(...v) ? won(v[0]) : won(Math.min(...v)) + "~" + won(Math.max(...v))) : ""; };
 {{#if yongin}}
   const rows = list.slice(0, acaShow).map(a => `<button class="school" onclick="go('aca/${esc(a.id)}')"><span class="pill pill-gray" style="min-width:52px;text-align:center">${esc(a.t || "학원")}</span>
@@ -1539,7 +1543,7 @@ function viewAcaList() {
 {{/if}}
       <div style="flex:1;min-width:0"><div class="nm">${esc(a.n)}</div><div class="ad">${esc(acaKind(a))} · ${esc(a.dong || a.gu)}${feeRange(a) ? ` · <b style="color:var(--indigo)">${feeRange(a)}</b>` : ""}</div></div><span style="color:var(--muted)">›</span></button>`).join("");
   $view.innerHTML = `${head}
-    <p style="font-size:13px;color:var(--muted);margin:6px 0 14px">교육청에 등록된 {{name}}시 학원·교습소 ${ACAS.count.toLocaleString()}곳</p>
+    <p style="font-size:13px;color:var(--muted);margin:6px 0 14px">교육청에 등록된 {{f.sgg}} 학원·교습소 ${ACAS.count.toLocaleString()}곳</p>
 {{#if yongin}}
     ${myAcas.length ? `<section class="section" style="margin-top:0"><div class="sec-head"><h2>우리 아이 학원</h2></div><div class="shelf" style="gap:8px">${myAcas.map(a => `<button class="btn btn-soft" style="height:40px;font-size:13px;padding:0 14px;flex:0 0 auto" onclick="go('aca/${esc(a.id)}')">${esc(a.kid)} · ${esc(a.n)}</button>`).join("")}</div></section>` : ""}
 {{#else}}
@@ -1618,7 +1622,7 @@ function viewKinders() {
     <div style="display:flex;gap:8px;overflow-x:auto;padding:8px 2px 4px">${["전체", "공립", "사립"].map(t => chip(t, f.type === t, `pickKinType('${t}')`)).join("")}</div>
     <div style="display:flex;gap:8px;overflow-x:auto;padding:4px 2px 12px">${chip("모든 나이", !f.age, "pickKinAge('')")}${AGES.slice(0, 3).map(([a, l]) => chip(l + " 빈자리", f.age === a, `pickKinAge('${a}')`)).join("")}</div>
     <div class="lift" style="padding:16px 18px;display:flex;justify-content:space-between;align-items:center;gap:12px">
-      <div><div style="font-size:13px;color:var(--muted)">${esc((f.dong || f.gu || "{{name}}시") + (f.type === "전체" ? "" : " " + f.type))}</div><div style="font-size:24px;font-weight:800">${list.length}<span style="font-size:14px;color:var(--muted);font-weight:600">곳</span></div></div>
+      <div><div style="font-size:13px;color:var(--muted)">${esc((f.dong || f.gu || "{{f.sgg}}") + (f.type === "전체" ? "" : " " + f.type))}</div><div style="font-size:24px;font-weight:800">${list.length}<span style="font-size:14px;color:var(--muted);font-weight:600">곳</span></div></div>
       <div style="text-align:right"><div style="font-size:12px;color:var(--muted)">${ageLabel || "전체"} 정원 ${cap.toLocaleString()} · 현원 ${kids.toLocaleString()}</div><div style="font-size:20px;font-weight:800;color:var(--indigo)">빈자리 ${Math.max(0, cap - kids).toLocaleString()}</div></div></div>
     <div class="lift list" style="margin-top:14px">${rows || `<div class="empty">조건에 맞는 유치원이 없어요.</div>`}</div>
     ${list.length > kinShow ? `<button class="btn btn-soft" style="width:100%;height:46px;margin-top:12px" onclick="kinMore()">더 보기 (${list.length - kinShow}곳 더)</button>` : ""}
@@ -1697,7 +1701,7 @@ function viewPremium() {
   const catFn = (ACA_CATS.find(c => c[0] === f.cat) || [])[1] || (() => true);
   const pick = (scope) => ACAS.academies.filter(a => catFn(a) && (scope === "all" || (scope === "gu" ? a.gu === f.gu : a.gu === f.gu && a.dong === f.dong)))
     .map(a => ({ ...a, f: (a.f || []).filter(x => !f.lv || feeLevel(x[0]) === f.lv || (!feeLevel(x[0]) && (a.f || []).every(y => !feeLevel(y[0])))) }));
-  const scopes = [f.dong && ["dong", f.dong], f.gu && ["gu", f.gu], ["all", "{{name}}시"]].filter(Boolean).map(([k, label]) => ({ label, s: feeStats(pick(k)), list: pick(k) }));
+  const scopes = [f.dong && ["dong", f.dong], f.gu && ["gu", f.gu], ["all", "{{f.sgg}}"]].filter(Boolean).map(([k, label]) => ({ label, s: feeStats(pick(k)), list: pick(k) }));
   const maxMed = Math.max(1, ...scopes.map(x => x.s ? x.s.hi : 0));
   const main = scopes[0];
   const bands = [[0, 150000, "15만 미만"], [150000, 250000, "15~25만"], [250000, 350000, "25~35만"], [350000, 500000, "35~50만"], [500000, 1e9, "50만 이상"]];
@@ -1758,7 +1762,7 @@ function jobSchool(j) {
 function jobDday(d) { if (!d) return ""; const n = dday(d); return n < 0 ? "마감" : n === 0 ? "오늘 마감" : `D-${n}`; }
 function jobRow(j, care) {
   const sc = care ? null : jobSchool(j);
-  const where = care ? [j.gu, j.dong].filter(Boolean).join(" ") : sc ? [sc.gu, sc.dong].filter(Boolean).join(" ") : "{{name}}시";
+  const where = care ? [j.gu, j.dong].filter(Boolean).join(" ") : sc ? [sc.gu, sc.dong].filter(Boolean).join(" ") : "{{f.sgg}}";
   const n = j.applyEnd ? dday(j.applyEnd) : 99;
   const tags = [care ? `<span class="pill pill-indigo">${esc(j.job || "보육교사")}</span>` : `<span class="pill ${j.kinder ? "pill-mint" : "pill-indigo"}">${j.kinder ? "유치원 · " : ""}${esc(j.kind)}</span>`,
     j.applyEnd ? `<span class="pill ${n <= 3 ? "pill-coral" : "pill-gray"}">${jobDday(j.applyEnd)}</span>` : "",
@@ -1825,7 +1829,7 @@ const ELITE_CAL = [
   { k: "과학고", m: [8, 11], steps: "원서 8월 말~9월 초 · 면접 10월 · 합격 발표 11월" },
   { k: "외고·국제고·자사고", m: [12, 12], steps: "원서 12월 초(일반고와 같은 시기) · 면접 12월 · 발표 12월 말" },
   { k: "일반고 배정", m: [12, 2], steps: "원서 12월 · 배정 발표 1~2월" }];
-function eliteNear(s) { return s.kind === "영재학교" || s.kind === "자사고(전국)" || s.sido === "경기"; }
+function eliteNear(s) { return s.kind === "영재학교" || s.kind === "자사고(전국)" || s.sido === "{{f.sidoShort}}"; }
 function pickElite(k, v) { const y = window.scrollY; eliteF[k] = v; render(); window.scrollTo(0, y); }
 function viewElite() {
   const back = `<button class="back glass" onclick="history.back()" aria-label="뒤로">${icon.back}</button>
@@ -1859,7 +1863,7 @@ function viewElite() {
 {{/if}}
   $view.innerHTML = back + mineHtml + cal
     + `<section class="section"><div class="sec-head"><h2>학교 목록</h2><button onclick="pickElite('near', ${!eliteF.near})">${eliteF.near ? "전국 보기" : "{{name}}에서 지원 가능만"}</button></div>
-      <p style="font-size:12px;color:var(--muted);margin:-4px 0 8px">${eliteF.near ? "{{name}} 학생이 지원할 수 있는 곳: 영재학교·전국 자사고 + 경기도 과학고·외고·국제고" : "전국 모든 특목고·자사고"}</p>
+      <p style="font-size:12px;color:var(--muted);margin:-4px 0 8px">${eliteF.near ? "{{name}} 학생이 지원할 수 있는 곳: 영재학교·전국 자사고 + {{f.sidoFull}} 과학고·외고·국제고" : "전국 모든 특목고·자사고"}</p>
       <div style="display:flex;gap:8px;overflow-x:auto;padding:2px 2px 10px">${kinds.map(([k, l, n]) => chip(`${l} ${n}`, eliteF.kind === k, `pickElite('kind','${k}')`)).join("")}</div>
       ${groups.map(([k, label, t, arr]) => `<div class="lift card-pad" style="margin-bottom:12px"><div style="display:flex;align-items:center;gap:10px;margin-bottom:4px"><span class="tile ${t}" style="width:28px;height:28px;border-radius:9px"></span><b>${esc(label)}</b><span style="color:var(--muted);font-size:13px">${arr.length}곳</span></div>${arr.map(row).join("")}</div>`).join("") || `<div class="lift empty">조건에 맞는 학교가 없어요.</div>`}</section>
     <div class="foot">학교를 누르면 학교 홈페이지로 이동해요. 모집 인원·전형은 학교 입학요강을 확인하세요.<br>데이터 · 나이스 교육정보 개방포털 학교기본정보 (매달 갱신${ELITE.updated_at ? " · " + esc(ELITE.updated_at.slice(0, 10)) + " 기준" : ""})</div>`;
@@ -1962,21 +1966,28 @@ const NEWS = [
     "공유창이 뜨지 않는 휴대폰에서는 소개 글과 주소가 복사돼요. 대화창에 붙여 넣어 주세요."] },
   { d: "2026-10-11", v: "1.0.0", t: "아이랑 {{name}} 시범 운영을 시작했어요", items: [
     "🏫 {{name}} 초·중·고 <b>학교 일정과 급식</b>을 우리 아이 기준으로 모아 보여 드려요.",
-    "📚 {{name}}시 공공도서관 <b>운영시간·휴관일</b>과 {{name}} 아이들이 많이 빌린 <b>인기 도서</b>를 볼 수 있어요.",
+    "📚 {{f.sgg}} 공공도서관 <b>운영시간·휴관일</b>과 {{name}} 아이들이 많이 빌린 <b>인기 도서</b>를 볼 수 있어요.",
     "🧸 유치원 빈자리, ✏️ 학원 찾기·수강료 비교, 🎪 아이와 갈 공연·축제, 🎓 특목·자사고, 💼 엄마 일자리를 한곳에서 볼 수 있어요.",
     "회원가입 없이 무료로 쓸 수 있어요."] },
 {{#elif seongnam}}
   { d: "2026-10-16", v: "1.0.45", t: "아이랑 {{name}} 시범 운영을 시작했어요", items: [
     "🏫 {{name}} 초·중·고 <b>학교 일정과 급식</b>을 우리 아이 기준으로 모아 보여 드려요. 급식 <b>알레르기</b>도 알려 드려요.",
-    "📚 {{name}}시 공공도서관 <b>운영시간·휴관일</b>과 {{name}} 아이들이 많이 빌린 <b>인기 도서</b>를 볼 수 있어요.",
+    "📚 {{f.sgg}} 공공도서관 <b>운영시간·휴관일</b>과 {{name}} 아이들이 많이 빌린 <b>인기 도서</b>를 볼 수 있어요.",
     "🧸 <b>유치원</b> 빈자리·통학버스, 교육청에 등록된 <b>학원·교습소</b>와 수강료를 동네별로 찾아볼 수 있어요.",
     "🏊 <b>아이랑 운동교실</b>에서 {{name}}도시개발공사 체육센터의 수영·요가·필라테스 강좌를 모아 보여 드려요.",
     "🎪 아이와 갈 만한 <b>공연·축제</b>와 학교·어린이집 <b>엄마 일자리</b>도 매일 모아 드려요.",
     "🔒 이름·전화번호를 받지 않아요. 아이 정보는 이 휴대폰에만 저장돼요."] },
+{{#elif seoul}}
+  { d: "{{f.start}}", v: "{{f.startVer}}", t: "아이랑 {{name}} 시범 운영을 시작했어요", items: [
+    "🏫 {{name}} 초·중·고 <b>학교 일정과 급식</b>을 우리 아이 기준으로 모아 보여 드려요. 급식 <b>알레르기</b>도 알려 드려요.",
+    "📚 {{f.sgg}} 공공도서관 <b>운영시간·휴관일</b>과 {{name}} 아이들이 많이 빌린 <b>인기 도서</b>를 볼 수 있어요.",
+    "🧸 <b>유치원</b> 빈자리·통학버스, 교육청에 등록된 <b>학원·교습소</b>와 수강료를 동네별로 찾아볼 수 있어요.",
+    "🎪 아이와 갈 만한 <b>공연·축제</b>, 🏥 <b>동네병원</b>, 🎁 놓치기 쉬운 <b>혜택</b>도 매일 모아 드려요.",
+    "🔒 이름·전화번호를 받지 않아요. 아이 정보는 이 휴대폰에만 저장돼요."] },
 {{#else}}
   { d: "{{f.start}}", v: "{{f.startVer}}", t: "아이랑 {{name}} 시범 운영을 시작했어요", items: [
     "🏫 {{name}} 초·중·고 <b>학교 일정과 급식</b>을 우리 아이 기준으로 모아 보여 드려요. 급식 <b>알레르기</b>도 알려 드려요.",
-    "📚 {{name}}시 공공도서관 <b>운영시간·휴관일</b>과 {{name}} 아이들이 많이 빌린 <b>인기 도서</b>를 볼 수 있어요.",
+    "📚 {{f.sgg}} 공공도서관 <b>운영시간·휴관일</b>과 {{name}} 아이들이 많이 빌린 <b>인기 도서</b>를 볼 수 있어요.",
     "🧸 <b>유치원</b> 빈자리·통학버스, 교육청에 등록된 <b>학원·교습소</b>와 수강료를 동네별로 찾아볼 수 있어요.",
     "🎪 아이와 갈 만한 <b>공연·축제</b>와 학교·어린이집 <b>엄마 일자리</b>도 매일 모아 드려요.",
     "🔒 이름·전화번호를 받지 않아요. 아이 정보는 이 휴대폰에만 저장돼요."] },
@@ -2033,7 +2044,7 @@ function viewAbout() {
 {{#else}}
     ${sec("이 서비스는", `{{name}}에 사는 학부모에게 꼭 필요한 정보를 한곳에서 볼 수 있으면 좋겠다는 생각으로, 송골랩이 직접 만든 <b>학부모 통합 정보 서비스</b>예요.<br>학교 일정, 도서관, 학원, 유치원, 아이와 갈 행사, 일자리 정보를 공공 자료에서 모아 보여 드려요.`)}
 {{/if}}
-    ${sec("무료로 운영해요", li(["모든 기능을 <b>무료</b>로 제공해요. 회원가입이나 결제가 없어요.", "{{name}}시청, 교육청 등 <b>공공기관이 운영하는 서비스가 아니에요.</b> 개인이 공공 자료를 모아 보여 드리는 서비스예요."]))}
+    ${sec("무료로 운영해요", li(["모든 기능을 <b>무료</b>로 제공해요. 회원가입이나 결제가 없어요.", "{{f.sgg}}청, 교육청 등 <b>공공기관이 운영하는 서비스가 아니에요.</b> 개인이 공공 자료를 모아 보여 드리는 서비스예요."]))}
     ${sec("개인정보를 받지 않아요", `이름, 전화번호, 이메일, 주소처럼 <b>개인을 알아볼 수 있는 정보는 받지도, 저장하지도 않아요.</b> 회원가입도 없어요.`)}
     ${sec("어떤 정보를 어디에, 무엇에 쓰나요", [
       ["아이 별명 · 학교 · 학년 · 학원(수업 요일·시간), 관심 지역", "<b>사용하시는 분 본인의 휴대폰(또는 컴퓨터)</b> 브라우저 안. 다른 기기나 다른 브라우저에서는 보이지 않아요.", "홈 화면에 우리 아이 학교 일정, 학원, 고입 시기를 보여 주는 데만 써요. 서버로 보내지 않아서 <b>개발자도 볼 수 없어요.</b>", "직접 지우거나 앱·브라우저 데이터를 지울 때까지"]
@@ -2042,9 +2053,11 @@ function viewAbout() {
       + `<div style="padding-top:10px;font-size:13px">${li(["광고에 쓰지 않아요.", "앱 안의 링크(학교 홈페이지, 공고 원문 등)를 누르면 그 사이트의 개인정보 정책이 적용돼요."])}</div>`)}
     ${sec("정보의 출처와 정확성", li([
 {{#if yongin}}
-      "나이스 교육정보 개방포털, 유치원 알리미, {{name}}시도서관, {{name}}시청 문화달력, 경기도교육청 구인구직, 경기육아종합지원센터 등 <b>공공 자료</b>를 하루에 한두 번 자동으로 가져와요.",
+      "나이스 교육정보 개방포털, 유치원 알리미, {{f.sgg}}도서관, {{f.sgg}}청 문화달력, 경기도교육청 구인구직, 경기육아종합지원센터 등 <b>공공 자료</b>를 하루에 한두 번 자동으로 가져와요.",
 {{#elif suwon}}
       "나이스 교육정보 개방포털, 유치원 알리미, 도서관 정보나루, {{name}}문화재단, 경기아트센터, 공연예술통합전산망(KOPIS), 한국관광공사, 경기도교육청 구인구직, 경기육아종합지원센터 등 <b>공공 자료</b>를 하루에 한두 번 자동으로 가져와요.",
+{{#elif seoul}}
+      "나이스 교육정보 개방포털, 유치원 알리미, 도서관 정보나루, 공연예술통합전산망(KOPIS), 한국관광공사, 국립중앙의료원, 복지로 등 <b>공공 자료</b>를 하루에 한두 번 자동으로 가져와요.",
 {{#else}}
       "나이스 교육정보 개방포털, 유치원 알리미, 도서관 정보나루, 공연예술통합전산망(KOPIS), 한국관광공사, 경기도교육청 구인구직, 경기육아종합지원센터 등 <b>공공 자료</b>를 하루에 한두 번 자동으로 가져와요.",
 {{/if}}
