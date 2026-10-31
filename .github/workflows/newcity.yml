@@ -12,7 +12,7 @@ concurrency: { group: newcity, cancel-in-progress: false }
 jobs:
   open:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 340
     env:
       NEIS_KEY: ${{ secrets.NEIS_KEY }}
       KINDER_KEY: ${{ secrets.KINDER_KEY }}

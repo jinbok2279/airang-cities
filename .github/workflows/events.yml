@@ -25,6 +25,20 @@ jobs:
           - { city: 강남, d: gangnam }
           - { city: 양천, d: yangcheon }
           - { city: 노원, d: nowon }
+          - { city: 남양주, d: namyangju }
+          - { city: 안산, d: ansan }
+          - { city: 시흥, d: siheung }
+          - { city: 파주, d: paju }
+          - { city: 김포, d: gimpo }
+          - { city: 의정부, d: uijeongbu }
+          - { city: 광주, d: gwangju }
+          - { city: 하남, d: hanam }
+          - { city: 서초, d: seocho }
+          - { city: 송파, d: songpa }
+          - { city: 강동, d: gangdong }
+          - { city: 광진, d: gwangjin }
+          - { city: 마포, d: mapo }
+          - { city: 성동, d: seongdong }
     env:
       CITY: ${{ matrix.city }}
       KOPIS_KEY: ${{ secrets.KOPIS_KEY }}
