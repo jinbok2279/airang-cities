@@ -56,19 +56,20 @@ h1 em{font-style:normal;background:linear-gradient(transparent 62%,#FFE08A 62%)}
   <button class="locate" onclick="locate()">📍 내 위치로 우리 도시 찾기</button>
   <div class="note">위치는 이 휴대폰 안에서만 써요. 어디에도 보내지 않아요.</div>
 
-  <div class="sec"><h2>지금 열려 있는 도시</h2><span>7곳</span></div>
+  <div class="sec"><h2>지금 열려 있는 도시</h2><span id="cnt"></span></div>
   <div class="grid" id="grid"></div>
 
   <div class="lift soon">
     <h3>🌱 곧 열려요</h3>
     <p>경기도 다른 시·군도 차례로 열고 있어요. 우리 동네가 먼저 열렸으면 좋겠다면 알려 주세요.</p>
-    <div class="list"><span>안산</span><span>평택</span><span>시흥</span><span>김포</span><span>의정부</span><span>광명</span><span>하남</span><span>광주</span><span>군포</span><span>오산</span><span>이천</span><span>파주</span><span>남양주</span><span>의왕</span><span>…</span></div>
+    <div class="list"><span>안산</span><span>시흥</span><span>김포</span><span>의정부</span><span>광명</span><span>하남</span><span>광주</span><span>군포</span><span>이천</span><span>파주</span><span>남양주</span><span>의왕</span><span>…</span></div>
     <a class="ask" href="mailto:songgollab@gmail.com?subject=%EC%95%84%EC%9D%B4%EB%9E%91%20%EC%9A%B0%EB%A6%AC%20%EB%8F%99%EB%84%A4%EB%8F%84%20%EC%97%B4%EC%96%B4%20%EC%A3%BC%EC%84%B8%EC%9A%94">✉️ 우리 동네도 열어 주세요</a>
   </div>
   <div class="foot">아이랑은 공공기관이 아닌 송골랩이 만든 무료 서비스예요.<br>정보는 나이스·유치원 알리미·도서관 정보나루 등 공공데이터를 모아 보여 드려요.<br>문의 songgollab@gmail.com</div>
 </div>
 <script>
 const CITIES = /*CITIES*/[];   // build.py 가 cities.json 으로 채움
+document.getElementById("cnt").textContent = CITIES.length + "곳";
 const url = k => `https://${k}.songgollab.co.kr/`;
 const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
 function pick(k) { store.set("airang.city", k); }
