@@ -5,6 +5,11 @@
 """
 
 import json
+try:
+    import city as _cc
+    HOME = _cc.SIDO_NAME          # 우리 시도 학교를 먼저 (경기 / 서울)
+except (ImportError, SystemExit):
+    HOME = "경기"
 import os
 import time
 import urllib.parse
@@ -117,7 +122,7 @@ def main():
         print("고등학교 구분 값 예시:", sorted(seen_kinds.items(), key=lambda x: -x[1])[:15])
         raise SystemExit(f"특목·자사고가 {len(out)}곳뿐이라 저장하지 않습니다")
     order = ["영재학교", "과학고", "자사고(전국)", "외고", "국제고", "자사고(광역)"]
-    out.sort(key=lambda s: (order.index(s["kind"]), s["sido"] != "경기", s["sido"], s["n"]))
+    out.sort(key=lambda s: (order.index(s["kind"]), s["sido"] != HOME, s["sido"], s["n"]))
     counts = {k: sum(1 for s in out if s["kind"] == k) for k in order}
     os.makedirs("output", exist_ok=True)
     result = {"updated_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S"),

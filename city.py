@@ -98,6 +98,36 @@ CITIES = {
         "not_places": r"화성|평택|수원|용인|안성|동탄",
         "domain": "osan", "lib_home": "https://www.osanlibrary.go.kr",
     },
+    # ── 서울 (구 하나 = 앱 하나). 구 안을 다시 나누지 않음 → gus {"": 구 코드}
+    "강남": {
+        "sido": "서울", "sgg": "강남구",
+        "area": "강남구", "gus": {"": 11680}, "lib": {"": 11230}, "signgu": "", "kopis": "1168",
+        "lat": 37.5172, "lon": 127.0473, "stations": ["강남구", "도산대로", "강남대로"], "region": "서울",
+        "places": r"강남|대치|도곡|개포|역삼|삼성동|청담|압구정|신사동|논현|일원|수서|세곡|코엑스|선릉|양재천",
+        "not_places": r"서초구|송파|성남|분당|강동|용산|광진",
+        "domain": "gangnam", "lib_home": "https://library.gangnam.go.kr",
+    },
+    "양천": {
+        "sido": "서울", "sgg": "양천구",
+        "area": "양천구", "gus": {"": 11470}, "lib": {"": 11150}, "signgu": "", "kopis": "1147",
+        "lat": 37.5170, "lon": 126.8665, "stations": ["양천구"], "region": "서울",
+        "places": r"양천|목동|신정동|신월|해누리|목동예술|파리공원|양천공원",
+        "not_places": r"강서구|구로|영등포|부천|마포|금천",
+        "domain": "yangcheon", "lib_home": "https://lib.yangcheon.or.kr",
+    },
+    "노원": {
+        "sido": "서울", "sgg": "노원구",
+        "area": "노원구", "gus": {"": 11350}, "lib": {"": 11110}, "signgu": "", "kopis": "1135",
+        "lat": 37.6542, "lon": 127.0568, "stations": ["노원구", "화랑로"], "region": "서울",
+        "places": r"노원|중계|상계|하계|공릉|월계|불암산|수락산|당현천|노원어린이",
+        "not_places": r"도봉|중랑|강북구|의정부|남양주|성북",
+        "domain": "nowon", "lib_home": "https://www.nowonlib.kr",
+    },
+}
+# 시도마다 다른 코드 (도시 칸에 "sido" 가 없으면 경기)
+SIDOS = {
+    "경기": {"full": "경기도", "neis": "J10", "lib": 31, "kinder": 41, "kopis": "41", "hira": "310000", "air": "경기"},
+    "서울": {"full": "서울특별시", "neis": "B10", "lib": 11, "kinder": 11, "kopis": "11", "hira": "110000", "air": "서울"},
 }
 CITY = os.environ.get("CITY", "성남").strip()
 if CITY not in CITIES:
@@ -109,6 +139,9 @@ GU_RE = "|".join(g for g in GUS if g) or "(?!)"
 PLACES = re.compile(C["places"], re.I)
 NOT_PLACES = re.compile(C["not_places"])
 SCRIPTS = C.get("scripts", {})       # 그 도시만 다른 수집기 (없으면 공통)
+SIDO_NAME = C.get("sido", "경기")     # 경기 / 서울
+SIDO = SIDOS[SIDO_NAME]
+SGG = C.get("sgg", CITY + "시")       # 병원·복지 API의 시군구 이름 (경기: 용인시, 서울: 강남구)
 
 
 def gu_of(addr, detail=""):

@@ -28,7 +28,7 @@ CULTURE_API = "https://api.kcisa.kr/openapi/CNV_060/request"  # 문화체육관�
 CULTURE_KEY = os.environ.get("CULTURE_KEY", "").strip()
 HORIZON = 60  # 앞으로 며칠 안에 시작하는 행사까지
 
-from city import C, AREA, PLACES as SUWON, NOT_PLACES as NOT_SUWON
+from city import C, AREA, PLACES as SUWON, NOT_PLACES as NOT_SUWON, SIDO as _SIDO
 CN = AREA[:-1]   # 예: 성남
 KID_WORDS = re.compile(r"가족|어린이|아이|키즈|kids|유아|아동|동화|인형|마술|매직|체험|그림책|놀이|과학|축제|페스티벌|야시장|버블|뮤지컬|"
                        r"캐릭터|만들기|숲|생태|방학|꼬마|공주|동물|공룡|로봇|야간개장|야행|미디어아트|자전거|마켓|놀이터", re.I)
@@ -325,7 +325,7 @@ def kopis_events(today):
         got = []
         for page in range(1, 11):
             q = {"service": KOPIS_KEY, "stdate": t0, "eddate": t1, "cpage": page, "rows": 100,
-                 "signgucode": "41", "kidstate": "Y"}
+                 "signgucode": _SIDO["kopis"], "kidstate": "Y"}
             if sub:
                 q["signgucodesub"] = sub
             try:
@@ -402,7 +402,7 @@ def tour_festivals(today):
         title = sp(it.get("title"))
         out.append({"id": "T" + str(it.get("contentid")), "title": title,
                     "start": f"{s[:4]}-{s[4:6]}-{s[6:8]}", "end": f"{(e or s)[:4]}-{(e or s)[4:6]}-{(e or s)[6:8]}",
-                    "place": addr.replace("경기도 ", ""), "time": "", "grade": "", "price": "", "free": False,
+                    "place": addr.replace(_SIDO["full"] + " ", ""), "time": "", "grade": "", "price": "", "free": False,
                     "kind": "축제", "src": "tour", "img": (it.get("firstimage") or "").replace("http://", "https://"),
                     "link": "https://search.naver.com/search.naver?query=" + urllib.parse.quote(title)})
     print(f"  관광공사 {CN} 축제·행사 {len(out)}건")

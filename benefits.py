@@ -119,7 +119,8 @@ def main():
     except Exception as e:
         print("  중앙부처 복지 실패:", e)
     try:
-        raw = all_pages(LOC, {"ctpvNm": "경기도", "sggNm": CITY + "시"})
+        import city as _cc
+        raw = all_pages(LOC, {"ctpvNm": _cc.SIDO["full"], "sggNm": _cc.SGG})
         if raw:
             print("  시 혜택 칸:", sorted(raw[0]))
         loc = [row(it, "local") for it in raw]

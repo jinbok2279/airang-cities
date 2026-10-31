@@ -23,7 +23,11 @@ from datetime import datetime, timedelta, timezone
 KST = timezone(timedelta(hours=9))
 CITY = os.environ.get("CITY", "용인").strip()
 KEY = os.environ.get("WEATHER_KEY", "").strip()
-SIDO, SIDO_CD = "경기도", "310000"          # 심평원 시도 코드 (경기)
+try:
+    import city as _cc
+    SIDO, SIDO_CD, SGG = _cc.SIDO["full"], _cc.SIDO["hira"], _cc.SGG   # 경기도/310000/용인시, 서울특별시/110000/강남구
+except (ImportError, SystemExit):
+    SIDO, SIDO_CD, SGG = "경기도", "310000", CITY + "시"
 GU_BY_CITY = {"용인": ["수지구", "기흥구", "처인구"], "수원": ["장안구", "권선구", "팔달구", "영통구"]}
 try:   # airang-cities 저장소: 도시 설정(city.py)의 구 목록·읍면동 규칙을 그대로 쓴다 (화성·부천처럼 주소에 구가 없는 곳)
     import city as _city
@@ -118,8 +122,8 @@ def gu_of(addr):
 
 
 def short_addr(addr):
-    a = re.sub(r"^\s*경기도\s*", "", addr or "")
-    a = re.sub(r"^" + CITY + r"시\s*", "", a)
+    a = re.sub(r"^\s*" + SIDO + r"\s*", "", addr or "")
+    a = re.sub(r"^" + SGG + r"\s*", "", a)
     a = re.sub(r"\s*\(.*?\)", "", a)   # (동, 건물 이름) 은 뺀다
     return re.sub(r"\s+", " ", a).strip()[:60]
 
@@ -190,7 +194,7 @@ def nmc_depts(items_by_id):
     """진료과마다 그 코드로 불러서 붙인다. 이름과 많이 어긋나면 기록에 '확인 필요'를 남긴다."""
     for dept, code in NMC_DEPT.items():
         try:
-            ids = {it.get("hpid") for it in nmc(HOURS, {"Q0": SIDO, "Q1": CITY + "시", "QD": code})} & set(items_by_id)
+            ids = {it.get("hpid") for it in nmc(HOURS, {"Q0": SIDO, "Q1": SGG, "QD": code})} & set(items_by_id)
         except Exception as e:
             print(f"  진료과 {dept}({code}) 실패:", e)
             continue
@@ -213,7 +217,7 @@ def main():
     # 1) 국립중앙의료원 병·의원 찾기 — 종류·주소·전화·위치·진료시간·응급실 운영 여부
     nmc_all = []
     try:
-        nmc_all = nmc(HOURS, {"Q0": SIDO, "Q1": CITY + "시"})
+        nmc_all = nmc(HOURS, {"Q0": SIDO, "Q1": SGG})
         print(f"  병·의원 {len(nmc_all)}곳 받음. 종류:", dict(Counter(it.get("dutyDivNam", "") for it in nmc_all).most_common(15)))
         if nmc_all:
             print("  칸:", sorted(nmc_all[0].keys()))
@@ -248,7 +252,7 @@ def main():
     # 2) 응급실 — 응급의료기관 서비스(응급실 전화 포함)가 되면 그것, 아니면 병·의원 목록의 '응급실 운영' 표시
     rank = {"권역응급의료센터": 0, "지역응급의료센터": 1, "지역응급의료기관": 2}
     try:
-        for it in nmc(ER_LIST, {"Q0": SIDO, "Q1": CITY + "시"}):
+        for it in nmc(ER_LIST, {"Q0": SIDO, "Q1": SGG}):
             r = nmc_row(it, it.get("dutyEmclsName", "") or "응급실")
             r["t"] = it.get("dutyTel3") or r["t"]
             r.pop("h", None)
@@ -269,7 +273,7 @@ def main():
     # 3) 약국 — 가짜 번호(031-000-0000 등)는 빼고, 같은 이름·주소는 하나로. 실패하면 지난번 약국 목록을 그대로 둔다
     try:
         seen = {}
-        for it in nmc(PHARM, {"Q0": SIDO, "Q1": CITY + "시"}):
+        for it in nmc(PHARM, {"Q0": SIDO, "Q1": SGG}):
             r = nmc_row(it, "약국")
             if not r["n"]:
                 continue

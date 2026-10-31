@@ -4,7 +4,7 @@
 output/academies.json 으로 저장한다. 앱에서 아이의 학원을 고를 때 쓴다.
 """
 
-from city import AREA, gu_of, C
+from city import AREA, gu_of, C, SIDO
 import json
 import os
 import re
@@ -21,7 +21,7 @@ URL = "https://open.neis.go.kr/hub/acaInsTiInfo"
 
 def fetch_page(page):
     params = {"KEY": KEY, "Type": "json", "pIndex": page, "pSize": 1000,
-              "ATPT_OFCDC_SC_CODE": "J10", "ADMST_ZONE_NM": AREA}
+              "ATPT_OFCDC_SC_CODE": SIDO["neis"], "ADMST_ZONE_NM": C.get("aca_zone", AREA)}
     url = URL + "?" + urllib.parse.urlencode(params)
     for i in range(3):
         try:

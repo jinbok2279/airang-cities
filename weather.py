@@ -27,6 +27,11 @@ PLACES = {
 }
 FCST = "http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst"
 AIR_FC = "http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getMinuDustFrcstDspth"
+try:
+    import city as _cc0
+    AIR_SIDO = _cc0.SIDO["air"]
+except (ImportError, SystemExit):
+    AIR_SIDO = "경기"
 AIR_NOW = "http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty"
 
 
@@ -166,7 +171,7 @@ def air_forecast(today, region):
 
 def air_now(stations):
     """실시간 측정값 평균으로 등급 (예보가 없을 때)"""
-    js = get_json(AIR_NOW, {"returnType": "json", "numOfRows": 200, "pageNo": 1, "sidoName": "경기", "ver": "1.3"})
+    js = get_json(AIR_NOW, {"returnType": "json", "numOfRows": 200, "pageNo": 1, "sidoName": AIR_SIDO, "ver": "1.3"})
     p10, p25 = [], []
     for it in items(js) if js else []:
         if it.get("stationName") not in stations:
@@ -195,7 +200,7 @@ def main():
         try:
             import city as _c
             cc = _c.CITIES.get(CITY)
-            if cc: place = {"lat": cc["lat"], "lon": cc["lon"], "stations": cc["stations"], "region": cc.get("region", "경기남부")}
+            if cc: place = {"lat": cc["lat"], "lon": cc["lon"], "stations": cc["stations"], "region": cc.get("region", "경기남부" if AIR_SIDO == "경기" else AIR_SIDO)}
         except SystemExit:
             pass
     if not place:

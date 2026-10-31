@@ -14,8 +14,8 @@ from datetime import datetime, timedelta, timezone
 KST = timezone(timedelta(hours=9))
 KEY = os.environ.get("KINDER_KEY", "")
 BASE = "https://e-childschoolinfo.moe.go.kr/api/notice/"
-SIDO = 41
-from city import C, AREA
+from city import C, AREA, SIDO as _SIDO
+SIDO = _SIDO["kinder"]   # 시도 코드 (경기 41, 서울 11)
 SGG = C["gus"]   # 구 → 행정구역 코드
 
 

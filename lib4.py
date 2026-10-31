@@ -14,8 +14,8 @@ import urllib.request
 KEY = os.environ.get("LIB_KEY", "").strip()
 API = "https://data4library.kr/api/"  # 키가 평문으로 오가지 않게 https 우선
 API_HTTP = "http://data4library.kr/api/"  # https가 막히면 예비
-REGION = 31  # 경기도
-from city import C
+from city import C, SIDO
+REGION = SIDO["lib"]  # 정보나루 시도 코드 (경기 31, 서울 11)
 GU = C["lib"]  # 정보나루 세부지역 코드 (행정구역 코드와 다름)
 UA = {"User-Agent": "Mozilla/5.0 (seongnam-edu-collector)"}
 

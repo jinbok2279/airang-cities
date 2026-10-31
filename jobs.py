@@ -167,6 +167,12 @@ def care_jobs():
 
 def main():
     today = datetime.now(KST).date().isoformat()
+    if C.get("sido", "경기") != "경기":   # 경기도교육청·경기육아종합지원센터 자료라 다른 시도는 아직 없음
+        os.makedirs("output", exist_ok=True)
+        json.dump({"updated_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S"), "source": "", "school": [], "care": []},
+                  open("output/jobs.json", "w", encoding="utf-8"), ensure_ascii=False)
+        print("경기도가 아니라 채용 정보는 건너뜀")
+        return
     school, care = [], []
     try:
         school = goe_jobs()

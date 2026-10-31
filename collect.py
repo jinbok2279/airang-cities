@@ -8,7 +8,8 @@ from datetime import datetime, timedelta, timezone
 KST = timezone(timedelta(hours=9))
 API = "https://open.neis.go.kr/hub/"
 KEY = os.environ.get("NEIS_KEY", "")
-OFFICE = "J10"            # 경기도교육청
+from city import SIDO as _SIDO
+OFFICE = _SIDO["neis"]    # 시도교육청 (경기 J10, 서울 B10)
 from city import AREA, gu_of, C  # 주소에 이 글자가 들어간 학교만 (도시 전체, 초·중·고)
 DAYS_AHEAD = 60           # 오늘부터 며칠 뒤까지 일정을 모을지
 SKIP_EVENTS = {"토요휴업일"}
