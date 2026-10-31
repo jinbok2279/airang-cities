@@ -1,9 +1,9 @@
 {
   "region": "오산시",
-  "updated_at": "2026-10-31 07:09:59",
+  "updated_at": "2026-11-01 07:03:16",
   "period": {
-    "from": "20261031",
-    "to": "20261230"
+    "from": "20261101",
+    "to": "20261231"
   },
   "school_count": 47,
   "public_holidays": [
@@ -412,6 +412,190 @@
       "date": "2026-12-30",
       "name": "졸업식",
       "holiday": false
+    },
+    {
+      "school": "가수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "광성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "금암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "매홀초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "문시초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "삼미초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성호고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "세담초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "세마고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "세마초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "세미초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "수청초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "양산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오산대원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오산정보고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "운암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "운암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식(6학년)",
+      "holiday": false
+    },
+    {
+      "school": "운천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "원동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "필봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "필봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
     }
   ],
   "schools": [
@@ -422,7 +606,18 @@
       "address": "경기도 오산시 가수로 50",
       "gu": "",
       "dong": "가수동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679077",
@@ -491,6 +686,16 @@
           "date": "2026-12-09",
           "name": "전교임원선거",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
         }
       ]
     },
@@ -501,7 +706,13 @@
       "address": "경기도 오산시 수청로 204-20",
       "gu": "",
       "dong": "금암동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679398",
@@ -547,6 +758,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -557,7 +773,18 @@
       "address": "경기도 오산시 여계산로 52-6",
       "gu": "",
       "dong": "금암동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679430",
@@ -576,6 +803,11 @@
           "date": "2026-12-30",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -596,6 +828,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -625,6 +862,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -635,7 +877,18 @@
       "address": "경기도 오산시 세마문학로 45",
       "gu": "",
       "dong": "지곶동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679321",
@@ -654,6 +907,11 @@
           "date": "2026-12-30",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -664,7 +922,18 @@
       "address": "경기도 오산시 오산대역로 123",
       "gu": "",
       "dong": "수청동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679281",
@@ -678,6 +947,11 @@
           "date": "2026-12-30",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -712,6 +986,11 @@
           "date": "2026-12-30",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -750,6 +1029,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -795,6 +1079,21 @@
           "date": "2026-11-19",
           "name": "학교장재량휴업일",
           "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식(6학년)",
+          "holiday": false
         }
       ]
     },
@@ -810,6 +1109,16 @@
           "date": "2026-11-19",
           "name": "학교재량휴업일",
           "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -825,6 +1134,11 @@
           "date": "2026-12-30",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -835,7 +1149,23 @@
       "address": "경기도 오산시 수청로 124",
       "gu": "",
       "dong": "금암동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679092",
@@ -1052,6 +1382,11 @@
           "date": "2026-12-17",
           "name": "2차 정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "성호제",
+          "holiday": false
         }
       ]
     },
@@ -1081,6 +1416,11 @@
         {
           "date": "2026-12-15",
           "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "세마어울마당",
           "holiday": false
         }
       ]
@@ -1547,6 +1887,11 @@
           "date": "2026-12-23",
           "name": "2차 정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "축제",
+          "holiday": false
         }
       ]
     },
@@ -1637,6 +1982,16 @@
           "date": "2026-12-24",
           "name": "학교축제",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -1700,6 +2055,11 @@
         },
         {
           "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
           "name": "겨울방학",
           "holiday": true
         }
