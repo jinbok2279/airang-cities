@@ -217,7 +217,8 @@ function dataFetch(name) {
 }
 // 접속 통계 (GoatCounter · 쿠키/개인정보 없음)
 let lastTracked = "";
-function gc(fn, tries = 0) { if (store("edu.admin")) return; if (window.goatcounter && window.goatcounter.count) fn(window.goatcounter); else if (tries < 20) setTimeout(() => gc(fn, tries + 1), 500); }
+const NOCOUNT = /[?&]nocount=1/.test(location.search);   // 관리자 화면(앱 보기)에서 연 앱은 방문 수에 안 셈
+function gc(fn, tries = 0) { if (store("edu.admin") || NOCOUNT) return; if (window.goatcounter && window.goatcounter.count) fn(window.goatcounter); else if (tries < 20) setTimeout(() => gc(fn, tries + 1), 500); }
 function trackView(route) {
   const path = "/" + route.replace(/^kid\/(?!new).*/, "kid/edit").replace(/^kid\/new\/.*/, "kid/new");
   if (path === lastTracked) return; lastTracked = path;
