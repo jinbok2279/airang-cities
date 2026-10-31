@@ -1,0 +1,2842 @@
+{
+  "region": "하남시",
+  "updated_at": "2026-11-01 03:08:26",
+  "period": {
+    "from": "20261101",
+    "to": "20261231"
+  },
+  "school_count": 48,
+  "public_holidays": [
+    {
+      "date": "2026-11-19",
+      "name": "수학능력시험"
+    },
+    {
+      "date": "2026-11-19",
+      "name": "대학수학능력시험"
+    },
+    {
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일"
+    },
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "남한고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-06",
+      "name": "동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "한국애니메이션고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-10",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "한국애니메이션고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-17",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "감일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "감일백제중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "감일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "남한고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "남한중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "덕풍중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능일",
+      "holiday": true
+    },
+    {
+      "school": "동부중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "미사강변고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "미사강변중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "미사고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "미사중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "미사초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "신장고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "신장중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "신평중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "위례중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일(대학수학능력시험)",
+      "holiday": true
+    },
+    {
+      "school": "위례초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "윤슬중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일(대입수능)",
+      "holiday": true
+    },
+    {
+      "school": "은가람중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "풍산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "풍산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "하남경영고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "하남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "하남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "한국애니메이션고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "미사강변고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "미사고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "신장고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "남한중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-25",
+      "name": "진로체험",
+      "holiday": false
+    },
+    {
+      "school": "신장중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-26",
+      "name": "진로직업체험",
+      "holiday": false
+    },
+    {
+      "school": "윤슬중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-27",
+      "name": "학부모상담주간",
+      "holiday": false
+    },
+    {
+      "school": "윤슬중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-30",
+      "name": "학부모상담주간",
+      "holiday": false
+    },
+    {
+      "school": "윤슬중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-01",
+      "name": "학부모상담주간",
+      "holiday": false
+    },
+    {
+      "school": "윤슬중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-02",
+      "name": "학부모상담주간",
+      "holiday": false
+    },
+    {
+      "school": "윤슬중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-03",
+      "name": "학부모상담주간",
+      "holiday": false
+    },
+    {
+      "school": "미사강변고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-08",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "미사강변고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-14",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "미사강변중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-16",
+      "name": "진로체험",
+      "holiday": false
+    },
+    {
+      "school": "감일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "찾아오는직업체험",
+      "holiday": false
+    },
+    {
+      "school": "미사고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "학과체험(1,2학년)",
+      "holiday": false
+    },
+    {
+      "school": "풍산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "동아리발표/축제",
+      "holiday": false
+    },
+    {
+      "school": "미사강변중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "미사고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "미사 어울림 한마당 축제",
+      "holiday": false
+    },
+    {
+      "school": "위례고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "동아리활동체험 및 발표대회",
+      "holiday": false
+    },
+    {
+      "school": "위례고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "한마음테마축제",
+      "holiday": false
+    },
+    {
+      "school": "감일백제중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "큰마당축제",
+      "holiday": false
+    },
+    {
+      "school": "하남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "한마음축제",
+      "holiday": false
+    },
+    {
+      "school": "감일초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "감일초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "단샘초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "망월초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "망월초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "서부초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "신장고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "위례중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "두드림 축제",
+      "holiday": false
+    },
+    {
+      "school": "윤슬초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "풍산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "감일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "감일초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "나룰초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "남한고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "단샘초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "동부초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "망월초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "미사강변초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "미사고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "미사중앙초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "산곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "서부초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "신장고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "신장중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "동아리 발표회",
+      "holiday": false
+    },
+    {
+      "school": "신장초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "신평중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "신평예술축제",
+      "holiday": false
+    },
+    {
+      "school": "신평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "위례고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "위례숲초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "위례중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "위례초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "윤슬초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "창우초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "청아초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "풍산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "하남천현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "하남천현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "하남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "하남풍산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "한홀초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "한홀초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    }
+  ],
+  "schools": [
+    {
+      "code": "7692181",
+      "name": "감일초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 감일백제로 45",
+      "gu": "",
+      "dong": "감이동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692004",
+      "name": "고골초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 대성로 90",
+      "gu": "",
+      "dong": "하사창동",
+      "events": []
+    },
+    {
+      "code": "7692113",
+      "name": "나룰초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 덕풍북로 260",
+      "gu": "",
+      "dong": "덕풍동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692196",
+      "name": "단샘초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 감일순환로 195",
+      "gu": "",
+      "dong": "감이동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692013",
+      "name": "덕풍초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 덕풍공원로 20",
+      "gu": "",
+      "dong": "덕풍동",
+      "events": []
+    },
+    {
+      "code": "7692018",
+      "name": "동부초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 역말로 55",
+      "gu": "",
+      "dong": "덕풍동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692020",
+      "name": "망월초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 미사강변북로24번길 10",
+      "gu": "",
+      "dong": "망월동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692122",
+      "name": "미사강변초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 미사강변북로 55번길",
+      "gu": "",
+      "dong": "선동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692127",
+      "name": "미사중앙초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 미사강변한강로334번길 46",
+      "gu": "",
+      "dong": "망월동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692123",
+      "name": "미사초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 미사강변한강로 200",
+      "gu": "",
+      "dong": "망월동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692023",
+      "name": "산곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 하남대로302번길 45",
+      "gu": "",
+      "dong": "하산곡동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692025",
+      "name": "서부초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 서하남로 161",
+      "gu": "",
+      "dong": "감일동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692200",
+      "name": "신우초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 감일순환로 145",
+      "gu": "",
+      "dong": "감일동",
+      "events": []
+    },
+    {
+      "code": "7692027",
+      "name": "신장초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 신평로 100",
+      "gu": "",
+      "dong": "신장동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692028",
+      "name": "신평초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 신장동로 67",
+      "gu": "",
+      "dong": "신장동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692198",
+      "name": "위례숲초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 위례대로6길 65(학암동)",
+      "gu": "",
+      "dong": "학암동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692128",
+      "name": "위례초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 위례순환로 333",
+      "gu": "",
+      "dong": "학암동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692154",
+      "name": "윤슬초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 미사강변서로 151",
+      "gu": "",
+      "dong": "망월동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692032",
+      "name": "창우초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 대청로 99",
+      "gu": "",
+      "dong": "창우동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "불조심 교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "불조심 교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "불조심 교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "불조심 교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "불조심 교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "창모루예술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "아동학대예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "창모루예술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "아동학대예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "창모루예술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "아동학대예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "창모루예술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "아동학대예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "창모루예술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "아동학대예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "1학기 전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692155",
+      "name": "청아초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 미사강변중앙로132번길 45",
+      "gu": "",
+      "dong": "풍산동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692036",
+      "name": "하남천현초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 천현로 45",
+      "gu": "",
+      "dong": "신장동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692037",
+      "name": "하남초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 천현로 109",
+      "gu": "",
+      "dong": "창우동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692085",
+      "name": "하남풍산초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 덕풍북로 100",
+      "gu": "",
+      "dong": "덕풍동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692156",
+      "name": "한홀초등학교",
+      "level": "초등학교",
+      "address": "경기도 하남시 미사강변서로 68",
+      "gu": "",
+      "dong": "풍산동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692223",
+      "name": "감일백제중학교",
+      "level": "중학교",
+      "address": "경기도 하남시 감일백제로 210",
+      "gu": "",
+      "dong": "감일동",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "정기시험(2차)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "정기시험(2차)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "정기시험(2차)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "정기시험(2차)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "정기시험(2차)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기시험(2차)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "큰마당축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692183",
+      "name": "감일중학교",
+      "level": "중학교",
+      "address": "경기도 하남시 감일백제로 55",
+      "gu": "",
+      "dong": "감이동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "찾아오는직업체험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692043",
+      "name": "남한중학교",
+      "level": "중학교",
+      "address": "경기도 하남시 하남대로802번길 21",
+      "gu": "",
+      "dong": "신장동",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "동아리 부서별활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "정보통신윤리교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-25",
+          "name": "진로체험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "동아리 부서별활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "학생자치회 대토론회 준비",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "전교학생회 임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "학급자치",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692088",
+      "name": "덕풍중학교",
+      "level": "중학교",
+      "address": "경기도 하남시 덕풍북로71번길 10",
+      "gu": "",
+      "dong": "덕풍동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-04",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692082",
+      "name": "동부중학교",
+      "level": "중학교",
+      "address": "경기도 하남시 신평로",
+      "gu": "",
+      "dong": "덕풍동",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "국화제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692124",
+      "name": "미사강변중학교",
+      "level": "중학교",
+      "address": "경기도 하남시 미사강변한강로 89",
+      "gu": "",
+      "dong": "선동",
+      "events": [
+        {
+          "date": "2026-11-03",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "자율활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "진로체험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "자율활동",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692129",
+      "name": "미사중학교",
+      "level": "중학교",
+      "address": "경기도 하남시 미사강변한강로334번길 70",
+      "gu": "",
+      "dong": "망월동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692044",
+      "name": "신장중학교",
+      "level": "중학교",
+      "address": "경기도 하남시 대청로59번길 37",
+      "gu": "",
+      "dong": "신장동",
+      "events": [
+        {
+          "date": "2026-11-03",
+          "name": "재난 대응 대피 훈련",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "학생자치회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "진로직업체험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "영양식생활교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "장애인식개선교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동아리 발표회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692048",
+      "name": "신평중학교",
+      "level": "중학교",
+      "address": "경기도 하남시 신장동로 57",
+      "gu": "",
+      "dong": "신장동",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "인권교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "장애이해교육(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "진로활동(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "마약예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "다문화이해교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "학급회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "장애이해교육(3학년/교과)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "진로특강",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "진로특강",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "진로특강",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "성교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "진로특강(전일)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "창의적특색활동(3학년/자율)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "대토론회 및 학생자치회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "신평예술축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692131",
+      "name": "위례중학교",
+      "level": "중학교",
+      "address": "경기도 하남시 위례순환로 343",
+      "gu": "",
+      "dong": "학암동",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "성적이의신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일(대학수학능력시험)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "성적이의신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 지필평가(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 지필평가(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "성적이의신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "성적이의신청기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "두드림 축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7692152",
+      "name": "윤슬중학교",
+      "level": "중학교",
+      "address": "경기도 하남시 풍산로 168",
+      "gu": "",
+      "dong": "망월동",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일(대입수능)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "학부모상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "학부모상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "꿈·끼 탐색주간(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "학부모상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "꿈·끼 탐색주간(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "학부모상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "꿈·끼 탐색주간(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "학부모상담주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "꿈·끼 탐색주간(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "꿈·끼 탐색주간(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "대토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "학생자치회임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "교육활동 나눔의 날(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "교육활동 나눔의 날(3학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692130",
+      "name": "은가람중학교",
+      "level": "중학교",
+      "address": "경기도 하남시 미사강변한강로 9",
+      "gu": "",
+      "dong": "선동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692084",
+      "name": "하남중학교",
+      "level": "중학교",
+      "address": "경기도 하남시 천현로 113",
+      "gu": "",
+      "dong": "창우동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "한마음축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7692238",
+      "name": "한홀중학교",
+      "level": "중학교",
+      "address": "경기도 하남시 조정대로 115",
+      "gu": "",
+      "dong": "풍산동",
+      "events": [
+        {
+          "date": "2026-12-15",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "정기고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531390",
+      "name": "감일고등학교",
+      "level": "고등학교",
+      "address": "경기도 하남시 감일순환로 165",
+      "gu": "",
+      "dong": "감이동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530059",
+      "name": "남한고등학교",
+      "level": "고등학교",
+      "address": "경기도 하남시 신평로 25",
+      "gu": "",
+      "dong": "덕풍동",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "동아리발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531244",
+      "name": "미사강변고등학교",
+      "level": "고등학교",
+      "address": "경기도 하남시 미사강변한강로 75",
+      "gu": "",
+      "dong": "선동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "SLAT",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "SLAT",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "SLAT",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "SLAT",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "SLAT",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "SLAT",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "SLAT",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "SLAT",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "SLAT",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "SLAT",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "SLAT",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "SLAT",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531163",
+      "name": "미사고등학교",
+      "level": "고등학교",
+      "address": "경기도 하남시 미사강변한강로 210",
+      "gu": "",
+      "dong": "망월동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-04",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "학과체험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "미사 어울림 한마당 축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530657",
+      "name": "신장고등학교",
+      "level": "고등학교",
+      "address": "경기도 하남시 신장동로 19",
+      "gu": "",
+      "dong": "신장동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "세뜰제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7531245",
+      "name": "위례고등학교",
+      "level": "고등학교",
+      "address": "경기도 하남시 위례순환로 323",
+      "gu": "",
+      "dong": "학암동",
+      "events": [
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "동아리활동체험 및 발표대회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "한마음테마축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "사정회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531012",
+      "name": "풍산고등학교",
+      "level": "고등학교",
+      "address": "경기도 하남시 덕풍서로 11",
+      "gu": "",
+      "dong": "덕풍동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "동아리발표/축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7531144",
+      "name": "하남경영고등학교",
+      "level": "고등학교",
+      "address": "경기도 하남시 대청로116번길 11",
+      "gu": "",
+      "dong": "창우동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-30",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530214",
+      "name": "하남고등학교",
+      "level": "고등학교",
+      "address": "경기도 하남시 미사강변남로 39",
+      "gu": "",
+      "dong": "망월동",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "동아리활동(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "학생 대토론회(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "대학수학능력시험 예비소집",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "학급별 봉사활동(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "학급활동(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "학급활동(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "학급활동(2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "금요일 시간표",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530495",
+      "name": "한국애니메이션고등학교",
+      "level": "고등학교",
+      "address": "경기도 하남시 검단산로 223",
+      "gu": "",
+      "dong": "창우동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-17",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
