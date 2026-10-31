@@ -1,9 +1,9 @@
 {
   "region": "화성시",
-  "updated_at": "2026-10-31 06:24:39",
+  "updated_at": "2026-11-01 06:20:54",
   "period": {
-    "from": "20261031",
-    "to": "20261230"
+    "from": "20261101",
+    "to": "20261231"
   },
   "school_count": 197,
   "public_holidays": [
@@ -37,6 +37,14 @@
     },
     {
       "date": "2026-12-30",
+      "name": "겨울방학"
+    },
+    {
+      "date": "2026-12-31",
+      "name": "학년말방학"
+    },
+    {
+      "date": "2026-12-31",
       "name": "겨울방학"
     }
   ],
@@ -2312,6 +2320,846 @@
       "date": "2026-12-30",
       "name": "졸업식",
       "holiday": false
+    },
+    {
+      "school": "갈담초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "졸업식(5~6학년)",
+      "holiday": false
+    },
+    {
+      "school": "고정초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "고정초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "종업식, 졸업식",
+      "holiday": false
+    },
+    {
+      "school": "구봉초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "기산초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "기안초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "남양초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "내리숲초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "노진초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "능동중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "능동초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식,종업식",
+      "holiday": false
+    },
+    {
+      "school": "다올초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "다원중학교",
+      "level": "중학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "한마음축제",
+      "holiday": false
+    },
+    {
+      "school": "다원초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "대양초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "동탄목동초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "동탄목동초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "동탄중앙초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "종업식 및 졸업식",
+      "holiday": false
+    },
+    {
+      "school": "동탄초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "동학초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "동학초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "마도초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "마산초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "마산초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "반석초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "반송고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "반송초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "방교초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "배양초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "병점초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-12-31",
+      "name": "졸업식(6학년)",
+      "holiday": false
+    },
+    {
+      "school": "봉담고등학교",
+      "level": "고등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "동아리 활동 발표회",
+      "holiday": false
+    },
+    {
+      "school": "봉담초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "비봉초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "사창초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "삼괴고등학교",
+      "level": "고등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식, 종업식",
+      "holiday": false
+    },
+    {
+      "school": "상봉초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "상신초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "새동초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "새솔초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "서봉초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "서신초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서연초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "석우초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "석우초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "석천초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "솔빛초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "송라초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "송화초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "수기초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "졸업식 종업식",
+      "holiday": false
+    },
+    {
+      "school": "수기초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "겨울방학식(수업)",
+      "holiday": false
+    },
+    {
+      "school": "수현초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "숲속초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "신남초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "안녕초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "안화초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "양감중학교",
+      "level": "중학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "양감초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "양감초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "예당고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "예당초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "예솔초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "예원초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "와우초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "우정초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "율목초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "이산고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "이솔고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이솔초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "장명초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "정림초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "정현고등학교",
+      "level": "고등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "정현초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "제암초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "청룡초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "청룡초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "청림초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "청연초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청원초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "팔탄초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "팔탄초등학교대방분교장",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "푸른초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "하길초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "학동초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "한율초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "해운초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "행정초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "향남초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "화남초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "화산초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "화성금곡초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "화성매송초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "화성바른초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "화성반월고등학교",
+      "level": "고등학교",
+      "gu": "병점구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "화성반월초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "화성벌말초등학교",
+      "level": "초등학교",
+      "gu": "병점구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "화성신동초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "화성월문초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "화성장안초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "화성청계초등학교",
+      "level": "초등학교",
+      "gu": "동탄구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "화성화수초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "화원초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "활초초등학교",
+      "level": "초등학교",
+      "gu": "만세구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "효행초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "효행초등학교",
+      "level": "초등학교",
+      "gu": "효행구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
     }
   ],
   "schools": [
@@ -2336,6 +3184,11 @@
           "date": "2026-11-19",
           "name": "학교장재량휴업일",
           "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식,종업식",
+          "holiday": false
         }
       ]
     },
@@ -2356,6 +3209,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2366,7 +3224,18 @@
       "address": "경기도 화성시 동탄구 동탄대로24길 112",
       "gu": "동탄구",
       "dong": "",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679419",
@@ -2375,7 +3244,23 @@
       "address": "경기도 화성시 동탄순환대로20길 10",
       "gu": "동탄구",
       "dong": "목동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679339",
@@ -2389,6 +3274,11 @@
           "date": "2026-11-19",
           "name": "학교장재량휴업",
           "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식 및 졸업식",
+          "holiday": false
         }
       ]
     },
@@ -2409,6 +3299,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2433,6 +3328,16 @@
           "date": "2026-11-19",
           "name": "학교장재량휴업일",
           "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -2453,6 +3358,16 @@
           "date": "2026-12-10",
           "name": "전교임원선거",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -2463,7 +3378,18 @@
       "address": "경기도 화성시 동탄산척로1길 11",
       "gu": "동탄구",
       "dong": "",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679395",
@@ -2472,7 +3398,18 @@
       "address": "경기도 화성시 동탄대로4가길 25",
       "gu": "동탄구",
       "dong": "장지동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679037",
@@ -2481,7 +3418,23 @@
       "address": "경기도 화성시 동탄시범한빛길 32",
       "gu": "동탄구",
       "dong": "반송동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679421",
@@ -2509,6 +3462,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2564,6 +3522,11 @@
           "date": "2026-12-30",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2617,6 +3580,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2627,7 +3595,13 @@
       "address": "경기도 화성시 동탄순환대로22길 13",
       "gu": "동탄구",
       "dong": "청계동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679304",
@@ -2636,7 +3610,18 @@
       "address": "경기도 화성시 동탄반석로 259",
       "gu": "동탄구",
       "dong": "석우동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679367",
@@ -2665,7 +3650,18 @@
       "address": "경기도 화성시 동탄순환대로8길 26",
       "gu": "동탄구",
       "dong": "장지동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679387",
@@ -2684,6 +3680,11 @@
           "date": "2026-12-30",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2694,7 +3695,18 @@
       "address": "경기도 화성시 동탄산척로 93-22",
       "gu": "동탄구",
       "dong": "산척동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679369",
@@ -2721,7 +3733,18 @@
       "address": "경기도 화성시 동탄공원로 21-38",
       "gu": "동탄구",
       "dong": "능동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679062",
@@ -2745,6 +3768,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2773,7 +3801,18 @@
       "address": "경기도 화성시 동탄순환대로 429-10",
       "gu": "동탄구",
       "dong": "목동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679529",
@@ -2800,7 +3839,18 @@
       "address": "경기도 화성시 동탄순환대로 4길 16",
       "gu": "동탄구",
       "dong": "장지동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679013",
@@ -2809,7 +3859,18 @@
       "address": "경기도 화성시 동탄문화센터로 13",
       "gu": "동탄구",
       "dong": "반송동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679531",
@@ -2828,6 +3889,11 @@
           "date": "2026-12-30",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2923,6 +3989,16 @@
           "date": "2026-12-24",
           "name": "꿈끼탐색주간",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
         }
       ]
     },
@@ -2937,6 +4013,16 @@
         {
           "date": "2026-12-02",
           "name": "전교 임원 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
           "holiday": false
         }
       ]
@@ -2957,7 +4043,18 @@
       "address": "경기도 화성시 만세구 송산면 공룡로 326",
       "gu": "만세구",
       "dong": "송산면",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식, 졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679016",
@@ -2976,6 +4073,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2991,6 +4093,11 @@
           "date": "2026-12-30",
           "name": "졸업식 및 종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3001,7 +4108,18 @@
       "address": "경기도 화성시 남양읍 시청로32번길 80",
       "gu": "만세구",
       "dong": "남양읍",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679019",
@@ -3028,7 +4146,18 @@
       "address": "경기도 화성시 마도면 석교로 157",
       "gu": "만세구",
       "dong": "마도면",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679025",
@@ -3037,7 +4166,23 @@
       "address": "경기도 화성시 송산면 송산포도로 582",
       "gu": "만세구",
       "dong": "송산면",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679028",
@@ -3070,6 +4215,11 @@
           "date": "2026-12-30",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3090,6 +4240,11 @@
           "date": "2026-12-30",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3100,7 +4255,13 @@
       "address": "경기도 화성시 남양읍 남양중앙로 346",
       "gu": "만세구",
       "dong": "남양읍",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
     },
     {
       "code": "7679440",
@@ -3109,7 +4270,18 @@
       "address": "경기도 화성시 수노을1로 123",
       "gu": "만세구",
       "dong": "새솔동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679534",
@@ -3118,7 +4290,18 @@
       "address": "경기도 화성시 향남읍 상신하길로195번길",
       "gu": "만세구",
       "dong": "향남읍",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679036",
@@ -3137,6 +4320,11 @@
           "date": "2026-12-30",
           "name": "종업식 및 졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3187,6 +4375,11 @@
           "date": "2026-12-30",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3215,7 +4408,18 @@
       "address": "경기도 화성시 만세구 남양읍 화성시청역로 2",
       "gu": "만세구",
       "dong": "남양읍",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679047",
@@ -3224,7 +4428,18 @@
       "address": "경기도 화성시 양감면 초록로 49",
       "gu": "만세구",
       "dong": "양감면",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679050",
@@ -3248,6 +4463,11 @@
           "date": "2026-12-30",
           "name": "겨울방학식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3268,6 +4488,11 @@
           "date": "2026-12-30",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3498,6 +4723,16 @@
           "date": "2026-12-30",
           "name": "학년말 방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "학년말 방학",
+          "holiday": true
         }
       ]
     },
@@ -3508,7 +4743,13 @@
       "address": "경기도 화성시 마도면 해운로 794",
       "gu": "만세구",
       "dong": "마도면",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679060",
@@ -3517,7 +4758,18 @@
       "address": "경기도 화성시 팔탄면 마당바위로31번길 6",
       "gu": "만세구",
       "dong": "팔탄면",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679096",
@@ -3526,7 +4778,18 @@
       "address": "경기도 화성시 팔탄면 노하길 398",
       "gu": "만세구",
       "dong": "팔탄면",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679368",
@@ -3535,7 +4798,18 @@
       "address": "경기도 화성시 향남읍 상신하길로 273번길 45",
       "gu": "만세구",
       "dong": "향남읍",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679064",
@@ -3553,7 +4827,13 @@
       "address": "경기도 화성시 서신면 궁평항로 1374-6",
       "gu": "만세구",
       "dong": "서신면",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679066",
@@ -3562,7 +4842,18 @@
       "address": "경기도 화성시 만세구 향남읍 행정중앙1로 77",
       "gu": "만세구",
       "dong": "향남읍",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679067",
@@ -3580,6 +4871,16 @@
         {
           "date": "2026-12-15",
           "name": "전교학생자치회선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
           "holiday": false
         }
       ]
@@ -3601,6 +4902,11 @@
           "date": "2026-12-30",
           "name": "겨울방학식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3621,6 +4927,11 @@
           "date": "2026-12-30",
           "name": "종(졸)업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3650,6 +4961,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3660,7 +4976,18 @@
       "address": "경기도 화성시 향남읍 하길로 59",
       "gu": "만세구",
       "dong": "향남읍",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679075",
@@ -3679,6 +5006,11 @@
           "date": "2026-12-30",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3694,6 +5026,11 @@
           "date": "2026-11-19",
           "name": "학교장재량휴업일",
           "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
         }
       ]
     },
@@ -3714,6 +5051,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3724,7 +5066,23 @@
       "address": "경기도 화성시 병점구 영통로27번길 46",
       "gu": "병점구",
       "dong": "",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679030",
@@ -3733,7 +5091,18 @@
       "address": "경기도 화성시 경기대로 1052",
       "gu": "병점구",
       "dong": "진안동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식(6학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679468",
@@ -3780,6 +5149,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3875,6 +5249,16 @@
           "date": "2026-12-03",
           "name": "전교어린이임원선출",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -3890,6 +5274,11 @@
           "date": "2026-11-19",
           "name": "학교장재량휴업일",
           "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
         }
       ]
     },
@@ -3900,7 +5289,18 @@
       "address": "경기도 화성시 영통로50번길 19",
       "gu": "병점구",
       "dong": "반월동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679056",
@@ -3948,6 +5348,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3958,7 +5363,18 @@
       "address": "경기도 화성시 효행로 1281-23",
       "gu": "병점구",
       "dong": "반월동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679071",
@@ -3967,7 +5383,18 @@
       "address": "경기도 화성시 떡전골로 34",
       "gu": "병점구",
       "dong": "병점동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679009",
@@ -3976,7 +5403,13 @@
       "address": "경기도 화성시 봉담읍 갈담초교길 24",
       "gu": "효행구",
       "dong": "봉담읍",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식(5~6학년)",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679015",
@@ -3985,7 +5418,18 @@
       "address": "경기도 화성시 효행구 기안길 18",
       "gu": "효행구",
       "dong": "기안동",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679512",
@@ -3994,7 +5438,18 @@
       "address": "경기도 화성시 봉담읍 삼봉안1길 21-7",
       "gu": "효행구",
       "dong": "봉담읍",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679023",
@@ -4042,6 +5497,11 @@
           "date": "2026-12-30",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -4062,6 +5522,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -4122,6 +5587,11 @@
           "date": "2026-12-30",
           "name": "졸업식행사",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -4132,7 +5602,18 @@
       "address": "경기도 화성시 효행구 봉담읍 상봉길 52",
       "gu": "효행구",
       "dong": "봉담읍",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679040",
@@ -4191,6 +5672,11 @@
           "date": "2026-12-30",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -4201,7 +5687,18 @@
       "address": "경기도 화성시 봉담읍 수기웃말길 27",
       "gu": "효행구",
       "dong": "봉담읍",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식 종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식(수업)",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679044",
@@ -4249,6 +5746,16 @@
           "date": "2026-12-09",
           "name": "전교학생자치회 임원 선거",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -4269,6 +5776,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -4313,6 +5825,11 @@
           "date": "2026-11-30",
           "name": "흡연예방교육",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
         }
       ]
     },
@@ -4323,7 +5840,18 @@
       "address": "경기도 화성시 비봉면 주석로 610",
       "gu": "효행구",
       "dong": "비봉면",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679516",
@@ -4342,6 +5870,11 @@
           "date": "2026-12-30",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -4402,6 +5935,11 @@
           "date": "2026-12-30",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -4412,7 +5950,18 @@
       "address": "경기도 화성시 봉담읍 와우로 16",
       "gu": "효행구",
       "dong": "봉담읍",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7679103",
@@ -4455,6 +6004,16 @@
         {
           "date": "2026-12-09",
           "name": "2학기 2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
           "holiday": false
         }
       ]
@@ -4504,6 +6063,11 @@
         },
         {
           "date": "2026-12-30",
+          "name": "한마음축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
           "name": "한마음축제",
           "holiday": false
         }
@@ -4921,6 +6485,11 @@
           "date": "2026-12-10",
           "name": "1,2학년 2차 지필평가",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "예당제",
+          "holiday": false
         }
       ]
     },
@@ -5020,6 +6589,11 @@
         {
           "date": "2026-12-16",
           "name": "2차정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "반가부르기행사",
           "holiday": false
         }
       ]
@@ -5639,6 +7213,11 @@
           "date": "2026-12-17",
           "name": "정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "솔향제",
+          "holiday": false
         }
       ]
     },
@@ -5650,11 +7229,6 @@
       "gu": "만세구",
       "dong": "송산면",
       "events": [
-        {
-          "date": "2026-10-31",
-          "name": "주말인재프로그램",
-          "holiday": false
-        },
         {
           "date": "2026-11-04",
           "name": "안전점검의날",
@@ -5938,6 +7512,16 @@
         {
           "date": "2026-12-30",
           "name": "학교자율교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
           "holiday": false
         }
       ]
@@ -6564,6 +8148,11 @@
           "date": "2026-12-30",
           "name": "3학년 체육축제",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "학교폭력예방교육",
+          "holiday": false
         }
       ]
     },
@@ -7043,6 +8632,11 @@
           "date": "2026-12-16",
           "name": "2학기 2차 지필평가(2학년)",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "정남뮤직페스티벌",
+          "holiday": false
         }
       ]
     },
@@ -7290,13 +8884,13 @@
       "events": [
         {
           "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": false
+          "name": "재량휴업일",
+          "holiday": true
         },
         {
           "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
+          "name": "대학수학능력시험",
+          "holiday": false
         },
         {
           "date": "2026-11-20",
@@ -7487,6 +9081,11 @@
           "date": "2026-12-30",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -7637,6 +9236,11 @@
           "date": "2026-12-30",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -7692,6 +9296,16 @@
           "date": "2026-12-24",
           "name": "예술축제",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
         }
       ]
     },
@@ -7737,6 +9351,11 @@
           "date": "2026-12-30",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -7776,6 +9395,16 @@
         {
           "date": "2026-12-11",
           "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
           "holiday": false
         }
       ]
@@ -7947,6 +9576,11 @@
           "date": "2026-12-15",
           "name": "2차 정기시험",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "한백제",
+          "holiday": false
         }
       ]
     },
@@ -8056,6 +9690,11 @@
         {
           "date": "2026-12-24",
           "name": "학교주도시간(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "한마음 화합의 날",
           "holiday": false
         }
       ]
@@ -8232,6 +9871,11 @@
           "date": "2026-12-18",
           "name": "2차 정기시험(1,2학년)",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식, 종업식",
+          "holiday": false
         }
       ]
     },
@@ -8341,6 +9985,11 @@
         {
           "date": "2026-12-11",
           "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "청솔제",
           "holiday": false
         }
       ]
@@ -8651,6 +10300,16 @@
           "date": "2026-12-24",
           "name": "반월제",
           "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
         }
       ]
     },
@@ -8710,6 +10369,11 @@
         {
           "date": "2026-12-23",
           "name": "학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동아리 활동 발표회",
           "holiday": false
         }
       ]
