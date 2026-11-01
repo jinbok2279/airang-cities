@@ -876,14 +876,14 @@ function viewMy() {
 {{/if}}
       <div style="flex:1;min-width:0"><div class="nm">${esc(k.name)}</div><div class="ad">${sc ? esc((kidGradeText(k, sc) ? levelShort(sc).replace("등", "") + " " + kidGradeText(k, sc) : levelShort(sc)) + " · " + sc.name) : "학교 정보 없음"}${k.acas && k.acas.length ? ` · 학원 ${k.acas.length}곳` : ""}${sc && !k.grade ? ` · <b style="color:var(--coral-ink)">학년을 넣어 주세요</b>` : ""}</div></div><span style="font-size:13px;color:var(--indigo);font-weight:700">수정</span></button>`; }).join("");
 {{#if yongin}}
-  const M = [["acas", "✏️", "t-indigo", "학원<br>찾기"], ["kinders", "🧸", "t-sun", "유치원<br>찾기"], ["library", "📚", "t-mint", "도서관<br>빈자리"], ["books", "📖", "t-coral", "대출<br>베스트"],
+  const M = [["acas", "✏️", "t-indigo", "학원·<br>수강료"], ["kinders", "🧸", "t-sun", "유치원<br>찾기"], ["library", "📚", "t-mint", "도서관<br>빈자리"], ["books", "📖", "t-coral", "대출<br>베스트"],
 {{#else}}
-  const M = [["acas", "✏️", "t-indigo", "학원<br>찾기"], ["kinders", "🧸", "t-sun", "유치원<br>찾기"], ["library", "📚", "t-mint", "도서관<br>찾기"], ["books", "📖", "t-coral", "대출<br>베스트"],
+  const M = [["acas", "✏️", "t-indigo", "학원·<br>수강료"], ["kinders", "🧸", "t-sun", "유치원<br>찾기"], ["library", "📚", "t-mint", "도서관<br>찾기"], ["books", "📖", "t-coral", "대출<br>베스트"],
 {{/if}}
 {{#if seoul}}
-    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["premium", "📊", "t-sun", "수강료<br>비교", 1], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["sports", "🏊", "t-mint", "운동<br>교실"]];
+    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["sports", "🏊", "t-mint", "운동<br>교실"]];
 {{#else}}
-    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["premium", "📊", "t-sun", "수강료<br>비교", 1], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["sports", "🏊", "t-mint", "운동<br>교실"], ["jobs", "💼", "t-coral", "엄마<br>일자리"]];
+    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["sports", "🏊", "t-mint", "운동<br>교실"], ["jobs", "💼", "t-coral", "엄마<br>일자리"]];
 {{/if}}
   $view.innerHTML = `<h1 style="font-size:27px;font-weight:800;margin-bottom:16px">전체 메뉴</h1>
     <div class="mgrid3">${M.map(([r, e, t, l]) => `<button class="mtile" onclick="go('${r}')">${MICON[r] ? `<img src="assets/${MICON[r]}.webp" alt="" width="68" height="68" decoding="async">` : e3d(e, 68)}<b>${l.replace("·<br>", "·").replace("<br>", " ")}</b></button>`).join("")}</div>
@@ -1523,7 +1523,7 @@ let acaF = null, acaShow = 40;
 function acaFilter() { if (!acaF) { const rg = region(); acaF = { gu: rg.gu || "", dong: rg.dong || "", cat: "전체", q: "" }; } return acaF; }
 function median(arr) { if (!arr.length) return 0; const s = [...arr].sort((x, y) => x - y); const m = s.length >> 1; return s.length % 2 ? s[m] : Math.round((s[m - 1] + s[m]) / 2); }
 function viewAcaList() {
-  const head = `<h1 style="font-size:27px;font-weight:800">학원 찾기</h1>`;
+  const head = `<h1 style="font-size:27px;font-weight:800">학원·수강료</h1>`;
   if (!ACAS) { $view.innerHTML = head + `<div class="lift empty" style="margin-top:16px">학원 목록을 불러오는 중이에요…</div>`; loadAcas().then(() => { if (location.hash === "#acas") render(); }).catch(() => { $view.innerHTML = head + `<div class="lift empty" style="margin-top:16px">학원 목록을 불러오지 못했어요. 인터넷 연결을 확인해 주세요.</div>`; }); return; }
   const f = acaFilter();
   const inArea = ACAS.academies.filter(a => (!f.gu || a.gu === f.gu) && (!f.dong || a.dong === f.dong));
