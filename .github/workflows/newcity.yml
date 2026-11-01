@@ -21,6 +21,7 @@ jobs:
       KOPIS_KEY: ${{ secrets.KOPIS_KEY }}
       TOUR_KEY: ${{ secrets.TOUR_KEY || secrets.WEATHER_KEY }}
       KAKAO_KEY: ${{ secrets.KAKAO_KEY }}
+      SEOUL_KEY: ${{ secrets.SEOUL_KEY }}
       WEATHER_KEY: ${{ secrets.WEATHER_KEY }}
     steps:
       - uses: actions/checkout@v4

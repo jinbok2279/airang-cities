@@ -68,6 +68,7 @@ jobs:
       KOPIS_KEY: ${{ secrets.KOPIS_KEY }}
       TOUR_KEY: ${{ secrets.TOUR_KEY || secrets.WEATHER_KEY }}
       CULTURE_KEY: ${{ secrets.CULTURE_KEY }}
+      SEOUL_KEY: ${{ secrets.SEOUL_KEY }}   # 서울 열린데이터광장 (서울 구 문화행사·공공예약)
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
