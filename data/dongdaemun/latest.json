@@ -1,0 +1,4671 @@
+{
+  "region": "동대문구",
+  "updated_at": "2026-11-01 16:40:35",
+  "period": {
+    "from": "20261101",
+    "to": "20261231"
+  },
+  "school_count": 47,
+  "public_holidays": [
+    {
+      "date": "2026-11-01",
+      "name": "신입생입학설명회"
+    },
+    {
+      "date": "2026-11-22",
+      "name": "동아리 음악회"
+    },
+    {
+      "date": "2026-12-21",
+      "name": "겨울방학"
+    },
+    {
+      "date": "2026-12-22",
+      "name": "겨울방학"
+    },
+    {
+      "date": "2026-12-23",
+      "name": "겨울방학"
+    },
+    {
+      "date": "2026-12-24",
+      "name": "겨울방학"
+    },
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    },
+    {
+      "date": "2026-12-28",
+      "name": "겨울방학"
+    },
+    {
+      "date": "2026-12-29",
+      "name": "겨울방학"
+    },
+    {
+      "date": "2026-12-30",
+      "name": "겨울방학"
+    },
+    {
+      "date": "2026-12-31",
+      "name": "겨울방학"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "휘경여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-05",
+      "name": "본교입학설명회",
+      "holiday": false
+    },
+    {
+      "school": "휘경여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-06",
+      "name": "학년, 학급별 체험활동 사전교육",
+      "holiday": false
+    },
+    {
+      "school": "전일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-09",
+      "name": "학년별 체험 활동의 날",
+      "holiday": false
+    },
+    {
+      "school": "휘경여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-09",
+      "name": "학년체험활동",
+      "holiday": false
+    },
+    {
+      "school": "휘경여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-10",
+      "name": "학년체험활동",
+      "holiday": false
+    },
+    {
+      "school": "휘경여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-11",
+      "name": "학년체험활동",
+      "holiday": false
+    },
+    {
+      "school": "대광중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-12",
+      "name": "큰빛축제",
+      "holiday": false
+    },
+    {
+      "school": "전동중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-12",
+      "name": "재량휴업일(대입수능)",
+      "holiday": true
+    },
+    {
+      "school": "휘경여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-12",
+      "name": "일요대체휴업일",
+      "holiday": true
+    },
+    {
+      "school": "전동중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-13",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "정화여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-13",
+      "name": "진로체험",
+      "holiday": false
+    },
+    {
+      "school": "청량중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-13",
+      "name": "창의체험의 날",
+      "holiday": false
+    },
+    {
+      "school": "휘경여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-14",
+      "name": "프론티어 바이오켐 클래스",
+      "holiday": true
+    },
+    {
+      "school": "경희고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(1,2학년)",
+      "holiday": true
+    },
+    {
+      "school": "경희여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "경희여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "경희중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능일",
+      "holiday": true
+    },
+    {
+      "school": "경희초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력평가일",
+      "holiday": true
+    },
+    {
+      "school": "대광고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업",
+      "holiday": true
+    },
+    {
+      "school": "대광중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능일",
+      "holiday": true
+    },
+    {
+      "school": "동국대학교사범대학부속중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일(대입수능)",
+      "holiday": true
+    },
+    {
+      "school": "동대문중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "서울전곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교자율휴업일",
+      "holiday": true
+    },
+    {
+      "school": "서울정화고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "성일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능휴업일",
+      "holiday": true
+    },
+    {
+      "school": "숭인중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "은석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "자율휴업일",
+      "holiday": true
+    },
+    {
+      "school": "장평중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "전농중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "전일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능일",
+      "holiday": true
+    },
+    {
+      "school": "정화여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "청량고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "청량중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "해성국제컨벤션고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "해성여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입 수능일(재량휴업 1,2학년)",
+      "holiday": true
+    },
+    {
+      "school": "휘경여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "휘경여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "휘경여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "휘경중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "휘경중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능일",
+      "holiday": true
+    },
+    {
+      "school": "휘봉고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "경희고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "경희여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "경희여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "경희중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "대광고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업",
+      "holiday": true
+    },
+    {
+      "school": "대광중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "동대문중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "성일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "숭인중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "장평중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "전농중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "전일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "청량고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "해성여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "휘경여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "휘경여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "휘경중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "서울군자초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-22",
+      "name": "개교기념일",
+      "holiday": true
+    },
+    {
+      "school": "서울군자초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-23",
+      "name": "학교자율휴업일",
+      "holiday": true
+    },
+    {
+      "school": "서울답십리초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-27",
+      "name": "개교기념일 기념식",
+      "holiday": false
+    },
+    {
+      "school": "서울홍릉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-30",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "서울정화고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-01",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "휘봉고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-02",
+      "name": "교육체험활동",
+      "holiday": false
+    },
+    {
+      "school": "휘봉고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-03",
+      "name": "교육체험활동",
+      "holiday": false
+    },
+    {
+      "school": "동국대학교사범대학부속중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-04",
+      "name": "수레한마당",
+      "holiday": false
+    },
+    {
+      "school": "휘봉고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-04",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "장평중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-09",
+      "name": "졸업진급사정회",
+      "holiday": false
+    },
+    {
+      "school": "경희여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-14",
+      "name": "체험학습주간",
+      "holiday": false
+    },
+    {
+      "school": "경희여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-15",
+      "name": "체험학습주간",
+      "holiday": false
+    },
+    {
+      "school": "경희여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-16",
+      "name": "체험학습주간",
+      "holiday": false
+    },
+    {
+      "school": "경희여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-17",
+      "name": "체험학습주간",
+      "holiday": false
+    },
+    {
+      "school": "경희여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "체험학습주간",
+      "holiday": false
+    },
+    {
+      "school": "은석초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "서울종암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "경희여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "영재학급발표회",
+      "holiday": false
+    },
+    {
+      "school": "서울동답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "서울전농초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "서울종암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울휘경초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "서울휘봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "동국대학교사범대학부속중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "협력종합예술발표회",
+      "holiday": false
+    },
+    {
+      "school": "서울군자초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "서울동답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울배봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "서울전농초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울전동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "서울종암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울홍릉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "서울휘경초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울휘봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울동답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울배봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울신답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울전농초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울전동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울종암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울휘경초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울휘봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울군자초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울동답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울배봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울신답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울전농초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울전동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울종암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울휘경초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울휘봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울군자초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울동답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울배봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울신답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울전농초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울전동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울종암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울휘경초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울휘봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울군자초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울동답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울배봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울신답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울전농초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울전동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울종암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울홍릉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울휘경초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울휘봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "경희고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울군자초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울동답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울배봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울신답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울안평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "서울전농초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울전동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울종암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울홍릉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울휘경초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울휘봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "전동중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "학년별 문화체험의 날",
+      "holiday": false
+    },
+    {
+      "school": "휘봉고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "경희고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "경희여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "학교 축제",
+      "holiday": false
+    },
+    {
+      "school": "경희여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "서울군자초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울동답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울배봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울신답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울안평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울전농초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울전동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울종암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울청량초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "서울홍릉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울휘경초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울휘봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "전일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "해성국제컨벤션고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "해성여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "휘봉고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "경희고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "경희여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "방학식[단축수업]",
+      "holiday": false
+    },
+    {
+      "school": "경희여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "경희중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대광고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "서울군자초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울동답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울배봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울신답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울안평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울전곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "서울전농초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울전동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울정화고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "서울종암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울청량초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울홍릉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울홍파초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "서울휘경초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울휘봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "장평중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "전일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "정화여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "청량중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "해성국제컨벤션고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "해성여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "휘봉고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    }
+  ],
+  "schools": [
+    {
+      "code": "7021079",
+      "name": "경희초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 경희대로 26",
+      "gu": "",
+      "dong": "회기동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021082",
+      "name": "서울군자초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 한천로6길 21",
+      "gu": "",
+      "dong": "장안동",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "대입수능일",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-22",
+          "name": "개교기념일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "학교자율휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021083",
+      "name": "서울답십리초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 전농로3길 23",
+      "gu": "",
+      "dong": "답십리동",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "인권교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "인권교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "인권교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "인권교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "인권교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "학교사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "학교사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "학교사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "학교사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "학교사랑주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "개교기념일 기념식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "부장워크숍",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "꿈끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "꿈끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "꿈끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "꿈끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "꿈끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "전직원 교육과정 워크숍",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "1학기 전교임원선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7021084",
+      "name": "서울동답초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 답십리로60길 12",
+      "gu": "",
+      "dong": "답십리동",
+      "events": [
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021095",
+      "name": "서울배봉초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 사가정로 193",
+      "gu": "",
+      "dong": "전농동",
+      "events": [
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021168",
+      "name": "서울삼육초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 회기로10길 63",
+      "gu": "",
+      "dong": "회기동",
+      "events": [
+        {
+          "date": "2026-11-05",
+          "name": "생명존중교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "신입생 원서 교부 및 접수",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "학년 특색 대회 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "스케이트교실",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "신입생추첨일",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "스케이트교실",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "스케이트교실",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "스케이트교실",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "스케이트교실",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-22",
+          "name": "스케이트교실",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "스케이트교실",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "스케이트교실",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "영어공인인증시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "스케이트교실",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "영재학급창의력산출물대회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "스케이트교실",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "영재학급창의력산출물대회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "영재학급창의력산출물대회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "전교어린이임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "영어단어인증시험주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "향상음악회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "생활 영어 인증 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "향상음악회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "생활 영어 인증 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "향상음악회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "향상음악회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "향상음악회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "향상음악회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "가정폭력예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "향상음악회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "향상음악회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "향상음악회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "영재학급 수료식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "향상음악회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7021099",
+      "name": "서울신답초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 천호대로 177",
+      "gu": "",
+      "dong": "답십리동",
+      "events": [
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021102",
+      "name": "서울안평초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 장한로14길 61",
+      "gu": "",
+      "dong": "장안동",
+      "events": [
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021103",
+      "name": "서울용두초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 천호대로13길 43",
+      "gu": "",
+      "dong": "용두동",
+      "events": []
+    },
+    {
+      "code": "7021105",
+      "name": "서울이문초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 신이문로 16",
+      "gu": "",
+      "dong": "이문동",
+      "events": []
+    },
+    {
+      "code": "7021106",
+      "name": "서울장평초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 답십리로 ",
+      "gu": "",
+      "dong": "전농동",
+      "events": []
+    },
+    {
+      "code": "7021107",
+      "name": "서울전곡초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 전농로 172",
+      "gu": "",
+      "dong": "전농동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교자율휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7021108",
+      "name": "서울전농초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 사가정로 66",
+      "gu": "",
+      "dong": "전농동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수햑능력시험일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021109",
+      "name": "서울전동초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 전농로16길 61",
+      "gu": "",
+      "dong": "전농동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수능일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021110",
+      "name": "서울종암초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 무학로44길 25",
+      "gu": "",
+      "dong": "제기동",
+      "events": [
+        {
+          "date": "2026-12-22",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021116",
+      "name": "서울청량초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 회기로25길 31",
+      "gu": "",
+      "dong": "회기동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021117",
+      "name": "서울홍릉초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 회기로 90",
+      "gu": "",
+      "dong": "청량리동",
+      "events": [
+        {
+          "date": "2026-11-30",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021118",
+      "name": "서울홍파초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 고산자로 518",
+      "gu": "",
+      "dong": "제기동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7021119",
+      "name": "서울휘경초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 망우로6길 48",
+      "gu": "",
+      "dong": "휘경동",
+      "events": [
+        {
+          "date": "2026-12-17",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021120",
+      "name": "서울휘봉초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 장안벚꽃로 309",
+      "gu": "",
+      "dong": "휘경동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021121",
+      "name": "은석초등학교",
+      "level": "초등학교",
+      "address": "서울특별시 동대문구 장안벚꽃로 205",
+      "gu": "",
+      "dong": "장안동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "자율휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-18",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7021122",
+      "name": "경희여자중학교",
+      "level": "중학교",
+      "address": "서울특별시 동대문구 경희대로 26",
+      "gu": "",
+      "dong": "회기동",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "학급회(자율활동)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "장애이해교육(자율활동)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "봉사활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "1, 2학년 자율자치",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "학교폭력 예방교육(자율활동)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "진로활동(진로활동)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "인성교육(자율활동)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "봉사활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "학급회(자율활동)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "학급회(자율활동)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "다문화교육(자율활동)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "진로탐색 독서의 날(진로활동)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "안전교육(자율활동)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "지능정보서비스 과의존 예방교육(자율활동)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021123",
+      "name": "경희중학교",
+      "level": "중학교",
+      "address": "서울특별시 동대문구 경희대로 26",
+      "gu": "",
+      "dong": "회기동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021124",
+      "name": "대광중학교",
+      "level": "중학교",
+      "address": "서울특별시 동대문구 안암로 6",
+      "gu": "",
+      "dong": "신설동",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "큰빛축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "1,2학년 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "1,2학년 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "1,2학년 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "학생회장후보자정견발표",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7021125",
+      "name": "동국대학교사범대학부속중학교",
+      "level": "중학교",
+      "address": "서울특별시 동대문구 장안벚꽃로 201",
+      "gu": "",
+      "dong": "장안동",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "2학년 소규모테마여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "1학년 수련활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "3학년 소규모 테마여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "2학년 소규모테마여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "1학년 수련활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "3학년 소규모 테마여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "2학년 소규모테마여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "1학년 수련활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "3학년 소규모 테마여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "예불조회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "고입전형 성적산출 기준일",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "수능예비소집",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일(대입수능)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "교직원법회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "학생회장선거 소견발표",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "수계식",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "자비의 김장나눔",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "창체의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "토론의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "금요일 시간표",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "학생회장 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "수레한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "예불조회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "송년법회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "2학년기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "1학년 꿈행진",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "2학년기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "1학년 꿈행진",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "2학년기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "1학년 꿈행진",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "교원학습공동체",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "협력종합예술발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "전교직원 워크숍",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "여여세 집중(3학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7021126",
+      "name": "동대문중학교",
+      "level": "중학교",
+      "address": "서울특별시 동대문구 사가정로 59",
+      "gu": "",
+      "dong": "전농동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-21",
+          "name": "기말고사(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "기말고사(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "기말고사(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "기말고사(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "기말고사(2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7021131",
+      "name": "성일중학교",
+      "level": "중학교",
+      "address": "서울특별시 동대문구 왕산로23길 55",
+      "gu": "",
+      "dong": "제기동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021133",
+      "name": "숭인중학교",
+      "level": "중학교",
+      "address": "서울특별시 동대문구 천호대로47길 34",
+      "gu": "",
+      "dong": "답십리동",
+      "events": [
+        {
+          "date": "2026-11-05",
+          "name": "체육의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "진로의날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동아리의 날(예술제)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7021139",
+      "name": "장평중학교",
+      "level": "중학교",
+      "address": "서울특별시 동대문구 답십리로72길 158",
+      "gu": "",
+      "dong": "장안동",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "교직원 연수",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "장평제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-25",
+          "name": "교직원 연수",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "자유학기 진로탐색 활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "3학년 교육활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "자유학기 진로탐색 활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "3학년 교육활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "졸업진급사정회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "자유학기 진로탐색 활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "3학년 교육활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "학생회장단선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7021140",
+      "name": "전농중학교",
+      "level": "중학교",
+      "address": "서울특별시 동대문구 사가정로13길 71",
+      "gu": "",
+      "dong": "전농동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학년기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "1학년 진로탐색",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학년기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1학년 진로탐색",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학년기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1학년 진로탐색",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7021141",
+      "name": "전동중학교",
+      "level": "중학교",
+      "address": "서울특별시 동대문구 장안벚꽃로 291",
+      "gu": "",
+      "dong": "휘경동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "다문화이해교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "재량휴업일(대입수능)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-13",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "자치활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "학년별 문화체험의 날",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7021142",
+      "name": "전일중학교",
+      "level": "중학교",
+      "address": "서울특별시 동대문구 사가정로13길 67",
+      "gu": "",
+      "dong": "전농동",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "학년별 체험 활동의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "불꽃제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학년기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학년기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학년기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021143",
+      "name": "정화여자중학교",
+      "level": "중학교",
+      "address": "서울특별시 동대문구 홍릉로15길 50",
+      "gu": "",
+      "dong": "제기동",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "진로체험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-02",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "목화제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7021146",
+      "name": "청량중학교",
+      "level": "중학교",
+      "address": "서울특별시 동대문구 왕산로 301",
+      "gu": "",
+      "dong": "청량리동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "7교시 창체의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "금요대체수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "창의체험의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "진로의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "금요대체수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "청량제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "금요대체수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 기말고사(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "3학년 자기계발",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 기말고사(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "3학년 자기계발",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2학기 기말고사(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "3학년 자기계발",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "7교시 창체의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7021149",
+      "name": "휘경여자중학교",
+      "level": "중학교",
+      "address": "서울특별시 동대문구 한천로 247",
+      "gu": "",
+      "dong": "휘경동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7021150",
+      "name": "휘경중학교",
+      "level": "중학교",
+      "address": "서울특별시 동대문구 망우로18나길 20",
+      "gu": "",
+      "dong": "휘경동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "진로의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "봉사활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학생회장 선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7010126",
+      "name": "경희고등학교",
+      "level": "고등학교",
+      "address": "서울특별시 동대문구 경희대로 26",
+      "gu": "",
+      "dong": "회기동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(1,2학년)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "기말고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "기말고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "기말고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "기말고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "기말고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-12",
+          "name": "기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-13",
+          "name": "기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7010127",
+      "name": "경희여자고등학교",
+      "level": "고등학교",
+      "address": "서울특별시 동대문구 경희대로 26",
+      "gu": "",
+      "dong": "",
+      "events": [
+        {
+          "date": "2026-11-03",
+          "name": "수행평가 이의신청 기간(~5일)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "예비 고1 대상 중학교 홍보 방문(3,4교시)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "장애이해교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "안전교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "예비 고1 대상 2차 학교설명회(18시)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "도박예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "성매매예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "목요일 수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "대의원회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "주제탐구활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "수행평가 마감",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "성적 이의 신청 기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "성적 이의 신청 기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "성적 이의 신청 기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "수행평가 이의 신청 기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "수행평가 이의 신청 기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "수행평가 이의 신청 기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "주제탐구활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "체험학습주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "체험학습주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "체험학습주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "체험학습주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "체험학습주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "감염병 예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "성적 이의 신청 기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "금요일 수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "약물오남용 예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "성적 이의 신청 기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "영재학급발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "성적 이의 신청 기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "금요일 수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학교 축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "성적통지표 배부",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "방학식[단축수업]",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7010138",
+      "name": "대광고등학교",
+      "level": "고등학교",
+      "address": "서울특별시 동대문구 안암로 6",
+      "gu": "",
+      "dong": "신설동",
+      "events": [
+        {
+          "date": "2026-11-18",
+          "name": "수능예비소집일",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능(고3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7010151",
+      "name": "동국대학교사범대학부속고등학교",
+      "level": "고등학교",
+      "address": "서울특별시 동대문구 장안벚꽃로 201",
+      "gu": "",
+      "dong": "장안동",
+      "events": []
+    },
+    {
+      "code": "7011575",
+      "name": "서울반도체고등학교",
+      "level": "고등학교",
+      "address": "서울특별시 동대문구 겸재로 21",
+      "gu": "",
+      "dong": "휘경동",
+      "events": []
+    },
+    {
+      "code": "7011513",
+      "name": "서울정화고등학교",
+      "level": "고등학교",
+      "address": "서울특별시 동대문구 홍릉로15길 50",
+      "gu": "",
+      "dong": "제기동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-01",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "1.2학년기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1.2학년기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1.2학년기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "1.2학년기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7010113",
+      "name": "청량고등학교",
+      "level": "고등학교",
+      "address": "서울특별시 동대문구 왕산로 303",
+      "gu": "",
+      "dong": "청량리동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "기말고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7010811",
+      "name": "해성국제컨벤션고등학교",
+      "level": "고등학교",
+      "address": "서울특별시 동대문구 전농로20길 31",
+      "gu": "",
+      "dong": "전농동",
+      "events": [
+        {
+          "date": "2026-11-18",
+          "name": "수능예비소집",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-12",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7010818",
+      "name": "해성여자고등학교",
+      "level": "고등학교",
+      "address": "서울특별시 동대문구 전농로20길 31",
+      "gu": "",
+      "dong": "전농동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입 수능일(재량휴업 1,2학년)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대입 수능일(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-25",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "봉사활동평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7010267",
+      "name": "휘경여자고등학교",
+      "level": "고등학교",
+      "address": "서울특별시 동대문구 한천로 247",
+      "gu": "",
+      "dong": "휘경동",
+      "events": [
+        {
+          "date": "2026-11-05",
+          "name": "본교입학설명회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "학년, 학급별 체험활동 사전교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "테마여행안전교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "교통안전/흡연음주 예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-08",
+          "name": "테마여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "테마여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "학년체험활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "잔류학생지도",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "테마여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "학년체험활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "잔류학생지도",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "테마여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "학년체험활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "잔류학생지도",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "일요대체휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-12",
+          "name": "잔류학생지도",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "수능대비청소",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-14",
+          "name": "프론티어 바이오켐 클래스",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-16",
+          "name": "학생부점검및정정",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "형설반 수능 출정식",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "대수능예비소집일",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "수능출정식",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "수요일수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "목요일수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "금요일수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "교학공 운영의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "굳액션 봉사활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "금요일수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "정시생기부기준일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "생명존중교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "수행평가 점수 학생 확인",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "목요일수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "수행평가일람표전산실제출",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "청소검사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "학생도박예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "HR",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "시험지 분철",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "원안검토",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "학생부점검및정정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "서술형 답지 확인",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "자율 교육과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "방과후신청1차",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "자율 교육과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "자율 교육과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "생기부 집중 관리 기간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "방과후신청2차",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "생기부 집중 관리 기간",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7011113",
+      "name": "휘봉고등학교",
+      "level": "고등학교",
+      "address": "서울특별시 동대문구 한천로 290",
+      "gu": "",
+      "dong": "휘경동",
+      "events": [
+        {
+          "date": "2026-11-17",
+          "name": "목요일 대체수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "금요일 대체수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "교육체험활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "교육체험활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-10",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
