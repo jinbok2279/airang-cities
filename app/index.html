@@ -861,12 +861,18 @@ function viewSchool(code) {
 {{f.otherCities}}
 function otherCities() {
   const me = document.title.replace("아이랑 ", "").trim();
-  const group = (sido, label) => { const list = OTHER_CITIES.filter(([n, , s]) => s === sido && n !== me); return list.length ? `
-    <div style="font-size:12.5px;font-weight:800;color:var(--muted);margin:2px 0 8px">${label} <span style="font-weight:600">${list.length}</span></div>
-    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px">${list.map(([n, u]) => `<a class="btn btn-soft" style="height:34px;font-size:13px;padding:0 12px" href="${u}" target="_blank" rel="noopener" onclick="trackEvent('도시-${n}')">${n}</a>`).join("")}</div>` : ""; };
+  const mine = "{{f.sidoShort}}";
+  const tabs = [["경기", "경기도"], ["서울", "서울"]];
+  const tab = ([s, label]) => { const n = OTHER_CITIES.filter(([c, , x]) => x === s && c !== me).length; const on = s === mine;
+    return `<button type="button" class="oc-tab" data-s="${s}" onclick="ocTab('${s}')" style="flex:1;height:40px;border:0;border-radius:12px;font:inherit;font-size:14px;font-weight:800;cursor:pointer;background:${on ? "var(--city)" : "var(--city-soft)"};color:${on ? "#fff" : "var(--city-ink)"}">${label} <span style="font-weight:600;opacity:.8">${n}</span></button>`; };
+  const group = s => `<div class="oc-list" data-s="${s}" style="display:${s === mine ? "flex" : "none"};flex-wrap:wrap;gap:6px;margin:12px 0 14px">${OTHER_CITIES.filter(([n, , x]) => x === s && n !== me).map(([n, u]) => `<a class="btn btn-soft" style="height:34px;font-size:13px;padding:0 12px" href="${u}" target="_blank" rel="noopener" onclick="trackEvent('도시-${n}')">${n}</a>`).join("")}</div>`;
   return `<section class="section"><div class="sec-head"><h2>다른 도시 둘러보기</h2></div>
-    <div class="lift card-pad">${group("경기", "경기도")}${group("서울", "서울")}
+    <div class="lift card-pad"><div style="display:flex;gap:8px">${tabs.map(tab).join("")}</div>${tabs.map(([s]) => group(s)).join("")}
     <p style="font-size:12px;color:var(--muted);margin:0;line-height:1.6">다른 도시 정보를 구경할 수 있어요. 아이 정보는 도시마다 따로 저장돼요.</p></div></section>`;
+}
+function ocTab(s) {
+  document.querySelectorAll(".oc-tab").forEach(b => { const on = b.dataset.s === s; b.style.background = on ? "var(--city)" : "var(--city-soft)"; b.style.color = on ? "#fff" : "var(--city-ink)"; });
+  document.querySelectorAll(".oc-list").forEach(d => d.style.display = d.dataset.s === s ? "flex" : "none");
 }
 const MICON = {"acas": "icon-acas", "kinders": "icon-kindergarten", "library": "icon-library", "books": "icon-bestsellers", "schools": "icon-school-calendar", "premium": "icon-tuition", "elite": "icon-special-schools", "deals": "icon-discount", "hosp": "icon-hospital", "sports": "icon-sports", "jobs": "icon-jobs"};
 function viewMy() {
