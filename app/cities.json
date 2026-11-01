@@ -587,6 +587,527 @@
         "startVer": "1.0.62"
       },
       "sido": "서울"
+    },
+    "gangbuk": {
+      "name": "강북",
+      "colors": {
+        "city": "#2B8A3E",
+        "ink": "#21692F",
+        "deep": "#184D22",
+        "soft": "#EAF3EC"
+      },
+      "areas": "미아·수유·번동·우이",
+      "lat": 37.6396,
+      "lon": 127.0257,
+      "searchEx": "미아, 수유",
+      "domain": "gangbuk.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "gangseo": {
+      "name": "강서",
+      "colors": {
+        "city": "#1971C2",
+        "ink": "#135693",
+        "deep": "#0E3F6C",
+        "soft": "#E8F1F9"
+      },
+      "areas": "마곡·화곡·등촌·가양",
+      "lat": 37.5509,
+      "lon": 126.8495,
+      "searchEx": "마곡, 화곡",
+      "domain": "gangseo.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "gwanak": {
+      "name": "관악",
+      "colors": {
+        "city": "#C2255C",
+        "ink": "#931C46",
+        "deep": "#6C1533",
+        "soft": "#F9E9EF"
+      },
+      "areas": "봉천·신림·낙성대·남현",
+      "lat": 37.4784,
+      "lon": 126.9516,
+      "searchEx": "신림, 봉천",
+      "domain": "gwanak.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "guro": {
+      "name": "구로",
+      "colors": {
+        "city": "#5F3DC4",
+        "ink": "#482E95",
+        "deep": "#35226D",
+        "soft": "#EFECF9"
+      },
+      "areas": "신도림·구로·개봉·고척",
+      "lat": 37.4954,
+      "lon": 126.8874,
+      "searchEx": "신도림, 개봉",
+      "domain": "guro.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "geumcheon": {
+      "name": "금천",
+      "colors": {
+        "city": "#0C8599",
+        "ink": "#096574",
+        "deep": "#074A55",
+        "soft": "#E7F3F5"
+      },
+      "areas": "가산·독산·시흥동",
+      "lat": 37.4569,
+      "lon": 126.8955,
+      "searchEx": "독산, 가산",
+      "domain": "geumcheon.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "dobong": {
+      "name": "도봉",
+      "colors": {
+        "city": "#66A80F",
+        "ink": "#4E800B",
+        "deep": "#395D08",
+        "soft": "#F0F6E7"
+      },
+      "areas": "창동·쌍문·방학·도봉",
+      "lat": 37.6688,
+      "lon": 127.0471,
+      "searchEx": "창동, 쌍문",
+      "domain": "dobong.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "dongdaemun": {
+      "name": "동대문",
+      "colors": {
+        "city": "#D9480F",
+        "ink": "#A5370B",
+        "deep": "#782808",
+        "soft": "#FBEDE7"
+      },
+      "areas": "청량리·회기·이문·장안",
+      "lat": 37.5744,
+      "lon": 127.0396,
+      "searchEx": "청량리, 장안",
+      "domain": "dongdaemun.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "dongjak": {
+      "name": "동작",
+      "colors": {
+        "city": "#364FC7",
+        "ink": "#293C97",
+        "deep": "#1E2C6E",
+        "soft": "#EBEDF9"
+      },
+      "areas": "사당·상도·노량진·흑석",
+      "lat": 37.5124,
+      "lon": 126.9393,
+      "searchEx": "사당, 상도",
+      "domain": "dongjak.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "seodaemun": {
+      "name": "서대문",
+      "colors": {
+        "city": "#A61E4D",
+        "ink": "#7E173B",
+        "deep": "#5C112B",
+        "soft": "#F6E8ED"
+      },
+      "areas": "신촌·연희·홍제·가좌",
+      "lat": 37.5791,
+      "lon": 126.9368,
+      "searchEx": "연희, 홍제",
+      "domain": "seodaemun.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "seongbuk": {
+      "name": "성북",
+      "colors": {
+        "city": "#087F5B",
+        "ink": "#066145",
+        "deep": "#044633",
+        "soft": "#E6F2EF"
+      },
+      "areas": "길음·정릉·돈암·장위",
+      "lat": 37.5894,
+      "lon": 127.0167,
+      "searchEx": "길음, 돈암",
+      "domain": "seongbuk.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "yeongdeungpo": {
+      "name": "영등포",
+      "colors": {
+        "city": "#1098AD",
+        "ink": "#0C7483",
+        "deep": "#095460",
+        "soft": "#E7F5F7"
+      },
+      "areas": "여의도·당산·문래·신길",
+      "lat": 37.5264,
+      "lon": 126.8962,
+      "searchEx": "여의도, 당산",
+      "domain": "yeongdeungpo.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "yongsan": {
+      "name": "용산",
+      "colors": {
+        "city": "#E8590C",
+        "ink": "#B04409",
+        "deep": "#813107",
+        "soft": "#FDEEE7"
+      },
+      "areas": "이촌·한남·이태원·효창",
+      "lat": 37.5326,
+      "lon": 126.9905,
+      "searchEx": "이촌, 한남",
+      "domain": "yongsan.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "eunpyeong": {
+      "name": "은평",
+      "colors": {
+        "city": "#74B816",
+        "ink": "#588C11",
+        "deep": "#40660C",
+        "soft": "#F1F8E8"
+      },
+      "areas": "불광·응암·녹번·진관",
+      "lat": 37.6027,
+      "lon": 126.9291,
+      "searchEx": "불광, 응암",
+      "domain": "eunpyeong.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "jongno": {
+      "name": "종로",
+      "colors": {
+        "city": "#9C36B5",
+        "ink": "#77298A",
+        "deep": "#571E64",
+        "soft": "#F5EBF8"
+      },
+      "areas": "광화문·혜화·평창·삼청",
+      "lat": 37.5735,
+      "lon": 126.979,
+      "searchEx": "혜화, 평창",
+      "domain": "jongno.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "jung": {
+      "name": "중구",
+      "colors": {
+        "city": "#F59F00",
+        "ink": "#BA7900",
+        "deep": "#885800",
+        "soft": "#FEF5E6"
+      },
+      "areas": "명동·신당·약수·을지로",
+      "lat": 37.5641,
+      "lon": 126.9979,
+      "searchEx": "신당, 약수",
+      "domain": "jung.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울",
+      "sgg": "중구"
+    },
+    "jungnang": {
+      "name": "중랑",
+      "colors": {
+        "city": "#3B5BDB",
+        "ink": "#2D45A6",
+        "deep": "#21337A",
+        "soft": "#EBEFFB"
+      },
+      "areas": "면목·상봉·신내·망우",
+      "lat": 37.6063,
+      "lon": 127.0925,
+      "searchEx": "면목, 신내",
+      "domain": "jungnang.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      },
+      "sido": "서울"
+    },
+    "gwangmyeong": {
+      "name": "광명",
+      "colors": {
+        "city": "#0CA678",
+        "ink": "#097E5B",
+        "deep": "#075C43",
+        "soft": "#E7F6F2"
+      },
+      "areas": "철산·하안·소하·광명역",
+      "lat": 37.4786,
+      "lon": 126.8646,
+      "searchEx": "철산, 하안",
+      "domain": "gwangmyeong.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      }
+    },
+    "gunpo": {
+      "name": "군포",
+      "colors": {
+        "city": "#AE3EC9",
+        "ink": "#842F99",
+        "deep": "#612270",
+        "soft": "#F7ECFA"
+      },
+      "areas": "산본·금정·당동·대야미",
+      "lat": 37.3617,
+      "lon": 126.9352,
+      "searchEx": "산본, 금정",
+      "domain": "gunpo.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      }
+    },
+    "yangju": {
+      "name": "양주",
+      "colors": {
+        "city": "#4263EB",
+        "ink": "#324BB3",
+        "deep": "#253782",
+        "soft": "#ECEFFD"
+      },
+      "areas": "옥정·회천·덕정·백석",
+      "lat": 37.7853,
+      "lon": 127.0458,
+      "searchEx": "옥정, 덕정",
+      "domain": "yangju.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      }
+    },
+    "icheon": {
+      "name": "이천",
+      "colors": {
+        "city": "#E67700",
+        "ink": "#AF5A00",
+        "deep": "#804200",
+        "soft": "#FCF1E6"
+      },
+      "areas": "중리·증포·부발·장호원",
+      "lat": 37.272,
+      "lon": 127.435,
+      "searchEx": "증포, 부발",
+      "domain": "icheon.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      }
+    },
+    "guri": {
+      "name": "구리",
+      "colors": {
+        "city": "#D6336C",
+        "ink": "#A32752",
+        "deep": "#771C3C",
+        "soft": "#FBEBF0"
+      },
+      "areas": "인창·교문·수택·갈매",
+      "lat": 37.5943,
+      "lon": 127.1296,
+      "searchEx": "인창, 갈매",
+      "domain": "guri.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      }
+    },
+    "anseong": {
+      "name": "안성",
+      "colors": {
+        "city": "#5C940D",
+        "ink": "#46700A",
+        "deep": "#335207",
+        "soft": "#EFF4E7"
+      },
+      "areas": "공도·석정·죽산·아양",
+      "lat": 37.008,
+      "lon": 127.2797,
+      "searchEx": "공도, 아양",
+      "domain": "anseong.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      }
+    },
+    "pocheon": {
+      "name": "포천",
+      "colors": {
+        "city": "#1864AB",
+        "ink": "#124C82",
+        "deep": "#0D385F",
+        "soft": "#E8F0F7"
+      },
+      "areas": "송우·소흘·선단·일동",
+      "lat": 37.8949,
+      "lon": 127.2003,
+      "searchEx": "송우, 소흘",
+      "domain": "pocheon.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      }
+    },
+    "uiwang": {
+      "name": "의왕",
+      "colors": {
+        "city": "#C92A2A",
+        "ink": "#992020",
+        "deep": "#701717",
+        "soft": "#FAEAEA"
+      },
+      "areas": "내손·포일·오전·고천",
+      "lat": 37.3447,
+      "lon": 126.9683,
+      "searchEx": "내손, 포일",
+      "domain": "uiwang.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-01",
+        "startVer": "1.0.62"
+      }
     }
   },
   "entry": {
