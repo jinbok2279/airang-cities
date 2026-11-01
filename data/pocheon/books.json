@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01 17:14:13",
+  "updated_at": "2026-11-02 08:32:11",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -8,23 +8,23 @@
       "desc": "포천시 공공도서관 · 초등(8~13세) 대출 · 최근 1달",
       "books": [
         {
-          "title": "흔한남매 이무기 :이해하면 무서운 이야기",
-          "author": "원작: 흔한남매, 도니패밀리",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/32095/72/cover/k502834901_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6735778",
-          "isbn": "9791168415577",
-          "loans": 6,
-          "rank": 1,
-          "series": 2
-        },
-        {
           "title": "흔한남매 이무기 4 - 이해하면 무서운 이야기",
           "author": "흔한남매 (원작), 이종혁 (글), 도니패밀리 (그림), 흔한컴퍼니 (감수)",
           "publisher": "미래엔아이세움",
           "cover": "https://image.aladin.co.kr/product/39875/33/cover200/k292130411_2.jpg",
           "link": "https://data4library.kr/bookV?seq=7302047",
           "isbn": "9791175488496",
+          "loans": 6,
+          "rank": 1,
+          "series": 1
+        },
+        {
+          "title": "흔한남매 이무기 :이해하면 무서운 이야기",
+          "author": "원작: 흔한남매, 도니패밀리",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/32095/72/cover/k502834901_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6735778",
+          "isbn": "9791168415577",
           "loans": 5,
           "rank": 2,
           "series": 1
@@ -41,17 +41,6 @@
           "series": 6
         },
         {
-          "title": "처음 읽는 그리스 로마 신화 15 - 트로이의 마지막 불꽃",
-          "author": "최설희 (지은이), 한현동 (그림), 정수영 (구성)",
-          "publisher": "미래엔아이세움",
-          "cover": "https://image.aladin.co.kr/product/40055/96/cover200/k022130844_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7315964",
-          "isbn": "9791175488731",
-          "loans": 4,
-          "rank": 4,
-          "series": 1
-        },
-        {
           "title": "고양이 해결사 깜냥",
           "author": "홍민정 동화, 김재희 그림",
           "publisher": "창비",
@@ -59,7 +48,7 @@
           "link": "https://data4library.kr/bookV?seq=7271608",
           "isbn": "9788936450533",
           "loans": 3,
-          "rank": 5,
+          "rank": 4,
           "series": 1
         },
         {
@@ -70,8 +59,19 @@
           "link": "https://data4library.kr/bookV?seq=7097792",
           "isbn": "9788949144559",
           "loans": 3,
-          "rank": 6,
+          "rank": 5,
           "series": 3
+        },
+        {
+          "title": "프랑켄슈타인",
+          "author": "원작: 메리 셸리, 윤현우",
+          "publisher": "은하수미디어",
+          "cover": "https://image.aladin.co.kr/product/38390/91/cover200/8965796261_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7205658",
+          "isbn": "9788965796268",
+          "loans": 3,
+          "rank": 6,
+          "series": 1
         },
         {
           "title": "머리카락이 싹둑",
@@ -159,7 +159,7 @@
           "isbn": "9791175483972",
           "loans": 3,
           "rank": 14,
-          "series": 1
+          "series": 2
         },
         {
           "title": "슈뻘맨의 숨은 과학 찾기 8 - 엉뚱 도전 속에 숨은 과학 상식",
@@ -173,6 +173,17 @@
           "series": 1
         },
         {
+          "title": "처음 읽는 그리스 로마 신화 15 - 트로이의 마지막 불꽃",
+          "author": "최설희 (지은이), 한현동 (그림), 정수영 (구성)",
+          "publisher": "미래엔아이세움",
+          "cover": "https://image.aladin.co.kr/product/40055/96/cover200/k022130844_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7315964",
+          "isbn": "9791175488731",
+          "loans": 3,
+          "rank": 16,
+          "series": 1
+        },
+        {
           "title": "에그박사 19 - 자연 생물 관찰 만화",
           "author": "에그박사 (원작), 박송이 (글), 홍종현 (그림), 이승현 (감수)",
           "publisher": "미래엔아이세움",
@@ -180,7 +191,7 @@
           "link": "https://data4library.kr/bookV?seq=7344394",
           "isbn": "9791175488885",
           "loans": 3,
-          "rank": 16,
+          "rank": 17,
           "series": 1
         },
         {
@@ -191,7 +202,7 @@
           "link": "https://data4library.kr/bookV?seq=7288842",
           "isbn": "9791176610063",
           "loans": 3,
-          "rank": 17,
+          "rank": 18,
           "series": 1
         },
         {
@@ -202,8 +213,8 @@
           "link": "https://data4library.kr/bookV?seq=7065998",
           "isbn": "9791193031551",
           "loans": 3,
-          "rank": 18,
-          "series": 2
+          "rank": 19,
+          "series": 1
         },
         {
           "title": "뽑기를 했을 뿐인데 과학이 따라왔어!",
@@ -213,17 +224,6 @@
           "link": "https://data4library.kr/bookV?seq=7280680",
           "isbn": "9791193379837",
           "loans": 3,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "The First Day of School (Paperback) - Ready to Read Level 1",
-          "author": "Margaret McNamara (지은이), 마이크 고든 (그림)",
-          "publisher": "Aladdin",
-          "cover": "https://image.aladin.co.kr/product/99/96/cover/0689869142_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=2441340",
-          "isbn": "9780689869143",
-          "loans": 2,
           "rank": 20,
           "series": 1
         }
@@ -235,28 +235,6 @@
       "desc": "포천시 공공도서관 · 청소년(14~19세) 대출 · 최근 1달",
       "books": [
         {
-          "title": "생각하는 수학 수업 :수학 수업을 위한 14가지 실천사항",
-          "author": "Peter Liljedahl 지음, 박성선 옮김",
-          "publisher": "경문사",
-          "cover": "https://image.aladin.co.kr/product/33778/46/cover200/k222930378_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6892205",
-          "isbn": "9791160736816",
-          "loans": 3,
-          "rank": 1,
-          "series": 1
-        },
-        {
-          "title": "자몽살구클럽",
-          "author": "한로로 (HANRORO) (지은이)",
-          "publisher": "어센틱",
-          "cover": "https://image.aladin.co.kr/product/36808/37/cover200/k082030009_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7095794",
-          "isbn": "9791199305304",
-          "loans": 3,
-          "rank": 2,
-          "series": 1
-        },
-        {
           "title": "딸꾹, 딸꾹질이 멈추지 않아!",
           "author": "로렌 차일드 지음, 문상수 옮김",
           "publisher": "국민서관",
@@ -264,7 +242,7 @@
           "link": "https://data4library.kr/bookV?seq=1971305",
           "isbn": "9788911030859",
           "loans": 2,
-          "rank": 3,
+          "rank": 1,
           "series": 1
         },
         {
@@ -275,7 +253,7 @@
           "link": "https://data4library.kr/bookV?seq=6428779",
           "isbn": "9788936434595",
           "loans": 2,
-          "rank": 4,
+          "rank": 2,
           "series": 1
         },
         {
@@ -286,7 +264,7 @@
           "link": "https://data4library.kr/bookV?seq=3428065",
           "isbn": "9788936456788",
           "loans": 2,
-          "rank": 5,
+          "rank": 3,
           "series": 1
         },
         {
@@ -297,7 +275,7 @@
           "link": "https://data4library.kr/bookV?seq=5516907",
           "isbn": "9788937443848",
           "loans": 2,
-          "rank": 6,
+          "rank": 4,
           "series": 1
         },
         {
@@ -308,7 +286,7 @@
           "link": "https://data4library.kr/bookV?seq=6309156",
           "isbn": "9788954682749",
           "loans": 2,
-          "rank": 7,
+          "rank": 5,
           "series": 1
         },
         {
@@ -319,7 +297,18 @@
           "link": "https://data4library.kr/bookV?seq=2376922",
           "isbn": "9788997976010",
           "loans": 2,
-          "rank": 8,
+          "rank": 6,
+          "series": 1
+        },
+        {
+          "title": "생각하는 수학 수업 :수학 수업을 위한 14가지 실천사항",
+          "author": "Peter Liljedahl 지음, 박성선 옮김",
+          "publisher": "경문사",
+          "cover": "https://image.aladin.co.kr/product/33778/46/cover200/k222930378_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6892205",
+          "isbn": "9791160736816",
+          "loans": 2,
+          "rank": 7,
           "series": 1
         },
         {
@@ -329,6 +318,17 @@
           "cover": "https://image.aladin.co.kr/product/31269/43/cover/k872832466_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6650932",
           "isbn": "9791167550972",
+          "loans": 2,
+          "rank": 8,
+          "series": 1
+        },
+        {
+          "title": "작은 사람 권정생 :발자취를 따라 쓴 권정생 일대기",
+          "author": "이기영 글",
+          "publisher": "단비",
+          "cover": "https://image.aladin.co.kr/product/4086/69/cover/1185099204_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2037218",
+          "isbn": "9791185099200",
           "loans": 2,
           "rank": 9,
           "series": 1
@@ -400,6 +400,17 @@
           "series": 1
         },
         {
+          "title": "자몽살구클럽",
+          "author": "한로로 (HANRORO) (지은이)",
+          "publisher": "어센틱",
+          "cover": "https://image.aladin.co.kr/product/36808/37/cover200/k082030009_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7095794",
+          "isbn": "9791199305304",
+          "loans": 2,
+          "rank": 16,
+          "series": 1
+        },
+        {
           "title": "The School Is Alive!: A Branches Book (Eerie Elementary #1) (Paperback)",
           "author": "Chabert, Jack|Ricks, Sam (ILT)",
           "publisher": "ScholasticPaperbacks",
@@ -407,7 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=3165466",
           "isbn": "9780545623926",
           "loans": 1,
-          "rank": 16,
+          "rank": 17,
           "series": 1
         },
         {
@@ -418,7 +429,7 @@
           "link": "https://data4library.kr/bookV?seq=3165467",
           "isbn": "9780545623957",
           "loans": 1,
-          "rank": 17,
+          "rank": 18,
           "series": 1
         },
         {
@@ -429,7 +440,7 @@
           "link": "https://data4library.kr/bookV?seq=2572866",
           "isbn": "9780689855351",
           "loans": 1,
-          "rank": 18,
+          "rank": 19,
           "series": 1
         },
         {
@@ -439,17 +450,6 @@
           "cover": "https://image.aladin.co.kr/product/99/95/cover/0689855370_1.jpg",
           "link": "https://data4library.kr/bookV?seq=2665305",
           "isbn": "9780689855375",
-          "loans": 1,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "A Tooth Story (Paperback) - Ready-To-Read",
-          "author": "Margaret McNamara (지은이)",
-          "publisher": "Simon Spotlight",
-          "cover": "https://image.aladin.co.kr/product/95/70/cover/068986423x_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=2665256",
-          "isbn": "9780689864230",
           "loans": 1,
           "rank": 20,
           "series": 1
@@ -468,7 +468,7 @@
           "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7073819",
           "isbn": "9791141602376",
-          "loans": 24,
+          "loans": 23,
           "rank": 1,
           "series": 1
         },
@@ -479,7 +479,7 @@
           "cover": "https://image.aladin.co.kr/product/28501/13/cover/k982835625_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6363146",
           "isbn": "9791157855506",
-          "loans": 18,
+          "loans": 19,
           "rank": 2,
           "series": 1
         },
@@ -572,12 +572,12 @@
           "series": 1
         },
         {
-          "title": "흔한남매 이무기 :이해하면 무서운 이야기",
-          "author": "원작: 흔한남매, 도니패밀리",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/32095/72/cover/k502834901_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6735778",
-          "isbn": "9791168415577",
+          "title": "트렌드 코리아 2027 - 2027 대한민국 소비트렌드 전망",
+          "author": "김난도, 전미영, 최지혜, 권정윤, 한다혜, 이혜원, 이수진, 전다현, 서유현, 이준영, 이향은, 김나은, 문지수 (지은이)",
+          "publisher": "미래의창",
+          "cover": "https://image.aladin.co.kr/product/40134/41/cover200/k642131067_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7342619",
+          "isbn": "9791124073483",
           "loans": 10,
           "rank": 11,
           "series": 1
@@ -586,12 +586,23 @@
           "title": "흔한남매",
           "author": "원작: 흔한남매, 유난희",
           "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/39134/78/cover200/k982137650_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7255781",
-          "isbn": "9791175487802",
+          "cover": "https://image.aladin.co.kr/product/30518/41/cover/k422830492_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6594703",
+          "isbn": "9791168414471",
           "loans": 10,
           "rank": 12,
           "series": 3
+        },
+        {
+          "title": "흔한남매 이무기 4 - 이해하면 무서운 이야기",
+          "author": "흔한남매 (원작), 이종혁 (글), 도니패밀리 (그림), 흔한컴퍼니 (감수)",
+          "publisher": "미래엔아이세움",
+          "cover": "https://image.aladin.co.kr/product/39875/33/cover200/k292130411_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7302047",
+          "isbn": "9791175488496",
+          "loans": 10,
+          "rank": 13,
+          "series": 1
         },
         {
           "title": "소년이 온다 :한강 장편소설",
@@ -601,7 +612,29 @@
           "link": "https://data4library.kr/bookV?seq=2037399",
           "isbn": "9788936434120",
           "loans": 9,
-          "rank": 13,
+          "rank": 14,
+          "series": 1
+        },
+        {
+          "title": "흔한남매 이무기 :이해하면 무서운 이야기",
+          "author": "원작: 흔한남매, 도니패밀리",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/32095/72/cover/k502834901_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6735778",
+          "isbn": "9791168415577",
+          "loans": 9,
+          "rank": 15,
+          "series": 1
+        },
+        {
+          "title": "에그박사 :Egg&bugs",
+          "author": "원작: 에그박사, 홍종현",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/39090/69/cover200/k422137052_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7253150",
+          "isbn": "9791175487598",
+          "loans": 9,
+          "rank": 16,
           "series": 1
         },
         {
@@ -611,30 +644,8 @@
           "cover": "https://image.aladin.co.kr/product/29137/2/cover/8936434594_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6428779",
           "isbn": "9788936434595",
-          "loans": 9,
-          "rank": 14,
-          "series": 1
-        },
-        {
-          "title": "트렌드 코리아 2027 - 2027 대한민국 소비트렌드 전망",
-          "author": "김난도, 전미영, 최지혜, 권정윤, 한다혜, 이혜원, 이수진, 전다현, 서유현, 이준영, 이향은, 김나은, 문지수 (지은이)",
-          "publisher": "미래의창",
-          "cover": "https://image.aladin.co.kr/product/40134/41/cover200/k642131067_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7342619",
-          "isbn": "9791124073483",
-          "loans": 9,
-          "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "흔한남매 이무기 4 - 이해하면 무서운 이야기",
-          "author": "흔한남매 (원작), 이종혁 (글), 도니패밀리 (그림), 흔한컴퍼니 (감수)",
-          "publisher": "미래엔아이세움",
-          "cover": "https://image.aladin.co.kr/product/39875/33/cover200/k292130411_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7302047",
-          "isbn": "9791175488496",
-          "loans": 9,
-          "rank": 16,
+          "loans": 8,
+          "rank": 17,
           "series": 1
         },
         {
@@ -645,7 +656,7 @@
           "link": "https://data4library.kr/bookV?seq=7035395",
           "isbn": "9788936439743",
           "loans": 8,
-          "rank": 17,
+          "rank": 18,
           "series": 1
         },
         {
@@ -655,17 +666,6 @@
           "cover": "https://image.aladin.co.kr/product/32/95/cover/8937460580_3.jpg",
           "link": "https://data4library.kr/bookV?seq=2404471",
           "isbn": "9788937460586",
-          "loans": 8,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "머니 트렌드 2027 - 격변의 위기를 기회로 바꾸는 55가지 돈의 흐름",
-          "author": "정태익, 김도윤, 김광석, 김용섭, 김학렬(빠숑), 박세익, 박정호, 이효석 (지은이)",
-          "publisher": "북모먼트",
-          "cover": "https://image.aladin.co.kr/product/40112/25/cover200/k262130557_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7319607",
-          "isbn": "9791124038826",
           "loans": 8,
           "rank": 19,
           "series": 1
