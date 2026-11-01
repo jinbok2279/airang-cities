@@ -36,8 +36,10 @@ def tokens(city):
     t["f.sidoShort"] = sido
     t["f.sidoFull"] = {"경기": "경기도", "서울": "서울특별시"}[sido]
     t["f.sgg"] = c.get("sgg", c["name"] + ("구" if sido == "서울" else "시"))
-    oc = [f'["{v["name"]}", "https://{k}.songgollab.co.kr"]' for k, v in CFG["cities"].items()]
-    t["f.otherCities"] = "const OTHER_CITIES = [" + ", ".join(oc[:3]) + ",\n  " + ", ".join(oc[3:]) + "];"
+    # 다른 도시 둘러보기: [이름, 주소, 시도] — 경기도 → 서울, 시도 안에서는 가나다순
+    oc = sorted(CFG["cities"].items(), key=lambda kv: (kv[1].get("sido", "경기") != "경기", kv[1]["name"]))
+    oc = [f'["{v["name"]}", "https://{k}.songgollab.co.kr", "{v.get("sido", "경기")}"]' for k, v in oc]
+    t["f.otherCities"] = "const OTHER_CITIES = [\n  " + ",\n  ".join(", ".join(oc[i:i + 6]) for i in range(0, len(oc), 6)) + "];"
     return t
 
 
