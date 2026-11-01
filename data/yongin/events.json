@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01 06:50:03",
+ "updated_at": "2026-11-02 06:32:53",
  "source": "용인시청 문화달력 · 용인시도서관 문화행사",
  "city": [
   {
@@ -369,6 +369,20 @@
    "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16943"
   },
   {
+   "id": "C8c601083cf",
+   "title": "뮤지컬 <바둑이와 세리>",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "place": "용인문화예술원 마루홀",
+   "time": "20261219 ~ 20261219",
+   "grade": "",
+   "price": "",
+   "free": false,
+   "src": "culture",
+   "link": "https://www.mcst.go.kr/kor/s_culture/culture/cultureView.jsp?pSeq=77388",
+   "img": "http://www.culture.go.kr/upload/ucms/myRlyPerfInfo/2026/202610/13dba8ad94764dc3bcd20af6da08529e.jpg"
+  },
+  {
    "id": "16991",
    "title": "창작뮤지컬 < 바둑이와 세리>",
    "start": "2026-12-19",
@@ -396,25 +410,6 @@
   }
  ],
  "lib": [
-  {
-   "id": "L136121",
-   "title": "(재능기부) Read for Fun",
-   "lib": "모현도서관",
-   "target": "초등 (초등 4~6학년 8명)",
-   "place": "모현도서관 2층 시청각실",
-   "start": "2026-11-05",
-   "end": "2026-11-26",
-   "period": "2026.11.05(목) ~ 2026.11.26(목) 16:00 ~ 18:00 4회",
-   "applyStart": "2026-10-12",
-   "applyEnd": "2026-11-01",
-   "apply": "2026.10.12(월) 10:00 ~ 2026.11.01(일) 18:00",
-   "count": "5/8",
-   "status": "접수중",
-   "btn": "신청하기",
-   "free": true,
-   "src": "lib",
-   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=136121"
-  },
   {
    "id": "L136501",
    "title": "[특성화] 맹꽁이 숲놀이 학교 - 가을학기(초등 1,2학년)",
