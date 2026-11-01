@@ -1328,6 +1328,8 @@ function viewEvents() {
   $view.innerHTML = back + seg + body + `<div class="foot">누르면 {{f.sgg}}청·{{f.sgg}}도서관 페이지에서 자세한 내용과 신청 방법을 볼 수 있어요.<br>데이터 · {{f.sgg}}청 문화달력 · {{f.sgg}}도서관 문화행사 (하루 한 번 갱신${EVENTS.updated_at ? " · " + esc(EVENTS.updated_at.slice(0, 10)) + " 기준" : ""})</div>`;
 {{#elif suwon}}
   $view.innerHTML = back + seg + body + `<div class="foot">누르면 {{name}}문화재단 페이지나 예약 페이지에서 자세한 내용과 신청 방법을 볼 수 있어요.<br>데이터 · {{name}}문화재단 행사·교육정보 · 경기아트센터 · 한국관광공사 · 출처: (재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr) (하루 한 번 갱신${EVENTS.updated_at ? " · " + esc(EVENTS.updated_at.slice(0, 10)) + " 기준" : ""})</div>`;
+{{#elif seoul}}
+  $view.innerHTML = back + seg + body + `<div class="foot">누르면 서울시 문화행사·공공서비스예약 페이지에서 자세한 내용과 신청 방법을 볼 수 있어요.<br>데이터 · 서울 열린데이터광장(문화행사 정보 · 공공서비스예약) · 공연예술통합전산망(KOPIS) · 문화포털</div>`;
 {{#else}}
   $view.innerHTML = back + seg + body + `<div class="foot">누르면 공연·행사 페이지에서 자세한 내용과 예매 방법을 볼 수 있어요.<br>데이터 · 공연예술통합전산망(KOPIS) · 한국관광공사 · 문화포털</div>`;
 {{/if}}
