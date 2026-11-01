@@ -65,6 +65,11 @@ jobs:
           - { city: 안성, d: anseong }
           - { city: 포천, d: pocheon }
           - { city: 의왕, d: uiwang }
+          - { city: 연수, d: yeonsu }
+          - { city: 남동, d: namdong }
+          - { city: 부평, d: bupyeong }
+          - { city: 미추홀, d: michuhol }
+          - { city: 계양, d: gyeyang }
     env:
       CITY: ${{ matrix.city }}
       NEIS_KEY: ${{ secrets.NEIS_KEY }}

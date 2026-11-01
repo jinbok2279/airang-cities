@@ -1108,6 +1108,121 @@
         "start": "2026-11-01",
         "startVer": "1.0.62"
       }
+    },
+    "yeonsu": {
+      "name": "연수",
+      "colors": {
+        "city": "#15AABF",
+        "ink": "#108191",
+        "deep": "#0C5E6A",
+        "soft": "#E8F6F9"
+      },
+      "areas": "송도·연수·동춘·청학",
+      "lat": 37.4101,
+      "lon": 126.6783,
+      "searchEx": "송도, 동춘",
+      "domain": "yeonsu.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-02",
+        "startVer": "1.0.62"
+      },
+      "sido": "인천",
+      "sgg": "연수구"
+    },
+    "namdong": {
+      "name": "남동",
+      "colors": {
+        "city": "#F76707",
+        "ink": "#BC4E05",
+        "deep": "#893904",
+        "soft": "#FEF0E6"
+      },
+      "areas": "구월·논현·만수·서창",
+      "lat": 37.4473,
+      "lon": 126.7313,
+      "searchEx": "구월, 논현",
+      "domain": "namdong.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-02",
+        "startVer": "1.0.62"
+      },
+      "sido": "인천",
+      "sgg": "남동구"
+    },
+    "bupyeong": {
+      "name": "부평",
+      "colors": {
+        "city": "#74B816",
+        "ink": "#588C11",
+        "deep": "#40660C",
+        "soft": "#F1F8E8"
+      },
+      "areas": "부평·삼산·산곡·청천",
+      "lat": 37.507,
+      "lon": 126.7219,
+      "searchEx": "삼산, 산곡",
+      "domain": "bupyeong.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-02",
+        "startVer": "1.0.62"
+      },
+      "sido": "인천",
+      "sgg": "부평구"
+    },
+    "michuhol": {
+      "name": "미추홀",
+      "colors": {
+        "city": "#F06595",
+        "ink": "#B64D71",
+        "deep": "#853853",
+        "soft": "#FEF0F4"
+      },
+      "areas": "주안·용현·학익·숭의",
+      "lat": 37.4638,
+      "lon": 126.6503,
+      "searchEx": "주안, 용현",
+      "domain": "michuhol.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-02",
+        "startVer": "1.0.62"
+      },
+      "sido": "인천",
+      "sgg": "미추홀구"
+    },
+    "gyeyang": {
+      "name": "계양",
+      "colors": {
+        "city": "#37B24D",
+        "ink": "#2A873B",
+        "deep": "#1F632B",
+        "soft": "#EBF7ED"
+      },
+      "areas": "계산·작전·효성·임학",
+      "lat": 37.5372,
+      "lon": 126.7378,
+      "searchEx": "계산, 작전",
+      "domain": "gyeyang.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-02",
+        "startVer": "1.0.62"
+      },
+      "sido": "인천",
+      "sgg": "계양구"
     }
   },
   "entry": {

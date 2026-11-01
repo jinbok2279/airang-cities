@@ -413,11 +413,53 @@ CITIES = {
         "not_places": r"안양|군포|수원|과천|성남",
         "domain": "uiwang", "lib_home": "",
     },
+    # ── 2026-11-02 인천 1차 5곳 (2026-07 행정체제 개편 뒤에도 이름이 그대로인 구)
+    "연수": {
+        "sido": "인천", "sgg": "연수구",
+        "area": "연수구", "gus": {"": 28185}, "lib": {"": 23040}, "signgu": "", "kopis": "2818",
+        "lat": 37.4101, "lon": 126.6783, "stations": ["송도", "동춘"], "region": "인천",
+        "places": r"연수|송도|동춘|청학|옥련|선학|센트럴파크|트라이볼|인천대학교",
+        "not_places": r"남동|미추홀|인천 중구|제물포|부산|대구",
+        "domain": "yeonsu", "lib_home": "",
+    },
+    "남동": {
+        "sido": "인천", "sgg": "남동구",
+        "area": "남동구", "gus": {"": 28200}, "lib": {"": 23050}, "signgu": "", "kopis": "2820",
+        "lat": 37.4473, "lon": 126.7313, "stations": ["남동", "논현", "고잔", "서창"], "region": "인천",
+        "places": r"남동|구월|간석|만수|논현|소래|서창|장수동|인천대공원",
+        "not_places": r"연수|부평|미추홀|시흥|부산",
+        "domain": "namdong", "lib_home": "",
+    },
+    "부평": {
+        "sido": "인천", "sgg": "부평구",
+        "area": "부평구", "gus": {"": 28237}, "lib": {"": 23060}, "signgu": "", "kopis": "2823",
+        "lat": 37.507, "lon": 126.7219, "stations": ["부평", "삼산"], "region": "인천",
+        "places": r"부평|산곡|청천|갈산|삼산|부개|일신|십정|굴포천|나비공원",
+        "not_places": r"계양|서해|남동|부천|미추홀",
+        "domain": "bupyeong", "lib_home": "",
+    },
+    "미추홀": {
+        "sido": "인천", "sgg": "미추홀구",
+        "area": "미추홀구", "gus": {"": 28177}, "lib": {"": 23030}, "signgu": "", "kopis": "2817",
+        "lat": 37.4638, "lon": 126.6503, "stations": ["주안"], "region": "인천",
+        "places": r"미추홀|주안|숭의|용현|학익|도화|문학|관교|수봉",
+        "not_places": r"연수|남동|제물포|인천 동구|인천 중구",
+        "domain": "michuhol", "lib_home": "",
+    },
+    "계양": {
+        "sido": "인천", "sgg": "계양구",
+        "area": "계양구", "gus": {"": 28245}, "lib": {"": 23070}, "signgu": "", "kopis": "2824",
+        "lat": 37.5372, "lon": 126.7378, "stations": ["계산", "효성", "임학"], "region": "인천",
+        "places": r"계양|계산|작전|효성|임학|병방|박촌|귤현|아라뱃길",
+        "not_places": r"부평|서해|검단|김포|부천",
+        "domain": "gyeyang", "lib_home": "",
+    },
 }
 # 시도마다 다른 코드 (도시 칸에 "sido" 가 없으면 경기)
 SIDOS = {
     "경기": {"full": "경기도", "neis": "J10", "lib": 31, "kinder": 41, "kopis": "41", "hira": "310000", "air": "경기"},
     "서울": {"full": "서울특별시", "neis": "B10", "lib": 11, "kinder": 11, "kopis": "11", "hira": "110000", "air": "서울"},
+    "인천": {"full": "인천광역시", "neis": "E10", "lib": 23, "kinder": 28, "kopis": "28", "hira": "220000", "air": "인천"},
 }
 CITY = os.environ.get("CITY", "성남").strip()
 if CITY not in CITIES:
