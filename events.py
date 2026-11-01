@@ -566,13 +566,116 @@ def ayac_events(today):
     print(f"  안양문화예술재단 공연·전시 {len(out)}건")
     return out
 
+
+# ───── 서울: 서울 열린데이터광장 (SEOUL_KEY) ─────
+SEOUL_KEY = os.environ.get("SEOUL_KEY", "").strip()
+SEOUL_API = "http://openapi.seoul.go.kr:8088/"   # 이 API는 http 8088만 있음 (키는 기록에 안 찍음)
+NOT_KID_TARGET = re.compile(r"중학생\s*\)?\s*이상|만\s*1[3-9]\s*세|1[3-9]\s*세\s*이상|청소년\s*이상|^\s*성인\s*$|성인,\s*청소년|청년|[2-9]\d\s*세|대학생|어르신|시니어|노인|동반\s*불가")
+KID_ONLY = re.compile(r"유아|영유아|어린이|아동|초등|가족|부모|자녀|키즈|[1-9]\s*세|\d{4}년생|1\s*학년")   # '누구나'·'제한없음'은 빼고 아이가 분명한 대상만
+NOT_KID_TITLE = re.compile(r"아카데미|정비사업|재테크|부동산|은퇴|1인\s*기업|창업|취업|청년|작곡발표|원데이\s*클래스|지혜학교|트레킹|산행|강연|북토크|힙톡|전통혼례|안무가")
+KID_CAT = {"서울형키즈카페", "교육체험", "문화행사", "전시/관람", "공원탐방", "농장체험", "자연/과학", "역사", "미술제작", "공예/취미", "도시농업"}
+
+
+def seoul_get(svc, a, b):
+    u = f"{SEOUL_API}{SEOUL_KEY}/json/{svc}/{a}/{b}/"
+    for i in range(3):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=120) as r:
+                d = json.loads(r.read().decode("utf-8", "replace"))
+            return (d.get(svc) or {}).get("row") or []
+        except Exception as e:
+            print(f"  서울 {svc} 다시 시도 {i + 1}/3: {type(e).__name__} {str(getattr(e, 'reason', '') or getattr(e, 'code', ''))[:60].replace(SEOUL_KEY, '***')}")
+            time.sleep(10 * (i + 1))
+    return []
+
+
+ADULT = []   # 서울: 아이 목록에서 뺀 어른 대상 (엄마·아빠 탭)
+ADULT_SKIP = re.compile(r"19세|청소년\s*관람\s*불가|트로트|술|와인|막걸리")   # 엄마·아빠 탭에도 안 넣는 것
+
+
+def seoul_culture(today):
+    """서울시 문화행사 정보: 우리 구에서 두 달 안에 열리는 행사 → 아이·가족은 out, 어른 대상은 ADULT (최근 등록 4000건 안에서)"""
+    if not SEOUL_KEY or C.get("sido") != "서울":
+        return []
+    t0, t1 = today.isoformat(), (today + timedelta(days=HORIZON)).isoformat()
+    gu = C.get("sgg", AREA)
+    out, seen = [], set()
+    for a in range(1, 4001, 1000):
+        for r in seoul_get("culturalEventInfo", a, a + 999):
+            if r.get("GUNAME") != gu:
+                continue
+            st, en = str(r.get("STRTDATE", ""))[:10], str(r.get("END_DATE", ""))[:10]
+            if not st or en < t0 or st > t1:
+                continue
+            title, trg = html_unescape(r.get("TITLE", "")), r.get("USE_TRGT", "") or ""
+            text = title + " " + (r.get("CODENAME") or "")
+            key = (title, st)
+            if key in seen:
+                continue
+            seen.add(key)
+            free = r.get("IS_FREE") == "무료"
+            link = r.get("HMPG_ADDR") or r.get("ORG_LINK") or ""
+            e = {"id": "S" + hashlib.md5((title + st).encode()).hexdigest()[:10], "title": title, "start": st, "end": en or st,
+                 "place": r.get("PLACE", ""), "time": r.get("PRO_TIME", "") or "", "grade": trg.strip()[:30], "price": "" if free else (r.get("USE_FEE") or "")[:40],
+                 "free": free, "kind": r.get("CODENAME", ""), "src": "seoul", "link": link.replace("http://", "https://"),
+                 "img": (r.get("MAIN_IMG") or "").replace("http://", "https://")}
+            adult = NOT_KID.search(title + " " + trg) or NOT_KID_TITLE.search(title) or (NOT_KID_TARGET.search(trg) and not KID_ONLY.search(trg)) \
+                or not (KID_ONLY.search(trg) or KID_WORDS.search(text))   # '누구나'만으로는 아이 목록에 넣지 않음
+            if adult:
+                if not ADULT_SKIP.search(title + " " + trg):
+                    ADULT.append(e)
+                continue
+            out.append(e)
+    print(f"  서울시 문화행사 {gu} 아이·가족 {len(out)}건, 엄마·아빠 {len(ADULT)}건")
+    return out
+
+
+def seoul_yeyak(today):
+    """서울시 공공서비스예약: 우리 구 체험·교육 (접수 중 / 안내 중) → 아이·가족은 out, 어른 대상은 ADULT"""
+    if not SEOUL_KEY or C.get("sido") != "서울":
+        return []
+    gu = C.get("sgg", AREA)
+    out, cafes, n0 = [], set(), len(ADULT)
+    for svc in ("ListPublicReservationCulture", "ListPublicReservationEducation"):
+        for r in seoul_get(svc, 1, 1000):
+            if r.get("AREANM") != gu or r.get("SVCSTATNM") not in ("접수중", "안내중"):
+                continue
+            cat, trg = r.get("MINCLASSNM", ""), (r.get("USETGTINFO") or "").strip()
+            title = html_unescape(r.get("SVCNM", ""))
+            d10 = lambda k: str(r.get(k) or "")[:10]
+            e = {"id": "R" + str(r.get("SVCID", "")), "title": title, "lib": r.get("PLACENM", ""), "target": trg[:40],
+                 "place": r.get("PLACENM", ""), "start": d10("SVCOPNBGNDT"), "end": d10("SVCOPNENDDT"), "period": "",
+                 "applyStart": d10("RCPTBGNDT"), "applyEnd": d10("RCPTENDDT"), "apply": "", "count": "",
+                 "status": "접수중" if r.get("SVCSTATNM") == "접수중" else "접수전", "btn": "",
+                 "free": r.get("PAYATNM") == "무료", "src": "yeyak", "kind": cat, "link": r.get("SVCURL", "")}
+            adult = NOT_KID.search(title) or NOT_KID_TITLE.search(title) or (NOT_KID_TARGET.search(trg) and not KID_ONLY.search(trg)) \
+                or (re.match(r"\s*성인", trg) and "불가" in trg) \
+                or not (KID_ONLY.search(trg) or (cat in KID_CAT and re.search(r"제한없음|누구나", trg) and KID_WORDS.search(title)))
+            if adult:
+                if cat not in ("산림여가",) and not ADULT_SKIP.search(title + " " + trg):
+                    ADULT.append(e)
+                continue
+            if cat == "서울형키즈카페":   # 날짜별로 여러 줄 → 곳마다 하나
+                if r.get("PLACENM") in cafes:
+                    continue
+                cafes.add(r.get("PLACENM"))
+            out.append(e)
+    out.sort(key=lambda e: (e["status"] != "접수중", e["applyEnd"] or "9"))
+    print(f"  서울시 공공서비스예약 {gu} 아이·가족 {len(out)}건 (키즈카페 {len(cafes)}곳), 엄마·아빠 {len(ADULT) - n0}건")
+    return out[:40]
+
+
+def html_unescape(s):
+    import html
+    return html.unescape(s or "").strip()
+
 def main():
     today = datetime.now(KST).date()
     city, lib = [], []
     def norm(s):  # 같은 공연이 출처마다 조금 다르게 적혀도 하나로 보기
         s = re.sub(r"\[[^\]]*\]|\([^)]*\)|-\s*" + CN + "$|" + CN + "|가족|뮤지컬|어린이|연극|공연", "", s)
         return re.sub(r"\W", "", s)[:10]
-    for name, fn in (("KOPIS", kopis_events), ("관광공사", tour_festivals), ("시 문화재단", ayac_events)):
+    for name, fn in (("서울시 문화행사", seoul_culture), ("KOPIS", kopis_events), ("관광공사", tour_festivals), ("시 문화재단", ayac_events)):
         try:
             city += [e for e in fn(today) if all(norm(e["title"]) != norm(c["title"]) for c in city)]
         except Exception as e:
@@ -585,6 +688,10 @@ def main():
         lib += libcms_events(today)
     except Exception as e:
         print("도서관 프로그램 실패:", e)
+    try:
+        lib += seoul_yeyak(today)
+    except Exception as e:
+        print("서울시 공공서비스예약 실패:", e)
     old = {}
     if os.path.exists("output/events.json"):
         try:
@@ -602,7 +709,14 @@ def main():
     lib.sort(key=lambda e: (e["status"] != "접수중", e.get("applyEnd") or "9", e["start"]))
     os.makedirs("output", exist_ok=True)
     result = {"updated_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S"),
-              "source": "공연예술통합전산망·한국관광공사·문화포털", "city": city, "lib": lib}
+              "source": ("서울시 문화행사·공공서비스예약·" if C.get("sido") == "서울" else "") + "공연예술통합전산망·한국관광공사·문화포털", "city": city, "lib": lib}
+    if not ADULT and old.get("adult"):   # 서울 API가 이번에 안 되면 지난 자료(안 끝난 것) 유지
+        ADULT.extend(e for e in old["adult"] if (e.get("end") or "9") >= today.isoformat())
+    if ADULT:   # 서울: 엄마·아빠 탭 (접수 중·가까운 날 먼저, 40개까지)
+        t = today.isoformat()
+        adult = [e for e in ADULT if (e.get("end") or "9") >= t]
+        adult.sort(key=lambda e: (e.get("status", "접수중") != "접수중", max(e.get("start") or t, t), e["title"]))
+        result["adult"] = adult[:40]
     with open("output/events.json", "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=1)
     print(f"공연·축제 {len(city)}건, 체험·교육 {len(lib)}건 저장")
