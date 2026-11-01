@@ -1,15 +1,20 @@
 name: probe-seoul (서울 문화행사 확인 — 한 번 쓰고 지움)
 on: workflow_dispatch
 permissions:
-  contents: write
+  contents: read
 jobs:
   p:
     runs-on: ubuntu-latest
     env:
       SEOUL_KEY: ${{ secrets.SEOUL_KEY }}
+      KOPIS_KEY: ${{ secrets.KOPIS_KEY }}
+      CULTURE_KEY: ${{ secrets.CULTURE_KEY }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
       - run: |
-          mkdir -p logs; python3 -u probe_seoul.py 2>&1 | tee logs/probe_seoul.txt
-          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add logs/probe_seoul.txt; git commit -qm "서울 문화행사 확인 기록" && for i in 1 2 3; do git pull --rebase --autostash && git push && break; sleep 5; done
+          for pair in 강북:gangbuk 강남:gangnam 중구:jung 동대문:dongdaemun 은평:eunpyeong; do
+            c=${pair%%:*}; d=${pair##*:}; rm -rf output; mkdir -p output; cp data/$d/events.json output/ 2>/dev/null || true
+            echo "===== $c"; CITY=$c python -u events.py 2>&1 | grep -E "서울|KOPIS|문화포털|저장|\[행사\]|\[교육\]" | head -24
+          done
