@@ -1,0 +1,4108 @@
+{
+  "region": "부평구",
+  "updated_at": "2026-11-02 08:15:03",
+  "period": {
+    "from": "20261102",
+    "to": "20270101"
+  },
+  "school_count": 82,
+  "public_holidays": [
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "신정"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "산곡남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-02",
+      "name": "개교기념일",
+      "holiday": true
+    },
+    {
+      "school": "인천동수중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-03",
+      "name": "학년별체험학습",
+      "holiday": false
+    },
+    {
+      "school": "산곡남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-04",
+      "name": "진로체험학습",
+      "holiday": false
+    },
+    {
+      "school": "제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-06",
+      "name": "1,2학년 진로직업체험활동",
+      "holiday": false
+    },
+    {
+      "school": "부평공업고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-10",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "인평자동차고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-10",
+      "name": "졸업시험",
+      "holiday": false
+    },
+    {
+      "school": "인평자동차고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-11",
+      "name": "졸업시험",
+      "holiday": false
+    },
+    {
+      "school": "부광중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-12",
+      "name": "직업체험의 날",
+      "holiday": false
+    },
+    {
+      "school": "부평서중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-13",
+      "name": "교육활동발표회",
+      "holiday": false
+    },
+    {
+      "school": "갈산중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능일",
+      "holiday": true
+    },
+    {
+      "school": "구산중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능시험일",
+      "holiday": true
+    },
+    {
+      "school": "동암중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능관련 임시 휴업일",
+      "holiday": true
+    },
+    {
+      "school": "명신여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "부개고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능일",
+      "holiday": true
+    },
+    {
+      "school": "부개여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "부광고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "부광여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대수능휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부광중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "부원여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능시험일",
+      "holiday": true
+    },
+    {
+      "school": "부원중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능일",
+      "holiday": true
+    },
+    {
+      "school": "부일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부평고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "부평공업고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부평동중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능일휴업",
+      "holiday": true
+    },
+    {
+      "school": "부평서여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능시험일",
+      "holiday": true
+    },
+    {
+      "school": "부평서중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장 재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부평여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "부평여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부평중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부흥중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력평가",
+      "holiday": true
+    },
+    {
+      "school": "산곡남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능시험일(휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "산곡여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능휴업일",
+      "holiday": true
+    },
+    {
+      "school": "산곡중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "삼산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "삼산중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "세일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "인천동수중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능일",
+      "holiday": true
+    },
+    {
+      "school": "인천미래생활고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "인천부흥고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "인천산곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "인천상정고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "인천상정중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "인천영선고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "인천외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학 수학능력 시험",
+      "holiday": true
+    },
+    {
+      "school": "인천진산과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인평자동차고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "진산중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능휴업일",
+      "holiday": true
+    },
+    {
+      "school": "청천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험 휴업일",
+      "holiday": true
+    },
+    {
+      "school": "동암중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "수능관련 임시 휴업일",
+      "holiday": true
+    },
+    {
+      "school": "명신여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부개고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부개여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부광고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부광여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부평고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량 휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부평서여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부평서중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장 재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부평여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부평여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업",
+      "holiday": true
+    },
+    {
+      "school": "부평중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부흥중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "산곡남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "산곡여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천동수중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천미래생활고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천부흥고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "개교기념일",
+      "holiday": true
+    },
+    {
+      "school": "인천산곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천상정고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천상정중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천영선고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천진산과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "청천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장 재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "산곡남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-26",
+      "name": "백마제축제",
+      "holiday": false
+    },
+    {
+      "school": "세일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-27",
+      "name": "꿈더함동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "부평공업고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-03",
+      "name": "학교축제",
+      "holiday": false
+    },
+    {
+      "school": "세일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "세일어울림한마당",
+      "holiday": false
+    },
+    {
+      "school": "인천백운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "졸업식/종업식",
+      "holiday": false
+    },
+    {
+      "school": "인천부흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천백운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-21",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-21",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천동수중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "인천백운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천동수중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "졸업사정회",
+      "holiday": false
+    },
+    {
+      "school": "인천백운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "부개고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "새말한마당",
+      "holiday": false
+    },
+    {
+      "school": "인천백운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천진산과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "인천부흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천진산과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천진산과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천백운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천진산과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천대정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학대비사전안전교육주간",
+      "holiday": false
+    },
+    {
+      "school": "인천백운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천진산과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "부평여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "인천대정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학대비사전안전교육주간",
+      "holiday": false
+    },
+    {
+      "school": "인천동수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천백운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부흥고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "학교축제",
+      "holiday": false
+    },
+    {
+      "school": "인천부흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천진산과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "명신여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "동계방학식",
+      "holiday": false
+    },
+    {
+      "school": "부개고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "인천대정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학대비사전안전교육주간",
+      "holiday": false
+    },
+    {
+      "school": "인천동수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천미산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천백운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천십정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "인천진산과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "명신여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "부개고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "부광고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "부광여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "삼산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "세일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "인천개흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천구산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천굴포초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "인천굴포초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천대정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학대비사전안전교육주간",
+      "holiday": false
+    },
+    {
+      "school": "인천동수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천미산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천백운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부개초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천부내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천부일초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천부평서초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천부흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천산곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천산곡남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천산곡북초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천산곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천신촌초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천십정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천영선고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "인천외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "동계 방학식",
+      "holiday": false
+    },
+    {
+      "school": "인천일신초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천진산과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "명신여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "부개고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "부개여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "부광여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "부평고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "부평동중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "세일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "인천개흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천구산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천굴포초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천대정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학대비사전안전교육주간",
+      "holiday": false
+    },
+    {
+      "school": "인천동수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천미산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천백운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부개초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부일초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부평서초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천산곡남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천산곡북초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천산곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "학년말방학",
+      "holiday": true
+    },
+    {
+      "school": "인천신촌초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천십정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천영선고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천일신초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천진산과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    }
+  ],
+  "schools": [
+    {
+      "code": "7331011",
+      "name": "인천갈산초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 갈월동로 55",
+      "gu": "",
+      "dong": "갈산동",
+      "events": []
+    },
+    {
+      "code": "7331012",
+      "name": "인천갈월초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 주부토로 165",
+      "gu": "",
+      "dong": "갈산동",
+      "events": []
+    },
+    {
+      "code": "7331013",
+      "name": "인천개흥초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 길주남로65번길 11",
+      "gu": "",
+      "dong": "부평동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331014",
+      "name": "인천구산초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 부개로 93",
+      "gu": "",
+      "dong": "부개동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331015",
+      "name": "인천굴포초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 충선로234번길 19",
+      "gu": "",
+      "dong": "삼산동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331016",
+      "name": "인천금마초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 일신로 88",
+      "gu": "",
+      "dong": "구산동",
+      "events": []
+    },
+    {
+      "code": "7331017",
+      "name": "인천대정초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 안남로 115",
+      "gu": "",
+      "dong": "산곡동",
+      "events": [
+        {
+          "date": "2026-12-14",
+          "name": "민주시민교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "전교학생회임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "민주시민교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "전교학생회임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "민주시민교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "전교학생회임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "민주시민교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "전교학생회임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "민주시민교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "전교학생회임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학대비사전안전교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학대비사전안전교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학대비사전안전교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학대비사전안전교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학대비사전안전교육주간",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331018",
+      "name": "인천동수초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 동수로120번길 10",
+      "gu": "",
+      "dong": "부개동",
+      "events": [
+        {
+          "date": "2026-12-29",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331019",
+      "name": "인천동암초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 동암남로35번길 4",
+      "gu": "",
+      "dong": "십정동",
+      "events": []
+    },
+    {
+      "code": "7331020",
+      "name": "인천마곡초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 마곡로27번길 16",
+      "gu": "",
+      "dong": "산곡동",
+      "events": []
+    },
+    {
+      "code": "7331021",
+      "name": "인천마장초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 안남로 266",
+      "gu": "",
+      "dong": "청천동",
+      "events": []
+    },
+    {
+      "code": "7331022",
+      "name": "인천미산초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 원적로 391",
+      "gu": "",
+      "dong": "산곡동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331023",
+      "name": "인천백운초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 아트센터로 130",
+      "gu": "",
+      "dong": "십정동",
+      "events": [
+        {
+          "date": "2026-12-18",
+          "name": "졸업식/종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331024",
+      "name": "인천부개서초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 부일로 39",
+      "gu": "",
+      "dong": "부개동",
+      "events": []
+    },
+    {
+      "code": "7331025",
+      "name": "인천부개초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 마분로 9",
+      "gu": "",
+      "dong": "부개동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331026",
+      "name": "인천부곡초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 마장로272번길 73",
+      "gu": "",
+      "dong": "산곡동",
+      "events": []
+    },
+    {
+      "code": "7331027",
+      "name": "인천부광초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 충선로 104",
+      "gu": "",
+      "dong": "부개동",
+      "events": []
+    },
+    {
+      "code": "7331028",
+      "name": "인천부내초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 수변로 129",
+      "gu": "",
+      "dong": "부개동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331029",
+      "name": "인천부마초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 안남로253번길 41",
+      "gu": "",
+      "dong": "산곡동",
+      "events": []
+    },
+    {
+      "code": "7331030",
+      "name": "인천부원초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 원적로472번길 29",
+      "gu": "",
+      "dong": "부평동",
+      "events": []
+    },
+    {
+      "code": "7331031",
+      "name": "인천부일초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 부흥북로 175",
+      "gu": "",
+      "dong": "부개동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331032",
+      "name": "인천부평남초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 경인로911번길 28",
+      "gu": "",
+      "dong": "부평동",
+      "events": []
+    },
+    {
+      "code": "7331033",
+      "name": "인천부평동초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 부평대로88번길 19",
+      "gu": "",
+      "dong": "부평동",
+      "events": []
+    },
+    {
+      "code": "7331034",
+      "name": "인천부평북초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 주부토로 292",
+      "gu": "",
+      "dong": "갈산동",
+      "events": [
+        {
+          "date": "2026-12-28",
+          "name": "전교정부회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "전교정부회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "전교정부회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "전교정부회장선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331035",
+      "name": "인천부평서초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 부평문화로53번길 19",
+      "gu": "",
+      "dong": "부평동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331036",
+      "name": "인천부흥초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 부흥로366번길 34",
+      "gu": "",
+      "dong": "부평동",
+      "events": [
+        {
+          "date": "2026-12-18",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331037",
+      "name": "인천산곡남초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 부흥로144번길 30",
+      "gu": "",
+      "dong": "산곡동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331038",
+      "name": "인천산곡북초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 산청로 18",
+      "gu": "",
+      "dong": "산곡동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331039",
+      "name": "인천산곡초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 길주로354번길 39",
+      "gu": "",
+      "dong": "산곡동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "학년말방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331040",
+      "name": "인천삼산초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 후정동로 44",
+      "gu": "",
+      "dong": "삼산동",
+      "events": []
+    },
+    {
+      "code": "7331041",
+      "name": "인천상정초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 상정로 50",
+      "gu": "",
+      "dong": "십정동",
+      "events": []
+    },
+    {
+      "code": "7331042",
+      "name": "인천신촌초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 경원대로 1215",
+      "gu": "",
+      "dong": "십정동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331043",
+      "name": "인천십정초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 배곶북로 10-6",
+      "gu": "",
+      "dong": "십정동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331044",
+      "name": "인천영선초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 충선로 293",
+      "gu": "",
+      "dong": "삼산동",
+      "events": [
+        {
+          "date": "2026-12-16",
+          "name": "전교정부회장선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331045",
+      "name": "인천용마초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 세월천로30번길 58",
+      "gu": "",
+      "dong": "청천동",
+      "events": []
+    },
+    {
+      "code": "7331046",
+      "name": "인천일신초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 항동로75번길 36",
+      "gu": "",
+      "dong": "일신동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331047",
+      "name": "인천진산초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 굴포로 194-10",
+      "gu": "",
+      "dong": "삼산동",
+      "events": []
+    },
+    {
+      "code": "7331048",
+      "name": "인천청천초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 산청로127번길 10",
+      "gu": "",
+      "dong": "청천동",
+      "events": []
+    },
+    {
+      "code": "7331049",
+      "name": "인천하정초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 이규보로 14",
+      "gu": "",
+      "dong": "십정동",
+      "events": []
+    },
+    {
+      "code": "7331050",
+      "name": "인천한길초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 영성중로 32",
+      "gu": "",
+      "dong": "삼산동",
+      "events": []
+    },
+    {
+      "code": "7331051",
+      "name": "인천후정초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 영성서로 56",
+      "gu": "",
+      "dong": "삼산동",
+      "events": []
+    },
+    {
+      "code": "7331052",
+      "name": "한일초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 부평구 원적로 247",
+      "gu": "",
+      "dong": "산곡동",
+      "events": []
+    },
+    {
+      "code": "7331053",
+      "name": "갈산중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 주부토로 166",
+      "gu": "",
+      "dong": "갈산동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "2학기 1회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "2학기 1회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "2학기 1회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331054",
+      "name": "구산중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 수변로 199",
+      "gu": "",
+      "dong": "부개동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입수능시험일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331055",
+      "name": "동암중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 동암산로 43번길 12",
+      "gu": "",
+      "dong": "십정동",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "2학기 1회고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "2학기 1회고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능관련 임시 휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "수능관련 임시 휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331056",
+      "name": "부광중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 충선로 140",
+      "gu": "",
+      "dong": "부개동",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "직업체험의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "전일제 창체",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "부광제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 기말시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 기말시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 기말시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "전일제 창체",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331057",
+      "name": "부원여자중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 부영로 88",
+      "gu": "",
+      "dong": "부평동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능시험일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331058",
+      "name": "부원중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 경원대로 1339",
+      "gu": "",
+      "dong": "부평동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "기말고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331060",
+      "name": "부일중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 영성로 3",
+      "gu": "",
+      "dong": "삼산동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331061",
+      "name": "부평동중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 수변로107번길 4",
+      "gu": "",
+      "dong": "부개동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능일휴업",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331062",
+      "name": "부평서여자중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 경원대로 1213",
+      "gu": "",
+      "dong": "십정동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "2학기 1차고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "2학기 1차고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "2학기 1차고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대입수능시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331063",
+      "name": "부평서중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 화랑로 29",
+      "gu": "",
+      "dong": "십정동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "창체의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "교육활동발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장 재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장 재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "자율활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "스포츠데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "학생회장 선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331064",
+      "name": "부평여자중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 부평문화로 193-1",
+      "gu": "",
+      "dong": "부개동",
+      "events": [
+        {
+          "date": "2026-11-03",
+          "name": "3학년2학기기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "3학년2학기기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "학생회 정부회장 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "사정회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331065",
+      "name": "부평중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 부흥북로57번길 10",
+      "gu": "",
+      "dong": "",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "2학기 1차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "2학기 1차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "2학기 1차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331066",
+      "name": "부흥중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 충선로 152",
+      "gu": "",
+      "dong": "부개동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331067",
+      "name": "산곡남중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 안남로 187",
+      "gu": "",
+      "dong": "산곡동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "개교기념일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-04",
+          "name": "진로체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능시험일(휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-26",
+          "name": "백마제축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "기말고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331068",
+      "name": "산곡여자중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 마장로204번길 37",
+      "gu": "",
+      "dong": "산곡동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331069",
+      "name": "산곡중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 원적로300번길 14",
+      "gu": "",
+      "dong": "산곡동",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "2학기 기말시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "2학기 기말시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "2학기 기말시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331070",
+      "name": "삼산중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 충선로 308",
+      "gu": "",
+      "dong": "삼산동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "2학기 1회시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "2학기 1회시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "2학기 1회시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-04",
+          "name": "삼산제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2회시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331246",
+      "name": "인천동수중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 동수로 8",
+      "gu": "",
+      "dong": "부평동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "3학년 2학기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "학년별체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학년 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "졸업사정회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "진급사정회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331071",
+      "name": "인천상정중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 경원대로 1083",
+      "gu": "",
+      "dong": "십정동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7331072",
+      "name": "진산중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 충선로234번길 70",
+      "gu": "",
+      "dong": "삼산동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "3학년 1차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "3학년 1차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "3학년 1차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "1,2학년 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1,2학년 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1,2학년 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "진산제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7331073",
+      "name": "청천중학교",
+      "level": "중학교",
+      "address": "인천광역시 부평구 마장로364번길 23",
+      "gu": "",
+      "dong": "청천동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험 휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장 재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "기말고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7310072",
+      "name": "명신여자고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 원적로 260",
+      "gu": "",
+      "dong": "산곡동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "동계방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "동계방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310219",
+      "name": "부개고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 수변로57번길 36",
+      "gu": "",
+      "dong": "부개동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "새말한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310045",
+      "name": "부개여자고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 부흥로 433",
+      "gu": "",
+      "dong": "부개동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310046",
+      "name": "부광고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 화랑로 28",
+      "gu": "",
+      "dong": "산곡동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7310047",
+      "name": "부광여자고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 충선로 143",
+      "gu": "",
+      "dong": "부개동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대수능휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-16",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "부광하나로의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310048",
+      "name": "부평고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 부흥북로 43",
+      "gu": "",
+      "dong": "부평동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량 휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310093",
+      "name": "부평공업고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 주부토로 194",
+      "gu": "",
+      "dong": "갈산동",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-03",
+          "name": "학교축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "기말고사(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7310049",
+      "name": "부평여자고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 부흥로243번길 44",
+      "gu": "",
+      "dong": "부평동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차시험 (1,2년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차시험 (1,2년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차시험 (1,2년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차시험 (1,2년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7310190",
+      "name": "삼산고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 영성중로 54",
+      "gu": "",
+      "dong": "삼산동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "청율제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7310077",
+      "name": "세일고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 원적로 245",
+      "gu": "",
+      "dong": "산곡동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "꿈더함동아리발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "굿네이버스 캠페인",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2학기 2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "세일어울림한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "동계방힉식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "동계방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310480",
+      "name": "인천미래생활고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 수변로 165",
+      "gu": "",
+      "dong": "부개동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7310248",
+      "name": "인천부흥고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 수변로57번길 61",
+      "gu": "",
+      "dong": "부개동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "개교기념일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "금요일 보강수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "학교축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7310257",
+      "name": "인천산곡고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 원적로416번길 25",
+      "gu": "",
+      "dong": "산곡동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "묏골마루제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7310342",
+      "name": "인천상정고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 경원대로 1109",
+      "gu": "",
+      "dong": "십정동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310259",
+      "name": "인천영선고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 체육관로 179",
+      "gu": "",
+      "dong": "삼산동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "꿈끼행복나눔마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "방학식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310242",
+      "name": "인천외국어고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 원적로 262",
+      "gu": "",
+      "dong": "산곡동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학 수학능력 시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2회 고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2회 고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2회 고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2회 고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동계 방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7310404",
+      "name": "인천진산과학고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 굴포로 194-9",
+      "gu": "",
+      "dong": "삼산동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "3학년 2학기 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "3학년 2학기 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "3학년 2학기 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "1,2학년 2학기 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "1,2학년 2학기 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "1,2학년 2학기 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "1,2학년 2학기 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310479",
+      "name": "인평자동차고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 화랑로 111",
+      "gu": "",
+      "dong": "산곡동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "졸업시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "졸업시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "기말시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7310246",
+      "name": "제일고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 부평구 경인로759번길 28",
+      "gu": "",
+      "dong": "십정동",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "1,2학년 진로직업체험활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "3학년 2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "3학년 2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "3학년 2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "3학년 2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "동아리 활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "3학년 2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "동아리 활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "우림제",
+          "holiday": false
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
