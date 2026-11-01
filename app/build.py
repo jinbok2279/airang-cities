@@ -34,10 +34,10 @@ def tokens(city):
     # 시도 (경기 / 서울): 서울은 구 하나가 앱 하나 → 시군구 이름이 '강남구'
     sido = c.get("sido", "경기")
     t["f.sidoShort"] = sido
-    t["f.sidoFull"] = {"경기": "경기도", "서울": "서울특별시"}[sido]
-    t["f.sgg"] = c.get("sgg", c["name"] + ("구" if sido == "서울" else "시"))
+    t["f.sidoFull"] = {"경기": "경기도", "서울": "서울특별시", "인천": "인천광역시"}[sido]
+    t["f.sgg"] = c.get("sgg", c["name"] + ("시" if sido == "경기" else "구"))
     # 다른 도시 둘러보기: [이름, 주소, 시도] — 경기도 → 서울, 시도 안에서는 가나다순
-    oc = sorted(CFG["cities"].items(), key=lambda kv: (kv[1].get("sido", "경기") != "경기", kv[1]["name"]))
+    oc = sorted(CFG["cities"].items(), key=lambda kv: (["경기", "서울", "인천"].index(kv[1].get("sido", "경기")), kv[1]["name"]))
     oc = [f'["{v["name"]}", "https://{k}.songgollab.co.kr", "{v.get("sido", "경기")}"]' for k, v in oc]
     t["f.otherCities"] = "const OTHER_CITIES = [\n  " + ",\n  ".join(", ".join(oc[i:i + 6]) for i in range(0, len(oc), 6)) + "];"
     return t
@@ -45,7 +45,7 @@ def tokens(city):
 
 def tags(city):
     """{{#if …}} 에 쓸 수 있는 이름: 도시 키 + 시도 묶음 (gyeonggi / seoul)"""
-    return {city, {"경기": "gyeonggi", "서울": "seoul"}[CFG["cities"][city].get("sido", "경기")]}
+    return {city, {"경기": "gyeonggi", "서울": "seoul", "인천": "incheon"}[CFG["cities"][city].get("sido", "경기")]}
 
 
 def render(text, city):
