@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 90
     strategy:
       fail-fast: false
-      max-parallel: 2      # 도서관 정보나루 하루 요청 한도를 넘지 않게 천천히
+      max-parallel: 3      # 도시 50곳 — 3곳씩. 도서관 정보나루 하루 요청 한도를 넘지 않게 천천히
       matrix:
         include:
           - { city: 성남, d: seongnam }
@@ -41,6 +41,30 @@ jobs:
           - { city: 광진, d: gwangjin }
           - { city: 마포, d: mapo }
           - { city: 성동, d: seongdong }
+          - { city: 강북, d: gangbuk }
+          - { city: 강서, d: gangseo }
+          - { city: 관악, d: gwanak }
+          - { city: 구로, d: guro }
+          - { city: 금천, d: geumcheon }
+          - { city: 도봉, d: dobong }
+          - { city: 동대문, d: dongdaemun }
+          - { city: 동작, d: dongjak }
+          - { city: 서대문, d: seodaemun }
+          - { city: 성북, d: seongbuk }
+          - { city: 영등포, d: yeongdeungpo }
+          - { city: 용산, d: yongsan }
+          - { city: 은평, d: eunpyeong }
+          - { city: 종로, d: jongno }
+          - { city: 중구, d: jung }
+          - { city: 중랑, d: jungnang }
+          - { city: 광명, d: gwangmyeong }
+          - { city: 군포, d: gunpo }
+          - { city: 양주, d: yangju }
+          - { city: 이천, d: icheon }
+          - { city: 구리, d: guri }
+          - { city: 안성, d: anseong }
+          - { city: 포천, d: pocheon }
+          - { city: 의왕, d: uiwang }
     env:
       CITY: ${{ matrix.city }}
       NEIS_KEY: ${{ secrets.NEIS_KEY }}

@@ -8,7 +8,7 @@ on:
       dirs:   { description: "폴더 이름 (같은 순서)", default: "pyeongtaek,osan" }
 permissions:
   contents: write
-concurrency: { group: newcity, cancel-in-progress: false }
+concurrency: { group: "newcity-${{ github.event.inputs.dirs }}", cancel-in-progress: false }   # 묶음마다 따로 (여러 묶음 함께 실행)
 jobs:
   open:
     runs-on: ubuntu-latest
