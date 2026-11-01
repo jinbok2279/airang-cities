@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01 17:04:47",
+  "updated_at": "2026-11-02 08:18:43",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -8,17 +8,6 @@
       "desc": "군포시 공공도서관 · 초등(8~13세) 대출 · 최근 1달",
       "books": [
         {
-          "title": "흔한남매",
-          "author": "원작: 흔한남매, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/29832/74/cover/k652838723_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6525944",
-          "isbn": "9791168412477",
-          "loans": 5,
-          "rank": 1,
-          "series": 7
-        },
-        {
           "title": "설민석의 삼국지 대모험",
           "author": "원작: 나관중, 만화: 스튜디오 담",
           "publisher": "Dankkum i(단꿈아이)",
@@ -26,7 +15,7 @@
           "link": "https://data4library.kr/bookV?seq=7198469",
           "isbn": "9791193031582",
           "loans": 4,
-          "rank": 2,
+          "rank": 1,
           "series": 1
         },
         {
@@ -37,8 +26,19 @@
           "link": "https://data4library.kr/bookV?seq=5383245",
           "isbn": "9788926366363",
           "loans": 3,
-          "rank": 3,
+          "rank": 2,
           "series": 1
+        },
+        {
+          "title": "흔한남매",
+          "author": "원작: 흔한남매, 유난희",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/24307/73/cover/k822630592_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=5686627",
+          "isbn": "9791164135592",
+          "loans": 3,
+          "rank": 3,
+          "series": 3
         },
         {
           "title": "신비아파트 한자 귀신 4 - 악귀 조종자",
@@ -126,7 +126,7 @@
           "isbn": "9791196893118",
           "loans": 3,
           "rank": 11,
-          "series": 2
+          "series": 1
         },
         {
           "title": "민쩌미",
@@ -468,19 +468,8 @@
           "cover": "https://image.aladin.co.kr/product/36101/66/cover200/893643974x_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7035395",
           "isbn": "9788936439743",
-          "loans": 17,
-          "rank": 1,
-          "series": 1
-        },
-        {
-          "title": "안녕이라 그랬어 :김애란 소설",
-          "author": "김애란",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7073819",
-          "isbn": "9791141602376",
           "loans": 16,
-          "rank": 2,
+          "rank": 1,
           "series": 1
         },
         {
@@ -491,7 +480,7 @@
           "link": "https://data4library.kr/bookV?seq=6811756",
           "isbn": "9791198547514",
           "loans": 15,
-          "rank": 3,
+          "rank": 2,
           "series": 1
         },
         {
@@ -502,7 +491,7 @@
           "link": "https://data4library.kr/bookV?seq=5969086",
           "isbn": "9788925588735",
           "loans": 14,
-          "rank": 4,
+          "rank": 3,
           "series": 1
         },
         {
@@ -512,19 +501,8 @@
           "cover": "https://image.aladin.co.kr/product/37172/36/cover200/k662031678_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7149374",
           "isbn": "9791141602451",
-          "loans": 14,
-          "rank": 5,
-          "series": 1
-        },
-        {
-          "title": "소년이 온다 :한강 장편소설",
-          "author": "한강",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=2037399",
-          "isbn": "9788936434120",
           "loans": 13,
-          "rank": 6,
+          "rank": 4,
           "series": 1
         },
         {
@@ -535,6 +513,28 @@
           "link": "https://data4library.kr/bookV?seq=7280669",
           "isbn": "9791141617226",
           "loans": 13,
+          "rank": 5,
+          "series": 1
+        },
+        {
+          "title": "소년이 온다 :한강 장편소설",
+          "author": "한강",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=2037399",
+          "isbn": "9788936434120",
+          "loans": 12,
+          "rank": 6,
+          "series": 1
+        },
+        {
+          "title": "안녕이라 그랬어 :김애란 소설",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7073819",
+          "isbn": "9791141602376",
+          "loans": 12,
           "rank": 7,
           "series": 1
         },
@@ -545,7 +545,7 @@
           "cover": "https://image.aladin.co.kr/product/36786/80/cover200/k472030698_2.jpg",
           "link": "https://data4library.kr/bookV?seq=7094855",
           "isbn": "9791170612759",
-          "loans": 13,
+          "loans": 12,
           "rank": 8,
           "series": 1
         },
@@ -569,7 +569,7 @@
           "isbn": "9791173114038",
           "loans": 12,
           "rank": 10,
-          "series": 9
+          "series": 7
         },
         {
           "title": "독서의 기술 - 책은 어떻게 삶의 무기가 되는가",
@@ -605,17 +605,6 @@
           "series": 1
         },
         {
-          "title": "윗집 부부 :황보름 장편소설",
-          "author": "황보름",
-          "publisher": "클레이하우스",
-          "cover": "https://image.aladin.co.kr/product/39532/5/cover200/k602139634_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7279843",
-          "isbn": "9791193235966",
-          "loans": 11,
-          "rank": 14,
-          "series": 1
-        },
-        {
           "title": "괴테는 모든 것을 말했다",
           "author": "스즈키 유이 지음, 이지수 옮김",
           "publisher": "콘텐츠그룹 포레스트",
@@ -623,7 +612,7 @@
           "link": "https://data4library.kr/bookV?seq=7177757",
           "isbn": "9791194530701",
           "loans": 10,
-          "rank": 15,
+          "rank": 14,
           "series": 1
         },
         {
@@ -634,7 +623,7 @@
           "link": "https://data4library.kr/bookV?seq=7204893",
           "isbn": "9791124038192",
           "loans": 9,
-          "rank": 16,
+          "rank": 15,
           "series": 1
         },
         {
@@ -645,18 +634,7 @@
           "link": "https://data4library.kr/bookV?seq=7216392",
           "isbn": "9791124248171",
           "loans": 9,
-          "rank": 17,
-          "series": 1
-        },
-        {
-          "title": "사춘기 엄마의 오장육부 :이 고약한 시절을 건너는 엄마 동지들에게",
-          "author": "나민애 지음",
-          "publisher": "서교책방",
-          "cover": "https://image.aladin.co.kr/product/39067/21/cover200/k662137858_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7252446",
-          "isbn": "9791124497029",
-          "loans": 9,
-          "rank": 18,
+          "rank": 16,
           "series": 1
         },
         {
@@ -667,7 +645,7 @@
           "link": "https://data4library.kr/bookV?seq=7253153",
           "isbn": "9791124539002",
           "loans": 9,
-          "rank": 19,
+          "rank": 17,
           "series": 1
         },
         {
@@ -677,6 +655,28 @@
           "cover": "https://shopping-phinf.pstatic.net/main_6058420/60584207994.20260624123726.jpg",
           "link": "https://data4library.kr/bookV?seq=7289813",
           "isbn": "9791167903662",
+          "loans": 9,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "인비인 :성해나 기담집",
+          "author": "성해나",
+          "publisher": "한겨레출판",
+          "cover": "https://image.aladin.co.kr/product/39581/25/cover200/k692139247_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7282052",
+          "isbn": "9791172134297",
+          "loans": 9,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "윗집 부부 :황보름 장편소설",
+          "author": "황보름",
+          "publisher": "클레이하우스",
+          "cover": "https://image.aladin.co.kr/product/39532/5/cover200/k602139634_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7279843",
+          "isbn": "9791193235966",
           "loans": 9,
           "rank": 20,
           "series": 1
