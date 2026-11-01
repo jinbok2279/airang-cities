@@ -1,24 +1,12 @@
-name: probe-seoul (서울 문화행사 확인 — 한 번 쓰고 지움)
+name: probe-seoul (서울 API 연결 확인 — 한 번 쓰고 지움)
 on: workflow_dispatch
 permissions:
-  contents: write
+  contents: read
 jobs:
   p:
     runs-on: ubuntu-latest
     env:
       SEOUL_KEY: ${{ secrets.SEOUL_KEY }}
-      KOPIS_KEY: ${{ secrets.KOPIS_KEY }}
-      CULTURE_KEY: ${{ secrets.CULTURE_KEY }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
-      - run: |
-          for pair in 강남:gangnam 중구:jung; do
-            c=${pair%%:*}; d=${pair##*:}; rm -rf output; mkdir -p output; cp data/$d/events.json output/ 2>/dev/null || true
-            echo "===== $c"; CITY=$c python -u events.py 2>&1 | grep -E "서울|저장" | head -10
-            cp output/events.json data/$d/events.json
-            python3 -c "import json;j=json.load(open('data/$d/events.json'));[print('  [엄마·아빠]',e.get('status',''),e['start'],e['title'][:50],'|',(e.get('grade') or e.get('target',''))[:20]) for e in j.get('adult',[])[:15]]"
-          done
-          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data; git commit -qm "서울 문화생활 시험 수집 (미리보기용)" && git push || true
+      - run: python3 -u probe_seoul.py

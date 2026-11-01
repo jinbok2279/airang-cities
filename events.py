@@ -584,7 +584,7 @@ def seoul_get(svc, a, b):
                 d = json.loads(r.read().decode("utf-8", "replace"))
             return (d.get(svc) or {}).get("row") or []
         except Exception as e:
-            print(f"  서울 {svc} 다시 시도 {i + 1}/3: {type(e).__name__}")
+            print(f"  서울 {svc} 다시 시도 {i + 1}/3: {type(e).__name__} {str(getattr(e, 'reason', '') or getattr(e, 'code', ''))[:60].replace(SEOUL_KEY, '***')}")
             time.sleep(3)
     return []
 
@@ -710,6 +710,8 @@ def main():
     os.makedirs("output", exist_ok=True)
     result = {"updated_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S"),
               "source": ("서울시 문화행사·공공서비스예약·" if C.get("sido") == "서울" else "") + "공연예술통합전산망·한국관광공사·문화포털", "city": city, "lib": lib}
+    if not ADULT and old.get("adult"):   # 서울 API가 이번에 안 되면 지난 자료(안 끝난 것) 유지
+        ADULT.extend(e for e in old["adult"] if (e.get("end") or "9") >= today.isoformat())
     if ADULT:   # 서울: 엄마·아빠 탭 (접수 중·가까운 날 먼저, 40개까지)
         t = today.isoformat()
         adult = [e for e in ADULT if (e.get("end") or "9") >= t]
