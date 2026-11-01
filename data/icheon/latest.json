@@ -1,0 +1,3416 @@
+{
+  "region": "이천시",
+  "updated_at": "2026-11-01 17:05:24",
+  "period": {
+    "from": "20261101",
+    "to": "20261231"
+  },
+  "school_count": 59,
+  "public_holidays": [
+    {
+      "date": "2026-11-19",
+      "name": "학교장재량휴업"
+    },
+    {
+      "date": "2026-11-19",
+      "name": "재량휴업일(대학수학능력시험)"
+    },
+    {
+      "date": "2026-11-19",
+      "name": "대입수능일"
+    },
+    {
+      "date": "2026-11-20",
+      "name": "재량휴업일(대학수학능력시험)"
+    },
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    },
+    {
+      "date": "2026-12-25",
+      "name": "석가탄신일"
+    },
+    {
+      "date": "2026-12-31",
+      "name": "겨울방학"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "이천제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-11",
+      "name": "숙박형 체험학습",
+      "holiday": false
+    },
+    {
+      "school": "이천제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-12",
+      "name": "숙박형 체험학습",
+      "holiday": false
+    },
+    {
+      "school": "이천제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-13",
+      "name": "숙박형 체험학습",
+      "holiday": false
+    },
+    {
+      "school": "다산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "마장고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "마장중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "모가중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "백사중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부발중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부원고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "설봉중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "설봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "율면고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "율면중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "율면초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "이천사동중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능",
+      "holiday": true
+    },
+    {
+      "school": "이천세무고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이천송정중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "이천송정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이천양정여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "이천제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "이천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "이현고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대수능",
+      "holiday": true
+    },
+    {
+      "school": "장호원고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "장호원중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "증포중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "한국도예고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "효양고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "효양고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "효양중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "다산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "마장고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이천사동중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이천세무고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이천양정여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이천양정여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장 재량 휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이천제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이현고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "장호원고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "한국도예고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "효양고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "효양중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "부원고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-27",
+      "name": "학교장 재량 휴업일",
+      "holiday": true
+    },
+    {
+      "school": "대월중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-03",
+      "name": "3학년 졸업여행",
+      "holiday": false
+    },
+    {
+      "school": "율면중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-03",
+      "name": "학교재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "효양고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-04",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "율면중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-17",
+      "name": "어울림한마당",
+      "holiday": false
+    },
+    {
+      "school": "율면고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "이천송정중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "체험학습",
+      "holiday": false
+    },
+    {
+      "school": "한내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "한내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-21",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "한내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "한국도예고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "축제(토담제)",
+      "holiday": false
+    },
+    {
+      "school": "한내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "다산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "열린대축제",
+      "holiday": false
+    },
+    {
+      "school": "대월중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "대월축제",
+      "holiday": false
+    },
+    {
+      "school": "이천가산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "이천제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "한내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천가산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "한내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천가산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천가산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대월중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "이천가산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "한내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대월중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "이천가산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "장호원고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "한내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대서초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "대서초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "도암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "도암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "도지초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "도지초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "마장초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "마장초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식(5,6학년 출석)",
+      "holiday": false
+    },
+    {
+      "school": "백사초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "부발중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "어울림축제",
+      "holiday": false
+    },
+    {
+      "school": "부발초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "6학년졸업식",
+      "holiday": false
+    },
+    {
+      "school": "설봉중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "신둔초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "아미초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "안흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "안흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "이천가산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "이천매곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "이천사동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "이천제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천중리초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "이천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "한내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "나래초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "대서초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대월초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "도암초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "도지초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "마장초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "백사초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "부발초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "설봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "신둔초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "아미초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "안흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천가산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천경남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "교육활동발표회",
+      "holiday": false
+    },
+    {
+      "school": "이천남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천매곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천매곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "이천사동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천세무고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "이천송정초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "이천제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천중리초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "장호원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "장호원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "증포초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "표교초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "한내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "호법초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    }
+  ],
+  "schools": [
+    {
+      "code": "7741016",
+      "name": "나래초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 장호원읍 이풍로63번길 114",
+      "gu": "",
+      "dong": "장호원읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741017",
+      "name": "대서초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 장호원읍 서동대로8487번길 23-24",
+      "gu": "",
+      "dong": "장호원읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741018",
+      "name": "대월초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 대월면 대평로178번길 48",
+      "gu": "",
+      "dong": "대월면",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "교육과정 발표의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741019",
+      "name": "도암초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 신둔면 증신로 550",
+      "gu": "",
+      "dong": "신둔면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741020",
+      "name": "도지초등학교",
+      "level": "초등학교",
+      "address": "경기 이천시 백사면 청백리로 207",
+      "gu": "",
+      "dong": "백사면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741021",
+      "name": "마장초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 마장면 중앙로 25",
+      "gu": "",
+      "dong": "마장면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식(5,6학년 출석)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741022",
+      "name": "백사초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 백사면 현방로 55",
+      "gu": "",
+      "dong": "백사면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741023",
+      "name": "부발초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 부발읍 무촌로 155",
+      "gu": "",
+      "dong": "부발읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "6학년졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741025",
+      "name": "설봉초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 향교로 129",
+      "gu": "",
+      "dong": "창전동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741026",
+      "name": "설성초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 설성면 진상미로264번길 21-165",
+      "gu": "",
+      "dong": "설성면",
+      "events": []
+    },
+    {
+      "code": "7741027",
+      "name": "송곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 모가면 진상미로 1054",
+      "gu": "",
+      "dong": "모가면",
+      "events": []
+    },
+    {
+      "code": "7741028",
+      "name": "신둔초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 신둔면 경충대로3150번길 82-3",
+      "gu": "",
+      "dong": "신둔면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741029",
+      "name": "신하초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 부발읍 경충대로2250번길 12",
+      "gu": "",
+      "dong": "부발읍",
+      "events": []
+    },
+    {
+      "code": "7741030",
+      "name": "아미초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 부발읍 신아로92번길 32",
+      "gu": "",
+      "dong": "부발읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741031",
+      "name": "안흥초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 영창로300번길 16",
+      "gu": "",
+      "dong": "안흥동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741032",
+      "name": "율면초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 율면 고당로 48",
+      "gu": "",
+      "dong": "율면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741033",
+      "name": "이천가산초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 부발읍 황무로2065번길 112",
+      "gu": "",
+      "dong": "부발읍",
+      "events": [
+        {
+          "date": "2026-12-11",
+          "name": "학생자치임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741034",
+      "name": "이천남초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 경충대로2614번길 32",
+      "gu": "",
+      "dong": "중리동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741035",
+      "name": "이천단월초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 단월로 98",
+      "gu": "",
+      "dong": "단월동",
+      "events": []
+    },
+    {
+      "code": "7741036",
+      "name": "이천매곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 호법면 이섭대천로96번길 8",
+      "gu": "",
+      "dong": "호법면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741101",
+      "name": "이천사동초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 대월면 경충대로2003번길 124-87",
+      "gu": "",
+      "dong": "대월면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741037",
+      "name": "이천송정초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 영창로45번길 165",
+      "gu": "",
+      "dong": "송정동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741121",
+      "name": "이천중리초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 신서희로 33",
+      "gu": "",
+      "dong": "중리동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741038",
+      "name": "이천초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 서희로81번길 20",
+      "gu": "",
+      "dong": "창전동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741039",
+      "name": "이황초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 장호원읍 경충대로 456-20",
+      "gu": "",
+      "dong": "장호원읍",
+      "events": []
+    },
+    {
+      "code": "7741040",
+      "name": "장천초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 설성면 설성로 165-25",
+      "gu": "",
+      "dong": "설성면",
+      "events": [
+        {
+          "date": "2026-11-27",
+          "name": "열려라 꿈끼마당",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741041",
+      "name": "장호원초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 장호원읍 장감로 46",
+      "gu": "",
+      "dong": "장호원읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741015",
+      "name": "증포초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 이섭대천로 1418",
+      "gu": "",
+      "dong": "증포동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "학년말종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741042",
+      "name": "진가초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 모가면 진상미로 1321-14",
+      "gu": "",
+      "dong": "모가면",
+      "events": []
+    },
+    {
+      "code": "7741044",
+      "name": "표교초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 마장면 중부대로609번길 28-1",
+      "gu": "",
+      "dong": "마장면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741045",
+      "name": "한내초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 갈산로 71",
+      "gu": "",
+      "dong": "증포동",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "장애이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "장애이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "장애이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "장애이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "장애이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "꿈끼진로탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "꿈끼진로탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "꿈끼진로탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "꿈끼진로탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "꿈끼진로탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "전교자치선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "전교자치선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "전교자치선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "전교자치선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "전교자치선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741046",
+      "name": "호법초등학교",
+      "level": "초등학교",
+      "address": "경기도 이천시 호법면 이섭대천로 537",
+      "gu": "",
+      "dong": "호법면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741003",
+      "name": "대월중학교",
+      "level": "중학교",
+      "address": "경기도 이천시 대월면 대평로150번길 20",
+      "gu": "",
+      "dong": "대월면",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "지필2차(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "지필2차(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "지필2차(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "3학년 졸업여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "지필2차(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "지필2차(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "지필2차(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "대월축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "현장체험학습",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741004",
+      "name": "마장중학교",
+      "level": "중학교",
+      "address": "경기도 이천시 마장면 오천로 130",
+      "gu": "",
+      "dong": "마장면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741005",
+      "name": "모가중학교",
+      "level": "중학교",
+      "address": "경기도 이천시 모가면 진상미로1385번길 114",
+      "gu": "",
+      "dong": "모가면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741007",
+      "name": "백사중학교",
+      "level": "중학교",
+      "address": "경기도 이천시 백사면 이여로 309",
+      "gu": "",
+      "dong": "백사면",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "백송제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741006",
+      "name": "부발중학교",
+      "level": "중학교",
+      "address": "경기도 이천시 부발읍 죽당로 21",
+      "gu": "",
+      "dong": "부발읍",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "어울림축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741008",
+      "name": "설봉중학교",
+      "level": "중학교",
+      "address": "경기도 이천시 향교로 117",
+      "gu": "",
+      "dong": "창전동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741009",
+      "name": "율면중학교",
+      "level": "중학교",
+      "address": "경기도 이천시 율면 고당로 48",
+      "gu": "",
+      "dong": "율면",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "학교재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "꿈끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "꿈끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "어울림한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "꿈끼 탐색주간",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741082",
+      "name": "이천경남중학교",
+      "level": "중학교",
+      "address": "경기도 이천시 설성면 설성로15번길 26",
+      "gu": "",
+      "dong": "설성면",
+      "events": [
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "교육활동발표회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741102",
+      "name": "이천사동중학교",
+      "level": "중학교",
+      "address": "경기도 이천시 대월면 경충대로2050번길 68-13",
+      "gu": "",
+      "dong": "대월면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입수능",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7741011",
+      "name": "이천송정중학교",
+      "level": "중학교",
+      "address": "경기도 이천시 영창로45번길 139",
+      "gu": "",
+      "dong": "송정동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "학년의날",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741014",
+      "name": "이천양정여자중학교",
+      "level": "중학교",
+      "address": "경기도 이천시 영창로 119",
+      "gu": "",
+      "dong": "관고동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장 재량 휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741010",
+      "name": "이천중학교",
+      "level": "중학교",
+      "address": "경기도 이천시 애련정로 50",
+      "gu": "",
+      "dong": "안흥동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "2학기 1차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2학기 1차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2학기 1차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741012",
+      "name": "장호원중학교",
+      "level": "중학교",
+      "address": "경기도 이천시 장호원읍 샘재로 27-15",
+      "gu": "",
+      "dong": "장호원읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2학기 2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2차지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741080",
+      "name": "증포중학교",
+      "level": "중학교",
+      "address": "경기도 이천시 애련정로 218",
+      "gu": "",
+      "dong": "증포동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "인터넷중독예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "학급회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7741013",
+      "name": "효양중학교",
+      "level": "중학교",
+      "address": "경기도 이천시 부발읍 효양로 231",
+      "gu": "",
+      "dong": "부발읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2차지필평가(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530608",
+      "name": "다산고등학교",
+      "level": "고등학교",
+      "address": "경기도 이천시 경충대로 2856",
+      "gu": "",
+      "dong": "사음동",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "청렴 교육, 사이버 폭력 예방 교육, 학급 자율",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "수능장교 조성 봉사활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "수능장교 조성 봉사활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "다문화 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "다문화 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "다문화 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "다문화 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "다문화 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "다문화 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "다문화 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "다문화 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "다문화 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "다문화 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "외국어페스티벌",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "열린대축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530649",
+      "name": "마장고등학교",
+      "level": "고등학교",
+      "address": "경기도 이천시 마장면 마도로 23",
+      "gu": "",
+      "dong": "마장면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530842",
+      "name": "부원고등학교",
+      "level": "고등학교",
+      "address": "경기도 이천시 장호원읍 서동대로 8857",
+      "gu": "",
+      "dong": "장호원읍",
+      "events": [
+        {
+          "date": "2026-11-18",
+          "name": "대수능 예비소집",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "개교 기념식",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "학교장 재량 휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-21",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530531",
+      "name": "율면고등학교",
+      "level": "고등학교",
+      "address": "경기도 이천시 율면 고당로 48",
+      "gu": "",
+      "dong": "율면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2학기 2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 정기시험(1,2학년()",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 정기시험(1,2학년()",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 정기시험(1,2학년()",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 정기시험(1,2학년()",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "동아리발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "사정회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530112",
+      "name": "이천고등학교",
+      "level": "고등학교",
+      "address": "경기도 이천시 아리역로16번길 1",
+      "gu": "",
+      "dong": "증포동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2학기 2차 지필평가(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531143",
+      "name": "이천세무고등학교",
+      "level": "고등학교",
+      "address": "경기도 이천시 설성면 설성로15번길 26",
+      "gu": "",
+      "dong": "설성면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2학기2차지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기2차지필평가(1.2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기2차지필평가(1.2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기2차지필평가(1.2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기2차지필평가(1.2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "사정회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530538",
+      "name": "이천양정여자고등학교",
+      "level": "고등학교",
+      "address": "경기도 이천시 영창로 119",
+      "gu": "",
+      "dong": "관고동",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "학급자치회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "학급별 자율활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "학급별 봉사활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "학급별 봉사활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "심폐소생술 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "심폐소생술 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "학급자치회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "전교자치회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "심폐소생술 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "심폐소생술 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "심폐소생술 교육",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530582",
+      "name": "이천제일고등학교",
+      "level": "고등학교",
+      "address": "경기도 이천시 애련정로 26",
+      "gu": "",
+      "dong": "안흥동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "숙박형 체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "숙박형 체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "숙박형 체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-30",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "2차 정기시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530983",
+      "name": "이현고등학교",
+      "level": "고등학교",
+      "address": "경기도 이천시 증신로 88",
+      "gu": "",
+      "dong": "갈산동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대수능",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차정기고사(고3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차정기고사(고3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2차정기고사(고3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차정기고사(고1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차정기고사(고1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차정기고사(고1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차정기고사(고1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차정기고사(고1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "이현제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530116",
+      "name": "장호원고등학교",
+      "level": "고등학교",
+      "address": "경기도 이천시 장호원읍 샘재로 27-37",
+      "gu": "",
+      "dong": "장호원읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수능능력평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "청송제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "동아리발표회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530559",
+      "name": "한국도예고등학교",
+      "level": "고등학교",
+      "address": "경기도 이천시 신둔면 둔터로 61",
+      "gu": "",
+      "dong": "신둔면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "축제(토담제)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530620",
+      "name": "효양고등학교",
+      "level": "고등학교",
+      "address": "경기도 이천시 부발읍 효양로 214",
+      "gu": "",
+      "dong": "부발읍",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "교직원역량강화의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2차 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "교직원역량강화의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험(1.2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험(1.2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험(1.2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험(1.2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험(1.2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "반짝제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "교직원역량강화의 날",
+          "holiday": false
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
