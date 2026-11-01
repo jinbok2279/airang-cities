@@ -1,9 +1,9 @@
 {
   "region": "성동구",
-  "updated_at": "2026-11-01 07:59:24",
+  "updated_at": "2026-11-02 07:35:15",
   "period": {
-    "from": "20261101",
-    "to": "20261231"
+    "from": "20261102",
+    "to": "20270101"
   },
   "school_count": 39,
   "public_holidays": [
@@ -37,6 +37,14 @@
     },
     {
       "date": "2026-12-31",
+      "name": "겨울방학"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "신정"
+    },
+    {
+      "date": "2027-01-01",
       "name": "겨울방학"
     }
   ],
@@ -816,6 +824,110 @@
       "date": "2026-12-31",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "무학여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울경동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울경수초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "학년말방학",
+      "holiday": true
+    },
+    {
+      "school": "서울경일초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울금북초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울금호초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울마장초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울사근초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울송원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울용답초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성수고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "한양대학교사범대학부속고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "한양초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -841,6 +953,11 @@
           "date": "2026-12-31",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -861,6 +978,11 @@
           "date": "2026-12-31",
           "name": "종업식(급식 미실시)",
           "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "학년말방학",
+          "holiday": true
         }
       ]
     },
@@ -881,6 +1003,11 @@
           "date": "2026-12-31",
           "name": "졸업식,종업식",
           "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -961,6 +1088,11 @@
           "date": "2026-12-31",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1025,6 +1157,11 @@
           "date": "2026-12-31",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1069,6 +1206,11 @@
           "date": "2026-12-31",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1124,6 +1266,11 @@
           "date": "2026-12-31",
           "name": "겨울방학식",
           "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1192,6 +1339,11 @@
         },
         {
           "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
           "name": "겨울방학",
           "holiday": true
         }
@@ -1263,6 +1415,11 @@
           "date": "2026-12-31",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1365,6 +1522,11 @@
         },
         {
           "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
           "name": "겨울방학",
           "holiday": true
         }
@@ -2275,6 +2437,11 @@
           "date": "2026-12-31",
           "name": "겨울방학식",
           "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2415,6 +2582,11 @@
           "date": "2026-12-31",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2533,6 +2705,11 @@
         },
         {
           "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
           "name": "겨울방학",
           "holiday": true
         }
