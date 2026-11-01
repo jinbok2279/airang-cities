@@ -1,0 +1,3752 @@
+{
+  "region": "연수구",
+  "updated_at": "2026-11-02 07:54:56",
+  "period": {
+    "from": "20261102",
+    "to": "20270101"
+  },
+  "school_count": 70,
+  "public_holidays": [
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "신정"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "설날"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "인천과학예술영재학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-02",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "연수중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-04",
+      "name": "개교기념일",
+      "holiday": true
+    },
+    {
+      "school": "인천예송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-06",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "능허대중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-09",
+      "name": "진로체험의 날",
+      "holiday": false
+    },
+    {
+      "school": "인천문남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-09",
+      "name": "다문화 문화체험활동",
+      "holiday": false
+    },
+    {
+      "school": "인천문남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-10",
+      "name": "다문화 문화체험활동",
+      "holiday": false
+    },
+    {
+      "school": "인천문남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-11",
+      "name": "다문화 문화체험활동",
+      "holiday": false
+    },
+    {
+      "school": "청량중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-11",
+      "name": "인천교육한마당",
+      "holiday": false
+    },
+    {
+      "school": "인천문남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-12",
+      "name": "다문화 문화체험활동",
+      "holiday": false
+    },
+    {
+      "school": "인천문남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-13",
+      "name": "다문화 문화체험활동",
+      "holiday": false
+    },
+    {
+      "school": "능허대중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "박문여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "박문중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능일(임시휴교)",
+      "holiday": true
+    },
+    {
+      "school": "선학중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능일",
+      "holiday": true
+    },
+    {
+      "school": "송도고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "송도고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량 휴업일",
+      "holiday": true
+    },
+    {
+      "school": "신송고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "신송고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능휴업일",
+      "holiday": true
+    },
+    {
+      "school": "신송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대수능시험 휴업일",
+      "holiday": true
+    },
+    {
+      "school": "연성중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "연수고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "연수여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "연수중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "연화중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능일",
+      "holiday": true
+    },
+    {
+      "school": "옥련여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "옥련중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능시험일",
+      "holiday": true
+    },
+    {
+      "school": "인송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천대건고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "인천미송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천바이오과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력 시험일",
+      "holiday": true
+    },
+    {
+      "school": "인천뷰티예술고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천생활과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능(3학년)",
+      "holiday": true
+    },
+    {
+      "school": "인천신정중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수능일",
+      "holiday": true
+    },
+    {
+      "school": "인천여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "인천여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능일",
+      "holiday": true
+    },
+    {
+      "school": "인천연송고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "인천예송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능일(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "인천은송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능",
+      "holiday": true
+    },
+    {
+      "school": "인천포스코고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "휴업일(대수능)",
+      "holiday": true
+    },
+    {
+      "school": "인천해송고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "인천해송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능일",
+      "holiday": true
+    },
+    {
+      "school": "인천해양과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "인천현송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "청량중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일(수능일)",
+      "holiday": true
+    },
+    {
+      "school": "청학중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "함박중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능일",
+      "holiday": true
+    },
+    {
+      "school": "능허대중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "박문여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "선학중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "송도고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량 휴업일",
+      "holiday": true
+    },
+    {
+      "school": "신송고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "신송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "연수여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "효체험학습일",
+      "holiday": true
+    },
+    {
+      "school": "연수중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "옥련여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천대건고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천바이오과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천신정중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "개교기념일",
+      "holiday": true
+    },
+    {
+      "school": "인천연송고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천예송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장 재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천해송고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천현송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "청량중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "청학중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "연수고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-26",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "인천연송고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-27",
+      "name": "현장체험학습(3학년)",
+      "holiday": false
+    },
+    {
+      "school": "신송고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-11",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "연수여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-16",
+      "name": "3학년 현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "인천포스코고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "인천포스코고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천포스코고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-21",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천포스코고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천포스코고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "신송고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "길마루축제",
+      "holiday": false
+    },
+    {
+      "school": "연수여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "말그뫼축제",
+      "holiday": false
+    },
+    {
+      "school": "인천대건고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "인천박문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "인천포스코고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천박문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천포스코고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천해양과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "인천박문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천포스코고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천해양과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "인천박문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천해양과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "인천박문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천포스코고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천해양과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "능허대중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "어울림한마당",
+      "holiday": false
+    },
+    {
+      "school": "송도고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "인천박문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "인천포스코고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천해양과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "송도고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "어진솔 축제",
+      "holiday": false
+    },
+    {
+      "school": "인천동막초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천박문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천송명초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "인천송명초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천첨단초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천포스코고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천해양과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "인천현송초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "청량중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "청량중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "박문여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "송도고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "신송고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "연수고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "옥련여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "동계방학식",
+      "holiday": false
+    },
+    {
+      "school": "옥련중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천능허대초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천대건고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "인천동막초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천문남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천미송초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천바이오과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천박문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천뷰티예술고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식 및 종업식",
+      "holiday": false
+    },
+    {
+      "school": "인천송명초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식 및 종업식",
+      "holiday": false
+    },
+    {
+      "school": "인천연송고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "인천은송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "인천은송초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천첨단초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천청량초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학일",
+      "holiday": true
+    },
+    {
+      "school": "인천축현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "인천축현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천포스코고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천해송고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "인천해양과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "인천현송초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "학년말방학",
+      "holiday": true
+    },
+    {
+      "school": "청량중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "박문여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "송도고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "신송고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "연수고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "옥련여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "인천과학예술영재학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "인천능허대초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천동막초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천문남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천미송초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "인천바이오과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천박문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천뷰티예술고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천송명초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천은송중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천은송초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천첨단초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천청량초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학일",
+      "holiday": true
+    },
+    {
+      "school": "인천청학초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "학년말방학",
+      "holiday": true
+    },
+    {
+      "school": "인천축현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천포스코고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천해양과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "인천현송초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "학년말방학",
+      "holiday": true
+    }
+  ],
+  "schools": [
+    {
+      "code": "7341021",
+      "name": "인천능허대초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 한진로 12",
+      "gu": "",
+      "dong": "옥련동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341024",
+      "name": "인천동막초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 원인재로 36",
+      "gu": "",
+      "dong": "동춘동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341027",
+      "name": "인천동춘초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 앵고개로 224",
+      "gu": "",
+      "dong": "동춘동",
+      "events": []
+    },
+    {
+      "code": "7341031",
+      "name": "인천먼우금초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 해돋이로84번길 33",
+      "gu": "",
+      "dong": "송도동",
+      "events": []
+    },
+    {
+      "code": "7341234",
+      "name": "인천명선초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 컨벤시아대로42번길 64",
+      "gu": "",
+      "dong": "송도동",
+      "events": []
+    },
+    {
+      "code": "7341032",
+      "name": "인천문남초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 먼우금로 273",
+      "gu": "",
+      "dong": "연수동",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "다문화 문화체험활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "다문화 문화체험활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "다문화 문화체험활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "다문화 문화체험활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "다문화 문화체험활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "전교정부회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341291",
+      "name": "인천미송초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 아카데미로 667",
+      "gu": "",
+      "dong": "",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "학년말 방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341065",
+      "name": "인천박문초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 봉재산로 138-22",
+      "gu": "",
+      "dong": "동춘동",
+      "events": [
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341301",
+      "name": "인천새봄초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 앵고개로104번길 34",
+      "gu": "",
+      "dong": "동춘동",
+      "events": []
+    },
+    {
+      "code": "7341035",
+      "name": "인천서면초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 먼우금로 54",
+      "gu": "",
+      "dong": "동춘동",
+      "events": []
+    },
+    {
+      "code": "7341039",
+      "name": "인천선학초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 선학로 67",
+      "gu": "",
+      "dong": "선학동",
+      "events": []
+    },
+    {
+      "code": "7341308",
+      "name": "인천송담초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 아카데미로 627",
+      "gu": "",
+      "dong": "송도동",
+      "events": []
+    },
+    {
+      "code": "7341042",
+      "name": "인천송도초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 비류대로214번길 21",
+      "gu": "",
+      "dong": "옥련동",
+      "events": []
+    },
+    {
+      "code": "7341253",
+      "name": "인천송명초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 송도교육로 19",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341313",
+      "name": "인천송빛초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 아카데미로343번길 27",
+      "gu": "",
+      "dong": "송도동",
+      "events": []
+    },
+    {
+      "code": "7341243",
+      "name": "인천송원초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 송도과학로51번길 60",
+      "gu": "",
+      "dong": "송도동",
+      "events": []
+    },
+    {
+      "code": "7341271",
+      "name": "인천송일초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 컨벤시아대로252번길 15",
+      "gu": "",
+      "dong": "송도동",
+      "events": []
+    },
+    {
+      "code": "7341043",
+      "name": "인천신송초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 해돋이로56번길 28",
+      "gu": "",
+      "dong": "송도동",
+      "events": []
+    },
+    {
+      "code": "7341045",
+      "name": "인천신정초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 아트센터대로97번길 72",
+      "gu": "",
+      "dong": "송도동",
+      "events": []
+    },
+    {
+      "code": "7341047",
+      "name": "인천연성초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 원인재로 116",
+      "gu": "",
+      "dong": "동춘동",
+      "events": []
+    },
+    {
+      "code": "7341277",
+      "name": "인천연송초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 해돋이로 248",
+      "gu": "",
+      "dong": "송도동",
+      "events": []
+    },
+    {
+      "code": "7341048",
+      "name": "인천연수초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 원인재로 324",
+      "gu": "",
+      "dong": "연수동",
+      "events": []
+    },
+    {
+      "code": "7341049",
+      "name": "인천연화초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 원인재로 150",
+      "gu": "",
+      "dong": "연수동",
+      "events": []
+    },
+    {
+      "code": "7341288",
+      "name": "인천예송초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 컨벤시아대로252번길 75",
+      "gu": "",
+      "dong": "송도동",
+      "events": []
+    },
+    {
+      "code": "7341050",
+      "name": "인천옥련초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 한진로 30",
+      "gu": "",
+      "dong": "옥련동",
+      "events": []
+    },
+    {
+      "code": "7341304",
+      "name": "인천은송초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 센트럴로 460",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341059",
+      "name": "인천중앙초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 새말로 153",
+      "gu": "",
+      "dong": "연수동",
+      "events": []
+    },
+    {
+      "code": "7341283",
+      "name": "인천첨단초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 송도교육로 20",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341060",
+      "name": "인천청량초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 먼우금로 158",
+      "gu": "",
+      "dong": "동춘동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학일",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341061",
+      "name": "인천청학초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 함박뫼로 25",
+      "gu": "",
+      "dong": "청학동",
+      "events": [
+        {
+          "date": "2027-01-01",
+          "name": "학년말방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341062",
+      "name": "인천축현초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 청량로 176",
+      "gu": "",
+      "dong": "옥련동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341063",
+      "name": "인천함박초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 함박뫼로 87",
+      "gu": "",
+      "dong": "연수동",
+      "events": []
+    },
+    {
+      "code": "7341064",
+      "name": "인천해송초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 인천타워대로54번길 46",
+      "gu": "",
+      "dong": "송도동",
+      "events": []
+    },
+    {
+      "code": "7341306",
+      "name": "인천현송초등학교",
+      "level": "초등학교",
+      "address": "인천광역시 연수구 아카데미로312번길 96",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "학년말방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "학년말방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341071",
+      "name": "능허대중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 송도교육로 31",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "스포츠데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "진로체험의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "진로캠프",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "학생회정부회장 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "어울림한마당",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7341256",
+      "name": "박문중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 송도과학로51번길 102",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능일(임시휴교)",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341081",
+      "name": "선학중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 선학로 19",
+      "gu": "",
+      "dong": "선학동",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "선학제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학생회 선거일",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7341082",
+      "name": "신송중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 해돋이로56번길 12",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대수능시험 휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341083",
+      "name": "연성중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 원인재로 105",
+      "gu": "",
+      "dong": "동춘동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341084",
+      "name": "연수중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 원인재로 231",
+      "gu": "",
+      "dong": "연수동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "2학기 고사 (3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "2학기 고사 (3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "개교기념일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7341085",
+      "name": "연화중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 용담로 156",
+      "gu": "",
+      "dong": "연수동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341086",
+      "name": "옥련중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 청량로 222",
+      "gu": "",
+      "dong": "옥련동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "3학년 학기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "3학년 학기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "3학년 학기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대입수능시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7341087",
+      "name": "인송중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 능허대로79번길 55",
+      "gu": "",
+      "dong": "옥련동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "2학기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "2학기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "어진솔 축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7341310",
+      "name": "인천미송중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 아카데미로 679",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "3학년 2학기 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "3학년 2학기 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "3학년 2학기 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7341224",
+      "name": "인천신정중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 컨벤시아대로42번길 80",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7341093",
+      "name": "인천여자중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 원인재로 47",
+      "gu": "",
+      "dong": "동춘동",
+      "events": [
+        {
+          "date": "2026-11-03",
+          "name": "3학년 2학기 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "3학년 2학기 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "3학년 2학기 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "개교기념일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-01",
+          "name": "1,2학년 2학기2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "1,2학년 2학기2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "1,2학년 2학기2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "죽향제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "학생회장 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식 및 종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341285",
+      "name": "인천예송중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 아카데미로 212",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능일(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장 재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차시험(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "2차시험(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7341315",
+      "name": "인천은송중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 센트럴로 464",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341095",
+      "name": "인천중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 함박뫼로 203",
+      "gu": "",
+      "dong": "연수동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341096",
+      "name": "인천해송중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 해송로 148",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341312",
+      "name": "인천현송중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 아카데미로312번길 84",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341097",
+      "name": "청량중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 먼우금로 138",
+      "gu": "",
+      "dong": "동춘동",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "동아리 활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "청량제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "인천교육한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일(수능일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "학생회정부회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7341098",
+      "name": "청학중학교",
+      "level": "중학교",
+      "address": "인천 연수구 함박뫼로 5",
+      "gu": "",
+      "dong": "청학동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "2학기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "2학기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 기말시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7341099",
+      "name": "함박중학교",
+      "level": "중학교",
+      "address": "인천광역시 연수구 솔샘로 143",
+      "gu": "",
+      "dong": "청학동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입수능일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310427",
+      "name": "박문여자고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 송도과학로51번길 16 ",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "꿈끼주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "꿈끼주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "꿈끼주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "꿈끼주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "꿈끼주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "백합제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "방학식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310078",
+      "name": "송도고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 독배로 91",
+      "gu": "",
+      "dong": "옥련동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량 휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량 휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2-2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2-2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2-2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2-2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310250",
+      "name": "신송고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 신송로6번길 56",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "학생회 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "길마루축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "사정회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310053",
+      "name": "연수고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 원인재로 145",
+      "gu": "",
+      "dong": "연수동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-26",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "수업량 유연화",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "수업량 유연화",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "수업량 유연화",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "수업량 유연화",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "동아리활동(창체)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "수업량 유연화",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "웅비제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310054",
+      "name": "연수여자고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 먼우금로141번길 9",
+      "gu": "",
+      "dong": "동춘동",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "향상음악회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "효체험학습일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-11",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "3학년 현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "말그뫼축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7310216",
+      "name": "옥련여자고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 옥골로 77",
+      "gu": "",
+      "dong": "옥련동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동계방학식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "동계방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310449",
+      "name": "인천과학예술영재학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 아카데미로 192",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "동계방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310068",
+      "name": "인천대건고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 능허대로 437",
+      "gu": "",
+      "dong": "동춘동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "대건제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "대건제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7310593",
+      "name": "인천바이오과학고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 용담로 12",
+      "gu": "",
+      "dong": "청학동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력 시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "3학년 2학기 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "참솔제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "1,2학년 2학기 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1,2학년 2학기 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1,2학년 2학기 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310453",
+      "name": "인천뷰티예술고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 원인재로 21",
+      "gu": "",
+      "dong": "동춘동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "3학년 2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "3학년 2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2학기 기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 기말고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "사정회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식 및 종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310193",
+      "name": "인천생활과학고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 함박뫼로 103",
+      "gu": "",
+      "dong": "연수동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입수능(3학년)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "3학년 2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "3학년 2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "함박제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차 시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2차 시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7310060",
+      "name": "인천여자고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 비류대로506번길 14",
+      "gu": "",
+      "dong": "연수동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-11",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "기말시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "클로버예술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310422",
+      "name": "인천연송고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 컨벤시아대로42번길 72",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "현장체험학습(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "연송제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7310447",
+      "name": "인천포스코고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 컨벤시아대로42번길 50",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "휴업일(대수능)",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-03",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "학술 컨퍼런스",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "담송제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-19",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-21",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7310349",
+      "name": "인천해송고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 해송로 20",
+      "gu": "",
+      "dong": "송도동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "사정회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동아리발표대회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "사정회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7310109",
+      "name": "인천해양과학고등학교",
+      "level": "고등학교",
+      "address": "인천광역시 연수구 능허대로 71",
+      "gu": "",
+      "dong": "옥련동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "동계방학",
+          "holiday": true
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
