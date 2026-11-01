@@ -10,7 +10,7 @@ API = "https://open.neis.go.kr/hub/"
 KEY = os.environ.get("NEIS_KEY", "")
 from city import SIDO as _SIDO
 OFFICE = _SIDO["neis"]    # 시도교육청 (경기 J10, 서울 B10)
-from city import AREA, gu_of, C  # 주소에 이 글자가 들어간 학교만 (도시 전체, 초·중·고)
+from city import AREA, gu_of, C, in_area  # 주소에 이 글자가 들어간 학교만 (도시 전체, 초·중·고)
 DAYS_AHEAD = 60           # 오늘부터 며칠 뒤까지 일정을 모을지
 SKIP_EVENTS = {"토요휴업일"}
 PUBLIC_HOLIDAYS = {"한글날", "개천절", "추석", "설날", "성탄절", "기독탄신일", "신정",
@@ -60,7 +60,7 @@ def find_schools():
         seen.add(r["SD_SCHUL_CODE"])
         address = r.get("ORG_RDNMA") or ""
         detail = r.get("ORG_RDNDA") or ""
-        if AREA in address:
+        if in_area(address):
             gu, dong = parse_area(address, detail)
             schools.append({
                 "code": r["SD_SCHUL_CODE"],

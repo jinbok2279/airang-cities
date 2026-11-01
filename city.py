@@ -434,6 +434,11 @@ SIDO = SIDOS[SIDO_NAME]
 SGG = C.get("sgg", CITY + "시")       # 병원·복지 API의 시군구 이름 (경기: 용인시, 서울: 강남구)
 
 
+def in_area(text, name=None):
+    """주소·지역 글에 우리 시군구가 있나 — 앞 글자가 한글이면 다른 곳 (예: '양주시' 는 '남양주시' 안에 있지만 다른 도시)"""
+    return re.search(r"(?<![가-힣])" + re.escape(name or AREA), text or "") is not None
+
+
 def gu_of(addr, detail=""):
     """주소에서 구 이름 찾기: 주소에 'OO구'가 있으면 그것, 없으면 읍·면·동 규칙(gu_rules), 그래도 없으면 '기타'.
     구가 없는 시(평택·오산)는 언제나 '' """
