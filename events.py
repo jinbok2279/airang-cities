@@ -580,12 +580,12 @@ def seoul_get(svc, a, b):
     u = f"{SEOUL_API}{SEOUL_KEY}/json/{svc}/{a}/{b}/"
     for i in range(3):
         try:
-            with urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=60) as r:
+            with urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=120) as r:
                 d = json.loads(r.read().decode("utf-8", "replace"))
             return (d.get(svc) or {}).get("row") or []
         except Exception as e:
             print(f"  서울 {svc} 다시 시도 {i + 1}/3: {type(e).__name__} {str(getattr(e, 'reason', '') or getattr(e, 'code', ''))[:60].replace(SEOUL_KEY, '***')}")
-            time.sleep(3)
+            time.sleep(10 * (i + 1))
     return []
 
 
