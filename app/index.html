@@ -450,7 +450,7 @@ function viewSports() {
   if (!SPORTS) { loadSports(); $view.innerHTML = back + `<div class="lift empty" style="margin-top:16px">강좌 정보를 불러오는 중이에요…</div>`; return; }
 {{#if yongin,suwon,seongnam}}
 {{#else}}
-  if (SPORTS.soon) { $view.innerHTML = back + `<div class="lift empty" style="margin-top:16px;line-height:1.7">{{name}} 시 체육센터 강좌는 준비 중이에요.<br>곧 수영·요가·필라테스 강좌를 모아 보여 드릴게요.</div>`; return; }
+  if (SPORTS.soon) { $view.innerHTML = back + `<div class="lift empty" style="margin-top:16px;line-height:1.7">{{f.sgg}} 체육센터 강좌는 준비 중이에요.<br>곧 수영·요가·필라테스 강좌를 모아 보여 드릴게요.</div>`; return; }
 {{/if}}
   const C = Object.fromEntries((SPORTS.centers || []).map(c => [c.id, c]));
   const all = (SPORTS.programs || []).filter(p => (spTab === "kid" ? p.kid : !p.kid) && !/불가/.test(p.name) && !/^0원/.test(p.price || ""));
@@ -483,7 +483,7 @@ function viewSports() {
 {{#else}}
     `<p style="font-size:12px;color:var(--muted);margin:2px 4px 0;line-height:1.6">${SPORTS.live ? "남은 자리는 하루 여러 번 새로 받아요. 신청은 시 체육시설 사이트에서 해요." : "요금은 한 달 기준 (월·수·금 / 화·목). 접수 일정과 남은 자리는 센터 홈페이지에서 확인해 주세요."}</p>
 {{/if}}
-    <section class="section"><div class="sec-head"><h2>시 체육센터 ${(SPORTS.centers || []).length}곳</h2></div>${centers}</section>
+    <section class="section"><div class="sec-head"><h2>{{f.sgg}} 체육센터 ${(SPORTS.centers || []).length}곳</h2></div>${centers}</section>
 {{#if yongin}}
     <div class="foot">정보 · ${SPORTS.city === "수원" ? "수원도시공사 강좌 예약 사이트" : "{{name}}도시공사와 각 체육센터 홈페이지"} (${esc(SPORTS.updated || "")} 기준)</div>`;
 {{#elif suwon}}
@@ -641,7 +641,7 @@ function viewAdInfo() {
 
 // ---------- 입체 아이콘 (Microsoft Fluent Emoji 3D, MIT) ----------
 const F3D_BASE = "https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/";
-const F3D = { "💊": ["Pill", "pill"], "🎁": ["Wrapped gift", "wrapped_gift"], "🧒": ["Child/Default", "", "child_3d_default.png"], "🏥": ["Hospital", "hospital"], "🚑": ["Ambulance", "ambulance"], "🩺": ["Stethoscope", "stethoscope"], "🏷️": ["Label", "label"], "💳": ["Credit card", "credit_card"], "🛍️": ["Shopping bags", "shopping_bags"], "🏪": ["Convenience store", "convenience_store"], "🎪": ["Circus tent", "circus_tent"], "🎓": ["Graduation cap", "graduation_cap"], "💼": ["Briefcase", "briefcase"], "📊": ["Bar chart", "bar_chart"], "🏫": ["School", "school"],
+const F3D = { "🛡️": ["Shield", "shield"], "💊": ["Pill", "pill"], "🎁": ["Wrapped gift", "wrapped_gift"], "🧒": ["Child/Default", "", "child_3d_default.png"], "🏥": ["Hospital", "hospital"], "🚑": ["Ambulance", "ambulance"], "🩺": ["Stethoscope", "stethoscope"], "🏷️": ["Label", "label"], "💳": ["Credit card", "credit_card"], "🛍️": ["Shopping bags", "shopping_bags"], "🏪": ["Convenience store", "convenience_store"], "🎪": ["Circus tent", "circus_tent"], "🎓": ["Graduation cap", "graduation_cap"], "💼": ["Briefcase", "briefcase"], "📊": ["Bar chart", "bar_chart"], "🏫": ["School", "school"],
   "📚": ["Books", "books"], "📖": ["Open book", "open_book"], "✏️": ["Pencil", "pencil"], "🧸": ["Teddy bear", "teddy_bear"], "📍": ["Round pushpin", "round_pushpin"],
   "🍚": ["Cooked rice", "cooked_rice"], "☀️": ["Sun", "sun"], "🌤️": ["Sun behind small cloud", "sun_behind_small_cloud"], "☁️": ["Cloud", "cloud"], "🌧️": ["Cloud with rain", "cloud_with_rain"],
   "🏊": ["Person swimming/Default", "", "person_swimming_3d_default.png"], "🧘": ["Person in lotus position/Default", "", "person_in_lotus_position_3d_default.png"],
@@ -859,16 +859,6 @@ function viewSchool(code) {
 // ---------- 화면: 마이 ----------
 // 다른 도시 아이랑 (사이트 링크만). 주소가 정해지면 url만 바꾸면 됨
 {{f.otherCities}}
-// 아이 안전: 공식 사이트로 가는 링크만 (정보를 앱에 모아 보여 주지 않음 — 성범죄자 공개 정보는 확인 용도로만 쓸 수 있음)
-function safetyLinks() {
-  return `<section class="section"><div class="sec-head"><h2>아이 안전</h2></div>
-    <a class="lift card-pad" style="display:flex;gap:14px;align-items:center;text-decoration:none;color:inherit" href="https://www.sexoffender.go.kr" target="_blank" rel="noopener" onclick="trackEvent('안전-성범죄자알림e')">
-      <span style="flex:none;width:46px;height:46px;border-radius:14px;background:var(--city-soft);display:grid;place-items:center;font-size:24px">🛡️</span>
-      <span style="flex:1;min-width:0"><b style="display:block;font-size:15.5px">성범죄자 알림e <span style="font-weight:600;color:var(--muted);font-size:12.5px">여성가족부</span></b>
-        <span style="display:block;font-size:12.5px;color:var(--muted);line-height:1.55;margin-top:3px">우리 동네에 사는 공개 대상자를 지도로 확인할 수 있어요 (본인 인증 필요)</span></span>
-      <span style="flex:none;color:var(--city-ink);font-weight:800">›</span></a>
-    <p style="font-size:11.5px;color:var(--muted);margin:8px 4px 0;line-height:1.6">공개 정보는 확인하는 데만 쓸 수 있어요. 캡처해서 단톡방·카페·SNS에 올리면 법에 따라 처벌받을 수 있어요.</p></section>`;
-}
 function otherCities() {
   const me = document.title.replace("아이랑 ", "").trim();
   const mine = "{{f.sidoShort}}";
@@ -900,17 +890,19 @@ function viewMy() {
   const M = [["acas", "✏️", "t-indigo", "학원·<br>수강료"], ["kinders", "🧸", "t-sun", "유치원<br>찾기"], ["library", "📚", "t-mint", "도서관<br>찾기"], ["books", "📖", "t-coral", "대출<br>베스트"],
 {{/if}}
 {{#if seoul,incheon}}
-    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["sports", "🏊", "t-mint", "운동<br>교실"]];
+    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["sports", "🏊", "t-mint", "운동<br>교실"], ["safety", "🛡️", "t-lilac", "성범죄자<br>알림e"]];
 {{#else}}
-    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["sports", "🏊", "t-mint", "운동<br>교실"], ["jobs", "💼", "t-coral", "엄마<br>일자리"]];
+    ["schools", "🏫", "t-lilac", "학교<br>일정"], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["sports", "🏊", "t-mint", "운동<br>교실"], ["jobs", "💼", "t-coral", "엄마<br>일자리"], ["safety", "🛡️", "t-lilac", "성범죄자<br>알림e"]];
 {{/if}}
   $view.innerHTML = `<h1 style="font-size:27px;font-weight:800;margin-bottom:16px">전체 메뉴</h1>
-    <div class="mgrid3">${M.map(([r, e, t, l]) => `<button class="mtile" onclick="go('${r}')">${MICON[r] ? `<img src="assets/${MICON[r]}.webp" alt="" width="68" height="68" decoding="async">` : e3d(e, 68)}<b>${l.replace("·<br>", "·").replace("<br>", " ")}</b></button>`).join("")}</div>
+    <div class="mgrid3">${M.map(([r, e, t, l]) => r === "safety"   // 아이 안전: 여성가족부 공식 사이트로 가는 링크만 (정보는 앱에 모으지 않음)
+      ? `<a class="mtile" style="text-decoration:none" href="https://www.sexoffender.go.kr" target="_blank" rel="noopener" onclick="trackEvent('안전-성범죄자알림e')">${e3d(e, 68)}<b>${l.replace("<br>", " ")}</b></a>`
+      : `<button class="mtile" onclick="go('${r}')">${MICON[r] ? `<img src="assets/${MICON[r]}.webp" alt="" width="68" height="68" decoding="async">` : e3d(e, 68)}<b>${l.replace("·<br>", "·").replace("<br>", " ")}</b></button>`).join("")}</div>
+    <p style="font-size:11.5px;color:var(--muted);margin:10px 4px 0;line-height:1.6">🛡️ 성범죄자 알림e(여성가족부)는 본인 인증 뒤 우리 동네 공개 대상자를 볼 수 있어요. 공개 정보는 확인하는 데만 쓸 수 있고, 캡처해서 단톡방·카페·SNS에 올리면 처벌받을 수 있어요.</p>
     <section class="section" style="margin-top:0"><div class="sec-head"><h2>우리 아이</h2><span style="font-size:12px;color:var(--muted)">${ks.length}/${MAX_KIDS}명</span></div>
       <div class="lift list">${kidRows || `<div class="empty">아직 등록한 아이가 없어요.</div>`}</div>
       ${ks.length < MAX_KIDS ? `<button class="btn btn-soft" style="width:100%;height:50px" onclick="go('kid/new')">+ 아이 추가</button>` : ""}
     </section>
-    ${safetyLinks()}
     ${otherCities()}
     <section class="section"><div class="sec-head"><h2>설정</h2></div>
     <div class="lift card-pad">
