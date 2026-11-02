@@ -6,6 +6,7 @@ on:
     inputs:
       cities: { description: "도시 이름 (쉼표로)", default: "평택,오산" }
       dirs:   { description: "폴더 이름 (같은 순서)", default: "pyeongtaek,osan" }
+      only:   { description: "이것만 모으기 (빈칸 = 전부, 예: libs books)", default: "" }
 permissions:
   contents: write
 concurrency: { group: "newcity-${{ github.event.inputs.dirs }}", cancel-in-progress: false }   # 묶음마다 따로 (여러 묶음 함께 실행)
@@ -34,7 +35,8 @@ jobs:
           for i in "${!CS[@]}"; do
             export CITY="${CS[$i]}"; d="${DS[$i]}"; log=logs/newcity-$d.txt; : > $log
             rm -rf output; mkdir -p output data/$d; cp data/$d/*.json output/ 2>/dev/null || true
-            for s in collect academies kinder meals libs books events jobs sports deals elite weather benefits hospitals; do
+            LIST="${{ github.event.inputs.only }}"; [ -z "$LIST" ] && LIST="collect academies kinder meals libs books events jobs sports deals elite weather benefits hospitals"
+            for s in $LIST; do
               f=$(python3 -c "import city;print(city.SCRIPTS.get('$s','$s'))")
               echo "::group::$CITY $s"; echo "== $s" >> $log
               timeout 1500 python -u $f.py 2>&1 | tee -a $log | tail -5 || echo "::warning::$CITY $s 실패"

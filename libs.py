@@ -6,15 +6,55 @@
 """
 
 import json
+import urllib.parse
+import urllib.request
 import os
 import re
 from datetime import datetime, timedelta, timezone
 
 import lib4
-from city import C, AREA, gu_of, in_area
+from city import C, AREA, gu_of, in_area, SIDO
 
 KST = timezone(timedelta(hours=9))
 SKIP = re.compile(r"작은도서관|교도소|대학|병원|사단|부대|법원|교회|성당")  # 일반 가족이 이용하기 어려운 곳
+
+
+def std_libs(known):
+    key = urllib.parse.unquote(os.environ.get("WEATHER_KEY", "").strip())
+    if not key:
+        return []
+    rows = []
+    for page in range(1, 6):
+        q = urllib.parse.urlencode({"serviceKey": key, "type": "json", "pageNo": page, "numOfRows": 1000, "ctprvnNm": SIDO["full"]})
+        with urllib.request.urlopen(urllib.request.Request("http://api.data.go.kr/openapi/tn_pubr_public_lbrry_api?" + q, headers={"User-Agent": "airang"}), timeout=90) as r:
+            d = json.loads(r.read().decode("utf-8", "replace"))
+        it = d["body"]["items"]
+        it = it.get("item", []) if isinstance(it, dict) else it
+        rows += it
+        if len(it) < 1000:
+            break
+    hm = lambda a, b: f"{a}~{b}" if a and b and a != "00:00" else ""
+    out = []
+    for r in rows:
+        if r.get("lbrrySe") not in ("공공도서관", "어린이도서관"):
+            continue
+        addr = r.get("rdnmadr") or r.get("lnmadr") or ""
+        if not in_area(addr):
+            continue
+        name = " ".join((r.get("lbrryNm") or "").split())
+        k = re.sub(r"\W|구립|시립|인천광역시|서울특별시|교육청", "", name)
+        if not name or SKIP.search(name) or k in known:
+            continue
+        known.add(k)
+        wk, sat = hm(r.get("weekdayOperOpenHhmm"), r.get("weekdayOperColseHhmm")), hm(r.get("satOperOperOpenHhmm"), r.get("satOperCloseHhmm"))
+        home = (r.get("homepageUrl") or "").strip()
+        out.append({"name": name, "gu": (lambda g: "" if g == "기타" else g)(gu_of(addr)), "status": "none", "message": "", "rooms": [], "link": "",
+                    "home": home if home.startswith("http") else ("https://" + home if home else ""), "code": "",
+                    "addr": addr, "tel": (r.get("phoneNumber") or "").strip(),
+                    "hours": ", ".join(x for x in (f"평일 {wk}" if wk else "", f"토요일 {sat}" if sat else "") if x),
+                    "closed": (r.get("closeDay") or "").replace("+", ", "), "books": int(re.sub(r"\D", "", str(r.get("bookCo") or "")) or 0),
+                    "lat": r.get("latitude") or "", "lng": r.get("longitude") or ""})
+    return out
 
 
 def main():
@@ -59,6 +99,13 @@ def main():
                      "books": int(re.sub(r"\D", "", str(r.get("BookCount") or "")) or 0), "lat": r.get("latitude") or "", "lng": r.get("longitude") or ""})
     if extra:
         print(f"  주소로 더 찾은 도서관 {extra}곳")
+    # 공공데이터포털 전국도서관표준데이터: 정보나루에 없는 구립·시립 공공·어린이도서관 채우기 (WEATHER_KEY = 공공데이터포털 키)
+    try:
+        extra = std_libs({re.sub(r"\W|구립|시립|인천광역시|서울특별시|교육청", "", n) for n in seen})
+        libs += extra
+        print(f"  표준데이터로 더한 도서관 {len(extra)}곳")
+    except Exception as e:
+        print("  표준데이터 건너뜀:", str(e)[:80])
     if not libs:
         raise SystemExit("도서관 목록을 하나도 가져오지 못했습니다")
     order = list(C["gus"]) + [""]
