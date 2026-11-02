@@ -120,7 +120,7 @@ def build_entry(out):
         cs = sorted([(k, c) for k, c in CFG["cities"].items() if c.get("sido", "경기") == sd], key=lambda kc: kc[1]["name"])
         if cs:
             g += f'<p>{label}</p>' + "".join(f'<a href="https://{k}.songgollab.co.kr/guide/">{c.get("sgg") or c["name"] + SIDOS[sd][2]} 학원·유치원·소아과</a>' for k, c in cs)
-    src = src.replace("<!--GUIDES-->", f'<div class="lift guides"><h3>📍 동네 정보 모아보기</h3>{g}</div>')
+    src = src.replace("<!--GUIDES-->", f'<details class="lift guides"><summary>📍 동네별 학원·유치원·소아과 정보 모아보기</summary>{g}</details>')
     open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(src)
     for f in ("icon-192.png", "icon-512.png"):
         shutil.copy(os.path.join(HERE, "entry", f), d)
