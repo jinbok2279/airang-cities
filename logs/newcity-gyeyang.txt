@@ -1,27 +1,25 @@
-== libs
-: 도서관 1곳
-  표준데이터로 더한 도서관 6곳
-계양구 도서관 7곳 저장
-  [] 동양도서관 · 평일 06:00~22:00, 토요일 06:00~22:0 · 휴관 월
-  [] 별똥별어린이도서관 · 평일 09:00~22:00, 토요일 09:00~22:0 · 휴관 금
-  [] 서운도서관 · 평일 06:00~22:00, 토요일 06:00~22:0 · 휴관 월
-  [] 인천광역시교육청계양도서관 · 자료실: 평일 09:00~20:00, 주말 09:00~ · 휴관 매주 화요일
-  [] 임학도서관 · 평일 06:00~22:00, 토요일 06:00~22:0 · 휴관 금
+== benefits
+  중앙부처 복지 실패: HTTP Error 429: Too Many Requests
+    (서버 전체 14건, 한 번에 14건)
+  시 혜택 칸: ['aplyMtdNm', 'bizChrDeptNm', 'ctpvNm', 'inqNum', 'intrsThemaNmArray', 'lastModYmd', 'lifeNmArray', 'servDgst', 'servDtlLink', 'servId', 'servNm', 'sggNm', 'sprtCycNm', 'srvPvsnNm', 'trgterIndvdlNmArray']
+  계양시 혜택 14건 중 아이·가족 5건
+  나라 혜택: 다른 도시 것을 빌려 씀 하남 2026-11-02 05:36
+  저장: 67 KB, 111 건
 == 결과 파일
-total 488
-drwxr-xr-x  2 runner runner   4096 Nov  2 00:31 .
-drwxr-xr-x 57 runner runner   4096 Nov  2 00:31 ..
--rw-r--r--  1 runner runner 136267 Nov  2 00:31 academies.json
--rw-r--r--  1 runner runner   3092 Nov  2 00:31 benefits.json
--rw-r--r--  1 runner runner  26571 Nov  2 00:31 books.json
--rw-r--r--  1 runner runner    626 Nov  2 00:31 deals.json
--rw-r--r--  1 runner runner  35623 Nov  2 00:31 elite.json
--rw-r--r--  1 runner runner    669 Nov  2 00:31 events.json
--rw-r--r--  1 runner runner  97702 Nov  2 00:31 hospitals.json
--rw-r--r--  1 runner runner     77 Nov  2 00:31 jobs.json
--rw-r--r--  1 runner runner  20589 Nov  2 00:31 kinder.json
--rw-r--r--  1 runner runner  64819 Nov  2 00:31 latest.json
--rw-r--r--  1 runner runner   3386 Nov  2 00:31 libs.json
--rw-r--r--  1 runner runner  68164 Nov  2 00:31 meals.json
--rw-r--r--  1 runner runner    116 Nov  2 00:31 sports.json
--rw-r--r--  1 runner runner    217 Nov  2 00:31 weather.json
+total 552
+drwxr-xr-x  2 runner runner   4096 Nov  2 03:34 .
+drwxr-xr-x 59 runner runner   4096 Nov  2 03:34 ..
+-rw-r--r--  1 runner runner 136267 Nov  2 03:36 academies.json
+-rw-r--r--  1 runner runner  68646 Nov  2 03:36 benefits.json
+-rw-r--r--  1 runner runner  26571 Nov  2 03:36 books.json
+-rw-r--r--  1 runner runner    626 Nov  2 03:36 deals.json
+-rw-r--r--  1 runner runner  35623 Nov  2 03:36 elite.json
+-rw-r--r--  1 runner runner    669 Nov  2 03:36 events.json
+-rw-r--r--  1 runner runner  97702 Nov  2 03:36 hospitals.json
+-rw-r--r--  1 runner runner     77 Nov  2 03:36 jobs.json
+-rw-r--r--  1 runner runner  20589 Nov  2 03:36 kinder.json
+-rw-r--r--  1 runner runner  64819 Nov  2 03:36 latest.json
+-rw-r--r--  1 runner runner   3386 Nov  2 03:36 libs.json
+-rw-r--r--  1 runner runner  68164 Nov  2 03:36 meals.json
+-rw-r--r--  1 runner runner    116 Nov  2 03:36 sports.json
+-rw-r--r--  1 runner runner    217 Nov  2 03:36 weather.json
