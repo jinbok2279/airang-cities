@@ -144,6 +144,20 @@ def main():
             print("  나라 혜택: 지난번 목록 유지")
     except (OSError, ValueError):
         pass
+    if not res["src"]["nat"]:   # 나라 혜택은 모든 도시가 같음 → 다른 도시가 받아 둔 것을 빌려 씀 (가장 최근 것)
+        import glob
+        best = None
+        for f in glob.glob("data/*/benefits.json"):
+            try:
+                d = json.load(open(f, encoding="utf-8"))
+            except (OSError, ValueError):
+                continue
+            if d.get("src", {}).get("nat") is True and (best is None or d.get("updated", "") > best.get("updated", "")):
+                best = d
+        if best:
+            res["items"] += [x for x in best["items"] if x.get("scope") == "nat"]
+            res["src"]["nat"] = "borrow"
+            print("  나라 혜택: 다른 도시 것을 빌려 씀", best.get("city"), best.get("updated"))
     if not res["src"]["nat"] and not res["src"]["local"]:
         raise SystemExit("혜택 정보를 못 받음 — 저장하지 않음")
     os.makedirs("output", exist_ok=True)
