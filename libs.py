@@ -19,6 +19,10 @@ KST = timezone(timedelta(hours=9))
 SKIP = re.compile(r"작은도서관|교도소|대학|병원|사단|부대|법원|교회|성당")  # 일반 가족이 이용하기 어려운 곳
 
 
+def norm_lib(n):
+    return re.sub(r"\W|구립|시립|군립|도립|인천광역시|서울특별시|경기도|교육청|" + re.escape(AREA[:-1]), "", n or "")
+
+
 def std_libs(known):
     key = urllib.parse.unquote(os.environ.get("WEATHER_KEY", "").strip())
     if not key:
@@ -42,8 +46,8 @@ def std_libs(known):
         if not in_area(addr):
             continue
         name = " ".join((r.get("lbrryNm") or "").split())
-        k = re.sub(r"\W|구립|시립|인천광역시|서울특별시|교육청", "", name)
-        if not name or SKIP.search(name) or k in known:
+        k = norm_lib(name)
+        if not name or SKIP.search(name) or any(k in x or x in k for x in known):   # '갈산도서관' = '부평구립갈산도서관'
             continue
         known.add(k)
         wk, sat = hm(r.get("weekdayOperOpenHhmm"), r.get("weekdayOperColseHhmm")), hm(r.get("satOperOperOpenHhmm"), r.get("satOperCloseHhmm"))
@@ -101,7 +105,7 @@ def main():
         print(f"  주소로 더 찾은 도서관 {extra}곳")
     # 공공데이터포털 전국도서관표준데이터: 정보나루에 없는 구립·시립 공공·어린이도서관 채우기 (WEATHER_KEY = 공공데이터포털 키)
     try:
-        extra = std_libs({re.sub(r"\W|구립|시립|인천광역시|서울특별시|교육청", "", n) for n in seen})
+        extra = std_libs({norm_lib(n) for n in seen})
         libs += extra
         print(f"  표준데이터로 더한 도서관 {len(extra)}곳")
     except Exception as e:
