@@ -1,162 +1,25 @@
-== collect
-중구 초등학교 12곳
-중구 중학교 8곳
-중구 고등학교 11곳
-  동산초등학교: 학교 일정 9건
-  리라초등학교: 학교 일정 11건
-  서울광희초등학교: 학교 일정 3건
-  서울남산초등학교: 학교 일정 2건
-  서울덕수초등학교: 학교 일정 9건
-  서울봉래초등학교: 학교 일정 4건
-  서울신당초등학교: 학교 일정 1건
-  서울장충초등학교: 학교 일정 10건
-  서울청구초등학교: 학교 일정 13건
-  서울충무초등학교: 학교 일정 2건
-  서울흥인초등학교: 학교 일정 9건
-  숭의초등학교: 학교 일정 14건
-  금호중학교: 학교 일정 4건
-  대경중학교: 학교 일정 6건
-  덕수중학교: 학교 일정 1건
-  장원중학교: 학교 일정 19건
-  장충중학교: 학교 일정 21건
-  창덕여자중학교: 학교 일정 16건
-  한양중학교: 학교 일정 11건
-  환일중학교: 학교 일정 13건
-  대경생활과학고등학교: 학교 일정 5건
-  리라아트고등학교: 학교 일정 12건
-  서울의료보건고등학교: 학교 일정 19건
-  성동고등학교: 학교 일정 15건
-  성동공업고등학교: 학교 일정 2건
-  성동글로벌경영고등학교: 학교 일정 13건
-  이화여자고등학교: 학교 일정 19건
-  이화여자외국어고등학교: 학교 일정 3건
-  장충고등학교: 학교 일정 32건
-  한양과학기술고등학교: 학교 일정 5건
-  환일고등학교: 학교 일정 5건
-저장 완료: 주요 일정 137건, 공휴일 2건
-== academies
-1쪽: 159건 (전체 159)
-개원 학원·교습소 159곳 저장: {'구 미상': 159}
-동 모름: 4 곳
-수강료 공개: 35 곳
-== kinder
-  필드: addr, ag3fpcnt, ag4fpcnt, ag5fpcnt, clcnt3, clcnt4, clcnt5, edate, establish, faxno, hpaddr, key, kindercode, kindername, ldgrname, lngtcdnt, lttdcdnt, mixclcnt, mixfpcnt, mixppcnt, odate, officeedu, opertime, pbnttmng, ppcnt3, ppcnt4, ppcnt5, prmstfcnt, rppnname, rpst_yn, shclcnt, shppcnt, spcnfpcnt, subofficeedu, telno
-(11140): 유치원 14곳, 통학차량 14, 방과후 14
-유치원 14곳 저장 · 설립유형 {'사립(법인)': 5, '공립(병설)': 4, '공립(단설)': 1, '사립(사인)': 4}
-  예: 가명유치원 사립(법인)  중림동 정원 80 현원 66 차량 {'yn': 'Y', 'cnt': 1}
-  예: 근화유치원 사립(법인)  신당동 정원 120 현원 71 차량 {'yn': 'Y', 'cnt': 2}
-  예: 리라유치원 사립(법인)  예장동 정원 320 현원 156 차량 {'yn': 'Y', 'cnt': 13}
-== meals
-학교 31곳 중 31곳 확인 (실패 0), 식단 있는 학교 31곳
-== libs
-: 도서관 9곳
-중구 도서관 8곳 저장
-  [] 가온도서관 · - · 휴관 매주 월요일 / 법정공휴일
-  [] 남산타운 어린이도서관 · 평일 : 09:00 ~ 22:00 / 주말 : 09:0 · 휴관 매월 첫째주, 셋째주, 다섯째주 월요일, 매월 둘째주,
-  [] 다산성곽도서관 · 평일 및 주말 09:00~22:00 · 휴관 매주 월요일 / 일요일을 제외한 법정공휴일
-  [] 서울도서관 · 화~금 09:00~21:00 / 토,일 09:00~18 · 휴관 매주 월요일 / 공휴일
-  [] 손기정 문화도서관 · 평일, 주말 09:00~22:00 · 휴관 매주 월요일 / 법정공휴일
-== books
-[초등 인기 도서]
-  : 60권
-  1. 바바파파 1+2집 40종세트 (20DVD+20CD) /  (대출 10)
-  2. 코시롱 해녀 밥상 / 소윤경 지음 (대출 2)
-  3. 잃어버린 천사를 찾아서 / 막스 뒤코스 글·그림, 길미향 옮김 (대출 2)
-  4. 흔한남매 과학 탐험대 / 원작: 흔한남매, 임혜영 (대출 2)
-  5. 비밀의 종이 울리면 :이하람 장편동화 / 이하람, 그린이: 양양 (대출 2)
-[청소년 인기 도서]
-  : 60권
-  1. 시지프 신화 / 알베르 카뮈, 김화영 (대출 2)
-  2. Oxford Reading Tree: Level 7: Stories: the Broken Roof (Paperback) / Hunt|Roderick (대출 1)
-  3. Oxford Reading Tree: Level 7: More Stories A: the Bully (Paperback) / Roderick Hunt (대출 1)
-  4. Oxford Reading Tree: Level 8: Stories: the Rainbow Machine (Paperback) / Roderick Hunt (대출 1)
-  5. Oxford Reading Tree: Level 8: More Stories: Pocket Money (Paperback) / Roderick Hunt (대출 1)
-[중구 대출 베스트]
-  : 60권
-  1. 괴테는 모든 것을 말했다 / 스즈키 유이 지음, 이지수 옮김 (대출 15)
-  2. 완전한 행복 :정유정 장편소설 / 정유정 (대출 10)
-  3. 소년이 온다 :한강 장편소설 / 한강 (대출 9)
-  4. 주와 연 :청예 장편소설 / 청예 (대출 9)
-  5. 인비인 :성해나 기담집 / 성해나 (대출 9)
-== events
-  KOPIS 중 아동공연 3건
-  KOPIS 중 아동공연 1건
-  관광공사 응답: {'response': {'header': {'resultCode': '0000', 'resultMsg': 'OK'}, 'body': {'items': '', 'numOfRows': 0, 'pageNo': 1, 'totalCount': 0}}}
-  관광공사 중 축제·행사 0건
-  문화포털 중 가족 행사 1건
-공연·축제 2건, 체험·교육 0건 저장
-  [행사] 2026-10-21 연습실 기반 이중 구조의 현재성 연구 : 희곡 <평범한 가족> 을 중심으로 | 삼일로창고극장 |  
-  [행사] 2026-12-02 국립정동극장 예술단, 아리랑 | 국립정동극장 | 아동공연 
-== jobs
-경기도가 아니라 채용 정보는 건너뜀
-== sports
-중구 : 운동교실 준비 중
-== deals
-  동네 가게 할인 0건
-저장: 중구 할인 0건 (지역화폐 0, 백화점 0)
-== elite
-서울: 학교 1416곳 확인
-부산: 학교 672곳 확인
-대구: 학교 484곳 확인
-인천: 학교 584곳 확인
-광주: 학교 336곳 확인
-대전: 학교 329곳 확인
-울산: 학교 255곳 확인
-세종: 학교 109곳 확인
-경기: 학교 2667곳 확인
-강원: 학교 660곳 확인
-충북: 학교 514곳 확인
-충남: 학교 756곳 확인
-전북: 학교 771곳 확인
-전남: 학교 881곳 확인
-경북: 학교 942곳 확인
-경남: 학교 1021곳 확인
-제주: 학교 205곳 확인
-저장: {'영재학교': 8, '과학고': 23, '자사고(전국)': 10, '외고': 30, '국제고': 10, '자사고(광역)': 22}
-고등학교 구분 값: [(('일반고', ''), 1758), (('특성화고', ''), 518), (('자율고', ''), 114), (('특목고', '산업수요 맞춤형 고등학교'), 40), (('특목고', ''), 33), (('특목고', '과학계열'), 23), (('특목고', '예술계열'), 22), (('특목고', '외국어계열'), 22), (('특목고', '체육계열'), 13), (('특목고', '국제계열'), 7), (('특성화고', '예술계열'), 1), (('일반고', '산업수요 맞춤형 고등학교'), 1), (('일반고', '외국어계열'), 1), (('일반고', '과학계열'), 1), (('일반고', '예술계열'), 1), (('특성화고', '산업수요 맞춤형 고등학교'), 1)]
-== weather
-중구 격자 nx=60 ny=127
-  단기예보 20261101 1400: 798건
-  단기예보 20261101 0200: 944건
-  날씨: {'sky': '비', 'icon': '🌧️', 'lo': 5, 'hi': 13, 'pop': 60} 미세먼지: {'pm10': '좋음', 'pm25': '좋음'}
-저장: output/weather.json
 == benefits
   중앙부처 복지 실패: HTTP Error 429: Too Many Requests
     (서버 전체 17건, 한 번에 17건)
   시 혜택 칸: ['bizChrDeptNm', 'ctpvNm', 'inqNum', 'intrsThemaNmArray', 'lastModYmd', 'servDgst', 'servDtlLink', 'servId', 'servNm', 'sggNm', 'sprtCycNm', 'srvPvsnNm', 'trgterIndvdlNmArray']
   중구시 혜택 17건 중 아이·가족 4건
-  저장: 2 KB, 4 건
-== hospitals
-  병·의원 593곳 받음. 종류: {'의원': 308, '치과의원': 178, '한의원': 96, '치과병원': 4, '병원': 3, '종합병원': 1, '한방병원': 1, '보건소': 1, '기타': 1}
-  칸: ['dutyAddr', 'dutyDiv', 'dutyDivNam', 'dutyEmcls', 'dutyEmclsName', 'dutyEryn', 'dutyEtc', 'dutyName', 'dutyTel1', 'dutyTel3', 'dutyTime2c', 'dutyTime2s', 'dutyTime4c', 'dutyTime4s', 'dutyTime6c', 'dutyTime6s', 'hpid', 'postCdn1', 'postCdn2', 'rnum', 'wgs84Lat', 'wgs84Lon']
-  진료과 내과 D001: 122곳 (이름에 과가 있는 32곳 중 97% 포함)
-  진료과 소아청소년과 D002: 55곳 (이름에 과가 있는 3곳 중 100% 포함)
-  진료과 피부과 D005: 156곳 (이름에 과가 있는 18곳 중 100% 포함)
-  진료과 정형외과 D008: 68곳 (이름에 과가 있는 19곳 중 100% 포함)
-  진료과 산부인과 D011: 31곳 (이름에 과가 있는 18곳 중 100% 포함)
-  진료과 안과 D012: 19곳 (이름에 과가 있는 10곳 중 100% 포함)
-  진료과 이비인후과 D013: 61곳 (이름에 과가 있는 28곳 중 100% 포함)
-  진료과 가정의학과 D022: 89곳 (이름에 과가 있는 4곳 중 100% 포함)
-  의원 487곳, 병원 8곳
-  응급의료기관 서비스 실패 → 병·의원 목록에서 응급실 운영 기관을 씀: HTTP Error 403: Forbidden
-  응급실 1곳
-  약국 200곳 (전화 있는 곳 200)
-  저장: 157 KB
+  나라 혜택: 다른 도시 것을 빌려 씀 하남 2026-11-02 05:36
+  저장: 66 KB, 110 건
 == 결과 파일
-total 440
-drwxr-xr-x  2 runner runner   4096 Nov  1 08:02 .
-drwxr-xr-x 41 runner runner   4096 Nov  1 07:55 ..
--rw-r--r--  1 runner runner  46347 Nov  1 08:02 academies.json
--rw-r--r--  1 runner runner   2866 Nov  1 08:02 benefits.json
--rw-r--r--  1 runner runner  26331 Nov  1 08:02 books.json
--rw-r--r--  1 runner runner    134 Nov  1 08:02 deals.json
--rw-r--r--  1 runner runner  35623 Nov  1 08:02 elite.json
--rw-r--r--  1 runner runner   1037 Nov  1 08:02 events.json
--rw-r--r--  1 runner runner 161631 Nov  1 08:02 hospitals.json
--rw-r--r--  1 runner runner     77 Nov  1 08:02 jobs.json
--rw-r--r--  1 runner runner   8332 Nov  1 08:02 kinder.json
--rw-r--r--  1 runner runner  69656 Nov  1 08:02 latest.json
--rw-r--r--  1 runner runner   4202 Nov  1 08:02 libs.json
--rw-r--r--  1 runner runner  41019 Nov  1 08:02 meals.json
--rw-r--r--  1 runner runner    116 Nov  1 08:02 sports.json
--rw-r--r--  1 runner runner    215 Nov  1 08:02 weather.json
+total 528
+drwxr-xr-x  2 runner runner   4096 Nov  2 03:57 .
+drwxr-xr-x 65 runner runner   4096 Nov  2 03:57 ..
+-rw-r--r--  1 runner runner  46347 Nov  2 03:58 academies.json
+-rw-r--r--  1 runner runner  68420 Nov  2 03:58 benefits.json
+-rw-r--r--  1 runner runner  26331 Nov  2 03:58 books.json
+-rw-r--r--  1 runner runner    134 Nov  2 03:58 deals.json
+-rw-r--r--  1 runner runner  35623 Nov  2 03:58 elite.json
+-rw-r--r--  1 runner runner  28284 Nov  2 03:58 events.json
+-rw-r--r--  1 runner runner 161631 Nov  2 03:58 hospitals.json
+-rw-r--r--  1 runner runner     77 Nov  2 03:58 jobs.json
+-rw-r--r--  1 runner runner   8332 Nov  2 03:58 kinder.json
+-rw-r--r--  1 runner runner  69656 Nov  2 03:58 latest.json
+-rw-r--r--  1 runner runner   4202 Nov  2 03:58 libs.json
+-rw-r--r--  1 runner runner  41019 Nov  2 03:58 meals.json
+-rw-r--r--  1 runner runner    116 Nov  2 03:58 sports.json
+-rw-r--r--  1 runner runner    217 Nov  2 03:58 weather.json
