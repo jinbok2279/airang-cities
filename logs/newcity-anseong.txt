@@ -1,194 +1,25 @@
-== collect
-안성시 초등학교 34곳
-안성시 중학교 13곳
-안성시 고등학교 9곳
-  개산초등학교: 학교 일정 2건
-  개정초등학교: 학교 일정 2건
-  고삼초등학교: 학교 일정 14건
-  공도초등학교: 학교 일정 1건
-  광덕초등학교: 학교 일정 1건
-  광선초등학교: 학교 일정 2건
-  금광초등학교: 학교 일정 0건
-  금광초등학교조령분교장: 학교 일정 0건
-  내혜홀초등학교: 학교 일정 13건
-  대덕초등학교: 학교 일정 1건
-  동신초등학교: 학교 일정 1건
-  마전초등학교: 학교 일정 2건
-  만정초등학교: 학교 일정 0건
-  명덕초등학교: 학교 일정 4건
-  문기초등학교: 학교 일정 1건
-  미곡초등학교: 학교 일정 2건
-  미양초등학교: 학교 일정 2건
-  백성초등학교: 학교 일정 2건
-  보개초등학교: 학교 일정 3건
-  보체초등학교: 학교 일정 0건
-  비룡초등학교: 학교 일정 3건
-  산평초등학교: 학교 일정 2건
-  삼죽초등학교: 학교 일정 2건
-  서운초등학교: 학교 일정 2건
-  안성초등학교: 학교 일정 1건
-  양성초등학교: 학교 일정 0건
-  양진초등학교: 학교 일정 3건
-  어울초등학교: 학교 일정 15건
-  용머리초등학교: 학교 일정 2건
-  원곡초등학교: 학교 일정 2건
-  일죽초등학교: 학교 일정 5건
-  죽산초등학교: 학교 일정 4건
-  죽화초등학교: 학교 일정 2건
-  현매초등학교: 학교 일정 2건
-  공도중학교: 학교 일정 14건
-  만정중학교: 학교 일정 26건
-  명륜여자중학교: 학교 일정 18건
-  비룡중학교: 학교 일정 1건
-  서운중학교: 학교 일정 9건
-  안성여자중학교: 학교 일정 1건
-  안성중학교: 학교 일정 8건
-  안청중학교: 학교 일정 11건
-  양성중학교: 학교 일정 0건
-  양진중학교: 학교 일정 11건
-  일죽중학교: 학교 일정 7건
-  죽산중학교: 학교 일정 32건
-  한겨레중학교: 학교 일정 8건
-  가온고등학교: 학교 일정 2건
-  경기창조고등학교: 학교 일정 12건
-  두원공업고등학교: 학교 일정 0건
-  안법고등학교: 학교 일정 11건
-  안성고등학교: 학교 일정 15건
-  안성여자고등학교: 학교 일정 8건
-  일죽고등학교: 학교 일정 6건
-  죽산고등학교: 학교 일정 12건
-  한겨레고등학교: 학교 일정 1건
-저장 완료: 주요 일정 113건, 공휴일 2건
-== academies
-1쪽: 348건 (전체 348)
-개원 학원·교습소 348곳 저장: {'구 미상': 348}
-동 모름: 0 곳
-수강료 공개: 55 곳
-== kinder
-  필드: addr, ag3fpcnt, ag4fpcnt, ag5fpcnt, clcnt3, clcnt4, clcnt5, edate, establish, faxno, hpaddr, key, kindercode, kindername, ldgrname, lngtcdnt, lttdcdnt, mixclcnt, mixfpcnt, mixppcnt, odate, officeedu, opertime, pbnttmng, ppcnt3, ppcnt4, ppcnt5, prmstfcnt, rppnname, rpst_yn, shclcnt, shppcnt, spcnfpcnt, subofficeedu, telno
-(41550): 유치원 43곳, 통학차량 43, 방과후 43
-유치원 43곳 저장 · 설립유형 {'공립(병설)': 30, '사립(사인)': 9, '공립(단설)': 2, '사립(법인)': 2}
-  예: 개산초등학교병설유치원 공립(병설)  금광면 정원 18 현원 3 차량 {'yn': 'Y', 'cnt': 1}
-  예: 개정초등학교병설유치원 공립(병설)  미양면 정원 18 현원 3 차량 {'yn': 'Y', 'cnt': 2}
-  예: 고삼초등학교병설유치원 공립(병설)  고삼면 정원 18 현원 2 차량 {'yn': 'Y', 'cnt': 1}
-== meals
-학교 56곳 중 56곳 확인 (실패 0), 식단 있는 학교 56곳
-== libs
-: 도서관 17곳
-안성시 도서관 6곳 저장
-  [] 안성시 공도도서관 · 어린이자료실 09:00~18:00, 종합자료실 09:0 · 휴관 매주 금요일 / 일요일을 제외한 법정공휴일(단, 일요일
-  [] 안성시 보개도서관 · 그림책방, 종합자료실 09:00 ~ 18:00 / 책다 · 휴관 매주 월요일 / 일요일을 제외한 법정공휴일(단, 일요일
-  [] 안성시 아양도서관 · 평일 : 종합자료실 09:00~22:00 어린이자료실  · 휴관 매주 금요일 / 법정공휴일
-  [] 안성시 일죽도서관 · - · 휴관 매주 일요일 / 법정공휴일
-  [] 안성시 중앙도서관 · 08:00~24:00 · 휴관 매주 월요일 / 일요일을 제외한 법정공휴일(단, 일요일
-== books
-[초등 인기 도서]
-  : 60권
-  1. 케첩 :노인경 그림책 / 노인경 (대출 7)
-  2. 흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식 / 원작: 흔한남매, 유난희 (대출 6)
-  3. 신기한 사탕 가게 / 미야니시 다쓰야, 김수희 (대출 5)
-  4. 타키포오 얼렁뚱땅 상식스쿨 / 원작: 캐릭온TV, 조수현 (대출 5)
-  5. 25시 도깨비 편의점 / 김용세,글시 (대출 5)
-[청소년 인기 도서]
-  : 60권
-  1. 유원 :백온유 장편소설 / 백온유 (대출 3)
-  2. 식탁 위의 세계사 / 이영숙 지음 (대출 3)
-  3. 세계를 건너 너에게 갈게 :이꽃님 장편소설 / 글쓴이: 이꽃님 (대출 3)
-  4. Rise of the Earth Dragon (Paperback) / Tracey West (지은이) (대출 2)
-  5. Harry Potter and the Philosopher's Stone (Paperback) / Rowling, J K (지은이) (대출 2)
-[안성시 대출 베스트]
-  : 60권
-  1. 그랬다고 적었다 :김애란 산문 / 김애란 (대출 17)
-  2. 서리꽃 1 / 조정래 (지은이) (대출 16)
-  3. 테오 :앨런 레비 장편소설 / 앨런 레비, 노지양 (대출 13)
-  4. 태양 아래 올리브 / 김초엽 (지은이) (대출 13)
-  5. 빵충 사육 준수 사항 / 김혜영 (지은이) (대출 12)
-== events
-  KOPIS 안성 아동공연 1건
-  KOPIS 안성 아동공연 1건
-  관광공사 응답: {'response': {'header': {'resultCode': '0000', 'resultMsg': 'OK'}, 'body': {'items': '', 'numOfRows': 0, 'pageNo': 1, 'totalCount': 0}}}
-  관광공사 안성 축제·행사 0건
-  문화포털 안성 가족 행사 0건
-공연·축제 1건, 체험·교육 0건 저장
-  [행사] 2026-12-26 산타클로스와 브레멘음악대 [안성] | 안성맞춤아트홀 | 아동공연 
-== jobs
-  교육청 기간제·사립교원: 0건
-  교육청 시간강사·방과후: 1건
-  교육청 교육공무직: 1건
-  어린이집 구인: 2건
-학교·유치원 2건, 어린이집 2건 저장
-  [학교] 교육공무직 두원공업고등학교 두원공업고등학교 사무직원(시설관리) 결원 대체 채용 재공고 2026-11-11
-  [학교] 시간강사·방과후 양성중학교 2026학년도 방과후학교 외부강사(개인 위탁) 공고문 2026-12-31
-  [어린이집] 나라어린이집 보육교사 죽산면 2026-12-31 보육사업 지침 준용
-  [어린이집] 사과나무어린이집 공공형 보육교사 공도읍 2026-11-30 1239000원/월
-== sports
-안성 : 운동교실 준비 중
-== deals
-  동네 가게 할인 0건
-저장: 안성 할인 0건 (지역화폐 0, 백화점 0)
-== elite
-서울: 학교 1416곳 확인
-부산: 학교 672곳 확인
-대구: 학교 484곳 확인
-인천: 학교 584곳 확인
-광주: 학교 336곳 확인
-대전: 학교 329곳 확인
-울산: 학교 255곳 확인
-세종: 학교 109곳 확인
-경기: 학교 2667곳 확인
-강원: 학교 660곳 확인
-충북: 학교 514곳 확인
-충남: 학교 756곳 확인
-전북: 학교 771곳 확인
-전남: 학교 881곳 확인
-경북: 학교 942곳 확인
-경남: 학교 1021곳 확인
-제주: 학교 205곳 확인
-저장: {'영재학교': 8, '과학고': 23, '자사고(전국)': 10, '외고': 30, '국제고': 10, '자사고(광역)': 22}
-고등학교 구분 값: [(('일반고', ''), 1758), (('특성화고', ''), 518), (('자율고', ''), 114), (('특목고', '산업수요 맞춤형 고등학교'), 40), (('특목고', ''), 33), (('특목고', '과학계열'), 23), (('특목고', '예술계열'), 22), (('특목고', '외국어계열'), 22), (('특목고', '체육계열'), 13), (('특목고', '국제계열'), 7), (('특성화고', '예술계열'), 1), (('일반고', '산업수요 맞춤형 고등학교'), 1), (('일반고', '외국어계열'), 1), (('일반고', '과학계열'), 1), (('일반고', '예술계열'), 1), (('특성화고', '산업수요 맞춤형 고등학교'), 1)]
-== weather
-안성 격자 nx=65 ny=115
-  단기예보 20261101 1700: 1000건
-  단기예보 20261101 0200: 944건
-  날씨: {'sky': '비', 'icon': '🌧️', 'lo': 5, 'hi': 13, 'pop': 60} 미세먼지: {'pm10': '좋음', 'pm25': '좋음'}
-저장: output/weather.json
 == benefits
   중앙부처 복지 실패: HTTP Error 429: Too Many Requests
     (서버 전체 13건, 한 번에 13건)
   시 혜택 칸: ['aplyMtdNm', 'bizChrDeptNm', 'ctpvNm', 'inqNum', 'intrsThemaNmArray', 'lastModYmd', 'lifeNmArray', 'servDgst', 'servDtlLink', 'servId', 'servNm', 'sggNm', 'sprtCycNm', 'srvPvsnNm', 'trgterIndvdlNmArray']
   안성시 혜택 13건 중 아이·가족 1건
-  저장: 0 KB, 1 건
-== hospitals
-  병·의원 219곳 받음. 종류: {'의원': 89, '치과의원': 57, '한의원': 36, '보건소': 25, '요양병원': 6, '종합병원': 2, '조산원': 1, '치과병원': 1, '한방병원': 1, '병원': 1}
-  칸: ['dutyAddr', 'dutyDiv', 'dutyDivNam', 'dutyEmcls', 'dutyEmclsName', 'dutyEryn', 'dutyName', 'dutyTel1', 'dutyTel3', 'dutyTime1c', 'dutyTime1s', 'dutyTime2c', 'dutyTime2s', 'dutyTime3c', 'dutyTime3s', 'dutyTime4c', 'dutyTime4s', 'dutyTime5c', 'dutyTime5s', 'dutyTime6c', 'dutyTime6s', 'dutyTime7c', 'dutyTime7s', 'dutyTime8c', 'dutyTime8s', 'hpid', 'postCdn1', 'postCdn2', 'rnum', 'wgs84Lat', 'wgs84Lon']
-  진료과 내과 D001: 78곳 (이름에 과가 있는 10곳 중 100% 포함)
-  진료과 소아청소년과 D002: 38곳 (이름에 과가 있는 7곳 중 100% 포함)
-  진료과 피부과 D005: 41곳 (이름에 과가 있는 1곳 중 100% 포함)
-  진료과 정형외과 D008: 35곳 (이름에 과가 있는 4곳 중 100% 포함)
-  진료과 산부인과 D011: 8곳 (이름에 과가 있는 4곳 중 100% 포함)
-  진료과 안과 D012: 12곳 (이름에 과가 있는 4곳 중 100% 포함)
-  진료과 이비인후과 D013: 41곳 (이름에 과가 있는 7곳 중 100% 포함)
-  진료과 가정의학과 D022: 27곳 (이름에 과가 있는 0곳 중 100% 포함)
-  의원 171곳, 병원 4곳
-  응급의료기관 서비스 실패 → 병·의원 목록에서 응급실 운영 기관을 씀: HTTP Error 403: Forbidden
-  응급실 2곳
-  약국 89곳 (전화 있는 곳 87)
-  저장: 60 KB
+  나라 혜택: 다른 도시 것을 빌려 씀 하남 2026-11-02 05:36
+  저장: 64 KB, 107 건
 == 결과 파일
-total 428
-drwxr-xr-x  2 runner runner  4096 Nov  1 08:31 .
-drwxr-xr-x 51 runner runner  4096 Nov  1 08:22 ..
--rw-r--r--  1 runner runner 95070 Nov  1 08:31 academies.json
--rw-r--r--  1 runner runner   779 Nov  1 08:31 benefits.json
--rw-r--r--  1 runner runner 26745 Nov  1 08:31 books.json
--rw-r--r--  1 runner runner   131 Nov  1 08:31 deals.json
--rw-r--r--  1 runner runner 35623 Nov  1 08:31 elite.json
--rw-r--r--  1 runner runner   626 Nov  1 08:31 events.json
--rw-r--r--  1 runner runner 61441 Nov  1 08:31 hospitals.json
--rw-r--r--  1 runner runner  1895 Nov  1 08:31 jobs.json
--rw-r--r--  1 runner runner 25164 Nov  1 08:31 kinder.json
--rw-r--r--  1 runner runner 72125 Nov  1 08:31 latest.json
--rw-r--r--  1 runner runner  3642 Nov  1 08:31 libs.json
--rw-r--r--  1 runner runner 69441 Nov  1 08:31 meals.json
--rw-r--r--  1 runner runner   116 Nov  1 08:31 sports.json
--rw-r--r--  1 runner runner   215 Nov  1 08:31 weather.json
+total 512
+drwxr-xr-x  2 runner runner  4096 Nov  2 03:57 .
+drwxr-xr-x 65 runner runner  4096 Nov  2 03:57 ..
+-rw-r--r--  1 runner runner 95070 Nov  2 03:58 academies.json
+-rw-r--r--  1 runner runner 66333 Nov  2 03:58 benefits.json
+-rw-r--r--  1 runner runner 26939 Nov  2 03:58 books.json
+-rw-r--r--  1 runner runner   131 Nov  2 03:58 deals.json
+-rw-r--r--  1 runner runner 35623 Nov  2 03:58 elite.json
+-rw-r--r--  1 runner runner   626 Nov  2 03:58 events.json
+-rw-r--r--  1 runner runner 61441 Nov  2 03:58 hospitals.json
+-rw-r--r--  1 runner runner  1895 Nov  2 03:58 jobs.json
+-rw-r--r--  1 runner runner 25164 Nov  2 03:58 kinder.json
+-rw-r--r--  1 runner runner 80677 Nov  2 03:58 latest.json
+-rw-r--r--  1 runner runner  3642 Nov  2 03:58 libs.json
+-rw-r--r--  1 runner runner 80313 Nov  2 03:58 meals.json
+-rw-r--r--  1 runner runner   116 Nov  2 03:58 sports.json
+-rw-r--r--  1 runner runner   217 Nov  2 03:58 weather.json
