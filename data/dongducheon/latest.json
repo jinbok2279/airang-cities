@@ -1,0 +1,1500 @@
+{
+  "region": "동두천시",
+  "updated_at": "2026-11-02 12:39:59",
+  "period": {
+    "from": "20261102",
+    "to": "20270101"
+  },
+  "school_count": 23,
+  "public_holidays": [
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    },
+    {
+      "date": "2026-12-30",
+      "name": "방학"
+    },
+    {
+      "date": "2026-12-31",
+      "name": "방학"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "신정"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "겨울방학시작일"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "겨울방학"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "동두천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "동두천여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "동두천외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "동두천중앙고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "동두천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "생연중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "송내중앙중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "신흥고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능",
+      "holiday": true
+    },
+    {
+      "school": "신흥중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능일",
+      "holiday": true
+    },
+    {
+      "school": "한국문화영상고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일(대학수학능력시험일)",
+      "holiday": true
+    },
+    {
+      "school": "한빛누리고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "한빛누리중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "동두천외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이담초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-25",
+      "name": "교육과정발표회",
+      "holiday": false
+    },
+    {
+      "school": "동두천외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "너울제(축제)",
+      "holiday": false
+    },
+    {
+      "school": "한빛누리고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "학교축제",
+      "holiday": false
+    },
+    {
+      "school": "동두천외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "동두천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식 및 종업식",
+      "holiday": false
+    },
+    {
+      "school": "보산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "사동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "생연초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "이담초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "유치원 졸업식",
+      "holiday": false
+    },
+    {
+      "school": "동두천송내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "동두천신천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "동두천외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "동두천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "동두천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "동두천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식(6행사)",
+      "holiday": false
+    },
+    {
+      "school": "동보초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "동보초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "보산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "사동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "생연중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "종업식 및 졸업식",
+      "holiday": false
+    },
+    {
+      "school": "생연초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "소요초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "탑동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "동두천송내초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "동두천신천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "동두천외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "동두천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "동두천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "보산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "사동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "생연중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "생연초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "소요초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "탑동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    }
+  ],
+  "schools": [
+    {
+      "code": "7602024",
+      "name": "동두천송내초등학교",
+      "level": "초등학교",
+      "address": "경기도 동두천시 중앙로 52",
+      "gu": "",
+      "dong": "송내동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7602026",
+      "name": "동두천신천초등학교",
+      "level": "초등학교",
+      "address": "경기도 동두천시 생연로9번길 20",
+      "gu": "",
+      "dong": "지행동",
+      "events": [
+        {
+          "date": "2026-12-09",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7602031",
+      "name": "동두천초등학교",
+      "level": "초등학교",
+      "address": "경기도 동두천시 평화로2460번길 4",
+      "gu": "",
+      "dong": "생연동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식(6행사)",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7602033",
+      "name": "동보초등학교",
+      "level": "초등학교",
+      "address": "경기도 동두천시 강변로640번길 31",
+      "gu": "",
+      "dong": "동두천동",
+      "events": [
+        {
+          "date": "2026-12-17",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7602035",
+      "name": "보산초등학교",
+      "level": "초등학교",
+      "address": "경기도 동두천시 중앙로 427",
+      "gu": "",
+      "dong": "생연동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7602040",
+      "name": "사동초등학교",
+      "level": "초등학교",
+      "address": "경기도 동두천시 생연로 65",
+      "gu": "",
+      "dong": "생연동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7602053",
+      "name": "생연초등학교",
+      "level": "초등학교",
+      "address": "경기도 동두천시 생골로 19",
+      "gu": "",
+      "dong": "생연동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7602055",
+      "name": "소요초등학교",
+      "level": "초등학교",
+      "address": "경기도 동두천시 봉동로 64",
+      "gu": "",
+      "dong": "",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7602076",
+      "name": "이담초등학교",
+      "level": "초등학교",
+      "address": "경기도 동두천시 이담로 21",
+      "gu": "",
+      "dong": "지행동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "사이버폭력 예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "장애이해교육 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "교육과정발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "유치원 졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7602079",
+      "name": "지행초등학교",
+      "level": "초등학교",
+      "address": "경기도 동두천시 행선로 40",
+      "gu": "",
+      "dong": "지행동",
+      "events": []
+    },
+    {
+      "code": "7602085",
+      "name": "탑동초등학교",
+      "level": "초등학교",
+      "address": "경기도 동두천시 탑신로 61",
+      "gu": "",
+      "dong": "탑동동",
+      "events": [
+        {
+          "date": "2026-12-04",
+          "name": "학생 자치회 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7602028",
+      "name": "동두천여자중학교",
+      "level": "중학교",
+      "address": "경기도 동두천시 평화로2452번길 31",
+      "gu": "",
+      "dong": "생연동",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "진로탐색교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "진로탐색교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "진로탐색교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "애플데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "고맙데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "진로탐색교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "진로탐색교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "진로탐색교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "핫초코데이",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7602030",
+      "name": "동두천중학교",
+      "level": "중학교",
+      "address": "경기도 동두천시 평화로2434번길 8",
+      "gu": "",
+      "dong": "생연동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "흡연예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-25",
+          "name": "학생회장 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "재학생1000일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "학교폭력예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "모범학생",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학급친목의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식 및 종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "동계방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7602052",
+      "name": "생연중학교",
+      "level": "중학교",
+      "address": "경기도 동두천시 생연로 46",
+      "gu": "",
+      "dong": "생연동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-30",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "이담제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식 및 졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "동계방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7602099",
+      "name": "송내중앙중학교",
+      "level": "중학교",
+      "address": "경기도 동두천시 중앙로 78",
+      "gu": "",
+      "dong": "송내동",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2학기 1차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 1차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2학기 1차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 1차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 1차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 1차 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7602060",
+      "name": "신흥중학교",
+      "level": "중학교",
+      "address": "경기도 동두천시 신천로 159",
+      "gu": "",
+      "dong": "안흥동",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "자치활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "3학년 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "3학년 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "3학년 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "자치활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "봉사활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "정보통신윤리교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "자치활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "자치활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "진로활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "1,2학년 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1,2학년 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1,2학년 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "봉사활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "장애인식개선교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "성탄음악회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-26",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7602152",
+      "name": "한빛누리중학교",
+      "level": "중학교",
+      "address": "경기도 동두천시 동광로 124",
+      "gu": "",
+      "dong": "생연동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530153",
+      "name": "동두천고등학교",
+      "level": "고등학교",
+      "address": "경기도 동두천시 평화로2434번길 8",
+      "gu": "",
+      "dong": "생연동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530655",
+      "name": "동두천외국어고등학교",
+      "level": "고등학교",
+      "address": "경기도 동두천시 지행로 145",
+      "gu": "",
+      "dong": "지행동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "너울제(축제)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530544",
+      "name": "동두천중앙고등학교",
+      "level": "고등학교",
+      "address": "경기도 동두천시 평화로 2280",
+      "gu": "",
+      "dong": "지행동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "한얼제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530180",
+      "name": "신흥고등학교",
+      "level": "고등학교",
+      "address": "경기도 동두천시 신천로 159",
+      "gu": "",
+      "dong": "안흥동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입수능모의평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대입수능",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530912",
+      "name": "한국문화영상고등학교",
+      "level": "고등학교",
+      "address": "경기도 동두천시 평화로2452번길 32",
+      "gu": "",
+      "dong": "생연동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일(대학수학능력시험일)",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7531463",
+      "name": "한빛누리고등학교",
+      "level": "고등학교",
+      "address": "경기도 동두천시 동광로 124",
+      "gu": "",
+      "dong": "생연동",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "자치",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "봉사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "적응",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "자치",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "학교축제",
+          "holiday": false
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
