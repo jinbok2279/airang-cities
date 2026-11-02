@@ -47,7 +47,7 @@ def std_libs(known):
             continue
         name = " ".join((r.get("lbrryNm") or "").split())
         k = norm_lib(name)
-        if not name or SKIP.search(name) or any(k in x or x in k for x in known):   # '갈산도서관' = '부평구립갈산도서관'
+        if not name or SKIP.search(name) or any(k == x or (min(len(k), len(x)) >= 4 and (k in x or x in k)) for x in known):   # '갈산도서관' = '부평구립갈산도서관'
             continue
         known.add(k)
         wk, sat = hm(r.get("weekdayOperOpenHhmm"), r.get("weekdayOperColseHhmm")), hm(r.get("satOperOperOpenHhmm"), r.get("satOperCloseHhmm"))
