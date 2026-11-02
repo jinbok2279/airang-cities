@@ -1,13 +1,12 @@
-import json, os, urllib.parse, urllib.request
+import json, os, urllib.parse, urllib.request, collections
 WK = urllib.parse.unquote(os.environ["WEATHER_KEY"])
-for base in ("http://api.data.go.kr/openapi/tn_pubr_public_lbrry_api", "https://api.data.go.kr/openapi/tn_pubr_public_lbrry_api"):
-    for sg in ("계양구", "미추홀구"):
-        try:
-            with urllib.request.urlopen(base + "?" + urllib.parse.urlencode({"serviceKey": WK, "type": "json", "pageNo": 1, "numOfRows": 100, "ctprvnNm": "인천광역시", "signguNm": sg}), timeout=60) as r:
-                raw = r.read().decode("utf-8", "replace"); print("  원문:", raw[:300].replace(WK, "***"))
-                d = json.loads(raw) if raw.strip().startswith("{") else {}
-            body = d.get("response", {}).get("body", {}); items = body.get("items") or []
-            print(base[:12], sg, "전체", body.get("totalCount"), [i.get("lbrryNm") for i in items][:15]); 
-            if items: print("  칸:", list(items[0].keys()))
-        except Exception as e:
-            print(base[:12], sg, "실패", str(e)[:80])
+rows=[]
+for page in range(1,4):
+    with urllib.request.urlopen("http://api.data.go.kr/openapi/tn_pubr_public_lbrry_api?" + urllib.parse.urlencode({"serviceKey": WK, "type": "json", "pageNo": page, "numOfRows": 1000, "ctprvnNm": "인천광역시"}), timeout=90) as r:
+        d=json.loads(r.read().decode("utf-8","replace"))
+    it=d["body"]["items"]["item"] if isinstance(d["body"]["items"],dict) else d["body"]["items"]
+    rows+=it; print("page",page,len(it),d["body"].get("totalCount"))
+    if len(it)<1000: break
+print(collections.Counter(r.get("lbrrySe") for r in rows))
+print(collections.Counter(r.get("signguNm") for r in rows if r.get("lbrrySe")!="작은도서관"))
+print(json.dumps(rows[0],ensure_ascii=False)[:900])
