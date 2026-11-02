@@ -1,6 +1,5 @@
 == libs
 : 도서관 0곳
-  libSrch 다시 시도 1/3: <urlopen error timed out>
   주소로 더 찾은 도서관 2곳
   표준데이터로 더한 도서관 11곳
 미추홀구 도서관 13곳 저장
@@ -11,19 +10,19 @@
   [] 숭의누리어린이도서관 · 평일 10:00~18:00, 토요일 10:00~18:0 · 휴관 매주월요일, 법정공휴일
 == 결과 파일
 total 580
-drwxr-xr-x  2 runner runner   4096 Nov  2 00:27 .
-drwxr-xr-x 57 runner runner   4096 Nov  2 00:27 ..
--rw-r--r--  1 runner runner 185002 Nov  2 00:30 academies.json
--rw-r--r--  1 runner runner    698 Nov  2 00:30 benefits.json
--rw-r--r--  1 runner runner  26352 Nov  2 00:30 books.json
--rw-r--r--  1 runner runner    126 Nov  2 00:30 deals.json
--rw-r--r--  1 runner runner  35623 Nov  2 00:30 elite.json
--rw-r--r--  1 runner runner    611 Nov  2 00:30 events.json
--rw-r--r--  1 runner runner 136572 Nov  2 00:30 hospitals.json
--rw-r--r--  1 runner runner     77 Nov  2 00:30 jobs.json
--rw-r--r--  1 runner runner  23489 Nov  2 00:30 kinder.json
--rw-r--r--  1 runner runner  58039 Nov  2 00:30 latest.json
--rw-r--r--  1 runner runner   6703 Nov  2 00:30 libs.json
--rw-r--r--  1 runner runner  72990 Nov  2 00:30 meals.json
--rw-r--r--  1 runner runner    119 Nov  2 00:30 sports.json
--rw-r--r--  1 runner runner    220 Nov  2 00:30 weather.json
+drwxr-xr-x  2 runner runner   4096 Nov  2 00:31 .
+drwxr-xr-x 57 runner runner   4096 Nov  2 00:31 ..
+-rw-r--r--  1 runner runner 185002 Nov  2 00:31 academies.json
+-rw-r--r--  1 runner runner    698 Nov  2 00:31 benefits.json
+-rw-r--r--  1 runner runner  26352 Nov  2 00:31 books.json
+-rw-r--r--  1 runner runner    126 Nov  2 00:31 deals.json
+-rw-r--r--  1 runner runner  35623 Nov  2 00:31 elite.json
+-rw-r--r--  1 runner runner    611 Nov  2 00:31 events.json
+-rw-r--r--  1 runner runner 136572 Nov  2 00:31 hospitals.json
+-rw-r--r--  1 runner runner     77 Nov  2 00:31 jobs.json
+-rw-r--r--  1 runner runner  23489 Nov  2 00:31 kinder.json
+-rw-r--r--  1 runner runner  58039 Nov  2 00:31 latest.json
+-rw-r--r--  1 runner runner   6703 Nov  2 00:31 libs.json
+-rw-r--r--  1 runner runner  72990 Nov  2 00:31 meals.json
+-rw-r--r--  1 runner runner    119 Nov  2 00:31 sports.json
+-rw-r--r--  1 runner runner    220 Nov  2 00:31 weather.json
