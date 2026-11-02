@@ -1,0 +1,12 @@
+name: probe-lib (도서관 표준데이터 확인 — 한 번 쓰고 지움)
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    env:
+      WEATHER_KEY: ${{ secrets.WEATHER_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -u probe_lib.py
