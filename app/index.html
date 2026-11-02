@@ -859,6 +859,16 @@ function viewSchool(code) {
 // ---------- 화면: 마이 ----------
 // 다른 도시 아이랑 (사이트 링크만). 주소가 정해지면 url만 바꾸면 됨
 {{f.otherCities}}
+// 아이 안전: 공식 사이트로 가는 링크만 (정보를 앱에 모아 보여 주지 않음 — 성범죄자 공개 정보는 확인 용도로만 쓸 수 있음)
+function safetyLinks() {
+  return `<section class="section"><div class="sec-head"><h2>아이 안전</h2></div>
+    <a class="lift card-pad" style="display:flex;gap:14px;align-items:center;text-decoration:none;color:inherit" href="https://www.sexoffender.go.kr" target="_blank" rel="noopener" onclick="trackEvent('안전-성범죄자알림e')">
+      <span style="flex:none;width:46px;height:46px;border-radius:14px;background:var(--city-soft);display:grid;place-items:center;font-size:24px">🛡️</span>
+      <span style="flex:1;min-width:0"><b style="display:block;font-size:15.5px">성범죄자 알림e <span style="font-weight:600;color:var(--muted);font-size:12.5px">여성가족부</span></b>
+        <span style="display:block;font-size:12.5px;color:var(--muted);line-height:1.55;margin-top:3px">우리 동네에 사는 공개 대상자를 지도로 확인할 수 있어요 (본인 인증 필요)</span></span>
+      <span style="flex:none;color:var(--city-ink);font-weight:800">›</span></a>
+    <p style="font-size:11.5px;color:var(--muted);margin:8px 4px 0;line-height:1.6">공개 정보는 확인하는 데만 쓸 수 있어요. 캡처해서 단톡방·카페·SNS에 올리면 법에 따라 처벌받을 수 있어요.</p></section>`;
+}
 function otherCities() {
   const me = document.title.replace("아이랑 ", "").trim();
   const mine = "{{f.sidoShort}}";
@@ -900,6 +910,7 @@ function viewMy() {
       <div class="lift list">${kidRows || `<div class="empty">아직 등록한 아이가 없어요.</div>`}</div>
       ${ks.length < MAX_KIDS ? `<button class="btn btn-soft" style="width:100%;height:50px" onclick="go('kid/new')">+ 아이 추가</button>` : ""}
     </section>
+    ${safetyLinks()}
     ${otherCities()}
     <section class="section"><div class="sec-head"><h2>설정</h2></div>
     <div class="lift card-pad">
