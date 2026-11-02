@@ -1,9 +1,9 @@
 {
   "region": "서대문구",
-  "updated_at": "2026-11-02 07:55:19",
+  "updated_at": "2026-11-03 07:57:06",
   "period": {
-    "from": "20261102",
-    "to": "20270101"
+    "from": "20261103",
+    "to": "20270102"
   },
   "school_count": 40,
   "public_holidays": [
@@ -26,33 +26,13 @@
     {
       "date": "2027-01-01",
       "name": "겨울방학"
+    },
+    {
+      "date": "2027-01-02",
+      "name": "겨울방학"
     }
   ],
   "highlights": [
-    {
-      "school": "서울북성초등학교",
-      "level": "초등학교",
-      "gu": "",
-      "date": "2026-11-02",
-      "name": "학교자율휴업일",
-      "holiday": true
-    },
-    {
-      "school": "서울창서초등학교",
-      "level": "초등학교",
-      "gu": "",
-      "date": "2026-11-02",
-      "name": "자율휴업일",
-      "holiday": true
-    },
-    {
-      "school": "인창고등학교",
-      "level": "고등학교",
-      "gu": "",
-      "date": "2026-11-02",
-      "name": "창립기념 재량휴업일",
-      "holiday": true
-    },
     {
       "school": "서연중학교",
       "level": "중학교",
@@ -1396,6 +1376,134 @@
       "date": "2027-01-01",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "명지고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "방학",
+      "holiday": true
+    },
+    {
+      "school": "명지중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "명지초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울고은초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울대신초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울미동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울인왕초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서울홍은초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이화여자대학교사범대학부속초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인창고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "중앙여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "중앙여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "추계초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "한성고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학 방학일",
+      "holiday": true
+    },
+    {
+      "school": "한성과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "한성중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -1601,6 +1709,11 @@
           "date": "2027-01-01",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-02",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1634,6 +1747,11 @@
         },
         {
           "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-02",
           "name": "겨울방학",
           "holiday": true
         }
@@ -1718,11 +1836,6 @@
       "dong": "대현동",
       "events": [
         {
-          "date": "2026-11-02",
-          "name": "도박예방교육주간",
-          "holiday": false
-        },
-        {
           "date": "2026-11-06",
           "name": "대신꿈끼나눔한마당",
           "holiday": false
@@ -1791,6 +1904,11 @@
           "date": "2027-01-01",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-02",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1851,6 +1969,11 @@
           "date": "2027-01-01",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-02",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1876,13 +1999,7 @@
       "address": "서울특별시 서대문구 북아현로1나길 22",
       "gu": "",
       "dong": "북아현동",
-      "events": [
-        {
-          "date": "2026-11-02",
-          "name": "학교자율휴업일",
-          "holiday": true
-        }
-      ]
+      "events": []
     },
     {
       "code": "7031146",
@@ -1985,6 +2102,11 @@
           "date": "2027-01-01",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-02",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1995,13 +2117,7 @@
       "address": "서울특별시 서대문구 연세로5나길 30-3",
       "gu": "",
       "dong": "창천동",
-      "events": [
-        {
-          "date": "2026-11-02",
-          "name": "자율휴업일",
-          "holiday": true
-        }
-      ]
+      "events": []
     },
     {
       "code": "7031167",
@@ -2083,6 +2199,11 @@
         },
         {
           "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-02",
           "name": "겨울방학",
           "holiday": true
         }
@@ -2340,6 +2461,11 @@
           "date": "2027-01-01",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-02",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2375,6 +2501,11 @@
           "date": "2027-01-01",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-02",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2406,11 +2537,6 @@
       "gu": "",
       "dong": "천연동",
       "events": [
-        {
-          "date": "2026-11-02",
-          "name": "기말고사",
-          "holiday": false
-        },
         {
           "date": "2026-11-06",
           "name": "학생회대의원회",
@@ -2527,22 +2653,17 @@
       "dong": "홍은동",
       "events": [
         {
-          "date": "2026-11-02",
-          "name": "(적응)학교폭력예방교육",
-          "holiday": false
-        },
-        {
-          "date": "2026-11-02",
-          "name": "학급자치회의",
-          "holiday": false
-        },
-        {
           "date": "2026-11-11",
-          "name": "동아리",
+          "name": "방송제",
           "holiday": false
         },
         {
           "date": "2026-11-12",
+          "name": "(동아리)동아리",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
           "name": "백마festival",
           "holiday": false
         },
@@ -2623,6 +2744,11 @@
         },
         {
           "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-02",
           "name": "겨울방학",
           "holiday": true
         }
@@ -2761,11 +2887,6 @@
       "dong": "대신동",
       "events": [
         {
-          "date": "2026-11-02",
-          "name": "기말고사",
-          "holiday": false
-        },
-        {
           "date": "2026-11-03",
           "name": "기말고사",
           "holiday": false
@@ -2860,11 +2981,6 @@
       "gu": "",
       "dong": "홍제동",
       "events": [
-        {
-          "date": "2026-11-02",
-          "name": "1,2G 스클",
-          "holiday": false
-        },
         {
           "date": "2026-11-04",
           "name": "3G스클",
@@ -3181,11 +3297,6 @@
       "dong": "북아현동",
       "events": [
         {
-          "date": "2026-11-02",
-          "name": "3학년 기말고사",
-          "holiday": false
-        },
-        {
           "date": "2026-11-03",
           "name": "3학년 기말고사",
           "holiday": false
@@ -3217,6 +3328,11 @@
         },
         {
           "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-02",
           "name": "겨울방학",
           "holiday": true
         }
@@ -3262,17 +3378,17 @@
         },
         {
           "date": "2026-12-15",
+          "name": "진로설계발표대회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
           "name": "진로탐색",
           "holiday": false
         },
         {
           "date": "2026-12-15",
           "name": "기말고사",
-          "holiday": false
-        },
-        {
-          "date": "2026-12-15",
-          "name": "진로설계발표대회",
           "holiday": false
         },
         {
@@ -3297,6 +3413,11 @@
         },
         {
           "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-02",
           "name": "겨울방학",
           "holiday": true
         }
@@ -3558,6 +3679,11 @@
           "date": "2027-01-01",
           "name": "방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-02",
+          "name": "방학",
+          "holiday": true
         }
       ]
     },
@@ -3725,11 +3851,6 @@
       "dong": "",
       "events": [
         {
-          "date": "2026-11-02",
-          "name": "창립기념 재량휴업일",
-          "holiday": true
-        },
-        {
           "date": "2026-11-19",
           "name": "재량휴업일",
           "holiday": true
@@ -3806,6 +3927,11 @@
         },
         {
           "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-02",
           "name": "겨울방학",
           "holiday": true
         }
@@ -3998,6 +4124,11 @@
           "date": "2027-01-01",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-02",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -4103,6 +4234,11 @@
           "date": "2027-01-01",
           "name": "겨울방학 방학일",
           "holiday": true
+        },
+        {
+          "date": "2027-01-02",
+          "name": "겨울방학 방학일",
+          "holiday": true
         }
       ]
     },
@@ -4114,11 +4250,6 @@
       "gu": "",
       "dong": "현저동",
       "events": [
-        {
-          "date": "2026-11-02",
-          "name": "학급자치",
-          "holiday": false
-        },
         {
           "date": "2026-11-04",
           "name": "학부모 상담주간",
@@ -4311,6 +4442,11 @@
         },
         {
           "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-02",
           "name": "겨울방학",
           "holiday": true
         }
