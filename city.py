@@ -454,12 +454,34 @@ CITIES = {
         "not_places": r"부평|서해|검단|김포|부천",
         "domain": "gyeyang", "lib_home": "",
     },
+    # ── 2026-11-02 충남 1차 2곳 (천안·아산)
+    "천안": {
+        "sido": "충남", "sgg": "천안시",
+        "area": "천안시", "gus": {"동남구": 44131, "서북구": 44133},
+        "lib": {"동남구": 34011, "서북구": 34012}, "signgu": "", "kopis": "4413",
+        "lat": 36.8151, "lon": 127.1139, "stations": ["성황동", "백석동", "신방동", "성거읍", "부성동", "청당동"], "region": "충남",
+        "places": r"천안|동남구|서북구|불당|백석|쌍용|두정|성정|신부동|신방|청수|봉명|원성|청당|목천|병천|성환|직산|성거|독립기념관|삼거리공원|천안예술의전당|천안박물관|유관순|태조산|각원사",
+        "not_places": r"아산|평택|세종|청주|대전|공주|안성|진천",
+        "domain": "cheonan", "lib_home": "https://calib.cheonan.go.kr",
+        # 주소에 구 이름이 빠진 학원·학교는 읍·면·동으로 구를 찾는다
+        "gu_rules": [(r"목천|풍세|광덕|북면|성남면|수신|병천|동면|중앙동|문성동|원성|봉명|일봉|신방|청룡|신안|청당|구성동|삼룡|용곡|다가|유량|안서", "동남구"),
+                     (r"성환|성거|직산|입장|성정|쌍용|백석|불당|부성|두정|신부|와촌|차암|업성|봉서|도솔|성성", "서북구")],
+    },
+    "아산": {
+        "sido": "충남", "sgg": "아산시",
+        "area": "아산시", "gus": {"": 44200}, "lib": {"": 34040}, "signgu": "", "kopis": "4420",
+        "lat": 36.7898, "lon": 127.0019, "stations": ["모종동", "배방읍", "둔포면", "인주면", "탕정면"], "region": "충남",
+        "places": r"아산|온양|배방|탕정|둔포|음봉|신창|인주|염치|송악|영인|선장|도고|현충사|곡교천|외암|신정호|온천|모종|용화동|풍기동|권곡",
+        "not_places": r"천안|평택|당진|예산|공주|세종",
+        "domain": "asan", "lib_home": "https://ascl.asan.go.kr",
+    },
 }
 # 시도마다 다른 코드 (도시 칸에 "sido" 가 없으면 경기)
 SIDOS = {
     "경기": {"full": "경기도", "neis": "J10", "lib": 31, "kinder": 41, "kopis": "41", "hira": "310000", "air": "경기"},
     "서울": {"full": "서울특별시", "neis": "B10", "lib": 11, "kinder": 11, "kopis": "11", "hira": "110000", "air": "서울"},
     "인천": {"full": "인천광역시", "neis": "E10", "lib": 23, "kinder": 28, "kopis": "28", "hira": "220000", "air": "인천"},
+    "충남": {"full": "충청남도", "neis": "N10", "lib": 34, "kinder": 44, "kopis": "44", "hira": "340000", "air": "충남"},
 }
 CITY = os.environ.get("CITY", "성남").strip()
 if CITY not in CITIES:
@@ -471,7 +493,7 @@ GU_RE = "|".join(g for g in GUS if g) or "(?!)"
 PLACES = re.compile(C["places"], re.I)
 NOT_PLACES = re.compile(C["not_places"])
 SCRIPTS = C.get("scripts", {})       # 그 도시만 다른 수집기 (없으면 공통)
-SIDO_NAME = C.get("sido", "경기")     # 경기 / 서울
+SIDO_NAME = C.get("sido", "경기")     # 경기 / 서울 / 인천 / 충남
 SIDO = SIDOS[SIDO_NAME]
 SGG = C.get("sgg", CITY + "시")       # 병원·복지 API의 시군구 이름 (경기: 용인시, 서울: 강남구)
 

@@ -70,6 +70,8 @@ jobs:
           - { city: 부평, d: bupyeong }
           - { city: 미추홀, d: michuhol }
           - { city: 계양, d: gyeyang }
+          - { city: 천안, d: cheonan }
+          - { city: 아산, d: asan }
     env:
       CITY: ${{ matrix.city }}
       NEIS_KEY: ${{ secrets.NEIS_KEY }}

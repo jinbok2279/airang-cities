@@ -19,7 +19,7 @@ jobs:
         with: { python-version: "3.12" }
       - run: |
           mkdir -p logs; : > logs/weather.txt
-          for pair in 용인:yongin 수원:suwon 성남:seongnam 안양:anyang 고양:goyang 화성:hwaseong 부천:bucheon 평택:pyeongtaek 오산:osan 강남:gangnam 양천:yangcheon 노원:nowon 남양주:namyangju 안산:ansan 시흥:siheung 파주:paju 김포:gimpo 의정부:uijeongbu 광주:gwangju 하남:hanam 서초:seocho 송파:songpa 강동:gangdong 광진:gwangjin 마포:mapo 성동:seongdong 강북:gangbuk 강서:gangseo 관악:gwanak 구로:guro 금천:geumcheon 도봉:dobong 동대문:dongdaemun 동작:dongjak 서대문:seodaemun 성북:seongbuk 영등포:yeongdeungpo 용산:yongsan 은평:eunpyeong 종로:jongno 중구:jung 중랑:jungnang 광명:gwangmyeong 군포:gunpo 양주:yangju 이천:icheon 구리:guri 안성:anseong 포천:pocheon 의왕:uiwang 연수:yeonsu 남동:namdong 부평:bupyeong 미추홀:michuhol 계양:gyeyang; do
+          for pair in 용인:yongin 수원:suwon 성남:seongnam 안양:anyang 고양:goyang 화성:hwaseong 부천:bucheon 평택:pyeongtaek 오산:osan 강남:gangnam 양천:yangcheon 노원:nowon 남양주:namyangju 안산:ansan 시흥:siheung 파주:paju 김포:gimpo 의정부:uijeongbu 광주:gwangju 하남:hanam 서초:seocho 송파:songpa 강동:gangdong 광진:gwangjin 마포:mapo 성동:seongdong 강북:gangbuk 강서:gangseo 관악:gwanak 구로:guro 금천:geumcheon 도봉:dobong 동대문:dongdaemun 동작:dongjak 서대문:seodaemun 성북:seongbuk 영등포:yeongdeungpo 용산:yongsan 은평:eunpyeong 종로:jongno 중구:jung 중랑:jungnang 광명:gwangmyeong 군포:gunpo 양주:yangju 이천:icheon 구리:guri 안성:anseong 포천:pocheon 의왕:uiwang 연수:yeonsu 남동:namdong 부평:bupyeong 미추홀:michuhol 계양:gyeyang 천안:cheonan 아산:asan; do
             c=${pair%%:*}; d=${pair##*:}; rm -rf output; mkdir -p output
             CITY=$c python -u weather.py 2>&1 | tee -a logs/weather.txt; [ -f output/weather.json ] && mkdir -p data/$d && cp output/weather.json data/$d/ || echo "::warning::$c 날씨 실패"
           done
