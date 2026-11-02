@@ -1,0 +1,960 @@
+{
+  "region": "과천시",
+  "updated_at": "2026-11-02 12:32:55",
+  "period": {
+    "from": "20261102",
+    "to": "20270101"
+  },
+  "school_count": 13,
+  "public_holidays": [
+    {
+      "date": "2026-11-19",
+      "name": "대학수학능력평가"
+    },
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "신정"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "과천문원중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능휴업일",
+      "holiday": true
+    },
+    {
+      "school": "과천여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력평가일",
+      "holiday": true
+    },
+    {
+      "school": "과천외국어고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "과천중앙고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "과천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "과천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "청계초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장 재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-01",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-16",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-17",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-20",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-21",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "관문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "관문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "관문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "관문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "관문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "관문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "관문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "관문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천갈현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "과천갈현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "관문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청계초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "과천갈현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천율목초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "과천중앙고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "과천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "관문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "문원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식(종업식)",
+      "holiday": false
+    },
+    {
+      "school": "청계초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천갈현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천율목초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "과천중앙고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "과천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "관문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "문원초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    }
+  ],
+  "schools": [
+    {
+      "code": "7569213",
+      "name": "과천갈현초등학교",
+      "level": "초등학교",
+      "address": "경기도 과천시 과천대로8가길 12",
+      "gu": "",
+      "dong": "",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7569216",
+      "name": "과천율목초등학교",
+      "level": "초등학교",
+      "address": "경기도 과천시 과천대로2길 37",
+      "gu": "",
+      "dong": "갈현동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7569010",
+      "name": "과천초등학교",
+      "level": "초등학교",
+      "address": "경기도 과천시 온온사로 10",
+      "gu": "",
+      "dong": "중앙동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7569011",
+      "name": "관문초등학교",
+      "level": "초등학교",
+      "address": "경기도 과천시 별양로 180-1",
+      "gu": "",
+      "dong": "부림동",
+      "events": [
+        {
+          "date": "2026-12-22",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7569018",
+      "name": "문원초등학교",
+      "level": "초등학교",
+      "address": "경기도 과천시 코오롱로 53",
+      "gu": "",
+      "dong": "별양동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식(종업식)",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7569109",
+      "name": "청계초등학교",
+      "level": "초등학교",
+      "address": "경기도 과천시 꿈보람길 34",
+      "gu": "",
+      "dong": "별양동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장 재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7569054",
+      "name": "과천문원중학교",
+      "level": "중학교",
+      "address": "경기도 과천시 코오롱로 57",
+      "gu": "",
+      "dong": "별양동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7569217",
+      "name": "과천율목중학교",
+      "level": "중학교",
+      "address": "경기도 과천시 과천대로2길 37",
+      "gu": "",
+      "dong": "갈현동",
+      "events": []
+    },
+    {
+      "code": "7569053",
+      "name": "과천중학교",
+      "level": "중학교",
+      "address": "경기도 과천시 희망4길 33",
+      "gu": "",
+      "dong": "중앙동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "동아리 활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "성폭력 예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "학생자치회 임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "음주 및 흡연 예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "환경교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "진로특강",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "가정폭력 예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "다문화 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "노동인권교육",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530048",
+      "name": "과천고등학교",
+      "level": "고등학교",
+      "address": "경기도 과천시 꿈보람길 26",
+      "gu": "",
+      "dong": "별양동",
+      "events": [
+        {
+          "date": "2026-12-01",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "종업식1,2",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-17",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-19",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-20",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-21",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530145",
+      "name": "과천여자고등학교",
+      "level": "고등학교",
+      "address": "경기도 과천시 희망길 36",
+      "gu": "",
+      "dong": "중앙동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530146",
+      "name": "과천외국어고등학교",
+      "level": "고등학교",
+      "address": "경기도 과천시 희망길 36",
+      "gu": "",
+      "dong": "중앙동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530469",
+      "name": "과천중앙고등학교",
+      "level": "고등학교",
+      "address": "경기도 과천시 교육원로 17",
+      "gu": "",
+      "dong": "갈현동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동계방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "동계방학",
+          "holiday": true
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
