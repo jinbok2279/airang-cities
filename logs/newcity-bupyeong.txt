@@ -1,49 +1,26 @@
 == libs
-  libSrch 다시 시도 1/3: <urlopen error timed out>
 : 도서관 8곳
-  표준데이터로 더한 도서관 6곳
-부평구 도서관 14곳 저장
-  [] 갈산도서관 · 평일 09:00~18:00, 토요일 09:00~18:0 · 휴관 일, 월, 법정공휴일
-  [] 부개도서관 · 평일 09:00~22:00, 토요일 09:00~18:0 · 휴관 일, 월, 법정공휴일
-  [] 부개어린이도서관 · 평일 09:00~18:00, 토요일 09:00~18:0 · 휴관 일, 월, 법정공휴일
+  표준데이터로 더한 도서관 0곳
+부평구 도서관 8곳 저장
   [] 부평구립갈산도서관 · 09:00-18:00 · 휴관 매주 월요일 / 법정공휴일
   [] 부평구립부개도서관 · 평일(화~금) 1층 어린이자료실 09:00~18:00, · 휴관 매주 월요일 / 국가 지정 공휴일(토,일요일과 겹치는 
-== books
-[초등 인기 도서]
-  : 60권
-  1. (추리 천재) 엉덩이 탐정 / 트롤 글·그림, 김정화 옮김 (대출 9)
-  2. 푸른 사자 와니니 :이현 장편동화 / 이현, 그린이: 오윤화 (대출 8)
-  3. 흔한남매 과학 탐험대 / 원작: 흔한남매, 임혜영 (대출 7)
-  4. 너구리 라면 가게 / 최설희, 김덕영 (대출 7)
-  5. 조물조물 우동냥 / 스케랏코 동화, 채다인 옮김 (대출 7)
-[청소년 인기 도서]
-  : 60권
-  1. 문단열의 초등 영어회화 Level 1 / 문단열 (대출 4)
-  2. 가면산장 살인사건 / 히가시노 게이고, 김난주 (대출 4)
-  3. The Runaway Racehorse (Paperback) / Ron Roy (대출 3)
-  4. The Talking T. Rex (Paperback) / Ron Roy (대출 3)
-  5. The Unwilling Umpire (Paperback) / Ron Roy (대출 3)
-[부평구 대출 베스트]
-  : 60권
-  1. 혼모노 :성해나 소설집 / 성해나 (대출 32)
-  2. 모순 :양귀자 장편소설 / 양귀자 (대출 28)
-  3. 비스킷 / 김선미 (대출 28)
-  4. 프로젝트 헤일메리 / 앤디 위어 지음, 강동혁 옮김 (대출 26)
-  5. 작별하지 않는다 :한강 장편소설 / 한강 (대출 26)
+  [] 부평구립부개어린이도서관 · 9:00~18:00 · 휴관 매주 월요일 / 법정공휴일
+  [] 부평구립삼산도서관 · [1층 어린이자료실] 평일&middot;주말 : 09: · 휴관 매주 월요일 / 일요일을 제외한 국가지정 공휴일 (일요
+  [] 부평구립청천도서관 · 평일(화~금) 1층 어린이자료실 09:00~18:00  · 휴관 매주 월요일 / 법정공휴일
 == 결과 파일
 total 812
-drwxr-xr-x  2 runner runner   4096 Nov  2 00:17 .
-drwxr-xr-x 57 runner runner   4096 Nov  2 00:17 ..
--rw-r--r--  1 runner runner 275446 Nov  2 00:22 academies.json
--rw-r--r--  1 runner runner  25945 Nov  2 00:22 books.json
--rw-r--r--  1 runner runner    123 Nov  2 00:22 deals.json
--rw-r--r--  1 runner runner  35623 Nov  2 00:22 elite.json
--rw-r--r--  1 runner runner    643 Nov  2 00:22 events.json
--rw-r--r--  1 runner runner 184383 Nov  2 00:22 hospitals.json
--rw-r--r--  1 runner runner     77 Nov  2 00:22 jobs.json
--rw-r--r--  1 runner runner  36960 Nov  2 00:22 kinder.json
--rw-r--r--  1 runner runner  97421 Nov  2 00:22 latest.json
--rw-r--r--  1 runner runner   7633 Nov  2 00:22 libs.json
--rw-r--r--  1 runner runner 120702 Nov  2 00:22 meals.json
--rw-r--r--  1 runner runner    116 Nov  2 00:22 sports.json
--rw-r--r--  1 runner runner    217 Nov  2 00:22 weather.json
+drwxr-xr-x  2 runner runner   4096 Nov  2 00:27 .
+drwxr-xr-x 57 runner runner   4096 Nov  2 00:27 ..
+-rw-r--r--  1 runner runner 275446 Nov  2 00:29 academies.json
+-rw-r--r--  1 runner runner  25945 Nov  2 00:29 books.json
+-rw-r--r--  1 runner runner    123 Nov  2 00:29 deals.json
+-rw-r--r--  1 runner runner  35623 Nov  2 00:29 elite.json
+-rw-r--r--  1 runner runner    643 Nov  2 00:29 events.json
+-rw-r--r--  1 runner runner 184383 Nov  2 00:29 hospitals.json
+-rw-r--r--  1 runner runner     77 Nov  2 00:29 jobs.json
+-rw-r--r--  1 runner runner  36960 Nov  2 00:29 kinder.json
+-rw-r--r--  1 runner runner  97421 Nov  2 00:29 latest.json
+-rw-r--r--  1 runner runner   4748 Nov  2 00:29 libs.json
+-rw-r--r--  1 runner runner 120702 Nov  2 00:29 meals.json
+-rw-r--r--  1 runner runner    116 Nov  2 00:29 sports.json
+-rw-r--r--  1 runner runner    217 Nov  2 00:29 weather.json
