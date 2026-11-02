@@ -1,9 +1,9 @@
 {
   "region": "가평군",
-  "updated_at": "2026-11-02 12:41:16",
+  "updated_at": "2026-11-03 08:51:24",
   "period": {
-    "from": "20261102",
-    "to": "20270101"
+    "from": "20261103",
+    "to": "20270102"
   },
   "school_count": 26,
   "public_holidays": [
@@ -17,14 +17,6 @@
     }
   ],
   "highlights": [
-    {
-      "school": "청평고등학교",
-      "level": "고등학교",
-      "gu": "",
-      "date": "2026-11-02",
-      "name": "동료 교사 대상 공개수업 주간",
-      "holiday": false
-    },
     {
       "school": "방일초등학교",
       "level": "초등학교",
@@ -264,6 +256,38 @@
       "date": "2027-01-01",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "대성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상색초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-02",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -336,6 +360,11 @@
         },
         {
           "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-02",
           "name": "겨울방학",
           "holiday": true
         }
@@ -428,6 +457,11 @@
           "date": "2027-01-01",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-02",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -451,6 +485,11 @@
         },
         {
           "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-02",
           "name": "겨울방학",
           "holiday": true
         }
@@ -539,6 +578,11 @@
         },
         {
           "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-02",
           "name": "겨울방학",
           "holiday": true
         }
@@ -926,11 +970,6 @@
       "gu": "",
       "dong": "청평면",
       "events": [
-        {
-          "date": "2026-11-02",
-          "name": "동료 교사 대상 공개수업 주간",
-          "holiday": false
-        },
         {
           "date": "2026-11-19",
           "name": "수능재량휴업일",
