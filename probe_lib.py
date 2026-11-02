@@ -4,7 +4,8 @@ for base in ("http://api.data.go.kr/openapi/tn_pubr_public_lbrry_api", "https://
     for sg in ("계양구", "미추홀구"):
         try:
             with urllib.request.urlopen(base + "?" + urllib.parse.urlencode({"serviceKey": WK, "type": "json", "pageNo": 1, "numOfRows": 100, "ctprvnNm": "인천광역시", "signguNm": sg}), timeout=60) as r:
-                d = json.loads(r.read().decode("utf-8", "replace"))
+                raw = r.read().decode("utf-8", "replace"); print("  원문:", raw[:300].replace(WK, "***"))
+                d = json.loads(raw) if raw.strip().startswith("{") else {}
             body = d.get("response", {}).get("body", {}); items = body.get("items") or []
             print(base[:12], sg, "전체", body.get("totalCount"), [i.get("lbrryNm") for i in items][:15]); 
             if items: print("  칸:", list(items[0].keys()))
