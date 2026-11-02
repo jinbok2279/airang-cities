@@ -1,0 +1,2166 @@
+{
+  "region": "양평군",
+  "updated_at": "2026-11-02 12:32:56",
+  "period": {
+    "from": "20261102",
+    "to": "20270101"
+  },
+  "school_count": 43,
+  "public_holidays": [
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    },
+    {
+      "date": "2026-12-25",
+      "name": "부처님 오신 날"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "신정"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "겨울방학"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "설날"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "방학"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "강하중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-12",
+      "name": "진로체험학습",
+      "holiday": false
+    },
+    {
+      "school": "용문중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-16",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "용문중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-17",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "용문중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-18",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "강하중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "개군중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "국수중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수학능력시험재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "단월중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "서종중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능 재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "양동고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "양동중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "양서고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력평가",
+      "holiday": true
+    },
+    {
+      "school": "양수중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "양일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험 휴업",
+      "holiday": true
+    },
+    {
+      "school": "양일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "양평고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "양평전자과학고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "양평중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "용문고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "용문중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "용문중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "지평고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "청운고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "청운중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "개군중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "양서고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "양일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "양일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "양평고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장 재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "양평중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "용문고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "용문중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "용문중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-03",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "서종중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-16",
+      "name": "진로체험의 날",
+      "holiday": false
+    },
+    {
+      "school": "양일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "개군중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "학교축제 개군제",
+      "holiday": false
+    },
+    {
+      "school": "서종중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "교육과정발표회",
+      "holiday": false
+    },
+    {
+      "school": "양수중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "양일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "지평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "졸업식 및 종업식",
+      "holiday": false
+    },
+    {
+      "school": "청운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "양일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "지평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "지평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "지평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "지평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "지평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "강하중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "진급/졸업 평정회",
+      "holiday": false
+    },
+    {
+      "school": "양일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양평고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "동아리한마당",
+      "holiday": false
+    },
+    {
+      "school": "양평단월초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "지평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "다문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "양동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "양동초등학교고송분교장",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "양서고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "동계방학식",
+      "holiday": false
+    },
+    {
+      "school": "양일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양평단월초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "용문고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "지평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "다문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양동초등학교고송분교장",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양서고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "양일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양평단월초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "용문중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "지평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    }
+  ],
+  "schools": [
+    {
+      "code": "7731016",
+      "name": "강상초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 강상면 신화길 86",
+      "gu": "",
+      "dong": "강상면",
+      "events": []
+    },
+    {
+      "code": "7731017",
+      "name": "강하초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 강하면 운심길 33",
+      "gu": "",
+      "dong": "강하면",
+      "events": []
+    },
+    {
+      "code": "7731018",
+      "name": "개군초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 개군면 자진개1길 23",
+      "gu": "",
+      "dong": "개군면",
+      "events": []
+    },
+    {
+      "code": "7731019",
+      "name": "곡수초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 지평면 곡수길 56",
+      "gu": "",
+      "dong": "지평면",
+      "events": []
+    },
+    {
+      "code": "7731020",
+      "name": "다문초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 용문면 다문중앙2길 27",
+      "gu": "",
+      "dong": "용문면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7731021",
+      "name": "대아초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 양서면 방죽들길 5",
+      "gu": "",
+      "dong": "양서면",
+      "events": []
+    },
+    {
+      "code": "7731022",
+      "name": "서종초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 서종면 북한강로789번길 8",
+      "gu": "",
+      "dong": "서종면",
+      "events": []
+    },
+    {
+      "code": "7731023",
+      "name": "세월초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 강상면 세월길147번길 2",
+      "gu": "",
+      "dong": "강상면",
+      "events": []
+    },
+    {
+      "code": "7731024",
+      "name": "수입초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 서종면 무드리2길 20",
+      "gu": "",
+      "dong": "서종면",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "가을계절학교",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "가을계절학교",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "가을계절학교",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "무드리예술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "학생다모임",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "남매맺기",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "내나라 문화탐방",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "남매맺기",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "내나라 문화탐방",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "내나라 문화탐방",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "전교 어린이회 임원 후보 토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "전교 어린이회 임원 선출",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7731025",
+      "name": "양동초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 양동면 양동로 1671",
+      "gu": "",
+      "dong": "양동면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7731038",
+      "name": "양동초등학교고송분교장",
+      "level": "초등학교",
+      "address": "경기도 양평군 양동면 고송길 32-16",
+      "gu": "",
+      "dong": "양동면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7731027",
+      "name": "양서초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 양서면 양서도곡길 8",
+      "gu": "",
+      "dong": "양서면",
+      "events": []
+    },
+    {
+      "code": "7731028",
+      "name": "양수초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 양서면 용담3길 15",
+      "gu": "",
+      "dong": "양서면",
+      "events": []
+    },
+    {
+      "code": "7731030",
+      "name": "양평단월초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 단월면 보룡길 65",
+      "gu": "",
+      "dong": "단월면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7731031",
+      "name": "양평동초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 양평읍 창대길 20-8",
+      "gu": "",
+      "dong": "양평읍",
+      "events": []
+    },
+    {
+      "code": "7731029",
+      "name": "양평초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 양평읍 양근로 142",
+      "gu": "",
+      "dong": "양평읍",
+      "events": [
+        {
+          "date": "2026-11-30",
+          "name": "겨울 행복학교 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "겨울 행복학교 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "겨울 행복학교 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "겨울 행복학교 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "겨울 행복학교 주간",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7731032",
+      "name": "옥천초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 옥천면 옥천길 51",
+      "gu": "",
+      "dong": "옥천면",
+      "events": []
+    },
+    {
+      "code": "7731033",
+      "name": "용문초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 용문면 용문로 837",
+      "gu": "",
+      "dong": "용문면",
+      "events": []
+    },
+    {
+      "code": "7731034",
+      "name": "원덕초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 양평읍 원덕흑천길 180",
+      "gu": "",
+      "dong": "양평읍",
+      "events": []
+    },
+    {
+      "code": "7731075",
+      "name": "정배초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 서종면 명덕길 10",
+      "gu": "",
+      "dong": "서종면",
+      "events": []
+    },
+    {
+      "code": "7731035",
+      "name": "조현초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 용문면 중원산로 157",
+      "gu": "",
+      "dong": "용문면",
+      "events": []
+    },
+    {
+      "code": "7731063",
+      "name": "지평초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 지평면 지평의병로 107",
+      "gu": "",
+      "dong": "지평면",
+      "events": [
+        {
+          "date": "2026-12-24",
+          "name": "졸업식 및 종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7731036",
+      "name": "청운초등학교",
+      "level": "초등학교",
+      "address": "경기도 양평군 청운면 용두로156번길 30",
+      "gu": "",
+      "dong": "청운면",
+      "events": [
+        {
+          "date": "2026-12-24",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7731005",
+      "name": "강하중학교",
+      "level": "중학교",
+      "address": "경기도 양평군 강하면 왕창부로길 74-3",
+      "gu": "",
+      "dong": "강하면",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "진로체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "학급자치",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "대토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "학생회임원선출",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "음악캠프",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "송년음악회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "진로탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "진로탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "진로탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "진로탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "진급/졸업 평정회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7731011",
+      "name": "개군중학교",
+      "level": "중학교",
+      "address": "경기도 양평군 개군면 추읍로 15",
+      "gu": "",
+      "dong": "개군면",
+      "events": [
+        {
+          "date": "2026-11-03",
+          "name": "1차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "1차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "1차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "국제교류교 방문",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "국제교류교 방문",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "국제교류교 방문",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-21",
+          "name": "국제교류교 방문",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "국제교류교 방문",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "국제교류교 방문",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "국제교류교 방문",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "전교 학생자치회 임원 선거(1~4교시)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학교축제 개군제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7731006",
+      "name": "국수중학교",
+      "level": "중학교",
+      "address": "경기도 양평군 양서면 대심상심길 13",
+      "gu": "",
+      "dong": "양서면",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2학기 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2학기 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수학능력시험재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2학기 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "작은음악회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7731012",
+      "name": "단월중학교",
+      "level": "중학교",
+      "address": "경기도 양평군 단월면 보룡길 83",
+      "gu": "",
+      "dong": "단월면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7731013",
+      "name": "서종중학교",
+      "level": "중학교",
+      "address": "경기도 양평군 서종면 북한강로 854",
+      "gu": "",
+      "dong": "서종면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능 재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "진로체험의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "교육과정발표회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7731014",
+      "name": "양동중학교",
+      "level": "중학교",
+      "address": "경기도 양평군 양동면 학둔지윗길 47-7",
+      "gu": "",
+      "dong": "양동면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "중3 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "중3 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "중3 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "중1,2 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "중1,2 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "중1,2 2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7731004",
+      "name": "양수중학교",
+      "level": "중학교",
+      "address": "경기도 양평군 양서면 용담3길 15",
+      "gu": "",
+      "dong": "양서면",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7731007",
+      "name": "양일중학교",
+      "level": "중학교",
+      "address": "경기도 양평군 양평읍 관문2길 9",
+      "gu": "",
+      "dong": "양평읍",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "자유학기 작품 전시주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "수업 나눔 및 학부모 공개 수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "대토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7731008",
+      "name": "양평중학교",
+      "level": "중학교",
+      "address": "경기도 양평군 양평읍 양평중학교길 29",
+      "gu": "",
+      "dong": "양평읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7731015",
+      "name": "용문중학교",
+      "level": "중학교",
+      "address": "경기도 양평군 용문면 용문로 437",
+      "gu": "",
+      "dong": "용문면",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7731009",
+      "name": "지평중학교",
+      "level": "중학교",
+      "address": "경기도 양평군 지평면 지평로 418",
+      "gu": "",
+      "dong": "지평면",
+      "events": []
+    },
+    {
+      "code": "7731010",
+      "name": "청운중학교",
+      "level": "중학교",
+      "address": "경기도 양평군 청운면 청운로 28",
+      "gu": "",
+      "dong": "청운면",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "자율활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "1차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "1차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "1차 정기시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "자율활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "자율활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "자율활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "자율활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 정기시험(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "동아리활동",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530606",
+      "name": "양동고등학교",
+      "level": "고등학교",
+      "address": "경기도 양평군 양동면 학둔지윗길 47-7",
+      "gu": "",
+      "dong": "양동면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530588",
+      "name": "양서고등학교",
+      "level": "고등학교",
+      "address": "경기도 양평군 양서면 상촌길 31-12",
+      "gu": "",
+      "dong": "양서면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동계방학식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "동계방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530607",
+      "name": "양일고등학교",
+      "level": "고등학교",
+      "address": "경기도 양평군 양평읍 관문2길 9",
+      "gu": "",
+      "dong": "양평읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험 휴업",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530581",
+      "name": "양평고등학교",
+      "level": "고등학교",
+      "address": "경기도 양평군 양평읍 양근로 260",
+      "gu": "",
+      "dong": "양평읍",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "수련회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "수련회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "수련회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장 재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "동아리한마당",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "갈산제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531053",
+      "name": "양평전자과학고등학교",
+      "level": "고등학교",
+      "address": "경기도 양평군 양서면 대심상심길 13",
+      "gu": "",
+      "dong": "양서면",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530605",
+      "name": "용문고등학교",
+      "level": "고등학교",
+      "address": "경기도 양평군 용문면 용문로 437",
+      "gu": "",
+      "dong": "용문면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530648",
+      "name": "지평고등학교",
+      "level": "고등학교",
+      "address": "경기도 양평군 지평면 지평로 418",
+      "gu": "",
+      "dong": "지평면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "신입생 예비소집일",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530127",
+      "name": "청운고등학교",
+      "level": "고등학교",
+      "address": "경기도 양평군 청운면 청운로 28",
+      "gu": "",
+      "dong": "청운면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-21",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
