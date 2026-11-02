@@ -1,169 +1,25 @@
-== collect
-의왕시 초등학교 15곳
-의왕시 중학교 9곳
-의왕시 고등학교 6곳
-  갈뫼초등학교: 학교 일정 2건
-  고천초등학교: 학교 일정 1건
-  내동초등학교: 학교 일정 3건
-  내손초등학교: 학교 일정 2건
-  덕장초등학교: 학교 일정 2건
-  모락초등학교: 학교 일정 2건
-  백운초등학교: 학교 일정 14건
-  백운호수초등학교: 학교 일정 3건
-  오전초등학교: 학교 일정 0건
-  왕곡초등학교: 학교 일정 0건
-  의왕덕성초등학교: 학교 일정 3건
-  의왕부곡초등학교: 학교 일정 2건
-  의왕초등학교: 학교 일정 3건
-  의왕푸른초등학교: 학교 일정 3건
-  포일초등학교: 학교 일정 3건
-  갈뫼중학교: 학교 일정 29건
-  고천중학교: 학교 일정 7건
-  내손중학교: 학교 일정 6건
-  덕장중학교: 학교 일정 7건
-  모락중학교: 학교 일정 7건
-  백운중학교: 학교 일정 9건
-  백운호수중학교: 학교 일정 4건
-  의왕부곡중학교: 학교 일정 7건
-  의왕중학교: 학교 일정 8건
-  경기외국어고등학교: 학교 일정 56건
-  내손고등학교: 학교 일정 4건
-  모락고등학교: 학교 일정 18건
-  백운고등학교: 학교 일정 13건
-  우성고등학교: 학교 일정 7건
-  의왕고등학교: 학교 일정 9건
-저장 완료: 주요 일정 70건, 공휴일 2건
-== academies
-1쪽: 353건 (전체 353)
-개원 학원·교습소 353곳 저장: {'구 미상': 353}
-동 모름: 10 곳
-수강료 공개: 124 곳
-== kinder
-  필드: addr, ag3fpcnt, ag4fpcnt, ag5fpcnt, clcnt3, clcnt4, clcnt5, edate, establish, faxno, hpaddr, key, kindercode, kindername, ldgrname, lngtcdnt, lttdcdnt, mixclcnt, mixfpcnt, mixppcnt, odate, officeedu, opertime, pbnttmng, ppcnt3, ppcnt4, ppcnt5, prmstfcnt, rppnname, rpst_yn, shclcnt, shppcnt, spcnfpcnt, subofficeedu, telno
-(41430): 유치원 19곳, 통학차량 19, 방과후 19
-유치원 19곳 저장 · 설립유형 {'사립(사인)': 6, '공립(병설)': 11, '공립(단설)': 1, '사립(법인)': 1}
-  예: 갈뫼유치원 사립(사인)  내손동 정원 170 현원 67 차량 {'yn': 'Y', 'cnt': 2}
-  예: 갈뫼초등학교병설유치원 공립(병설)  내손동 정원 34 현원 28 차량 {'yn': 'N', 'cnt': 0}
-  예: 고천초등학교병설유치원 공립(병설)  오전동 정원 20 현원 4 차량 {'yn': 'N', 'cnt': 0}
-== meals
-학교 30곳 중 30곳 확인 (실패 0), 식단 있는 학교 30곳
-== libs
-: 도서관 12곳
-의왕시 도서관 10곳 저장
-  [] 내손책고운도서관 · 09:00~18:00 · 휴관 매주 월요일, 일요일 / 법정공휴일
-  [] 부곡글고운도서관 · 09:00~18:00 · 휴관 매주 월요일, 일요일 / 법정공휴일
-  [] 오전빛고운도서관 · 09:00~18:00 · 휴관 매주 토요일, 일요일 / 법정공휴일
-  [] 의왕시글로벌도서관 · (평일) 에듀룸 09:00~22:00 / 인포룸 09: · 휴관 매주 금요일 / 신정, 설&middot;추석연휴, 선거
-  [] 의왕시내손도서관 · 자료실 평일 오전9시~ 오후10시(유아자료실 오후6시) · 휴관 매주 금요일 / 법정공휴일
-== books
-[초등 인기 도서]
-  : 60권
-  1. 고양이 해결사 깜냥 / 홍민정 동화, 김재희 그림 (대출 9)
-  2. 놓지 마 과학! / 글·신태훈,나승훈 (대출 6)
-  3. 흔한남매 / 원작: 흔한남매, 유난희 (대출 6)
-  4. 내가 할배냥 / 홍민정 글, 하민석 그림 (대출 6)
-  5. 에그박사 :Egg&bugs / 원작: 에그박사, 홍종현 (대출 6)
-[청소년 인기 도서]
-  : 60권
-  1. 왜 세계의 절반은 굶주리는가? :유엔 식량특별조사관이 아들에게 들려주는 기아의 진실 / 장 지글러 지음, 유영미 옮김 (대출 3)
-  2. ROSCOE RILEY RULES 3 / HARPER TROPHY 편집부 (대출 2)
-  3. Horrible Harry and the Drop of Doom (Paperback) / 수지 클라인 (지은이) (대출 2)
-  4. Horrible Harry and the Green Slime (Paperback) / Suzy Kline (지은이) (대출 2)
-  5. Horrible Harry and the Christmas Surprise (Paperback) / 수지 클라인 (지은이) (대출 2)
-[의왕시 대출 베스트]
-  : 60권
-  1. 모순 :양귀자 장편소설 / 양귀자 (대출 26)
-  2. 혼모노 :성해나 소설집 / 성해나 (대출 24)
-  3. 안녕이라 그랬어 :김애란 소설 / 김애란 (대출 23)
-  4. 흔한남매 / 원작: 흔한남매, 유난희 (대출 21)
-  5. 절창 :구병모 장편소설 / 구병모 (대출 20)
-== events
-  KOPIS 의왕 아동공연 0건
-  KOPIS 경기 전체 아동공연 170건
-  KOPIS 의왕 아동공연 0건
-  관광공사 응답: {'response': {'header': {'resultCode': '0000', 'resultMsg': 'OK'}, 'body': {'items': '', 'numOfRows': 0, 'pageNo': 1, 'totalCount': 0}}}
-  관광공사 의왕 축제·행사 0건
-  문화포털 의왕 가족 행사 0건
-공연·축제 0건, 체험·교육 0건 저장
-== jobs
-  교육청 기간제·사립교원: 0건
-  교육청 시간강사·방과후: 0건
-  교육청 교육공무직: 3건
-  어린이집 구인: 2건
-학교·유치원 3건, 어린이집 2건 저장
-  [학교] 교육공무직 백운호수초등학교 2027 백운호수초등학교 원어민보조교사 채용 공고 2026-11-01
-  [학교] 교육공무직 포일초등학교 포일초등학교 지방공무원 결원대체 인력(행정직) 채용 공고 2026-11-03
-  [학교] 교육공무직 갈뫼중학교 2026 갈뫼중학교 운동부(수영) 전임지도자 채용 공고 2026-11-09
-  [어린이집] 해든솔어린이집 보육교사 오전동 2026-11-23 2156880원/월
-  [어린이집] 해든솔어린이집 보육교사 오전동 2026-11-23 2156880원/월
-== sports
-의왕 : 운동교실 준비 중
-== deals
-  동네 가게 할인 0건
-저장: 의왕 할인 0건 (지역화폐 0, 백화점 0)
-== elite
-서울: 학교 1416곳 확인
-부산: 학교 672곳 확인
-대구: 학교 484곳 확인
-인천: 학교 584곳 확인
-광주: 학교 336곳 확인
-대전: 학교 329곳 확인
-울산: 학교 255곳 확인
-세종: 학교 109곳 확인
-경기: 학교 2667곳 확인
-강원: 학교 660곳 확인
-충북: 학교 514곳 확인
-충남: 학교 756곳 확인
-전북: 학교 771곳 확인
-전남: 학교 881곳 확인
-경북: 학교 942곳 확인
-경남: 학교 1021곳 확인
-제주: 학교 205곳 확인
-저장: {'영재학교': 8, '과학고': 23, '자사고(전국)': 10, '외고': 30, '국제고': 10, '자사고(광역)': 22}
-고등학교 구분 값: [(('일반고', ''), 1758), (('특성화고', ''), 518), (('자율고', ''), 114), (('특목고', '산업수요 맞춤형 고등학교'), 40), (('특목고', ''), 33), (('특목고', '과학계열'), 23), (('특목고', '예술계열'), 22), (('특목고', '외국어계열'), 22), (('특목고', '체육계열'), 13), (('특목고', '국제계열'), 7), (('특성화고', '예술계열'), 1), (('일반고', '산업수요 맞춤형 고등학교'), 1), (('일반고', '외국어계열'), 1), (('일반고', '과학계열'), 1), (('일반고', '예술계열'), 1), (('특성화고', '산업수요 맞춤형 고등학교'), 1)]
-== weather
-의왕 격자 nx=60 ny=122
-  단기예보 20261101 1700: 1000건
-  단기예보 20261101 0200: 944건
-  날씨: {'sky': '비', 'icon': '🌧️', 'lo': 5, 'hi': 13, 'pop': 60} 미세먼지: {'pm10': '좋음', 'pm25': '좋음'}
-저장: output/weather.json
 == benefits
   중앙부처 복지 실패: HTTP Error 429: Too Many Requests
     (서버 전체 19건, 한 번에 19건)
   시 혜택 칸: ['aplyMtdNm', 'bizChrDeptNm', 'ctpvNm', 'inqNum', 'intrsThemaNmArray', 'lastModYmd', 'lifeNmArray', 'servDgst', 'servDtlLink', 'servId', 'servNm', 'sggNm', 'sprtCycNm', 'srvPvsnNm']
   의왕시 혜택 19건 중 아이·가족 8건
-  저장: 4 KB, 8 건
-== hospitals
-  병·의원 175곳 받음. 종류: {'의원': 74, '치과의원': 56, '한의원': 35, '병원': 3, '요양병원': 2, '보건소': 2, '치과병원': 1, '기타': 1, '조산원': 1}
-  칸: ['dutyAddr', 'dutyDiv', 'dutyDivNam', 'dutyEmcls', 'dutyEmclsName', 'dutyEryn', 'dutyName', 'dutyTel1', 'dutyTel3', 'dutyTime1c', 'dutyTime1s', 'dutyTime2c', 'dutyTime2s', 'dutyTime3c', 'dutyTime3s', 'dutyTime4c', 'dutyTime4s', 'dutyTime5c', 'dutyTime5s', 'dutyTime6c', 'dutyTime6s', 'dutyTime8c', 'dutyTime8s', 'hpid', 'postCdn1', 'postCdn2', 'rnum', 'wgs84Lat', 'wgs84Lon']
-  진료과 내과 D001: 52곳 (이름에 과가 있는 13곳 중 100% 포함)
-  진료과 소아청소년과 D002: 40곳 (이름에 과가 있는 8곳 중 100% 포함)
-  진료과 피부과 D005: 34곳 (이름에 과가 있는 1곳 중 100% 포함)
-  진료과 정형외과 D008: 24곳 (이름에 과가 있는 6곳 중 100% 포함)
-  진료과 산부인과 D011: 3곳 (이름에 과가 있는 1곳 중 100% 포함)
-  진료과 안과 D012: 15곳 (이름에 과가 있는 4곳 중 100% 포함)
-  진료과 이비인후과 D013: 35곳 (이름에 과가 있는 12곳 중 100% 포함)
-  진료과 가정의학과 D022: 21곳 (이름에 과가 있는 2곳 중 100% 포함)
-  의원 132곳, 병원 4곳
-  응급의료기관 서비스 실패 → 병·의원 목록에서 응급실 운영 기관을 씀: HTTP Error 403: Forbidden
-  응급실 0곳
-  약국 52곳 (전화 있는 곳 49)
-  저장: 43 KB
+  나라 혜택: 다른 도시 것을 빌려 씀 하남 2026-11-02 05:36
+  저장: 68 KB, 114 건
 == 결과 파일
-total 368
-drwxr-xr-x  2 runner runner   4096 Nov  1 08:25 .
-drwxr-xr-x 49 runner runner   4096 Nov  1 08:17 ..
--rw-r--r--  1 runner runner 116135 Nov  1 08:25 academies.json
--rw-r--r--  1 runner runner   4980 Nov  1 08:25 benefits.json
--rw-r--r--  1 runner runner  26632 Nov  1 08:25 books.json
--rw-r--r--  1 runner runner    134 Nov  1 08:25 deals.json
--rw-r--r--  1 runner runner  35623 Nov  1 08:25 elite.json
--rw-r--r--  1 runner runner    141 Nov  1 08:25 events.json
--rw-r--r--  1 runner runner  44786 Nov  1 08:25 hospitals.json
--rw-r--r--  1 runner runner   2326 Nov  1 08:25 jobs.json
--rw-r--r--  1 runner runner  11106 Nov  1 08:25 kinder.json
--rw-r--r--  1 runner runner  48017 Nov  1 08:25 latest.json
--rw-r--r--  1 runner runner   5299 Nov  1 08:25 libs.json
--rw-r--r--  1 runner runner  38183 Nov  1 08:25 meals.json
--rw-r--r--  1 runner runner    116 Nov  1 08:25 sports.json
--rw-r--r--  1 runner runner    215 Nov  1 08:25 weather.json
+total 444
+drwxr-xr-x  2 runner runner   4096 Nov  2 03:57 .
+drwxr-xr-x 65 runner runner   4096 Nov  2 03:57 ..
+-rw-r--r--  1 runner runner 116135 Nov  2 04:00 academies.json
+-rw-r--r--  1 runner runner  70534 Nov  2 04:00 benefits.json
+-rw-r--r--  1 runner runner  26709 Nov  2 04:00 books.json
+-rw-r--r--  1 runner runner    134 Nov  2 04:00 deals.json
+-rw-r--r--  1 runner runner  35623 Nov  2 04:00 elite.json
+-rw-r--r--  1 runner runner    141 Nov  2 04:00 events.json
+-rw-r--r--  1 runner runner  44786 Nov  2 04:00 hospitals.json
+-rw-r--r--  1 runner runner   1867 Nov  2 04:00 jobs.json
+-rw-r--r--  1 runner runner  11106 Nov  2 04:00 kinder.json
+-rw-r--r--  1 runner runner  52581 Nov  2 04:00 latest.json
+-rw-r--r--  1 runner runner   5299 Nov  2 04:00 libs.json
+-rw-r--r--  1 runner runner  45570 Nov  2 04:00 meals.json
+-rw-r--r--  1 runner runner    116 Nov  2 04:00 sports.json
+-rw-r--r--  1 runner runner    217 Nov  2 04:00 weather.json
