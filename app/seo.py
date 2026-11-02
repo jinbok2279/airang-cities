@@ -251,7 +251,11 @@ if __name__ == "__main__":
     ent = os.path.join(a.out, "entry")
     if os.path.isdir(ent):   # 입구(airang.songgollab.co.kr): 사이트맵·robots
         today = datetime.now(KST).strftime("%Y-%m-%d")
+        # 사이트맵 묶음: 입구 + 모든 도시 사이트맵 (구글 '도메인' 등록이면 다른 하위 주소 사이트맵도 한 번에 받음)
         open(os.path.join(ent, "sitemap.xml"), "w", encoding="utf-8").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
             f"<url><loc>https://airang.songgollab.co.kr/</loc><lastmod>{today}</lastmod></url>\n</urlset>\n")
+        open(os.path.join(ent, "sitemap-all.xml"), "w", encoding="utf-8").write('<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+            + "".join(f"<sitemap><loc>https://{k}.songgollab.co.kr/sitemap.xml</loc><lastmod>{today}</lastmod></sitemap>\n" for k in CFG["cities"])
+            + "<sitemap><loc>https://airang.songgollab.co.kr/sitemap.xml</loc></sitemap>\n</sitemapindex>\n")
         open(os.path.join(ent, "robots.txt"), "w", encoding="utf-8").write("User-agent: *\nAllow: /\nSitemap: https://airang.songgollab.co.kr/sitemap.xml\n")
     print(f"검색용 페이지 {tot}개")
