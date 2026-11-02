@@ -2800,16 +2800,16 @@ function closeInstall() {
   if (e.dataset.back && location.hash.startsWith("#move=")) history.replaceState(null, "", location.pathname + location.search + e.dataset.back);
   e.remove();
 }
-// 자동 권유: 휴대폰에서 다섯 번째 화면부터 크게 권함. '나중에'를 누르면 몇 화면 뒤에 다시 (막지는 않음)
+// 자동 권유: 휴대폰에서 스무 번째 화면부터 크게 권함. '나중에'를 누르면 20화면 뒤에 다시 (막지는 않음)
 let autoLastRoute = null;
 function autoInstall(r) {
   if (r === autoLastRoute) return; autoLastRoute = r;
   const d = devInfo();
   if (!d.mobile || d.standalone || r === "admin" || store("edu.admin") || store("edu.installDone") === "1") return;
   const n = (+store("edu.views") || 0) + 1; store("edu.views", String(n));
-  if (n < (+store("edu.autoNext") || 5) || document.getElementById("installSheet")) return;
+  if (n < (+store("edu.autoNext") || 20) || document.getElementById("installSheet")) return;
   const shown = (+store("edu.autoShown") || 0) + 1; store("edu.autoShown", String(shown));
-  store("edu.autoNext", String(n + (shown < 3 ? 8 : 25)));
+  store("edu.autoNext", String(n + 20));
   setTimeout(() => { if (!document.getElementById("installSheet")) { trackEvent("앱설치-자동권유"); openInstall(true); } }, 800);
 }
 function copyMoveCode() {
