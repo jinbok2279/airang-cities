@@ -12,6 +12,8 @@
   guide/library.html               도서관 운영시간·휴관일
   guide/pediatrics.html            소아청소년과 진료 시간
   guide/events.html                아이와 갈 만한 행사
+  guide/winter.html                학교별 겨울방학 날짜 (나이스 학사일정)
+  guide/school-start.html          초등학교 입학 준비 + 초등학교 목록
   sitemap.xml, robots.txt
 개인정보는 쓰지 않는다 (공공데이터의 기관 이름·주소·전화만).
 """
@@ -215,10 +217,72 @@ def build_city(key, out, data):
               f"""<h1>{E(sgg)} 아이와 갈 만한 곳 · 행사</h1><p class="lead">앞으로 열리는 아이·가족 공연, 축제, 체험 프로그램 {len(evs)}개예요.</p>
 <div class="card"><table><tr><th>행사</th><th class="num">날짜</th></tr>{rows}</table></div>""", [home, ("행사", None)])
 
+    # ── 겨울방학: 학교별 방학 시작일·졸업식 (나이스 학사일정)
+    lat = load(data, key, "latest") or {}
+    schs = lat.get("schools") or []
+    LV = [("초등학교", "초등학교"), ("중학교", "중학교"), ("고등학교", "고등학교")]
+    def first(sc, rx):
+        ds = sorted(e["date"] for e in sc.get("events") or [] if re.search(rx, e.get("name", "")))
+        return ds[0] if ds else ""
+    def mdw(d):
+        try:
+            t = datetime.strptime(d, "%Y-%m-%d"); return f"{t.month}/{t.day}({'월화수목금토일'[t.weekday()]})"
+        except Exception:
+            return ""
+    win = []
+    for sc in schs:
+        st = first(sc, r"^겨울방학$|^겨울 방학$")
+        if not st:
+            b = first(sc, r"방학식")
+            st = (datetime.strptime(b, "%Y-%m-%d") + timedelta(days=1)).strftime("%Y-%m-%d") if b else ""
+        if st:
+            win.append((sc, st, first(sc, r"졸업식"), first(sc, r"종업식")))
+    if len(win) >= 3:
+        win = [w for w in win if w[1][5:] >= "12-01" or w[1][5:] <= "02-28"]   # 11월 '겨울방학'은 잘못 넣은 일정이 많아 뺌
+        ds = sorted(w[1] for w in win)
+        from collections import Counter
+        top = Counter(ds).most_common(1)[0] if ds else ("", 0)
+        secs = ""
+        for lv, lab in LV:
+            ws = sorted([w for w in win if w[0].get("level") == lv], key=lambda w: (w[1], w[0].get("gu", ""), w[0]["name"]))
+            if ws:
+                secs += f"<h2>{lab} {len(ws)}곳</h2><div class='card'><table><tr><th>학교</th><th class='num'>방학 시작</th><th class='num'>졸업·종업식</th></tr>" + "".join(
+                    f"<tr><td><b>{E(sc['name'])}</b><div class='sub'>{E(' '.join(x for x in (sc.get('gu'), sc.get('dong')) if x))}</div></td><td class='num'>{mdw(st)}</td><td class='num'>{mdw(gr or jo)}</td></tr>" for sc, st, gr, jo in ws) + "</table></div>"
+        wev = [e for e in evs if "12-10" <= (e.get("start") or "")[5:] or (e.get("start") or "")[5:] <= "02-28"] if evs else []
+        evh = ("<h2>방학에 아이와 갈 만한 곳</h2><div class='card'><table>" + "".join(f"<tr><td><b>{E(e['title'])}</b><div class='sub'>{E(e.get('place') or e.get('lib'))}</div></td><td class='num'>{E(e.get('start', '')[5:].replace('-', '/'))}</td></tr>" for e in wev[:20]) + "</table></div><p class='sub'><a href='/guide/events.html'>행사 전체 보기 →</a></p>") if wev else ""
+        sp = (load(data, key, "sports") or {}).get("centers") or []
+        sph = ("<h2>방학 운동 교실 (공공 체육센터)</h2><div class='card'><table>" + "".join(f"<tr><td><b>{E(x.get('name'))}</b><div class='sub'>{E(x.get('area'))} · {E(tel(x.get('tel')))}</div></td><td>{E(' · '.join((x.get('tags') or [])[:4]))}</td></tr>" for x in sp[:20]) + "</table></div>") if sp else ""
+        write("guide/winter.html", f"{sgg} 겨울방학 언제? 학교별 방학 날짜·졸업식 | 아이랑 {nm}",
+              f"{sgg} 초·중·고 {len(win)}곳의 겨울방학 시작일과 졸업식·종업식 날짜를 학교별로 정리했어요. 방학에 아이와 갈 만한 곳도 함께 보세요.",
+              f"""<h1>{E(sgg)} 겨울방학 언제? 학교별 방학 날짜</h1>
+<p class="lead">학교가 나이스(NEIS)에 올린 학사일정으로 {len(win)}개 학교의 겨울방학 시작일을 모았어요. 학교 사정으로 바뀔 수 있으니 가정통신문도 꼭 확인해 주세요.</p>
+<div class="kpi"><div>일정이 나온 학교<b>{len(win)}곳</b></div><div>가장 빠른 방학<b>{mdw(ds[0])}</b></div><div>가장 많은 날<b>{mdw(top[0])} · {top[1]}곳</b></div></div><p class="sub">1월에 방학하는 학교는 일정이 올라오는 대로 매일 더해져요.</p>
+{secs}{evh}{sph}<p class="sub">도서관 겨울 독서교실·방학 특강은 <a href="/guide/library.html">도서관 안내</a>에서 가까운 곳을 찾아 문의해 보세요.</p>""", [home, ("겨울방학", None)])
+
+    # ── 초등학교 입학 준비 (해마다 같은 흐름 + 우리 동네 초등학교 목록)
+    els = sorted([sc for sc in schs if sc.get("level") == "초등학교"], key=lambda sc: (sc.get("gu", ""), sc.get("dong", ""), sc["name"]))
+    if els:
+        yr = datetime.now(KST).year + (1 if datetime.now(KST).month >= 6 else 0)
+        rows = "".join(f"<tr><td><b>{E(sc['name'])}</b><div class='sub'>{E(sc.get('address'))}</div></td><td>{E(sc.get('dong'))}</td></tr>" for sc in els)
+        write("guide/school-start.html", f"{yr} {sgg} 초등학교 입학 준비 · 취학통지서·예비소집 | 아이랑 {nm}",
+              f"{yr}년 3월 초등학교 입학 준비: 취학통지서, 예비소집, 예방접종 확인, 돌봄 신청 순서와 {sgg} 초등학교 {len(els)}곳 목록.",
+              f"""<h1>{yr}년 {E(sgg)} 초등학교 입학 준비</h1>
+<p class="lead">처음 학교 가는 아이를 위해, 부모가 챙길 일을 순서대로 정리했어요. 정확한 날짜는 해마다 조금씩 달라요. 주민센터·학교 안내를 꼭 함께 확인해 주세요.</p>
+<div class="card"><table>
+<tr><td><b>① 취학통지서 받기</b> <span class="sub">보통 12월</span><div class="sub">주소지 주민센터에서 받아요. 기간 안에는 정부24에서 온라인으로도 받고 낼 수 있어요. 배정된 학교가 여기에 적혀 있어요.</div></td></tr>
+<tr><td><b>② 예비소집 가기</b> <span class="sub">보통 1월</span><div class="sub">배정된 학교에 아이와 함께 가요. 못 가게 되면 꼭 미리 학교에 연락하세요.</div></td></tr>
+<tr><td><b>③ 예방접종 확인</b><div class="sub">입학 전에 DTaP 5차, 폴리오 4차, MMR 2차, 일본뇌염 접종을 마쳤는지 질병관리청 예방접종도우미에서 확인해요. 빠진 게 있으면 <a href="/guide/pediatrics.html">가까운 소아과</a>에서 맞혀요.</div></td></tr>
+<tr><td><b>④ 돌봄·방과후 신청</b><div class="sub">초등 돌봄교실·방과후 프로그램은 입학 전후로 학교에서 신청을 받아요. 학교 안내문을 놓치지 마세요.</div></td></tr>
+<tr><td><b>⑤ 받을 수 있는 혜택 확인</b><div class="sub">입학 축하금, 교복·체험비 지원 같은 혜택은 시·구마다 달라요. 아이랑 앱의 <a href="/#bene">혜택</a> 메뉴에서 우리 동네 것을 찾아보세요.</div></td></tr>
+</table></div>
+<h2>{E(sgg)} 초등학교 {len(els)}곳</h2><div class="card"><table><tr><th>학교</th><th>동</th></tr>{rows}</table></div>""", [home, ("초등 입학 준비", None)])
+
     # ── 도시 안내 (허브)
     links = [("학원·교습비", "/guide/academy/", f"{len(aca):,}곳"), ("유치원", "/guide/kinder.html", f"{len(kin)}곳"),
              ("도서관", "/guide/library.html", f"{len(libs)}곳"), ("소아과 진료 시간", "/guide/pediatrics.html", f"{len(peds)}곳"),
              ("아이와 갈 만한 곳", "/guide/events.html", f"{len(evs)}개")]
+    if len(win) >= 3: links.append(("겨울방학 날짜 (학교별)", "/guide/winter.html", f"{len(win)}곳"))
+    if els: links.append(("초등학교 입학 준비", "/guide/school-start.html", f"{len(els)}곳"))
     body = f"""<h1>{E(sgg)} 아이 키우는 집을 위한 동네 정보</h1>
 <p class="lead">학원·교습비, 유치원, 도서관, 소아과, 아이와 갈 만한 곳을 공공데이터로 모아 매일 새로 고쳐요.</p>
 <div class="card"><table>{''.join(f'<tr><td><a href="{u}"><b>{E(t)}</b></a></td><td class="num">{E(n)}</td></tr>' for t, u, n in links)}</table></div>
