@@ -69,15 +69,35 @@
 학교 50곳 중 50곳 확인 (실패 0), 식단 있는 학교 50곳
 == libs
 : 도서관 0곳
-도서관 목록을 하나도 가져오지 못했습니다
+  주소로 더 찾은 도서관 2곳
+미추홀구 도서관 2곳 저장
+  [] 인천광역시 수봉도서관 · [종합자료실, 참고간행물실(청소년)] 09:00~22: · 휴관 매주 월요일
+  [] 인천광역시교육청주안도서관 · 열람실: 06:00~22:00 / 자료실: 평일 09: · 휴관 매주 목요일 / 법정공휴일
 == books
 [초등 인기 도서]
   : 0권
+  시도 전체 인기 도서로 대신함: 60권
+  1. 흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식 / 원작: 흔한남매, 유난희 (대출 30)
+  2. 흔한남매 / 원작: 흔한남매, 유난희 (대출 30)
+  3. 너구리 라면 가게 / 최설희, 김덕영 (대출 28)
+  4. 흔한남매 과학 탐험대 / 원작: 흔한남매, 임혜영 (대출 26)
+  5. 설민석의 한국사 대모험 / 설민석,정현희 (대출 26)
 [청소년 인기 도서]
   : 0권
+  시도 전체 인기 도서로 대신함: 60권
+  1. 미적분의 쓸모 :미래를 예측하는 새로운 언어 / 한화택 지음 (대출 12)
+  2. 미적분으로 바라본 하루 :일상 속 어디에나 있는 수학 찾기 / 오스카 E. 페르난데스 지음, 김수환 옮김 (대출 11)
+  3. 아픔이 길이 되려면 :정의로운 건강을 찾아 질병의 사회적 책임을 묻다 / 김승섭 지음 (대출 10)
+  4. 소년이 온다 :한강 장편소설 / 한강 (대출 9)
+  5. 세계를 건너 너에게 갈게 :이꽃님 장편소설 / 글쓴이: 이꽃님 (대출 9)
 [미추홀구 대출 베스트]
   : 0권
-인기 도서를 하나도 가져오지 못했습니다
+  시도 전체 인기 도서로 대신함: 60권
+  1. 소년이 온다 :한강 장편소설 / 한강 (대출 129)
+  2. 모순 :양귀자 장편소설 / 양귀자 (대출 120)
+  3. 혼모노 :성해나 소설집 / 성해나 (대출 119)
+  4. 홍학의 자리 :정해연 장편소설 / 정해연 (대출 103)
+  5. 안녕이라 그랬어 :김애란 소설 / 김애란 (대출 102)
 == events
   KOPIS 미추홀 아동공연 1건
   KOPIS 미추홀 아동공연 1건
@@ -142,18 +162,20 @@
   약국 199곳 (전화 있는 곳 199)
   저장: 133 KB
 == 결과 파일
-total 544
-drwxr-xr-x  2 runner runner   4096 Nov  1 23:34 .
-drwxr-xr-x 56 runner runner   4096 Nov  1 23:25 ..
--rw-r--r--  1 runner runner 185002 Nov  1 23:34 academies.json
--rw-r--r--  1 runner runner    698 Nov  1 23:34 benefits.json
--rw-r--r--  1 runner runner    126 Nov  1 23:34 deals.json
--rw-r--r--  1 runner runner  35623 Nov  1 23:34 elite.json
--rw-r--r--  1 runner runner    611 Nov  1 23:34 events.json
--rw-r--r--  1 runner runner 136572 Nov  1 23:34 hospitals.json
--rw-r--r--  1 runner runner     77 Nov  1 23:34 jobs.json
--rw-r--r--  1 runner runner  23489 Nov  1 23:34 kinder.json
--rw-r--r--  1 runner runner  58039 Nov  1 23:34 latest.json
--rw-r--r--  1 runner runner  72990 Nov  1 23:34 meals.json
--rw-r--r--  1 runner runner    119 Nov  1 23:34 sports.json
--rw-r--r--  1 runner runner    220 Nov  1 23:34 weather.json
+total 576
+drwxr-xr-x  2 runner runner   4096 Nov  2 00:18 .
+drwxr-xr-x 57 runner runner   4096 Nov  2 00:06 ..
+-rw-r--r--  1 runner runner 185002 Nov  2 00:18 academies.json
+-rw-r--r--  1 runner runner    698 Nov  2 00:18 benefits.json
+-rw-r--r--  1 runner runner  26352 Nov  2 00:18 books.json
+-rw-r--r--  1 runner runner    126 Nov  2 00:18 deals.json
+-rw-r--r--  1 runner runner  35623 Nov  2 00:18 elite.json
+-rw-r--r--  1 runner runner    611 Nov  2 00:18 events.json
+-rw-r--r--  1 runner runner 136572 Nov  2 00:18 hospitals.json
+-rw-r--r--  1 runner runner     77 Nov  2 00:18 jobs.json
+-rw-r--r--  1 runner runner  23489 Nov  2 00:18 kinder.json
+-rw-r--r--  1 runner runner  58039 Nov  2 00:18 latest.json
+-rw-r--r--  1 runner runner   1304 Nov  2 00:18 libs.json
+-rw-r--r--  1 runner runner  72990 Nov  2 00:18 meals.json
+-rw-r--r--  1 runner runner    119 Nov  2 00:18 sports.json
+-rw-r--r--  1 runner runner    220 Nov  2 00:18 weather.json
