@@ -1,0 +1,7296 @@
+{
+  "region": "천안시",
+  "updated_at": "2026-11-02 11:04:26",
+  "period": {
+    "from": "20261102",
+    "to": "20270101"
+  },
+  "school_count": 133,
+  "public_holidays": [
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "신정"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "겨울방학"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "새해 첫날"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "북일고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-02",
+      "name": "1학년 대체휴일",
+      "holiday": true
+    },
+    {
+      "school": "북일고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-02",
+      "name": "2학년 대체휴일",
+      "holiday": true
+    },
+    {
+      "school": "천안새샘중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-11-03",
+      "name": "2학년 현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "천안청수고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-03",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "북일여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-05",
+      "name": "해오름축제",
+      "holiday": false
+    },
+    {
+      "school": "북일여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-06",
+      "name": "해오름축제",
+      "holiday": false
+    },
+    {
+      "school": "천안부영초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-11-06",
+      "name": "종합학습발표회",
+      "holiday": false
+    },
+    {
+      "school": "천안쌍용고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-06",
+      "name": "현장체험학습(1)",
+      "holiday": false
+    },
+    {
+      "school": "천안오성고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-06",
+      "name": "현장체험학습(1학년)",
+      "holiday": false
+    },
+    {
+      "school": "천안용곡초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-11-06",
+      "name": "학급발표회",
+      "holiday": false
+    },
+    {
+      "school": "천안중앙고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-07",
+      "name": "토요 휴업일(주5일제 수업)",
+      "holiday": true
+    },
+    {
+      "school": "천안부영초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-11-09",
+      "name": "온돌봄 방과후 공개수업주간",
+      "holiday": false
+    },
+    {
+      "school": "신흥초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-11-10",
+      "name": "학습발표회",
+      "holiday": false
+    },
+    {
+      "school": "천안부영초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-11-10",
+      "name": "온돌봄 방과후 공개수업주간",
+      "holiday": false
+    },
+    {
+      "school": "천안부영초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-11-11",
+      "name": "온돌봄 방과후 공개수업주간",
+      "holiday": false
+    },
+    {
+      "school": "천안부영초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-11-12",
+      "name": "온돌봄 방과후 공개수업주간",
+      "holiday": false
+    },
+    {
+      "school": "천안부영초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-11-13",
+      "name": "온돌봄 방과후 공개수업주간",
+      "holiday": false
+    },
+    {
+      "school": "천안업성고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-13",
+      "name": "1학년 현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "천안용곡중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-11-13",
+      "name": "진로현장체험학습(3학년)",
+      "holiday": false
+    },
+    {
+      "school": "천안중앙고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-14",
+      "name": "토요 휴업일(주5일제 수업)",
+      "holiday": true
+    },
+    {
+      "school": "광풍중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "재량휴업",
+      "holiday": true
+    },
+    {
+      "school": "목천고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "병천고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "병천중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "복자여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험 휴업일",
+      "holiday": true
+    },
+    {
+      "school": "복자여자중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "학교장 재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "북일고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "북일여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "성환중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천안계광중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "천안고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "천안공업고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "대학수학능력고사일",
+      "holiday": true
+    },
+    {
+      "school": "천안두정고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "천안봉서중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "천안불당고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "천안불당고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천안불무중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천안서여자중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천안신당고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천안쌍용고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천안쌍용고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "천안업성고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "천안여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "천안여자상업고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천안오성고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "천안월봉고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "천안제일고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험 휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천안중앙고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "천안중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천안청수고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "병천고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "병천중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "북일여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천안두정고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천안두정중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천안여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천안오성고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천안월봉고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "천안중앙고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-21",
+      "name": "토요 휴업일(주5일제 수업)",
+      "holiday": true
+    },
+    {
+      "school": "천안부성초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-11-23",
+      "name": "솔밭축제주간",
+      "holiday": false
+    },
+    {
+      "school": "천안부성초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-11-24",
+      "name": "솔밭축제주간",
+      "holiday": false
+    },
+    {
+      "school": "천안업성고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-24",
+      "name": "3학년 현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "천안부성초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-11-25",
+      "name": "솔밭축제주간",
+      "holiday": false
+    },
+    {
+      "school": "천안부성초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-11-26",
+      "name": "솔밭축제주간",
+      "holiday": false
+    },
+    {
+      "school": "충남예술고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-11-26",
+      "name": "작곡발표회",
+      "holiday": false
+    },
+    {
+      "school": "천안부성초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-11-27",
+      "name": "솔밭축제주간",
+      "holiday": false
+    },
+    {
+      "school": "천안중앙고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-11-28",
+      "name": "토요 휴업일(주5일제 수업)",
+      "holiday": true
+    },
+    {
+      "school": "행정초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-01",
+      "name": "스케이트체험",
+      "holiday": false
+    },
+    {
+      "school": "행정초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-02",
+      "name": "스케이트체험",
+      "holiday": false
+    },
+    {
+      "school": "천안오성고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-12-04",
+      "name": "현장체험학습(3학년)",
+      "holiday": false
+    },
+    {
+      "school": "행정초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-04",
+      "name": "스케이트체험",
+      "holiday": false
+    },
+    {
+      "school": "천안중앙고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-05",
+      "name": "토요 휴업일(주5일제 수업)",
+      "holiday": true
+    },
+    {
+      "school": "천안중앙고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-12",
+      "name": "토요 휴업일(주5일제 수업)",
+      "holiday": true
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-16",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-16",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-17",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-17",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안중앙고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-17",
+      "name": "천맥축제",
+      "holiday": false
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-18",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-18",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안중앙고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-19",
+      "name": "토요 휴업일(주5일제 수업)",
+      "holiday": true
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-20",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-20",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-21",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-21",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-22",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안북중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-12-23",
+      "name": "다온축제",
+      "holiday": false
+    },
+    {
+      "school": "천안새샘중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-12-23",
+      "name": "진급졸업사정회",
+      "holiday": false
+    },
+    {
+      "school": "천안서여자중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-12-23",
+      "name": "졸업 및 진급 평가회",
+      "holiday": false
+    },
+    {
+      "school": "천안쌍용중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-23",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-23",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안청수고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-23",
+      "name": "동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "복자여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-24",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "복자여자중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-12-24",
+      "name": "학교장 재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "북일고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-24",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "북일여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-24",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "입장중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-24",
+      "name": "한우리축제",
+      "holiday": false
+    },
+    {
+      "school": "천성중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-12-24",
+      "name": "천성축제",
+      "holiday": false
+    },
+    {
+      "school": "천안두정고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-12-24",
+      "name": "학교축제 및 동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "천안두정중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-24",
+      "name": "마루물축제",
+      "holiday": false
+    },
+    {
+      "school": "천안백석중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-24",
+      "name": "한마음축제",
+      "holiday": false
+    },
+    {
+      "school": "천안서여자중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-12-24",
+      "name": "백목련 축제",
+      "holiday": false
+    },
+    {
+      "school": "천안성성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-24",
+      "name": "꿈빛축제",
+      "holiday": false
+    },
+    {
+      "school": "천안신방중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-12-24",
+      "name": "솔빛 축제",
+      "holiday": false
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-24",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안용곡중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-12-24",
+      "name": "미르골축제",
+      "holiday": false
+    },
+    {
+      "school": "천안중앙고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-24",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "북일고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "북일여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안불당중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-28",
+      "name": "진급졸업사정회",
+      "holiday": false
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안용곡초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-28",
+      "name": "방학대비 재난안전교육주간",
+      "holiday": false
+    },
+    {
+      "school": "목천중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-12-29",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "복자여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-29",
+      "name": "학예발표회",
+      "holiday": false
+    },
+    {
+      "school": "북일고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "북일여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성환중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-29",
+      "name": "한가족축제",
+      "holiday": false
+    },
+    {
+      "school": "신흥초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-29",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안부성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-29",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "환서중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-29",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "병천중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-12-30",
+      "name": "매봉축제",
+      "holiday": false
+    },
+    {
+      "school": "북일고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "북일여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "신흥초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안봉서중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-30",
+      "name": "교내축제",
+      "holiday": false
+    },
+    {
+      "school": "천안부성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-30",
+      "name": "졸업사정회",
+      "holiday": false
+    },
+    {
+      "school": "천안불당고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-12-30",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "천안불당고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-12-30",
+      "name": "동아리 발표회",
+      "holiday": false
+    },
+    {
+      "school": "천안불무중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-30",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "천안신당고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-12-30",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "천안업성초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-30",
+      "name": "진향축제",
+      "holiday": false
+    },
+    {
+      "school": "천안여자상업고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "천안오성고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-12-30",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안제일고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-30",
+      "name": "동아리 발표회",
+      "holiday": false
+    },
+    {
+      "school": "천안중앙고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "충남예술고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-12-30",
+      "name": "학교축제",
+      "holiday": false
+    },
+    {
+      "school": "대홍초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "도장초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "목천고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "목천초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "병천초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "복자여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "북일고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "북일여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "삼은초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "6학년졸업식",
+      "holiday": false
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "소망초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "수신초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "신가초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "신방초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "신사초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "신흥초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양당초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "양대초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "양대초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "위례초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "은석초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "입장초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "직산초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천동초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천성중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "방학식",
+      "holiday": false
+    },
+    {
+      "school": "천안구성초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식_6학년",
+      "holiday": false
+    },
+    {
+      "school": "천안능수초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안두정초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안미라초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안백석초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안봉명초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "천안봉명초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안부영초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안삼거리초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안새샘초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안새샘초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안서초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "6학년 졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안성성초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안성성초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "천안성정초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안수곡초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안신대초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안신부초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안신촌초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "천안신촌초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안쌍용중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안업성초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안여자상업고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안여자중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "천향축제",
+      "holiday": false
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안용소초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안월봉초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안일봉초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "천안일봉초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안중앙고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안청룡초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안청수고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안청수초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안한들초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "천안한들초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "천안호수초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "충남예술고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "대홍초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "도장초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "도하초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "목천고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "목천초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "복자여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "복자여자중학교",
+      "level": "중학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "북일고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "북일여자고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "삼은초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성거초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "소망초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "수신초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "신가초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "신방초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "신사초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "신흥초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양당초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양대초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "위례초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "은석초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "입장초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "직산초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천동초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안구성초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안능수초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안두정초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안미라초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안백석초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "학년말방학",
+      "holiday": true
+    },
+    {
+      "school": "천안부영초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안새샘초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안서초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안성성초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안성정초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "학년말방학",
+      "holiday": true
+    },
+    {
+      "school": "천안수곡초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안신대초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안신부초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "학년말방학",
+      "holiday": true
+    },
+    {
+      "school": "천안신촌초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안업성초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안여자상업고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안오성중학교",
+      "level": "중학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안용소초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안월봉고등학교",
+      "level": "고등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안월봉초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안일봉초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "휴업일(겨울방학)",
+      "holiday": true
+    },
+    {
+      "school": "천안중앙고등학교",
+      "level": "고등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안청룡초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안청수초등학교",
+      "level": "초등학교",
+      "gu": "동남구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안한들초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "천안호수초등학교",
+      "level": "초등학교",
+      "gu": "서북구",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    }
+  ],
+  "schools": [
+    {
+      "code": "8151041",
+      "name": "광덕초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 광덕면 신흥리3길 36",
+      "gu": "동남구",
+      "dong": "광덕면",
+      "events": []
+    },
+    {
+      "code": "8151043",
+      "name": "도장초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 목천읍 도장1길 73",
+      "gu": "동남구",
+      "dong": "목천읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151045",
+      "name": "목천초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 목천읍 서리2길 31",
+      "gu": "동남구",
+      "dong": "목천읍",
+      "events": [
+        {
+          "date": "2026-12-03",
+          "name": "국민주권의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151046",
+      "name": "미죽초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 풍세면 미죽2길 7",
+      "gu": "동남구",
+      "dong": "풍세면",
+      "events": [
+        {
+          "date": "2026-11-26",
+          "name": "예울소통의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "예울소통의 날",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151047",
+      "name": "병천초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 병천면 병천2로 35",
+      "gu": "동남구",
+      "dong": "병천면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151048",
+      "name": "보산원초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 광덕면 보산원2길 33",
+      "gu": "동남구",
+      "dong": "광덕면",
+      "events": []
+    },
+    {
+      "code": "8151051",
+      "name": "성남초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 성남면 대흥신덕길 95",
+      "gu": "동남구",
+      "dong": "성남면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151054",
+      "name": "수신초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 수신면 수신로 459",
+      "gu": "동남구",
+      "dong": "수신면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151056",
+      "name": "신계초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 목천읍 천정1길 243",
+      "gu": "동남구",
+      "dong": "목천읍",
+      "events": []
+    },
+    {
+      "code": "8151058",
+      "name": "신사초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 성남면 신사대화로 155",
+      "gu": "동남구",
+      "dong": "성남면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151106",
+      "name": "신흥초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 목천읍 신계5길 27",
+      "gu": "동남구",
+      "dong": "목천읍",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "학습발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151060",
+      "name": "안서초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 중암3길 10",
+      "gu": "동남구",
+      "dong": "안서동",
+      "events": []
+    },
+    {
+      "code": "8151063",
+      "name": "용정초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 풍세면 용정길 8-7",
+      "gu": "동남구",
+      "dong": "풍세면",
+      "events": []
+    },
+    {
+      "code": "8151064",
+      "name": "위례초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 북면 오곡2길 6-13",
+      "gu": "동남구",
+      "dong": "북면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151065",
+      "name": "은석초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 북면 용암3길 10",
+      "gu": "동남구",
+      "dong": "북면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151068",
+      "name": "천동초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 동면 동산1길 59",
+      "gu": "동남구",
+      "dong": "동면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151223",
+      "name": "천안가온초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 청수14로 21",
+      "gu": "동남구",
+      "dong": "청당동",
+      "events": []
+    },
+    {
+      "code": "8151070",
+      "name": "천안구성초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 청수로 126",
+      "gu": "동남구",
+      "dong": "구성동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식_6학년",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식_1~5학년",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151071",
+      "name": "천안남산초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 버들1길 30",
+      "gu": "동남구",
+      "dong": "원성동",
+      "events": []
+    },
+    {
+      "code": "8151280",
+      "name": "천안능수초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 청당용평로 112",
+      "gu": "동남구",
+      "dong": "청당동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151073",
+      "name": "천안봉명초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 봉명2길 11",
+      "gu": "동남구",
+      "dong": "봉명동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151074",
+      "name": "천안봉서초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 봉서10길 12",
+      "gu": "동남구",
+      "dong": "봉명동",
+      "events": []
+    },
+    {
+      "code": "8151087",
+      "name": "천안부영초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 목천읍 삼성5길 22-14",
+      "gu": "동남구",
+      "dong": "목천읍",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "진로교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "진로교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "진로교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "진로교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "진로교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "종합학습발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "온돌봄 방과후 공개수업주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "온돌봄 방과후 공개수업주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "온돌봄 방과후 공개수업주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "온돌봄 방과후 공개수업주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "온돌봄 방과후 공개수업주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "온돌봄 방과후 만족도조사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "교육과정 평가설문",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "온돌봄 방과후 만족도조사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "교육과정 평가설문",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "온돌봄 방과후 만족도조사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "교육과정 평가설문",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "온돌봄 방과후 만족도조사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "교육과정 평가설문",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "온돌봄 방과후 만족도조사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "교육과정 평가설문",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "가정폭력 및 아동학대 예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "가정폭력 및 아동학대 예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "가정폭력 및 아동학대 예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "가정폭력 및 아동학대 예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "가정폭력 및 아동학대 예방주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2학기 온돌봄 방과후 종료",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "2027학년도 1학기 전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151108",
+      "name": "천안삼거리초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 충절로 340",
+      "gu": "동남구",
+      "dong": "삼룡동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151214",
+      "name": "천안새샘초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 통정9로 58",
+      "gu": "동남구",
+      "dong": "신방동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "새샘 종합예술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "신입생 예비소집",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151078",
+      "name": "천안신부초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 터미널5길 30",
+      "gu": "동남구",
+      "dong": "신부동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "학년말방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151079",
+      "name": "천안신안초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 원성25길 21",
+      "gu": "동남구",
+      "dong": "신부동",
+      "events": []
+    },
+    {
+      "code": "8151059",
+      "name": "천안신용초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 새말1길 29",
+      "gu": "동남구",
+      "dong": "신방동",
+      "events": []
+    },
+    {
+      "code": "8151080",
+      "name": "천안신촌초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 신촌4로 9",
+      "gu": "동남구",
+      "dong": "신방동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151093",
+      "name": "천안용곡초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 새말1길 73",
+      "gu": "동남구",
+      "dong": "용곡동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "장애이해교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "학급발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "생명존중주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "스포츠클럽리그전",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "인권교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "방학대비 재난안전교육주간",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151103",
+      "name": "천안용소초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 일봉로 82-18",
+      "gu": "동남구",
+      "dong": "용곡동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151083",
+      "name": "천안일봉초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 다가2길 3",
+      "gu": "동남구",
+      "dong": "다가동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "휴업일(겨울방학)",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151084",
+      "name": "천안중앙초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 영성로 73",
+      "gu": "동남구",
+      "dong": "오룡동",
+      "events": []
+    },
+    {
+      "code": "8151157",
+      "name": "천안청당초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 청당2길 94",
+      "gu": "동남구",
+      "dong": "청당동",
+      "events": []
+    },
+    {
+      "code": "8151102",
+      "name": "천안청룡초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 풍세로 801-28",
+      "gu": "동남구",
+      "dong": "용곡동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151085",
+      "name": "천안청수초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 청수로 35-3",
+      "gu": "동남구",
+      "dong": "청수동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151069",
+      "name": "천안초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 중앙로 169",
+      "gu": "동남구",
+      "dong": "성황동",
+      "events": []
+    },
+    {
+      "code": "8151269",
+      "name": "천안희망초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 단대로 21-7",
+      "gu": "동남구",
+      "dong": "신부동",
+      "events": []
+    },
+    {
+      "code": "8151090",
+      "name": "풍세초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 풍세면 풍세2길 5",
+      "gu": "동남구",
+      "dong": "풍세면",
+      "events": []
+    },
+    {
+      "code": "8151091",
+      "name": "행정초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 동남구 광덕면 광덕로 534",
+      "gu": "동남구",
+      "dong": "광덕면",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "학교폭력예방교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "방과후수업공개주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "방과후수업공개주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "방과후수업공개주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "방과후수업공개주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "방과후수업공개주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "문화가 있는 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-01",
+          "name": "스케이트체험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "스케이트체험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "스케이트체험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "교육과정 평가회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "문화가 있는 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "꿈끼탐색주간",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151042",
+      "name": "대홍초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 성환읍 잠실길 4",
+      "gu": "서북구",
+      "dong": "성환읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151044",
+      "name": "도하초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 성환읍 연암로 382",
+      "gu": "서북구",
+      "dong": "성환읍",
+      "events": [
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151049",
+      "name": "삼은초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 직산읍 삼은2길 11",
+      "gu": "서북구",
+      "dong": "직산읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "6학년졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151050",
+      "name": "성거초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 성거읍 소댕이3길 606-21",
+      "gu": "서북구",
+      "dong": "성거읍",
+      "events": [
+        {
+          "date": "2026-12-16",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-19",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-20",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-21",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151052",
+      "name": "성신초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 성환읍 성환12길 7",
+      "gu": "서북구",
+      "dong": "성환읍",
+      "events": []
+    },
+    {
+      "code": "8151053",
+      "name": "성환초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 성환읍 성환12길 37",
+      "gu": "서북구",
+      "dong": "성환읍",
+      "events": []
+    },
+    {
+      "code": "8151104",
+      "name": "소망초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 성거읍 역전말3길 102",
+      "gu": "서북구",
+      "dong": "성거읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151055",
+      "name": "신가초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 성환읍 성환신흥2길 2",
+      "gu": "서북구",
+      "dong": "성환읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151057",
+      "name": "신방초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 성환읍 신방로 73",
+      "gu": "서북구",
+      "dong": "성환읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151061",
+      "name": "양당초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 직산읍 양당1길 9-12",
+      "gu": "서북구",
+      "dong": "직산읍",
+      "events": [
+        {
+          "date": "2026-12-18",
+          "name": "학생회 임원 선출",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151062",
+      "name": "양대초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 입장면 성진로 858",
+      "gu": "서북구",
+      "dong": "입장면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151066",
+      "name": "입장초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 입장면 하장4길 19",
+      "gu": "서북구",
+      "dong": "입장면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151067",
+      "name": "직산초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 직산읍 직산안길 79",
+      "gu": "서북구",
+      "dong": "직산읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151278",
+      "name": "천안가람초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 성성6로 47-11",
+      "gu": "서북구",
+      "dong": "성성동",
+      "events": []
+    },
+    {
+      "code": "8151039",
+      "name": "천안두정초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 두정역서1길 10",
+      "gu": "서북구",
+      "dong": "두정동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151072",
+      "name": "천안미라초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 미라2길 13",
+      "gu": "서북구",
+      "dong": "쌍용동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151094",
+      "name": "천안백석초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 백석3로 98",
+      "gu": "서북구",
+      "dong": "백석동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "학년말방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151075",
+      "name": "천안부대초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 공대길 37",
+      "gu": "서북구",
+      "dong": "부대동",
+      "events": []
+    },
+    {
+      "code": "8151086",
+      "name": "천안부성초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 부성1길 16",
+      "gu": "서북구",
+      "dong": "두정동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "3학년 실습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "3학년 실습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "3학년 실습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "3학년 실습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "3학년 실습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "3학년 실습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "3학년 실습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "3학년 실습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "3학년 실습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "3학년 실습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "진로교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "솔밭축제주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "진로교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "솔밭축제주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "진로교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "솔밭축제주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "진로교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "솔밭축제주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "진로교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "솔밭축제주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "학교교육과정평가주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "학교교육과정평가주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "학교교육과정평가주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "학교교육과정평가주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "학교교육과정평가주간",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151036",
+      "name": "천안불당초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 불당4로 39-21",
+      "gu": "서북구",
+      "dong": "불당동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "신입생 예비소집일",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151237",
+      "name": "천안불무초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 불당23로 29",
+      "gu": "서북구",
+      "dong": "불당동",
+      "events": []
+    },
+    {
+      "code": "8151037",
+      "name": "천안서당초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 불당11로 63",
+      "gu": "서북구",
+      "dong": "불당동",
+      "events": []
+    },
+    {
+      "code": "8151076",
+      "name": "천안서초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 서부16길 27",
+      "gu": "서북구",
+      "dong": "성정동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "6학년 졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151262",
+      "name": "천안성성초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 성성10길 77",
+      "gu": "서북구",
+      "dong": "성성동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151077",
+      "name": "천안성정초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 성정7길 3",
+      "gu": "서북구",
+      "dong": "성정동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "학년말방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151040",
+      "name": "천안수곡초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 수곡로 19-32",
+      "gu": "서북구",
+      "dong": "쌍용동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151038",
+      "name": "천안신대초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 성정두정로 130",
+      "gu": "서북구",
+      "dong": "두정동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151081",
+      "name": "천안쌍용초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 쌍용6길 9",
+      "gu": "서북구",
+      "dong": "쌍용동",
+      "events": []
+    },
+    {
+      "code": "8151109",
+      "name": "천안쌍정초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 충무로 5-44",
+      "gu": "서북구",
+      "dong": "쌍용동",
+      "events": []
+    },
+    {
+      "code": "8151254",
+      "name": "천안아름초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 불당27길 7",
+      "gu": "서북구",
+      "dong": "불당동",
+      "events": []
+    },
+    {
+      "code": "8151082",
+      "name": "천안업성초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 업성5길 20",
+      "gu": "서북구",
+      "dong": "업성동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151095",
+      "name": "천안오성초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 오성5길 23",
+      "gu": "서북구",
+      "dong": "두정동",
+      "events": []
+    },
+    {
+      "code": "8151035",
+      "name": "천안와촌초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 와촌4길 16",
+      "gu": "서북구",
+      "dong": "와촌동",
+      "events": [
+        {
+          "date": "2026-12-15",
+          "name": "전교학생회선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151088",
+      "name": "천안용암초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 월봉로 147",
+      "gu": "서북구",
+      "dong": "쌍용동",
+      "events": []
+    },
+    {
+      "code": "8151089",
+      "name": "천안월봉초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 월봉4로 120-8",
+      "gu": "서북구",
+      "dong": "쌍용동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151247",
+      "name": "천안차암초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 스마일시티1로 50",
+      "gu": "서북구",
+      "dong": "차암동",
+      "events": []
+    },
+    {
+      "code": "8151258",
+      "name": "천안한들초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 한들2로 33",
+      "gu": "서북구",
+      "dong": "백석동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151275",
+      "name": "천안호수초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 공원로 140",
+      "gu": "서북구",
+      "dong": "불당동",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151092",
+      "name": "환서초등학교",
+      "level": "초등학교",
+      "address": "충청남도 천안시 서북구 한들2로 34-41",
+      "gu": "서북구",
+      "dong": "백석동",
+      "events": []
+    },
+    {
+      "code": "8151025",
+      "name": "광풍중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 풍세면 광풍로 1021-11",
+      "gu": "동남구",
+      "dong": "풍세면",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "1회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "1회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "1회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "순국선열의 날 기념 계기 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-25",
+          "name": "감성회복의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "학교운영위원회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "감성회복의 날",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151011",
+      "name": "목천중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 목천읍 삼방로 145",
+      "gu": "동남구",
+      "dong": "목천읍",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2학기 고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2학기 고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2학기 2회고사(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2회고사(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2회고사(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151012",
+      "name": "병천중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 병천면 충절로 1872",
+      "gu": "동남구",
+      "dong": "병천면",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "매봉축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151027",
+      "name": "복자여자중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 복자1길 1",
+      "gu": "동남구",
+      "dong": "성황동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "학교장 재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학교장 재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151015",
+      "name": "천남중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 성남면 신사대화로 403",
+      "gu": "동남구",
+      "dong": "성남면",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "2학기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2학기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2학기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2회고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151029",
+      "name": "천성중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 벌말1길 7",
+      "gu": "동남구",
+      "dong": "유량동",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "봉사활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "2회고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "2회고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2회고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수능일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "천성축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "방학식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151225",
+      "name": "천안가온중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 청수6로 83",
+      "gu": "동남구",
+      "dong": "청당동",
+      "events": []
+    },
+    {
+      "code": "8151265",
+      "name": "천안계광중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 봉명로 53",
+      "gu": "동남구",
+      "dong": "봉명동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "3학년 2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "3학년 2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "3학년 2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "1,2학년 2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1,2학년 2학기 기말고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1,2학년 2학기 기말고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151159",
+      "name": "천안동중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 충절로 363-11",
+      "gu": "동남구",
+      "dong": "삼룡동",
+      "events": []
+    },
+    {
+      "code": "8151018",
+      "name": "천안북중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 중앙로 188",
+      "gu": "동남구",
+      "dong": "성황동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "고입성적산출기준일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "다온축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151211",
+      "name": "천안새샘중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 통정6로 49",
+      "gu": "동남구",
+      "dong": "신방동",
+      "events": [
+        {
+          "date": "2026-11-03",
+          "name": "2학년 현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "3학년 2학기 2회 고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "3학년 2학기 2회 고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "3학년 2학기 2회 고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 교육과정평가회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1,2학년 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1,2학년 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "1,2학년 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "진급졸업사정회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151030",
+      "name": "천안서여자중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 천안여상로 44",
+      "gu": "동남구",
+      "dong": "봉명동",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "안전점검의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "3학년 2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "3학년 2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "3학년 2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "3학년 2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "수업나눔",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-27",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "고입내신성적산출마감",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "안전점검의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "행복학급의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "학교자체평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "팡팡데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "졸업 및 진급 평가회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "백목련 축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "전교생 다모임",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151034",
+      "name": "천안신방중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 신촌4로 46",
+      "gu": "동남구",
+      "dong": "신방동",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수학능력고사일",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "3학년 성적산출기준일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "1,2학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1,2학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1,2학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "1,2학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "꿈끼 탐색 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "꿈끼 탐색 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "꿈끼 탐색 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "솔빛 축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "꿈끼 탐색 주간",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151022",
+      "name": "천안여자중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 원거리11길 31",
+      "gu": "동남구",
+      "dong": "원성동",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "2학년 수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2학년 수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "1,2학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "1,2학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1,2학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1,2학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "천향축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151105",
+      "name": "천안용곡중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 새말1길 51-14",
+      "gu": "동남구",
+      "dong": "용곡동",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "2학기 2회고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "2학기 2회고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2학기 2회고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2학기 2회고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "진로현장체험학습(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2회고사(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "미르골축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "교육공동체 교육과정 평가회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151023",
+      "name": "천안중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 동남구 충절로 90",
+      "gu": "동남구",
+      "dong": "원성동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "3학년 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "3학년 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "3학년 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1,2학년 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1,2학년 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "1,2학년 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "교육과정 평가회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151013",
+      "name": "성환중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 서북구 성환읍 성환2로 79",
+      "gu": "서북구",
+      "dong": "성환읍",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "2학기 1회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2학기 1회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2학기 1회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "한가족축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "교육과정평가회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151014",
+      "name": "입장중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 서북구 입장면 연곡길 36",
+      "gu": "서북구",
+      "dong": "입장면",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "2학기 2회고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2학기 2회고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2학기 2회고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "학생회장 및 부회장 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-19",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "한우리축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-26",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "꿈·끼 탐색주간",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151282",
+      "name": "천안가람중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 서북구 성성6로 40",
+      "gu": "서북구",
+      "dong": "성성동",
+      "events": []
+    },
+    {
+      "code": "8151236",
+      "name": "천안동성중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 서북구 성환읍 성환1로 138",
+      "gu": "서북구",
+      "dong": "성환읍",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "name": "자율활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "3학년 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "3학년 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "3학년 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "대학수학능력시험일",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "행복 나눔의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "총학생회장 선거 토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "총학생회 임원 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "교육과정 성찰",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "자율활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "교육과정 성찰",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "행복 나눔의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "교육과정 성찰",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "자율활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "교육과정 성찰",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "자율활동",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151020",
+      "name": "천안두정중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 서북구 두정중1길 26",
+      "gu": "서북구",
+      "dong": "두정동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "3학년 2학기 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "3학년 2학기 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "3학년 2학기 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "3학년 2학기 지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "1,2학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "1,2학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "1,2학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "1,2학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "마루물축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151033",
+      "name": "천안백석중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 서북구 백석1길 56",
+      "gu": "서북구",
+      "dong": "백석동",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "한마음축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "교육과정평가회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151016",
+      "name": "천안봉서중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 서북구 미라1길 48",
+      "gu": "서북구",
+      "dong": "쌍용동",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-30",
+          "name": "2027학년도 학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "고입내신성적 산출 마감일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "1,2학년2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "1,2학년2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "1,2학년2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "1,2학년2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "교내축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151017",
+      "name": "천안부성중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 서북구 공대길 45-9",
+      "gu": "서북구",
+      "dong": "부대동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "2학기 2차고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2학기 2차고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2학기 2차고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능시험일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "교육과정평가회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업사정회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "진급사정회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151010",
+      "name": "천안불당중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 서북구 불당11로 35",
+      "gu": "서북구",
+      "dong": "불당동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "불당콘서트",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "고입내신성적산출",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "교육과정평가회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "진급졸업사정회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "전교학생회장단 선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151255",
+      "name": "천안불무중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 서북구 불당23로 30",
+      "gu": "서북구",
+      "dong": "불당동",
+      "events": [
+        {
+          "date": "2026-11-03",
+          "name": "2학기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "2학기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "2학기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "교육과정평가회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151032",
+      "name": "천안성성중학교",
+      "level": "중학교",
+      "address": "충남 천안시 서북구 부성1길 83",
+      "gu": "서북구",
+      "dong": "두정동",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-10",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "3학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대수능",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "1,2학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "1,2학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "1,2학년 2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 교육과정평가회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "꿈빛축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151021",
+      "name": "천안성정중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 서북구 성정중2길 40",
+      "gu": "서북구",
+      "dong": "성정동",
+      "events": []
+    },
+    {
+      "code": "8151019",
+      "name": "천안쌍용중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 서북구 쌍용12길 13",
+      "gu": "서북구",
+      "dong": "쌍용동",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학생회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151031",
+      "name": "천안오성중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 서북구 두정고1길 25",
+      "gu": "서북구",
+      "dong": "두정동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-16",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-16",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-19",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-20",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-21",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-23",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8151158",
+      "name": "천안월봉중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 서북구 광장로 245",
+      "gu": "서북구",
+      "dong": "불당동",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2학기 2회고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 2회고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2학기 2회고사(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "예술제(꿈빛 하모니)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8151228",
+      "name": "환서중학교",
+      "level": "중학교",
+      "address": "충청남도 천안시 서북구 한들3로 50",
+      "gu": "서북구",
+      "dong": "백석동",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "교육과정평가회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8140049",
+      "name": "목천고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 동남구 목천읍 삼방로 145",
+      "gu": "동남구",
+      "dong": "목천읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8140050",
+      "name": "병천고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 동남구 병천면 충절로 1872",
+      "gu": "동남구",
+      "dong": "병천면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기2회고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8140087",
+      "name": "복자여자고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 동남구 복자1길 1",
+      "gu": "동남구",
+      "dong": "성황동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험 휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2학기 제2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 제2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 제2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 제2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 제2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "학예발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8140270",
+      "name": "북일고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 동남구 단대로 69",
+      "gu": "동남구",
+      "dong": "신부동",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "1학년 대체휴일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-02",
+          "name": "2학년 대체휴일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "1, 2학년 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "1, 2학년 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "1, 2학년 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "1, 2학년 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "학술제/예술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "학술제/예술제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8140271",
+      "name": "북일여자고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 동남구 단대로 71",
+      "gu": "동남구",
+      "dong": "신부동",
+      "events": [
+        {
+          "date": "2026-11-05",
+          "name": "해오름축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "해오름축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8140104",
+      "name": "천안고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 동남구 봉명로 53",
+      "gu": "동남구",
+      "dong": "봉명동",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "커리어인턴십",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8140139",
+      "name": "천안공업고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 동남구 성황5길 17",
+      "gu": "동남구",
+      "dong": "신부동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력고사일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기2회고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8140069",
+      "name": "천안여자고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 동남구 삼룡3길 30",
+      "gu": "동남구",
+      "dong": "삼룡동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "진향축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8140160",
+      "name": "천안여자상업고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 동남구 천안여상로 44",
+      "gu": "동남구",
+      "dong": "봉명동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수학능력시험(3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "3학년 1회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "3학년 1회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "3학년 1회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8140259",
+      "name": "천안제일고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 동남구 버들로 71",
+      "gu": "동남구",
+      "dong": "원성동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험 휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 학교교육과정운영 평가회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "충청남도 농업교과 교육연구회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "동아리 발표회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8140070",
+      "name": "천안중앙고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 동남구 충절로 91",
+      "gu": "동남구",
+      "dong": "원성동",
+      "events": [
+        {
+          "date": "2026-11-07",
+          "name": "토요 휴업일(주5일제 수업)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-14",
+          "name": "토요 휴업일(주5일제 수업)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-21",
+          "name": "토요 휴업일(주5일제 수업)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-28",
+          "name": "토요 휴업일(주5일제 수업)",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-02",
+          "name": "2회고사(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "2회고사(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "2회고사(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-05",
+          "name": "토요 휴업일(주5일제 수업)",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-12",
+          "name": "토요 휴업일(주5일제 수업)",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-17",
+          "name": "천맥축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-19",
+          "name": "토요 휴업일(주5일제 수업)",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-24",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8140265",
+      "name": "천안청수고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 동남구 청수로 82-46",
+      "gu": "동남구",
+      "dong": "청수동",
+      "events": [
+        {
+          "date": "2026-11-03",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "교육과정평가회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "동아리발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8140213",
+      "name": "천안두정고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 서북구 두정고2길 13",
+      "gu": "서북구",
+      "dong": "두정동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회고사(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "학교축제 및 동아리발표회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8140387",
+      "name": "천안불당고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 서북구 불당29길 22",
+      "gu": "서북구",
+      "dong": "불당동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2회 고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2회 고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2회 고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2회 고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2회 고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "동아리 발표회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8140358",
+      "name": "천안상업고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 서북구 상고1길 43-9",
+      "gu": "서북구",
+      "dong": "신당동",
+      "events": []
+    },
+    {
+      "code": "8140236",
+      "name": "천안신당고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 서북구 신당새터2길 36",
+      "gu": "서북구",
+      "dong": "신당동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8140219",
+      "name": "천안쌍용고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 서북구 월봉7길 10",
+      "gu": "서북구",
+      "dong": "쌍용동",
+      "events": [
+        {
+          "date": "2026-11-03",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "현장체험학습(1)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2회고사(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2회고사(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2회고사(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2회고사(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2회고사(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2회고사(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2회고사(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2회고사(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2회고사(2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8140253",
+      "name": "천안업성고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 서북구 업성3길 65-11",
+      "gu": "서북구",
+      "dong": "업성동",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "2학년 수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2학년 수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2학년 수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "1학년 현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "3학년 현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2회고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8140246",
+      "name": "천안오성고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 서북구 과수원길 27",
+      "gu": "서북구",
+      "dong": "성성동",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "수학여행(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-05",
+          "name": "수학여행(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "수학여행(2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "현장체험학습(1학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-04",
+          "name": "현장체험학습(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2학기 2회 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8140214",
+      "name": "천안월봉고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 서북구 불당11로 51",
+      "gu": "서북구",
+      "dong": "불당동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "8140508",
+      "name": "충남관광보건고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 서북구 성환읍 신방로 354",
+      "gu": "서북구",
+      "dong": "성환읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2회고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2회고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "8140072",
+      "name": "충남예술고등학교",
+      "level": "고등학교",
+      "address": "충청남도 천안시 서북구 성거읍 천흥2길 42",
+      "gu": "서북구",
+      "dong": "성거읍",
+      "events": [
+        {
+          "date": "2026-11-17",
+          "name": "피아노연주회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대수능모의평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "작곡발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "하하데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차고사(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차고사(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차고사(1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "하하데이",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학교축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
