@@ -76,6 +76,18 @@ def ranked(**filters):
                                    "link": (d.get("bookDtlUrl") or "").strip(), "isbn": isbn, "loans": 0}
             b["loans"] += num(d.get("loan_count"))
         time.sleep(0.4)
+    if not merged:   # 세부지역 코드가 없거나 비면 시도 전체 인기 도서 (예: 인천 미추홀구)
+        try:
+            resp = lib4.call("loanItemSrch", startDt=start.isoformat(), endDt=end.isoformat(), region=lib4.REGION, pageNo=1, pageSize=PER_GU, **filters)
+            for d in lib4.items(resp, "docs", "doc"):
+                isbn = re.sub(r"\D", "", str(d.get("isbn13") or "")); title = clean_title(d.get("bookname")); key = isbn or re.sub(r"\W", "", title)
+                if key and key not in merged:
+                    merged[key] = {"title": title, "author": tidy_author(d.get("authors")), "publisher": (d.get("publisher") or "").strip(),
+                                   "cover": (d.get("bookImageURL") or "").strip(), "link": (d.get("bookDtlUrl") or "").strip(), "isbn": isbn, "loans": num(d.get("loan_count"))}
+            ok += 1
+            print(f"  시도 전체 인기 도서로 대신함: {len(merged)}권")
+        except Exception as e:
+            print("  시도 전체도 실패:", e)
     if ok == 0:
         raise RuntimeError("4개 구 모두 실패")
     books, seen = [], {}

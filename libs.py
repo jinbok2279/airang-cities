@@ -11,7 +11,7 @@ import re
 from datetime import datetime, timedelta, timezone
 
 import lib4
-from city import C, AREA, gu_of
+from city import C, AREA, gu_of, in_area
 
 KST = timezone(timedelta(hours=9))
 SKIP = re.compile(r"작은도서관|교도소|대학|병원|사단|부대|법원|교회|성당")  # 일반 가족이 이용하기 어려운 곳
@@ -42,6 +42,23 @@ def main():
                 "books": int(re.sub(r"\D", "", str(r.get("BookCount") or "")) or 0),  # "-" 같은 값은 0
                 "lat": r.get("latitude") or "", "lng": r.get("longitude") or "",
             })
+    # 세부지역 코드로 안 잡히는 도서관 (예: 인천 미추홀구 — 정보나루에 세부지역 코드 없음) → 시도 전체에서 주소로 찾기
+    resp = lib4.call("libSrch", region=lib4.REGION, pageNo=1, pageSize=500)
+    extra = 0
+    for r in lib4.items(resp, "libs", "lib"):
+        name = " ".join(str(r.get("libName") or "").split())
+        if not name or name in seen or SKIP.search(name) or not in_area(r.get("address") or ""):
+            continue
+        seen.add(name); extra += 1
+        home = (r.get("homepage") or "").strip()
+        if home and not home.startswith("http"):
+            home = "https://" + home.lstrip("/")
+        libs.append({"name": name, "gu": (lambda g: "" if g == "기타" else g)(gu_of(r.get("address") or "")), "status": "none", "message": "", "rooms": [], "link": "",
+                     "home": home, "code": str(r.get("libCode") or ""), "addr": " ".join(str(r.get("address") or "").split()), "tel": (r.get("tel") or "").strip(),
+                     "hours": " ".join(str(r.get("operatingTime") or "").split()), "closed": " ".join(str(r.get("closed") or "").split()),
+                     "books": int(re.sub(r"\D", "", str(r.get("BookCount") or "")) or 0), "lat": r.get("latitude") or "", "lng": r.get("longitude") or ""})
+    if extra:
+        print(f"  주소로 더 찾은 도서관 {extra}곳")
     if not libs:
         raise SystemExit("도서관 목록을 하나도 가져오지 못했습니다")
     order = list(C["gus"]) + [""]
