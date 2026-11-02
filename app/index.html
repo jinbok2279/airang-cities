@@ -862,7 +862,7 @@ function viewSchool(code) {
 function otherCities() {
   const me = document.title.replace("아이랑 ", "").trim();
   const mine = "{{f.sidoShort}}";
-  const tabs = [["경기", "경기도"], ["서울", "서울"], ["인천", "인천"]];
+  const tabs = [["경기", "경기도"], ["서울", "서울"], ["인천", "인천"], ["충남", "충남"]].filter(([s]) => OTHER_CITIES.some(([, , x]) => x === s));
   const tab = ([s, label]) => { const n = OTHER_CITIES.filter(([c, , x]) => x === s && c !== me).length; const on = s === mine;
     return `<button type="button" class="oc-tab" data-s="${s}" onclick="ocTab('${s}')" style="flex:1;height:40px;border:0;border-radius:12px;font:inherit;font-size:14px;font-weight:800;cursor:pointer;background:${on ? "var(--city)" : "var(--city-soft)"};color:${on ? "#fff" : "var(--city-ink)"}">${label} <span style="font-weight:600;opacity:.8">${n}</span></button>`; };
   const group = s => `<div class="oc-list" data-s="${s}" style="display:${s === mine ? "flex" : "none"};flex-wrap:wrap;gap:6px;margin:12px 0 14px">${OTHER_CITIES.filter(([n, , x]) => x === s && n !== me).map(([n, u]) => `<a class="btn btn-soft" style="height:34px;font-size:13px;padding:0 12px" href="${u}" target="_blank" rel="noopener" onclick="trackEvent('도시-${n}')">${n}</a>`).join("")}</div>`;
@@ -889,7 +889,7 @@ function viewMy() {
 {{#else}}
   const M = [["acas", "✏️", "t-indigo", "학원·<br>수강료"], ["kinders", "🧸", "t-sun", "유치원<br>찾기"], ["library", "📚", "t-mint", "도서관<br>찾기"], ["books", "📖", "t-coral", "대출<br>베스트"],
 {{/if}}
-{{#if seoul,incheon}}
+{{#if nojobs}}
     ["schools", "🏫", "t-lilac", "학교<br>일정"], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["sports", "🏊", "t-mint", "운동<br>교실"], ["safety", "🛡️", "t-lilac", "성범죄자<br>알림e"]];
 {{#else}}
     ["schools", "🏫", "t-lilac", "학교<br>일정"], ["elite", "🎓", "t-indigo", "특목·<br>자사고", 1], ["deals", "🏷️", "t-coral", "동네<br>할인"], ["sports", "🏊", "t-mint", "운동<br>교실"], ["jobs", "💼", "t-coral", "엄마<br>일자리"], ["safety", "🛡️", "t-lilac", "성범죄자<br>알림e"]];
@@ -1892,6 +1892,8 @@ function viewElite() {
 // ---------- 이용 안내 · 개인정보 ----------
 // ---------- 업데이트 소식 (날짜별) ----------
 const NEWS = [
+  { d: "2026-11-03", v: "1.0.64", t: "충남 천안·아산이 열렸어요", items: [
+    "🏙️ <b>다른 도시 둘러보기</b>에 <b>충남</b> 버튼이 생겼어요. 아이랑은 이제 경기·서울·인천·충남 57곳에서 볼 수 있어요."] },
   { d: "2026-11-02", v: "1.0.63", t: "아이 안전 · 학원·수강료 · 다른 도시", items: [
     "🛡️ 전체 메뉴에 <b>성범죄자 알림e</b>가 생겼어요. 누르면 여성가족부 공식 사이트에서 우리 동네 공개 대상자를 확인할 수 있어요(본인 인증 필요).",
     "✏️ <b>학원 찾기</b>와 <b>수강료 비교</b>를 <b>학원·수강료</b> 하나로 합쳤어요. 수강료 비교는 학원 화면 안 버튼으로 볼 수 있어요.",
@@ -2005,7 +2007,7 @@ const NEWS = [
     "🏊 <b>아이랑 운동교실</b>에서 {{name}}도시개발공사 체육센터의 수영·요가·필라테스 강좌를 모아 보여 드려요.",
     "🎪 아이와 갈 만한 <b>공연·축제</b>와 학교·어린이집 <b>엄마 일자리</b>도 매일 모아 드려요.",
     "🔒 이름·전화번호를 받지 않아요. 아이 정보는 이 휴대폰에만 저장돼요."] },
-{{#elif seoul,incheon}}
+{{#elif nojobs}}
   { d: "{{f.start}}", v: "{{f.startVer}}", t: "아이랑 {{name}} 시범 운영을 시작했어요", items: [
     "🏫 {{name}} 초·중·고 <b>학교 일정과 급식</b>을 우리 아이 기준으로 모아 보여 드려요. 급식 <b>알레르기</b>도 알려 드려요.",
     "📚 {{f.sgg}} 공공도서관 <b>운영시간·휴관일</b>과 {{name}} 아이들이 많이 빌린 <b>인기 도서</b>를 볼 수 있어요.",
@@ -2023,7 +2025,7 @@ const NEWS = [
 ];
 function newsDate(d) { const [y, m, dd] = d.split("-").map(Number); return `${m}월 ${dd}일`; }
 // 새 버전으로 바뀐 걸 홈 맨 위에 한 번 알려 줌 (닫거나 소식을 보면 사라짐)
-const APP_VER = "1.0.63";
+const APP_VER = "1.0.64";
 let UPDATED_FROM = null;
 const IS_NEW_PHONE = !store("edu.appVer");   // 이 휴대폰에서 처음 열었는지 (예전에 쓴 적 있으면 앱 버전이 남아 있음)
 (function () { const last = store("edu.appVer"); if (last && last !== APP_VER) UPDATED_FROM = last; if (!last) store("edu.appVer", APP_VER); })();
@@ -2084,7 +2086,7 @@ function viewAbout() {
       "나이스 교육정보 개방포털, 유치원 알리미, {{f.sgg}}도서관, {{f.sgg}}청 문화달력, 경기도교육청 구인구직, 경기육아종합지원센터 등 <b>공공 자료</b>를 하루에 한두 번 자동으로 가져와요.",
 {{#elif suwon}}
       "나이스 교육정보 개방포털, 유치원 알리미, 도서관 정보나루, {{name}}문화재단, 경기아트센터, 공연예술통합전산망(KOPIS), 한국관광공사, 경기도교육청 구인구직, 경기육아종합지원센터 등 <b>공공 자료</b>를 하루에 한두 번 자동으로 가져와요.",
-{{#elif seoul,incheon}}
+{{#elif nojobs}}
       "나이스 교육정보 개방포털, 유치원 알리미, 도서관 정보나루, 공연예술통합전산망(KOPIS), 한국관광공사, 국립중앙의료원, 복지로 등 <b>공공 자료</b>를 하루에 한두 번 자동으로 가져와요.",
 {{#else}}
       "나이스 교육정보 개방포털, 유치원 알리미, 도서관 정보나루, 공연예술통합전산망(KOPIS), 한국관광공사, 경기도교육청 구인구직, 경기육아종합지원센터 등 <b>공공 자료</b>를 하루에 한두 번 자동으로 가져와요.",

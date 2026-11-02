@@ -14,6 +14,10 @@ import argparse, json, os, re, shutil, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CFG = json.load(open(os.path.join(HERE, "cities.json"), encoding="utf-8"))
+# 시도: 이름 → (정식 이름, 템플릿 태그, 시군구 끝 글자). 순서 = 다른 도시 둘러보기·입구 탭 순서
+SIDOS = {"경기": ("경기도", "gyeonggi", "시"), "서울": ("서울특별시", "seoul", "구"),
+         "인천": ("인천광역시", "incheon", "구"), "충남": ("충청남도", "chungnam", "시")}
+SIDO_ORDER = list(SIDOS)
 TEMPLATES = ["index.html", "sw.js", "manifest.webmanifest", "404.html"]
 COND = re.compile(r"^\{\{#(if|elif) ([a-z,]+)\}\}$|^\{\{#else\}\}$|^\{\{/if\}\}$")
 
@@ -34,18 +38,22 @@ def tokens(city):
     # 시도 (경기 / 서울): 서울은 구 하나가 앱 하나 → 시군구 이름이 '강남구'
     sido = c.get("sido", "경기")
     t["f.sidoShort"] = sido
-    t["f.sidoFull"] = {"경기": "경기도", "서울": "서울특별시", "인천": "인천광역시"}[sido]
-    t["f.sgg"] = c.get("sgg", c["name"] + ("시" if sido == "경기" else "구"))
+    t["f.sidoFull"] = SIDOS[sido][0]
+    t["f.sgg"] = c.get("sgg", c["name"] + SIDOS[sido][2])
     # 다른 도시 둘러보기: [이름, 주소, 시도] — 경기도 → 서울, 시도 안에서는 가나다순
-    oc = sorted(CFG["cities"].items(), key=lambda kv: (["경기", "서울", "인천"].index(kv[1].get("sido", "경기")), kv[1]["name"]))
+    oc = sorted(CFG["cities"].items(), key=lambda kv: (SIDO_ORDER.index(kv[1].get("sido", "경기")), kv[1]["name"]))
     oc = [f'["{v["name"]}", "https://{k}.songgollab.co.kr", "{v.get("sido", "경기")}"]' for k, v in oc]
     t["f.otherCities"] = "const OTHER_CITIES = [\n  " + ",\n  ".join(", ".join(oc[i:i + 6]) for i in range(0, len(oc), 6)) + "];"
     return t
 
 
 def tags(city):
-    """{{#if …}} 에 쓸 수 있는 이름: 도시 키 + 시도 묶음 (gyeonggi / seoul)"""
-    return {city, {"경기": "gyeonggi", "서울": "seoul", "인천": "incheon"}[CFG["cities"][city].get("sido", "경기")]}
+    """{{#if …}} 에 쓸 수 있는 이름: 도시 키 + 시도 묶음 (gyeonggi / seoul / incheon / chungnam)
+    + nojobs (엄마 일자리 자료가 없는 시도 = 경기 밖 전부)"""
+    sido = CFG["cities"][city].get("sido", "경기")
+    t = {city, SIDOS[sido][1]}
+    if sido != "경기": t.add("nojobs")
+    return t
 
 
 def render(text, city):
@@ -108,10 +116,10 @@ def build_entry(out):
     src = src.replace("/*CITIES*/[]", json.dumps(rows, ensure_ascii=False))
     # 검색용 페이지로 가는 링크 (검색 로봇이 따라가도록 HTML에 바로 적음)
     g = ""
-    for sd, label in (("경기", "경기도"), ("서울", "서울"), ("인천", "인천")):
+    for sd, label in (("경기", "경기도"), ("서울", "서울"), ("인천", "인천"), ("충남", "충남")):
         cs = sorted([(k, c) for k, c in CFG["cities"].items() if c.get("sido", "경기") == sd], key=lambda kc: kc[1]["name"])
         if cs:
-            g += f'<p>{label}</p>' + "".join(f'<a href="https://{k}.songgollab.co.kr/guide/">{c.get("sgg") or c["name"] + ("시" if sd == "경기" else "구")} 학원·유치원·소아과</a>' for k, c in cs)
+            g += f'<p>{label}</p>' + "".join(f'<a href="https://{k}.songgollab.co.kr/guide/">{c.get("sgg") or c["name"] + SIDOS[sd][2]} 학원·유치원·소아과</a>' for k, c in cs)
     src = src.replace("<!--GUIDES-->", f'<div class="lift guides"><h3>📍 동네 정보 모아보기</h3>{g}</div>')
     open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(src)
     for f in ("icon-192.png", "icon-512.png"):

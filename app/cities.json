@@ -1223,6 +1223,55 @@
       },
       "sido": "인천",
       "sgg": "계양구"
+    },
+    "cheonan": {
+      "name": "천안",
+      "colors": {
+        "city": "#9A5B34",
+        "ink": "#7A4526",
+        "deep": "#5A321B",
+        "soft": "#F6ECE4"
+      },
+      "areas": "동남구 · 서북구",
+      "lat": 36.8151,
+      "lon": 127.1139,
+      "searchEx": "불당, 천안중",
+      "domain": "cheonan.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [
+        "동남구",
+        "서북구"
+      ],
+      "fields": {
+        "start": "2026-11-03",
+        "startVer": "1.0.64"
+      },
+      "sido": "충남",
+      "sgg": "천안시"
+    },
+    "asan": {
+      "name": "아산",
+      "colors": {
+        "city": "#C28E17",
+        "ink": "#8F6810",
+        "deep": "#664A0B",
+        "soft": "#FBF2DC"
+      },
+      "areas": "온양·배방·탕정·둔포",
+      "lat": 36.7898,
+      "lon": 127.0019,
+      "searchEx": "배방, 온양중",
+      "domain": "asan.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-03",
+        "startVer": "1.0.64"
+      },
+      "sido": "충남",
+      "sgg": "아산시"
     }
   },
   "entry": {

@@ -1,12 +1,12 @@
 // 아이랑 {{name}} - 오프라인 지원
 {{#if yongin}}
-const CACHE = "edu-app-v85";
+const CACHE = "edu-app-v86";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest"];
 {{#elif suwon}}
-const CACHE = "{{key}}-app-v48";
+const CACHE = "{{key}}-app-v49";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 {{#else}}
-const CACHE = "{{key}}-app-v16";
+const CACHE = "{{key}}-app-v17";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 {{/if}}
 
