@@ -1,177 +1,25 @@
-== collect
-동대문구 초등학교 21곳
-동대문구 중학교 15곳
-동대문구 고등학교 11곳
-  경희초등학교: 학교 일정 1건
-  서울군자초등학교: 학교 일정 10건
-  서울답십리초등학교: 학교 일정 20건
-  서울동답초등학교: 학교 일정 9건
-  서울배봉초등학교: 학교 일정 8건
-  서울삼육초등학교: 학교 일정 34건
-  서울신답초등학교: 학교 일정 7건
-  서울안평초등학교: 학교 일정 3건
-  서울용두초등학교: 학교 일정 0건
-  서울이문초등학교: 학교 일정 0건
-  서울장평초등학교: 학교 일정 0건
-  서울전곡초등학교: 학교 일정 3건
-  서울전농초등학교: 학교 일정 10건
-  서울전동초등학교: 학교 일정 9건
-  서울종암초등학교: 학교 일정 11건
-  서울청량초등학교: 학교 일정 3건
-  서울홍릉초등학교: 학교 일정 6건
-  서울홍파초등학교: 학교 일정 3건
-  서울휘경초등학교: 학교 일정 10건
-  서울휘봉초등학교: 학교 일정 10건
-  은석초등학교: 학교 일정 2건
-  경희여자중학교: 학교 일정 22건
-  경희중학교: 학교 일정 3건
-  대광중학교: 학교 일정 9건
-  동국대학교사범대학부속중학교: 학교 일정 35건
-  동대문중학교: 학교 일정 7건
-  성일중학교: 학교 일정 2건
-  숭인중학교: 학교 일정 8건
-  장평중학교: 학교 일정 18건
-  전농중학교: 학교 일정 8건
-  전동중학교: 학교 일정 7건
-  전일중학교: 학교 일정 9건
-  정화여자중학교: 학교 일정 10건
-  청량중학교: 학교 일정 16건
-  휘경여자중학교: 학교 일정 2건
-  휘경중학교: 학교 일정 11건
-  경희고등학교: 학교 일정 18건
-  경희여자고등학교: 학교 일정 50건
-  대광고등학교: 학교 일정 16건
-  동국대학교사범대학부속고등학교: 학교 일정 0건
-  서울반도체고등학교: 학교 일정 0건
-  서울정화고등학교: 학교 일정 7건
-  청량고등학교: 학교 일정 8건
-  해성국제컨벤션고등학교: 학교 일정 10건
-  해성여자고등학교: 학교 일정 12건
-  휘경여자고등학교: 학교 일정 63건
-  휘봉고등학교: 학교 일정 20건
-저장 완료: 주요 일정 187건, 공휴일 11건
-== academies
-1쪽: 736건 (전체 736)
-개원 학원·교습소 736곳 저장: {'구 미상': 736}
-동 모름: 2 곳
-수강료 공개: 213 곳
-== kinder
-  필드: addr, ag3fpcnt, ag4fpcnt, ag5fpcnt, clcnt3, clcnt4, clcnt5, edate, establish, faxno, hpaddr, key, kindercode, kindername, ldgrname, lngtcdnt, lttdcdnt, mixclcnt, mixfpcnt, mixppcnt, odate, officeedu, opertime, pbnttmng, ppcnt3, ppcnt4, ppcnt5, prmstfcnt, rppnname, rpst_yn, shclcnt, shppcnt, spcnfpcnt, subofficeedu, telno
-(11230): 유치원 27곳, 통학차량 27, 방과후 27
-유치원 27곳 저장 · 설립유형 {'사립(법인)': 4, '사립(사인)': 14, '공립(병설)': 7, '공립(단설)': 2}
-  예: 경희유치원 사립(법인)  회기동 정원 160 현원 152 차량 {'yn': 'Y', 'cnt': 2}
-  예: 그림유치원 사립(사인)  답십리동 정원 176 현원 166 차량 {'yn': 'Y', 'cnt': 3}
-  예: 동안유치원 사립(사인)  이문동 정원 160 현원 127 차량 {'yn': 'Y', 'cnt': 2}
-== meals
-학교 47곳 중 47곳 확인 (실패 0), 식단 있는 학교 45곳
-== libs
-: 도서관 25곳
-동대문구 도서관 12곳 저장
-  [] 동대문구답십리도서관 · 평일 : 9:00 ~ 22:00 주말 : 9:00 ~  · 휴관 매주 금요일 / 법정공휴일, 도서관 사정에 의한 임시 
-  [] 동대문구정보화도서관 · 평일 9:00 ~ 22:00 주말 9:00 ~ 18:0 · 휴관 매주 월요일 / 법정 공휴일(일요일은 운영), 도서관 
-  [] 동대문책마당도서관 · 평일 9:00~18:00 · 휴관 매주 토요일, 일요일 / 법정공휴일
-  [] 배봉산 숲속도서관 · 평일 : 9:00 ~ 22:00 주말 : 9:00 ~  · 휴관 매주 월요일 / 법정공휴일
-  [] 서울특별시교육청동대문도서관 · 07:00~22:00(하절기) 08:00~22:00(동 · 휴관 매월 둘째주, 넷째주 수요일 / 일요일을 제외한 법정공
-== books
-[초등 인기 도서]
-  : 60권
-  1. 흔한남매 / 원작: 흔한남매, 유난희 (대출 14)
-  2. 긴긴밤 / 루리 글·그림 (대출 9)
-  3. (이상한 과자 가게) 전천당 / 히로시마 레이코 글, 김정화 옮김 (대출 7)
-  4. 푸른 사자 와니니 :이현 장편동화 / 이현, 그린이: 오윤화 (대출 6)
-  5. 고양이 해결사 깜냥 / 홍민정 동화, 김재희 그림 (대출 6)
-[청소년 인기 도서]
-  : 60권
-  1. 소년이 온다 :한강 장편소설 / 한강 (대출 4)
-  2. 아몬드 :손원평 장편소설 / 손원평 (대출 3)
-  3. 달러구트 꿈 백화점 :이미예 장편소설 / 이미예 (대출 3)
-  4. 절창 :구병모 장편소설 / 구병모 (대출 3)
-  5. 흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식 / 원작: 흔한남매, 유난희 (대출 3)
-[동대문구 대출 베스트]
-  : 60권
-  1. 혼모노 :성해나 소설집 / 성해나 (대출 38)
-  2. 소년이 온다 :한강 장편소설 / 한강 (대출 36)
-  3. 모순 :양귀자 장편소설 / 양귀자 (대출 36)
-  4. 안녕이라 그랬어 :김애란 소설 / 김애란 (대출 35)
-  5. 흔한남매 / 원작: 흔한남매, 유난희 (대출 35)
-== events
-  KOPIS 동대문 아동공연 0건
-  KOPIS 경기 전체 아동공연 78건
-  KOPIS 동대문 아동공연 0건
-  관광공사 응답: {'response': {'header': {'resultCode': '0000', 'resultMsg': 'OK'}, 'body': {'items': '', 'numOfRows': 0, 'pageNo': 1, 'totalCount': 0}}}
-  관광공사 동대문 축제·행사 0건
-  문화포털 동대문 가족 행사 0건
-공연·축제 0건, 체험·교육 0건 저장
-== jobs
-경기도가 아니라 채용 정보는 건너뜀
-== sports
-동대문 : 운동교실 준비 중
-== deals
-  동네 가게 할인 0건
-저장: 동대문 할인 0건 (지역화폐 0, 백화점 0)
-== elite
-서울: 학교 1416곳 확인
-부산: 학교 672곳 확인
-대구: 학교 484곳 확인
-인천: 학교 584곳 확인
-광주: 학교 336곳 확인
-대전: 학교 329곳 확인
-울산: 학교 255곳 확인
-세종: 학교 109곳 확인
-경기: 학교 2667곳 확인
-강원: 학교 660곳 확인
-충북: 학교 514곳 확인
-충남: 학교 756곳 확인
-전북: 학교 771곳 확인
-전남: 학교 881곳 확인
-경북: 학교 942곳 확인
-경남: 학교 1021곳 확인
-제주: 학교 205곳 확인
-저장: {'영재학교': 8, '과학고': 23, '자사고(전국)': 10, '외고': 30, '국제고': 10, '자사고(광역)': 22}
-고등학교 구분 값: [(('일반고', ''), 1758), (('특성화고', ''), 518), (('자율고', ''), 114), (('특목고', '산업수요 맞춤형 고등학교'), 40), (('특목고', ''), 33), (('특목고', '과학계열'), 23), (('특목고', '예술계열'), 22), (('특목고', '외국어계열'), 22), (('특목고', '체육계열'), 13), (('특목고', '국제계열'), 7), (('특성화고', '예술계열'), 1), (('일반고', '산업수요 맞춤형 고등학교'), 1), (('일반고', '외국어계열'), 1), (('일반고', '과학계열'), 1), (('일반고', '예술계열'), 1), (('특성화고', '산업수요 맞춤형 고등학교'), 1)]
-== weather
-동대문 격자 nx=61 ny=127
-  단기예보 20261101 1400: 798건
-  단기예보 20261101 0200: 944건
-  날씨: {'sky': '비', 'icon': '🌧️', 'lo': 6, 'hi': 13, 'pop': 60} 미세먼지: {'pm10': '좋음', 'pm25': '좋음'}
-저장: output/weather.json
 == benefits
   중앙부처 복지 실패: HTTP Error 429: Too Many Requests
     (서버 전체 17건, 한 번에 17건)
   시 혜택 칸: ['aplyMtdNm', 'bizChrDeptNm', 'ctpvNm', 'inqNum', 'intrsThemaNmArray', 'lastModYmd', 'lifeNmArray', 'servDgst', 'servDtlLink', 'servId', 'servNm', 'sggNm', 'sprtCycNm', 'srvPvsnNm']
   동대문시 혜택 17건 중 아이·가족 5건
-  저장: 3 KB, 5 건
-== hospitals
-  병·의원 635곳 받음. 종류: {'의원': 289, '치과의원': 164, '한의원': 151, '병원': 10, '요양병원': 5, '종합병원': 4, '치과병원': 4, '조산원': 3, '한방병원': 2, '기타': 2, '보건소': 1}
-  칸: ['dutyAddr', 'dutyDiv', 'dutyDivNam', 'dutyEmcls', 'dutyEmclsName', 'dutyEryn', 'dutyName', 'dutyTel1', 'dutyTel3', 'dutyTime1c', 'dutyTime1s', 'dutyTime2c', 'dutyTime2s', 'dutyTime3c', 'dutyTime3s', 'dutyTime4c', 'dutyTime4s', 'dutyTime5c', 'dutyTime5s', 'dutyTime6c', 'dutyTime6s', 'dutyTime7c', 'dutyTime7s', 'dutyTime8c', 'dutyTime8s', 'hpid', 'postCdn1', 'postCdn2', 'rnum', 'wgs84Lat', 'wgs84Lon']
-  진료과 내과 D001: 166곳 (이름에 과가 있는 50곳 중 98% 포함)
-  진료과 소아청소년과 D002: 114곳 (이름에 과가 있는 18곳 중 89% 포함)
-  진료과 피부과 D005: 117곳 (이름에 과가 있는 11곳 중 100% 포함)
-  진료과 정형외과 D008: 89곳 (이름에 과가 있는 34곳 중 100% 포함)
-  진료과 산부인과 D011: 30곳 (이름에 과가 있는 19곳 중 100% 포함)
-  진료과 안과 D012: 32곳 (이름에 과가 있는 18곳 중 100% 포함)
-  진료과 이비인후과 D013: 93곳 (이름에 과가 있는 26곳 중 100% 포함)
-  진료과 가정의학과 D022: 62곳 (이름에 과가 있는 5곳 중 100% 포함)
-  의원 454곳, 병원 18곳
-  응급의료기관 서비스 실패 → 병·의원 목록에서 응급실 운영 기관을 씀: HTTP Error 403: Forbidden
-  응급실 4곳
-  약국 214곳 (전화 있는 곳 214)
-  저장: 155 KB
+  나라 혜택: 다른 도시 것을 빌려 씀 하남 2026-11-02 05:36
+  저장: 67 KB, 111 건
 == 결과 파일
-total 672
-drwxr-xr-x  2 runner runner   4096 Nov  1 07:48 .
-drwxr-xr-x 34 runner runner   4096 Nov  1 07:40 ..
--rw-r--r--  1 runner runner 231938 Nov  1 07:48 academies.json
--rw-r--r--  1 runner runner   3236 Nov  1 07:48 benefits.json
--rw-r--r--  1 runner runner  25971 Nov  1 07:48 books.json
--rw-r--r--  1 runner runner    140 Nov  1 07:48 deals.json
--rw-r--r--  1 runner runner  35623 Nov  1 07:48 elite.json
--rw-r--r--  1 runner runner    141 Nov  1 07:48 events.json
--rw-r--r--  1 runner runner 159704 Nov  1 07:48 hospitals.json
--rw-r--r--  1 runner runner     77 Nov  1 07:48 jobs.json
--rw-r--r--  1 runner runner  16071 Nov  1 07:48 kinder.json
--rw-r--r--  1 runner runner 110317 Nov  1 07:48 latest.json
--rw-r--r--  1 runner runner   6625 Nov  1 07:48 libs.json
--rw-r--r--  1 runner runner  59905 Nov  1 07:48 meals.json
--rw-r--r--  1 runner runner    119 Nov  1 07:48 sports.json
--rw-r--r--  1 runner runner    218 Nov  1 07:48 weather.json
+total 756
+drwxr-xr-x  2 runner runner   4096 Nov  2 03:57 .
+drwxr-xr-x 65 runner runner   4096 Nov  2 03:57 ..
+-rw-r--r--  1 runner runner 231938 Nov  2 03:58 academies.json
+-rw-r--r--  1 runner runner  68790 Nov  2 03:58 benefits.json
+-rw-r--r--  1 runner runner  25927 Nov  2 03:58 books.json
+-rw-r--r--  1 runner runner    140 Nov  2 03:58 deals.json
+-rw-r--r--  1 runner runner  35623 Nov  2 03:58 elite.json
+-rw-r--r--  1 runner runner    141 Nov  2 03:58 events.json
+-rw-r--r--  1 runner runner 159704 Nov  2 03:58 hospitals.json
+-rw-r--r--  1 runner runner     77 Nov  2 03:58 jobs.json
+-rw-r--r--  1 runner runner  16071 Nov  2 03:58 kinder.json
+-rw-r--r--  1 runner runner 117358 Nov  2 03:58 latest.json
+-rw-r--r--  1 runner runner   6625 Nov  2 03:58 libs.json
+-rw-r--r--  1 runner runner  71632 Nov  2 03:58 meals.json
+-rw-r--r--  1 runner runner    119 Nov  2 03:58 sports.json
+-rw-r--r--  1 runner runner    220 Nov  2 03:58 weather.json
