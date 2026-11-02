@@ -1109,6 +1109,135 @@
         "startVer": "1.0.62"
       }
     },
+    "gwacheon": {
+      "name": "과천",
+      "colors": {
+        "city": "#7048E8",
+        "ink": "#5537B0",
+        "deep": "#3E2881",
+        "soft": "#F1EDFD"
+      },
+      "areas": "별양·부림·중앙·갈현",
+      "lat": 37.4292,
+      "lon": 126.9876,
+      "searchEx": "별양, 중앙동",
+      "domain": "gwacheon.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-02",
+        "startVer": "1.0.65"
+      }
+    },
+    "dongducheon": {
+      "name": "동두천",
+      "colors": {
+        "city": "#B7791F",
+        "ink": "#8B5C18",
+        "deep": "#664311",
+        "soft": "#F8F2E9"
+      },
+      "areas": "생연·보산·송내·지행",
+      "lat": 37.9036,
+      "lon": 127.0606,
+      "searchEx": "지행, 생연",
+      "domain": "dongducheon.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-02",
+        "startVer": "1.0.65"
+      }
+    },
+    "yeoju": {
+      "name": "여주",
+      "colors": {
+        "city": "#0B7285",
+        "ink": "#085765",
+        "deep": "#063F4A",
+        "soft": "#E7F1F3"
+      },
+      "areas": "여흥·중앙·오학·가남",
+      "lat": 37.2984,
+      "lon": 127.637,
+      "searchEx": "가남, 오학",
+      "domain": "yeoju.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-02",
+        "startVer": "1.0.65"
+      }
+    },
+    "yangpyeong": {
+      "name": "양평",
+      "colors": {
+        "city": "#2F9E44",
+        "ink": "#247834",
+        "deep": "#1A5826",
+        "soft": "#EAF5EC"
+      },
+      "areas": "양평읍·용문·양서·옥천",
+      "lat": 37.4917,
+      "lon": 127.4876,
+      "searchEx": "용문, 양서",
+      "domain": "yangpyeong.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-02",
+        "startVer": "1.0.65"
+      },
+      "sgg": "양평군"
+    },
+    "gapyeong": {
+      "name": "가평",
+      "colors": {
+        "city": "#3D7EAA",
+        "ink": "#2E6081",
+        "deep": "#22465F",
+        "soft": "#ECF2F6"
+      },
+      "areas": "가평읍·청평·설악·조종",
+      "lat": 37.8315,
+      "lon": 127.5097,
+      "searchEx": "청평, 설악",
+      "domain": "gapyeong.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-02",
+        "startVer": "1.0.65"
+      },
+      "sgg": "가평군"
+    },
+    "yeoncheon": {
+      "name": "연천",
+      "colors": {
+        "city": "#A0522D",
+        "ink": "#7A3E22",
+        "deep": "#592E19",
+        "soft": "#F6EEEA"
+      },
+      "areas": "전곡·연천읍·청산·군남",
+      "lat": 38.0966,
+      "lon": 127.0749,
+      "searchEx": "전곡, 청산",
+      "domain": "yeoncheon.songgollab.co.kr",
+      "pages": "airang-all",
+      "has404": true,
+      "gus": [],
+      "fields": {
+        "start": "2026-11-02",
+        "startVer": "1.0.65"
+      },
+      "sgg": "연천군"
+    },
     "yeonsu": {
       "name": "연수",
       "colors": {
@@ -1245,7 +1374,7 @@
       ],
       "fields": {
         "start": "2026-11-03",
-        "startVer": "1.0.64"
+        "startVer": "1.0.65"
       },
       "sido": "충남",
       "sgg": "천안시"
@@ -1268,7 +1397,7 @@
       "gus": [],
       "fields": {
         "start": "2026-11-03",
-        "startVer": "1.0.64"
+        "startVer": "1.0.65"
       },
       "sido": "충남",
       "sgg": "아산시"
