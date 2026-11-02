@@ -102,6 +102,13 @@ def build_entry(out):
     src = open(os.path.join(HERE, "entry", "index.html"), encoding="utf-8").read()
     assert "/*CITIES*/[]" in src
     src = src.replace("/*CITIES*/[]", json.dumps(rows, ensure_ascii=False))
+    # 검색용 페이지로 가는 링크 (검색 로봇이 따라가도록 HTML에 바로 적음)
+    g = ""
+    for sd, label in (("경기", "경기도"), ("서울", "서울"), ("인천", "인천")):
+        cs = sorted([(k, c) for k, c in CFG["cities"].items() if c.get("sido", "경기") == sd], key=lambda kc: kc[1]["name"])
+        if cs:
+            g += f'<p>{label}</p>' + "".join(f'<a href="https://{k}.songgollab.co.kr/guide/">{c.get("sgg") or c["name"] + ("시" if sd == "경기" else "구")} 학원·유치원·소아과</a>' for k, c in cs)
+    src = src.replace("<!--GUIDES-->", f'<div class="lift guides"><h3>📍 동네 정보 모아보기</h3>{g}</div>')
     open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(src)
     for f in ("icon-192.png", "icon-512.png"):
         shutil.copy(os.path.join(HERE, "entry", f), d)

@@ -248,4 +248,10 @@ if __name__ == "__main__":
         if not os.path.isdir(os.path.join(a.out, k)):
             continue
         n = build_city(k, a.out, a.data); tot += n
+    ent = os.path.join(a.out, "entry")
+    if os.path.isdir(ent):   # 입구(airang.songgollab.co.kr): 사이트맵·robots
+        today = datetime.now(KST).strftime("%Y-%m-%d")
+        open(os.path.join(ent, "sitemap.xml"), "w", encoding="utf-8").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+            f"<url><loc>https://airang.songgollab.co.kr/</loc><lastmod>{today}</lastmod></url>\n</urlset>\n")
+        open(os.path.join(ent, "robots.txt"), "w", encoding="utf-8").write("User-agent: *\nAllow: /\nSitemap: https://airang.songgollab.co.kr/sitemap.xml\n")
     print(f"검색용 페이지 {tot}개")
