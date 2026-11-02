@@ -75,6 +75,8 @@ def render(text, city):
     return re.sub(r"\{\{([a-z]+(?:\.[A-Za-z0-9_]+)?)\}\}", sub, s)
 
 
+NAVER = json.load(open(os.path.join(HERE, "naver.json"), encoding="utf-8")) if os.path.exists(os.path.join(HERE, "naver.json")) else {}
+
 def build(city, out):
     d = os.path.join(out, city)
     if os.path.exists(d): shutil.rmtree(d)
@@ -84,6 +86,8 @@ def build(city, out):
         if not os.path.exists(src): continue
         if f == "404.html" and not CFG["cities"][city].get("has404"): continue
         txt = render(open(src, encoding="utf-8", newline="").read(), city)
+        if f == "index.html" and NAVER.get(city):                                     # 네이버 서치어드바이저 소유확인 (도시마다 다름 → app/naver.json)
+            txt = txt.replace('<meta charset="utf-8">', f'<meta charset="utf-8">\n<meta name="naver-site-verification" content="{NAVER[city]}" />', 1)
         open(os.path.join(d, f), "w", encoding="utf-8", newline="").write(txt)
     shutil.copytree(os.path.join(HERE, "assets"), os.path.join(d, "assets"))          # 모든 도시 같은 그림
     own = os.path.join(HERE, "cities", city)                                             # 도시 그림·아이콘
