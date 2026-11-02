@@ -1,0 +1,988 @@
+{
+  "region": "가평군",
+  "updated_at": "2026-11-02 12:41:16",
+  "period": {
+    "from": "20261102",
+    "to": "20270101"
+  },
+  "school_count": 26,
+  "public_holidays": [
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "신정"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "청평고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-02",
+      "name": "동료 교사 대상 공개수업 주간",
+      "holiday": false
+    },
+    {
+      "school": "방일초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-09",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "가평고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능고사",
+      "holiday": true
+    },
+    {
+      "school": "가평중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "설악고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능고사",
+      "holiday": true
+    },
+    {
+      "school": "설악중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일(수능)",
+      "holiday": true
+    },
+    {
+      "school": "조종고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "조종중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "청평고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "연하초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-08",
+      "name": "한울림축제(문화예술제)",
+      "holiday": false
+    },
+    {
+      "school": "연하초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-14",
+      "name": "한울림축제(문화예술제)",
+      "holiday": false
+    },
+    {
+      "school": "방일초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "설악중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "진로체험",
+      "holiday": false
+    },
+    {
+      "school": "청평고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "3학년 체험학습",
+      "holiday": false
+    },
+    {
+      "school": "가평북중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "대성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "대성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "청평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "가평고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "가평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "가평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "대성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상색초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "상색초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식(종업식)",
+      "holiday": false
+    },
+    {
+      "school": "상천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "상천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "청평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상색초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    }
+  ],
+  "schools": [
+    {
+      "code": "7721009",
+      "name": "가평마장초등학교",
+      "level": "초등학교",
+      "address": "경기도 가평군 가평읍 각담말길 15",
+      "gu": "",
+      "dong": "가평읍",
+      "events": []
+    },
+    {
+      "code": "7721010",
+      "name": "가평초등학교",
+      "level": "초등학교",
+      "address": "경기도 가평군 가평읍 향교로 23",
+      "gu": "",
+      "dong": "가평읍",
+      "events": [
+        {
+          "date": "2026-12-09",
+          "name": "전교 임원 선출",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7721011",
+      "name": "대성초등학교",
+      "level": "초등학교",
+      "address": "경기도 가평군 청평면 경춘로 75",
+      "gu": "",
+      "dong": "청평면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7721012",
+      "name": "목동초등학교",
+      "level": "초등학교",
+      "address": "경기도 가평군 북면 석장모루길 13",
+      "gu": "",
+      "dong": "북면",
+      "events": []
+    },
+    {
+      "code": "7721013",
+      "name": "미원초등학교",
+      "level": "초등학교",
+      "address": "경기도 가평군 설악면 신천중앙로120번길 11",
+      "gu": "",
+      "dong": "설악면",
+      "events": []
+    },
+    {
+      "code": "7721023",
+      "name": "미원초등학교위곡분교장",
+      "level": "초등학교",
+      "address": "경기도 가평군 설악면 한서로 233",
+      "gu": "",
+      "dong": "설악면",
+      "events": []
+    },
+    {
+      "code": "7721024",
+      "name": "미원초등학교장락분교장",
+      "level": "초등학교",
+      "address": "경기도 가평군 설악면 미사리로 588",
+      "gu": "",
+      "dong": "설악면",
+      "events": []
+    },
+    {
+      "code": "7721014",
+      "name": "방일초등학교",
+      "level": "초등학교",
+      "address": "경기도 가평군 설악면 양방가루재길 76",
+      "gu": "",
+      "dong": "설악면",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "현장체험학습",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7721015",
+      "name": "상면초등학교",
+      "level": "초등학교",
+      "address": "경기도 가평군 상면 청군로 700-22",
+      "gu": "",
+      "dong": "상면",
+      "events": []
+    },
+    {
+      "code": "7721016",
+      "name": "상색초등학교",
+      "level": "초등학교",
+      "address": "경기도 가평군 가평읍 태봉두밀로 34-31",
+      "gu": "",
+      "dong": "가평읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식(종업식)",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7721017",
+      "name": "상천초등학교",
+      "level": "초등학교",
+      "address": "경기도 가평군 청평면 상천역로19번길 38",
+      "gu": "",
+      "dong": "청평면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7721018",
+      "name": "연하초등학교",
+      "level": "초등학교",
+      "address": "경기도 가평군 상면 비룡로 2199-19",
+      "gu": "",
+      "dong": "상면",
+      "events": [
+        {
+          "date": "2026-11-03",
+          "name": "가평군수기 축구대회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "패밀리 및 학부모 바자회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "인권교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "한울림축제(문화예술제)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "학교폭력예방교육주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "한울림축제(문화예술제)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7721019",
+      "name": "율길초등학교",
+      "level": "초등학교",
+      "address": "경기도 가평군 상면 청군로 2090",
+      "gu": "",
+      "dong": "상면",
+      "events": []
+    },
+    {
+      "code": "7721020",
+      "name": "조종초등학교",
+      "level": "초등학교",
+      "address": "경기도 가평군 조종면 조종새싹로 13-9",
+      "gu": "",
+      "dong": "조종면",
+      "events": []
+    },
+    {
+      "code": "7721021",
+      "name": "청평초등학교",
+      "level": "초등학교",
+      "address": "경기도 가평군 청평면 잠곡로 27",
+      "gu": "",
+      "dong": "청평면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7721004",
+      "name": "가평북중학교",
+      "level": "중학교",
+      "address": "경기도 가평군 북면 석장모루길 13",
+      "gu": "",
+      "dong": "북면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "진로활동의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "교육과정평가회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7721005",
+      "name": "가평중학교",
+      "level": "중학교",
+      "address": "경기도 가평군 가평읍 광장로 10",
+      "gu": "",
+      "dong": "가평읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7721006",
+      "name": "설악중학교",
+      "level": "중학교",
+      "address": "경기도 가평군 설악면 한양부로 21-1",
+      "gu": "",
+      "dong": "설악면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일(수능)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2학기2차지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2학기2차지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기2차지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기2차지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기2차지필고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "진로체험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7721007",
+      "name": "조종중학교",
+      "level": "중학교",
+      "address": "경기도 가평군 조종면 연등윗길 22",
+      "gu": "",
+      "dong": "조종면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "3학년 2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "3학년 2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "3학년 2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "1, 2학년 2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "1, 2학년 2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "1, 2학년 2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "운악제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7721038",
+      "name": "청심국제중학교",
+      "level": "중학교",
+      "address": "경기도 가평군 설악면 미사리로 324-213",
+      "gu": "",
+      "dong": "설악면",
+      "events": [
+        {
+          "date": "2026-12-14",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차 정기시험",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7721008",
+      "name": "청평중학교",
+      "level": "중학교",
+      "address": "경기도 가평군 청평면 골안길 7",
+      "gu": "",
+      "dong": "청평면",
+      "events": []
+    },
+    {
+      "code": "7530633",
+      "name": "가평고등학교",
+      "level": "고등학교",
+      "address": "경기도 가평군 가평읍 호반로 2601",
+      "gu": "",
+      "dong": "가평읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입수능고사",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2차정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "보납제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "동아리발표회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530083",
+      "name": "설악고등학교",
+      "level": "고등학교",
+      "address": "경기도 가평군 설악면 한양부로 21-1",
+      "gu": "",
+      "dong": "설악면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능고사",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530791",
+      "name": "조종고등학교",
+      "level": "고등학교",
+      "address": "경기도 가평군 조종면 연등윗길 22",
+      "gu": "",
+      "dong": "조종면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-26",
+          "name": "지필평가 2차(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "지필평가 2차(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "지필평가 2차",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "지필평가 2차",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "지필평가 2차",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "지필평가 2차",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "운악제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530776",
+      "name": "청심국제고등학교",
+      "level": "고등학교",
+      "address": "경기도 가평군 설악면 미사리로 324-213",
+      "gu": "",
+      "dong": "설악면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "2학기 2차정기시험(고1,고2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "2학기 2차정기시험(고1,고2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "2학기 2차정기시험(고1,고2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "2학기 2차정기시험(고1,고2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "2학기 2차정기시험(고1,고2)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530944",
+      "name": "청평고등학교",
+      "level": "고등학교",
+      "address": "경기도 가평군 청평면 강변나루로40번길 23",
+      "gu": "",
+      "dong": "청평면",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "동료 교사 대상 공개수업 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-25",
+          "name": "3학년 2학기 2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "3학년 2학기 2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "신입생 예비 소집",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "3학년 체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "동아리 발표제 및 호명제",
+          "holiday": false
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
