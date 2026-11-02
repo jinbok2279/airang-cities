@@ -1,0 +1,791 @@
+{
+  "region": "연천군",
+  "updated_at": "2026-11-02 12:48:53",
+  "period": {
+    "from": "20261102",
+    "to": "20270101"
+  },
+  "school_count": 22,
+  "public_holidays": [
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "신정"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "연천왕산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-06",
+      "name": "현장체험학습",
+      "holiday": false
+    },
+    {
+      "school": "연천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-11",
+      "name": "동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "화진초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-11",
+      "name": "예술꽃 축제 리허설",
+      "holiday": false
+    },
+    {
+      "school": "화진초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-12",
+      "name": "예술꽃 축제",
+      "holiday": false
+    },
+    {
+      "school": "연천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "연천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "전곡고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력평가",
+      "holiday": true
+    },
+    {
+      "school": "전곡중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "화진초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-23",
+      "name": "체험학습",
+      "holiday": false
+    },
+    {
+      "school": "청산중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-17",
+      "name": "축제",
+      "holiday": false
+    },
+    {
+      "school": "청산중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "오케스트라 발표회",
+      "holiday": false
+    },
+    {
+      "school": "군남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "군남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "꿈끼 발표회",
+      "holiday": false
+    },
+    {
+      "school": "연천왕산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "연천왕산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "화진초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "연천왕산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "화진초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    }
+  ],
+  "schools": [
+    {
+      "code": "7701010",
+      "name": "군남초등학교",
+      "level": "초등학교",
+      "address": "경기도 연천군 군남면 진상17길 46",
+      "gu": "",
+      "dong": "군남면",
+      "events": []
+    },
+    {
+      "code": "7701011",
+      "name": "궁평초등학교",
+      "level": "초등학교",
+      "address": "경기도 연천군 청산면 궁평로45번길 52",
+      "gu": "",
+      "dong": "청산면",
+      "events": []
+    },
+    {
+      "code": "7701012",
+      "name": "대광초등학교",
+      "level": "초등학교",
+      "address": "경기도 연천군 신서면 연신로 1127-1",
+      "gu": "",
+      "dong": "신서면",
+      "events": []
+    },
+    {
+      "code": "7701013",
+      "name": "백의초등학교",
+      "level": "초등학교",
+      "address": "경기도 연천군 청산면 청창로 726",
+      "gu": "",
+      "dong": "청산면",
+      "events": []
+    },
+    {
+      "code": "7701014",
+      "name": "백학초등학교",
+      "level": "초등학교",
+      "address": "경기도 연천군 백학면 백학로40번길 23",
+      "gu": "",
+      "dong": "백학면",
+      "events": []
+    },
+    {
+      "code": "7701015",
+      "name": "상리초등학교",
+      "level": "초등학교",
+      "address": "경기도 연천군 연천읍 상리로 70",
+      "gu": "",
+      "dong": "연천읍",
+      "events": []
+    },
+    {
+      "code": "7701016",
+      "name": "연천노곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 연천군 백학면 진목로 26",
+      "gu": "",
+      "dong": "백학면",
+      "events": []
+    },
+    {
+      "code": "7701017",
+      "name": "연천왕산초등학교",
+      "level": "초등학교",
+      "address": "경기도 연천군 미산면 왕산로 15",
+      "gu": "",
+      "dong": "미산면",
+      "events": [
+        {
+          "date": "2026-11-05",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "현장체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "수학여행",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7701018",
+      "name": "연천초등학교",
+      "level": "초등학교",
+      "address": "경기도 연천군 연천읍 연천로 228",
+      "gu": "",
+      "dong": "연천읍",
+      "events": []
+    },
+    {
+      "code": "7701019",
+      "name": "은대초등학교",
+      "level": "초등학교",
+      "address": "경기도 연천군 전곡읍 은대로 210",
+      "gu": "",
+      "dong": "전곡읍",
+      "events": []
+    },
+    {
+      "code": "7701020",
+      "name": "전곡초등학교",
+      "level": "초등학교",
+      "address": "경기도 연천군 전곡읍 선사로 433",
+      "gu": "",
+      "dong": "전곡읍",
+      "events": []
+    },
+    {
+      "code": "7701025",
+      "name": "전곡초등학교적동분교장(폐교)",
+      "level": "초등학교",
+      "address": "경기도 연천군 전곡읍 첫마을길 17",
+      "gu": "",
+      "dong": "전곡읍",
+      "events": []
+    },
+    {
+      "code": "7701021",
+      "name": "초성초등학교",
+      "level": "초등학교",
+      "address": "경기도 연천군 청산면 학담로 104",
+      "gu": "",
+      "dong": "청산면",
+      "events": []
+    },
+    {
+      "code": "7701022",
+      "name": "화진초등학교",
+      "level": "초등학교",
+      "address": "경기도 연천군 군남면 청정로 2289",
+      "gu": "",
+      "dong": "군남면",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "예술꽃 축제 리허설",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "예술꽃 축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-23",
+          "name": "체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "나눔장터",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7701004",
+      "name": "군남중학교",
+      "level": "중학교",
+      "address": "경기도 연천군 군남면 진상17길 46",
+      "gu": "",
+      "dong": "군남면",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "국제교류(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-03",
+          "name": "국제교류(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "국제교류(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "연합 낙낙제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "통합 학생자치회 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "꿈끼 발표회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7701005",
+      "name": "대광중학교",
+      "level": "중학교",
+      "address": "경기도 연천군 신서면 연신로 1127-1",
+      "gu": "",
+      "dong": "신서면",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "심폐소생교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "학생인권교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "학교스포츠클럽활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "통합자치회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "학교스포츠클럽활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "진로탐색활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "학교스포츠클럽활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "학급회의",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "학교스포츠클럽활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "큰빛콘서트",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "통합자치회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "학교스포츠클럽활동",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7701006",
+      "name": "백학중학교",
+      "level": "중학교",
+      "address": "경기도 연천군 백학면 두일로 79",
+      "gu": "",
+      "dong": "백학면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-28",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-30",
+          "name": "2학기 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "낙낙제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7701007",
+      "name": "연천중학교",
+      "level": "중학교",
+      "address": "경기도 연천군 연천읍 연천로336번길 13",
+      "gu": "",
+      "dong": "연천읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "수능재량휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7701008",
+      "name": "전곡중학교",
+      "level": "중학교",
+      "address": "경기도 연천군 전곡읍 전은길 21",
+      "gu": "",
+      "dong": "전곡읍",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 지필형가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 지필형가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 지필형가(1,2학년)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7701009",
+      "name": "청산중학교",
+      "level": "중학교",
+      "address": "경기도 연천군 청산면 아우라지길 13-32",
+      "gu": "",
+      "dong": "청산면",
+      "events": [
+        {
+          "date": "2026-11-18",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-20",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "축제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "오케스트라 발표회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530579",
+      "name": "연천고등학교",
+      "level": "고등학교",
+      "address": "경기도 연천군 연천읍 연천로336번길 13",
+      "gu": "",
+      "dong": "연천읍",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "동아리발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "수능이후프로그램",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "수능이후프로그램",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "수능이후프로그램",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "수능이후프로그램",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "학교자율과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "학교주도활동시간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "학교자율과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "학교주도활동시간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "학교자율과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "학교주도활동시간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "학교자율과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "학교주도활동시간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "학교자율과정",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "학교주도활동시간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "수레울제",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "사정회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530580",
+      "name": "전곡고등학교",
+      "level": "고등학교",
+      "address": "경기도 연천군 전곡읍 전은길 9-89",
+      "gu": "",
+      "dong": "전곡읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가",
+          "holiday": true
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
