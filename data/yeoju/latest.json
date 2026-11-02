@@ -1,0 +1,2537 @@
+{
+  "region": "여주시",
+  "updated_at": "2026-11-02 12:46:40",
+  "period": {
+    "from": "20261102",
+    "to": "20270101"
+  },
+  "school_count": 46,
+  "public_holidays": [
+    {
+      "date": "2026-12-25",
+      "name": "성탄절"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "신정"
+    }
+  ],
+  "highlights": [
+    {
+      "school": "대신중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-03",
+      "name": "IB공개수업",
+      "holiday": false
+    },
+    {
+      "school": "흥천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-05",
+      "name": "운동회",
+      "holiday": false
+    },
+    {
+      "school": "능서초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-11",
+      "name": "진로체험학습(잡월드)",
+      "holiday": false
+    },
+    {
+      "school": "대신고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "대신중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "세종고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "세종중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대입수능 재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "세종초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "여강중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량 휴업일",
+      "holiday": true
+    },
+    {
+      "school": "여강중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험일",
+      "holiday": true
+    },
+    {
+      "school": "여주고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "여주제일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "여주제일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "여주중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력평가",
+      "holiday": true
+    },
+    {
+      "school": "여흥중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "수능시험일",
+      "holiday": true
+    },
+    {
+      "school": "여흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이포고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이포중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "점동고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력 시험일(재량휴업일)",
+      "holiday": true
+    },
+    {
+      "school": "점동중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-19",
+      "name": "대학수학능력시험",
+      "holiday": true
+    },
+    {
+      "school": "대신고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "대신중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "세종고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장 재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "여주고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-11-20",
+      "name": "학교장재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "이포초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-11-25",
+      "name": "겨울체험학습",
+      "holiday": false
+    },
+    {
+      "school": "여흥중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-03",
+      "name": "학교재량휴업일",
+      "holiday": true
+    },
+    {
+      "school": "강천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-17",
+      "name": "진로체험학습",
+      "holiday": false
+    },
+    {
+      "school": "점동중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-17",
+      "name": "진로체험활동",
+      "holiday": false
+    },
+    {
+      "school": "상품중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-18",
+      "name": "동아리축제",
+      "holiday": false
+    },
+    {
+      "school": "여주고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-21",
+      "name": "문화체험",
+      "holiday": false
+    },
+    {
+      "school": "송촌초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "겨울체험학습",
+      "holiday": false
+    },
+    {
+      "school": "점동중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-22",
+      "name": "종합 발표회",
+      "holiday": false
+    },
+    {
+      "school": "점동고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-23",
+      "name": "동아리발표회",
+      "holiday": false
+    },
+    {
+      "school": "세정중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "졸업식·종업식",
+      "holiday": false
+    },
+    {
+      "school": "흥천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-24",
+      "name": "졸업식 및 종업식",
+      "holiday": false
+    },
+    {
+      "school": "흥천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-25",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "흥천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-26",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "흥천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-27",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "세정중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "여흥중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "예술중점발표회",
+      "holiday": false
+    },
+    {
+      "school": "점동중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "진급 및 졸업평정회",
+      "holiday": false
+    },
+    {
+      "school": "흥천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-28",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "강천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "공감축제",
+      "holiday": false
+    },
+    {
+      "school": "세정중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "흥천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "흥천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-29",
+      "name": "겨울축제",
+      "holiday": false
+    },
+    {
+      "school": "가남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "가남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "강천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "능북초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "능북초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "능서초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "매류초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "상품초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "세정중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "세종초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "여주자영농업고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "여흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "연라초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "오산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "이포중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "꿈끼발표회",
+      "holiday": false
+    },
+    {
+      "school": "점봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "흥천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-30",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "가남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "강천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "금당초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "능북초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학일",
+      "holiday": true
+    },
+    {
+      "school": "능서초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대신초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "매류초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상품초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "세정중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "세종초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "송촌초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "여강중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "재량 휴업일",
+      "holiday": true
+    },
+    {
+      "school": "여흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "연라초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오학초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "오학초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "이포초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "이포초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "점동고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "점동중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "점동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "점봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "흥천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2026-12-31",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "가남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "강천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "금당초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "능북초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학일",
+      "holiday": true
+    },
+    {
+      "school": "능서초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대신초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "매류초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상품초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "세정중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "세종초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "송삼초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "송촌초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "여흥초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "연라초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오학초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이포초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "점동중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "점동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "점봉초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "흥천중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-01",
+      "name": "겨울방학",
+      "holiday": true
+    }
+  ],
+  "schools": [
+    {
+      "code": "7661017",
+      "name": "가남초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 가남읍 태평4길 2",
+      "gu": "",
+      "dong": "가남읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661018",
+      "name": "강천초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 강천면 간매3길 31",
+      "gu": "",
+      "dong": "강천면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661019",
+      "name": "금당초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 가남읍 가남로 649",
+      "gu": "",
+      "dong": "가남읍",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661020",
+      "name": "능북초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 세종대왕면 백석1길 8-16",
+      "gu": "",
+      "dong": "세종대왕면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학일",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661021",
+      "name": "능서초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 세종대왕면 마장로 64",
+      "gu": "",
+      "dong": "세종대왕면",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "진로체험학습(잡월드)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661022",
+      "name": "대신초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 대신면 여양로 1440",
+      "gu": "",
+      "dong": "대신면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "학년말 방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661023",
+      "name": "매류초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 세종대왕면 양화로 592",
+      "gu": "",
+      "dong": "세종대왕면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661024",
+      "name": "문장초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 흥천면 문바실길 20",
+      "gu": "",
+      "dong": "흥천면",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "name": "음악 집중 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "합창부 활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-04",
+          "name": "음악 집중 교육",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-11",
+          "name": "합창부 활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "합창부 활동",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7661025",
+      "name": "북내초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 북내면 여양2로 304",
+      "gu": "",
+      "dong": "북내면",
+      "events": []
+    },
+    {
+      "code": "7661039",
+      "name": "북내초등학교도전분교장",
+      "level": "초등학교",
+      "address": "경기도 여주시 강천면 원양1로 716",
+      "gu": "",
+      "dong": "강천면",
+      "events": []
+    },
+    {
+      "code": "7661026",
+      "name": "상품초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 산북면 금품1로 15",
+      "gu": "",
+      "dong": "산북면",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661016",
+      "name": "세종초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 세종로 204-19",
+      "gu": "",
+      "dong": "교동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-17",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661027",
+      "name": "송삼초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 송삼로 165 ",
+      "gu": "",
+      "dong": "",
+      "events": [
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661028",
+      "name": "송촌초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 대신면 여양1로 237",
+      "gu": "",
+      "dong": "대신면",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "name": "같이학교",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "겨울체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661029",
+      "name": "여주초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 교동로 55",
+      "gu": "",
+      "dong": "",
+      "events": []
+    },
+    {
+      "code": "7661030",
+      "name": "여흥초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 여양로 91",
+      "gu": "",
+      "dong": "상동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661031",
+      "name": "연라초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 여주남로 116",
+      "gu": "",
+      "dong": "월송동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661032",
+      "name": "오산초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 가남읍 양화로 168",
+      "gu": "",
+      "dong": "가남읍",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661033",
+      "name": "오학초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 도예로 117",
+      "gu": "",
+      "dong": "오학동",
+      "events": [
+        {
+          "date": "2026-12-09",
+          "name": "교육과정 평가회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "전교임원선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "신입생 예비소집일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661034",
+      "name": "이포초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 금사면 이여로 1237",
+      "gu": "",
+      "dong": "금사면",
+      "events": [
+        {
+          "date": "2026-11-25",
+          "name": "겨울체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661035",
+      "name": "점동초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 점동면 청안로 106",
+      "gu": "",
+      "dong": "점동면",
+      "events": [
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661036",
+      "name": "점봉초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 세종로 488-4",
+      "gu": "",
+      "dong": "점봉동",
+      "events": [
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661037",
+      "name": "천남초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 대신면 참샘2길 1",
+      "gu": "",
+      "dong": "대신면",
+      "events": []
+    },
+    {
+      "code": "7661038",
+      "name": "흥천초등학교",
+      "level": "초등학교",
+      "address": "경기도 여주시 흥천면 효자로 155",
+      "gu": "",
+      "dong": "흥천면",
+      "events": [
+        {
+          "date": "2026-11-05",
+          "name": "운동회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7661005",
+      "name": "강천중학교",
+      "level": "중학교",
+      "address": "경기도 여주시 강천면 강문로 594",
+      "gu": "",
+      "dong": "강천면",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2학기 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2학기 정기시험(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 정기시험(2,3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 정기시험(2,3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 정기시험(2,3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-14",
+          "name": "학생회장 선거 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-15",
+          "name": "학생회장 선거 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "학생회장 선거 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "진로체험학습",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "학생회장 선거 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "학생회장 선거 주간",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "공감축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7661012",
+      "name": "대신중학교",
+      "level": "중학교",
+      "address": "경기도 여주시 대신면 여양로 1196",
+      "gu": "",
+      "dong": "대신면",
+      "events": [
+        {
+          "date": "2026-11-03",
+          "name": "IB공개수업",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "사랑의김장",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대입수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 지필평가",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7661006",
+      "name": "상품중학교",
+      "level": "중학교",
+      "address": "경기도 여주시 산북면 상품1길 28",
+      "gu": "",
+      "dong": "산북면",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "name": "2학기 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-12",
+          "name": "2학기 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-13",
+          "name": "2학기 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-02",
+          "name": "2학기 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-03",
+          "name": "2학기 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-04",
+          "name": "2학기 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "동아리축제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7661013",
+      "name": "세정중학교",
+      "level": "중학교",
+      "address": "경기도 여주시 세종대왕면 양화로 697",
+      "gu": "",
+      "dong": "세종대왕면",
+      "events": [
+        {
+          "date": "2026-11-25",
+          "name": "1,2학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "1,2학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "1,2학년 2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "졸업식·종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661072",
+      "name": "세종중학교",
+      "level": "중학교",
+      "address": "경기도 여주시 세종로 204-17",
+      "gu": "",
+      "dong": "교동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대입수능 재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "3학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "3학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "3학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "1, 2학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "1, 2학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "1, 2학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "학생회장 및 부회장 선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "학년의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "학년의 날",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7661014",
+      "name": "여강중학교",
+      "level": "중학교",
+      "address": "경기도 여주시 북내면 여강로 337-8",
+      "gu": "",
+      "dong": "북내면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량 휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "재량 휴업일",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661004",
+      "name": "여주제일중학교",
+      "level": "중학교",
+      "address": "경기도 여주시 가남읍 여주남로 1155-15",
+      "gu": "",
+      "dong": "가남읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-24",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-18",
+          "name": "개척자회장선거",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7661008",
+      "name": "여주중학교",
+      "level": "중학교",
+      "address": "경기도 여주시 세종대왕면 농도원1길 78",
+      "gu": "",
+      "dong": "세종대왕면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력평가",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661094",
+      "name": "여흥중학교",
+      "level": "중학교",
+      "address": "경기도 여주시 청심로 221",
+      "gu": "",
+      "dong": "상동",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "2학기 2차 지필평가(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "수능시험일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-03",
+          "name": "학교재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "예술중점발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-29",
+          "name": "연극제(동아리발표)",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7661009",
+      "name": "이포중학교",
+      "level": "중학교",
+      "address": "경기도 여주시 흥천면 이여로 1075",
+      "gu": "",
+      "dong": "흥천면",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "3학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "3학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "3학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-23",
+          "name": "교육공동체 대토론회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "1, 2학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "1, 2학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "1, 2학년 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "학생자치회장선거",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "꿈끼발표회",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7661010",
+      "name": "점동중학교",
+      "level": "중학교",
+      "address": "경기도 여주시 점동면 청안로 152",
+      "gu": "",
+      "dong": "점동면",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-17",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-18",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-17",
+          "name": "진로체험활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-22",
+          "name": "종합 발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-28",
+          "name": "진급 및 졸업평정회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-01",
+          "name": "동계방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7661015",
+      "name": "창명여자중학교",
+      "level": "중학교",
+      "address": "경기도 여주시 대신면 여양로 1416",
+      "gu": "",
+      "dong": "대신면",
+      "events": [
+        {
+          "date": "2026-12-04",
+          "name": "동아리활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "동아리활동",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7661011",
+      "name": "흥천중학교",
+      "level": "중학교",
+      "address": "경기도 여주시 흥천면 흥천로 308-27",
+      "gu": "",
+      "dong": "흥천면",
+      "events": [
+        {
+          "date": "2026-12-24",
+          "name": "졸업식 및 종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-25",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-26",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-27",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-28",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-29",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-30",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-31",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-01",
+          "name": "겨울방학",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7531056",
+      "name": "경기관광고등학교",
+      "level": "고등학교",
+      "address": "경기도 여주시 대신면 여양로 1416",
+      "gu": "",
+      "dong": "대신면",
+      "events": []
+    },
+    {
+      "code": "7530150",
+      "name": "대신고등학교",
+      "level": "고등학교",
+      "address": "경기도 여주시 대신면 여양로 1196",
+      "gu": "",
+      "dong": "대신면",
+      "events": [
+        {
+          "date": "2026-11-05",
+          "name": "수련활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-06",
+          "name": "수련활동",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-24",
+          "name": "성탄예배",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7531051",
+      "name": "세종고등학교",
+      "level": "고등학교",
+      "address": "경기도 여주시 청심로 221",
+      "gu": "",
+      "dong": "상동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장 재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-25",
+          "name": "교직원 역량 강화의 날",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "입시설명회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 지필평가",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-16",
+          "name": "교직원 역량 강화의 날",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530586",
+      "name": "여강고등학교",
+      "level": "고등학교",
+      "address": "경기도 여주시 북내면 여강로 337-8",
+      "gu": "",
+      "dong": "북내면",
+      "events": []
+    },
+    {
+      "code": "7530191",
+      "name": "여주고등학교",
+      "level": "고등학교",
+      "address": "경기도 여주시 세종로 254-58",
+      "gu": "",
+      "dong": "교동",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-20",
+          "name": "학교장재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-07",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2차 정기시험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-21",
+          "name": "문화체험",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "예술제",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530278",
+      "name": "여주자영농업고등학교",
+      "level": "고등학교",
+      "address": "경기도 여주시 세종대왕면 농도원1길 76",
+      "gu": "",
+      "dong": "세종대왕면",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "name": "창업성과공유발표대회",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험일",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-30",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530583",
+      "name": "여주제일고등학교",
+      "level": "고등학교",
+      "address": "경기도 여주시 가남읍 여주남로 1155-15",
+      "gu": "",
+      "dong": "가남읍",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력시험",
+          "holiday": true
+        }
+      ]
+    },
+    {
+      "code": "7530113",
+      "name": "이포고등학교",
+      "level": "고등학교",
+      "address": "경기도 여주시 흥천면 이여로 1075",
+      "gu": "",
+      "dong": "흥천면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "재량휴업일",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-24",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-25",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2차 지필평가(1,2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "정기고사",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "정기고사",
+          "holiday": false
+        }
+      ]
+    },
+    {
+      "code": "7530836",
+      "name": "점동고등학교",
+      "level": "고등학교",
+      "address": "경기도 여주시 점동면 청안로 152",
+      "gu": "",
+      "dong": "점동면",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "name": "대학수학능력 시험일(재량휴업일)",
+          "holiday": true
+        },
+        {
+          "date": "2026-11-25",
+          "name": "2학기 2차 정기시험(고3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-26",
+          "name": "2학기 2차 정기시험(고3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-27",
+          "name": "2학기 2차 정기시험(고3)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-08",
+          "name": "2학기 2차 지필평가(고1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-09",
+          "name": "2학기 2차 지필평가(고1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-10",
+          "name": "2학기 2차 지필평가(고1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-11",
+          "name": "2학기 2차 지필평가(고1,2)",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-23",
+          "name": "동아리발표회",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2026-12-31",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
+    }
+  ],
+  "source": "나이스 교육정보 개방포털 (학교기본정보, 학사일정)"
+}
