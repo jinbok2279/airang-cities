@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02 08:26:03",
+  "updated_at": "2026-11-03 08:33:42",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -8,25 +8,14 @@
       "desc": "이천시 공공도서관 · 초등(8~13세) 대출 · 최근 1달",
       "books": [
         {
-          "title": "흔한남매 이상한 나라의 고전 읽기",
-          "author": "최재훈 글, 정주연 그림",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/39198/67/cover200/k082138881_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7262240",
-          "isbn": "9791175487840",
-          "loans": 6,
-          "rank": 1,
-          "series": 3
-        },
-        {
           "title": "홍길동전",
           "author": "김남중 글, 윤정주 그림",
           "publisher": "웅진씽크빅",
           "cover": "https://image.aladin.co.kr/product/3373/61/cover/8901161230_1.jpg",
           "link": "https://data4library.kr/bookV?seq=2604280",
           "isbn": "9788901161235",
-          "loans": 5,
-          "rank": 2,
+          "loans": 6,
+          "rank": 1,
           "series": 1
         },
         {
@@ -36,8 +25,41 @@
           "cover": "https://bookthumb-phinf.pstatic.net/cover/060/879/06087954.jpg?type=m1&udate=20150724",
           "link": "https://data4library.kr/bookV?seq=993314",
           "isbn": "9788958284031",
-          "loans": 5,
+          "loans": 6,
+          "rank": 2,
+          "series": 1
+        },
+        {
+          "title": "흔한남매 이상한 나라의 고전 읽기",
+          "author": "최재훈 글, 정주연 그림",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/34773/6/cover200/k412933022_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6951918",
+          "isbn": "9791168418950",
+          "loans": 6,
           "rank": 3,
+          "series": 4
+        },
+        {
+          "title": "레오의 완벽한 초등 생활",
+          "author": "이수용, 정경아",
+          "publisher": "잇츠북어린이",
+          "cover": "https://image.aladin.co.kr/product/27604/32/cover/k472733924_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6060840",
+          "isbn": "9791187903765",
+          "loans": 6,
+          "rank": 4,
+          "series": 1
+        },
+        {
+          "title": "봉주르, 뚜르",
+          "author": "한윤섭 글, 김진화 그림",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/787/83/cover/8954612881_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=1106014",
+          "isbn": "9788954612883",
+          "loans": 5,
+          "rank": 5,
           "series": 1
         },
         {
@@ -48,8 +70,8 @@
           "link": "https://data4library.kr/bookV?seq=6653997",
           "isbn": "9791169236942",
           "loans": 5,
-          "rank": 4,
-          "series": 1
+          "rank": 6,
+          "series": 2
         },
         {
           "title": "흔한남매",
@@ -59,8 +81,8 @@
           "link": "https://data4library.kr/bookV?seq=7255781",
           "isbn": "9791175487802",
           "loans": 5,
-          "rank": 5,
-          "series": 2
+          "rank": 7,
+          "series": 1
         },
         {
           "title": "흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식",
@@ -70,18 +92,7 @@
           "link": "https://data4library.kr/bookV?seq=7290381",
           "isbn": "9791175488458",
           "loans": 5,
-          "rank": 6,
-          "series": 2
-        },
-        {
-          "title": "레오의 완벽한 초등 생활",
-          "author": "이수용, 정경아",
-          "publisher": "잇츠북어린이",
-          "cover": "https://image.aladin.co.kr/product/27604/32/cover/k472733924_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6060840",
-          "isbn": "9791187903765",
-          "loans": 5,
-          "rank": 7,
+          "rank": 8,
           "series": 1
         },
         {
@@ -92,7 +103,7 @@
           "link": "https://data4library.kr/bookV?seq=3413780",
           "isbn": "9791196012618",
           "loans": 5,
-          "rank": 8,
+          "rank": 9,
           "series": 1
         },
         {
@@ -103,7 +114,7 @@
           "link": "https://data4library.kr/bookV?seq=5980686",
           "isbn": "9788901250106",
           "loans": 4,
-          "rank": 9,
+          "rank": 10,
           "series": 1
         },
         {
@@ -114,7 +125,7 @@
           "link": "https://data4library.kr/bookV?seq=5971870",
           "isbn": "9788931381344",
           "loans": 4,
-          "rank": 10,
+          "rank": 11,
           "series": 1
         },
         {
@@ -125,7 +136,7 @@
           "link": "https://data4library.kr/bookV?seq=5932605",
           "isbn": "9788949162072",
           "loans": 4,
-          "rank": 11,
+          "rank": 12,
           "series": 1
         },
         {
@@ -135,17 +146,6 @@
           "cover": "https://image.aladin.co.kr/product/19393/33/cover/8952789261_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5426057",
           "isbn": "9788952789266",
-          "loans": 4,
-          "rank": 12,
-          "series": 1
-        },
-        {
-          "title": "봉주르, 뚜르",
-          "author": "한윤섭 글, 김진화 그림",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/787/83/cover/8954612881_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=1106014",
-          "isbn": "9788954612883",
           "loans": 4,
           "rank": 13,
           "series": 1
@@ -206,23 +206,23 @@
           "series": 1
         },
         {
-          "title": "파마를 했는데 :내일부터 나는 초등학생이다",
-          "author": "박지혜 지음",
-          "publisher": "씨드북",
-          "cover": "https://image.aladin.co.kr/product/26032/37/cover/k832738833_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5929466",
-          "isbn": "9791160513929",
+          "title": "수일이와 수일이",
+          "author": "김우경 지음, 권사우 그림",
+          "publisher": "우리교육",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/001/784/00178428.jpg?type=m1&udate=20160627",
+          "link": "https://data4library.kr/bookV?seq=141269",
+          "isbn": "9788980408337",
           "loans": 4,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "내일은 발명왕 :본격 대결 과학발명 만화",
-          "author": "곰돌이 co., 홍종현",
-          "publisher": "Mirae N 아이세움",
-          "cover": "https://image.aladin.co.kr/product/31098/10/cover/k602831532_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6641125",
-          "isbn": "9791168414976",
+          "title": "내 마음 배송 완료",
+          "author": "송방순, 김진화",
+          "publisher": "논장",
+          "cover": "https://image.aladin.co.kr/product/15619/55/cover/8984143278_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3833265",
+          "isbn": "9788984143272",
           "loans": 4,
           "rank": 20,
           "series": 1
@@ -235,6 +235,17 @@
       "desc": "이천시 공공도서관 · 청소년(14~19세) 대출 · 최근 1달",
       "books": [
         {
+          "title": "코딱지 코지의 벚꽃 소풍 :허정윤 그림책",
+          "author": "글·허정윤",
+          "publisher": "웅진씽크빅",
+          "cover": "https://image.aladin.co.kr/product/31353/67/cover/8901269384_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6659942",
+          "isbn": "9788901269382",
+          "loans": 2,
+          "rank": 1,
+          "series": 1
+        },
+        {
           "title": "사랑의 기술",
           "author": "에리히 프롬 지음, 황문수 옮김",
           "publisher": "문예출판사",
@@ -242,7 +253,7 @@
           "link": "https://data4library.kr/bookV?seq=980978",
           "isbn": "9788931001143",
           "loans": 2,
-          "rank": 1,
+          "rank": 2,
           "series": 1
         },
         {
@@ -253,7 +264,7 @@
           "link": "https://data4library.kr/bookV?seq=7255630",
           "isbn": "9788931506525",
           "loans": 2,
-          "rank": 2,
+          "rank": 3,
           "series": 1
         },
         {
@@ -264,7 +275,7 @@
           "link": "https://data4library.kr/bookV?seq=7269307",
           "isbn": "9788931507997",
           "loans": 2,
-          "rank": 3,
+          "rank": 4,
           "series": 1
         },
         {
@@ -275,7 +286,18 @@
           "link": "https://data4library.kr/bookV?seq=7304760",
           "isbn": "9788932824161",
           "loans": 2,
-          "rank": 4,
+          "rank": 5,
+          "series": 1
+        },
+        {
+          "title": "팩트풀니스 :우리가 세상을 오해하는 10가지 이유와 세상이 생각보다 괜찮은 이유",
+          "author": "한스 로슬링,이창신",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/18456/45/cover/8934985062_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5371595",
+          "isbn": "9788934985068",
+          "loans": 2,
+          "rank": 6,
           "series": 1
         },
         {
@@ -286,7 +308,7 @@
           "link": "https://data4library.kr/bookV?seq=2374415",
           "isbn": "9788937460449",
           "loans": 2,
-          "rank": 5,
+          "rank": 7,
           "series": 1
         },
         {
@@ -297,7 +319,7 @@
           "link": "https://data4library.kr/bookV?seq=2376332",
           "isbn": "9788937462672",
           "loans": 2,
-          "rank": 6,
+          "rank": 8,
           "series": 1
         },
         {
@@ -308,7 +330,7 @@
           "link": "https://data4library.kr/bookV?seq=7215066",
           "isbn": "9788953152489",
           "loans": 2,
-          "rank": 7,
+          "rank": 9,
           "series": 1
         },
         {
@@ -319,7 +341,7 @@
           "link": "https://data4library.kr/bookV?seq=7228303",
           "isbn": "9788953152502",
           "loans": 2,
-          "rank": 8,
+          "rank": 10,
           "series": 1
         },
         {
@@ -330,7 +352,7 @@
           "link": "https://data4library.kr/bookV?seq=3451595",
           "isbn": "9788954646079",
           "loans": 2,
-          "rank": 9,
+          "rank": 11,
           "series": 1
         },
         {
@@ -341,7 +363,18 @@
           "link": "https://data4library.kr/bookV?seq=6567245",
           "isbn": "9788954680004",
           "loans": 2,
-          "rank": 10,
+          "rank": 12,
+          "series": 1
+        },
+        {
+          "title": "저는 많이 보고 있어요 :안미옥 시집",
+          "author": "안미옥",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/31088/28/cover/8954690815_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6640179",
+          "isbn": "9788954690812",
+          "loans": 2,
+          "rank": 13,
           "series": 1
         },
         {
@@ -352,7 +385,7 @@
           "link": "https://data4library.kr/bookV?seq=6749899",
           "isbn": "9788954694575",
           "loans": 2,
-          "rank": 11,
+          "rank": 14,
           "series": 1
         },
         {
@@ -363,7 +396,7 @@
           "link": "https://data4library.kr/bookV?seq=923059",
           "isbn": "9788982738654",
           "loans": 2,
-          "rank": 12,
+          "rank": 15,
           "series": 1
         },
         {
@@ -374,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=6987640",
           "isbn": "9788983949899",
           "loans": 2,
-          "rank": 13,
+          "rank": 16,
           "series": 1
         },
         {
@@ -385,7 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=2970119",
           "isbn": "9788985602853",
           "loans": 2,
-          "rank": 14,
+          "rank": 17,
           "series": 1
         },
         {
@@ -396,7 +429,7 @@
           "link": "https://data4library.kr/bookV?seq=3265201",
           "isbn": "9788993178692",
           "loans": 2,
-          "rank": 15,
+          "rank": 18,
           "series": 1
         },
         {
@@ -407,49 +440,16 @@
           "link": "https://data4library.kr/bookV?seq=7268797",
           "isbn": "9791124500101",
           "loans": 2,
-          "rank": 16,
-          "series": 1
-        },
-        {
-          "title": "안녕이라 그랬어 :김애란 소설",
-          "author": "김애란",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7073819",
-          "isbn": "9791141602376",
-          "loans": 2,
-          "rank": 17,
-          "series": 1
-        },
-        {
-          "title": "우리가 열 번을 나고 죽을 때",
-          "author": "성해나",
-          "publisher": "위즈덤하우스",
-          "cover": "https://image.aladin.co.kr/product/36079/52/cover200/k542037246_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7032604",
-          "isbn": "9791171717330",
-          "loans": 2,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "흔한남매 방방곡곡 한국사",
-          "author": "원작: 흔한남매, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/38882/24/cover200/k102137303_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7241814",
-          "isbn": "9791175487468",
-          "loans": 2,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "(한 번에 끝내는) 중학 세계사",
-          "author": "김상훈 지음",
-          "publisher": "성림북스",
-          "cover": "https://image.aladin.co.kr/product/27958/20/cover/k952734210_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6306307",
-          "isbn": "9791188762255",
+          "title": "클로드 코드 제대로 시작하기 - 최신 클로드 코드 완벽 반영! 바이브 코딩부터 숏폼 자동화, AI 비서, SDD, 하네스 엔지니어링까지, 에이전틱 코딩, AI 에이전트, MCP, PRD, Design.md, 멀티 에이전트, 서브에이전트, 훅, 스킬, 동적 워크플로, 스펙 주도 개발",
+          "author": "주홍철, 황진성 (지은이)",
+          "publisher": "길벗",
+          "cover": "https://image.aladin.co.kr/product/39929/3/cover200/k992130128_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7305444",
+          "isbn": "9791140719914",
           "loans": 2,
           "rank": 20,
           "series": 1
@@ -468,7 +468,7 @@
           "cover": "https://image.aladin.co.kr/product/36808/37/cover200/k082030009_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7095794",
           "isbn": "9791199305304",
-          "loans": 15,
+          "loans": 14,
           "rank": 1,
           "series": 1
         },
@@ -561,17 +561,6 @@
           "series": 1
         },
         {
-          "title": "흔한남매 이상한 나라의 고전 읽기",
-          "author": "최재훈 글, 정주연 그림",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/39198/67/cover200/k082138881_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7262240",
-          "isbn": "9791175487840",
-          "loans": 10,
-          "rank": 10,
-          "series": 1
-        },
-        {
           "title": "데미안",
           "author": "헤르만 헤세, 전영애",
           "publisher": "민음사",
@@ -579,19 +568,19 @@
           "link": "https://data4library.kr/bookV?seq=2374415",
           "isbn": "9788937460449",
           "loans": 9,
-          "rank": 11,
+          "rank": 10,
           "series": 1
         },
         {
-          "title": "그랬다고 적었다 :김애란 산문",
-          "author": "김애란",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/40019/36/cover200/k742130236_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7312549",
-          "isbn": "9791141618575",
+          "title": "흔한남매 이상한 나라의 고전 읽기",
+          "author": "최재훈 글, 정주연 그림",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/32387/47/cover/k882935883_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6756170",
+          "isbn": "9791168416314",
           "loans": 9,
-          "rank": 12,
-          "series": 1
+          "rank": 11,
+          "series": 3
         },
         {
           "title": "흔한남매 이무기 :이해하면 무서운 이야기",
@@ -601,18 +590,7 @@
           "link": "https://data4library.kr/bookV?seq=6900046",
           "isbn": "9791168418516",
           "loans": 9,
-          "rank": 13,
-          "series": 1
-        },
-        {
-          "title": "투명한 나선",
-          "author": "히가시노 게이고, 김선영",
-          "publisher": "교보문고",
-          "cover": "https://image.aladin.co.kr/product/39802/11/cover200/k082130602_3.jpg",
-          "link": "https://data4library.kr/bookV?seq=7297704",
-          "isbn": "9791170614043",
-          "loans": 9,
-          "rank": 14,
+          "rank": 12,
           "series": 1
         },
         {
@@ -623,7 +601,7 @@
           "link": "https://data4library.kr/bookV?seq=7288796",
           "isbn": "9791175772892",
           "loans": 9,
-          "rank": 15,
+          "rank": 13,
           "series": 1
         },
         {
@@ -634,7 +612,7 @@
           "link": "https://data4library.kr/bookV?seq=5971870",
           "isbn": "9788931381344",
           "loans": 8,
-          "rank": 16,
+          "rank": 14,
           "series": 1
         },
         {
@@ -645,18 +623,18 @@
           "link": "https://data4library.kr/bookV?seq=2374505",
           "isbn": "9788937461798",
           "loans": 8,
-          "rank": 17,
+          "rank": 15,
           "series": 1
         },
         {
-          "title": "우리가 케이크를 먹는 방법 :김효은 그림책",
-          "author": "김효은",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/29607/53/cover/8954699987_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6478366",
-          "isbn": "9788954699983",
+          "title": "부루퉁한 스핑키",
+          "author": "윌리엄 스타이그 글 그림, 조은수 옮김",
+          "publisher": "비룡소",
+          "cover": "https://image.aladin.co.kr/product/6/28/cover/8949110040_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=327920",
+          "isbn": "9788949110042",
           "loans": 8,
-          "rank": 18,
+          "rank": 16,
           "series": 1
         },
         {
@@ -667,7 +645,7 @@
           "link": "https://data4library.kr/bookV?seq=2083728",
           "isbn": "9788983711892",
           "loans": 8,
-          "rank": 19,
+          "rank": 17,
           "series": 1
         },
         {
@@ -677,6 +655,28 @@
           "cover": "https://image.aladin.co.kr/product/213/52/cover/8989646480_1.jpg",
           "link": "https://data4library.kr/bookV?seq=2199966",
           "isbn": "9788989646488",
+          "loans": 8,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "다판다 편의점",
+          "author": "강효미 글, 밤코 그림",
+          "publisher": "다산북스",
+          "cover": "https://image.aladin.co.kr/product/39448/53/cover200/k752139497_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7276765",
+          "isbn": "9791130677415",
+          "loans": 8,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "그랬다고 적었다 :김애란 산문",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/40019/36/cover200/k742130236_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7312549",
+          "isbn": "9791141618575",
           "loans": 8,
           "rank": 20,
           "series": 1
