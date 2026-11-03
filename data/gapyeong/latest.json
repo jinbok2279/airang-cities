@@ -1,9 +1,9 @@
 {
   "region": "가평군",
-  "updated_at": "2026-11-03 08:51:24",
+  "updated_at": "2026-11-04 08:51:09",
   "period": {
-    "from": "20261103",
-    "to": "20270102"
+    "from": "20261104",
+    "to": "20270103"
   },
   "school_count": 26,
   "public_holidays": [
@@ -288,6 +288,38 @@
       "date": "2027-01-02",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "대성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-03",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상색초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-03",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-03",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-03",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -365,6 +397,11 @@
         },
         {
           "date": "2027-01-02",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-03",
           "name": "겨울방학",
           "holiday": true
         }
@@ -462,6 +499,11 @@
           "date": "2027-01-02",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-03",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -492,6 +534,11 @@
           "date": "2027-01-02",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-03",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -503,11 +550,6 @@
       "gu": "",
       "dong": "상면",
       "events": [
-        {
-          "date": "2026-11-03",
-          "name": "가평군수기 축구대회",
-          "holiday": false
-        },
         {
           "date": "2026-11-27",
           "name": "패밀리 및 학부모 바자회",
@@ -583,6 +625,11 @@
         },
         {
           "date": "2027-01-02",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-03",
           "name": "겨울방학",
           "holiday": true
         }
