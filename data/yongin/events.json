@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03 06:45:41",
+ "updated_at": "2026-11-04 06:44:12",
  "source": "용인시청 문화달력 · 용인시도서관 문화행사",
  "city": [
   {
@@ -185,6 +185,19 @@
    "free": true,
    "src": "city",
    "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16936"
+  },
+  {
+   "id": "16996",
+   "title": "제 6회 상상포럼 < 문화예술을 통한 용인시민의 감정>",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "place": "이벤트홀",
+   "time": "16:00~18:00",
+   "grade": "전체관람등급",
+   "price": "무료",
+   "free": true,
+   "src": "city",
+   "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16996"
   },
   {
    "id": "16975",
@@ -411,6 +424,25 @@
  ],
  "lib": [
   {
+   "id": "L136381",
+   "title": "[메이커] 수지도서관X경희대 메이커 AI·SW교육 「핑퐁 로봇」",
+   "lib": "수지도서관",
+   "target": "초등 (초등 4-6학년 15명)",
+   "place": "수지도서관 3층 메이커스페이스",
+   "start": "2026-11-05",
+   "end": "2026-11-26",
+   "period": "2026.11.05(목) ~ 2026.11.26(목) 15:00 ~ 17:00 4회",
+   "applyStart": "2026-10-20",
+   "applyEnd": "2026-11-04",
+   "apply": "2026.10.20(화) 10:00 ~ 2026.11.04(수) 13:00",
+   "count": "11/15",
+   "status": "접수중",
+   "btn": "신청하기",
+   "free": true,
+   "src": "lib",
+   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=136381"
+  },
+  {
    "id": "L136961",
    "title": "[동백] 11월 재능기부 프로그램 <동화야, 떡이랑 놀아요>",
    "lib": "동백도서관",
@@ -422,7 +454,7 @@
    "applyStart": "2026-10-26",
    "applyEnd": "2026-11-04",
    "apply": "2026.10.26(월) 10:00 ~ 2026.11.04(수) 18:00",
-   "count": "8/10",
+   "count": "9/10",
    "status": "접수중",
    "btn": "신청하기",
    "free": true,
@@ -449,25 +481,6 @@
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=136583"
   },
   {
-   "id": "L136621",
-   "title": "성복도서관 11월 재능기부 프로그램 「재미있게 읽고 바로 쓰는 동화책 영어회화」- (매주 일) 10:30 (초1-2학년)",
-   "lib": "성복도서관",
-   "target": "초등 (초등 1-2학년(2018년~2019년생) )",
-   "place": "성복도서관 지하1층 다목적실",
-   "start": "2026-11-15",
-   "end": "2026-11-29",
-   "period": "2026.11.15(일) ~ 2026.11.29(일) 10:30 ~ 11:30 3회",
-   "applyStart": "2026-11-03",
-   "applyEnd": "2026-11-10",
-   "apply": "2026.11.03(화) 10:00 ~ 2026.11.10(화) 15:00",
-   "count": "0/10",
-   "status": "접수전",
-   "btn": "",
-   "free": true,
-   "src": "lib",
-   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=136621"
-  },
-  {
    "id": "L136741",
    "title": "[수지] 11월 독서문화 프로그램(아동) 「생각이 자라는 그림책 토론 교실」",
    "lib": "수지도서관",
@@ -479,9 +492,9 @@
    "applyStart": "2026-11-03",
    "applyEnd": "2026-11-11",
    "apply": "2026.11.03(화) 10:00 ~ 2026.11.11(수) 18:00",
-   "count": "0/16",
-   "status": "접수전",
-   "btn": "",
+   "count": "10/16",
+   "status": "접수중",
+   "btn": "신청하기",
    "free": true,
    "src": "lib",
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=136741"
@@ -498,31 +511,12 @@
    "applyStart": "2026-11-03",
    "applyEnd": "2026-11-12",
    "apply": "2026.11.03(화) 10:00 ~ 2026.11.12(목) 18:00",
-   "count": "0/15",
-   "status": "접수전",
-   "btn": "",
+   "count": "10/15",
+   "status": "접수중",
+   "btn": "신청하기",
    "free": true,
    "src": "lib",
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137041"
-  },
-  {
-   "id": "L137042",
-   "title": "[대면] 저학년 주말과학 <밤에도 보이는 생물 발광> 초등1~3학년 *학생ID로 접수*",
-   "lib": "청덕도서관",
-   "target": "초등 (초등 1-3학년 15명)",
-   "place": "3층 시청각실",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "period": "2026.11.14(토) 12:00 ~ 13:45 1회",
-   "applyStart": "2026-11-03",
-   "applyEnd": "2026-11-12",
-   "apply": "2026.11.03(화) 10:00 ~ 2026.11.12(목) 18:00",
-   "count": "0/15",
-   "status": "접수전",
-   "btn": "",
-   "free": true,
-   "src": "lib",
-   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137042"
   },
   {
    "id": "L137121",
@@ -536,9 +530,9 @@
    "applyStart": "2026-11-03",
    "applyEnd": "2026-11-13",
    "apply": "2026.11.03(화) 10:00 ~ 2026.11.13(금) 18:00",
-   "count": "0/12",
-   "status": "접수전",
-   "btn": "",
+   "count": "6/12",
+   "status": "접수중",
+   "btn": "신청하기",
    "free": true,
    "src": "lib",
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137121"
