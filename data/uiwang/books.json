@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03 08:46:42",
+  "updated_at": "2026-11-04 08:38:59",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -27,7 +27,18 @@
           "isbn": "9788936448370",
           "loans": 9,
           "rank": 2,
-          "series": 4
+          "series": 3
+        },
+        {
+          "title": "내가 할배냥",
+          "author": "홍민정 글, 하민석 그림",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/35796/41/cover200/k622036459_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7018160",
+          "isbn": "9791173321009",
+          "loans": 7,
+          "rank": 3,
+          "series": 1
         },
         {
           "title": "놓지 마 과학!",
@@ -37,19 +48,8 @@
           "link": "https://data4library.kr/bookV?seq=6001288",
           "isbn": "9791191425987",
           "loans": 7,
-          "rank": 3,
-          "series": 5
-        },
-        {
-          "title": "내가 할배냥",
-          "author": "홍민정 글, 하민석 그림",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/35796/41/cover200/k622036459_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7018160",
-          "isbn": "9791173321009",
-          "loans": 6,
           "rank": 4,
-          "series": 1
+          "series": 5
         },
         {
           "title": "에그박사 :Egg&bugs",
@@ -60,7 +60,7 @@
           "isbn": "9791173476259",
           "loans": 6,
           "rank": 5,
-          "series": 1
+          "series": 2
         },
         {
           "title": "우정 챌린지",
@@ -206,23 +206,23 @@
           "series": 1
         },
         {
+          "title": "마인크래프트 서바이벌 가이드 :마인크래프트 탐험 가이드",
+          "author": "Mojang AB, 역자: 김성원",
+          "publisher": "영진닷컴",
+          "cover": "",
+          "link": "https://data4library.kr/bookV?seq=5474637",
+          "isbn": "9788931459951",
+          "loans": 4,
+          "rank": 19,
+          "series": 1
+        },
+        {
           "title": "수호신 키우기",
           "author": "히로시마 레이코 글, 황세정 옮김",
           "publisher": "김영사",
           "cover": "https://image.aladin.co.kr/product/33585/43/cover/893493669x_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6848771",
           "isbn": "9788934936695",
-          "loans": 4,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "위풍당당 여우 꼬리",
-          "author": "손원평 글, 만물상 그림",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/28183/3/cover/8936448099_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6323714",
-          "isbn": "9788936448097",
           "loans": 4,
           "rank": 20,
           "series": 1
@@ -479,8 +479,19 @@
           "cover": "https://image.aladin.co.kr/product/36101/66/cover200/893643974x_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7035395",
           "isbn": "9788936439743",
-          "loans": 24,
+          "loans": 23,
           "rank": 2,
+          "series": 1
+        },
+        {
+          "title": "안녕이라 그랬어 :김애란 소설",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7073819",
+          "isbn": "9791141602376",
+          "loans": 22,
+          "rank": 3,
           "series": 1
         },
         {
@@ -491,19 +502,8 @@
           "link": "https://data4library.kr/bookV?seq=6863020",
           "isbn": "9791168418011",
           "loans": 22,
-          "rank": 3,
-          "series": 4
-        },
-        {
-          "title": "안녕이라 그랬어 :김애란 소설",
-          "author": "김애란",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7073819",
-          "isbn": "9791141602376",
-          "loans": 21,
           "rank": 4,
-          "series": 1
+          "series": 4
         },
         {
           "title": "절창 :구병모 장편소설",
@@ -512,7 +512,7 @@
           "cover": "https://image.aladin.co.kr/product/37172/36/cover200/k662031678_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7149374",
           "isbn": "9791141602451",
-          "loans": 20,
+          "loans": 21,
           "rank": 5,
           "series": 1
         },
@@ -528,25 +528,14 @@
           "series": 4
         },
         {
-          "title": "세네카, 오늘을 빼앗기고 있는 당신에게",
-          "author": "루키우스 안나이우스 세네카",
-          "publisher": "논픽션",
-          "cover": "https://shopping-phinf.pstatic.net/main_6056845/60568459498.20260623201840.jpg",
-          "link": "https://data4library.kr/bookV?seq=7288912",
-          "isbn": "9791199489561",
-          "loans": 19,
-          "rank": 7,
-          "series": 1
-        },
-        {
           "title": "프로젝트 헤일메리",
           "author": "앤디 위어 지음, 강동혁 옮김",
           "publisher": "RHK(알에이치코리아)",
           "cover": "https://image.aladin.co.kr/product/27045/43/cover/8925588730_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5969086",
           "isbn": "9788925588735",
-          "loans": 18,
-          "rank": 8,
+          "loans": 19,
+          "rank": 7,
           "series": 1
         },
         {
@@ -556,7 +545,18 @@
           "cover": "https://shopping-phinf.pstatic.net/main_6041993/60419931459.20260612143521.jpg",
           "link": "https://data4library.kr/bookV?seq=7282009",
           "isbn": "9788936439965",
-          "loans": 18,
+          "loans": 19,
+          "rank": 8,
+          "series": 1
+        },
+        {
+          "title": "세네카, 오늘을 빼앗기고 있는 당신에게",
+          "author": "루키우스 안나이우스 세네카",
+          "publisher": "논픽션",
+          "cover": "https://shopping-phinf.pstatic.net/main_6056845/60568459498.20260623201840.jpg",
+          "link": "https://data4library.kr/bookV?seq=7288912",
+          "isbn": "9791199489561",
+          "loans": 19,
           "rank": 9,
           "series": 1
         },
@@ -605,6 +605,17 @@
           "series": 1
         },
         {
+          "title": "빵충 사육 준수 사항",
+          "author": "김혜영 (지은이)",
+          "publisher": "안전가옥",
+          "cover": "https://image.aladin.co.kr/product/39872/66/cover200/k242130313_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7301611",
+          "isbn": "9791194891178",
+          "loans": 18,
+          "rank": 14,
+          "series": 1
+        },
+        {
           "title": "찌니주의보 :정지아 장편소설",
           "author": "정지아",
           "publisher": "창비",
@@ -612,7 +623,7 @@
           "link": "https://data4library.kr/bookV?seq=7312107",
           "isbn": "9788936439996",
           "loans": 17,
-          "rank": 14,
+          "rank": 15,
           "series": 1
         },
         {
@@ -623,7 +634,7 @@
           "link": "https://data4library.kr/bookV?seq=7297888",
           "isbn": "9791168344044",
           "loans": 17,
-          "rank": 15,
+          "rank": 16,
           "series": 1
         },
         {
@@ -633,17 +644,6 @@
           "cover": "https://shopping-phinf.pstatic.net/main_6058347/60583478236.20260624104607.jpg",
           "link": "https://data4library.kr/bookV?seq=7289879",
           "isbn": "9791193939666",
-          "loans": 17,
-          "rank": 16,
-          "series": 1
-        },
-        {
-          "title": "빵충 사육 준수 사항",
-          "author": "김혜영 (지은이)",
-          "publisher": "안전가옥",
-          "cover": "https://image.aladin.co.kr/product/39872/66/cover200/k242130313_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7301611",
-          "isbn": "9791194891178",
           "loans": 17,
           "rank": 17,
           "series": 1
