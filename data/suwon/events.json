@@ -1,7 +1,21 @@
 {
- "updated_at": "2026-11-03 06:48:04",
+ "updated_at": "2026-11-04 06:54:39",
  "source": "수원문화재단 행사·교육정보",
  "city": [
+  {
+   "id": "GSM000217",
+   "title": "ASSA 재즈페스티벌",
+   "start": "2026-11-04",
+   "end": "2026-11-04",
+   "place": "경기아트센터 소극장",
+   "time": "",
+   "grade": "7세 이상 관람가",
+   "price": "전석 무료",
+   "free": true,
+   "kind": "기획공연",
+   "src": "ggac",
+   "link": "https://www.ggac.or.kr/ggac/M0000155/show/view.do?idx=SM000217"
+  },
   {
    "id": "S3059",
    "title": "수원 로케이션 DB 전시 · 체험",
@@ -18,35 +32,6 @@
    "book": ""
   },
   {
-   "id": "S2932",
-   "title": "정조테마공연장 2026 마당놀이터",
-   "start": "2026-03-21",
-   "end": "2026-11-07",
-   "place": "정조테마공연장 어울마당",
-   "time": "13:00~17:30",
-   "grade": "",
-   "price": "무료",
-   "free": true,
-   "kind": "행사",
-   "src": "swcf",
-   "link": "https://www.swcf.or.kr/?p=29_view&idx=2932&listUrl=29&curYear=2026&curMonth=11&searchDetail_flag=",
-   "book": ""
-  },
-  {
-   "id": "GSM000217",
-   "title": "ASSA 재즈페스티벌",
-   "start": "2026-11-04",
-   "end": "2026-11-04",
-   "place": "경기아트센터 소극장",
-   "time": "",
-   "grade": "7세 이상 관람가",
-   "price": "전석 무료",
-   "free": true,
-   "kind": "기획공연",
-   "src": "ggac",
-   "link": "https://www.ggac.or.kr/ggac/M0000155/show/view.do?idx=SM000217"
-  },
-  {
    "id": "KPF300275",
    "title": "신데렐라 [수원]",
    "start": "2026-11-04",
@@ -60,6 +45,21 @@
    "src": "kopis",
    "link": "https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF300275",
    "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300275_260907_134905.jpg"
+  },
+  {
+   "id": "S2932",
+   "title": "정조테마공연장 2026 마당놀이터",
+   "start": "2026-03-21",
+   "end": "2026-11-07",
+   "place": "정조테마공연장 어울마당",
+   "time": "13:00~17:30",
+   "grade": "",
+   "price": "무료",
+   "free": true,
+   "kind": "행사",
+   "src": "swcf",
+   "link": "https://www.swcf.or.kr/?p=29_view&idx=2932&listUrl=29&curYear=2026&curMonth=11&searchDetail_flag=",
+   "book": ""
   },
   {
    "id": "KPF296623",
