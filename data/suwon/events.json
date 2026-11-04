@@ -1,21 +1,7 @@
 {
- "updated_at": "2026-11-04 06:54:39",
+ "updated_at": "2026-11-05 06:53:57",
  "source": "수원문화재단 행사·교육정보",
  "city": [
-  {
-   "id": "GSM000217",
-   "title": "ASSA 재즈페스티벌",
-   "start": "2026-11-04",
-   "end": "2026-11-04",
-   "place": "경기아트센터 소극장",
-   "time": "",
-   "grade": "7세 이상 관람가",
-   "price": "전석 무료",
-   "free": true,
-   "kind": "기획공연",
-   "src": "ggac",
-   "link": "https://www.ggac.or.kr/ggac/M0000155/show/view.do?idx=SM000217"
-  },
   {
    "id": "S3059",
    "title": "수원 로케이션 DB 전시 · 체험",
@@ -450,6 +436,20 @@
    "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302540_261006_142824.jpg"
   },
   {
+   "id": "GSM000226",
+   "title": "가족음악극 <붓바람>",
+   "start": "2026-12-23",
+   "end": "2026-12-24",
+   "place": "경기아트센터 소극장",
+   "time": "",
+   "grade": "3세 이상 관람가(2024년생 이상 포함)",
+   "price": "",
+   "free": false,
+   "kind": "기획공연",
+   "src": "ggac",
+   "link": "https://www.ggac.or.kr/ggac/M0000155/show/view.do?idx=SM000226"
+  },
+  {
    "id": "KPF290130",
    "title": "백설공주 [수원]",
    "start": "2026-12-25",
@@ -525,25 +525,6 @@
   }
  ],
  "lib": [
-  {
-   "id": "E2977",
-   "title": "국악 놀이터",
-   "lib": "정조테마공연장 지하1층 연습실",
-   "target": "어린이집·유치원 단체·5세~7세",
-   "place": "정조테마공연장 지하1층 연습실",
-   "start": "2026-06-18",
-   "end": "2026-11-12",
-   "period": "2026-06-18 ~ 2026-11-12",
-   "applyStart": "2026-05-20",
-   "applyEnd": "2026-11-04",
-   "apply": "2026-05-20 14:00 ~ 2026-11-04 17:00",
-   "count": "",
-   "status": "접수중",
-   "price": "4,000원 (1인)",
-   "free": false,
-   "src": "swcf",
-   "link": "https://www.swcf.or.kr/?p=30_view&idx=2977&listUrl=30&curYear=2026&curMonth=11&searchDetail_flag="
-  },
   {
    "id": "E3016",
    "title": "수원전통문화관 주말 상설 체험 프로그램 <수라간 맛보기 : 간식편>",
