@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04 06:44:12",
+ "updated_at": "2026-11-05 06:47:26",
  "source": "용인시청 문화달력 · 용인시도서관 문화행사",
  "city": [
   {
@@ -159,6 +159,19 @@
    "free": true,
    "src": "city",
    "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16978"
+  },
+  {
+   "id": "16997",
+   "title": "2026 단국대학교 무용과 제 37회 작품 발표회",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "place": "용인포은아트홀",
+   "time": "19시",
+   "grade": "전체관람등급",
+   "price": "전석무료",
+   "free": true,
+   "src": "city",
+   "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16997"
   },
   {
    "id": "16986",
@@ -424,48 +437,10 @@
  ],
  "lib": [
   {
-   "id": "L136381",
-   "title": "[메이커] 수지도서관X경희대 메이커 AI·SW교육 「핑퐁 로봇」",
-   "lib": "수지도서관",
-   "target": "초등 (초등 4-6학년 15명)",
-   "place": "수지도서관 3층 메이커스페이스",
-   "start": "2026-11-05",
-   "end": "2026-11-26",
-   "period": "2026.11.05(목) ~ 2026.11.26(목) 15:00 ~ 17:00 4회",
-   "applyStart": "2026-10-20",
-   "applyEnd": "2026-11-04",
-   "apply": "2026.10.20(화) 10:00 ~ 2026.11.04(수) 13:00",
-   "count": "11/15",
-   "status": "접수중",
-   "btn": "신청하기",
-   "free": true,
-   "src": "lib",
-   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=136381"
-  },
-  {
-   "id": "L136961",
-   "title": "[동백] 11월 재능기부 프로그램 <동화야, 떡이랑 놀아요>",
-   "lib": "동백도서관",
-   "target": "유아 가족 (6~7세 가족 10팀)",
-   "place": "지하1층 시청각실",
-   "start": "2026-11-12",
-   "end": "2026-11-26",
-   "period": "2026.11.12(목) ~ 2026.11.26(목) 16:00 ~ 17:00 3회",
-   "applyStart": "2026-10-26",
-   "applyEnd": "2026-11-04",
-   "apply": "2026.10.26(월) 10:00 ~ 2026.11.04(수) 18:00",
-   "count": "9/10",
-   "status": "접수중",
-   "btn": "신청하기",
-   "free": true,
-   "src": "lib",
-   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=136961"
-  },
-  {
    "id": "L136583",
    "title": "[독서문화] 찾아가는 AI 아카데미 - 어린이 AI 아카데미(*노트북 또는 태블릿, Canva 계정 필수 준비)",
    "lib": "모현도서관",
-   "target": "초등 (초등학교 3~6학년 12명(대상 확대운영))",
+   "target": "초등 (초등학교 1~6학년 12명(대상 확대운영))",
    "place": "모현도서관 2층 시청각실",
    "start": "2026-11-11",
    "end": "2026-11-11",
@@ -473,7 +448,7 @@
    "applyStart": "2026-10-19",
    "applyEnd": "2026-11-06",
    "apply": "2026.10.19(월) 10:00 ~ 2026.11.06(금) 18:00",
-   "count": "2/12",
+   "count": "6/12",
    "status": "접수중",
    "btn": "신청하기",
    "free": true,
@@ -498,25 +473,6 @@
    "free": true,
    "src": "lib",
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=136741"
-  },
-  {
-   "id": "L137041",
-   "title": "[대면] 고학년 주말과학 <옥수수의 대변신> 초등4~6학년 *학생ID로 접수*",
-   "lib": "청덕도서관",
-   "target": "초등 (초등 4-6학년 15명)",
-   "place": "3층 시청각실",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "period": "2026.11.14(토) 10:00 ~ 11:45 1회",
-   "applyStart": "2026-11-03",
-   "applyEnd": "2026-11-12",
-   "apply": "2026.11.03(화) 10:00 ~ 2026.11.12(목) 18:00",
-   "count": "10/15",
-   "status": "접수중",
-   "btn": "신청하기",
-   "free": true,
-   "src": "lib",
-   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137041"
   },
   {
    "id": "L137121",
