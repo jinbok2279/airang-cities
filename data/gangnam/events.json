@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04 07:03:13",
+ "updated_at": "2026-11-05 07:06:27",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -91,6 +91,21 @@
    "src": "kopis",
    "link": "https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF300753",
    "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300753_260911_172631.jpg"
+  },
+  {
+   "id": "KPF305384",
+   "title": "호두까기인형 [서울 강남]",
+   "start": "2026-12-26",
+   "end": "2026-12-26",
+   "place": "강남구민회관",
+   "time": "",
+   "grade": "아동공연",
+   "price": "",
+   "free": false,
+   "kind": "뮤지컬",
+   "src": "kopis",
+   "link": "https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF305384",
+   "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305384_261104_103133.png"
   }
  ],
  "lib": [
@@ -100,10 +115,10 @@
    "lib": "서울특별시 강남구 언주로107길 4 2층 (역삼동) 2층 서울형 키즈카페",
    "target": "유아",
    "place": "서울특별시 강남구 언주로107길 4 2층 (역삼동) 2층 서울형 키즈카페",
-   "start": "2026-11-03",
+   "start": "2026-11-04",
    "end": "2026-11-16",
    "period": "",
-   "applyStart": "2026-11-03",
+   "applyStart": "2026-11-04",
    "applyEnd": "2026-11-16",
    "apply": "",
    "count": "",
@@ -120,10 +135,10 @@
    "lib": "서울특별시 강남구 남부순환로391길 25 강남성은교회 2층 (대치동)",
    "target": "유아",
    "place": "서울특별시 강남구 남부순환로391길 25 강남성은교회 2층 (대치동)",
-   "start": "2026-11-03",
+   "start": "2026-11-04",
    "end": "2026-11-16",
    "period": "",
-   "applyStart": "2026-11-03",
+   "applyStart": "2026-11-04",
    "applyEnd": "2026-11-16",
    "apply": "",
    "count": "",
@@ -275,26 +290,6 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261009162254061666"
   },
   {
-   "id": "RS261020100617913352",
-   "title": "(주말가족) 대모산 11월 행복한 숲",
-   "lib": "대모산도시자연공원",
-   "target": "가족((보호자+어린이))",
-   "place": "대모산도시자연공원",
-   "start": "2026-11-01",
-   "end": "2026-11-30",
-   "period": "",
-   "applyStart": "2026-10-21",
-   "applyEnd": "2026-11-30",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "교육체험",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261020100617913352"
-  },
-  {
    "id": "RS261020094830256708",
    "title": "대모산 11월 행복한 숲",
    "lib": "대모산도시자연공원",
@@ -313,6 +308,26 @@
    "src": "yeyak",
    "kind": "교육체험",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261020094830256708"
+  },
+  {
+   "id": "RS261020100617913352",
+   "title": "(주말가족) 대모산 11월 행복한 숲",
+   "lib": "대모산도시자연공원",
+   "target": "가족((보호자+어린이))",
+   "place": "대모산도시자연공원",
+   "start": "2026-11-01",
+   "end": "2026-11-30",
+   "period": "",
+   "applyStart": "2026-10-21",
+   "applyEnd": "2026-11-30",
+   "apply": "",
+   "count": "",
+   "status": "접수중",
+   "btn": "",
+   "free": true,
+   "src": "yeyak",
+   "kind": "교육체험",
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261020100617913352"
   }
  ],
  "adult": [
