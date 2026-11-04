@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04 08:37:49",
+  "updated_at": "2026-11-05 08:42:01",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -14,20 +14,9 @@
           "cover": "https://image.aladin.co.kr/product/39875/33/cover200/k292130411_2.jpg",
           "link": "https://data4library.kr/bookV?seq=7302047",
           "isbn": "9791175488496",
-          "loans": 7,
+          "loans": 6,
           "rank": 1,
           "series": 1
-        },
-        {
-          "title": "흔한남매 이무기 :이해하면 무서운 이야기",
-          "author": "원작: 흔한남매, 도니패밀리",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/32095/72/cover/k502834901_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6735778",
-          "isbn": "9791168415577",
-          "loans": 5,
-          "rank": 2,
-          "series": 3
         },
         {
           "title": "외로움 탐지견 고독 - 2026년 제32회 황금도깨비상 대상 수상작",
@@ -37,19 +26,30 @@
           "link": "https://data4library.kr/bookV?seq=7344105",
           "isbn": "9788949122137",
           "loans": 4,
-          "rank": 3,
+          "rank": 2,
           "series": 1
+        },
+        {
+          "title": "흔한남매 이무기 :이해하면 무서운 이야기",
+          "author": "원작: 흔한남매, 도니패밀리",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/32095/72/cover/k502834901_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6735778",
+          "isbn": "9791168415577",
+          "loans": 4,
+          "rank": 3,
+          "series": 2
         },
         {
           "title": "흔한남매",
           "author": "원작: 흔한남매, 유난희",
           "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/34618/90/cover200/k522933982_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6945239",
-          "isbn": "9791168418844",
+          "cover": "https://image.aladin.co.kr/product/36208/50/cover200/k712038303_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7046196",
+          "isbn": "9791173473968",
           "loans": 4,
           "rank": 4,
-          "series": 5
+          "series": 4
         },
         {
           "title": "고양이 해결사 깜냥",
@@ -74,17 +74,6 @@
           "series": 3
         },
         {
-          "title": "프랑켄슈타인",
-          "author": "원작: 메리 셸리, 윤현우",
-          "publisher": "은하수미디어",
-          "cover": "https://image.aladin.co.kr/product/38390/91/cover200/8965796261_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7205658",
-          "isbn": "9788965796268",
-          "loans": 3,
-          "rank": 7,
-          "series": 1
-        },
-        {
           "title": "머리카락이 싹둑",
           "author": "강정연 글, 차야다 그림",
           "publisher": "다산북스",
@@ -92,7 +81,7 @@
           "link": "https://data4library.kr/bookV?seq=7226566",
           "isbn": "9791130674988",
           "loans": 3,
-          "rank": 8,
+          "rank": 7,
           "series": 1
         },
         {
@@ -103,18 +92,7 @@
           "link": "https://data4library.kr/bookV?seq=7276765",
           "isbn": "9791130677415",
           "loans": 3,
-          "rank": 9,
-          "series": 1
-        },
-        {
-          "title": "저주받은 고양이 펠리스",
-          "author": "김명철 (지은이), 최연주 (그림)",
-          "publisher": "다산책방",
-          "cover": "https://image.aladin.co.kr/product/39985/12/cover200/k872130735_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7307872",
-          "isbn": "9791130682280",
-          "loans": 3,
-          "rank": 10,
+          "rank": 8,
           "series": 1
         },
         {
@@ -125,7 +103,7 @@
           "link": "https://data4library.kr/bookV?seq=7304353",
           "isbn": "9791130682341",
           "loans": 3,
-          "rank": 11,
+          "rank": 9,
           "series": 1
         },
         {
@@ -136,7 +114,7 @@
           "link": "https://data4library.kr/bookV?seq=7065482",
           "isbn": "9791158365325",
           "loans": 3,
-          "rank": 12,
+          "rank": 10,
           "series": 2
         },
         {
@@ -147,8 +125,19 @@
           "link": "https://data4library.kr/bookV?seq=6356697",
           "isbn": "9791168440012",
           "loans": 3,
-          "rank": 13,
-          "series": 3
+          "rank": 11,
+          "series": 2
+        },
+        {
+          "title": "빨간내복야코 안 읽으면 완전 위험한 과학책",
+          "author": "빨간내복야코 원작, 이영아 그림",
+          "publisher": "위즈덤하우스",
+          "cover": "https://image.aladin.co.kr/product/36885/77/cover200/k712030607_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7102995",
+          "isbn": "9791171714469",
+          "loans": 3,
+          "rank": 12,
+          "series": 1
         },
         {
           "title": "슈뻘맨의 숨은 과학 찾기 :엉뚱 도전 속에 숨은 과학 상식",
@@ -158,7 +147,7 @@
           "link": "https://data4library.kr/bookV?seq=6968667",
           "isbn": "9791173111686",
           "loans": 3,
-          "rank": 14,
+          "rank": 13,
           "series": 1
         },
         {
@@ -169,7 +158,7 @@
           "link": "https://data4library.kr/bookV?seq=7182532",
           "isbn": "9791175483972",
           "loans": 3,
-          "rank": 15,
+          "rank": 14,
           "series": 2
         },
         {
@@ -180,7 +169,7 @@
           "link": "https://data4library.kr/bookV?seq=7301115",
           "isbn": "9791175488489",
           "loans": 3,
-          "rank": 16,
+          "rank": 15,
           "series": 1
         },
         {
@@ -191,7 +180,7 @@
           "link": "https://data4library.kr/bookV?seq=7315964",
           "isbn": "9791175488731",
           "loans": 3,
-          "rank": 17,
+          "rank": 16,
           "series": 1
         },
         {
@@ -202,28 +191,39 @@
           "link": "https://data4library.kr/bookV?seq=7344394",
           "isbn": "9791175488885",
           "loans": 3,
+          "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "The First Day of School (Paperback) - Ready to Read Level 1",
+          "author": "Margaret McNamara (지은이), 마이크 고든 (그림)",
+          "publisher": "Aladdin",
+          "cover": "https://image.aladin.co.kr/product/99/96/cover/0689869142_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2441340",
+          "isbn": "9780689869143",
+          "loans": 2,
           "rank": 18,
           "series": 1
         },
         {
-          "title": "그리스 로마 신화",
-          "author": "김민희,정보 강대진",
-          "publisher": "아울북(북이십일 아울북)",
-          "cover": "https://shopping-phinf.pstatic.net/main_6056845/60568459336.20260623201837.jpg",
-          "link": "https://data4library.kr/bookV?seq=7288842",
-          "isbn": "9791176610063",
-          "loans": 3,
+          "title": "Fall leaf project",
+          "author": "written by Margaret McNamara, illustrated by Mike Gordon",
+          "publisher": "Simon&SchusterMerchandise&",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/028/191/02819177.jpg?type=m1&udate=20141001",
+          "link": "https://data4library.kr/bookV?seq=2709307",
+          "isbn": "9781416915379",
+          "loans": 2,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "설민석의 삼국지 대모험",
-          "author": "원작: 나관중, 만화: 스튜디오 담",
-          "publisher": "Dankkum i(단꿈아이)",
-          "cover": "https://image.aladin.co.kr/product/36458/9/cover200/k792039713_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7065998",
-          "isbn": "9791193031551",
-          "loans": 3,
+          "title": "호랑이 줄무늬 왜 있을까?",
+          "author": "박주연, 윤서희",
+          "publisher": "웅진씽크빅",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/062/149/06214988.jpg?type=m1&udate=20150721",
+          "link": "https://data4library.kr/bookV?seq=2379446",
+          "isbn": "9788901104249",
+          "loans": 2,
           "rank": 20,
           "series": 1
         }
@@ -290,25 +290,14 @@
           "series": 1
         },
         {
-          "title": "파워 바이블",
-          "author": "만화: 김신중, 구성: 염숙자",
-          "publisher": "대한교과서",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/021/021/02102199.jpg?type=m1&udate=20100414",
-          "link": "https://data4library.kr/bookV?seq=2383395",
-          "isbn": "9788937841187",
+          "title": "사계 나츠코 :이츠키 히로유키 장편소설",
+          "author": "이츠키 히로유키, 양윤옥",
+          "publisher": "지식여행",
+          "cover": "https://image.aladin.co.kr/product/4932/22/cover/8961092286_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2618014",
+          "isbn": "9788961092289",
           "loans": 2,
           "rank": 6,
-          "series": 1
-        },
-        {
-          "title": "(하루에 떠나는) 철학여행",
-          "author": "김영범 지음",
-          "publisher": "페퍼민트",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/069/646/06964689.jpg?type=m1&udate=20150718",
-          "link": "https://data4library.kr/bookV?seq=2376922",
-          "isbn": "9788997976010",
-          "loans": 2,
-          "rank": 7,
           "series": 1
         },
         {
@@ -319,7 +308,7 @@
           "link": "https://data4library.kr/bookV?seq=6892205",
           "isbn": "9791160736816",
           "loans": 2,
-          "rank": 8,
+          "rank": 7,
           "series": 1
         },
         {
@@ -330,7 +319,7 @@
           "link": "https://data4library.kr/bookV?seq=6650932",
           "isbn": "9791167550972",
           "loans": 2,
-          "rank": 9,
+          "rank": 8,
           "series": 1
         },
         {
@@ -341,7 +330,7 @@
           "link": "https://data4library.kr/bookV?seq=2037218",
           "isbn": "9791185099200",
           "loans": 2,
-          "rank": 10,
+          "rank": 9,
           "series": 1
         },
         {
@@ -352,7 +341,7 @@
           "link": "https://data4library.kr/bookV?seq=5986948",
           "isbn": "9791190337755",
           "loans": 2,
-          "rank": 11,
+          "rank": 10,
           "series": 1
         },
         {
@@ -363,7 +352,7 @@
           "link": "https://data4library.kr/bookV?seq=5747854",
           "isbn": "9791191071030",
           "loans": 2,
-          "rank": 12,
+          "rank": 11,
           "series": 1
         },
         {
@@ -374,7 +363,7 @@
           "link": "https://data4library.kr/bookV?seq=6835030",
           "isbn": "9791193282045",
           "loans": 2,
-          "rank": 13,
+          "rank": 12,
           "series": 1
         },
         {
@@ -385,18 +374,7 @@
           "link": "https://data4library.kr/bookV?seq=6811756",
           "isbn": "9791198547514",
           "loans": 2,
-          "rank": 14,
-          "series": 1
-        },
-        {
-          "title": "아파서 시골에 왔습니다 :안효원 에세이",
-          "author": "안효원",
-          "publisher": "밤나무",
-          "cover": "https://image.aladin.co.kr/product/38263/52/cover200/k002034731_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7203094",
-          "isbn": "9791199056831",
-          "loans": 2,
-          "rank": 15,
+          "rank": 13,
           "series": 1
         },
         {
@@ -407,7 +385,7 @@
           "link": "https://data4library.kr/bookV?seq=7095794",
           "isbn": "9791199305304",
           "loans": 2,
-          "rank": 16,
+          "rank": 14,
           "series": 1
         },
         {
@@ -418,7 +396,7 @@
           "link": "https://data4library.kr/bookV?seq=3165466",
           "isbn": "9780545623926",
           "loans": 1,
-          "rank": 17,
+          "rank": 15,
           "series": 1
         },
         {
@@ -429,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=3165467",
           "isbn": "9780545623957",
           "loans": 1,
-          "rank": 18,
+          "rank": 16,
           "series": 1
         },
         {
@@ -440,7 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=2572866",
           "isbn": "9780689855351",
           "loans": 1,
-          "rank": 19,
+          "rank": 17,
           "series": 1
         },
         {
@@ -450,6 +428,28 @@
           "cover": "https://image.aladin.co.kr/product/99/95/cover/0689855370_1.jpg",
           "link": "https://data4library.kr/bookV?seq=2665305",
           "isbn": "9780689855375",
+          "loans": 1,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "A Tooth Story (Paperback) - Ready-To-Read",
+          "author": "Margaret McNamara (지은이)",
+          "publisher": "Simon Spotlight",
+          "cover": "https://image.aladin.co.kr/product/95/70/cover/068986423x_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=2665256",
+          "isbn": "9780689864230",
+          "loans": 1,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "Whoops! But it wasn't me",
+          "author": "Lauren Child",
+          "publisher": "Puffin Books",
+          "cover": "",
+          "link": "https://data4library.kr/bookV?seq=2430586",
+          "isbn": "9780718193836",
           "loans": 1,
           "rank": 20,
           "series": 1
@@ -468,7 +468,7 @@
           "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7073819",
           "isbn": "9791141602376",
-          "loans": 22,
+          "loans": 20,
           "rank": 1,
           "series": 1
         },
@@ -479,7 +479,7 @@
           "cover": "https://image.aladin.co.kr/product/28501/13/cover/k982835625_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6363146",
           "isbn": "9791157855506",
-          "loans": 21,
+          "loans": 20,
           "rank": 2,
           "series": 1
         },
@@ -490,30 +490,8 @@
           "cover": "https://image.aladin.co.kr/product/40013/75/cover200/8936439995_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7312107",
           "isbn": "9788936439996",
-          "loans": 14,
+          "loans": 12,
           "rank": 3,
-          "series": 1
-        },
-        {
-          "title": "투명한 나선",
-          "author": "히가시노 게이고, 김선영",
-          "publisher": "교보문고",
-          "cover": "https://image.aladin.co.kr/product/39802/11/cover200/k082130602_3.jpg",
-          "link": "https://data4library.kr/bookV?seq=7297704",
-          "isbn": "9791170614043",
-          "loans": 14,
-          "rank": 4,
-          "series": 1
-        },
-        {
-          "title": "아파서 시골에 왔습니다 :안효원 에세이",
-          "author": "안효원",
-          "publisher": "밤나무",
-          "cover": "https://image.aladin.co.kr/product/38263/52/cover200/k002034731_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7203094",
-          "isbn": "9791199056831",
-          "loans": 13,
-          "rank": 5,
           "series": 1
         },
         {
@@ -524,7 +502,7 @@
           "link": "https://data4library.kr/bookV?seq=7316990",
           "isbn": "9791124137635",
           "loans": 12,
-          "rank": 6,
+          "rank": 4,
           "series": 1
         },
         {
@@ -535,8 +513,30 @@
           "link": "https://data4library.kr/bookV?seq=7316383",
           "isbn": "9791167141644",
           "loans": 12,
-          "rank": 7,
+          "rank": 5,
           "series": 2
+        },
+        {
+          "title": "투명한 나선",
+          "author": "히가시노 게이고, 김선영",
+          "publisher": "교보문고",
+          "cover": "https://image.aladin.co.kr/product/39802/11/cover200/k082130602_3.jpg",
+          "link": "https://data4library.kr/bookV?seq=7297704",
+          "isbn": "9791170614043",
+          "loans": 12,
+          "rank": 6,
+          "series": 1
+        },
+        {
+          "title": "아파서 시골에 왔습니다 :안효원 에세이",
+          "author": "안효원",
+          "publisher": "밤나무",
+          "cover": "https://image.aladin.co.kr/product/38263/52/cover200/k002034731_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7203094",
+          "isbn": "9791199056831",
+          "loans": 12,
+          "rank": 7,
+          "series": 1
         },
         {
           "title": "트렌드 코리아 2027 - 2027 대한민국 소비트렌드 전망",
@@ -550,39 +550,6 @@
           "series": 1
         },
         {
-          "title": "주와 연 :청예 장편소설",
-          "author": "청예",
-          "publisher": "인플루엔셜",
-          "cover": "https://shopping-phinf.pstatic.net/main_6064140/60641400804.20260630090120.jpg",
-          "link": "https://data4library.kr/bookV?seq=7292520",
-          "isbn": "9791168343887",
-          "loans": 11,
-          "rank": 9,
-          "series": 1
-        },
-        {
-          "title": "흔한남매 이무기 4 - 이해하면 무서운 이야기",
-          "author": "흔한남매 (원작), 이종혁 (글), 도니패밀리 (그림), 흔한컴퍼니 (감수)",
-          "publisher": "미래엔아이세움",
-          "cover": "https://image.aladin.co.kr/product/39875/33/cover200/k292130411_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7302047",
-          "isbn": "9791175488496",
-          "loans": 11,
-          "rank": 10,
-          "series": 1
-        },
-        {
-          "title": "세네카, 오늘을 빼앗기고 있는 당신에게",
-          "author": "루키우스 안나이우스 세네카",
-          "publisher": "논픽션",
-          "cover": "https://shopping-phinf.pstatic.net/main_6056845/60568459498.20260623201840.jpg",
-          "link": "https://data4library.kr/bookV?seq=7288912",
-          "isbn": "9791199489561",
-          "loans": 11,
-          "rank": 11,
-          "series": 1
-        },
-        {
           "title": "소년이 온다 :한강 장편소설",
           "author": "한강",
           "publisher": "창비",
@@ -590,7 +557,7 @@
           "link": "https://data4library.kr/bookV?seq=2037399",
           "isbn": "9788936434120",
           "loans": 10,
-          "rank": 12,
+          "rank": 9,
           "series": 1
         },
         {
@@ -601,7 +568,7 @@
           "link": "https://data4library.kr/bookV?seq=1938053",
           "isbn": "9788998441012",
           "loans": 10,
-          "rank": 13,
+          "rank": 10,
           "series": 1
         },
         {
@@ -612,8 +579,19 @@
           "link": "https://data4library.kr/bookV?seq=6594703",
           "isbn": "9791168414471",
           "loans": 10,
-          "rank": 14,
+          "rank": 11,
           "series": 3
+        },
+        {
+          "title": "세네카, 오늘을 빼앗기고 있는 당신에게",
+          "author": "루키우스 안나이우스 세네카",
+          "publisher": "논픽션",
+          "cover": "https://shopping-phinf.pstatic.net/main_6056845/60568459498.20260623201840.jpg",
+          "link": "https://data4library.kr/bookV?seq=7288912",
+          "isbn": "9791199489561",
+          "loans": 10,
+          "rank": 12,
+          "series": 1
         },
         {
           "title": "혼모노 :성해나 소설집",
@@ -623,29 +601,40 @@
           "link": "https://data4library.kr/bookV?seq=7035395",
           "isbn": "9788936439743",
           "loans": 9,
+          "rank": 13,
+          "series": 1
+        },
+        {
+          "title": "주와 연 :청예 장편소설",
+          "author": "청예",
+          "publisher": "인플루엔셜",
+          "cover": "https://shopping-phinf.pstatic.net/main_6064140/60641400804.20260630090120.jpg",
+          "link": "https://data4library.kr/bookV?seq=7292520",
+          "isbn": "9791168343887",
+          "loans": 9,
+          "rank": 14,
+          "series": 1
+        },
+        {
+          "title": "흔한남매 과학 탐험대 18 : 물질의 특성",
+          "author": "흔한남매 (원작), 김언정, 송은경 (글), 김덕영 (그림), 권경아 (감수)",
+          "publisher": "주니어김영사",
+          "cover": "https://image.aladin.co.kr/product/40095/2/cover200/k902130256_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7319008",
+          "isbn": "9791173327636",
+          "loans": 9,
           "rank": 15,
           "series": 1
         },
         {
-          "title": "싯다르타",
-          "author": "헤르만 헤세 지음, 박병덕 옮김",
-          "publisher": "민음사",
-          "cover": "https://image.aladin.co.kr/product/32/95/cover/8937460580_3.jpg",
-          "link": "https://data4library.kr/bookV?seq=2404471",
-          "isbn": "9788937460586",
+          "title": "흔한남매 이무기 4 - 이해하면 무서운 이야기",
+          "author": "흔한남매 (원작), 이종혁 (글), 도니패밀리 (그림), 흔한컴퍼니 (감수)",
+          "publisher": "미래엔아이세움",
+          "cover": "https://image.aladin.co.kr/product/39875/33/cover200/k292130411_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7302047",
+          "isbn": "9791175488496",
           "loans": 9,
           "rank": 16,
-          "series": 1
-        },
-        {
-          "title": "흔한남매 이무기 :이해하면 무서운 이야기",
-          "author": "원작: 흔한남매, 도니패밀리",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/32095/72/cover/k502834901_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6735778",
-          "isbn": "9791168415577",
-          "loans": 9,
-          "rank": 17,
           "series": 1
         },
         {
@@ -655,6 +644,17 @@
           "cover": "https://image.aladin.co.kr/product/29137/2/cover/8936434594_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6428779",
           "isbn": "9788936434595",
+          "loans": 8,
+          "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "싯다르타",
+          "author": "헤르만 헤세 지음, 박병덕 옮김",
+          "publisher": "민음사",
+          "cover": "https://image.aladin.co.kr/product/32/95/cover/8937460580_3.jpg",
+          "link": "https://data4library.kr/bookV?seq=2404471",
+          "isbn": "9788937460586",
           "loans": 8,
           "rank": 18,
           "series": 1
@@ -671,12 +671,12 @@
           "series": 1
         },
         {
-          "title": "녹색 절벽의 신자들",
-          "author": "조예은 (지은이)",
-          "publisher": "오리지널스",
-          "cover": "https://image.aladin.co.kr/product/40129/15/cover200/k242131861_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7342026",
-          "isbn": "9791169087520",
+          "title": "흔한남매 이무기 :이해하면 무서운 이야기",
+          "author": "원작: 흔한남매, 도니패밀리",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/32095/72/cover/k502834901_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6735778",
+          "isbn": "9791168415577",
           "loans": 8,
           "rank": 20,
           "series": 1
