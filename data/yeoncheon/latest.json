@@ -1,9 +1,9 @@
 {
   "region": "연천군",
-  "updated_at": "2026-11-04 08:52:27",
+  "updated_at": "2026-11-05 08:57:25",
   "period": {
-    "from": "20261104",
-    "to": "20270103"
+    "from": "20261105",
+    "to": "20270104"
   },
   "school_count": 22,
   "public_holidays": [
@@ -176,6 +176,22 @@
       "date": "2027-01-03",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "연천왕산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-04",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "화진초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-04",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -294,6 +310,11 @@
           "date": "2027-01-03",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-04",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -384,6 +405,11 @@
           "date": "2027-01-01",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-04",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -395,11 +421,6 @@
       "gu": "",
       "dong": "군남면",
       "events": [
-        {
-          "date": "2026-11-04",
-          "name": "국제교류(1,2학년)",
-          "holiday": false
-        },
         {
           "date": "2026-12-08",
           "name": "2차 지필평가",
@@ -440,11 +461,6 @@
       "gu": "",
       "dong": "신서면",
       "events": [
-        {
-          "date": "2026-11-04",
-          "name": "심폐소생교육",
-          "holiday": false
-        },
         {
           "date": "2026-11-11",
           "name": "학생인권교육",
