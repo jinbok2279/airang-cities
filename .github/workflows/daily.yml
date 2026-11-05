@@ -2,12 +2,30 @@ name: daily (도시별 하루 수집)
 # 매일 새벽 5시 30분(한국시간)에 도시 7곳마다 (용인·수원은 city.py 의 scripts 로 그 도시만의 수집기) 학교·급식·학원·유치원·도서관·행사·일자리·운동교실·할인을 모은다.
 on:
   schedule:
-    - cron: "30 20 * * *"
+    - cron: "30 20 * * *"    # 05:30 (기본)
+    - cron: "40 22 * * *"    # 07:40 (예비 — 기본이 안 돌았을 때만)
+    - cron: "40 0 * * *"     # 09:40 (예비)
   workflow_dispatch:
 permissions:
   contents: write
+  actions: read
+concurrency: { group: daily, cancel-in-progress: false }
 jobs:
+  gate:   # GitHub 예약 실행이 자주 밀리거나 빠져서, 예비 시각을 여러 개 걸어 둠 → 이미 돌았으면 건너뜀
+    runs-on: ubuntu-latest
+    outputs:
+      go: ${{ steps.g.outputs.go }}
+    steps:
+      - id: g
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then echo go=1 >> $GITHUB_OUTPUT; exit 0; fi
+          since=$(date -u -d "@$(( $(date +%s) - 10*3600 ))" +%FT%TZ)
+          n=$(gh api "repos/${{ github.repository }}/actions/workflows/daily.yml/runs?created=>=$since&per_page=30" -q "[.workflow_runs[]|select(.id!=${{ github.run_id }} and (.conclusion==\"success\" or .status==\"in_progress\" or .status==\"queued\"))]|length")
+          echo "최근 실행 $n 번"; [ "$n" = 0 ] && echo go=1 >> $GITHUB_OUTPUT || echo go=0 >> $GITHUB_OUTPUT
   collect:
+    needs: gate
+    if: needs.gate.outputs.go == '1'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     strategy:
