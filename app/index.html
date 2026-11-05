@@ -401,6 +401,32 @@ function nextColor(list) { for (let i = 0; i < KID_TILES.length; i++) if (!list.
 function kidPill(k) { const [c, b] = KID_PILLS[k.color % KID_PILLS.length]; return `<span class="pill" style="color:${c};background:${b};margin-right:6px">${esc(k.name)}</span>`; }
 // 학년: 등록한 해 기준으로 저장하고, 3월마다 자동으로 한 학년씩 올라감
 function schoolYear(d = new Date()) { return d.getMonth() >= 2 ? d.getFullYear() : d.getFullYear() - 1; }
+// 홈 첫 화면: 학교만 고르면 바로 등록 (이름·학원·알레르기는 나중에)
+let qkCode = "";
+function quickKid() {
+  const sc = qkCode && DATA.schools.find(s => s.code === qkCode);
+  if (sc) return `<div style="padding:4px 2px"><div style="display:flex;align-items:center;gap:8px"><span class="pill pill-gray">${levelShort(sc)}</span><b style="font-size:16px;flex:1;min-width:0">${esc(sc.name)}</b><button onclick="qkCode='';render()" style="border:0;background:none;color:var(--muted);font:inherit;font-size:12.5px;cursor:pointer">바꾸기</button></div>
+    <div style="font-size:13px;color:var(--muted);margin:10px 0 8px">몇 학년이에요?</div>
+    <div style="display:flex;gap:6px;flex-wrap:wrap">${Array.from({ length: maxGrade(sc) }, (_, i) => `<button class="btn btn-soft" style="flex:1 0 44px;height:44px;font-size:15px" onclick="quickKidSave(${i + 1})">${i + 1}</button>`).join("")}</div></div>`;
+  return `<div style="padding:4px 2px"><div style="display:flex;align-items:center;gap:10px">${e3d("🧒", 40)}<div style="min-width:0"><b style="font-size:16px">우리 아이 학교를 골라 보세요</b><div style="font-size:12px;color:var(--muted);margin-top:2px">급식·알레르기·학교 일정을 홈에서 바로 · 이름·전화번호는 안 받아요</div></div></div>
+    <label class="search lift" style="margin-top:12px">${icon.search}<input id="qk" placeholder="학교 이름 (예: ${esc((DATA.schools.find(s => levelOf(s) === "초등학교") || DATA.schools[0] || { name: "○○초" }).name.replace(/등학교$/, ""))})" autocomplete="off" aria-label="우리 아이 학교 이름" oninput="qkFind(this.value)"></label>
+    <div id="qkres"></div>
+    <button onclick="go('kid/new')" style="border:0;background:none;font:inherit;font-size:12.5px;color:var(--indigo);cursor:pointer;padding:10px 0 0">이름·학원·알레르기까지 자세히 넣기 ›</button></div>`;
+}
+function qkFind(q) {
+  const el = document.getElementById("qkres"); if (!el) return;
+  q = q.trim().replace(/\s/g, ""); if (!q) { el.innerHTML = ""; return; }
+  const rank = s => ({ "초등학교": 0, "중학교": 1, "고등학교": 2 }[levelOf(s)] ?? 3);
+  const hit = DATA.schools.filter(s => s.name.replace(/\s/g, "").includes(q)).sort((a, b) => rank(a) - rank(b) || a.name.localeCompare(b.name)).slice(0, 6);
+  el.innerHTML = hit.length ? `<div class="lift list" style="margin-top:8px">${hit.map(s => `<button class="row" style="width:100%;border:0;background:none;text-align:left;font:inherit;cursor:pointer;display:flex;gap:10px;align-items:center;padding:12px 14px" onclick="qkCode='${jsq(s.code)}';render()"><span class="pill pill-gray">${levelShort(s)}</span><span style="flex:1;min-width:0"><b style="font-size:14px">${esc(s.name)}</b><span style="display:block;font-size:12px;color:var(--muted)">${esc([s.gu, s.dong].filter(Boolean).join(" "))}</span></span></button>`).join("")}</div>`
+    : `<div style="font-size:12.5px;color:var(--muted);padding:10px 2px">찾는 학교가 없어요. 이름 일부만 넣어 보세요.</div>`;
+}
+function quickKidSave(g) {
+  const list = kids(); if (!qkCode) return;
+  list.push({ id: "k" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6), name: ORD[list.length] || "아이", code: qkCode, acas: [], grade: g, gy: schoolYear(), al: [], color: nextColor(list) });
+  saveKids(list); qkCode = ""; homeKid = "all"; trackEvent("아이-등록"); trackEvent("아이-등록-빠른");
+  toast("등록했어요! 알레르기는 '전체 → 우리 아이'에서 넣을 수 있어요"); render(); scrollTo(0, 0);
+}
 function maxGrade(s) { return levelOf(s) === "초등학교" ? 6 : 3; }
 function kidGrade(k) { if (!k.grade) return 0; return k.grade + (schoolYear() - (k.gy || schoolYear())); }
 function kidGradeText(k, sc) { const g = kidGrade(k); if (!g || !sc) return ""; return g > maxGrade(sc) ? "졸업·진학 확인" : `${g}학년`; }
@@ -562,7 +588,7 @@ function viewHome() {
       <button class="btn btn-soft" style="width:100%;height:42px;margin-top:10px;font-size:13px;color:var(--indigo)" onclick="go('myev/new')">+ 내 일정 추가 (준비물·병원·생일 등)</button>
       ${evs.length > 3 ? `<button onclick="homeAllEv=!homeAllEv;render()" style="width:100%;border:0;background:none;padding:12px 0 4px;font:inherit;font-size:13px;font-weight:700;color:var(--indigo);cursor:pointer">${homeAllEv ? "접기 ▲" : `일정 더보기 (${Math.min(evs.length, 8) - 3}개 더) ▼`}</button>` : ""}</div></section>`;
   } else {
-    hero = `<section class="scape lift"><img class="scape-img" src="assets/hero-{{key}}-800.webp" srcset="assets/hero-{{key}}-800.webp 800w, assets/hero-{{key}}.webp 1200w" sizes="(max-width:560px) 100vw, 524px" width="1200" height="500" alt="" fetchpriority="high" decoding="async"><div class="scape-body"><button class="kidadd" onclick="go('kid/new')">${e3d("🧒", 40)}<span style="min-width:0"><b>우리 아이 추가</b><small>형제자매가 여러 명이어도 한 번에 볼 수 있어요</small></span><span class="plus" aria-hidden="true">+</span></button></div></section>`;
+    hero = `<section class="scape lift"><img class="scape-img" src="assets/hero-{{key}}-800.webp" srcset="assets/hero-{{key}}-800.webp 800w, assets/hero-{{key}}.webp 1200w" sizes="(max-width:560px) 100vw, 524px" width="1200" height="500" alt="" fetchpriority="high" decoding="async"><div class="scape-body">${quickKid()}</div></section>`;
   }
 
   const install = "";
