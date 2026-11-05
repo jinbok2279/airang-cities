@@ -1,22 +1,25 @@
 == benefits
-  중앙부처 복지 실패: HTTP Error 429: Too Many Requests
-    (서버 전체 0건, 한 번에 0건)
-  천안시 혜택 0건 중 아이·가족 0건
-혜택 정보를 못 받음 — 저장하지 않음
+    (서버 전체 461건, 한 번에 100건)
+  나라 혜택 461건 중 아이·가족 106건
+    (서버 전체 26건, 한 번에 26건)
+  시 혜택 칸: ['aplyMtdNm', 'bizChrDeptNm', 'ctpvNm', 'inqNum', 'lastModYmd', 'lifeNmArray', 'servDgst', 'servDtlLink', 'servId', 'servNm', 'sggNm', 'sprtCycNm', 'srvPvsnNm', 'trgterIndvdlNmArray']
+  천안시 혜택 26건 중 아이·가족 11건
+  저장: 70 KB, 117 건
 == 결과 파일
-total 1340
-drwxr-xr-x  2 runner runner   4096 Nov  2 02:38 .
-drwxr-xr-x 59 runner runner   4096 Nov  2 02:38 ..
--rw-r--r--  1 runner runner 548039 Nov  2 02:39 academies.json
--rw-r--r--  1 runner runner  26857 Nov  2 02:39 books.json
--rw-r--r--  1 runner runner    803 Nov  2 02:39 deals.json
--rw-r--r--  1 runner runner  35623 Nov  2 02:39 elite.json
--rw-r--r--  1 runner runner   1138 Nov  2 02:39 events.json
--rw-r--r--  1 runner runner 237699 Nov  2 02:39 hospitals.json
--rw-r--r--  1 runner runner     77 Nov  2 02:39 jobs.json
--rw-r--r--  1 runner runner  67432 Nov  2 02:39 kinder.json
--rw-r--r--  1 runner runner 178224 Nov  2 02:39 latest.json
--rw-r--r--  1 runner runner   7213 Nov  2 02:39 libs.json
--rw-r--r--  1 runner runner 228658 Nov  2 02:39 meals.json
--rw-r--r--  1 runner runner    116 Nov  2 02:39 sports.json
--rw-r--r--  1 runner runner    217 Nov  2 02:39 weather.json
+total 1436
+drwxr-xr-x  2 runner runner   4096 Nov  5 08:37 .
+drwxr-xr-x 65 runner runner   4096 Nov  5 08:37 ..
+-rw-r--r--  1 runner runner 548039 Nov  5 08:37 academies.json
+-rw-r--r--  1 runner runner  72322 Nov  5 08:37 benefits.json
+-rw-r--r--  1 runner runner  26594 Nov  5 08:37 books.json
+-rw-r--r--  1 runner runner   1393 Nov  5 08:37 deals.json
+-rw-r--r--  1 runner runner  35623 Nov  5 08:37 elite.json
+-rw-r--r--  1 runner runner   1660 Nov  5 08:37 events.json
+-rw-r--r--  1 runner runner 237699 Nov  5 08:37 hospitals.json
+-rw-r--r--  1 runner runner     77 Nov  5 08:37 jobs.json
+-rw-r--r--  1 runner runner  67432 Nov  5 08:37 kinder.json
+-rw-r--r--  1 runner runner 224240 Nov  5 08:37 latest.json
+-rw-r--r--  1 runner runner   7213 Nov  5 08:37 libs.json
+-rw-r--r--  1 runner runner 205352 Nov  5 08:37 meals.json
+-rw-r--r--  1 runner runner    116 Nov  5 08:37 sports.json
+-rw-r--r--  1 runner runner    215 Nov  5 08:37 weather.json
