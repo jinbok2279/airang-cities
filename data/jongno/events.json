@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05 08:24:29",
+ "updated_at": "2026-11-06 09:35:26",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -226,6 +226,21 @@
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8fd479fb253b4b7485e90f2f033fa090&thumb=Y"
   },
   {
+   "id": "S0f1e499722",
+   "title": "강아솔 [안부인사]",
+   "start": "2026-11-06",
+   "end": "2026-11-07",
+   "place": "아트센터 림 아트홀",
+   "time": "11.6(금) 19:30 / 11.7(토) 16:00",
+   "grade": "8세 이상 누구나",
+   "price": "전석 50,000원(자유석)",
+   "free": false,
+   "kind": "콘서트",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160004&menuNo=200008",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6ab07d2ade6a4e0e8bc2370823eff1c7&thumb=Y"
+  },
+  {
    "id": "S8bb9052421",
    "title": "대학로1등 판타지코믹연극 [타임]",
    "start": "2026-07-15",
@@ -269,21 +284,6 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159842&menuNo=200011",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=98bbace3e429462d80b11cac2c02efd6&thumb=Y"
-  },
-  {
-   "id": "S0f1e499722",
-   "title": "강아솔 [안부인사]",
-   "start": "2026-11-06",
-   "end": "2026-11-07",
-   "place": "아트센터 림 아트홀",
-   "time": "11.6(금) 19:30 / 11.7(토) 16:00",
-   "grade": "8세 이상 누구나",
-   "price": "전석 50,000원(자유석)",
-   "free": false,
-   "kind": "콘서트",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160004&menuNo=200008",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6ab07d2ade6a4e0e8bc2370823eff1c7&thumb=Y"
   },
   {
    "id": "S100ff55102",
@@ -539,26 +539,6 @@
  ],
  "lib": [
   {
-   "id": "RS261012002902861751",
-   "title": "(토) 종로에서, 주얼리랑 놀자-[보석 원정대] 지구에서 온 선물, 주얼리의 심장 '보석' 탄생의 비밀을 찾아라![18회차 11월7일]",
-   "lib": "(주)코리아주얼리센터 4층 세미나실",
-   "target": "제한없음(만7세이상)",
-   "place": "(주)코리아주얼리센터 4층 세미나실",
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "period": "",
-   "applyStart": "2026-10-12",
-   "applyEnd": "2026-11-07",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": false,
-   "src": "yeyak",
-   "kind": "교육체험",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261012002902861751"
-  },
-  {
    "id": "RS261019141959364257",
    "title": "[서울우리소리박물관] 방과후 국악기 체험교실 <꿈나무 해금교실 : 나도 연주자!>",
    "lib": "서울우리소리박물관",
@@ -624,10 +604,10 @@
    "lib": "서울특별시 종로구 성균관로 91 올림픽기념국민생활관 2층 (혜화동)",
    "target": "어린이,유아",
    "place": "서울특별시 종로구 성균관로 91 올림픽기념국민생활관 2층 (혜화동)",
-   "start": "2026-11-05",
+   "start": "2026-11-06",
    "end": "2026-11-16",
    "period": "",
-   "applyStart": "2026-11-05",
+   "applyStart": "2026-11-06",
    "applyEnd": "2026-11-16",
    "apply": "",
    "count": "",
@@ -644,10 +624,10 @@
    "lib": "서울특별시 종로구 동망산길 62  (숭인동)",
    "target": "유아",
    "place": "서울특별시 종로구 동망산길 62  (숭인동)",
-   "start": "2026-11-05",
+   "start": "2026-11-06",
    "end": "2026-11-16",
    "period": "",
-   "applyStart": "2026-11-05",
+   "applyStart": "2026-11-06",
    "applyEnd": "2026-11-16",
    "apply": "",
    "count": "",
@@ -677,26 +657,6 @@
    "src": "yeyak",
    "kind": "공원탐방",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261019171056737010"
-  },
-  {
-   "id": "RS260716111411225940",
-   "title": "[종로정원사마을(토)] 어린이 생태체험 '우리집 꼬마 정원사(하반기)'",
-   "lib": "청진공원",
-   "target": "어린이",
-   "place": "청진공원",
-   "start": "2026-09-05",
-   "end": "2026-11-28",
-   "period": "",
-   "applyStart": "2026-07-22",
-   "applyEnd": "2026-11-28",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": false,
-   "src": "yeyak",
-   "kind": "교육체험",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260716111411225940"
   },
   {
    "id": "RS260913121305230497",
@@ -759,6 +719,26 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S220914143951029032"
   },
   {
+   "id": "RS260913114035850512",
+   "title": "2026년 종로구 숲해설 : (일) 창덕궁 인문학! 숲길을 걷다",
+   "lib": "창덕궁 매표소 옆 은행나무",
+   "target": "가족(자녀 : 초등학교 3학년 이상), 성인",
+   "place": "창덕궁 매표소 옆 은행나무",
+   "start": "2026-09-07",
+   "end": "2026-11-30",
+   "period": "",
+   "applyStart": "2026-09-14",
+   "applyEnd": "2026-11-30",
+   "apply": "",
+   "count": "",
+   "status": "접수중",
+   "btn": "",
+   "free": true,
+   "src": "yeyak",
+   "kind": "산림여가",
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260913114035850512"
+  },
+  {
    "id": "RS261023104443869949",
    "title": "옛 서울시장 공관의 역사와 한양도성의 의미(2026년 11월)",
    "lib": "한양도성 혜화동 전시안내센터(옛 시장공관)",
@@ -777,26 +757,6 @@
    "src": "yeyak",
    "kind": "전시/관람",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261023104443869949"
-  },
-  {
-   "id": "RS261021141228813099",
-   "title": "(주말) 개도치 판화 공방",
-   "lib": "서울시립 미술아카이브 배움동",
-   "target": "가족(2~5인 가족 그룹 (보호자 1인 이상 필수 참석))",
-   "place": "서울시립 미술아카이브 배움동",
-   "start": "2026-11-07",
-   "end": "2026-12-06",
-   "period": "",
-   "applyStart": "2026-10-21",
-   "applyEnd": "2026-12-03",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "교육체험",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261021141228813099"
   },
   {
    "id": "RS260720144234747958",
@@ -877,26 +837,6 @@
    "src": "yeyak",
    "kind": "산림여가",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261031021829857637"
-  },
-  {
-   "id": "RS260721105334447179",
-   "title": "2026년 하반기 우리 가족 박물관 여행 (주말) 교육생 모집 안내",
-   "lib": "서울역사박물관",
-   "target": "가족(초등학생(1~6학년) 자녀를 둔 가족(보호자 1명 이상))",
-   "place": "서울역사박물관",
-   "start": "2026-08-29",
-   "end": "2026-12-19",
-   "period": "",
-   "applyStart": "2026-08-18",
-   "applyEnd": "2026-12-16",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "교육체험",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260721105334447179"
   },
   {
    "id": "RS260320170624732091",
@@ -1061,26 +1001,6 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261019100650260236"
   },
   {
-   "id": "RS261007133847859076",
-   "title": "2026 딜쿠샤 주변 직장인 대상 점심시간 프로그램 '가을, 커피, 딜쿠샤 인사이드'",
-   "lib": "딜쿠샤",
-   "target": "제한없음",
-   "place": "딜쿠샤",
-   "start": "2026-10-28",
-   "end": "2026-11-27",
-   "period": "",
-   "applyStart": "2026-10-23",
-   "applyEnd": "2026-11-27",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "전시/관람",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261007133847859076"
-  },
-  {
    "id": "RS261020095302613204",
    "title": "2026 백인제가옥 전시해설 예약",
    "lib": "서울역사박물관>백인제가옥",
@@ -1149,6 +1069,21 @@
    "src": "yeyak",
    "kind": "기타",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261001163324458969"
+  },
+  {
+   "id": "S72e016e6ce",
+   "title": "[교보아트스페이스] 동양화에 기운 Hearts Inclined to Ink",
+   "start": "2026-11-03",
+   "end": "2026-12-13",
+   "place": "교보아트스페이스",
+   "time": "9:30~22:00",
+   "grade": "누구나",
+   "price": "",
+   "free": true,
+   "kind": "전시/미술",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160113&menuNo=200009",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7951b5354d1946df8576ae18328ac8c8&thumb=Y"
   },
   {
    "id": "Sf49cd77b1c",
@@ -1361,21 +1296,6 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261024093835244009"
   },
   {
-   "id": "Sf9827e94d2",
-   "title": "박성민 [형태를 지나 결에 머물다]",
-   "start": "2026-10-15",
-   "end": "2026-11-05",
-   "place": "노화랑 1,2층 전시장",
-   "time": "10:00~18:00, 일,월 휴관",
-   "grade": "누구나",
-   "price": "",
-   "free": true,
-   "kind": "전시/미술",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159758&menuNo=200009",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=aaaa57b5490d415a93830ddd9fef8865&thumb=Y"
-  },
-  {
    "id": "RS221208131717851016",
    "title": "서울역사박물관 전시해설 예약",
    "lib": "서울역사박물관 ",
@@ -1516,26 +1436,6 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260326130959143426"
   },
   {
-   "id": "RS261019155115219515",
-   "title": "[문화로 야금야금] 서울공예박물관 특별공연 <춤 : 공예를 품다>",
-   "lib": "서울공예박물관",
-   "target": "제한없음",
-   "place": "서울공예박물관",
-   "start": "2026-11-06",
-   "end": "2026-11-06",
-   "period": "",
-   "applyStart": "2026-10-21",
-   "applyEnd": "2026-11-05",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "문화행사",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261019155115219515"
-  },
-  {
    "id": "RS260814162157740399",
    "title": "(토)(일)궁궐역사문화답사(창경궁)[13차/14차]",
    "lib": "창경궁",
@@ -1604,6 +1504,21 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160055&menuNo=200013",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d6fd77a5eb594d9ab049004e40a88c1c&thumb=Y"
+  },
+  {
+   "id": "Sa0541c4741",
+   "title": "연극 [지금 정리할게요]",
+   "start": "2026-11-10",
+   "end": "2026-11-15",
+   "place": "서울 혜화역 대학로 R&J씨어터",
+   "time": "평일 20:00, 주말 15:00, 18:00",
+   "grade": "누구나",
+   "price": "20,000원",
+   "free": false,
+   "kind": "연극",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160093&menuNo=200008",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=50ec20334a684271a8b23158993fc5df&thumb=Y"
   },
   {
    "id": "RS261030142256662430",
@@ -1675,7 +1590,7 @@
    "end": "2026-11-22",
    "period": "",
    "applyStart": "2026-11-03",
-   "applyEnd": "2026-11-21",
+   "applyEnd": "2026-11-20",
    "apply": "",
    "count": "",
    "status": "접수중",
@@ -1739,6 +1654,26 @@
    "src": "yeyak",
    "kind": "도시농업",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261103095745711623"
+  },
+  {
+   "id": "RS261029150108515066",
+   "title": "종로구 봄을 담다",
+   "lib": "종로구 반려식물클리닉 센터",
+   "target": "성인",
+   "place": "종로구 반려식물클리닉 센터",
+   "start": "2026-10-29",
+   "end": "2026-11-19",
+   "period": "",
+   "applyStart": "2026-11-10",
+   "applyEnd": "2026-11-17",
+   "apply": "",
+   "count": "",
+   "status": "접수전",
+   "btn": "",
+   "free": true,
+   "src": "yeyak",
+   "kind": "도시농업",
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261029150108515066"
   }
  ]
 }
