@@ -1,9 +1,9 @@
 {
   "region": "양평군",
-  "updated_at": "2026-11-05 08:50:25",
+  "updated_at": "2026-11-06 09:59:44",
   "period": {
-    "from": "20261105",
-    "to": "20270104"
+    "from": "20261106",
+    "to": "20270105"
   },
   "school_count": 43,
   "public_holidays": [
@@ -53,6 +53,14 @@
     },
     {
       "date": "2027-01-04",
+      "name": "방학"
+    },
+    {
+      "date": "2027-01-05",
+      "name": "겨울방학"
+    },
+    {
+      "date": "2027-01-05",
       "name": "방학"
     }
   ],
@@ -864,6 +872,94 @@
       "date": "2027-01-04",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "강하초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "다문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서종중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "양동초등학교고송분교장",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양서고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "양일중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양평단월초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "용문중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "용문초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "지평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -883,7 +979,18 @@
       "address": "경기도 양평군 강하면 운심길 33",
       "gu": "",
       "dong": "강하면",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-05",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-05",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7731018",
@@ -930,6 +1037,11 @@
           "date": "2027-01-04",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -968,11 +1080,6 @@
       "gu": "",
       "dong": "서종면",
       "events": [
-        {
-          "date": "2026-11-05",
-          "name": "가을계절학교",
-          "holiday": false
-        },
         {
           "date": "2026-11-06",
           "name": "가을계절학교",
@@ -1077,6 +1184,11 @@
           "date": "2027-01-04",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1133,6 +1245,11 @@
         },
         {
           "date": "2027-01-04",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
         }
@@ -1198,7 +1315,18 @@
       "address": "경기도 양평군 용문면 용문로 837",
       "gu": "",
       "dong": "용문면",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-05",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-05",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7731034",
@@ -1294,6 +1422,11 @@
           "date": "2027-01-04",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1367,6 +1500,11 @@
         },
         {
           "date": "2027-01-04",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
         }
@@ -1465,11 +1603,6 @@
       "gu": "",
       "dong": "개군면",
       "events": [
-        {
-          "date": "2026-11-05",
-          "name": "1차 정기시험(3)",
-          "holiday": false
-        },
         {
           "date": "2026-11-18",
           "name": "국제교류교 방문",
@@ -1644,6 +1777,16 @@
           "date": "2026-12-24",
           "name": "교육과정발표회",
           "holiday": false
+        },
+        {
+          "date": "2027-01-05",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-05",
+          "name": "졸업식",
+          "holiday": false
         }
       ]
     },
@@ -1751,11 +1894,6 @@
       "dong": "양평읍",
       "events": [
         {
-          "date": "2026-11-05",
-          "name": "수업 나눔 및 학부모 공개 수업",
-          "holiday": false
-        },
-        {
           "date": "2026-11-19",
           "name": "대학수학능력시험일",
           "holiday": true
@@ -1857,6 +1995,11 @@
         },
         {
           "date": "2027-01-04",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
         }
@@ -1989,6 +2132,11 @@
           "date": "2027-01-04",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2093,6 +2241,11 @@
           "date": "2027-01-04",
           "name": "평정회",
           "holiday": false
+        },
+        {
+          "date": "2027-01-05",
+          "name": "동아리활동",
+          "holiday": false
         }
       ]
     },
@@ -2153,6 +2306,11 @@
           "date": "2027-01-04",
           "name": "동계방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-05",
+          "name": "동계방학",
+          "holiday": true
         }
       ]
     },
@@ -2209,16 +2367,6 @@
       "gu": "",
       "dong": "양평읍",
       "events": [
-        {
-          "date": "2026-11-05",
-          "name": "수학여행",
-          "holiday": false
-        },
-        {
-          "date": "2026-11-05",
-          "name": "수련회",
-          "holiday": false
-        },
         {
           "date": "2026-11-06",
           "name": "수학여행",
@@ -2437,6 +2585,11 @@
         {
           "date": "2026-12-24",
           "name": "2차 정기시험(1, 2학년)",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-05",
+          "name": "청운제",
           "holiday": false
         }
       ]
