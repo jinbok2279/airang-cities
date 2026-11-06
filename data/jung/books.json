@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 08:22:50",
+  "updated_at": "2026-11-06 09:33:21",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -8,17 +8,6 @@
       "desc": "중구 공공도서관 · 초등(8~13세) 대출 · 최근 1달",
       "books": [
         {
-          "title": "바바파파 1+2집 40종세트 (20DVD+20CD)",
-          "author": "",
-          "publisher": "엠엔브이",
-          "cover": "https://image.aladin.co.kr/product/10842/90/cover/d462735520_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3612646",
-          "isbn": "8809079265387",
-          "loans": 5,
-          "rank": 1,
-          "series": 1
-        },
-        {
           "title": "코시롱 해녀 밥상",
           "author": "소윤경 지음",
           "publisher": "웅진씽크빅",
@@ -26,7 +15,7 @@
           "link": "https://data4library.kr/bookV?seq=7273836",
           "isbn": "9788901299952",
           "loans": 2,
-          "rank": 2,
+          "rank": 1,
           "series": 1
         },
         {
@@ -37,7 +26,7 @@
           "link": "https://data4library.kr/bookV?seq=1009157",
           "isbn": "9788911028856",
           "loans": 2,
-          "rank": 3,
+          "rank": 2,
           "series": 1
         },
         {
@@ -47,6 +36,17 @@
           "cover": "https://image.aladin.co.kr/product/27876/47/cover/8934980257_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6086449",
           "isbn": "9788934980254",
+          "loans": 2,
+          "rank": 3,
+          "series": 1
+        },
+        {
+          "title": "있으려나 서점",
+          "author": "요시타케 신스케 지음, 고향옥 옮김",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/15618/36/cover/8934981237_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3824131",
+          "isbn": "9788934981237",
           "loans": 2,
           "rank": 4,
           "series": 1
@@ -151,6 +151,17 @@
           "series": 1
         },
         {
+          "title": "의사 어벤저스 :어린이 의학 동화",
+          "author": "고희정, 조승연",
+          "publisher": "가나문화콘텐츠",
+          "cover": "https://image.aladin.co.kr/product/28310/20/cover/8957362037_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6337498",
+          "isbn": "9788957362037",
+          "loans": 2,
+          "rank": 14,
+          "series": 1
+        },
+        {
           "title": "조선시대 선비 문학편 :황새의 재판 외",
           "author": "송언 글, 홍선주 그림",
           "publisher": "파랑새",
@@ -158,7 +169,7 @@
           "link": "https://data4library.kr/bookV?seq=3866366",
           "isbn": "9788961557498",
           "loans": 2,
-          "rank": 14,
+          "rank": 15,
           "series": 1
         },
         {
@@ -169,7 +180,7 @@
           "link": "https://data4library.kr/bookV?seq=6437904",
           "isbn": "9788963012711",
           "loans": 2,
-          "rank": 15,
+          "rank": 16,
           "series": 1
         },
         {
@@ -180,7 +191,7 @@
           "link": "https://data4library.kr/bookV?seq=2841769",
           "isbn": "9788994780399",
           "loans": 2,
-          "rank": 16,
+          "rank": 17,
           "series": 1
         },
         {
@@ -191,7 +202,7 @@
           "link": "https://data4library.kr/bookV?seq=7297889",
           "isbn": "9791130656199",
           "loans": 2,
-          "rank": 17,
+          "rank": 18,
           "series": 1
         },
         {
@@ -202,27 +213,16 @@
           "link": "https://data4library.kr/bookV?seq=6769532",
           "isbn": "9791130698434",
           "loans": 2,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "조물조물 우동냥 :반죽에서 나왔다냥!",
-          "author": "스케랏코 동화, 채다인 옮김",
-          "publisher": "책읽는곰",
-          "cover": "https://image.aladin.co.kr/product/36978/34/cover200/k552030926_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7111256",
-          "isbn": "9791158365462",
-          "loans": 2,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "조물조물 우동냥",
-          "author": "스케랏코 동화, 채다인 옮김",
-          "publisher": "책읽는곰",
-          "cover": "https://image.aladin.co.kr/product/39469/86/cover200/k622139217_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7277882",
-          "isbn": "9791158366339",
+          "title": "해든 분식",
+          "author": "동지아 글, 윤정주 그림",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/34942/93/cover200/k562934467_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6958972",
+          "isbn": "9791141607791",
           "loans": 2,
           "rank": 20,
           "series": 1
@@ -473,6 +473,61 @@
           "series": 1
         },
         {
+          "title": "인비인 :성해나 기담집",
+          "author": "성해나",
+          "publisher": "한겨레출판",
+          "cover": "https://image.aladin.co.kr/product/39581/25/cover200/k692139247_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7282052",
+          "isbn": "9791172134297",
+          "loans": 10,
+          "rank": 2,
+          "series": 1
+        },
+        {
+          "title": "아코디언 :천명관 장편소설",
+          "author": "천명관",
+          "publisher": "창비",
+          "cover": "https://shopping-phinf.pstatic.net/main_6041993/60419931459.20260612143521.jpg",
+          "link": "https://data4library.kr/bookV?seq=7282009",
+          "isbn": "9788936439965",
+          "loans": 9,
+          "rank": 3,
+          "series": 1
+        },
+        {
+          "title": "찌니주의보 :정지아 장편소설",
+          "author": "정지아",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/40013/75/cover200/8936439995_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7312107",
+          "isbn": "9788936439996",
+          "loans": 9,
+          "rank": 4,
+          "series": 1
+        },
+        {
+          "title": "홍학의 자리 :정해연 장편소설",
+          "author": "정해연",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/27587/94/cover/8954681158_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6050062",
+          "isbn": "9788954681155",
+          "loans": 9,
+          "rank": 5,
+          "series": 1
+        },
+        {
+          "title": "오싹오싹 팬티!",
+          "author": "에런 레이놀즈, 옮김: 홍연미",
+          "publisher": "토토북",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/138/342/13834257.jpg?type=m1&udate=20180801",
+          "link": "https://data4library.kr/bookV?seq=3858748",
+          "isbn": "9788964963678",
+          "loans": 9,
+          "rank": 6,
+          "series": 1
+        },
+        {
           "title": "주와 연 :청예 장편소설",
           "author": "청예",
           "publisher": "인플루엔셜",
@@ -480,18 +535,18 @@
           "link": "https://data4library.kr/bookV?seq=7292520",
           "isbn": "9791168343887",
           "loans": 9,
-          "rank": 2,
+          "rank": 7,
           "series": 1
         },
         {
-          "title": "인비인 :성해나 기담집",
-          "author": "성해나",
-          "publisher": "한겨레출판",
-          "cover": "https://image.aladin.co.kr/product/39581/25/cover200/k692139247_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7282052",
-          "isbn": "9791172134297",
+          "title": "고전이 답했다 :마땅히 살아야 할 삶에 대하여",
+          "author": "고명환 지음",
+          "publisher": "라곰",
+          "cover": "https://image.aladin.co.kr/product/34526/60/cover200/k622932853_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=6935936",
+          "isbn": "9791193939130",
           "loans": 9,
-          "rank": 3,
+          "rank": 8,
           "series": 1
         },
         {
@@ -502,29 +557,7 @@
           "link": "https://data4library.kr/bookV?seq=2037399",
           "isbn": "9788936434120",
           "loans": 8,
-          "rank": 4,
-          "series": 1
-        },
-        {
-          "title": "아코디언 :천명관 장편소설",
-          "author": "천명관",
-          "publisher": "창비",
-          "cover": "https://shopping-phinf.pstatic.net/main_6041993/60419931459.20260612143521.jpg",
-          "link": "https://data4library.kr/bookV?seq=7282009",
-          "isbn": "9788936439965",
-          "loans": 8,
-          "rank": 5,
-          "series": 1
-        },
-        {
-          "title": "찌니주의보 :정지아 장편소설",
-          "author": "정지아",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/40013/75/cover200/8936439995_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7312107",
-          "isbn": "9788936439996",
-          "loans": 8,
-          "rank": 6,
+          "rank": 9,
           "series": 1
         },
         {
@@ -535,7 +568,18 @@
           "link": "https://data4library.kr/bookV?seq=7073819",
           "isbn": "9791141602376",
           "loans": 8,
-          "rank": 7,
+          "rank": 10,
+          "series": 1
+        },
+        {
+          "title": "알사탕",
+          "author": "백희나",
+          "publisher": "책읽는곰",
+          "cover": "https://image.aladin.co.kr/product/10586/14/cover/k422530533_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3423451",
+          "isbn": "9791158360375",
+          "loans": 8,
+          "rank": 11,
           "series": 1
         },
         {
@@ -546,8 +590,19 @@
           "link": "https://data4library.kr/bookV?seq=7179478",
           "isbn": "9791173830235",
           "loans": 8,
-          "rank": 8,
-          "series": 2
+          "rank": 12,
+          "series": 1
+        },
+        {
+          "title": "하우스 메이드",
+          "author": "프리다 맥파든 지음, 김은영 옮김",
+          "publisher": "Book Plaza(북플라자)",
+          "cover": "https://image.aladin.co.kr/product/31427/37/cover/k532832215_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6668806",
+          "isbn": "9791190157551",
+          "loans": 8,
+          "rank": 13,
+          "series": 1
         },
         {
           "title": "낙엽 다이빙 :강은옥 그림책",
@@ -557,18 +612,18 @@
           "link": "https://data4library.kr/bookV?seq=6771630",
           "isbn": "9791192655444",
           "loans": 8,
-          "rank": 9,
+          "rank": 14,
           "series": 1
         },
         {
-          "title": "고전이 답했다 :마땅히 살아야 할 삶에 대하여",
-          "author": "고명환 지음",
-          "publisher": "라곰",
-          "cover": "https://image.aladin.co.kr/product/34526/60/cover200/k622932853_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=6935936",
-          "isbn": "9791193939130",
-          "loans": 8,
-          "rank": 10,
+          "title": "독성 인간 :그들의 다크 심리를 무력화하는 7가지 심리 전략",
+          "author": "리앤 텐 브링크 지음, 김효정 옮김",
+          "publisher": "웅진씽크빅",
+          "cover": "https://image.aladin.co.kr/product/39887/68/cover200/8901300281_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7302844",
+          "isbn": "9788901300283",
+          "loans": 7,
+          "rank": 15,
           "series": 1
         },
         {
@@ -579,29 +634,7 @@
           "link": "https://data4library.kr/bookV?seq=5857188",
           "isbn": "9788954677158",
           "loans": 7,
-          "rank": 11,
-          "series": 1
-        },
-        {
-          "title": "홍학의 자리 :정해연 장편소설",
-          "author": "정해연",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/27587/94/cover/8954681158_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6050062",
-          "isbn": "9788954681155",
-          "loans": 7,
-          "rank": 12,
-          "series": 1
-        },
-        {
-          "title": "오싹오싹 팬티!",
-          "author": "에런 레이놀즈, 옮김: 홍연미",
-          "publisher": "토토북",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/138/342/13834257.jpg?type=m1&udate=20180801",
-          "link": "https://data4library.kr/bookV?seq=3858748",
-          "isbn": "9788964963678",
-          "loans": 7,
-          "rank": 13,
+          "rank": 16,
           "series": 1
         },
         {
@@ -612,7 +645,7 @@
           "link": "https://data4library.kr/bookV?seq=7264386",
           "isbn": "9791124038413",
           "loans": 7,
-          "rank": 14,
+          "rank": 17,
           "series": 1
         },
         {
@@ -623,7 +656,7 @@
           "link": "https://data4library.kr/bookV?seq=7280669",
           "isbn": "9791141617226",
           "loans": 7,
-          "rank": 15,
+          "rank": 18,
           "series": 1
         },
         {
@@ -634,18 +667,7 @@
           "link": "https://data4library.kr/bookV?seq=6854342",
           "isbn": "9791158161767",
           "loans": 7,
-          "rank": 16,
-          "series": 1
-        },
-        {
-          "title": "알사탕",
-          "author": "백희나",
-          "publisher": "책읽는곰",
-          "cover": "https://image.aladin.co.kr/product/10586/14/cover/k422530533_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3423451",
-          "isbn": "9791158360375",
-          "loans": 7,
-          "rank": 17,
+          "rank": 19,
           "series": 1
         },
         {
@@ -655,28 +677,6 @@
           "cover": "https://image.aladin.co.kr/product/27225/29/cover/k432732398_2.jpg",
           "link": "https://data4library.kr/bookV?seq=5987427",
           "isbn": "9791167370280",
-          "loans": 7,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "에그박사 :Egg&bugs",
-          "author": "원작: 에그박사, 홍종현",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/32932/88/cover/k672936940_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6796711",
-          "isbn": "9791168416840",
-          "loans": 7,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "충치요괴",
-          "author": "김명희 글, 간장 그림",
-          "publisher": "보랏빛소어린이",
-          "cover": "https://image.aladin.co.kr/product/25646/41/cover/k932735041_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5815462",
-          "isbn": "9791190867092",
           "loans": 7,
           "rank": 20,
           "series": 1
