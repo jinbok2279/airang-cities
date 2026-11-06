@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05 07:49:46",
+ "updated_at": "2026-11-06 09:02:52",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -76,6 +76,21 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159050&menuNo=200011",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=285db66942f74f07bd09bae3e13fd82f&thumb=Y"
+  },
+  {
+   "id": "Sc67e4d389d",
+   "title": "[성동구청] 2026 성동 미래직업체험 & 온마을체험학습 축제",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "place": "성동 AI·미래기술체험센터 & 전관원어린이공원",
+   "time": "13:00~17:00",
+   "grade": "누구나",
+   "price": "참가비: 유료 (별도의 재료비가 추가될 수 있습니다.)",
+   "free": false,
+   "kind": "축제-기타",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160101&menuNo=200010",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=02cd2c215496459ea0c9a50165db56f0&thumb=Y"
   },
   {
    "id": "S82f4c9970b",
@@ -230,10 +245,10 @@
    "lib": "서울특별시 성동구 무수막18길 1 금호2,3가동주민센터 4층 (금호동2가)",
    "target": "유아",
    "place": "서울특별시 성동구 무수막18길 1 금호2,3가동주민센터 4층 (금호동2가)",
-   "start": "2026-11-04",
+   "start": "2026-11-06",
    "end": "2026-11-16",
    "period": "",
-   "applyStart": "2026-11-04",
+   "applyStart": "2026-11-06",
    "applyEnd": "2026-11-16",
    "apply": "",
    "count": "",
@@ -250,10 +265,10 @@
    "lib": "서울특별시 성동구 뚝섬로3길 18 성수1가1동주민센터 1층 (성수동1가)",
    "target": "유아",
    "place": "서울특별시 성동구 뚝섬로3길 18 성수1가1동주민센터 1층 (성수동1가)",
-   "start": "2026-11-04",
+   "start": "2026-11-06",
    "end": "2026-11-16",
    "period": "",
-   "applyStart": "2026-11-04",
+   "applyStart": "2026-11-06",
    "applyEnd": "2026-11-16",
    "apply": "",
    "count": "",
@@ -525,26 +540,6 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260909164007890753"
   },
   {
-   "id": "RS260909164536101527",
-   "title": "[주말/토 오후/초등 1~6학년]측간 귀신과 함께 찾는 경복궁 화장실의 비밀",
-   "lib": "서울하수도과학관(주차료 변경)",
-   "target": "어린이(초등 1~6학년)",
-   "place": "서울하수도과학관(주차료 변경)",
-   "start": "2026-09-09",
-   "end": "2026-12-12",
-   "period": "",
-   "applyStart": "2026-09-16",
-   "applyEnd": "2026-12-12",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "자연/과학",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260909164536101527"
-  },
-  {
    "id": "RS261029162424631611",
    "title": "[평일/만4세이상 단체]크리스마스 트리 만들기(자연물 만들기)",
    "lib": "청계천 생태학교",
@@ -810,6 +805,36 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159882&menuNo=200013",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=706d67d8816b481a84bed1fa5a5b3bd4&thumb=Y"
+  },
+  {
+   "id": "S813d157603",
+   "title": "[성동문화재단] 제 4회 성동 꿈의 무용단 정기공연",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "place": "소월아트홀",
+   "time": "17:00",
+   "grade": "누구나",
+   "price": "",
+   "free": true,
+   "kind": "무용",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159879&menuNo=200008",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=eaaf68bd58344008b6d217ac3ce563da&thumb=Y"
+  },
+  {
+   "id": "S7eb14c1d0b",
+   "title": "[성동문화재단] 제15회 성동구립 꿈의 오케스트라 정기연주회",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "place": "소월아트홀",
+   "time": "19:30",
+   "grade": "전연령관람가",
+   "price": "",
+   "free": true,
+   "kind": "클래식",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159878&menuNo=200008",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=70b413df35824fa39bd8ea9f77003bf5&thumb=Y"
   },
   {
    "id": "S901d6da4c0",
