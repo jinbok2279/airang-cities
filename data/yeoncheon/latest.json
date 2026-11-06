@@ -1,9 +1,9 @@
 {
   "region": "연천군",
-  "updated_at": "2026-11-05 08:57:25",
+  "updated_at": "2026-11-06 10:02:45",
   "period": {
-    "from": "20261105",
-    "to": "20270104"
+    "from": "20261106",
+    "to": "20270105"
   },
   "school_count": 22,
   "public_holidays": [
@@ -192,6 +192,78 @@
       "date": "2027-01-04",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "군남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "대광중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "대광초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "백학중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "졸업식,종업식",
+      "holiday": false
+    },
+    {
+      "school": "백학초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "상리초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "연천노곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "연천왕산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "화진초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-05",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -202,7 +274,18 @@
       "address": "경기도 연천군 군남면 진상17길 46",
       "gu": "",
       "dong": "군남면",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-05",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-05",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7701011",
@@ -220,7 +303,18 @@
       "address": "경기도 연천군 신서면 연신로 1127-1",
       "gu": "",
       "dong": "신서면",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-05",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-05",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7701013",
@@ -238,7 +332,18 @@
       "address": "경기도 연천군 백학면 백학로40번길 23",
       "gu": "",
       "dong": "백학면",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-05",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-05",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7701015",
@@ -247,7 +352,18 @@
       "address": "경기도 연천군 연천읍 상리로 70",
       "gu": "",
       "dong": "연천읍",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-05",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-05",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7701016",
@@ -256,7 +372,18 @@
       "address": "경기도 연천군 백학면 진목로 26",
       "gu": "",
       "dong": "백학면",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-05",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-05",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7701017",
@@ -266,11 +393,6 @@
       "gu": "",
       "dong": "미산면",
       "events": [
-        {
-          "date": "2026-11-05",
-          "name": "수학여행",
-          "holiday": false
-        },
         {
           "date": "2026-11-06",
           "name": "현장체험학습",
@@ -313,6 +435,11 @@
         },
         {
           "date": "2027-01-04",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
         }
@@ -410,6 +537,11 @@
           "date": "2027-01-04",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -449,6 +581,11 @@
         {
           "date": "2026-12-29",
           "name": "꿈끼 발표회",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-05",
+          "name": "종업식",
           "holiday": false
         }
       ]
@@ -530,6 +667,16 @@
           "date": "2026-12-30",
           "name": "학교스포츠클럽활동",
           "holiday": false
+        },
+        {
+          "date": "2027-01-05",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-05",
+          "name": "졸업식",
+          "holiday": false
         }
       ]
     },
@@ -569,6 +716,11 @@
         {
           "date": "2026-12-17",
           "name": "낙낙제",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-05",
+          "name": "졸업식,종업식",
           "holiday": false
         }
       ]
@@ -733,12 +885,12 @@
         },
         {
           "date": "2026-12-11",
-          "name": "2차 정기시험",
+          "name": "수능이후프로그램",
           "holiday": false
         },
         {
           "date": "2026-12-11",
-          "name": "수능이후프로그램",
+          "name": "2차 정기시험",
           "holiday": false
         },
         {
