@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06 09:27:44",
+ "updated_at": "2026-11-07 10:27:19",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -33,6 +33,21 @@
    "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304105_261022_103249.gif"
   },
   {
+   "id": "KPF300900",
+   "title": "로보카폴리: 브룸스타운의 에너지를 지켜라! [서울 영등포]",
+   "start": "2026-12-12",
+   "end": "2026-12-13",
+   "place": "영등포아트홀",
+   "time": "",
+   "grade": "아동공연",
+   "price": "",
+   "free": false,
+   "kind": "뮤지컬",
+   "src": "kopis",
+   "link": "https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF300900",
+   "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300900_260914_164631.gif"
+  },
+  {
    "id": "KPF305478",
    "title": "베베핀, 두근두근 새친구 [서울 영등포]",
    "start": "2026-12-24",
@@ -55,10 +70,10 @@
    "lib": "서울특별시 영등포구 시흥대로 625 상가 2층 (대림동, 영등포자이르네)",
    "target": "유아",
    "place": "서울특별시 영등포구 시흥대로 625 상가 2층 (대림동, 영등포자이르네)",
-   "start": "2026-11-06",
+   "start": "2026-11-07",
    "end": "2026-11-16",
    "period": "",
-   "applyStart": "2026-11-06",
+   "applyStart": "2026-11-07",
    "applyEnd": "2026-11-16",
    "apply": "",
    "count": "",
@@ -75,10 +90,10 @@
    "lib": "서울특별시 영등포구 신길로40길 5 육아종합지원센터 3층 (신길동)",
    "target": "유아",
    "place": "서울특별시 영등포구 신길로40길 5 육아종합지원센터 3층 (신길동)",
-   "start": "2026-11-06",
+   "start": "2026-11-07",
    "end": "2026-11-16",
    "period": "",
-   "applyStart": "2026-11-06",
+   "applyStart": "2026-11-07",
    "applyEnd": "2026-11-16",
    "apply": "",
    "count": "",
@@ -95,10 +110,10 @@
    "lib": "서울특별시 영등포구 국제금융로 39 지하1층 (여의도동, 브라이튼 여의도)",
    "target": "유아",
    "place": "서울특별시 영등포구 국제금융로 39 지하1층 (여의도동, 브라이튼 여의도)",
-   "start": "2026-11-06",
+   "start": "2026-11-07",
    "end": "2026-11-16",
    "period": "",
-   "applyStart": "2026-11-06",
+   "applyStart": "2026-11-07",
    "applyEnd": "2026-11-16",
    "apply": "",
    "count": "",
@@ -108,6 +123,26 @@
    "src": "yeyak",
    "kind": "서울형키즈카페",
    "link": "https://umppa.seoul.go.kr/icare/user/kidsCafeResve/BD_selectKidsCafeResveCal.do?q_fcltyId=YF260101"
+  },
+  {
+   "id": "RS261022151433716156",
+   "title": "알록달록 숲 속 탐정단",
+   "lib": "여의샛강생태체험관(여의도샛강생태공원 방문자센터)",
+   "target": "제한없음(누구나(아동은 보호자 동반 필수))",
+   "place": "여의샛강생태체험관(여의도샛강생태공원 방문자센터)",
+   "start": "2026-11-01",
+   "end": "2026-11-22",
+   "period": "",
+   "applyStart": "2026-10-24",
+   "applyEnd": "2026-11-22",
+   "apply": "",
+   "count": "",
+   "status": "접수중",
+   "btn": "",
+   "free": true,
+   "src": "yeyak",
+   "kind": "공원탐방",
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261022151433716156"
   },
   {
    "id": "RS261022145000186680",
@@ -505,6 +540,26 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158691&menuNo=200008",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ae89ba10b5c64459b3e2fe3942048f84&thumb=Y"
+  },
+  {
+   "id": "RS261105172434508467",
+   "title": "중장년 재취업 리부팅 (2차) (무료)",
+   "lib": "서울시 노동자복지관",
+   "target": "제한없음",
+   "place": "서울시 노동자복지관",
+   "start": "2026-11-12",
+   "end": "2026-12-10",
+   "period": "",
+   "applyStart": "2026-11-12",
+   "applyEnd": "2026-11-30",
+   "apply": "",
+   "count": "",
+   "status": "접수전",
+   "btn": "",
+   "free": true,
+   "src": "yeyak",
+   "kind": "기타",
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261105172434508467"
   }
  ]
 }
