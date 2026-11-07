@@ -1,9 +1,9 @@
 {
   "region": "가평군",
-  "updated_at": "2026-11-06 10:00:15",
+  "updated_at": "2026-11-07 10:43:48",
   "period": {
-    "from": "20261106",
-    "to": "20270105"
+    "from": "20261107",
+    "to": "20270106"
   },
   "school_count": 26,
   "public_holidays": [
@@ -400,6 +400,102 @@
       "date": "2027-01-05",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "가평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상면초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "상색초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상천초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "연하초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "율길초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "율길초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "졸업식, 종업식",
+      "holiday": false
+    },
+    {
+      "school": "조종고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "졸업식(3학년)",
+      "holiday": false
+    },
+    {
+      "school": "조종중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "조종초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "청평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -447,6 +543,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -502,6 +603,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -570,7 +676,18 @@
       "address": "경기도 가평군 상면 청군로 700-22",
       "gu": "",
       "dong": "상면",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-06",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7721016",
@@ -612,6 +729,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -659,6 +781,11 @@
           "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -694,6 +821,11 @@
           "date": "2026-12-14",
           "name": "한울림축제(문화예술제)",
           "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "졸업식",
+          "holiday": false
         }
       ]
     },
@@ -704,7 +836,18 @@
       "address": "경기도 가평군 상면 청군로 2090",
       "gu": "",
       "dong": "상면",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "졸업식, 종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7721020",
@@ -713,7 +856,18 @@
       "address": "경기도 가평군 조종면 조종새싹로 13-9",
       "gu": "",
       "dong": "조종면",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-06",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7721021",
@@ -760,6 +914,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -932,6 +1091,16 @@
           "date": "2026-12-30",
           "name": "운악제",
           "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "종업식",
+          "holiday": false
         }
       ]
     },
@@ -1095,6 +1264,16 @@
         {
           "date": "2026-12-30",
           "name": "운악제",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "졸업식(3학년)",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "종업식",
           "holiday": false
         }
       ]
