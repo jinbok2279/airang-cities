@@ -1,9 +1,9 @@
 {
   "region": "계양구",
-  "updated_at": "2026-11-06 10:08:46",
+  "updated_at": "2026-11-07 10:50:21",
   "period": {
-    "from": "20261106",
-    "to": "20270105"
+    "from": "20261107",
+    "to": "20270106"
   },
   "school_count": 53,
   "public_holidays": [
@@ -37,6 +37,10 @@
     },
     {
       "date": "2027-01-05",
+      "name": "종업식(공휴일)"
+    },
+    {
+      "date": "2027-01-06",
       "name": "종업식(공휴일)"
     }
   ],
@@ -635,14 +639,6 @@
     },
     {
       "school": "인천계양초등학교상야분교장",
-      "level": "초등학교",
-      "gu": "",
-      "date": "2026-12-31",
-      "name": "졸업식",
-      "holiday": false
-    },
-    {
-      "school": "인천길주초등학교",
       "level": "초등학교",
       "gu": "",
       "date": "2026-12-31",
@@ -1624,6 +1620,294 @@
       "date": "2027-01-05",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "계산고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "계산여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "계산여자중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "계양고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "계양중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서운고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서운중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "안남고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천계수중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천계양초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천귤현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천길주초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천명현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천병방초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천부평초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천부현초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천서운초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천성지초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천세원고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천소양초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천안남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천안남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천예일고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천작동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천작전초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천해서초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천화전초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천효성고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천효성남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천효성동초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천효성서초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "인천효성중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "인천효성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "임학중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "작전고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "작전여자고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-06",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -1678,6 +1962,11 @@
           "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1713,7 +2002,13 @@
       "address": "인천광역시 계양구 귤현길 15",
       "gu": "",
       "dong": "귤현동",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-06",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7331189",
@@ -1723,16 +2018,6 @@
       "gu": "",
       "dong": "용종동",
       "events": [
-        {
-          "date": "2026-12-31",
-          "name": "졸업식",
-          "holiday": false
-        },
-        {
-          "date": "2026-12-31",
-          "name": "종업식",
-          "holiday": false
-        },
         {
           "date": "2027-01-01",
           "name": "겨울방학",
@@ -1755,6 +2040,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -1786,6 +2076,11 @@
           "date": "2027-01-05",
           "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1796,7 +2091,18 @@
       "address": "인천광역시 계양구 병방로 2",
       "gu": "",
       "dong": "병방동",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-06",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "졸업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7331193",
@@ -1825,6 +2131,11 @@
           "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1844,7 +2155,18 @@
       "address": "인천광역시 계양구 장제로755번길 30",
       "gu": "",
       "dong": "계산동",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-06",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7331196",
@@ -1878,6 +2200,11 @@
           "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1893,6 +2220,11 @@
           "date": "2027-01-05",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -1931,6 +2263,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -1975,6 +2312,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -2056,6 +2398,11 @@
           "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2066,7 +2413,18 @@
       "address": "인천광역시 계양구 주부토로 456",
       "gu": "",
       "dong": "작전동",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-06",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "종업식(1~5학년)",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7331205",
@@ -2085,6 +2443,11 @@
           "date": "2027-01-05",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2135,6 +2498,11 @@
           "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2155,6 +2523,11 @@
           "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2168,13 +2541,18 @@
       "events": [
         {
           "date": "2027-01-05",
-          "name": "종업식",
+          "name": "졸업식",
           "holiday": false
         },
         {
           "date": "2027-01-05",
-          "name": "졸업식",
+          "name": "종업식",
           "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2218,6 +2596,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -2273,6 +2656,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -2345,6 +2733,11 @@
           "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2358,11 +2751,6 @@
       "events": [
         {
           "date": "2026-11-09",
-          "name": "동아리활동",
-          "holiday": false
-        },
-        {
-          "date": "2026-11-09",
           "name": "사회정서교육",
           "holiday": false
         },
@@ -2374,6 +2762,11 @@
         {
           "date": "2026-11-09",
           "name": "소방대피훈련",
+          "holiday": false
+        },
+        {
+          "date": "2026-11-09",
+          "name": "동아리활동",
           "holiday": false
         },
         {
@@ -2518,6 +2911,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -2760,6 +3158,11 @@
           "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -2808,6 +3211,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -2873,6 +3281,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -3020,6 +3433,16 @@
           "date": "2026-12-24",
           "name": "효성제(교내축제)",
           "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-06",
+          "name": "졸업식",
+          "holiday": false
         }
       ]
     },
@@ -3063,6 +3486,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -3185,6 +3613,11 @@
           "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3196,11 +3629,6 @@
       "gu": "",
       "dong": "계산동",
       "events": [
-        {
-          "date": "2026-11-06",
-          "name": "다솔제",
-          "holiday": false
-        },
         {
           "date": "2026-11-17",
           "name": "기말고사",
@@ -3305,6 +3733,11 @@
           "date": "2027-01-05",
           "name": "동계방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-06",
+          "name": "동계방학",
+          "holiday": true
         }
       ]
     },
@@ -3348,6 +3781,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -3425,6 +3863,11 @@
           "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3488,6 +3931,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -3570,6 +4018,11 @@
           "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3645,6 +4098,11 @@
           "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3673,6 +4131,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
@@ -3745,6 +4208,11 @@
           "date": "2027-01-05",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -3803,6 +4271,11 @@
         },
         {
           "date": "2027-01-05",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
         }
