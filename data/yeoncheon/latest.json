@@ -1,9 +1,9 @@
 {
   "region": "연천군",
-  "updated_at": "2026-11-07 10:45:40",
+  "updated_at": "2026-11-08 10:29:29",
   "period": {
-    "from": "20261107",
-    "to": "20270106"
+    "from": "20261108",
+    "to": "20270107"
   },
   "school_count": 22,
   "public_holidays": [
@@ -352,6 +352,142 @@
       "date": "2027-01-06",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "군남중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "군남초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대광중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대광초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "백의초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "백학중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "봄방학",
+      "holiday": true
+    },
+    {
+      "school": "백학초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상리초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "연천고등학교",
+      "level": "고등학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "종업식 및 졸업식",
+      "holiday": false
+    },
+    {
+      "school": "연천노곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "연천왕산초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "전곡중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "졸업식(3학년)",
+      "holiday": false
+    },
+    {
+      "school": "전곡초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청산중학교",
+      "level": "중학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "초성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "졸업식",
+      "holiday": false
+    },
+    {
+      "school": "초성초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "겨울방학식",
+      "holiday": false
+    },
+    {
+      "school": "화진초등학교",
+      "level": "초등학교",
+      "gu": "",
+      "date": "2027-01-07",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -375,6 +511,11 @@
         },
         {
           "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-07",
           "name": "겨울방학",
           "holiday": true
         }
@@ -411,6 +552,11 @@
           "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-07",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -421,7 +567,18 @@
       "address": "경기도 연천군 청산면 청창로 726",
       "gu": "",
       "dong": "청산면",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-07",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-07",
+          "name": "종업식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7701014",
@@ -443,6 +600,11 @@
         },
         {
           "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-07",
           "name": "겨울방학",
           "holiday": true
         }
@@ -470,6 +632,11 @@
           "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-07",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -493,6 +660,11 @@
         },
         {
           "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-07",
           "name": "겨울방학",
           "holiday": true
         }
@@ -550,6 +722,11 @@
           "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-07",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -588,6 +765,11 @@
           "date": "2027-01-06",
           "name": "겨울방학식",
           "holiday": false
+        },
+        {
+          "date": "2027-01-07",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -607,7 +789,23 @@
       "address": "경기도 연천군 청산면 학담로 104",
       "gu": "",
       "dong": "청산면",
-      "events": []
+      "events": [
+        {
+          "date": "2027-01-07",
+          "name": "졸업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-07",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-07",
+          "name": "겨울방학식",
+          "holiday": false
+        }
+      ]
     },
     {
       "code": "7701022",
@@ -666,6 +864,11 @@
           "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-07",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -714,6 +917,11 @@
         },
         {
           "date": "2027-01-06",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-07",
           "name": "겨울방학",
           "holiday": true
         }
@@ -811,6 +1019,11 @@
           "date": "2027-01-06",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-07",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -859,6 +1072,11 @@
         },
         {
           "date": "2027-01-06",
+          "name": "봄방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-07",
           "name": "봄방학",
           "holiday": true
         }
@@ -921,6 +1139,16 @@
           "date": "2026-12-10",
           "name": "2학기 2차 지필형가(1,2학년)",
           "holiday": false
+        },
+        {
+          "date": "2027-01-07",
+          "name": "종업식",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-07",
+          "name": "졸업식(3학년)",
+          "holiday": false
         }
       ]
     },
@@ -970,6 +1198,11 @@
         {
           "date": "2026-12-23",
           "name": "오케스트라 발표회",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-07",
+          "name": "졸업식",
           "holiday": false
         }
       ]
@@ -1090,6 +1323,11 @@
         {
           "date": "2026-12-29",
           "name": "사정회",
+          "holiday": false
+        },
+        {
+          "date": "2027-01-07",
+          "name": "종업식 및 졸업식",
           "holiday": false
         }
       ]
