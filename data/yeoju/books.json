@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07 10:44:53",
+  "updated_at": "2026-11-08 10:28:21",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -8,6 +8,17 @@
       "desc": "여주시 공공도서관 · 초등(8~13세) 대출 · 최근 1달",
       "books": [
         {
+          "title": "흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식",
+          "author": "원작: 흔한남매, 유난희",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/33398/15/cover/k562938512_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6831155",
+          "isbn": "9791168414488",
+          "loans": 5,
+          "rank": 1,
+          "series": 2
+        },
+        {
           "title": "흔한남매",
           "author": "원작: 흔한남매, 유난희",
           "publisher": "미래엔",
@@ -15,18 +26,73 @@
           "link": "https://data4library.kr/bookV?seq=6945239",
           "isbn": "9791168418844",
           "loans": 5,
-          "rank": 1,
-          "series": 3
+          "rank": 2,
+          "series": 4
         },
         {
-          "title": "고타 선생과 우주",
-          "author": "김울림 지음, 소복이 그림",
-          "publisher": "문학과지성사",
-          "cover": "https://image.aladin.co.kr/product/33275/66/cover/8932042519_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6821405",
-          "isbn": "9788932042510",
+          "title": "흔한남매 과학 탐험대",
+          "author": "원작: 흔한남매, 임혜영",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/40095/2/cover200/k902130256_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7319008",
+          "isbn": "9791173327636",
+          "loans": 5,
+          "rank": 3,
+          "series": 1
+        },
+        {
+          "title": "마법의 빨간 부적 :김리리 동화",
+          "author": "김리리, 그린이: 이주희",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/15769/49/cover/8936451529_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3837479",
+          "isbn": "9788936451523",
           "loans": 4,
-          "rank": 2,
+          "rank": 4,
+          "series": 1
+        },
+        {
+          "title": "(우리가 사는) 한옥",
+          "author": "이상현 글, 김은희 그림",
+          "publisher": "시공사",
+          "cover": "https://image.aladin.co.kr/product/10364/73/cover/8952784871_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3417596",
+          "isbn": "9788952784872",
+          "loans": 4,
+          "rank": 5,
+          "series": 1
+        },
+        {
+          "title": "옛날 옛날 우리 엄마가 살았습니다 - 엄마 어린 시절에 있었던 흥미로운 몇몇 사건들",
+          "author": "박혜선 (지은이), 최미란 (그림)",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/21708/7/cover/8954658091_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5529550",
+          "isbn": "9788954658096",
+          "loans": 4,
+          "rank": 6,
+          "series": 1
+        },
+        {
+          "title": "우리가 걸어가면 길이 됩니다",
+          "author": "강무홍 글, 김효은 그림",
+          "publisher": "양철북출판사",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/072/093/07209372.jpg?type=m1&udate=20160602",
+          "link": "https://data4library.kr/bookV?seq=1951635",
+          "isbn": "9788963720845",
+          "loans": 4,
+          "rank": 7,
+          "series": 1
+        },
+        {
+          "title": "타키포오 얼렁뚱땅 상식스쿨",
+          "author": "원작: 캐릭온TV, 조수현",
+          "publisher": "대원씨아이",
+          "cover": "https://image.aladin.co.kr/product/39100/2/cover200/k322137258_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7254290",
+          "isbn": "9791142347887",
+          "loans": 4,
+          "rank": 8,
           "series": 1
         },
         {
@@ -37,40 +103,18 @@
           "link": "https://data4library.kr/bookV?seq=7345761",
           "isbn": "9791142364228",
           "loans": 4,
-          "rank": 3,
+          "rank": 9,
           "series": 1
         },
         {
-          "title": "흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식",
-          "author": "원작: 흔한남매, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/27892/11/cover/k652734308_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6088288",
-          "isbn": "9791164138982",
+          "title": "기후가 수상해 :태양, 빙하, 이산화탄소로 알아보는 기후의 비밀",
+          "author": "주디스 허버드 지음, 권예리 옮김",
+          "publisher": "다른미디어",
+          "cover": "https://image.aladin.co.kr/product/11850/59/cover/k212531733_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3635009",
+          "isbn": "9791188535026",
           "loans": 4,
-          "rank": 4,
-          "series": 1
-        },
-        {
-          "title": "흔한남매 과학 탐험대",
-          "author": "원작: 흔한남매, 임혜영",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/40095/2/cover200/k902130256_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7319008",
-          "isbn": "9791173327636",
-          "loans": 4,
-          "rank": 5,
-          "series": 1
-        },
-        {
-          "title": "선생님, 더불어 살려면 어떻게 해요?",
-          "author": "정주진, 김규정",
-          "publisher": "철수와영희",
-          "cover": "https://image.aladin.co.kr/product/24992/94/cover/k762632808_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5746031",
-          "isbn": "9791188215492",
-          "loans": 4,
-          "rank": 6,
+          "rank": 10,
           "series": 1
         },
         {
@@ -81,7 +125,7 @@
           "link": "https://data4library.kr/bookV?seq=2533682",
           "isbn": "9780375858123",
           "loans": 3,
-          "rank": 7,
+          "rank": 11,
           "series": 1
         },
         {
@@ -92,7 +136,18 @@
           "link": "https://data4library.kr/bookV?seq=2533683",
           "isbn": "9780375860904",
           "loans": 3,
-          "rank": 8,
+          "rank": 12,
+          "series": 1
+        },
+        {
+          "title": "고타 선생과 우주",
+          "author": "김울림 지음, 소복이 그림",
+          "publisher": "문학과지성사",
+          "cover": "https://image.aladin.co.kr/product/33275/66/cover/8932042519_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6821405",
+          "isbn": "9788932042510",
+          "loans": 3,
+          "rank": 13,
           "series": 1
         },
         {
@@ -103,7 +158,7 @@
           "link": "https://data4library.kr/bookV?seq=2614550",
           "isbn": "9788932373843",
           "loans": 3,
-          "rank": 9,
+          "rank": 14,
           "series": 1
         },
         {
@@ -114,18 +169,7 @@
           "link": "https://data4library.kr/bookV?seq=1060943",
           "isbn": "9788936442545",
           "loans": 3,
-          "rank": 10,
-          "series": 1
-        },
-        {
-          "title": "마법의 빨간 부적 :김리리 동화",
-          "author": "김리리, 그린이: 이주희",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/15769/49/cover/8936451529_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3837479",
-          "isbn": "9788936451523",
-          "loans": 3,
-          "rank": 11,
+          "rank": 15,
           "series": 1
         },
         {
@@ -136,7 +180,7 @@
           "link": "https://data4library.kr/bookV?seq=1229508",
           "isbn": "9788943308834",
           "loans": 3,
-          "rank": 12,
+          "rank": 16,
           "series": 1
         },
         {
@@ -147,7 +191,7 @@
           "link": "https://data4library.kr/bookV?seq=5698930",
           "isbn": "9788943313203",
           "loans": 3,
-          "rank": 13,
+          "rank": 17,
           "series": 1
         },
         {
@@ -158,7 +202,7 @@
           "link": "https://data4library.kr/bookV?seq=7344105",
           "isbn": "9788949122137",
           "loans": 3,
-          "rank": 14,
+          "rank": 18,
           "series": 1
         },
         {
@@ -169,18 +213,7 @@
           "link": "https://data4library.kr/bookV?seq=7307871",
           "isbn": "9788949142005",
           "loans": 3,
-          "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "슬기로운 외국어 생활 - 제15회 비룡소 문학상 수상작",
-          "author": "이지혜 (지은이), 심보영 (그림)",
-          "publisher": "비룡소",
-          "cover": "https://image.aladin.co.kr/product/40030/92/cover200/8949162717_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7313766",
-          "isbn": "9788949162713",
-          "loans": 3,
-          "rank": 16,
+          "rank": 19,
           "series": 1
         },
         {
@@ -190,39 +223,6 @@
           "cover": "https://image.aladin.co.kr/product/35277/67/cover200/8950917491_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6980005",
           "isbn": "9788950917494",
-          "loans": 3,
-          "rank": 17,
-          "series": 1
-        },
-        {
-          "title": "진시황의 책 교실 :책은 왜 읽어야 할까?",
-          "author": "이향안 글, 이경석 그림",
-          "publisher": "시공사",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/110/386/11038678.jpg?type=m1&udate=20160927",
-          "link": "https://data4library.kr/bookV?seq=3348592",
-          "isbn": "9788952782489",
-          "loans": 3,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "(우리가 사는) 한옥",
-          "author": "이상현 글, 김은희 그림",
-          "publisher": "시공사",
-          "cover": "https://image.aladin.co.kr/product/10364/73/cover/8952784871_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3417596",
-          "isbn": "9788952784872",
-          "loans": 3,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "봉주르, 뚜르",
-          "author": "한윤섭 글, 김진화 그림",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/787/83/cover/8954612881_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=1106014",
-          "isbn": "9788954612883",
           "loans": 3,
           "rank": 20,
           "series": 1
@@ -257,23 +257,23 @@
           "series": 1
         },
         {
+          "title": "채식주의자 :한강 장편소설",
+          "author": "한강",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/29137/2/cover/8936434594_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6428779",
+          "isbn": "9788936434595",
+          "loans": 2,
+          "rank": 3,
+          "series": 1
+        },
+        {
           "title": "도둑맞은 집중력 :집중력 위기의 시대, 삶의 주도권을 되찾는 법",
           "author": "요한 하리 지음, 김하현 옮김",
           "publisher": "어크로스(어크로스출판그룹)",
           "cover": "https://image.aladin.co.kr/product/31559/97/cover/k682832859_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6682845",
           "isbn": "9791167740984",
-          "loans": 2,
-          "rank": 3,
-          "series": 1
-        },
-        {
-          "title": "이성과 감성",
-          "author": "제인 오스틴, 윤지관",
-          "publisher": "민음사",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/021/215/02121551.jpg?type=m1&udate=20160702",
-          "link": "https://data4library.kr/bookV?seq=2384282",
-          "isbn": "9788937461323",
           "loans": 2,
           "rank": 4,
           "series": 1
@@ -367,6 +367,17 @@
           "series": 1
         },
         {
+          "title": "관점의 기술 - 새로운 것은 이미 우리 눈앞에 있다",
+          "author": "타나카 타츠야 (지은이), 김윤경 (옮긴이)",
+          "publisher": "알에이치코리아(RHK)",
+          "cover": "https://image.aladin.co.kr/product/40429/50/cover200/8925568063_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7360892",
+          "isbn": "9788925568065",
+          "loans": 1,
+          "rank": 13,
+          "series": 1
+        },
+        {
           "title": "친구는 쓸모없다 :사노 요코 에세이",
           "author": "사노 요코, 이소담",
           "publisher": "RHK(알에이치코리아)",
@@ -374,7 +385,7 @@
           "link": "https://data4library.kr/bookV?seq=7315957",
           "isbn": "9788925568836",
           "loans": 1,
-          "rank": 13,
+          "rank": 14,
           "series": 1
         },
         {
@@ -385,7 +396,7 @@
           "link": "https://data4library.kr/bookV?seq=3857740",
           "isbn": "9788926330760",
           "loans": 1,
-          "rank": 14,
+          "rank": 15,
           "series": 2
         },
         {
@@ -396,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=7313021",
           "isbn": "9788927723714",
           "loans": 1,
-          "rank": 15,
+          "rank": 16,
           "series": 1
         },
         {
@@ -407,7 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=3406471",
           "isbn": "9788927808329",
           "loans": 1,
-          "rank": 16,
+          "rank": 17,
           "series": 1
         },
         {
@@ -418,7 +429,7 @@
           "link": "https://data4library.kr/bookV?seq=3754015",
           "isbn": "9788930089661",
           "loans": 1,
-          "rank": 17,
+          "rank": 18,
           "series": 1
         },
         {
@@ -429,7 +440,7 @@
           "link": "https://data4library.kr/bookV?seq=5377758",
           "isbn": "9788930238182",
           "loans": 1,
-          "rank": 18,
+          "rank": 19,
           "series": 1
         },
         {
@@ -439,17 +450,6 @@
           "cover": "https://image.aladin.co.kr/product/83/14/cover/8931001142_2.jpg",
           "link": "https://data4library.kr/bookV?seq=980978",
           "isbn": "9788931001143",
-          "loans": 1,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "누군가를 이토록 사랑한 적 :이병률 시집",
-          "author": "이병률",
-          "publisher": "문학과지성사",
-          "cover": "https://image.aladin.co.kr/product/33824/43/cover200/8932042721_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6864198",
-          "isbn": "9788932042725",
           "loans": 1,
           "rank": 20,
           "series": 1
@@ -476,9 +476,9 @@
           "title": "흔한남매",
           "author": "원작: 흔한남매, 유난희",
           "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/37938/93/cover200/k232033352_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7188658",
-          "isbn": "9791175484290",
+          "cover": "https://image.aladin.co.kr/product/34618/90/cover200/k522933982_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6945239",
+          "isbn": "9791168418844",
           "loans": 9,
           "rank": 2,
           "series": 6
@@ -517,6 +517,17 @@
           "series": 1
         },
         {
+          "title": "(못 말리는 음악가) 트레몰로",
+          "author": "토미 웅거러 글·그림, 이현정 옮김",
+          "publisher": "비룡소",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/070/111/07011122.jpg?type=m1&udate=20170906",
+          "link": "https://data4library.kr/bookV?seq=2378634",
+          "isbn": "9788949112343",
+          "loans": 8,
+          "rank": 6,
+          "series": 1
+        },
+        {
           "title": "너도 멋진 똥을 누고 싶지?",
           "author": "클라우스 케자르 체러 글, 김경연 옮김",
           "publisher": "살림출판사",
@@ -524,7 +535,29 @@
           "link": "https://data4library.kr/bookV?seq=1213853",
           "isbn": "9788952216366",
           "loans": 8,
-          "rank": 6,
+          "rank": 7,
+          "series": 1
+        },
+        {
+          "title": "모자 사세요!",
+          "author": "에스퍼 슬로보드키나 (지은이), 박향주 (옮긴이)",
+          "publisher": "시공주니어",
+          "cover": "https://image.aladin.co.kr/product/11635/55/cover/8952784154_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3649229",
+          "isbn": "9788952784155",
+          "loans": 8,
+          "rank": 8,
+          "series": 1
+        },
+        {
+          "title": "일",
+          "author": "캐드린 오토시 글·그림, 이향순 옮김",
+          "publisher": "북뱅크",
+          "cover": "https://image.aladin.co.kr/product/8317/19/cover/896635047x_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3158452",
+          "isbn": "9788966350476",
+          "loans": 8,
+          "rank": 9,
           "series": 1
         },
         {
@@ -535,7 +568,29 @@
           "link": "https://data4library.kr/bookV?seq=2667045",
           "isbn": "9788967493882",
           "loans": 8,
-          "rank": 7,
+          "rank": 10,
+          "series": 1
+        },
+        {
+          "title": "나의 아버지",
+          "author": "강경수",
+          "publisher": "그림책공작소",
+          "cover": "https://image.aladin.co.kr/product/8230/68/cover/k602434952_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3152185",
+          "isbn": "9791186825044",
+          "loans": 8,
+          "rank": 11,
+          "series": 1
+        },
+        {
+          "title": "속도와 거리는 하나도 중요하지 않아",
+          "author": "마달레나 마토소 지음, 민찬기 옮김",
+          "publisher": "그림책공작소",
+          "cover": "https://image.aladin.co.kr/product/14798/90/cover/k902532251_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3760035",
+          "isbn": "9791186825174",
+          "loans": 8,
+          "rank": 12,
           "series": 1
         },
         {
@@ -546,7 +601,7 @@
           "link": "https://data4library.kr/bookV?seq=2155671",
           "isbn": "9788936433598",
           "loans": 7,
-          "rank": 8,
+          "rank": 13,
           "series": 1
         },
         {
@@ -557,7 +612,7 @@
           "link": "https://data4library.kr/bookV?seq=2037399",
           "isbn": "9788936434120",
           "loans": 7,
-          "rank": 9,
+          "rank": 14,
           "series": 1
         },
         {
@@ -568,29 +623,7 @@
           "link": "https://data4library.kr/bookV?seq=339263",
           "isbn": "9788949110523",
           "loans": 7,
-          "rank": 10,
-          "series": 1
-        },
-        {
-          "title": "(못 말리는 음악가) 트레몰로",
-          "author": "토미 웅거러 글·그림, 이현정 옮김",
-          "publisher": "비룡소",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/070/111/07011122.jpg?type=m1&udate=20170906",
-          "link": "https://data4library.kr/bookV?seq=2378634",
-          "isbn": "9788949112343",
-          "loans": 7,
-          "rank": 11,
-          "series": 1
-        },
-        {
-          "title": "모자 사세요!",
-          "author": "에스퍼 슬로보드키나 (지은이), 박향주 (옮긴이)",
-          "publisher": "시공주니어",
-          "cover": "https://image.aladin.co.kr/product/11635/55/cover/8952784154_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3649229",
-          "isbn": "9788952784155",
-          "loans": 7,
-          "rank": 12,
+          "rank": 15,
           "series": 1
         },
         {
@@ -601,18 +634,7 @@
           "link": "https://data4library.kr/bookV?seq=2375103",
           "isbn": "9788959980932",
           "loans": 7,
-          "rank": 13,
-          "series": 1
-        },
-        {
-          "title": "일",
-          "author": "캐드린 오토시 글·그림, 이향순 옮김",
-          "publisher": "북뱅크",
-          "cover": "https://image.aladin.co.kr/product/8317/19/cover/896635047x_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3158452",
-          "isbn": "9788966350476",
-          "loans": 7,
-          "rank": 14,
+          "rank": 16,
           "series": 1
         },
         {
@@ -623,7 +645,7 @@
           "link": "https://data4library.kr/bookV?seq=2616247",
           "isbn": "9788967492878",
           "loans": 7,
-          "rank": 15,
+          "rank": 17,
           "series": 1
         },
         {
@@ -634,7 +656,7 @@
           "link": "https://data4library.kr/bookV?seq=1971317",
           "isbn": "9788992351423",
           "loans": 7,
-          "rank": 16,
+          "rank": 18,
           "series": 1
         },
         {
@@ -645,7 +667,7 @@
           "link": "https://data4library.kr/bookV?seq=5426946",
           "isbn": "9788992351782",
           "loans": 7,
-          "rank": 17,
+          "rank": 19,
           "series": 1
         },
         {
@@ -655,28 +677,6 @@
           "cover": "https://bookthumb-phinf.pstatic.net/cover/097/080/09708049.jpg?type=m1&udate=20170907",
           "link": "https://data4library.kr/bookV?seq=2885981",
           "isbn": "9788998465742",
-          "loans": 7,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "한국사 이상현상 연구원 :최인서 소설",
-          "author": "최인서",
-          "publisher": "빅피시",
-          "cover": "https://image.aladin.co.kr/product/40090/97/cover200/k962130440_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7316990",
-          "isbn": "9791124137635",
-          "loans": 7,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "씩씩한 꽃",
-          "author": "주미경, 엘",
-          "publisher": "키즈엠",
-          "cover": "https://image.aladin.co.kr/product/22221/47/cover/k072636615_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5551125",
-          "isbn": "9791164631179",
           "loans": 7,
           "rank": 20,
           "series": 1
