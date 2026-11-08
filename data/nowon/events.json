@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-07 09:52:04",
+ "updated_at": "2026-11-08 09:28:48",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -136,21 +136,6 @@
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=9407318681064f028d407ee59a8d1f09&thumb=Y"
   },
   {
-   "id": "S1234feec7f",
-   "title": "제18회 언리미티드 에디션 - 서울아트북페어 2026",
-   "start": "2026-11-06",
-   "end": "2026-11-08",
-   "place": "서울시립 북서울시립미술관",
-   "time": "11.6(금) 12:00~19:00, 11.7(토) 10:00~18:00, 11.8(일) 10:00~18:00",
-   "grade": "누구나",
-   "price": "",
-   "free": true,
-   "kind": "축제-문화/예술",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159862&menuNo=200010",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=83db866e69954c8ab26f88e270e47895&thumb=Y"
-  },
-  {
    "id": "S12faaaa862",
    "title": "[서울시립과학관] 어른이 과학놀이터",
    "start": "2026-11-08",
@@ -164,6 +149,21 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160076&menuNo=200011",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0e9a075a55464ab79df98f98dc0cf754&thumb=Y"
+  },
+  {
+   "id": "S1234feec7f",
+   "title": "제18회 언리미티드 에디션 - 서울아트북페어 2026",
+   "start": "2026-11-06",
+   "end": "2026-11-08",
+   "place": "서울시립 북서울시립미술관",
+   "time": "11.6(금) 12:00~19:00, 11.7(토) 10:00~18:00, 11.8(일) 10:00~18:00",
+   "grade": "누구나",
+   "price": "",
+   "free": true,
+   "kind": "축제-문화/예술",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159862&menuNo=200010",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=83db866e69954c8ab26f88e270e47895&thumb=Y"
   },
   {
    "id": "Scf68a9d2d3",
@@ -223,10 +223,10 @@
    "lib": "서울특별시 노원구 동일로203길 73 중평공원 내 (하계동)",
    "target": "유아",
    "place": "서울특별시 노원구 동일로203길 73 중평공원 내 (하계동)",
-   "start": "2026-11-07",
+   "start": "2026-11-08",
    "end": "2026-11-16",
    "period": "",
-   "applyStart": "2026-11-07",
+   "applyStart": "2026-11-08",
    "applyEnd": "2026-11-16",
    "apply": "",
    "count": "",
@@ -243,10 +243,10 @@
    "lib": "서울특별시 노원구 상계로9나길 25 빛가온교회 드림센터 1층 (상계동)",
    "target": "유아",
    "place": "서울특별시 노원구 상계로9나길 25 빛가온교회 드림센터 1층 (상계동)",
-   "start": "2026-11-07",
+   "start": "2026-11-08",
    "end": "2026-11-16",
    "period": "",
-   "applyStart": "2026-11-07",
+   "applyStart": "2026-11-08",
    "applyEnd": "2026-11-16",
    "apply": "",
    "count": "",
@@ -263,10 +263,10 @@
    "lib": "서울특별시 노원구 화랑로 608  (공릉동)",
    "target": "유아",
    "place": "서울특별시 노원구 화랑로 608  (공릉동)",
-   "start": "2026-11-07",
+   "start": "2026-11-08",
    "end": "2026-11-16",
    "period": "",
-   "applyStart": "2026-11-07",
+   "applyStart": "2026-11-08",
    "applyEnd": "2026-11-16",
    "apply": "",
    "count": "",
@@ -813,6 +813,26 @@
    "src": "yeyak",
    "kind": "교육체험",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261018153542722360"
+  },
+  {
+   "id": "RS261105153845444326",
+   "title": "과학교양 진로북토크: 과학 공학과 애니메이션을 연결하다",
+   "lib": "서울시립과학관",
+   "target": "제한없음(이공계 진학을 꿈꾸는 청소년 및 과학을 좋아하는 누구나)",
+   "place": "서울시립과학관",
+   "start": "2026-11-08",
+   "end": "2026-12-20",
+   "period": "",
+   "applyStart": "2026-11-08",
+   "applyEnd": "2026-12-20",
+   "apply": "",
+   "count": "",
+   "status": "접수전",
+   "btn": "",
+   "free": true,
+   "src": "yeyak",
+   "kind": "자연/과학",
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261105153845444326"
   }
  ]
 }
