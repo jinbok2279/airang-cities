@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08 09:10:31",
+ "updated_at": "2026-11-09 09:22:07",
  "source": "용인시청 문화달력 · 용인시도서관 문화행사",
  "city": [
   {
@@ -27,19 +27,6 @@
    "free": true,
    "src": "city",
    "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16942"
-  },
-  {
-   "id": "16910",
-   "title": "제8회 용인 역사 문화 미술 아카이브",
-   "start": "2026-10-27",
-   "end": "2026-11-08",
-   "place": "문화예술원 대전시실",
-   "time": "10:00-17:00 *11.02(월) 휴관일 제외 *11.08(일) 12:00까지 관람가능",
-   "grade": "전체관람등급",
-   "price": "무료입장",
-   "free": true,
-   "src": "city",
-   "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16910"
   },
   {
    "id": "16989",
@@ -472,7 +459,7 @@
    "applyStart": "2026-11-03",
    "applyEnd": "2026-11-11",
    "apply": "2026.11.03(화) 10:00 ~ 2026.11.11(수) 18:00",
-   "count": "11/16",
+   "count": "12/16",
    "status": "접수중",
    "btn": "신청하기",
    "free": true,
@@ -556,6 +543,25 @@
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137182"
   },
   {
+   "id": "L137421",
+   "title": "흥덕[대면] 2026년 12월 흥덕도서관 독서문화행사 「서양미술사 책놀이 미니어처」 (초등 1~6학년)",
+   "lib": "흥덕도서관",
+   "target": "초등 (초등 1~6학년 15명)",
+   "place": "흥덕도서관 2층 시청각실",
+   "start": "2026-12-02",
+   "end": "2026-12-16",
+   "period": "2026.12.02(수) ~ 2026.12.16(수) 16:00 ~ 18:00 3회",
+   "applyStart": "2026-11-10",
+   "applyEnd": "2026-11-24",
+   "apply": "2026.11.10(화) 10:00 ~ 2026.11.24(화) 23:59",
+   "count": "0/15",
+   "status": "접수전",
+   "btn": "",
+   "free": true,
+   "src": "lib",
+   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137421"
+  },
+  {
    "id": "L137321",
    "title": "[특성화] 만화 베이커리: 나만의 컵케이크 비누 만들기",
    "lib": "모현도서관",
@@ -573,6 +579,25 @@
    "free": true,
    "src": "lib",
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137321"
+  },
+  {
+   "id": "L137401",
+   "title": "성복도서관 12월 재능기부 프로그램 「영어스토리텔링 Fun to Read」- (1~3주 일) 15:00 (초1-3학년)",
+   "lib": "성복도서관",
+   "target": "초등 (초등 1-3학년(2017년~2019년생) )",
+   "place": "성복도서관 지하1층 다목적실",
+   "start": "2026-12-06",
+   "end": "2026-12-20",
+   "period": "2026.12.06(일) ~ 2026.12.20(일) 15:00 ~ 16:30 3회",
+   "applyStart": "2026-11-25",
+   "applyEnd": "2026-12-03",
+   "apply": "2026.11.25(수) 10:00 ~ 2026.12.03(목) 15:00",
+   "count": "0/12",
+   "status": "접수전",
+   "btn": "",
+   "free": true,
+   "src": "lib",
+   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137401"
   },
   {
    "id": "L137341",
@@ -630,6 +655,25 @@
    "free": true,
    "src": "lib",
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137381"
+  },
+  {
+   "id": "L137402",
+   "title": "성복도서관 12월 재능기부 프로그램 「영화와 함께하는 영어놀이터」- (토) 15:00 (초1-2학년)",
+   "lib": "성복도서관",
+   "target": "초등 (초등 1-2학년(2018년~2019년생) )",
+   "place": "성복도서관 지하1층 다목적실",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "period": "2026.12.19(토) 15:00 ~ 16:30 1회",
+   "applyStart": "2026-12-07",
+   "applyEnd": "2026-12-16",
+   "apply": "2026.12.07(월) 10:00 ~ 2026.12.16(수) 15:00",
+   "count": "0/12",
+   "status": "접수전",
+   "btn": "",
+   "free": true,
+   "src": "lib",
+   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137402"
   }
  ]
 }
