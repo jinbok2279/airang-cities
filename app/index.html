@@ -225,13 +225,15 @@ function trackView(route) {
   trackUnique();
   gc(g => g.count({ path, title: document.title }));
 }
+const uPend = {};
 // 실제 사람 수: 휴대폰마다 하루 한 번, 한 달 한 번만 신호 (이 휴대폰에 날짜만 기억, 개인정보 없음)
 function trackUnique() {
   const d = todayYmd(), m = d.slice(0, 7);
   let first = store("edu.first"); if (!first) { first = IS_NEW_PHONE ? d : "before"; store("edu.first", first); }   // 처음 온 날만 기억
-  if (store("edu.uDay") !== d) gc(g => { g.count({ path: "방문-하루", title: "방문-하루", event: true }); const k = first === d ? "방문-새로" : "방문-다시"; g.count({ path: k, title: k, event: true }); store("edu.uDay", d); });
+  // 보내기 전에 '보내는 중' 표시 → 화면을 빨리 넘겨도 두 번 안 감 (count.js 가 늦게 와도)
+  if (store("edu.uDay") !== d && uPend.d !== d) { uPend.d = d; gc(g => { g.count({ path: "방문-하루", title: "방문-하루", event: true }); const k = first === d ? "방문-새로" : "방문-다시"; g.count({ path: k, title: k, event: true }); store("edu.uDay", d); }); }
   trackOpen();
-  if (store("edu.uMon") !== m) gc(g => { g.count({ path: "방문-한달", title: "방문-한달", event: true }); store("edu.uMon", m); });
+  if (store("edu.uMon") !== m && uPend.m !== m) { uPend.m = m; gc(g => { g.count({ path: "방문-한달", title: "방문-한달", event: true }); store("edu.uMon", m); }); }
 }
 // 앱 연 횟수: 30분 넘게 쉬었다가 다시 보면 한 번 더 (하루 n번째 열기를 따로 세서 합침)
 function trackOpen() {
@@ -242,7 +244,8 @@ function trackOpen() {
   n++; store("edu.openDay", d); store("edu.openN", String(n));
   if (n <= 50) gc(g => g.count({ path: "방문-열기-" + n, title: "방문-열기", event: true }));
 }
-document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && lastTracked) trackOpen(); });
+// 다시 화면에 나올 때도 날이 바뀌었으면 '하루 방문'을 셈 (밤새 켜 둔 앱을 아침에 다시 볼 때). trackUnique 가 trackOpen 도 부름
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && lastTracked) trackUnique(); });
 function trackEvent(name) { gc(g => g.count({ path: name, title: name, event: true })); }
 const DATA_URL = "latest.json";
 const KEY_SCHOOL = "edu.school";
