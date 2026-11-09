@@ -247,6 +247,19 @@ function trackOpen() {
 // 다시 화면에 나올 때도 날이 바뀌었으면 '하루 방문'을 셈 (밤새 켜 둔 앱을 아침에 다시 볼 때). trackUnique 가 trackOpen 도 부름
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && lastTracked) trackUnique(); });
 function trackEvent(name) { gc(g => g.count({ path: name, title: name, event: true })); }
+// 앱 오류 기록: 휴대폰에서 난 JS 오류를 '오류-<짧은 번호>'로 셈 (오류 글·줄 번호만, 개인정보 없음). 같은 오류는 한 기기 하루 한 번만
+function reportErr(msg, where) {
+  try {
+    msg = String(msg || "").slice(0, 120); if (!msg || /^Script error\.?$/.test(msg)) return;   // 다른 사이트·확장 프로그램 오류는 내용이 없어 뺌
+    let h = 0; for (const ch of msg + where) h = (h * 31 + ch.charCodeAt(0)) | 0;
+    const id = (h >>> 0).toString(36).slice(0, 6), d = todayYmd(), seen = (store("edu.errDay") || "").split(",");
+    if (seen[0] !== d) seen.length = 0, seen.push(d);
+    if (seen.includes(id) || seen.length > 6) return; seen.push(id); store("edu.errDay", seen.join(","));
+    gc(g => g.count({ path: "오류-" + id, title: (msg + " @" + where + " v" + (typeof APP_VER !== "undefined" ? APP_VER : "")).slice(0, 200), event: true }));
+  } catch (e) {}
+}
+window.addEventListener("error", e => reportErr(e.message, (e.filename || "").split("/").pop() + ":" + e.lineno));
+window.addEventListener("unhandledrejection", e => { const r = e.reason; reportErr(r && (r.message || r), "promise"); });
 const DATA_URL = "latest.json";
 const KEY_SCHOOL = "edu.school";
 {{#if yongin}}
