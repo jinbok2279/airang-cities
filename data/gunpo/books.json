@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08 10:17:46",
+  "updated_at": "2026-11-09 10:28:24",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -8,6 +8,17 @@
       "desc": "군포시 공공도서관 · 초등(8~13세) 대출 · 최근 1달",
       "books": [
         {
+          "title": "흔한남매",
+          "author": "원작: 흔한남매, 유난희",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/30518/41/cover/k422830492_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6594703",
+          "isbn": "9791168414471",
+          "loans": 5,
+          "rank": 1,
+          "series": 8
+        },
+        {
           "title": "놓지 마 과학!",
           "author": "글, 신태훈,나승훈",
           "publisher": "위즈덤하우스",
@@ -15,19 +26,8 @@
           "link": "https://data4library.kr/bookV?seq=5848396",
           "isbn": "9791191119367",
           "loans": 4,
-          "rank": 1,
-          "series": 1
-        },
-        {
-          "title": "설민석의 삼국지 대모험",
-          "author": "원작: 나관중, 만화: 스튜디오 담",
-          "publisher": "Dankkum i(단꿈아이)",
-          "cover": "https://image.aladin.co.kr/product/38239/14/cover200/k322034523_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7198469",
-          "isbn": "9791193031582",
-          "loans": 4,
           "rank": 2,
-          "series": 2
+          "series": 1
         },
         {
           "title": "신비아파트 한자 귀신 3 - 새로운 봉인 카드",
@@ -60,18 +60,18 @@
           "isbn": "9791142313714",
           "loans": 3,
           "rank": 5,
-          "series": 1
+          "series": 2
         },
         {
-          "title": "흔한남매",
-          "author": "원작: 흔한남매, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/24307/73/cover/k822630592_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=5686627",
-          "isbn": "9791164135592",
+          "title": "(타키·포오의) 이세계 여행사",
+          "author": "원작: 캐릭온TV, 이지운",
+          "publisher": "대원키즈",
+          "cover": "https://image.aladin.co.kr/product/38193/39/cover200/k442034607_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7197289",
+          "isbn": "9791142339622",
           "loans": 3,
           "rank": 6,
-          "series": 6
+          "series": 1
         },
         {
           "title": "흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식",
@@ -107,23 +107,23 @@
           "series": 1
         },
         {
-          "title": "코믹 메이플 스토리 수학도둑 97 - 국내 최초 수학논술만화",
-          "author": "송도수 (지은이), 서정 엔터테인먼트 (그림), 여운방 (감수)",
-          "publisher": "서울문화사",
-          "cover": "https://image.aladin.co.kr/product/32897/28/cover/k112936621_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6794243",
-          "isbn": "9791169238489",
-          "loans": 3,
-          "rank": 10,
-          "series": 1
-        },
-        {
           "title": "타키포오 코믹 어드벤처",
           "author": "원작: 캐릭온TV, 김규태",
           "publisher": "대원씨아이",
           "cover": "https://image.aladin.co.kr/product/35432/60/cover200/k672035732_2.jpg",
           "link": "https://data4library.kr/bookV?seq=6992399",
           "isbn": "9791172038953",
+          "loans": 3,
+          "rank": 10,
+          "series": 1
+        },
+        {
+          "title": "슈뻘맨의 슈퍼 상식 월드컵",
+          "author": "원작: 슈뻘맨, 이혜림",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/36860/30/cover200/k302030407_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7100842",
+          "isbn": "9791173322822",
           "loans": 3,
           "rank": 11,
           "series": 1
@@ -151,6 +151,17 @@
           "series": 1
         },
         {
+          "title": "설민석의 삼국지 대모험",
+          "author": "원작: 나관중, 만화: 스튜디오 담",
+          "publisher": "Dankkum i(단꿈아이)",
+          "cover": "https://image.aladin.co.kr/product/38239/14/cover200/k322034523_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7198469",
+          "isbn": "9791193031582",
+          "loans": 3,
+          "rank": 14,
+          "series": 1
+        },
+        {
           "title": "설민석의 세계사 대모험",
           "author": "설민석,박성일",
           "publisher": "단꿈아이",
@@ -158,51 +169,7 @@
           "link": "https://data4library.kr/bookV?seq=5581789",
           "isbn": "9791196893118",
           "loans": 3,
-          "rank": 14,
-          "series": 1
-        },
-        {
-          "title": "노부영 Alphabest (원서 & CD) (Paperback+CD)",
-          "author": "편집부",
-          "publisher": "제이와이북스",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/089/690/08969027.jpg?type=m1&udate=20150611",
-          "link": "https://data4library.kr/bookV?seq=2673646",
-          "isbn": "8809448441466",
-          "loans": 2,
           "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "노부영 Carrot Seed, The (원서 & CD) (Paperback + CD) - 노래부르는 영어동화",
-          "author": "루스 크라우스 (글), 크로켓 존슨 (그림)",
-          "publisher": "HarperTrophy",
-          "cover": "https://image.aladin.co.kr/product/62/75/cover/8954900283_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3472398",
-          "isbn": "8809448442326",
-          "loans": 2,
-          "rank": 16,
-          "series": 1
-        },
-        {
-          "title": "노부영 Mr Gumpy's Outing (원서 & CD) (Paperback + CD) - 노래부르는 영어동화",
-          "author": "존 버닝햄 (지은이)",
-          "publisher": "JYbooks(제이와이북스)",
-          "cover": "https://image.aladin.co.kr/product/98/62/cover/8954902251_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3472411",
-          "isbn": "8809448442562",
-          "loans": 2,
-          "rank": 17,
-          "series": 1
-        },
-        {
-          "title": "노부영 My Cat Likes to Hide in Boxes (원서 & CD) (Paperback) - 노래부르는 영어동화",
-          "author": "Eve Sutton (지은이)",
-          "publisher": "JYbooks(제이와이북스)",
-          "cover": "https://image.aladin.co.kr/product/96/3/cover/8954903339_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3156156",
-          "isbn": "8809448442852",
-          "loans": 2,
-          "rank": 18,
           "series": 1
         },
         {
@@ -213,16 +180,49 @@
           "link": "https://data4library.kr/bookV?seq=5730740",
           "isbn": "9780062965400",
           "loans": 2,
+          "rank": 16,
+          "series": 1
+        },
+        {
+          "title": "Froggy Builds a Tree House (Paperback)",
+          "author": "조나단 런던",
+          "publisher": "PenguinGroupUSA",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/072/513/07251319.jpg?type=m1&udate=20130628",
+          "link": "https://data4library.kr/bookV?seq=2685336",
+          "isbn": "9780142425336",
+          "loans": 2,
+          "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "Oxford Reading Tree: Decode and Develop More A Level 4 : The Good Luck Stone (Paperback)",
+          "author": "Hunt|Roderick",
+          "publisher": "OUPOxford",
+          "cover": "https://image.aladin.co.kr/product/5691/55/cover/0198390505_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=2379148",
+          "isbn": "9780198390503",
+          "loans": 2,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "Abiyoyo: Abiyoyo [With CD] (Hardcover)",
+          "author": "피트 시거 (Pete Seeger) (지은이), 마이클 헤이스 (그림)",
+          "publisher": "Simon & Schuster Children's",
+          "cover": "https://image.aladin.co.kr/product/98/60/cover/0689846932_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2417484",
+          "isbn": "9780689846939",
+          "loans": 2,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "The Secret Birthday Message (Paperback)",
-          "author": "에릭 칼",
-          "publisher": "HarperCollins",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/003/024/00302495.jpg?type=m1&udate=20170519",
-          "link": "https://data4library.kr/bookV?seq=2403717",
-          "isbn": "9780064430999",
+          "title": "Mercy Watson to the Rescue",
+          "author": "by Kate Dicamillo, illustrated by Chris Van Dusen",
+          "publisher": "",
+          "cover": "",
+          "link": "https://data4library.kr/bookV?seq=6325867",
+          "isbn": "9781536227222",
           "loans": 2,
           "rank": 20,
           "series": 1
@@ -290,17 +290,6 @@
           "series": 1
         },
         {
-          "title": "폭풍의 언덕",
-          "author": "에밀리 브론테 지음, 김종길 옮김",
-          "publisher": "민음사",
-          "cover": "https://image.aladin.co.kr/product/54/93/cover/8937461188_3.jpg",
-          "link": "https://data4library.kr/bookV?seq=2405548",
-          "isbn": "9788937461187",
-          "loans": 2,
-          "rank": 6,
-          "series": 1
-        },
-        {
           "title": "브람스를 좋아하세요",
           "author": "프랑수아즈 사강 [지음], 김남주 옮김",
           "publisher": "민음사",
@@ -308,7 +297,7 @@
           "link": "https://data4library.kr/bookV?seq=2374505",
           "isbn": "9788937461798",
           "loans": 2,
-          "rank": 7,
+          "rank": 6,
           "series": 1
         },
         {
@@ -319,7 +308,7 @@
           "link": "https://data4library.kr/bookV?seq=1245351",
           "isbn": "9788954427173",
           "loans": 2,
-          "rank": 8,
+          "rank": 7,
           "series": 1
         },
         {
@@ -330,7 +319,7 @@
           "link": "https://data4library.kr/bookV?seq=5424951",
           "isbn": "9791158943806",
           "loans": 2,
-          "rank": 9,
+          "rank": 8,
           "series": 1
         },
         {
@@ -341,7 +330,7 @@
           "link": "https://data4library.kr/bookV?seq=5424957",
           "isbn": "9791158943837",
           "loans": 2,
-          "rank": 10,
+          "rank": 9,
           "series": 1
         },
         {
@@ -352,7 +341,7 @@
           "link": "https://data4library.kr/bookV?seq=5424963",
           "isbn": "9791158943868",
           "loans": 2,
-          "rank": 11,
+          "rank": 10,
           "series": 1
         },
         {
@@ -363,7 +352,7 @@
           "link": "https://data4library.kr/bookV?seq=6065686",
           "isbn": "9791191824001",
           "loans": 2,
-          "rank": 12,
+          "rank": 11,
           "series": 1
         },
         {
@@ -374,18 +363,18 @@
           "link": "https://data4library.kr/bookV?seq=7082341",
           "isbn": "9791193238691",
           "loans": 2,
-          "rank": 13,
+          "rank": 12,
           "series": 1
         },
         {
-          "title": "(The) life and times of William Shakespeare",
-          "author": "Jennifer Bassett",
-          "publisher": "Oxford University Press",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/045/277/04527763.jpg?type=m1&udate=20170831",
-          "link": "https://data4library.kr/bookV?seq=1219722",
-          "isbn": "9780194790765",
+          "title": "The 18 Penny Goose (Paperback)",
+          "author": "Sally M. Walker (지은이), 엘런 바이어 (그림)",
+          "publisher": "Harpercollins Childrens Books",
+          "cover": "https://image.aladin.co.kr/product/95/65/cover/0064442500_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=2487551",
+          "isbn": "9780064442503",
           "loans": 1,
-          "rank": 14,
+          "rank": 13,
           "series": 1
         },
         {
@@ -396,7 +385,7 @@
           "link": "https://data4library.kr/bookV?seq=2378948",
           "isbn": "9780198480273",
           "loans": 1,
-          "rank": 15,
+          "rank": 14,
           "series": 1
         },
         {
@@ -407,7 +396,7 @@
           "link": "https://data4library.kr/bookV?seq=2378949",
           "isbn": "9780198480280",
           "loans": 1,
-          "rank": 16,
+          "rank": 15,
           "series": 1
         },
         {
@@ -418,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=2378950",
           "isbn": "9780198480297",
           "loans": 1,
-          "rank": 17,
+          "rank": 16,
           "series": 1
         },
         {
@@ -429,7 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=2378951",
           "isbn": "9780198480303",
           "loans": 1,
-          "rank": 18,
+          "rank": 17,
           "series": 1
         },
         {
@@ -440,7 +429,7 @@
           "link": "https://data4library.kr/bookV?seq=2378952",
           "isbn": "9780198480310",
           "loans": 1,
-          "rank": 19,
+          "rank": 18,
           "series": 1
         },
         {
@@ -450,6 +439,17 @@
           "cover": "https://bookthumb-phinf.pstatic.net/cover/126/839/12683998.jpg?type=m1&udate=20171217",
           "link": "https://data4library.kr/bookV?seq=2378953",
           "isbn": "9780198480327",
+          "loans": 1,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "Oxford Reading Tree: Level 1: Wordless Stories B: the Apple (Paperback)",
+          "author": "Roderick Hunt",
+          "publisher": "OxfordUniversityPress",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/068/965/06896507.jpg?type=m1&udate=20171226",
+          "link": "https://data4library.kr/bookV?seq=2378954",
+          "isbn": "9780198480365",
           "loans": 1,
           "rank": 20,
           "series": 1
@@ -484,23 +484,23 @@
           "series": 1
         },
         {
-          "title": "시간의 감촉 :은희경 장편소설",
-          "author": "은희경",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/39536/43/cover200/k182139749_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7280669",
-          "isbn": "9791141617226",
-          "loans": 14,
-          "rank": 3,
-          "series": 1
-        },
-        {
           "title": "투명한 나선",
           "author": "히가시노 게이고, 김선영",
           "publisher": "교보문고",
           "cover": "https://image.aladin.co.kr/product/39802/11/cover200/k082130602_3.jpg",
           "link": "https://data4library.kr/bookV?seq=7297704",
           "isbn": "9791170614043",
+          "loans": 14,
+          "rank": 3,
+          "series": 1
+        },
+        {
+          "title": "수족관 =유래혁 장편소설 /すいぞくかん",
+          "author": "유래혁",
+          "publisher": "Postershop",
+          "cover": "https://image.aladin.co.kr/product/33081/18/cover/k582937507_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6811756",
+          "isbn": "9791198547514",
           "loans": 14,
           "rank": 4,
           "series": 1
@@ -517,12 +517,12 @@
           "series": 1
         },
         {
-          "title": "수족관 =유래혁 장편소설 /すいぞくかん",
-          "author": "유래혁",
-          "publisher": "Postershop",
-          "cover": "https://image.aladin.co.kr/product/33081/18/cover/k582937507_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6811756",
-          "isbn": "9791198547514",
+          "title": "시간의 감촉 :은희경 장편소설",
+          "author": "은희경",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/39536/43/cover200/k182139749_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7280669",
+          "isbn": "9791141617226",
           "loans": 13,
           "rank": 6,
           "series": 1
@@ -550,6 +550,17 @@
           "series": 1
         },
         {
+          "title": "흔한남매",
+          "author": "원작: 흔한남매, 유난희",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/30518/41/cover/k422830492_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6594703",
+          "isbn": "9791168414471",
+          "loans": 12,
+          "rank": 9,
+          "series": 6
+        },
+        {
           "title": "가공범",
           "author": "히가시노 게이고, 김선영",
           "publisher": "교보문고",
@@ -557,7 +568,7 @@
           "link": "https://data4library.kr/bookV?seq=7094855",
           "isbn": "9791170612759",
           "loans": 12,
-          "rank": 9,
+          "rank": 10,
           "series": 1
         },
         {
@@ -568,7 +579,7 @@
           "link": "https://data4library.kr/bookV?seq=7301611",
           "isbn": "9791194891178",
           "loans": 12,
-          "rank": 10,
+          "rank": 11,
           "series": 1
         },
         {
@@ -579,40 +590,7 @@
           "link": "https://data4library.kr/bookV?seq=2037399",
           "isbn": "9788936434120",
           "loans": 11,
-          "rank": 11,
-          "series": 1
-        },
-        {
-          "title": "흔한남매",
-          "author": "원작: 흔한남매, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/35371/5/cover200/k792035405_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6986836",
-          "isbn": "9791173114038",
-          "loans": 11,
           "rank": 12,
-          "series": 3
-        },
-        {
-          "title": "독서의 기술 =책은 어떻게 삶의 무기가 되는가 /The art of reading",
-          "author": "고명환 지음",
-          "publisher": "라곰",
-          "cover": "https://shopping-phinf.pstatic.net/main_6058347/60583478236.20260624104607.jpg",
-          "link": "https://data4library.kr/bookV?seq=7289879",
-          "isbn": "9791193939666",
-          "loans": 11,
-          "rank": 13,
-          "series": 1
-        },
-        {
-          "title": "사춘기 엄마의 오장육부 :이 고약한 시절을 건너는 엄마 동지들에게",
-          "author": "나민애 지음",
-          "publisher": "서교책방",
-          "cover": "https://image.aladin.co.kr/product/39067/21/cover200/k662137858_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7252446",
-          "isbn": "9791124497029",
-          "loans": 10,
-          "rank": 14,
           "series": 1
         },
         {
@@ -623,7 +601,7 @@
           "link": "https://data4library.kr/bookV?seq=5769272",
           "isbn": "9791164136223",
           "loans": 10,
-          "rank": 15,
+          "rank": 13,
           "series": 1
         },
         {
@@ -634,18 +612,18 @@
           "link": "https://data4library.kr/bookV?seq=7297888",
           "isbn": "9791168344044",
           "loans": 10,
-          "rank": 16,
+          "rank": 14,
           "series": 1
         },
         {
-          "title": "나의 첫 번째 부동산 교과서",
-          "author": "송희구 지음",
-          "publisher": "서삼독",
-          "cover": "https://image.aladin.co.kr/product/39443/32/cover200/k392139397_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7276296",
-          "isbn": "9791193904435",
+          "title": "괴테는 모든 것을 말했다",
+          "author": "스즈키 유이 지음, 이지수 옮김",
+          "publisher": "콘텐츠그룹 포레스트",
+          "cover": "https://image.aladin.co.kr/product/37676/59/cover200/k212032349_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7177757",
+          "isbn": "9791194530701",
           "loans": 10,
-          "rank": 17,
+          "rank": 15,
           "series": 1
         },
         {
@@ -656,18 +634,7 @@
           "link": "https://data4library.kr/bookV?seq=7095794",
           "isbn": "9791199305304",
           "loans": 10,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "급류 :정대건 장편소설",
-          "author": "정대건",
-          "publisher": "민음사",
-          "cover": "https://image.aladin.co.kr/product/30769/24/cover/8937473402_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6614564",
-          "isbn": "9788937473401",
-          "loans": 9,
-          "rank": 19,
+          "rank": 16,
           "series": 1
         },
         {
@@ -677,6 +644,39 @@
           "cover": "https://image.aladin.co.kr/product/8350/97/cover/8955823509_1.jpg",
           "link": "https://data4library.kr/bookV?seq=3153716",
           "isbn": "9788955823509",
+          "loans": 9,
+          "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "인생을 위한 최소한의 생각",
+          "author": "신영준,고영성 지음",
+          "publisher": "상상스퀘어",
+          "cover": "https://image.aladin.co.kr/product/38548/11/cover200/k192135753_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7216392",
+          "isbn": "9791124248171",
+          "loans": 9,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "사춘기 엄마의 오장육부 :이 고약한 시절을 건너는 엄마 동지들에게",
+          "author": "나민애 지음",
+          "publisher": "서교책방",
+          "cover": "https://image.aladin.co.kr/product/39067/21/cover200/k662137858_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7252446",
+          "isbn": "9791124497029",
+          "loans": 9,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "인비인 :성해나 기담집",
+          "author": "성해나",
+          "publisher": "한겨레출판",
+          "cover": "https://image.aladin.co.kr/product/39581/25/cover200/k692139247_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7282052",
+          "isbn": "9791172134297",
           "loans": 9,
           "rank": 20,
           "series": 1
