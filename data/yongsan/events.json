@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08 10:08:00",
+ "updated_at": "2026-11-09 10:23:00",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -72,6 +72,21 @@
    "free": false,
    "src": "culture",
    "link": "https://www.mcst.go.kr/kor/s_culture/culture/cultureView.jsp?pSeq=77068"
+  },
+  {
+   "id": "KPF305630",
+   "title": "넘버블록스 시즌2: 자이언트 랜드를 찾아서 [서울]",
+   "start": "2027-01-08",
+   "end": "2027-03-01",
+   "place": "국립중앙박물관 극장 용",
+   "time": "",
+   "grade": "아동공연",
+   "price": "",
+   "free": false,
+   "kind": "뮤지컬",
+   "src": "kopis",
+   "link": "https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF305630",
+   "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305630_261106_103706.jpg"
   }
  ],
  "lib": [
@@ -136,35 +151,15 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261020101400998907"
   },
   {
-   "id": "RS261016005603726920",
-   "title": "(토)공원에서 들리는 숲의 소리 : 잠자리 나무 피리 만들기(가족)",
-   "lib": "용산가족공원",
-   "target": "가족(공원에서 들리는 숲의 소리 : 잠자리 나무 피리 만들기)",
-   "place": "용산가족공원",
-   "start": "2026-11-07",
-   "end": "2026-11-14",
-   "period": "",
-   "applyStart": "2026-10-20",
-   "applyEnd": "2026-11-10",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "공원탐방",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261016005603726920"
-  },
-  {
    "id": "RXML-YS241201",
    "title": "서울형 키즈카페 용산구 후암동점(후암 초록숲 키즈카페)",
    "lib": "서울특별시 용산구 후암로13길 8 후암교회 1층 (후암동)",
    "target": "유아",
    "place": "서울특별시 용산구 후암로13길 8 후암교회 1층 (후암동)",
-   "start": "2026-11-08",
+   "start": "2026-11-09",
    "end": "2026-11-16",
    "period": "",
-   "applyStart": "2026-11-08",
+   "applyStart": "2026-11-09",
    "applyEnd": "2026-11-16",
    "apply": "",
    "count": "",
@@ -181,10 +176,10 @@
    "lib": "서울특별시 용산구 서빙고로 17 센트럴파크타워, 2층 (한강로3가)",
    "target": "유아",
    "place": "서울특별시 용산구 서빙고로 17 센트럴파크타워, 2층 (한강로3가)",
-   "start": "2026-11-08",
+   "start": "2026-11-09",
    "end": "2026-11-16",
    "period": "",
-   "applyStart": "2026-11-08",
+   "applyStart": "2026-11-09",
    "applyEnd": "2026-11-16",
    "apply": "",
    "count": "",
@@ -201,10 +196,10 @@
    "lib": "서울특별시 용산구 효창원로86가길 28 2층 (청파동1가)",
    "target": "유아",
    "place": "서울특별시 용산구 효창원로86가길 28 2층 (청파동1가)",
-   "start": "2026-11-08",
+   "start": "2026-11-09",
    "end": "2026-11-16",
    "period": "",
-   "applyStart": "2026-11-08",
+   "applyStart": "2026-11-09",
    "applyEnd": "2026-11-16",
    "apply": "",
    "count": "",
@@ -316,15 +311,15 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260329163432910659"
   },
   {
-   "id": "RS260810110612092228",
-   "title": "(주말) 용산LAB 도시역사편: 타임슬립! 용산타임!(11월)",
-   "lib": "용산역사박물관",
-   "target": "어린이(초등학교 1~6학년 어린이)",
-   "place": "용산역사박물관",
-   "start": "2026-11-14",
-   "end": "2026-11-28",
+   "id": "RS261019160252927190",
+   "title": "(일)호시탐탐 남산탐험_반갑다! 겨울철새",
+   "lib": "한남공원이용지원센터",
+   "target": "초등학생(동반가족)",
+   "place": "한남공원이용지원센터",
+   "start": "2026-11-01",
+   "end": "2026-11-29",
    "period": "",
-   "applyStart": "2026-10-24",
+   "applyStart": "2026-10-20",
    "applyEnd": "2026-11-26",
    "apply": "",
    "count": "",
@@ -332,8 +327,8 @@
    "btn": "",
    "free": true,
    "src": "yeyak",
-   "kind": "교육체험",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260810110612092228"
+   "kind": "공원탐방",
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261019160252927190"
   },
   {
    "id": "RS261019144001892051",
@@ -473,21 +468,6 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261012160724552720"
   },
   {
-   "id": "Sb669a3c068",
-   "title": "TASTE OF GREEN(테이스트 오브 그린) 展",
-   "start": "2026-10-09",
-   "end": "2026-11-08",
-   "place": "헤럴드갤러리 L2층 / (주)헤럴드 본사",
-   "time": "11:00 ~ 18:00",
-   "grade": "누구나",
-   "price": "",
-   "free": true,
-   "kind": "전시/미술",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159543&menuNo=200009",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=180d3c8c592144d19aabadb5acf794f3&thumb=Y"
-  },
-  {
    "id": "RS261018161615334879",
    "title": "[경의선숲길] 경의선숲길 나무한스푼 (평일 성인, 다정한 겨울맞이)_11월",
    "lib": "효창공원역 4번 출구",
@@ -536,21 +516,6 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157363&menuNo=200009",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a8c296336d0f4398b55de07ad93424af&thumb=Y"
-  },
-  {
-   "id": "S51e6c0f9d6",
-   "title": "[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
-   "start": "2026-10-09",
-   "end": "2026-11-08",
-   "place": "소슬금 갤러리 (서울시 용산구 신흥로20길 17 1층)",
-   "time": "수-일 12:00~19:00, 매주 월·화 휴관",
-   "grade": "누구나 (무료)",
-   "price": "",
-   "free": true,
-   "kind": "전시/미술",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159722&menuNo=200009",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=199a22b3df904f96a192634ce3f4bafa&thumb=Y"
   },
   {
    "id": "S5e5783ee6a",
@@ -616,26 +581,6 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160095&menuNo=200009",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=65f39e9cf8d54f28b44d32ef30ae6b56&thumb=Y"
-  },
-  {
-   "id": "RS261019093101808189",
-   "title": "숲을 걷다 마음을 쉬다〔리스데이〕",
-   "lib": "용산가족공원",
-   "target": "성인(성인만 가능)",
-   "place": "용산가족공원",
-   "start": "2026-11-04",
-   "end": "2026-11-11",
-   "period": "",
-   "applyStart": "2026-10-20",
-   "applyEnd": "2026-11-08",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "공원탐방",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261019093101808189"
   },
   {
    "id": "S64e262dee6",
