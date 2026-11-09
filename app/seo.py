@@ -87,7 +87,16 @@ footer{{margin-top:28px;font-size:12px;color:#6B7280;line-height:1.7}}
 <a class="app" href="/">아이랑 {E(c['name'])} 앱으로 보기 — 우리 아이 학교·급식·학원 한곳에</a>
 <footer>아이랑은 공공기관이 아닌 송골랩이 만든 무료 서비스예요. 공공데이터(나이스 교육정보 개방포털, 유치원 알리미, 도서관 정보나루, 국립중앙의료원 등)를 모아 보여 드려요.
 정보는 바뀔 수 있으니 방문 전 꼭 전화로 확인해 주세요. 마지막 갱신 {now}.</footer>
-</div></body></html>"""
+</div>
+<script data-goatcounter="https://{key}-edu-app.goatcounter.com/count" data-goatcounter-settings='{{"no_onload":true}}' async src="https://gc.zgo.at/count.js"></script>
+<script>/* 방문 집계: 검색 안내 페이지는 앱 방문과 따로 셈 (검색-페이지 = 볼 때마다, 검색-하루 = 한 기기 하루 한 번). 관리자 기기는 안 셈 */
+(function(){{var L={{g:function(k){{try{{return localStorage.getItem(k)}}catch(e){{return null}}}},s:function(k,v){{try{{localStorage.setItem(k,v)}}catch(e){{}}}}}};
+if(L.g("edu.admin")||/[?&]nocount=1/.test(location.search))return;
+var d=new Date(Date.now()+324e5).toISOString().slice(0,10),n=0;
+(function f(){{var g=window.goatcounter;if(!g||!g.count){{if(n++<20)setTimeout(f,500);return}}
+g.count({{path:"검색-페이지",title:"검색-페이지",event:true}});
+if(L.g("edu.gDay")!==d){{g.count({{path:"검색-하루",title:"검색-하루",event:true}});L.s("edu.gDay",d)}}}})()}})();</script>
+</body></html>"""
 
 
 def subject_of(a, rx):

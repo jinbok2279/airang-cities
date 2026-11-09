@@ -80,7 +80,13 @@ h1 em{font-style:normal;background:linear-gradient(transparent 62%,#FFE08A 62%)}
 const CITIES = /*CITIES*/[];   // build.py 가 cities.json 으로 채움
 const url = k => `https://${k}.songgollab.co.kr/`;
 const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
-function pick(k) { store.set("airang.city", k); }
+// 방문 집계 (입구 전용 GoatCounter 사이트 airang-edu-app · 쿠키/개인정보 없음). 입구-보기 = 열 때마다, 입구-하루 = 한 기기 하루 한 번, 입구-선택 = 도시 카드 누름
+const NOCOUNT = !!store.get("edu.admin") || /[?&]nocount=1/.test(location.search);
+function gc(fn, n = 0) { if (NOCOUNT) return; const g = window.goatcounter; if (g && g.count) fn(g); else if (n < 20) setTimeout(() => gc(fn, n + 1), 500); }
+const ev = p => gc(g => g.count({ path: p, title: p, event: true }));
+(function () { const d = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+  ev("입구-보기"); if (store.get("airang.eDay") !== d) gc(g => { g.count({ path: "입구-하루", title: "입구-하루", event: true }); store.set("airang.eDay", d); }); })();
+function pick(k) { store.set("airang.city", k); ev("입구-선택"); }
 const TABS = [["경기", "경기"], ["서울", "서울"], ["인천", "인천"], ["충남", "충남"], ["etc", "다른 지역"]];
 const ASK = document.querySelector(".soon .ask").href;
 let tab = (CITIES.find(x => x[0] === store.get("airang.city")) || [])[6] || "경기";
@@ -121,4 +127,5 @@ const q = new URLSearchParams(location.search).get("near");
 const qc = CITIES.find(x => x[0] === q); if (qc) tab = qc[6];
 render(q);
 </script>
+<script data-goatcounter="https://airang-edu-app.goatcounter.com/count" data-goatcounter-settings='{"no_onload": true}' async src="https://gc.zgo.at/count.js"></script>
 </body></html>
