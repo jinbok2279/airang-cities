@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09 09:03:45",
+ "updated_at": "2026-11-10 11:59:18",
  "source": "공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -136,6 +136,21 @@
    "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304115_261022_104948.png"
   },
   {
+   "id": "KPF305890",
+   "title": "티시 태시 [고양]",
+   "start": "2026-12-05",
+   "end": "2026-12-06",
+   "place": "고양어울림누리",
+   "time": "",
+   "grade": "아동공연",
+   "price": "",
+   "free": false,
+   "kind": "뮤지컬",
+   "src": "kopis",
+   "link": "https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF305890",
+   "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305890_261109_172003.jpg"
+  },
+  {
    "id": "KPF304475",
    "title": "산타의 선물 [고양]",
    "start": "2026-12-11",
@@ -209,6 +224,21 @@
    "src": "kopis",
    "link": "https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF287853",
    "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF287853_260324_095936.gif"
+  },
+  {
+   "id": "KPF305023",
+   "title": "엄마까투리: 유치원도, 도시도 처음이야 [고양]",
+   "start": "2027-01-09",
+   "end": "2027-01-10",
+   "place": "고양어울림누리",
+   "time": "",
+   "grade": "아동공연",
+   "price": "",
+   "free": false,
+   "kind": "뮤지컬",
+   "src": "kopis",
+   "link": "https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF305023",
+   "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305023_261102_112233.gif"
   }
  ],
  "lib": [
@@ -224,7 +254,7 @@
    "applyStart": "2026-10-27",
    "applyEnd": "2026-11-13",
    "apply": "2026.10.27 10:00 ~ 2026.11.13 22:00",
-   "count": "7/10",
+   "count": "9/10",
    "status": "접수중",
    "btn": "",
    "free": true,
@@ -270,44 +300,6 @@
    "link": "https://www.goyanglib.or.kr/center/menu/10045/program/30013/lectureDetail.do?lectureIdx=522224"
   },
   {
-   "id": "L522797",
-   "title": "&lt;점점 더 궁금하고 자꾸 알고 싶어지는 새벽의 감각 탐험&gt;(1회차)",
-   "lib": "주엽어린이도서관",
-   "target": "초등1",
-   "place": "주엽어린이도서관 1.5층 꼼지락꼼지락그림책갤러리, 2.5층 어울림터",
-   "start": "2026-11-21",
-   "end": "2026-11-21",
-   "period": "2026.11.21 (1일)",
-   "applyStart": "2026-11-09",
-   "applyEnd": "2026-11-19",
-   "apply": "2026.11.09 10:00 ~ 2026.11.19 18:00",
-   "count": "0/15",
-   "status": "접수전",
-   "btn": "",
-   "free": true,
-   "src": "lib",
-   "link": "https://www.goyanglib.or.kr/center/menu/10045/program/30013/lectureDetail.do?lectureIdx=522797"
-  },
-  {
-   "id": "L522061",
-   "title": "(초등4~6학년) 어린이 워크숍 &lt;기후 프레스크&gt;",
-   "lib": "별꿈도서관",
-   "target": "초등4",
-   "place": "별꿈도서관 커뮤니티룸",
-   "start": "2026-11-28",
-   "end": "2026-11-28",
-   "period": "2026.11.28 (1일)",
-   "applyStart": "2026-11-10",
-   "applyEnd": "2026-11-26",
-   "apply": "2026.11.10 10:00 ~ 2026.11.26 18:00",
-   "count": "0/7",
-   "status": "접수전",
-   "btn": "",
-   "free": true,
-   "src": "lib",
-   "link": "https://www.goyanglib.or.kr/center/menu/10045/program/30013/lectureDetail.do?lectureIdx=522061"
-  },
-  {
    "id": "L514227",
    "title": "&lt;6~7세&gt; 북스타트선생님과 함께하는 &#039;다 함께 그림책 시간-하반기&#039;",
    "lib": "화정어린이도서관",
@@ -325,44 +317,6 @@
    "free": true,
    "src": "lib",
    "link": "https://www.goyanglib.or.kr/center/menu/10045/program/30013/lectureDetail.do?lectureIdx=514227"
-  },
-  {
-   "id": "L522804",
-   "title": "&lt;점점 더 궁금하고 자꾸 알고 싶어지는 새벽의 감각 탐험&gt;(3회차)",
-   "lib": "주엽어린이도서관",
-   "target": "초등3",
-   "place": "주엽어린이도서관 1.5층 꼼지락꼼지락그림책갤러리, 2.5층 어울림터",
-   "start": "2026-12-05",
-   "end": "2026-12-05",
-   "period": "2026.12.05 (1일)",
-   "applyStart": "2026-11-09",
-   "applyEnd": "2026-12-03",
-   "apply": "2026.11.09 10:00 ~ 2026.12.03 18:00",
-   "count": "0/15",
-   "status": "접수전",
-   "btn": "",
-   "free": true,
-   "src": "lib",
-   "link": "https://www.goyanglib.or.kr/center/menu/10045/program/30013/lectureDetail.do?lectureIdx=522804"
-  },
-  {
-   "id": "L522798",
-   "title": "&lt;점점 더 궁금하고 자꾸 알고 싶어지는 새벽의 감각 탐험&gt;(2회차)",
-   "lib": "주엽어린이도서관",
-   "target": "초등1",
-   "place": "주엽어린이도서관 1.5층 꼼지락꼼지락그림책갤러리, 2.5층 어울림터",
-   "start": "2026-12-05",
-   "end": "2026-12-05",
-   "period": "2026.12.05 (1일)",
-   "applyStart": "2026-11-09",
-   "applyEnd": "2026-12-03",
-   "apply": "2026.11.09 10:00 ~ 2026.12.03 18:00",
-   "count": "0/15",
-   "status": "접수전",
-   "btn": "",
-   "free": true,
-   "src": "lib",
-   "link": "https://www.goyanglib.or.kr/center/menu/10045/program/30013/lectureDetail.do?lectureIdx=522798"
   },
   {
    "id": "L522063",
