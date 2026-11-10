@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09 10:37:26",
+  "updated_at": "2026-11-10 13:19:43",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -16,7 +16,18 @@
           "isbn": "9791164137527",
           "loans": 4,
           "rank": 1,
-          "series": 6
+          "series": 5
+        },
+        {
+          "title": "(처음 읽는) 삼국지",
+          "author": "원작: 나관중, 한현동",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/39065/97/cover200/k142137754_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7251836",
+          "isbn": "9791175487635",
+          "loans": 4,
+          "rank": 2,
+          "series": 1
         },
         {
           "title": "슈뻘맨의 숨은 과학 찾기 :엉뚱 도전 속에 숨은 과학 상식",
@@ -26,8 +37,8 @@
           "link": "https://data4library.kr/bookV?seq=6754113",
           "isbn": "9791168415188",
           "loans": 3,
-          "rank": 2,
-          "series": 3
+          "rank": 3,
+          "series": 2
         },
         {
           "title": "빨간내복야코 안 읽으면 완전 위험한 과학책",
@@ -36,17 +47,6 @@
           "cover": "https://image.aladin.co.kr/product/36885/77/cover200/k712030607_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7102995",
           "isbn": "9791171714469",
-          "loans": 3,
-          "rank": 3,
-          "series": 1
-        },
-        {
-          "title": "(처음 읽는) 삼국지",
-          "author": "원작: 나관중, 한현동",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/39065/97/cover200/k142137754_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7251836",
-          "isbn": "9791175487635",
           "loans": 3,
           "rank": 4,
           "series": 1
@@ -118,6 +118,28 @@
           "series": 2
         },
         {
+          "title": "그리스 로마 신화 :만화로 읽는 초등 인문학",
+          "author": "박시연,강대진",
+          "publisher": "아울북(북이십일 아울북)",
+          "cover": "https://image.aladin.co.kr/product/31968/47/cover/8950963019_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6719448",
+          "isbn": "9788950963019",
+          "loans": 2,
+          "rank": 11,
+          "series": 1
+        },
+        {
+          "title": "그리스 로마 신화",
+          "author": "김민희,정보 강대진",
+          "publisher": "아울북(북이십일 아울북)",
+          "cover": "https://image.aladin.co.kr/product/12308/2/cover/8950971372_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3665795",
+          "isbn": "9788950971373",
+          "loans": 2,
+          "rank": 12,
+          "series": 2
+        },
+        {
           "title": "마법천자문 :손오공의 한자 대탐험",
           "author": "시리얼,홍거북",
           "publisher": "북이십일",
@@ -125,7 +147,7 @@
           "link": "https://data4library.kr/bookV?seq=5359843",
           "isbn": "9788950976972",
           "loans": 2,
-          "rank": 11,
+          "rank": 13,
           "series": 4
         },
         {
@@ -136,7 +158,7 @@
           "link": "https://data4library.kr/bookV?seq=5857188",
           "isbn": "9788954677158",
           "loans": 2,
-          "rank": 12,
+          "rank": 14,
           "series": 1
         },
         {
@@ -147,7 +169,40 @@
           "link": "https://data4library.kr/bookV?seq=2804878",
           "isbn": "9788965093473",
           "loans": 2,
-          "rank": 13,
+          "rank": 15,
+          "series": 1
+        },
+        {
+          "title": "마음이 아픈 날, 응급 편의점으로 오세요",
+          "author": "이알찬 글, 모차 그림",
+          "publisher": "개암나무",
+          "cover": "https://image.aladin.co.kr/product/35988/60/cover200/8968308594_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7023614",
+          "isbn": "9788968308598",
+          "loans": 2,
+          "rank": 16,
+          "series": 1
+        },
+        {
+          "title": "극한견주 :사모예드 솜이와 함께하는 극한 인생!",
+          "author": "글·마일로",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/12463/75/cover/k172532860_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3666754",
+          "isbn": "9791162332344",
+          "loans": 2,
+          "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "극한견주 2 - 사모예드 솜이와 함께하는 극한 인생!",
+          "author": "마일로",
+          "publisher": "북폴리오",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/133/948/13394875.jpg?type=m1&udate=20180313",
+          "link": "https://data4library.kr/bookV?seq=3709899",
+          "isbn": "9791162334539",
+          "loans": 2,
+          "rank": 18,
           "series": 1
         },
         {
@@ -158,7 +213,7 @@
           "link": "https://data4library.kr/bookV?seq=5479978",
           "isbn": "9791164132508",
           "loans": 2,
-          "rank": 14,
+          "rank": 19,
           "series": 1
         },
         {
@@ -168,61 +223,6 @@
           "cover": "https://image.aladin.co.kr/product/25151/11/cover/k762633375_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5769272",
           "isbn": "9791164136223",
-          "loans": 2,
-          "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "터널에서 살아남기",
-          "author": "박송이, 한현동",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/27355/72/cover/k712732520_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6033153",
-          "isbn": "9791164138128",
-          "loans": 2,
-          "rank": 16,
-          "series": 1
-        },
-        {
-          "title": "(전설의 모험왕) 엉덩이 댄디 :the young",
-          "author": "원작·감수: 트롤, 김정화",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/28183/78/cover/k082835775_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6323970",
-          "isbn": "9791164139651",
-          "loans": 2,
-          "rank": 17,
-          "series": 3
-        },
-        {
-          "title": "죽이고 싶은 아이 :이꽃님 장편소설",
-          "author": "이꽃님",
-          "publisher": "우리학교",
-          "cover": "https://image.aladin.co.kr/product/28098/11/cover/k522734440_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6317718",
-          "isbn": "9791167550170",
-          "loans": 2,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "미스터리 과학 조사단 :본격 미스터리 과학 상식 만화",
-          "author": "안치현, 강경효",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/30663/97/cover/k122830038_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6607615",
-          "isbn": "9791168414501",
-          "loans": 2,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "청소 특공대 다람단",
-          "author": "글·문채빈",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/31954/15/cover/k672833259_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6718965",
-          "isbn": "9791168415393",
           "loans": 2,
           "rank": 20,
           "series": 1
@@ -246,6 +246,17 @@
           "series": 1
         },
         {
+          "title": "브람스를 좋아하세요",
+          "author": "프랑수아즈 사강 [지음], 김남주 옮김",
+          "publisher": "민음사",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/045/694/04569434.jpg?type=m1&udate=20130412",
+          "link": "https://data4library.kr/bookV?seq=2374505",
+          "isbn": "9788937461798",
+          "loans": 2,
+          "rank": 2,
+          "series": 1
+        },
+        {
           "title": "검사내전 :생활형 검사의 사람 공부, 세상 공부",
           "author": "김웅 지음",
           "publisher": "부·키",
@@ -253,7 +264,7 @@
           "link": "https://data4library.kr/bookV?seq=3687594",
           "isbn": "9788960516175",
           "loans": 2,
-          "rank": 2,
+          "rank": 3,
           "series": 1
         },
         {
@@ -264,7 +275,7 @@
           "link": "https://data4library.kr/bookV?seq=1959457",
           "isbn": "9788997984121",
           "loans": 2,
-          "rank": 3,
+          "rank": 4,
           "series": 1
         },
         {
@@ -275,7 +286,7 @@
           "link": "https://data4library.kr/bookV?seq=7288242",
           "isbn": "9791124575178",
           "loans": 2,
-          "rank": 4,
+          "rank": 5,
           "series": 1
         },
         {
@@ -286,7 +297,7 @@
           "link": "https://data4library.kr/bookV?seq=2373666",
           "isbn": "9788901096391",
           "loans": 1,
-          "rank": 5,
+          "rank": 6,
           "series": 1
         },
         {
@@ -297,7 +308,7 @@
           "link": "https://data4library.kr/bookV?seq=1854941",
           "isbn": "9788901144108",
           "loans": 1,
-          "rank": 6,
+          "rank": 7,
           "series": 1
         },
         {
@@ -308,7 +319,7 @@
           "link": "https://data4library.kr/bookV?seq=6486156",
           "isbn": "9788901260679",
           "loans": 1,
-          "rank": 7,
+          "rank": 8,
           "series": 1
         },
         {
@@ -319,7 +330,7 @@
           "link": "https://data4library.kr/bookV?seq=6980863",
           "isbn": "9788901290331",
           "loans": 1,
-          "rank": 8,
+          "rank": 9,
           "series": 1
         },
         {
@@ -330,7 +341,7 @@
           "link": "https://data4library.kr/bookV?seq=7067145",
           "isbn": "9788901295428",
           "loans": 1,
-          "rank": 9,
+          "rank": 10,
           "series": 1
         },
         {
@@ -341,7 +352,7 @@
           "link": "https://data4library.kr/bookV?seq=2601630",
           "isbn": "9788911030989",
           "loans": 1,
-          "rank": 10,
+          "rank": 11,
           "series": 1
         },
         {
@@ -352,7 +363,7 @@
           "link": "https://data4library.kr/bookV?seq=2601571",
           "isbn": "9788911030996",
           "loans": 1,
-          "rank": 11,
+          "rank": 12,
           "series": 1
         },
         {
@@ -363,7 +374,7 @@
           "link": "https://data4library.kr/bookV?seq=2664771",
           "isbn": "9788921442796",
           "loans": 1,
-          "rank": 12,
+          "rank": 13,
           "series": 1
         },
         {
@@ -374,7 +385,7 @@
           "link": "https://data4library.kr/bookV?seq=5709275",
           "isbn": "9788925556253",
           "loans": 1,
-          "rank": 13,
+          "rank": 14,
           "series": 1
         },
         {
@@ -385,7 +396,7 @@
           "link": "https://data4library.kr/bookV?seq=6610767",
           "isbn": "9788925577166",
           "loans": 1,
-          "rank": 14,
+          "rank": 15,
           "series": 1
         },
         {
@@ -396,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=6622054",
           "isbn": "9788927107217",
           "loans": 1,
-          "rank": 15,
+          "rank": 16,
           "series": 1
         },
         {
@@ -407,7 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=3264850",
           "isbn": "9788927186946",
           "loans": 1,
-          "rank": 16,
+          "rank": 17,
           "series": 1
         },
         {
@@ -418,7 +429,7 @@
           "link": "https://data4library.kr/bookV?seq=3264858",
           "isbn": "9788927186984",
           "loans": 1,
-          "rank": 17,
+          "rank": 18,
           "series": 1
         },
         {
@@ -429,7 +440,7 @@
           "link": "https://data4library.kr/bookV?seq=3264868",
           "isbn": "9788927187042",
           "loans": 1,
-          "rank": 18,
+          "rank": 19,
           "series": 1
         },
         {
@@ -439,17 +450,6 @@
           "cover": "https://image.aladin.co.kr/product/5158/4/cover/8930210627_1.jpg",
           "link": "https://data4library.kr/bookV?seq=2616747",
           "isbn": "9788930210621",
-          "loans": 1,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "Why? people 안창호 =Ahn Chang Ho",
-          "author": "글쓴이: 김윤수, 그린이: 신정훈",
-          "publisher": "예림당",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/096/494/09649491.jpg?type=m1&udate=20151007",
-          "link": "https://data4library.kr/bookV?seq=2889101",
-          "isbn": "9788930233385",
           "loans": 1,
           "rank": 20,
           "series": 1
@@ -506,36 +506,14 @@
           "series": 1
         },
         {
-          "title": "모순 :양귀자 장편소설",
-          "author": "양귀자",
-          "publisher": "쓰다",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/071/902/07190270.jpg?type=m1&udate=20170801",
-          "link": "https://data4library.kr/bookV?seq=1938053",
-          "isbn": "9788998441012",
-          "loans": 8,
-          "rank": 5,
-          "series": 1
-        },
-        {
           "title": "세종의 나라 2 (양장)",
           "author": "김진명 (지은이)",
           "publisher": "이타북스",
           "cover": "https://image.aladin.co.kr/product/38600/68/cover200/k532136472_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7222788",
           "isbn": "9791167764126",
-          "loans": 8,
-          "rank": 6,
-          "series": 1
-        },
-        {
-          "title": "소년이 온다 :한강 장편소설",
-          "author": "한강",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=2037399",
-          "isbn": "9788936434120",
-          "loans": 7,
-          "rank": 7,
+          "loans": 10,
+          "rank": 5,
           "series": 1
         },
         {
@@ -545,6 +523,28 @@
           "cover": "https://image.aladin.co.kr/product/38600/67/cover200/k562136472_2.jpg",
           "link": "https://data4library.kr/bookV?seq=7222787",
           "isbn": "9791167764119",
+          "loans": 9,
+          "rank": 6,
+          "series": 1
+        },
+        {
+          "title": "모순 :양귀자 장편소설",
+          "author": "양귀자",
+          "publisher": "쓰다",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/071/902/07190270.jpg?type=m1&udate=20170801",
+          "link": "https://data4library.kr/bookV?seq=1938053",
+          "isbn": "9788998441012",
+          "loans": 8,
+          "rank": 7,
+          "series": 1
+        },
+        {
+          "title": "소년이 온다 :한강 장편소설",
+          "author": "한강",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=2037399",
+          "isbn": "9788936434120",
           "loans": 7,
           "rank": 8,
           "series": 1
@@ -558,7 +558,7 @@
           "isbn": "9791173479939",
           "loans": 7,
           "rank": 9,
-          "series": 2
+          "series": 3
         },
         {
           "title": "혼모노 :성해나 소설집",
@@ -583,6 +583,17 @@
           "series": 1
         },
         {
+          "title": "그랬다고 적었다 :김애란 산문",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/40019/36/cover200/k742130236_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7312549",
+          "isbn": "9791141618575",
+          "loans": 6,
+          "rank": 12,
+          "series": 1
+        },
+        {
           "title": "슈뻘맨의 숨은 과학 찾기 :엉뚱 도전 속에 숨은 과학 상식",
           "author": "슈뻘맨 원작, 류수형 그림",
           "publisher": "미래엔",
@@ -590,7 +601,7 @@
           "link": "https://data4library.kr/bookV?seq=6825216",
           "isbn": "9791168417786",
           "loans": 6,
-          "rank": 12,
+          "rank": 13,
           "series": 1
         },
         {
@@ -601,7 +612,18 @@
           "link": "https://data4library.kr/bookV?seq=2373919",
           "isbn": "9788901033518",
           "loans": 5,
-          "rank": 13,
+          "rank": 14,
+          "series": 1
+        },
+        {
+          "title": "플라스틱 공장에 놀러 오세요",
+          "author": "허승회,홍기한",
+          "publisher": "웅진씽크빅",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/028/569/02856916.jpg?type=m1&udate=20170906",
+          "link": "https://data4library.kr/bookV?seq=2376614",
+          "isbn": "9788901063768",
+          "loans": 5,
+          "rank": 15,
           "series": 1
         },
         {
@@ -612,7 +634,7 @@
           "link": "https://data4library.kr/bookV?seq=3412255",
           "isbn": "9788932918143",
           "loans": 5,
-          "rank": 14,
+          "rank": 16,
           "series": 1
         },
         {
@@ -623,7 +645,7 @@
           "link": "https://data4library.kr/bookV?seq=2404471",
           "isbn": "9788937460586",
           "loans": 5,
-          "rank": 15,
+          "rank": 17,
           "series": 1
         },
         {
@@ -634,7 +656,7 @@
           "link": "https://data4library.kr/bookV?seq=2376187",
           "isbn": "9788937461033",
           "loans": 5,
-          "rank": 16,
+          "rank": 18,
           "series": 1
         },
         {
@@ -645,7 +667,7 @@
           "link": "https://data4library.kr/bookV?seq=5941926",
           "isbn": "9788949123493",
           "loans": 5,
-          "rank": 17,
+          "rank": 19,
           "series": 1
         },
         {
@@ -655,28 +677,6 @@
           "cover": "https://image.aladin.co.kr/product/39985/24/cover200/8949142007_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7307871",
           "isbn": "9788949142005",
-          "loans": 5,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "용기 모자",
-          "author": "리사 데이크스트라 글, 천미나 옮김",
-          "publisher": "책과콩나무",
-          "cover": "https://image.aladin.co.kr/product/4685/47/cover/8994077782_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=2613842",
-          "isbn": "9788994077789",
-          "loans": 5,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "한국사 이상현상 연구원 :최인서 소설",
-          "author": "최인서",
-          "publisher": "빅피시",
-          "cover": "https://image.aladin.co.kr/product/40090/97/cover200/k962130440_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7316990",
-          "isbn": "9791124137635",
           "loans": 5,
           "rank": 20,
           "series": 1
