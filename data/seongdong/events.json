@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10 12:50:47",
+ "updated_at": "2026-11-11 10:52:10",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -48,6 +48,21 @@
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=31aeac269e8a4a7ab6c4b1aa504c80c3&thumb=Y"
   },
   {
+   "id": "S82f4c9970b",
+   "title": "[성동구립도서관] 문화가 있는 날 [김헌 작가와의 만남]",
+   "start": "2026-11-11",
+   "end": "2026-11-11",
+   "place": "소월아트홀",
+   "time": "19:00~21:00",
+   "grade": "누구나",
+   "price": "",
+   "free": true,
+   "kind": "교육/체험",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159994&menuNo=200011",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=68b3d9d46918401bb49b25745cf44379&thumb=Y"
+  },
+  {
    "id": "S048172f708",
    "title": "[청계천박물관] 2026년 11월 초등1~3학년 학급단체 교육 [씽씽! 청계천 시간여행]",
    "start": "2026-11-04",
@@ -76,21 +91,6 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159050&menuNo=200011",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=285db66942f74f07bd09bae3e13fd82f&thumb=Y"
-  },
-  {
-   "id": "S82f4c9970b",
-   "title": "[성동구립도서관] 문화가 있는 날 [김헌 작가와의 만남]",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "place": "소월아트홀",
-   "time": "19:00~21:00",
-   "grade": "누구나",
-   "price": "",
-   "free": true,
-   "kind": "교육/체험",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159994&menuNo=200011",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=68b3d9d46918401bb49b25745cf44379&thumb=Y"
   },
   {
    "id": "S4908e39a69",
@@ -265,6 +265,26 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260220142329827478"
   },
   {
+   "id": "RS261019100803940623",
+   "title": "[서울숲]  공원생물탐사대 (11월) -일",
+   "lib": "서울숲>서울숲 커뮤니티센터",
+   "target": "가족(7세 이상 어린이와 보호자)",
+   "place": "서울숲>서울숲 커뮤니티센터",
+   "start": "2026-10-25",
+   "end": "2026-11-22",
+   "period": "",
+   "applyStart": "2026-10-25",
+   "applyEnd": "2026-11-20",
+   "apply": "",
+   "count": "",
+   "status": "접수중",
+   "btn": "",
+   "free": false,
+   "src": "yeyak",
+   "kind": "자연/과학",
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261019100803940623"
+  },
+  {
    "id": "RS261019101304576072",
    "title": "[서울숲]신기한생물교실 (11월)-일",
    "lib": "서울숲>서울숲 커뮤니티센터",
@@ -310,10 +330,10 @@
    "lib": "서울특별시 성동구 무수막18길 1 금호2,3가동주민센터 4층 (금호동2가)",
    "target": "유아",
    "place": "서울특별시 성동구 무수막18길 1 금호2,3가동주민센터 4층 (금호동2가)",
-   "start": "2026-11-10",
+   "start": "2026-11-11",
    "end": "2026-11-23",
    "period": "",
-   "applyStart": "2026-11-10",
+   "applyStart": "2026-11-11",
    "applyEnd": "2026-11-23",
    "apply": "",
    "count": "",
@@ -330,10 +350,10 @@
    "lib": "서울특별시 성동구 뚝섬로3길 18 성수1가1동주민센터 1층 (성수동1가)",
    "target": "유아",
    "place": "서울특별시 성동구 뚝섬로3길 18 성수1가1동주민센터 1층 (성수동1가)",
-   "start": "2026-11-10",
+   "start": "2026-11-11",
    "end": "2026-11-23",
    "period": "",
-   "applyStart": "2026-11-10",
+   "applyStart": "2026-11-11",
    "applyEnd": "2026-11-23",
    "apply": "",
    "count": "",
@@ -383,6 +403,26 @@
    "src": "yeyak",
    "kind": "자연/과학",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S250202132929060634"
+  },
+  {
+   "id": "RS261019102340184565",
+   "title": "[서울숲] 같이숲학교 - \"일요가족생태나들이\" (11월)",
+   "lib": "서울숲 방문자센터",
+   "target": "가족(누구나)",
+   "place": "서울숲 방문자센터",
+   "start": "2026-10-25",
+   "end": "2026-11-29",
+   "period": "",
+   "applyStart": "2026-10-25",
+   "applyEnd": "2026-11-26",
+   "apply": "",
+   "count": "",
+   "status": "접수중",
+   "btn": "",
+   "free": true,
+   "src": "yeyak",
+   "kind": "자연/과학",
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261019102340184565"
   },
   {
    "id": "RS261109095541115159",
@@ -465,6 +505,26 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260309213721928622"
   },
   {
+   "id": "RS260901142233832871",
+   "title": "성동구_매봉산유아숲체험원 수시 모집(주중/평일/오후반)",
+   "lib": "성동구_매봉산유아숲체험원",
+   "target": "가족, 유아",
+   "place": "성동구_매봉산유아숲체험원",
+   "start": "2026-09-01",
+   "end": "2026-11-30",
+   "period": "",
+   "applyStart": "2026-09-01",
+   "applyEnd": "2026-11-30",
+   "apply": "",
+   "count": "",
+   "status": "접수중",
+   "btn": "",
+   "free": true,
+   "src": "yeyak",
+   "kind": "산림여가",
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260901142233832871"
+  },
+  {
    "id": "RS260922212907119426",
    "title": "성동구_금호산유아숲체험원 수시 모집(주중/평일/오후반)",
    "lib": "성동구_금호산유아숲체험원",
@@ -503,26 +563,6 @@
    "src": "yeyak",
    "kind": "산림여가",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260922212433567430"
-  },
-  {
-   "id": "RS260901142233832871",
-   "title": "성동구_매봉산유아숲체험원 수시 모집(주중/평일/오후반)",
-   "lib": "성동구_매봉산유아숲체험원",
-   "target": "가족, 유아",
-   "place": "성동구_매봉산유아숲체험원",
-   "start": "2026-09-01",
-   "end": "2026-11-30",
-   "period": "",
-   "applyStart": "2026-09-01",
-   "applyEnd": "2026-11-30",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "산림여가",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260901142233832871"
   },
   {
    "id": "RS260630095858201798",
@@ -702,6 +742,21 @@
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6d22a5166ca244068a398ed32972e504&thumb=Y"
   },
   {
+   "id": "S87f1154444",
+   "title": "[성동문화재단] 세계 영화 상영회 9회차 '이탈리아 영화' [비발디와 나]",
+   "start": "2026-11-11",
+   "end": "2026-11-11",
+   "place": "성수아트홀",
+   "time": "19:00",
+   "grade": "누구나",
+   "price": "",
+   "free": true,
+   "kind": "영화",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159882&menuNo=200013",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=706d67d8816b481a84bed1fa5a5b3bd4&thumb=Y"
+  },
+  {
    "id": "RS260706095456822519",
    "title": "[현장/단체/어르신/장애인]신통방통 하수와 만나다!(9~12월)",
    "lib": "서울하수도과학관(주차료 변경)",
@@ -740,26 +795,6 @@
    "src": "yeyak",
    "kind": "단체봉사",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261026151517266820"
-  },
-  {
-   "id": "RS261023105158277839",
-   "title": "서울숲, 에코라이프(11월, 향기가 된 식물들)",
-   "lib": "서울숲 생태학습장",
-   "target": "성인",
-   "place": "서울숲 생태학습장",
-   "start": "2026-10-23",
-   "end": "2026-11-11",
-   "period": "",
-   "applyStart": "2026-10-25",
-   "applyEnd": "2026-11-10",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": false,
-   "src": "yeyak",
-   "kind": "자연/과학",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261023105158277839"
   },
   {
    "id": "RS261015151610765734",
@@ -815,21 +850,6 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159920&menuNo=200008",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e3b5f52e82784b9a98d89d2175b26470&thumb=Y"
-  },
-  {
-   "id": "S87f1154444",
-   "title": "[성동문화재단] 세계 영화 상영회 9회차 '이탈리아 영화' [비발디와 나]",
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "place": "성수아트홀",
-   "time": "19:00",
-   "grade": "누구나",
-   "price": "",
-   "free": true,
-   "kind": "영화",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159882&menuNo=200013",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=706d67d8816b481a84bed1fa5a5b3bd4&thumb=Y"
   },
   {
    "id": "S813d157603",
