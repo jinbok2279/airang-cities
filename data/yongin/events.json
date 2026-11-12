@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11 10:12:31",
+ "updated_at": "2026-11-12 11:28:38",
  "source": "용인시청 문화달력 · 용인시도서관 문화행사",
  "city": [
   {
@@ -199,6 +199,20 @@
    "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16998"
   },
   {
+   "id": "Ce0fe619de2",
+   "title": "[김해] 국립발레단, 호두까기 인형",
+   "start": "2026-11-24",
+   "end": "2026-11-25",
+   "place": "김해문화의전당 마루홀",
+   "time": "20261124 ~ 20261125",
+   "grade": "",
+   "price": "",
+   "free": false,
+   "src": "culture",
+   "link": "https://www.mcst.go.kr/kor/s_culture/culture/cultureView.jsp?pSeq=77915",
+   "img": "http://www.culture.go.kr/upload/rdf/26/11/rdf_2026110621192506008.jpg"
+  },
+  {
    "id": "16941",
    "title": "[공연놀이터] 매직컬 스크루지",
    "start": "2026-11-25",
@@ -236,6 +250,19 @@
    "free": true,
    "src": "city",
    "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16985"
+  },
+  {
+   "id": "17000",
+   "title": "2026 윤슬교사국악관현악단 정기연주회",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "place": "마루홀",
+   "time": "90분(인터미션 10분)",
+   "grade": "전체관람등급",
+   "price": "전석무료",
+   "free": true,
+   "src": "city",
+   "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=17000"
   },
   {
    "id": "16988",
@@ -419,8 +446,8 @@
    "end": "2026-12-11",
    "period": "2026.11.20(금) ~ 2026.12.11(금) 15:30 ~ 17:30 4회",
    "applyStart": "2026-11-03",
-   "applyEnd": "2026-11-11",
-   "apply": "2026.11.03(화) 10:00 ~ 2026.11.11(수) 18:00",
+   "applyEnd": "2026-11-12",
+   "apply": "2026.11.03(화) 10:00 ~ 2026.11.12(목) 23:59",
    "count": "15/16",
    "status": "접수중",
    "btn": "신청하기",
@@ -440,7 +467,7 @@
    "applyStart": "2026-11-03",
    "applyEnd": "2026-11-13",
    "apply": "2026.11.03(화) 10:00 ~ 2026.11.13(금) 18:00",
-   "count": "10/12",
+   "count": "9/12",
    "status": "접수중",
    "btn": "신청하기",
    "free": true,
@@ -459,7 +486,7 @@
    "applyStart": "2026-11-09",
    "applyEnd": "2026-11-18",
    "apply": "2026.11.09(월) 10:00 ~ 2026.11.18(수) 21:00",
-   "count": "8/15",
+   "count": "10/15",
    "status": "접수중",
    "btn": "신청하기",
    "free": true,
@@ -478,7 +505,7 @@
    "applyStart": "2026-11-10",
    "applyEnd": "2026-11-24",
    "apply": "2026.11.10(화) 10:00 ~ 2026.11.24(화) 23:59",
-   "count": "8/15",
+   "count": "13/15",
    "status": "접수중",
    "btn": "신청하기",
    "free": true,
@@ -524,6 +551,25 @@
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=136923"
   },
   {
+   "id": "L137601",
+   "title": "[남사] 1인 미디어 아카데미 12월 특강 「AI 북트레일러 만들기」",
+   "lib": "남사도서관",
+   "target": "초등 (초등 3~4학년)",
+   "place": "1층 미디어 창작실",
+   "start": "2026-12-03",
+   "end": "2026-12-10",
+   "period": "2026.12.03(목) ~ 2026.12.10(목) 15:30 ~ 17:00 2회",
+   "applyStart": "2026-11-20",
+   "applyEnd": "2026-11-30",
+   "apply": "2026.11.20(금) 10:00 ~ 2026.11.30(월) 23:59",
+   "count": "0/10",
+   "status": "접수전",
+   "btn": "",
+   "free": true,
+   "src": "lib",
+   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137601"
+  },
+  {
    "id": "L137481",
    "title": "12월 특성화 프로그램 「다가오는 로봇, 함께하는 미래 - 로봇공학 체험」",
    "lib": "기흥도서관",
@@ -541,6 +587,25 @@
    "free": true,
    "src": "lib",
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137481"
+  },
+  {
+   "id": "L137602",
+   "title": "[남사] 1인 미디어 아카데미 12월 특강 「아빠와 함께 하는 AI 놀이터」",
+   "lib": "남사도서관",
+   "target": "초등 (초등3~6학년+아빠)",
+   "place": "1층 미디어 창작실",
+   "start": "2026-12-05",
+   "end": "2026-12-12",
+   "period": "2026.12.05(토) ~ 2026.12.12(토) 10:00 ~ 12:00 2회",
+   "applyStart": "2026-11-20",
+   "applyEnd": "2026-11-30",
+   "apply": "2026.11.20(금) 10:00 ~ 2026.11.30(월) 23:59",
+   "count": "0/10",
+   "status": "접수전",
+   "btn": "",
+   "free": true,
+   "src": "lib",
+   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137602"
   },
   {
    "id": "L137401",
