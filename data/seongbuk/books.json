@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 12:49:43",
+  "updated_at": "2026-11-13 11:39:29",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -462,17 +462,6 @@
       "desc": "성북구 공공도서관 · 전 연령 · 최근 1달",
       "books": [
         {
-          "title": "혼모노 :성해나 소설집",
-          "author": "성해나",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/36101/66/cover200/893643974x_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7035395",
-          "isbn": "9788936439743",
-          "loans": 41,
-          "rank": 1,
-          "series": 1
-        },
-        {
           "title": "안녕이라 그랬어 :김애란 소설",
           "author": "김애란",
           "publisher": "문학동네",
@@ -480,6 +469,17 @@
           "link": "https://data4library.kr/bookV?seq=7073819",
           "isbn": "9791141602376",
           "loans": 41,
+          "rank": 1,
+          "series": 1
+        },
+        {
+          "title": "혼모노 :성해나 소설집",
+          "author": "성해나",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/36101/66/cover200/893643974x_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7035395",
+          "isbn": "9788936439743",
+          "loans": 40,
           "rank": 2,
           "series": 1
         },
@@ -539,6 +539,17 @@
           "series": 1
         },
         {
+          "title": "인비인 :성해나 기담집",
+          "author": "성해나",
+          "publisher": "한겨레출판",
+          "cover": "https://image.aladin.co.kr/product/39581/25/cover200/k692139247_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7282052",
+          "isbn": "9791172134297",
+          "loans": 25,
+          "rank": 8,
+          "series": 1
+        },
+        {
           "title": "아코디언 :천명관 장편소설",
           "author": "천명관",
           "publisher": "창비",
@@ -546,7 +557,7 @@
           "link": "https://data4library.kr/bookV?seq=7282009",
           "isbn": "9788936439965",
           "loans": 24,
-          "rank": 8,
+          "rank": 9,
           "series": 1
         },
         {
@@ -557,7 +568,7 @@
           "link": "https://data4library.kr/bookV?seq=7316990",
           "isbn": "9791124137635",
           "loans": 24,
-          "rank": 9,
+          "rank": 10,
           "series": 1
         },
         {
@@ -567,17 +578,6 @@
           "cover": "https://image.aladin.co.kr/product/39802/11/cover200/k082130602_3.jpg",
           "link": "https://data4library.kr/bookV?seq=7297704",
           "isbn": "9791170614043",
-          "loans": 24,
-          "rank": 10,
-          "series": 1
-        },
-        {
-          "title": "인비인 :성해나 기담집",
-          "author": "성해나",
-          "publisher": "한겨레출판",
-          "cover": "https://image.aladin.co.kr/product/39581/25/cover200/k692139247_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7282052",
-          "isbn": "9791172134297",
           "loans": 24,
           "rank": 11,
           "series": 1
@@ -616,17 +616,6 @@
           "series": 1
         },
         {
-          "title": "나의 완벽한 장례식 :조현선 장편소설",
-          "author": "조현선",
-          "publisher": "책읽어주는남자",
-          "cover": "https://image.aladin.co.kr/product/38357/53/cover200/k952135368_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7204893",
-          "isbn": "9791124038192",
-          "loans": 22,
-          "rank": 15,
-          "series": 1
-        },
-        {
           "title": "그랬다고 적었다 :김애란 산문",
           "author": "김애란",
           "publisher": "문학동네",
@@ -634,7 +623,7 @@
           "link": "https://data4library.kr/bookV?seq=7312549",
           "isbn": "9791141618575",
           "loans": 22,
-          "rank": 16,
+          "rank": 15,
           "series": 1
         },
         {
@@ -644,6 +633,17 @@
           "cover": "https://image.aladin.co.kr/product/26302/71/cover/8954677150_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5857188",
           "isbn": "9788954677158",
+          "loans": 21,
+          "rank": 16,
+          "series": 1
+        },
+        {
+          "title": "나의 완벽한 장례식 :조현선 장편소설",
+          "author": "조현선",
+          "publisher": "책읽어주는남자",
+          "cover": "https://image.aladin.co.kr/product/38357/53/cover200/k952135368_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7204893",
+          "isbn": "9791124038192",
           "loans": 21,
           "rank": 17,
           "series": 1
@@ -660,12 +660,12 @@
           "series": 1
         },
         {
-          "title": "박곰희 연금 부자 수업 :4개의 통장으로 월 300만원 만들기",
-          "author": "박곰희 지음",
-          "publisher": "인플루엔셜",
-          "cover": "https://image.aladin.co.kr/product/36661/52/cover200/k972030181_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7086495",
-          "isbn": "9791168342941",
+          "title": "가공범",
+          "author": "히가시노 게이고, 김선영",
+          "publisher": "교보문고",
+          "cover": "https://image.aladin.co.kr/product/36786/80/cover200/k472030698_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7094855",
+          "isbn": "9791170612759",
           "loans": 21,
           "rank": 19,
           "series": 1
