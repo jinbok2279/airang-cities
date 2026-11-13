@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12 11:49:44",
+ "updated_at": "2026-11-13 11:23:38",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -78,6 +78,21 @@
    "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300753_260911_172631.jpg"
   },
   {
+   "id": "Sa34fbd45c0",
+   "title": "앙상블 피츠 창단연주회",
+   "start": "2026-12-07",
+   "end": "2026-12-07",
+   "place": "세라믹팔레스홀",
+   "time": "월 19:00~21:00",
+   "grade": "초등학생 이상 누구나",
+   "price": "전석 2만원",
+   "free": false,
+   "kind": "클래식",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160019&menuNo=200008",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e8fbf088efe84aacb2d8bd24e248e787&thumb=Y"
+  },
+  {
    "id": "KPF305384",
    "title": "호두까기인형 [서울 강남]",
    "start": "2026-12-26",
@@ -135,26 +150,6 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261008111715865423"
   },
   {
-   "id": "RS261009150358856394",
-   "title": "(11월) 생생놀이터! 양재천",
-   "lib": "양재천",
-   "target": "유아(만3~만5세 유아 단체)",
-   "place": "양재천",
-   "start": "2026-10-13",
-   "end": "2026-11-27",
-   "period": "",
-   "applyStart": "2026-10-15",
-   "applyEnd": "2026-11-22",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "자연/과학",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261009150358856394"
-  },
-  {
    "id": "RS261009143749879530",
    "title": "(11월) 세곡 탐사대",
    "lib": "세곡천",
@@ -180,10 +175,10 @@
    "lib": "서울특별시 강남구 언주로107길 4 2층 (역삼동) 2층 서울형 키즈카페",
    "target": "유아",
    "place": "서울특별시 강남구 언주로107길 4 2층 (역삼동) 2층 서울형 키즈카페",
-   "start": "2026-11-12",
+   "start": "2026-11-13",
    "end": "2026-11-23",
    "period": "",
-   "applyStart": "2026-11-12",
+   "applyStart": "2026-11-13",
    "applyEnd": "2026-11-23",
    "apply": "",
    "count": "",
@@ -200,10 +195,10 @@
    "lib": "서울특별시 강남구 남부순환로391길 25 강남성은교회 2층 (대치동)",
    "target": "유아",
    "place": "서울특별시 강남구 남부순환로391길 25 강남성은교회 2층 (대치동)",
-   "start": "2026-11-12",
+   "start": "2026-11-13",
    "end": "2026-11-23",
    "period": "",
-   "applyStart": "2026-11-12",
+   "applyStart": "2026-11-13",
    "applyEnd": "2026-11-23",
    "apply": "",
    "count": "",
@@ -347,6 +342,21 @@
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bb8f2e8d55af4dd59366566f8a5f2811&thumb=Y"
   },
   {
+   "id": "Sbdf35e76f1",
+   "title": "hnei(이석희) 작곡발표회 [비누, 비노, 배누, 비눌, 비널 그리고 사분]",
+   "start": "2026-11-13",
+   "end": "2026-11-14",
+   "place": "플랫폼엘 플랫폼 라이브 (B2) (서울 강남구 언주로133길 11)",
+   "time": "11.13.(금) 19:30 / 11.14.(토) 14:00",
+   "grade": "누구나(만 7세 이상)",
+   "price": "전석 30,000원 / 1차 예매 20,000원 / 2차 예매 25,00",
+   "free": false,
+   "kind": "클래식",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159973&menuNo=200008",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1e8b09c80e184f759f1850e9f000cea0&thumb=Y"
+  },
+  {
    "id": "S250fb32590",
    "title": "김한나의 개인전 [종이, 연필, 지우개, 책 (Paper, Pencil, Eraser, Book)]",
    "start": "2026-11-04",
@@ -380,21 +390,6 @@
    "src": "yeyak",
    "kind": "교육체험",
    "link": "https://firesafety.eseoul.go.kr/multi/main.do"
-  },
-  {
-   "id": "Sbdf35e76f1",
-   "title": "hnei(이석희) 작곡발표회 [비누, 비노, 배누, 비눌, 비널 그리고 사분]",
-   "start": "2026-11-13",
-   "end": "2026-11-14",
-   "place": "플랫폼엘 플랫폼 라이브 (B2) (서울 강남구 언주로133길 11)",
-   "time": "11.13.(금) 19:30 / 11.14.(토) 14:00",
-   "grade": "누구나(만 7세 이상)",
-   "price": "전석 30,000원 / 1차 예매 20,000원 / 2차 예매 25,00",
-   "free": false,
-   "kind": "클래식",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159973&menuNo=200008",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1e8b09c80e184f759f1850e9f000cea0&thumb=Y"
   },
   {
    "id": "S106e0cfe53",
