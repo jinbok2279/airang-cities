@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12 12:30:28",
+ "updated_at": "2026-11-13 11:29:38",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -120,15 +120,35 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261020150333739187"
   },
   {
+   "id": "RS261020151426082131",
+   "title": "You’ve got an invitation from your forest(한국인 대상)",
+   "lib": "북서울꿈의숲",
+   "target": "가족(한국인만(부모동반))",
+   "place": "북서울꿈의숲",
+   "start": "2026-11-01",
+   "end": "2026-11-21",
+   "period": "",
+   "applyStart": "2026-10-22",
+   "applyEnd": "2026-11-18",
+   "apply": "",
+   "count": "",
+   "status": "접수중",
+   "btn": "",
+   "free": true,
+   "src": "yeyak",
+   "kind": "공원탐방",
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261020151426082131"
+  },
+  {
    "id": "RXML-GB230601",
    "title": "서울형 키즈카페 강북구 번3동점(강북구 'PLAY ON')",
    "lib": "서울특별시 강북구 오현로 208 번동주공아파트 309동, 1층 (주민복지관 1, 어린이실내놀이터)",
    "target": "유아",
    "place": "서울특별시 강북구 오현로 208 번동주공아파트 309동, 1층 (주민복지관 1, 어린이실내놀이터)",
-   "start": "2026-11-12",
+   "start": "2026-11-13",
    "end": "2026-11-23",
    "period": "",
-   "applyStart": "2026-11-12",
+   "applyStart": "2026-11-13",
    "applyEnd": "2026-11-23",
    "apply": "",
    "count": "",
@@ -145,10 +165,10 @@
    "lib": "서울특별시 강북구 삼양로 220 반도중앙교회 교육관 1층 (미아동)",
    "target": "유아",
    "place": "서울특별시 강북구 삼양로 220 반도중앙교회 교육관 1층 (미아동)",
-   "start": "2026-11-12",
+   "start": "2026-11-13",
    "end": "2026-11-23",
    "period": "",
-   "applyStart": "2026-11-12",
+   "applyStart": "2026-11-13",
    "applyEnd": "2026-11-23",
    "apply": "",
    "count": "",
@@ -165,10 +185,10 @@
    "lib": "서울특별시 강북구 월계로 173 북서울꿈의숲, 상상톡톡미술관 앞 청운답원(잔디광장) (번동)",
    "target": "유아",
    "place": "서울특별시 강북구 월계로 173 북서울꿈의숲, 상상톡톡미술관 앞 청운답원(잔디광장) (번동)",
-   "start": "2026-11-12",
+   "start": "2026-11-13",
    "end": "2026-11-23",
    "period": "",
-   "applyStart": "2026-11-12",
+   "applyStart": "2026-11-13",
    "applyEnd": "2026-11-23",
    "apply": "",
    "count": "",
@@ -185,10 +205,10 @@
    "lib": "서울특별시 강북구 삼양로 561 솔밭근린공원 (우이동) - 솔밭공원관리사무소 옆",
    "target": "유아",
    "place": "서울특별시 강북구 삼양로 561 솔밭근린공원 (우이동) - 솔밭공원관리사무소 옆",
-   "start": "2026-11-12",
+   "start": "2026-11-13",
    "end": "2026-11-23",
    "period": "",
-   "applyStart": "2026-11-12",
+   "applyStart": "2026-11-13",
    "applyEnd": "2026-11-23",
    "apply": "",
    "count": "",
@@ -238,26 +258,6 @@
    "src": "yeyak",
    "kind": "공원탐방",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261021111152630457"
-  },
-  {
-   "id": "RS261020180427311867",
-   "title": "(토, 일)북서울꿈의숲 선비체험",
-   "lib": "북서울꿈의숲(창녕위궁재사)",
-   "target": "초등학생",
-   "place": "북서울꿈의숲(창녕위궁재사)",
-   "start": "2026-11-01",
-   "end": "2026-11-29",
-   "period": "",
-   "applyStart": "2026-10-22",
-   "applyEnd": "2026-11-26",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "공원탐방",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261020180427311867"
   },
   {
    "id": "RS261020181710124545",
@@ -402,6 +402,21 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261021102028566043"
   },
   {
+   "id": "Sca87844819",
+   "title": "2026 강북창업포럼 [AI가 바꾸는 창업의 미래] (NCI 민/관/학 창업포럼)",
+   "start": "2026-11-13",
+   "end": "2026-11-13",
+   "place": "강북문화예술회관 소나무홀",
+   "time": "13:30~16:00",
+   "grade": "누구나",
+   "price": "",
+   "free": true,
+   "kind": "교육/체험",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160134&menuNo=200011",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=224421b9ba7c4582ad5ab8966ac44a9b&thumb=Y"
+  },
+  {
    "id": "RS251211152049329500",
    "title": "2026년 강북구 문화관광해설 프로그램",
    "lib": "근현대사기념관",
@@ -422,8 +437,8 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S251211152049329500"
   },
   {
-   "id": "RS261022162236114974",
-   "title": "[북서울꿈의숲] 정원문화힐링센터_달빛 가드닝 (토)",
+   "id": "RS261022164414381776",
+   "title": "[북서울꿈의숲] 정원문화힐링센터_홈가드닝 (토)",
    "lib": "북서울꿈의숲",
    "target": "성인",
    "place": "북서울꿈의숲",
@@ -439,7 +454,7 @@
    "free": false,
    "src": "yeyak",
    "kind": "교육체험",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261022162236114974"
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261022164414381776"
   },
   {
    "id": "RS261102135518608401",
@@ -520,21 +535,6 @@
    "src": "yeyak",
    "kind": "도시농업",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S250605185735074262"
-  },
-  {
-   "id": "Sca87844819",
-   "title": "2026 강북창업포럼 [AI가 바꾸는 창업의 미래] (NCI 민/관/학 창업포럼)",
-   "start": "2026-11-13",
-   "end": "2026-11-13",
-   "place": "강북문화예술회관 소나무홀",
-   "time": "13:30~16:00",
-   "grade": "누구나",
-   "price": "",
-   "free": true,
-   "kind": "교육/체험",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160134&menuNo=200011",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=224421b9ba7c4582ad5ab8966ac44a9b&thumb=Y"
   }
  ]
 }
