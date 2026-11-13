@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12 11:28:38",
+ "updated_at": "2026-11-13 10:44:16",
  "source": "용인시청 문화달력 · 용인시도서관 문화행사",
  "city": [
   {
@@ -95,19 +95,6 @@
    "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16978"
   },
   {
-   "id": "16997",
-   "title": "2026 단국대학교 무용과 제 37회 작품 발표회",
-   "start": "2026-11-12",
-   "end": "2026-11-12",
-   "place": "용인포은아트홀",
-   "time": "19시",
-   "grade": "전체관람등급",
-   "price": "전석무료",
-   "free": true,
-   "src": "city",
-   "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16997"
-  },
-  {
    "id": "16986",
    "title": "2026 용인시민대중예술인 특집 < 가을별빛광장>",
    "start": "2026-11-14",
@@ -119,6 +106,19 @@
    "free": true,
    "src": "city",
    "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16986"
+  },
+  {
+   "id": "17002",
+   "title": "2026 용인시민축제기획단 선포식",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "place": "이벤트홀",
+   "time": "11월 14일 14:00~18:00 11월 15일 13:00~15:00",
+   "grade": "전체관람등급",
+   "price": "무료",
+   "free": true,
+   "src": "city",
+   "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=17002"
   },
   {
    "id": "16936",
@@ -437,25 +437,6 @@
  ],
  "lib": [
   {
-   "id": "L136741",
-   "title": "[수지] 11월 독서문화 프로그램(아동) 「생각이 자라는 그림책 토론 교실」",
-   "lib": "수지도서관",
-   "target": "초등 (초등 3~4학년 16명)",
-   "place": "수지도서관 3층 시청각실",
-   "start": "2026-11-20",
-   "end": "2026-12-11",
-   "period": "2026.11.20(금) ~ 2026.12.11(금) 15:30 ~ 17:30 4회",
-   "applyStart": "2026-11-03",
-   "applyEnd": "2026-11-12",
-   "apply": "2026.11.03(화) 10:00 ~ 2026.11.12(목) 23:59",
-   "count": "15/16",
-   "status": "접수중",
-   "btn": "신청하기",
-   "free": true,
-   "src": "lib",
-   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=136741"
-  },
-  {
    "id": "L137121",
    "title": "성복도서관 특성화 프로그램 AR 연계 「상상하며 읽는 영어독서」(AR3점대)",
    "lib": "성복도서관",
@@ -467,7 +448,7 @@
    "applyStart": "2026-11-03",
    "applyEnd": "2026-11-13",
    "apply": "2026.11.03(화) 10:00 ~ 2026.11.13(금) 18:00",
-   "count": "9/12",
+   "count": "8/12",
    "status": "접수중",
    "btn": "신청하기",
    "free": true,
@@ -494,6 +475,25 @@
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137182"
   },
   {
+   "id": "L136923",
+   "title": "[남사] 청소년 진로탐색 원데이 클래스 「나 2.0 미래를 플레이하다」",
+   "lib": "남사도서관",
+   "target": "초등 중등 (초6~중3)",
+   "place": "1층 미디어 창작실",
+   "start": "2026-11-25",
+   "end": "2026-11-25",
+   "period": "2026.11.25(수) 16:00 ~ 18:00 1회",
+   "applyStart": "2026-11-13",
+   "applyEnd": "2026-11-23",
+   "apply": "2026.11.13(금) 10:00 ~ 2026.11.23(월) 23:59",
+   "count": "0/15",
+   "status": "접수중",
+   "btn": "신청하기",
+   "free": true,
+   "src": "lib",
+   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=136923"
+  },
+  {
    "id": "L137421",
    "title": "흥덕[대면] 2026년 12월 흥덕도서관 독서문화행사 「서양미술사 책놀이 미니어처」 (초등 1~6학년)",
    "lib": "흥덕도서관",
@@ -505,7 +505,7 @@
    "applyStart": "2026-11-10",
    "applyEnd": "2026-11-24",
    "apply": "2026.11.10(화) 10:00 ~ 2026.11.24(화) 23:59",
-   "count": "13/15",
+   "count": "14/15",
    "status": "접수중",
    "btn": "신청하기",
    "free": true,
@@ -530,25 +530,6 @@
    "free": true,
    "src": "lib",
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137321"
-  },
-  {
-   "id": "L136923",
-   "title": "[남사] 청소년 진로탐색 원데이 클래스 「나 2.0 미래를 플레이하다」",
-   "lib": "남사도서관",
-   "target": "초등 중등 (초6~중3)",
-   "place": "1층 미디어 창작실",
-   "start": "2026-11-25",
-   "end": "2026-11-25",
-   "period": "2026.11.25(수) 16:00 ~ 18:00 1회",
-   "applyStart": "2026-11-13",
-   "applyEnd": "2026-11-23",
-   "apply": "2026.11.13(금) 10:00 ~ 2026.11.23(월) 23:59",
-   "count": "0/15",
-   "status": "접수전",
-   "btn": "",
-   "free": true,
-   "src": "lib",
-   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=136923"
   },
   {
    "id": "L137601",
