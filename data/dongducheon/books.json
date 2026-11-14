@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 11:58:42",
+  "updated_at": "2026-11-14 11:32:13",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -16,7 +16,7 @@
           "isbn": "9791164137527",
           "loans": 4,
           "rank": 1,
-          "series": 4
+          "series": 5
         },
         {
           "title": "(처음 읽는) 삼국지",
@@ -118,17 +118,6 @@
           "series": 1
         },
         {
-          "title": "복숭아 동산에서 맺은 맹세",
-          "author": "나관중 원작, 김종년 엮음, 김세현 그림",
-          "publisher": "",
-          "cover": "",
-          "link": "https://data4library.kr/bookV?seq=2804878",
-          "isbn": "9788965093473",
-          "loans": 2,
-          "rank": 11,
-          "series": 1
-        },
-        {
           "title": "마음이 아픈 날, 응급 편의점으로 오세요",
           "author": "이알찬 글, 모차 그림",
           "publisher": "개암나무",
@@ -136,7 +125,7 @@
           "link": "https://data4library.kr/bookV?seq=7023614",
           "isbn": "9788968308598",
           "loans": 2,
-          "rank": 12,
+          "rank": 11,
           "series": 1
         },
         {
@@ -147,7 +136,7 @@
           "link": "https://data4library.kr/bookV?seq=6580254",
           "isbn": "9788998973995",
           "loans": 2,
-          "rank": 13,
+          "rank": 12,
           "series": 1
         },
         {
@@ -158,7 +147,7 @@
           "link": "https://data4library.kr/bookV?seq=3666754",
           "isbn": "9791162332344",
           "loans": 2,
-          "rank": 14,
+          "rank": 13,
           "series": 1
         },
         {
@@ -169,18 +158,7 @@
           "link": "https://data4library.kr/bookV?seq=3709899",
           "isbn": "9791162334539",
           "loans": 2,
-          "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "아빠를 구하라!",
-          "author": "송정양, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/20861/47/cover/k392636971_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5479978",
-          "isbn": "9791164132508",
-          "loans": 2,
-          "rank": 16,
+          "rank": 14,
           "series": 1
         },
         {
@@ -191,18 +169,7 @@
           "link": "https://data4library.kr/bookV?seq=5769272",
           "isbn": "9791164136223",
           "loans": 2,
-          "rank": 17,
-          "series": 1
-        },
-        {
-          "title": "냥냥 도넛 배달부",
-          "author": "이혜령 글, 홍그림 그림",
-          "publisher": "천개의바람",
-          "cover": "https://image.aladin.co.kr/product/34795/71/cover200/k042933229_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6952910",
-          "isbn": "9791165735647",
-          "loans": 2,
-          "rank": 18,
+          "rank": 15,
           "series": 1
         },
         {
@@ -213,7 +180,7 @@
           "link": "https://data4library.kr/bookV?seq=6317718",
           "isbn": "9791167550170",
           "loans": 2,
-          "rank": 19,
+          "rank": 16,
           "series": 1
         },
         {
@@ -223,6 +190,39 @@
           "cover": "https://image.aladin.co.kr/product/30663/97/cover/k122830038_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6607615",
           "isbn": "9791168414501",
+          "loans": 2,
+          "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "슈뻘맨의 숨은 과학 찾기 :엉뚱 도전 속에 숨은 과학 상식",
+          "author": "슈뻘맨 원작, 류수형 그림",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/31331/11/cover/k812832794_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6657893",
+          "isbn": "9791168415171",
+          "loans": 2,
+          "rank": 18,
+          "series": 2
+        },
+        {
+          "title": "청소 특공대 다람단",
+          "author": "글·문채빈",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/31954/15/cover/k672833259_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6718965",
+          "isbn": "9791168415393",
+          "loans": 2,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "흔한남매 이무기 :이해하면 무서운 이야기",
+          "author": "원작: 흔한남매, 도니패밀리",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/32095/72/cover/k502834901_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6735778",
+          "isbn": "9791168415577",
           "loans": 2,
           "rank": 20,
           "series": 1
@@ -235,25 +235,80 @@
       "desc": "동두천시 공공도서관 · 청소년(14~19세) 대출 · 최근 1달",
       "books": [
         {
-          "title": "밥이 최고야",
-          "author": "김난지 글, 최나미 그림",
-          "publisher": "천개의바람",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/072/706/07270670.jpg?type=m1&udate=20171207",
-          "link": "https://data4library.kr/bookV?seq=1959457",
-          "isbn": "9788997984121",
+          "title": "동물들아, 같이 놀래?",
+          "author": "글·김현",
+          "publisher": "스콜라",
+          "cover": "https://image.aladin.co.kr/product/11020/97/cover/896247834x_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3449337",
+          "isbn": "9788962478341",
           "loans": 3,
           "rank": 1,
           "series": 1
         },
         {
-          "title": "(사진과 그림으로 보는) 한국 현대사",
-          "author": "서중석 지음",
-          "publisher": "웅진씽크빅",
-          "cover": "https://image.aladin.co.kr/product/24345/15/cover/8901241633_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5698173",
-          "isbn": "9788901241630",
-          "loans": 2,
+          "title": "탈것들아, 고마워!",
+          "author": "글·김현",
+          "publisher": "스콜라",
+          "cover": "https://image.aladin.co.kr/product/11021/2/cover/8962478358_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3448739",
+          "isbn": "9788962478358",
+          "loans": 3,
           "rank": 2,
+          "series": 1
+        },
+        {
+          "title": "계절은 즐거워!",
+          "author": "글·김현",
+          "publisher": "스콜라",
+          "cover": "https://image.aladin.co.kr/product/11020/90/cover/8962478366_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3449336",
+          "isbn": "9788962478365",
+          "loans": 3,
+          "rank": 3,
+          "series": 1
+        },
+        {
+          "title": "화내지 말고 예쁘게 말해요 :올바른 의사표현을 도와주는 책",
+          "author": "안미연 글, 서희정 그림",
+          "publisher": "상상스쿨",
+          "cover": "https://image.aladin.co.kr/product/301/32/cover/8996023442_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=2277157",
+          "isbn": "9788996023449",
+          "loans": 3,
+          "rank": 4,
+          "series": 1
+        },
+        {
+          "title": "코코코",
+          "author": "한은영 글·그림",
+          "publisher": "책읽는곰",
+          "cover": "https://image.aladin.co.kr/product/6902/16/cover/k382434479_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2923084",
+          "isbn": "9791158360108",
+          "loans": 3,
+          "rank": 5,
+          "series": 1
+        },
+        {
+          "title": "나는 나는 자라서 무엇이 될까? :우리 아이 재능발견 놀이",
+          "author": "김별 글, 이정은 그림",
+          "publisher": "큰북작은북",
+          "cover": "https://image.aladin.co.kr/product/10757/12/cover/k032530957_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3433343",
+          "isbn": "9791185072227",
+          "loans": 3,
+          "rank": 6,
+          "series": 1
+        },
+        {
+          "title": "나랑 친구할래?",
+          "author": "글·최숙희",
+          "publisher": "웅진씽크빅",
+          "cover": "https://image.aladin.co.kr/product/5687/76/cover/8901203650_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2621228",
+          "isbn": "9788901203652",
+          "loans": 2,
+          "rank": 7,
           "series": 1
         },
         {
@@ -264,7 +319,7 @@
           "link": "https://data4library.kr/bookV?seq=2601630",
           "isbn": "9788911030989",
           "loans": 2,
-          "rank": 3,
+          "rank": 8,
           "series": 1
         },
         {
@@ -275,7 +330,7 @@
           "link": "https://data4library.kr/bookV?seq=2601571",
           "isbn": "9788911030996",
           "loans": 2,
-          "rank": 4,
+          "rank": 9,
           "series": 1
         },
         {
@@ -286,7 +341,7 @@
           "link": "https://data4library.kr/bookV?seq=3264850",
           "isbn": "9788927186946",
           "loans": 2,
-          "rank": 5,
+          "rank": 10,
           "series": 1
         },
         {
@@ -297,7 +352,7 @@
           "link": "https://data4library.kr/bookV?seq=3264858",
           "isbn": "9788927186984",
           "loans": 2,
-          "rank": 6,
+          "rank": 11,
           "series": 1
         },
         {
@@ -308,7 +363,7 @@
           "link": "https://data4library.kr/bookV?seq=3264868",
           "isbn": "9788927187042",
           "loans": 2,
-          "rank": 7,
+          "rank": 12,
           "series": 1
         },
         {
@@ -319,7 +374,7 @@
           "link": "https://data4library.kr/bookV?seq=2616747",
           "isbn": "9788930210621",
           "loans": 2,
-          "rank": 8,
+          "rank": 13,
           "series": 1
         },
         {
@@ -330,7 +385,7 @@
           "link": "https://data4library.kr/bookV?seq=3145213",
           "isbn": "9788932374116",
           "loans": 2,
-          "rank": 9,
+          "rank": 14,
           "series": 1
         },
         {
@@ -341,7 +396,7 @@
           "link": "https://data4library.kr/bookV?seq=2374505",
           "isbn": "9788937461798",
           "loans": 2,
-          "rank": 10,
+          "rank": 15,
           "series": 1
         },
         {
@@ -352,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=2429868",
           "isbn": "9788937844546",
           "loans": 2,
-          "rank": 11,
+          "rank": 16,
           "series": 1
         },
         {
@@ -363,7 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=2373680",
           "isbn": "9788943301088",
           "loans": 2,
-          "rank": 12,
+          "rank": 17,
           "series": 1
         },
         {
@@ -374,7 +429,7 @@
           "link": "https://data4library.kr/bookV?seq=2373682",
           "isbn": "9788943302085",
           "loans": 2,
-          "rank": 13,
+          "rank": 18,
           "series": 1
         },
         {
@@ -385,7 +440,7 @@
           "link": "https://data4library.kr/bookV?seq=2567034",
           "isbn": "9788953544833",
           "loans": 2,
-          "rank": 14,
+          "rank": 19,
           "series": 1
         },
         {
@@ -395,61 +450,6 @@
           "cover": "https://image.aladin.co.kr/product/25620/18/cover200/scm762077405320.jpg",
           "link": "https://data4library.kr/bookV?seq=2775706",
           "isbn": "9788954336758",
-          "loans": 2,
-          "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "고양이와 친구가 된 코끼리",
-          "author": "파티마 사라페딘",
-          "publisher": "한국헤르만헤세",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/134/586/13458624.jpg?type=m1&udate=20180331",
-          "link": "https://data4library.kr/bookV?seq=3741748",
-          "isbn": "9788954883078",
-          "loans": 2,
-          "rank": 16,
-          "series": 1
-        },
-        {
-          "title": "싫어!",
-          "author": "소중애 글·그림",
-          "publisher": "꿈소담이",
-          "cover": "https://image.aladin.co.kr/product/5093/94/cover/895689955x_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=2616799",
-          "isbn": "9788956899558",
-          "loans": 2,
-          "rank": 17,
-          "series": 1
-        },
-        {
-          "title": "검사내전 :생활형 검사의 사람 공부, 세상 공부",
-          "author": "김웅 지음",
-          "publisher": "부·키",
-          "cover": "https://image.aladin.co.kr/product/12900/30/cover/8960516171_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3687594",
-          "isbn": "9788960516175",
-          "loans": 2,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "마음이 너무 아파! :마음에 상처를 입기 쉬운 사람들을 배려하는 법",
-          "author": "헬렌 레스터 글, 신형건 옮김",
-          "publisher": "푸른책들",
-          "cover": "https://image.aladin.co.kr/product/809/13/cover/8961702025_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=1116219",
-          "isbn": "9788961702027",
-          "loans": 2,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "아주 커다란 알",
-          "author": "몰리 칵스 글·그림, 신형건 옮김",
-          "publisher": "푸른책들",
-          "cover": "https://image.aladin.co.kr/product/1154/19/cover/8961702238_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=1163979",
-          "isbn": "9788961702232",
           "loans": 2,
           "rank": 20,
           "series": 1
@@ -462,17 +462,6 @@
       "desc": "동두천시 공공도서관 · 전 연령 · 최근 1달",
       "books": [
         {
-          "title": "긴긴밤",
-          "author": "루리 글·그림",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/26302/71/cover/8954677150_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5857188",
-          "isbn": "9788954677158",
-          "loans": 12,
-          "rank": 1,
-          "series": 1
-        },
-        {
           "title": "푸른 사자 와니니 :이현 장편동화",
           "author": "이현, 그린이: 오윤화",
           "publisher": "창비",
@@ -480,18 +469,18 @@
           "link": "https://data4library.kr/bookV?seq=2646690",
           "isbn": "9788936442804",
           "loans": 11,
-          "rank": 2,
+          "rank": 1,
           "series": 1
         },
         {
-          "title": "언제나 다정 죽집",
-          "author": "우신영 글, 서영 그림",
-          "publisher": "비룡소",
-          "cover": "https://image.aladin.co.kr/product/34576/10/cover200/8949122073_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=6939094",
-          "isbn": "9788949122076",
-          "loans": 10,
-          "rank": 3,
+          "title": "긴긴밤",
+          "author": "루리 글·그림",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/26302/71/cover/8954677150_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5857188",
+          "isbn": "9788954677158",
+          "loans": 11,
+          "rank": 2,
           "series": 1
         },
         {
@@ -502,6 +491,17 @@
           "link": "https://data4library.kr/bookV?seq=7073819",
           "isbn": "9791141602376",
           "loans": 10,
+          "rank": 3,
+          "series": 1
+        },
+        {
+          "title": "언제나 다정 죽집",
+          "author": "우신영 글, 서영 그림",
+          "publisher": "비룡소",
+          "cover": "https://image.aladin.co.kr/product/34576/10/cover200/8949122073_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=6939094",
+          "isbn": "9788949122076",
+          "loans": 9,
           "rank": 4,
           "series": 1
         },
@@ -512,7 +512,7 @@
           "cover": "https://image.aladin.co.kr/product/38600/68/cover200/k532136472_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7222788",
           "isbn": "9791167764126",
-          "loans": 10,
+          "loans": 9,
           "rank": 5,
           "series": 1
         },
@@ -523,7 +523,7 @@
           "cover": "https://image.aladin.co.kr/product/38600/67/cover200/k562136472_2.jpg",
           "link": "https://data4library.kr/bookV?seq=7222787",
           "isbn": "9791167764119",
-          "loans": 9,
+          "loans": 8,
           "rank": 6,
           "series": 1
         },
@@ -561,17 +561,6 @@
           "series": 1
         },
         {
-          "title": "그랬다고 적었다 :김애란 산문",
-          "author": "김애란",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/40019/36/cover200/k742130236_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7312549",
-          "isbn": "9791141618575",
-          "loans": 6,
-          "rank": 10,
-          "series": 1
-        },
-        {
           "title": "흔한남매",
           "author": "원작: 흔한남매, 유난희",
           "publisher": "미래엔",
@@ -579,7 +568,7 @@
           "link": "https://data4library.kr/bookV?seq=7255781",
           "isbn": "9791175487802",
           "loans": 6,
-          "rank": 11,
+          "rank": 10,
           "series": 1
         },
         {
@@ -590,18 +579,7 @@
           "link": "https://data4library.kr/bookV?seq=7177757",
           "isbn": "9791194530701",
           "loans": 6,
-          "rank": 12,
-          "series": 1
-        },
-        {
-          "title": "세네카, 오늘을 빼앗기고 있는 당신에게",
-          "author": "루키우스 안나이우스 세네카",
-          "publisher": "논픽션",
-          "cover": "https://shopping-phinf.pstatic.net/main_6056845/60568459498.20260623201840.jpg",
-          "link": "https://data4library.kr/bookV?seq=7288912",
-          "isbn": "9791199489561",
-          "loans": 6,
-          "rank": 13,
+          "rank": 11,
           "series": 1
         },
         {
@@ -612,7 +590,7 @@
           "link": "https://data4library.kr/bookV?seq=2373919",
           "isbn": "9788901033518",
           "loans": 5,
-          "rank": 14,
+          "rank": 12,
           "series": 1
         },
         {
@@ -623,18 +601,18 @@
           "link": "https://data4library.kr/bookV?seq=2376614",
           "isbn": "9788901063768",
           "loans": 5,
-          "rank": 15,
+          "rank": 13,
           "series": 1
         },
         {
-          "title": "동급생",
-          "author": "프레드 울만 지음, 황보석 옮김",
-          "publisher": "열린책들",
-          "cover": "https://image.aladin.co.kr/product/10217/55/cover/8932918147_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3412255",
-          "isbn": "9788932918143",
+          "title": "역행자 :돈·시간·운명으로부터 완전한 자유를 얻는 7단계 인생 공략집",
+          "author": "자청 지음",
+          "publisher": "웅진씽크빅",
+          "cover": "https://image.aladin.co.kr/product/29521/63/cover/8901260719_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6468069",
+          "isbn": "9788901260716",
           "loans": 5,
-          "rank": 16,
+          "rank": 14,
           "series": 1
         },
         {
@@ -645,7 +623,7 @@
           "link": "https://data4library.kr/bookV?seq=7035395",
           "isbn": "9788936439743",
           "loans": 5,
-          "rank": 17,
+          "rank": 15,
           "series": 1
         },
         {
@@ -656,7 +634,7 @@
           "link": "https://data4library.kr/bookV?seq=5996157",
           "isbn": "9788936448011",
           "loans": 5,
-          "rank": 18,
+          "rank": 16,
           "series": 1
         },
         {
@@ -667,7 +645,7 @@
           "link": "https://data4library.kr/bookV?seq=2404471",
           "isbn": "9788937460586",
           "loans": 5,
-          "rank": 19,
+          "rank": 17,
           "series": 1
         },
         {
@@ -677,6 +655,28 @@
           "cover": "https://bookthumb-phinf.pstatic.net/cover/001/510/00151055.jpg?type=m1&udate=20130129",
           "link": "https://data4library.kr/bookV?seq=2376187",
           "isbn": "9788937461033",
+          "loans": 5,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "순례 주택 :유은실 소설",
+          "author": "유은실",
+          "publisher": "비룡소",
+          "cover": "https://image.aladin.co.kr/product/26674/56/cover/8949123495_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5941926",
+          "isbn": "9788949123493",
+          "loans": 5,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "숨결이 바람 될 때 :서른여섯 젊은 의사의 마지막 순간",
+          "author": "폴 칼라니티 지음, 이종인 옮김",
+          "publisher": "흐름출판",
+          "cover": "https://image.aladin.co.kr/product/8992/81/cover/8965961955_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3289350",
+          "isbn": "9788965961956",
           "loans": 5,
           "rank": 20,
           "series": 1
