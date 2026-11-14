@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13 10:44:16",
+ "updated_at": "2026-11-14 10:21:15",
  "source": "용인시청 문화달력 · 용인시도서관 문화행사",
  "city": [
   {
@@ -100,7 +100,7 @@
    "start": "2026-11-14",
    "end": "2026-11-14",
    "place": "용인포은아트홀 야외광장",
-   "time": "18:30~20:00",
+   "time": "19:00~20:30",
    "grade": "전체관람등급",
    "price": "무료",
    "free": true,
@@ -437,25 +437,6 @@
  ],
  "lib": [
   {
-   "id": "L137121",
-   "title": "성복도서관 특성화 프로그램 AR 연계 「상상하며 읽는 영어독서」(AR3점대)",
-   "lib": "성복도서관",
-   "target": "초등 (AR3점대 초등학생 12명)",
-   "place": "다목적실",
-   "start": "2026-11-13",
-   "end": "2026-11-27",
-   "period": "2026.11.13(금) ~ 2026.11.27(금) 16:00 ~ 17:00 3회",
-   "applyStart": "2026-11-03",
-   "applyEnd": "2026-11-13",
-   "apply": "2026.11.03(화) 10:00 ~ 2026.11.13(금) 18:00",
-   "count": "8/12",
-   "status": "접수중",
-   "btn": "신청하기",
-   "free": true,
-   "src": "lib",
-   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137121"
-  },
-  {
    "id": "L137182",
    "title": "성복도서관 재능기부 프로그램 「세계시민 어린이 진로 캠프」 - 11/22(일) 15:30 (초3-6학년)",
    "lib": "성복도서관",
@@ -524,7 +505,7 @@
    "applyStart": "2026-11-11",
    "applyEnd": "2026-11-25",
    "apply": "2026.11.11(수) 10:00 ~ 2026.11.25(수) 18:00",
-   "count": "1/12",
+   "count": "5/12",
    "status": "접수중",
    "btn": "신청하기",
    "free": true,
@@ -625,6 +606,25 @@
    "free": true,
    "src": "lib",
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137341"
+  },
+  {
+   "id": "L137641",
+   "title": "[특성화] 모현도서관의 특별한 겨울: 애니메이션 감성 리스 만들기",
+   "lib": "모현도서관",
+   "target": "가족 (초등 1~3학년과 보호자 12팀)",
+   "place": "모현도서관 2층 시청각실",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "period": "2026.12.12(토) 10:00 ~ 12:00 1회",
+   "applyStart": "2026-11-17",
+   "applyEnd": "2026-12-04",
+   "apply": "2026.11.17(화) 10:00 ~ 2026.12.04(금) 18:00",
+   "count": "0/12",
+   "status": "접수전",
+   "btn": "",
+   "free": true,
+   "src": "lib",
+   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137641"
   },
   {
    "id": "L137361",
