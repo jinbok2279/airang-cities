@@ -1,37 +1,7 @@
 {
- "updated_at": "2026-11-13 10:46:01",
+ "updated_at": "2026-11-14 10:25:56",
  "source": "수원문화재단 행사·교육정보",
  "city": [
-  {
-   "id": "S3059",
-   "title": "수원 로케이션 DB 전시 · 체험",
-   "start": "2026-10-03",
-   "end": "2026-12-31",
-   "place": "수원시미디어센터 1, 2층",
-   "time": "상세참조",
-   "grade": "",
-   "price": "무료",
-   "free": true,
-   "kind": "행사",
-   "src": "swcf",
-   "link": "https://www.swcf.or.kr/?p=29_view&idx=3059&listUrl=29&curYear=2026&curMonth=11&searchDetail_flag=",
-   "book": ""
-  },
-  {
-   "id": "KPF300275",
-   "title": "신데렐라 [수원]",
-   "start": "2026-11-04",
-   "end": "2026-11-29",
-   "place": "KBS 수원아트홀",
-   "time": "",
-   "grade": "아동공연",
-   "price": "",
-   "free": false,
-   "kind": "뮤지컬",
-   "src": "kopis",
-   "link": "https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF300275",
-   "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300275_260907_134905.jpg"
-  },
   {
    "id": "GSM000152",
    "title": "2026. 가족뮤지컬 〈엄마까투리 - 유치원도,도시도 처음이야!〉 - 수원",
@@ -91,6 +61,36 @@
    "link": "https://www.ggac.or.kr/ggac/M0000155/show/view.do?idx=SM000191"
   },
   {
+   "id": "S3059",
+   "title": "수원 로케이션 DB 전시 · 체험",
+   "start": "2026-10-03",
+   "end": "2026-12-31",
+   "place": "수원시미디어센터 1, 2층",
+   "time": "상세참조",
+   "grade": "",
+   "price": "무료",
+   "free": true,
+   "kind": "행사",
+   "src": "swcf",
+   "link": "https://www.swcf.or.kr/?p=29_view&idx=3059&listUrl=29&curYear=2026&curMonth=11&searchDetail_flag=",
+   "book": ""
+  },
+  {
+   "id": "KPF300275",
+   "title": "신데렐라 [수원]",
+   "start": "2026-11-04",
+   "end": "2026-11-29",
+   "place": "KBS 수원아트홀",
+   "time": "",
+   "grade": "아동공연",
+   "price": "",
+   "free": false,
+   "kind": "뮤지컬",
+   "src": "kopis",
+   "link": "https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF300275",
+   "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300275_260907_134905.jpg"
+  },
+  {
    "id": "KPF288064",
    "title": "신데렐라 [수원]",
    "start": "2026-11-14",
@@ -148,6 +148,21 @@
    "kind": "공연",
    "src": "swcf",
    "link": "https://www.swcf.or.kr/?p=29_view&idx=3072&listUrl=29&curYear=2026&curMonth=11&searchDetail_flag=",
+   "book": ""
+  },
+  {
+   "id": "S3079",
+   "title": "융복합 미디어아트 전시 <Undefined>",
+   "start": "2026-11-17",
+   "end": "2026-11-24",
+   "place": "수원시미디어센터 3층 아트스튜디오 2·3",
+   "time": "상세참조",
+   "grade": "",
+   "price": "무료",
+   "free": true,
+   "kind": "전시",
+   "src": "swcf",
+   "link": "https://www.swcf.or.kr/?p=29_view&idx=3079&listUrl=29&curYear=2026&curMonth=11&searchDetail_flag=",
    "book": ""
   },
   {
@@ -495,25 +510,6 @@
   }
  ],
  "lib": [
-  {
-   "id": "E3016",
-   "title": "수원전통문화관 주말 상설 체험 프로그램 <수라간 맛보기 : 간식편>",
-   "lib": "수원전통문화관 식생활체험관",
-   "target": "4세(2022년생) 이상 참여 가능 ※ 초등학생 이하 보호자 동반 예약 ",
-   "place": "수원전통문화관 식생활체험관",
-   "start": "2026-08-01",
-   "end": "2026-11-14",
-   "period": "2026-08-01 ~ 2026-11-14",
-   "applyStart": "2026-07-27",
-   "applyEnd": "2026-11-13",
-   "apply": "2026-07-27(월) ~ 2026-11-13(금)",
-   "count": "",
-   "status": "접수중",
-   "price": "10,000원",
-   "free": false,
-   "src": "swcf",
-   "link": "https://booking.naver.com/booking/12/bizes/472710"
-  },
   {
    "id": "E3005",
    "title": "예절 한 잔",
