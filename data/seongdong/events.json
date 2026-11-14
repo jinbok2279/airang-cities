@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13 11:29:19",
+ "updated_at": "2026-11-14 11:00:30",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -48,6 +48,21 @@
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=31aeac269e8a4a7ab6c4b1aa504c80c3&thumb=Y"
   },
   {
+   "id": "S4908e39a69",
+   "title": "[성동구립도서관] 하반기 원어민 특강 [Here To Hero]",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "place": "성동구립도서관 1층 어린이영어세상 강의실 ",
+   "time": "[6~7세] 10:00 [8~10세] 11:00",
+   "grade": "어린이 (6~10세)",
+   "price": "",
+   "free": true,
+   "kind": "교육/체험",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159886&menuNo=200011",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=045b6e4c3c18482fa56c7a4ab888f145&thumb=Y"
+  },
+  {
    "id": "S048172f708",
    "title": "[청계천박물관] 2026년 11월 초등1~3학년 학급단체 교육 [씽씽! 청계천 시간여행]",
    "start": "2026-11-04",
@@ -76,21 +91,6 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159050&menuNo=200011",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=285db66942f74f07bd09bae3e13fd82f&thumb=Y"
-  },
-  {
-   "id": "S4908e39a69",
-   "title": "[성동구립도서관] 하반기 원어민 특강 [Here To Hero]",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "place": "성동구립도서관 1층 어린이영어세상 강의실 ",
-   "time": "[6~7세] 10:00 [8~10세] 11:00",
-   "grade": "어린이 (6~10세)",
-   "price": "",
-   "free": true,
-   "kind": "교육/체험",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159886&menuNo=200011",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=045b6e4c3c18482fa56c7a4ab888f145&thumb=Y"
   },
   {
    "id": "Sa6386df1f2",
@@ -166,29 +166,24 @@
    "src": "kopis",
    "link": "https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF300101",
    "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300101_260904_102331.jpg"
+  },
+  {
+   "id": "KPF306325",
+   "title": "멜로우TV: Run it up, 팀 나빠 [서울]",
+   "start": "2027-01-09",
+   "end": "2027-01-10",
+   "place": "소월아트홀 (성동문화회관)",
+   "time": "",
+   "grade": "아동공연",
+   "price": "",
+   "free": false,
+   "kind": "뮤지컬",
+   "src": "kopis",
+   "link": "https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF306325",
+   "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF306325_261113_102858.gif"
   }
  ],
  "lib": [
-  {
-   "id": "RS261017161123237166",
-   "title": "(서울숲) 정원이 즐겁다(토, 10시) / 11월",
-   "lib": "서울숲 방문자센터 ",
-   "target": "가족(초등가족, 성인)",
-   "place": "서울숲 방문자센터 ",
-   "start": "2026-10-20",
-   "end": "2026-11-14",
-   "period": "",
-   "applyStart": "2026-10-25",
-   "applyEnd": "2026-11-13",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "자연/과학",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261017161123237166"
-  },
   {
    "id": "RS260220142329827478",
    "title": "[서울숲]생물다양성 탐사대 (단체)",
@@ -208,26 +203,6 @@
    "src": "yeyak",
    "kind": "자연/과학",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260220142329827478"
-  },
-  {
-   "id": "RS261019100803940623",
-   "title": "[서울숲]  공원생물탐사대 (11월) -일",
-   "lib": "서울숲>서울숲 커뮤니티센터",
-   "target": "가족(7세 이상 어린이와 보호자)",
-   "place": "서울숲>서울숲 커뮤니티센터",
-   "start": "2026-10-25",
-   "end": "2026-11-22",
-   "period": "",
-   "applyStart": "2026-10-25",
-   "applyEnd": "2026-11-20",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": false,
-   "src": "yeyak",
-   "kind": "자연/과학",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261019100803940623"
   },
   {
    "id": "RS261019101304576072",
@@ -250,35 +225,15 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261019101304576072"
   },
   {
-   "id": "RS260822095715236098",
-   "title": "[초등4학년 이상 학급 단체]도심 물순환 탐방 : LID 공원을 만나다(9~11월)",
-   "lib": "서울하수도과학관(주차료 변경)",
-   "target": "청소년(초등4학년~고등학생 단체)",
-   "place": "서울하수도과학관(주차료 변경)",
-   "start": "2026-08-22",
-   "end": "2026-11-27",
-   "period": "",
-   "applyStart": "2026-08-25",
-   "applyEnd": "2026-11-21",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "자연/과학",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260822095715236098"
-  },
-  {
    "id": "RXML-SD221201",
    "title": "서울형 키즈카페 성동구 금호2·3가동점(금호 키즈카페)",
    "lib": "서울특별시 성동구 무수막18길 1 금호2,3가동주민센터 4층 (금호동2가)",
    "target": "유아",
    "place": "서울특별시 성동구 무수막18길 1 금호2,3가동주민센터 4층 (금호동2가)",
-   "start": "2026-11-13",
+   "start": "2026-11-14",
    "end": "2026-11-23",
    "period": "",
-   "applyStart": "2026-11-13",
+   "applyStart": "2026-11-14",
    "applyEnd": "2026-11-23",
    "apply": "",
    "count": "",
@@ -295,10 +250,10 @@
    "lib": "서울특별시 성동구 뚝섬로3길 18 성수1가1동주민센터 1층 (성수동1가)",
    "target": "유아",
    "place": "서울특별시 성동구 뚝섬로3길 18 성수1가1동주민센터 1층 (성수동1가)",
-   "start": "2026-11-13",
+   "start": "2026-11-14",
    "end": "2026-11-23",
    "period": "",
-   "applyStart": "2026-11-13",
+   "applyStart": "2026-11-14",
    "applyEnd": "2026-11-23",
    "apply": "",
    "count": "",
@@ -348,26 +303,6 @@
    "src": "yeyak",
    "kind": "자연/과학",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S250202132929060634"
-  },
-  {
-   "id": "RS261019102340184565",
-   "title": "[서울숲] 같이숲학교 - \"일요가족생태나들이\" (11월)",
-   "lib": "서울숲 방문자센터",
-   "target": "가족(누구나)",
-   "place": "서울숲 방문자센터",
-   "start": "2026-10-25",
-   "end": "2026-11-29",
-   "period": "",
-   "applyStart": "2026-10-25",
-   "applyEnd": "2026-11-26",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "자연/과학",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261019102340184565"
   },
   {
    "id": "RS261109095541115159",
@@ -612,26 +547,6 @@
  ],
  "adult": [
   {
-   "id": "RS261017161641249269",
-   "title": "(서울숲) 정원이 즐겁다(성인 / 목, 오후 2시/ 토, 오후 2시) / 11월",
-   "lib": "서울숲 방문자센터 ",
-   "target": "성인(개인, 단체)",
-   "place": "서울숲 방문자센터 ",
-   "start": "2026-10-20",
-   "end": "2026-11-14",
-   "period": "",
-   "applyStart": "2026-10-25",
-   "applyEnd": "2026-11-13",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "자연/과학",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261017161641249269"
-  },
-  {
    "id": "RS261019102800486366",
    "title": "(서울숲) 정원이 즐겁다(수, 10시/ 금, 10시) / 11월",
    "lib": "서울숲 칠엽수 마당",
@@ -665,6 +580,21 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156558&menuNo=200009",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6d22a5166ca244068a398ed32972e504&thumb=Y"
+  },
+  {
+   "id": "S813d157603",
+   "title": "[성동문화재단] 제 4회 성동 꿈의 무용단 정기공연",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "place": "소월아트홀",
+   "time": "17:00",
+   "grade": "누구나",
+   "price": "",
+   "free": true,
+   "kind": "무용",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159879&menuNo=200008",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=eaaf68bd58344008b6d217ac3ce563da&thumb=Y"
   },
   {
    "id": "RS260706095456822519",
@@ -740,21 +670,6 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159920&menuNo=200008",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e3b5f52e82784b9a98d89d2175b26470&thumb=Y"
-  },
-  {
-   "id": "S813d157603",
-   "title": "[성동문화재단] 제 4회 성동 꿈의 무용단 정기공연",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "place": "소월아트홀",
-   "time": "17:00",
-   "grade": "누구나",
-   "price": "",
-   "free": true,
-   "kind": "무용",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159879&menuNo=200008",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=eaaf68bd58344008b6d217ac3ce563da&thumb=Y"
   },
   {
    "id": "S7eb14c1d0b",
