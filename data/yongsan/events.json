@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14 11:16:01",
+ "updated_at": "2026-11-15 10:21:01",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -18,21 +18,6 @@
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f4d68594fb0a4a329acc12a6796064fd&thumb=Y"
   },
   {
-   "id": "S8187b586f3",
-   "title": "2026년 제28회 백범 문화 강좌",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "place": "백범김구기념관 컨벤션홀",
-   "time": "14:00",
-   "grade": "누구나",
-   "price": "",
-   "free": true,
-   "kind": "교육/체험",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160111&menuNo=200011",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0fb2a3d672e34c04b35ffabc360cfd10&thumb=Y"
-  },
-  {
    "id": "C985ce86f75",
    "title": "6·25전쟁 76주년 특별기획전 《그날, 나의 일상은 전쟁이 되었다》",
    "start": "2026-09-03",
@@ -44,19 +29,6 @@
    "free": false,
    "src": "culture",
    "link": "https://www.mcst.go.kr/kor/s_culture/culture/cultureView.jsp?pSeq=77689"
-  },
-  {
-   "id": "C76401c40d8",
-   "title": "임형주와 함께하는 K팝페라 페스티벌 in 용산: K팝페라 갈라콘서트",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "place": "용산아트홀 대극장 미르",
-   "time": "20261114 ~ 20261114",
-   "grade": "",
-   "price": "",
-   "free": false,
-   "src": "culture",
-   "link": "https://www.mcst.go.kr/kor/s_culture/culture/cultureView.jsp?pSeq=77068"
   },
   {
    "id": "KPF301113",
@@ -72,6 +44,21 @@
    "src": "kopis",
    "link": "https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF301113",
    "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301113_260916_155409.jpg"
+  },
+  {
+   "id": "KPF306433",
+   "title": "크리스마스 캐롤 [서울 용산]",
+   "start": "2026-12-12",
+   "end": "2026-12-26",
+   "place": "용산아트홀",
+   "time": "",
+   "grade": "아동공연",
+   "price": "",
+   "free": false,
+   "kind": "뮤지컬",
+   "src": "kopis",
+   "link": "https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF306433",
+   "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF306433_261113_180635.png"
   },
   {
    "id": "KPF305630",
@@ -116,10 +103,10 @@
    "lib": "서울특별시 용산구 후암로13길 8 후암교회 1층 (후암동)",
    "target": "유아",
    "place": "서울특별시 용산구 후암로13길 8 후암교회 1층 (후암동)",
-   "start": "2026-11-14",
+   "start": "2026-11-15",
    "end": "2026-11-23",
    "period": "",
-   "applyStart": "2026-11-14",
+   "applyStart": "2026-11-15",
    "applyEnd": "2026-11-23",
    "apply": "",
    "count": "",
@@ -136,10 +123,10 @@
    "lib": "서울특별시 용산구 서빙고로 17 센트럴파크타워, 2층 (한강로3가)",
    "target": "유아",
    "place": "서울특별시 용산구 서빙고로 17 센트럴파크타워, 2층 (한강로3가)",
-   "start": "2026-11-14",
+   "start": "2026-11-15",
    "end": "2026-11-23",
    "period": "",
-   "applyStart": "2026-11-14",
+   "applyStart": "2026-11-15",
    "applyEnd": "2026-11-23",
    "apply": "",
    "count": "",
@@ -156,10 +143,10 @@
    "lib": "서울특별시 용산구 효창원로86가길 28 2층 (청파동1가)",
    "target": "유아",
    "place": "서울특별시 용산구 효창원로86가길 28 2층 (청파동1가)",
-   "start": "2026-11-14",
+   "start": "2026-11-15",
    "end": "2026-11-23",
    "period": "",
-   "applyStart": "2026-11-14",
+   "applyStart": "2026-11-15",
    "applyEnd": "2026-11-23",
    "apply": "",
    "count": "",
@@ -249,26 +236,6 @@
    "src": "yeyak",
    "kind": "교육체험",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260329163432910659"
-  },
-  {
-   "id": "RS260810110612092228",
-   "title": "(주말) 용산LAB 도시역사편: 타임슬립! 용산타임!(11월)",
-   "lib": "용산역사박물관",
-   "target": "어린이(초등학교 1~6학년 어린이)",
-   "place": "용산역사박물관",
-   "start": "2026-11-14",
-   "end": "2026-11-28",
-   "period": "",
-   "applyStart": "2026-10-24",
-   "applyEnd": "2026-11-26",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "교육체험",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260810110612092228"
   },
   {
    "id": "RS260329161612389974",
