@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14 10:21:15",
+ "updated_at": "2026-11-15 09:29:30",
  "source": "용인시청 문화달력 · 용인시도서관 문화행사",
  "city": [
   {
@@ -95,19 +95,6 @@
    "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16978"
   },
   {
-   "id": "16986",
-   "title": "2026 용인시민대중예술인 특집 < 가을별빛광장>",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "place": "용인포은아트홀 야외광장",
-   "time": "19:00~20:30",
-   "grade": "전체관람등급",
-   "price": "무료",
-   "free": true,
-   "src": "city",
-   "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16986"
-  },
-  {
    "id": "17002",
    "title": "2026 용인시민축제기획단 선포식",
    "start": "2026-11-14",
@@ -119,32 +106,6 @@
    "free": true,
    "src": "city",
    "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=17002"
-  },
-  {
-   "id": "16936",
-   "title": "용인문화원 실버합창단 제13회 정기연주회 < 가을빛 인생, 노래로 물들다>",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "place": "마루홀",
-   "time": "100분(인터미션 없음)",
-   "grade": "전체관람등급",
-   "price": "전석무료",
-   "free": true,
-   "src": "city",
-   "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16936"
-  },
-  {
-   "id": "16996",
-   "title": "제 6회 상상포럼 < 문화예술을 통한 용인시민의 감정>",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "place": "이벤트홀",
-   "time": "16:00~18:00",
-   "grade": "전체관람등급",
-   "price": "무료",
-   "free": true,
-   "src": "city",
-   "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16996"
   },
   {
    "id": "16975",
@@ -184,6 +145,19 @@
    "free": true,
    "src": "city",
    "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16980"
+  },
+  {
+   "id": "17003",
+   "title": "[공생광장] 나도금손DIY 팝업데이",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "place": "기타",
+   "time": "11시~17시",
+   "grade": "전체관람등급",
+   "price": "무료",
+   "free": true,
+   "src": "city",
+   "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=17003"
   },
   {
    "id": "16998",
@@ -475,25 +449,6 @@
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=136923"
   },
   {
-   "id": "L137421",
-   "title": "흥덕[대면] 2026년 12월 흥덕도서관 독서문화행사 「서양미술사 책놀이 미니어처」 (초등 1~6학년)",
-   "lib": "흥덕도서관",
-   "target": "초등 (초등 1~6학년 15명)",
-   "place": "흥덕도서관 2층 시청각실",
-   "start": "2026-12-02",
-   "end": "2026-12-16",
-   "period": "2026.12.02(수) ~ 2026.12.16(수) 16:00 ~ 18:00 3회",
-   "applyStart": "2026-11-10",
-   "applyEnd": "2026-11-24",
-   "apply": "2026.11.10(화) 10:00 ~ 2026.11.24(화) 23:59",
-   "count": "14/15",
-   "status": "접수중",
-   "btn": "신청하기",
-   "free": true,
-   "src": "lib",
-   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137421"
-  },
-  {
    "id": "L137321",
    "title": "[특성화] 만화 베이커리: 나만의 컵케이크 비누 만들기",
    "lib": "모현도서관",
@@ -513,6 +468,25 @@
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137321"
   },
   {
+   "id": "L137845",
+   "title": "[특성화] 바다유리 석고방향제 & 바다 키링 만들기 (초등 1~3학년)",
+   "lib": "서농도서관",
+   "target": "초등 (초등 1~3학년 15명)",
+   "place": "서농도서관 3층 다목적실",
+   "start": "2026-12-03",
+   "end": "2026-12-03",
+   "period": "2026.12.03(목) 16:00 ~ 18:00 1회",
+   "applyStart": "2026-11-19",
+   "applyEnd": "2026-11-27",
+   "apply": "2026.11.19(목) 10:00 ~ 2026.11.27(금) 17:00",
+   "count": "0/15",
+   "status": "접수전",
+   "btn": "",
+   "free": true,
+   "src": "lib",
+   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137845"
+  },
+  {
    "id": "L137601",
    "title": "[남사] 1인 미디어 아카데미 12월 특강 「AI 북트레일러 만들기」",
    "lib": "남사도서관",
@@ -530,6 +504,44 @@
    "free": true,
    "src": "lib",
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137601"
+  },
+  {
+   "id": "L137842",
+   "title": "[12월 독서문화] 양말목 도어벨 만들기 초등3~5학년 *학생ID로 접수*",
+   "lib": "구성도서관",
+   "target": "초등 (3~5학년(15~17년생) 15명)",
+   "place": "지하 1층 커뮤니티실",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "period": "2026.12.05(토) 10:00 ~ 12:00 1회",
+   "applyStart": "2026-11-16",
+   "applyEnd": "2026-11-30",
+   "apply": "2026.11.16(월) 10:00 ~ 2026.11.30(월) 23:00",
+   "count": "0/15",
+   "status": "접수전",
+   "btn": "",
+   "free": true,
+   "src": "lib",
+   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137842"
+  },
+  {
+   "id": "L137843",
+   "title": "[12월 독서문화] 조물조물 디자인 비누 & 바다유리 키캡 만들기 초등1~2학년 *학생ID로 접수*",
+   "lib": "구성도서관",
+   "target": "초등 (1~2학년(18~19년생) 15명)",
+   "place": "지하 1층 커뮤니티실",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "period": "2026.12.05(토) 14:00 ~ 16:00 1회",
+   "applyStart": "2026-11-16",
+   "applyEnd": "2026-11-30",
+   "apply": "2026.11.16(월) 10:00 ~ 2026.11.30(월) 23:00",
+   "count": "0/15",
+   "status": "접수전",
+   "btn": "",
+   "free": true,
+   "src": "lib",
+   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137843"
   },
   {
    "id": "L137481",
@@ -568,6 +580,44 @@
    "free": true,
    "src": "lib",
    "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137602"
+  },
+  {
+   "id": "L137761",
+   "title": "[메이커] 크리스마스 타일 액자 「디지털 드로잉(초등)」",
+   "lib": "수지도서관",
+   "target": "초등 (초등 4~6학년 10명)",
+   "place": "수지도서관 3층 메이커스페이스",
+   "start": "2026-12-04",
+   "end": "2026-12-18",
+   "period": "2026.12.04(금) ~ 2026.12.18(금) 15:00 ~ 17:00 3회",
+   "applyStart": "2026-11-25",
+   "applyEnd": "2026-12-01",
+   "apply": "2026.11.25(수) 10:00 ~ 2026.12.01(화) 17:00",
+   "count": "0/10",
+   "status": "접수전",
+   "btn": "",
+   "free": true,
+   "src": "lib",
+   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137761"
+  },
+  {
+   "id": "L137844",
+   "title": "[특성화] 양말목 크리스마스 리스 & 행운의 네잎클로버 키링 만들기 (초등 1~3학년)",
+   "lib": "서농도서관",
+   "target": "초등 (초등 1~3학년 15명)",
+   "place": "서농도서관 3층 다목적실",
+   "start": "2026-12-10",
+   "end": "2026-12-10",
+   "period": "2026.12.10(목) 16:00 ~ 17:30 1회",
+   "applyStart": "2026-11-19",
+   "applyEnd": "2026-12-01",
+   "apply": "2026.11.19(목) 10:00 ~ 2026.12.01(화) 17:00",
+   "count": "0/15",
+   "status": "접수전",
+   "btn": "",
+   "free": true,
+   "src": "lib",
+   "link": "https://lib.yongin.go.kr/yongin/menu/10264/program/30027/lectureDetail.do?lectureIdx=137844"
   },
   {
    "id": "L137401",
