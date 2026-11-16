@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15 09:49:12",
+  "updated_at": "2026-11-16 10:21:02",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -19,6 +19,17 @@
           "series": 1
         },
         {
+          "title": "흔한남매",
+          "author": "원작: 흔한남매, 유난희",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/32991/71/cover/k502936654_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6802275",
+          "isbn": "9791168417199",
+          "loans": 12,
+          "rank": 2,
+          "series": 3
+        },
+        {
           "title": "빨간내복야코 안 읽으면 완전 위험한 과학책",
           "author": "빨간내복야코 원작, 이영아 그림",
           "publisher": "위즈덤하우스",
@@ -26,41 +37,8 @@
           "link": "https://data4library.kr/bookV?seq=7102995",
           "isbn": "9791171714469",
           "loans": 11,
-          "rank": 2,
-          "series": 1
-        },
-        {
-          "title": "Harry Potter and the chamber of secrets",
-          "author": "by J.K. Rowling, illustrations by Mary Grandpré",
-          "publisher": "Scholastic",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/002/436/00243648.jpg?type=m1&udate=20180522",
-          "link": "https://data4library.kr/bookV?seq=2171784",
-          "isbn": "9780439064873",
-          "loans": 10,
           "rank": 3,
           "series": 1
-        },
-        {
-          "title": "다판다 편의점",
-          "author": "강효미 글, 밤코 그림",
-          "publisher": "다산북스",
-          "cover": "https://image.aladin.co.kr/product/36655/35/cover200/k252030080_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7084986",
-          "isbn": "9791130667546",
-          "loans": 10,
-          "rank": 4,
-          "series": 1
-        },
-        {
-          "title": "흔한남매",
-          "author": "원작: 흔한남매, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/26556/36/cover/k602738939_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5929100",
-          "isbn": "9791164137527",
-          "loans": 10,
-          "rank": 5,
-          "series": 2
         },
         {
           "title": "(설민석의) 그리스 로마 신화 대모험",
@@ -70,7 +48,18 @@
           "link": "https://data4library.kr/bookV?seq=7090899",
           "isbn": "9791194616276",
           "loans": 10,
-          "rank": 6,
+          "rank": 4,
+          "series": 1
+        },
+        {
+          "title": "Harry Potter and the chamber of secrets",
+          "author": "by J.K. Rowling, illustrations by Mary Grandpré",
+          "publisher": "Scholastic",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/002/436/00243648.jpg?type=m1&udate=20180522",
+          "link": "https://data4library.kr/bookV?seq=2171784",
+          "isbn": "9780439064873",
+          "loans": 9,
+          "rank": 5,
           "series": 1
         },
         {
@@ -81,7 +70,7 @@
           "link": "https://data4library.kr/bookV?seq=2422360",
           "isbn": "9780786838653",
           "loans": 9,
-          "rank": 7,
+          "rank": 6,
           "series": 1
         },
         {
@@ -92,19 +81,41 @@
           "link": "https://data4library.kr/bookV?seq=6408666",
           "isbn": "9788934930549",
           "loans": 9,
+          "rank": 7,
+          "series": 1
+        },
+        {
+          "title": "흔한남매 불꽃 튀는 우리말 :초등 국어 고수 되기 프로젝트",
+          "author": "원작: 흔한남매, 유희석",
+          "publisher": "다산북스",
+          "cover": "https://image.aladin.co.kr/product/28344/0/cover/k342835103_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6339841",
+          "isbn": "9791130641607",
+          "loans": 9,
           "rank": 8,
           "series": 1
         },
         {
-          "title": "흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식",
-          "author": "원작: 흔한남매, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/34875/95/cover200/k482933053_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6956464",
-          "isbn": "9791168419018",
+          "title": "다판다 편의점",
+          "author": "강효미 글, 밤코 그림",
+          "publisher": "다산북스",
+          "cover": "https://image.aladin.co.kr/product/36655/35/cover200/k252030080_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7084986",
+          "isbn": "9791130667546",
           "loans": 9,
           "rank": 9,
-          "series": 3
+          "series": 1
+        },
+        {
+          "title": "미래 헌책방 :당신의 오늘을 삽니다",
+          "author": "강효미 글, 불곰 그림",
+          "publisher": "다른",
+          "cover": "https://image.aladin.co.kr/product/39598/97/cover200/k862130772_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7284533",
+          "isbn": "9791156337867",
+          "loans": 9,
+          "rank": 10,
+          "series": 1
         },
         {
           "title": "Go go 카카오프렌즈 :세계 역사 문화 체험 학습만화",
@@ -114,7 +125,7 @@
           "link": "https://data4library.kr/bookV?seq=6932723",
           "isbn": "9791171177295",
           "loans": 9,
-          "rank": 10,
+          "rank": 11,
           "series": 1
         },
         {
@@ -125,18 +136,29 @@
           "link": "https://data4library.kr/bookV?seq=7004988",
           "isbn": "9791173470615",
           "loans": 9,
-          "rank": 11,
+          "rank": 12,
           "series": 1
         },
         {
-          "title": "빨간내복야코 어린이 상식 :이거 모르면 지구인 아님",
-          "author": "원작: 빨간내복야코, 도니패밀리",
-          "publisher": "아울북(북이십일 아울북)",
-          "cover": "https://image.aladin.co.kr/product/36751/87/cover200/k812030193_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7092333",
-          "isbn": "9791173573798",
+          "title": "설민석의 세계사 대모험",
+          "author": "설민석,박성일",
+          "publisher": "단꿈아이",
+          "cover": "https://image.aladin.co.kr/product/37206/95/cover200/k412031495_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7151519",
+          "isbn": "9791193031919",
           "loans": 9,
-          "rank": 12,
+          "rank": 13,
+          "series": 1
+        },
+        {
+          "title": "설민석의 한국사 대모험",
+          "author": "설민석,정현희",
+          "publisher": "휴먼큐브",
+          "cover": "https://image.aladin.co.kr/product/12455/35/cover/k282532761_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3665736",
+          "isbn": "9791196232160",
+          "loans": 9,
+          "rank": 14,
           "series": 1
         },
         {
@@ -147,7 +169,7 @@
           "link": "https://data4library.kr/bookV?seq=7198467",
           "isbn": "9791198948793",
           "loans": 9,
-          "rank": 13,
+          "rank": 15,
           "series": 1
         },
         {
@@ -158,71 +180,49 @@
           "link": "https://data4library.kr/bookV?seq=2422361",
           "isbn": "9781423103349",
           "loans": 8,
-          "rank": 14,
-          "series": 1
-        },
-        {
-          "title": "김영하의 세계문학 원정대",
-          "author": "기획 및 해설: 김영하, 정보 김지혜",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/31843/73/cover/8934966106_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6706741",
-          "isbn": "9788934966104",
-          "loans": 8,
-          "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "흔한남매 불꽃 튀는 우리말 :초등 국어 고수 되기 프로젝트",
-          "author": "원작: 흔한남매, 유희석",
-          "publisher": "다산북스",
-          "cover": "https://image.aladin.co.kr/product/28344/0/cover/k342835103_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6339841",
-          "isbn": "9791130641607",
-          "loans": 8,
           "rank": 16,
           "series": 1
         },
         {
-          "title": "미래 헌책방 :당신의 오늘을 삽니다",
-          "author": "강효미 글, 불곰 그림",
-          "publisher": "다른",
-          "cover": "https://image.aladin.co.kr/product/39598/97/cover200/k862130772_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7284533",
-          "isbn": "9791156337867",
+          "title": "운동장 아래 100층 학교",
+          "author": "최은옥 글, 파키나미 그림",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/26206/20/cover/8934992972_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5853133",
+          "isbn": "9788934992974",
           "loans": 8,
           "rank": 17,
-          "series": 1
-        },
-        {
-          "title": "신비아파트 한자 귀신 12 - 영혼이 모이는 동굴",
-          "author": "김강현 (지은이), 김기수 (그림), 김경익, 박상우 (감수)",
-          "publisher": "서울문화사",
-          "cover": "https://image.aladin.co.kr/product/25225/77/cover/k312633908_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5774495",
-          "isbn": "9791164387175",
-          "loans": 8,
-          "rank": 18,
           "series": 1
         },
         {
           "title": "의사 어벤저스 :어린이 의학 동화",
           "author": "고희정, 조승연",
           "publisher": "가나문화콘텐츠",
-          "cover": "https://image.aladin.co.kr/product/38581/37/cover200/k982135259_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7218733",
-          "isbn": "9791168091566",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/180/322/18032266.jpg?type=m1&udate=20210413",
+          "link": "https://data4library.kr/bookV?seq=5616493",
+          "isbn": "9788957361900",
+          "loans": 8,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "너구리 라면 가게",
+          "author": "최설희, 김덕영",
+          "publisher": "다산북스",
+          "cover": "https://image.aladin.co.kr/product/38729/67/cover200/k392136846_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7227761",
+          "isbn": "9791130675268",
           "loans": 8,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "흔한남매 과학 탐험대",
-          "author": "원작: 흔한남매, 임혜영",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/35418/49/cover200/k522035522_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=6990638",
-          "isbn": "9791173320101",
+          "title": "흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식",
+          "author": "원작: 흔한남매, 유난희",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/25055/39/cover/k002632646_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5748423",
+          "isbn": "9791164136032",
           "loans": 8,
           "rank": 20,
           "series": 1
@@ -257,23 +257,23 @@
           "series": 1
         },
         {
-          "title": "구의 증명 :최진영 소설",
-          "author": "최진영",
-          "publisher": "은행나무",
-          "cover": "https://image.aladin.co.kr/product/5527/50/cover/8956608555_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=2619618",
-          "isbn": "9788956608556",
-          "loans": 5,
-          "rank": 3,
-          "series": 1
-        },
-        {
           "title": "H마트에서 울다",
           "author": "미셸 자우너 지음, 정혜윤 옮김",
           "publisher": "문학동네",
           "cover": "https://image.aladin.co.kr/product/28962/10/cover/8954683371_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6412735",
           "isbn": "9788954683371",
+          "loans": 4,
+          "rank": 3,
+          "series": 1
+        },
+        {
+          "title": "구의 증명 :최진영 소설",
+          "author": "최진영",
+          "publisher": "은행나무",
+          "cover": "https://image.aladin.co.kr/product/5527/50/cover/8956608555_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2619618",
+          "isbn": "9788956608556",
           "loans": 4,
           "rank": 4,
           "series": 1
@@ -334,6 +334,17 @@
           "series": 1
         },
         {
+          "title": "오늘 밤, 세계에서 이 사랑이 사라진다 해도",
+          "author": "이치조 미사키 지음, 권영주 옮김",
+          "publisher": "바이포엠",
+          "cover": "https://image.aladin.co.kr/product/27407/79/cover/k362732558_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6036502",
+          "isbn": "9791191043297",
+          "loans": 4,
+          "rank": 10,
+          "series": 1
+        },
+        {
           "title": "우리의 낙원에서 만나자 =이 계절을 함께 건너는 당신에게 /Meet me in our paradies",
           "author": "하태완 지음",
           "publisher": "책읽어주는남자",
@@ -341,18 +352,29 @@
           "link": "https://data4library.kr/bookV?seq=7059509",
           "isbn": "9791193937655",
           "loans": 4,
-          "rank": 10,
+          "rank": 11,
           "series": 1
         },
         {
-          "title": "수레바퀴 아래서",
-          "author": "헤르만 헤세, 김이섭",
-          "publisher": "민음사",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/000/051/00005191.jpg?type=m1&udate=20130208",
-          "link": "https://data4library.kr/bookV?seq=2376131",
-          "isbn": "9788937460500",
+          "title": "일억 번째 여름 :청예 장편소설",
+          "author": "청예",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/36422/69/cover200/8936431552_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7063917",
+          "isbn": "9788936431556",
           "loans": 3,
-          "rank": 11,
+          "rank": 12,
+          "series": 1
+        },
+        {
+          "title": "채식주의자 :한강 장편소설",
+          "author": "한강",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/29137/2/cover/8936434594_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6428779",
+          "isbn": "9788936434595",
+          "loans": 3,
+          "rank": 13,
           "series": 1
         },
         {
@@ -363,7 +385,7 @@
           "link": "https://data4library.kr/bookV?seq=2376187",
           "isbn": "9788937461033",
           "loans": 3,
-          "rank": 12,
+          "rank": 14,
           "series": 1
         },
         {
@@ -374,7 +396,7 @@
           "link": "https://data4library.kr/bookV?seq=2376332",
           "isbn": "9788937462672",
           "loans": 3,
-          "rank": 13,
+          "rank": 15,
           "series": 1
         },
         {
@@ -385,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=5348026",
           "isbn": "9788950978976",
           "loans": 3,
-          "rank": 14,
+          "rank": 16,
           "series": 1
         },
         {
@@ -396,7 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=5582453",
           "isbn": "9788950985424",
           "loans": 3,
-          "rank": 15,
+          "rank": 17,
           "series": 1
         },
         {
@@ -407,7 +429,7 @@
           "link": "https://data4library.kr/bookV?seq=3172390",
           "isbn": "9788952776372",
           "loans": 3,
-          "rank": 16,
+          "rank": 18,
           "series": 1
         },
         {
@@ -418,7 +440,7 @@
           "link": "https://data4library.kr/bookV?seq=3190615",
           "isbn": "9788954641630",
           "loans": 3,
-          "rank": 17,
+          "rank": 19,
           "series": 1
         },
         {
@@ -428,28 +450,6 @@
           "cover": "https://image.aladin.co.kr/product/31113/80/cover/s002831046_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6642859",
           "isbn": "9788954691154",
-          "loans": 3,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "수학의 언어로 세상을 본다면 :수학자 아버지가 들려주는 수학으로 본 세계",
-          "author": "오구리 히로시 지음, 고선윤 옮김",
-          "publisher": "바다출판사",
-          "cover": "https://image.aladin.co.kr/product/11087/77/cover/8955619316_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3448762",
-          "isbn": "9788955619317",
-          "loans": 3,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "침묵의 봄",
-          "author": "레이첼 카슨, 김은령",
-          "publisher": "에코리브르",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/068/001/06800163.jpg?type=m1&udate=20180206",
-          "link": "https://data4library.kr/bookV?seq=1229269",
-          "isbn": "9788962630619",
           "loans": 3,
           "rank": 20,
           "series": 1
@@ -468,7 +468,7 @@
           "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
           "link": "https://data4library.kr/bookV?seq=2037399",
           "isbn": "9788936434120",
-          "loans": 41,
+          "loans": 45,
           "rank": 1,
           "series": 1
         },
@@ -479,7 +479,7 @@
           "cover": "https://image.aladin.co.kr/product/24512/70/cover/k392630952_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5707051",
           "isbn": "9791165341909",
-          "loans": 37,
+          "loans": 41,
           "rank": 2,
           "series": 1
         },
@@ -490,7 +490,7 @@
           "cover": "https://image.aladin.co.kr/product/27877/5/cover/8954682154_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6086446",
           "isbn": "9788954682152",
-          "loans": 35,
+          "loans": 37,
           "rank": 3,
           "series": 1
         },
@@ -501,9 +501,20 @@
           "cover": "https://image.aladin.co.kr/product/15848/6/cover/k622533431_1.jpg",
           "link": "https://data4library.kr/bookV?seq=1902173",
           "isbn": "9788972756194",
-          "loans": 34,
+          "loans": 35,
           "rank": 4,
           "series": 1
+        },
+        {
+          "title": "흔한남매",
+          "author": "원작: 흔한남매, 유난희",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/37191/81/cover200/k042031295_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7150726",
+          "isbn": "9791173479939",
+          "loans": 33,
+          "rank": 5,
+          "series": 8
         },
         {
           "title": "고양이 해결사 깜냥",
@@ -512,8 +523,8 @@
           "cover": "https://image.aladin.co.kr/product/23651/80/cover/8936447696_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5642562",
           "isbn": "9788936447694",
-          "loans": 30,
-          "rank": 5,
+          "loans": 32,
+          "rank": 6,
           "series": 2
         },
         {
@@ -524,19 +535,19 @@
           "link": "https://data4library.kr/bookV?seq=6956464",
           "isbn": "9791168419018",
           "loans": 30,
-          "rank": 6,
-          "series": 1
+          "rank": 7,
+          "series": 2
         },
         {
-          "title": "흔한남매",
-          "author": "원작: 흔한남매, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/37191/81/cover200/k042031295_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7150726",
-          "isbn": "9791173479939",
-          "loans": 30,
-          "rank": 7,
-          "series": 6
+          "title": "홍학의 자리 :정해연 장편소설",
+          "author": "정해연",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/27587/94/cover/8954681158_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6050062",
+          "isbn": "9788954681155",
+          "loans": 29,
+          "rank": 8,
+          "series": 1
         },
         {
           "title": "불편한 편의점 :김호연 장편소설",
@@ -546,7 +557,18 @@
           "link": "https://data4library.kr/bookV?seq=5962217",
           "isbn": "9791161571188",
           "loans": 29,
-          "rank": 8,
+          "rank": 9,
+          "series": 1
+        },
+        {
+          "title": "흔한남매 오해요 :귀염 뽀짝 부캐들과 펼치는 초단편 콩트 만화",
+          "author": "원작: 흔한남매, 유난희",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/28926/99/cover/k602836219_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6409046",
+          "isbn": "9791168410930",
+          "loans": 29,
+          "rank": 10,
           "series": 1
         },
         {
@@ -557,29 +579,18 @@
           "link": "https://data4library.kr/bookV?seq=6428779",
           "isbn": "9788936434595",
           "loans": 28,
-          "rank": 9,
-          "series": 1
-        },
-        {
-          "title": "홍학의 자리 :정해연 장편소설",
-          "author": "정해연",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/27587/94/cover/8954681158_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6050062",
-          "isbn": "9788954681155",
-          "loans": 28,
-          "rank": 10,
-          "series": 1
-        },
-        {
-          "title": "슈뻘맨의 숨은 과학 찾기 :엉뚱 도전 속에 숨은 과학 상식",
-          "author": "슈뻘맨 원작, 류수형 그림",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/32359/59/cover/k332935467_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6754113",
-          "isbn": "9791168415188",
-          "loans": 28,
           "rank": 11,
+          "series": 1
+        },
+        {
+          "title": "모순 :양귀자 장편소설",
+          "author": "양귀자",
+          "publisher": "쓰다",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/071/902/07190270.jpg?type=m1&udate=20170801",
+          "link": "https://data4library.kr/bookV?seq=1938053",
+          "isbn": "9788998441012",
+          "loans": 28,
+          "rank": 12,
           "series": 1
         },
         {
@@ -590,29 +601,29 @@
           "link": "https://data4library.kr/bookV?seq=3423096",
           "isbn": "9788936434267",
           "loans": 27,
-          "rank": 12,
-          "series": 1
-        },
-        {
-          "title": "모순 :양귀자 장편소설",
-          "author": "양귀자",
-          "publisher": "쓰다",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/071/902/07190270.jpg?type=m1&udate=20170801",
-          "link": "https://data4library.kr/bookV?seq=1938053",
-          "isbn": "9788998441012",
-          "loans": 27,
           "rank": 13,
           "series": 1
         },
         {
-          "title": "흔한남매 오해요 :귀염 뽀짝 부캐들과 펼치는 초단편 콩트 만화",
-          "author": "원작: 흔한남매, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/28926/99/cover/k602836219_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6409046",
-          "isbn": "9791168410930",
+          "title": "아주 작은 습관의 힘 :최고의 변화는 어떻게 만들어지는가",
+          "author": "제임스 클리어 지음, 이한이 옮김",
+          "publisher": "비즈니스북스",
+          "cover": "https://image.aladin.co.kr/product/18228/51/cover/k832534441_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5368180",
+          "isbn": "9791162540640",
           "loans": 27,
           "rank": 14,
+          "series": 1
+        },
+        {
+          "title": "슈뻘맨의 숨은 과학 찾기 :엉뚱 도전 속에 숨은 과학 상식",
+          "author": "슈뻘맨 원작, 류수형 그림",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/32359/59/cover/k332935467_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6754113",
+          "isbn": "9791168415188",
+          "loans": 27,
+          "rank": 15,
           "series": 1
         },
         {
@@ -623,7 +634,7 @@
           "link": "https://data4library.kr/bookV?seq=7067147",
           "isbn": "9791173476259",
           "loans": 27,
-          "rank": 15,
+          "rank": 16,
           "series": 1
         },
         {
@@ -633,9 +644,31 @@
           "cover": "https://image.aladin.co.kr/product/10227/84/cover/k782536886_2.jpg",
           "link": "https://data4library.kr/bookV?seq=3412785",
           "isbn": "9791196025809",
-          "loans": 27,
-          "rank": 16,
-          "series": 2
+          "loans": 26,
+          "rank": 17,
+          "series": 3
+        },
+        {
+          "title": "혼모노 :성해나 소설집",
+          "author": "성해나",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/36101/66/cover200/893643974x_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7035395",
+          "isbn": "9788936439743",
+          "loans": 25,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "나의 완벽한 장례식 :조현선 장편소설",
+          "author": "조현선",
+          "publisher": "책읽어주는남자",
+          "cover": "https://image.aladin.co.kr/product/38357/53/cover200/k952135368_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7204893",
+          "isbn": "9791124038192",
+          "loans": 25,
+          "rank": 19,
+          "series": 1
         },
         {
           "title": "절창 :구병모 장편소설",
@@ -644,39 +677,6 @@
           "cover": "https://image.aladin.co.kr/product/37172/36/cover200/k662031678_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7149374",
           "isbn": "9791141602451",
-          "loans": 26,
-          "rank": 17,
-          "series": 1
-        },
-        {
-          "title": "아주 작은 습관의 힘 :최고의 변화는 어떻게 만들어지는가",
-          "author": "제임스 클리어 지음, 이한이 옮김",
-          "publisher": "비즈니스북스",
-          "cover": "https://image.aladin.co.kr/product/18228/51/cover/k832534441_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5368180",
-          "isbn": "9791162540640",
-          "loans": 26,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "다판다 편의점",
-          "author": "강효미 글, 밤코 그림",
-          "publisher": "다산북스",
-          "cover": "https://image.aladin.co.kr/product/36655/35/cover200/k252030080_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7084986",
-          "isbn": "9791130667546",
-          "loans": 25,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "안녕이라 그랬어 :김애란 소설",
-          "author": "김애란",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7073819",
-          "isbn": "9791141602376",
           "loans": 25,
           "rank": 20,
           "series": 1
