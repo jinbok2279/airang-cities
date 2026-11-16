@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15 10:34:27",
+  "updated_at": "2026-11-16 11:19:50",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -14,8 +14,19 @@
           "cover": "https://image.aladin.co.kr/product/102/85/cover/0143038095_2.jpg",
           "link": "https://data4library.kr/bookV?seq=2206823",
           "isbn": "9780143038092",
-          "loans": 3,
+          "loans": 4,
           "rank": 1,
+          "series": 1
+        },
+        {
+          "title": "(The) catcher in the Rye",
+          "author": "J.D. Salinger",
+          "publisher": "Little Brown & Company",
+          "cover": "https://image.aladin.co.kr/product/29/41/cover/0316769487_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=2423459",
+          "isbn": "9780316769488",
+          "loans": 3,
+          "rank": 2,
           "series": 1
         },
         {
@@ -26,7 +37,7 @@
           "link": "https://data4library.kr/bookV?seq=3870896",
           "isbn": "9780441013593",
           "loans": 3,
-          "rank": 2,
+          "rank": 3,
           "series": 1
         },
         {
@@ -37,7 +48,7 @@
           "link": "https://data4library.kr/bookV?seq=7147668",
           "isbn": "9791173479946",
           "loans": 3,
-          "rank": 3,
+          "rank": 4,
           "series": 1
         },
         {
@@ -48,7 +59,7 @@
           "link": "https://data4library.kr/bookV?seq=2673622",
           "isbn": "8809448440629",
           "loans": 2,
-          "rank": 4,
+          "rank": 5,
           "series": 1
         },
         {
@@ -59,7 +70,7 @@
           "link": "https://data4library.kr/bookV?seq=3110598",
           "isbn": "9780198300243",
           "loans": 2,
-          "rank": 5,
+          "rank": 6,
           "series": 1
         },
         {
@@ -70,7 +81,7 @@
           "link": "https://data4library.kr/bookV?seq=2379193",
           "isbn": "9780198483441",
           "loans": 2,
-          "rank": 6,
+          "rank": 7,
           "series": 1
         },
         {
@@ -80,17 +91,6 @@
           "cover": "https://bookthumb-phinf.pstatic.net/cover/097/804/09780462.jpg?type=m1&udate=20151111",
           "link": "https://data4library.kr/bookV?seq=2379199",
           "isbn": "9780198483519",
-          "loans": 2,
-          "rank": 7,
-          "series": 1
-        },
-        {
-          "title": "(The) catcher in the Rye",
-          "author": "J.D. Salinger",
-          "publisher": "Little Brown & Company",
-          "cover": "https://image.aladin.co.kr/product/29/41/cover/0316769487_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=2423459",
-          "isbn": "9780316769488",
           "loans": 2,
           "rank": 8,
           "series": 1
@@ -484,6 +484,17 @@
           "series": 1
         },
         {
+          "title": "(The)Joy Luck Club",
+          "author": "Amy Tan",
+          "publisher": "Penguin Books",
+          "cover": "https://image.aladin.co.kr/product/102/85/cover/0143038095_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=2206823",
+          "isbn": "9780143038092",
+          "loans": 4,
+          "rank": 3,
+          "series": 1
+        },
+        {
           "title": "Zak Zoo 08 / Birthday Bang, the (Book(with Audio QR code) + CD)",
           "author": "Justine Smith|Clare Elsom(ILT)",
           "publisher": "투판즈",
@@ -491,7 +502,7 @@
           "link": "https://data4library.kr/bookV?seq=3165356",
           "isbn": "9781408344361",
           "loans": 4,
-          "rank": 3,
+          "rank": 4,
           "series": 1
         },
         {
@@ -502,18 +513,18 @@
           "link": "https://data4library.kr/bookV?seq=6408666",
           "isbn": "9788934930549",
           "loans": 4,
-          "rank": 4,
+          "rank": 5,
           "series": 1
         },
         {
-          "title": "할매 =황석영 장편소설 /Grandma",
-          "author": "황석영",
+          "title": "수박 수영장 :안녕달 그림책",
+          "author": "안녕달",
           "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/37966/51/cover200/893643988x_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7191401",
-          "isbn": "9788936439880",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/093/451/09345174.jpg?type=m1&udate=20180718",
+          "link": "https://data4library.kr/bookV?seq=2396971",
+          "isbn": "9788936446819",
           "loans": 4,
-          "rank": 5,
+          "rank": 6,
           "series": 1
         },
         {
@@ -524,7 +535,7 @@
           "link": "https://data4library.kr/bookV?seq=2083728",
           "isbn": "9788983711892",
           "loans": 4,
-          "rank": 6,
+          "rank": 7,
           "series": 1
         },
         {
@@ -535,7 +546,7 @@
           "link": "https://data4library.kr/bookV?seq=7073819",
           "isbn": "9791141602376",
           "loans": 4,
-          "rank": 7,
+          "rank": 8,
           "series": 1
         },
         {
@@ -546,7 +557,7 @@
           "link": "https://data4library.kr/bookV?seq=6966282",
           "isbn": "9791169851053",
           "loans": 4,
-          "rank": 8,
+          "rank": 9,
           "series": 1
         },
         {
@@ -557,17 +568,6 @@
           "link": "https://data4library.kr/bookV?seq=7082341",
           "isbn": "9791193238691",
           "loans": 4,
-          "rank": 9,
-          "series": 1
-        },
-        {
-          "title": "(The)Joy Luck Club",
-          "author": "Amy Tan",
-          "publisher": "Penguin Books",
-          "cover": "https://image.aladin.co.kr/product/102/85/cover/0143038095_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=2206823",
-          "isbn": "9780143038092",
-          "loans": 3,
           "rank": 10,
           "series": 1
         },
@@ -605,6 +605,17 @@
           "series": 1
         },
         {
+          "title": "(The) catcher in the Rye",
+          "author": "J.D. Salinger",
+          "publisher": "Little Brown & Company",
+          "cover": "https://image.aladin.co.kr/product/29/41/cover/0316769487_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=2423459",
+          "isbn": "9780316769488",
+          "loans": 3,
+          "rank": 14,
+          "series": 1
+        },
+        {
           "title": "Dune",
           "author": "Frank Herbert",
           "publisher": "BerkleyPubGroup",
@@ -612,7 +623,7 @@
           "link": "https://data4library.kr/bookV?seq=3870896",
           "isbn": "9780441013593",
           "loans": 3,
-          "rank": 14,
+          "rank": 15,
           "series": 1
         },
         {
@@ -623,7 +634,7 @@
           "link": "https://data4library.kr/bookV?seq=3165257",
           "isbn": "9781408344347",
           "loans": 3,
-          "rank": 15,
+          "rank": 16,
           "series": 1
         },
         {
@@ -634,7 +645,7 @@
           "link": "https://data4library.kr/bookV?seq=3165355",
           "isbn": "9781408344354",
           "loans": 3,
-          "rank": 16,
+          "rank": 17,
           "series": 1
         },
         {
@@ -645,7 +656,7 @@
           "link": "https://data4library.kr/bookV?seq=6032646",
           "isbn": "9788932921136",
           "loans": 3,
-          "rank": 17,
+          "rank": 18,
           "series": 1
         },
         {
@@ -656,7 +667,7 @@
           "link": "https://data4library.kr/bookV?seq=6657232",
           "isbn": "9788934944546",
           "loans": 3,
-          "rank": 18,
+          "rank": 19,
           "series": 1
         },
         {
@@ -666,17 +677,6 @@
           "cover": "https://image.aladin.co.kr/product/28386/25/cover/8934983434_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6345379",
           "isbn": "9788934983439",
-          "loans": 3,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "마법의 설탕 두 조각",
-          "author": "미카엘 엔데 글, 유혜자 옮김",
-          "publisher": "한길사",
-          "cover": "https://image.aladin.co.kr/product/27/73/cover/8935652792_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=1799690",
-          "isbn": "9788935652792",
           "loans": 3,
           "rank": 20,
           "series": 1
