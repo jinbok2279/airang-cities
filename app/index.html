@@ -351,11 +351,17 @@ let importedOld = false;
     const b = m[1].replace(/-/g, "+").replace(/_/g, "/");
     const bin = atob(b + "===".slice((b.length + 3) % 4));
     const obj = JSON.parse(new TextDecoder().decode(Uint8Array.from(bin, c => c.charCodeAt(0))));
-    Object.entries(obj).forEach(([k, v]) => { if (/^edu\./.test(k) && !/^edu\.(admin|adminPin)$/.test(k) && typeof v === "string" && store(k) == null) store(k, v); });
+    Object.entries(obj).forEach(([k, v]) => {  // #move 와 같은 검사 (위험한 값은 버림)
+      if (!(MOVE_KEYS.includes(k) || /^edu\.want\.[\w-]+$/.test(k)) || typeof v !== "string" || v.length > 30000 || store(k) != null) return;
+      if (k === "edu.kids" || k === "edu.myEv") { v = moveSafeList(v); if (v === null) return; }
+      else if (/[<>`\\']/.test(v)) return;
+      store(k, v);
+    });
     importedOld = true;
   } catch (e) {}
   history.replaceState(null, "", location.pathname + "#home");
 })();
+function safeUrl(u) { u = String(u ?? "").trim(); return /^https?:\/\//i.test(u) ? u : "#"; }
 {{#else}}
 // 바깥에서 받아 온 링크는 http(s) 주소만 통과 (javascript: 같은 위험한 주소 차단)
 function safeUrl(u) { u = String(u ?? "").trim(); return /^https?:\/\//i.test(u) ? u : "#"; }
@@ -482,13 +488,13 @@ function viewSports() {
         <div style="flex:1;min-width:0"><div style="font-weight:800;font-size:15.5px">${esc(p.name)}${p.month ? ` <span style="font-size:11.5px;font-weight:700;color:var(--muted)">${p.month}월 반</span>` : ""}</div>
           <div style="font-size:12.5px;color:var(--muted);margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(c.name || "")} · ${esc(c.area || "")}</div></div></div>
       <div style="font-size:13px;margin-top:10px;line-height:1.7;padding:10px 12px;background:#F4F6FB;border-radius:14px">🗓️ ${esc(p.days)}${p.times ? ` · <b>${esc(p.times)}</b>` : ""}<br>👤 ${esc(p.who)}<br>💳 <b style="color:var(--indigo)">${p.cap ? "" : "월 "}${esc(p.price)}</b>${p.cap ? `<br>${left(p) === 0 ? `<b style="color:var(--coral-ink)">⛔ 마감 (${p.cap}명 모두 신청)</b>` : `<b style="color:#12946F">🟢 ${left(p)}자리 남음</b> <span style="color:var(--muted)">(${p.applied || 0}/${p.cap}명)</span>`}` : ""}</div>
-      <div style="display:flex;gap:8px;margin-top:12px">${c.apply ? `<a class="btn btn-3d" style="flex:1;height:40px;font-size:13px" href="${esc(c.apply)}" target="_blank" rel="noopener" onclick="trackEvent('운동-수강신청')">수강신청 바로가기 ›</a>` : `<span class="btn btn-soft" style="flex:1;height:40px;font-size:13px">${esc(c.visit || "센터에 문의")}</span>`}
+      <div style="display:flex;gap:8px;margin-top:12px">${c.apply ? `<a class="btn btn-3d" style="flex:1;height:40px;font-size:13px" href="${esc(safeUrl(c.apply))}" target="_blank" rel="noopener" onclick="trackEvent('운동-수강신청')">수강신청 바로가기 ›</a>` : `<span class="btn btn-soft" style="flex:1;height:40px;font-size:13px">${esc(c.visit || "센터에 문의")}</span>`}
         <a class="btn btn-soft" style="flex:0 0 auto;height:40px;font-size:13px;padding:0 14px" href="tel:${esc(c.tel || "")}">📞 전화</a></div></div>`; };
   const centers = (SPORTS.centers || []).map(c => `<div class="lift" style="padding:14px 16px;margin-bottom:10px">
       <div style="display:flex;justify-content:space-between;gap:10px;align-items:baseline"><b style="font-size:15px">${esc(c.name)}</b><span style="font-size:12px;color:var(--muted);flex:0 0 auto">${esc(c.area)}</span></div>
       <div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:8px">${c.tags.map(t => `<span style="font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:10px;background:${t === "수영" ? "#E3F1FF" : t === "사우나" ? "#FFEBDD" : "#EEF0F6"};color:var(--ink)">${esc(t)}</span>`).join("")}</div>
       <div style="font-size:12.5px;color:var(--muted);margin-top:8px;line-height:1.6">${esc(c.hours)}${c.closed ? " · " + esc(c.closed) : ""}<br>${esc(c.addr)}</div>
-      <div style="display:flex;gap:8px;margin-top:10px"><a class="btn btn-soft" style="flex:1;height:38px;font-size:12.5px" href="${esc(c.web)}" target="_blank" rel="noopener">홈페이지</a><a class="btn btn-soft" style="flex:1;height:38px;font-size:12.5px" href="https://map.naver.com/p/search/${encodeURIComponent(c.name)}" target="_blank" rel="noopener">길찾기</a><a class="btn btn-soft" style="flex:1;height:38px;font-size:12.5px" href="tel:${esc(c.tel)}">전화</a></div></div>`).join("");
+      <div style="display:flex;gap:8px;margin-top:10px"><a class="btn btn-soft" style="flex:1;height:38px;font-size:12.5px" href="${esc(safeUrl(c.web))}" target="_blank" rel="noopener">홈페이지</a><a class="btn btn-soft" style="flex:1;height:38px;font-size:12.5px" href="https://map.naver.com/p/search/${encodeURIComponent(c.name)}" target="_blank" rel="noopener">길찾기</a><a class="btn btn-soft" style="flex:1;height:38px;font-size:12.5px" href="tel:${esc(c.tel)}">전화</a></div></div>`).join("");
   $view.innerHTML = back + seg + chips +
     (list.length ? list.map(card).join("") : `<div class="lift empty">이 종목은 아직 강좌 정보가 없어요.</div>`) +
 {{#if yongin}}
@@ -565,7 +571,7 @@ function viewHome() {
 {{/if}}
     hero = `<section class="scape lift"><img class="scape-img" src="assets/hero-{{key}}-800.webp" srcset="assets/hero-{{key}}-800.webp 800w, assets/hero-{{key}}.webp 1200w" sizes="(max-width:560px) 100vw, 524px" width="1200" height="500" alt="" fetchpriority="high" decoding="async"><div class="scape-body"><div class="kidinfo" style="display:flex;gap:12px;align-items:flex-end"><div style="flex:1;min-width:0"><div class="date">${dateStr}</div><h1>${esc(title)}</h1><p class="next">${esc(nextTxt)}</p></div>${next ? `<div class="dday"><b>${ddayText(dday(next.date))}</b><span>${mdw(next.date)}</span></div>` : ""}</div><div style="margin-top:12px">${cta.replace('class="cta"', 'class="btn btn-soft" style="height:40px;font-size:13px;padding:0 14px"')}</div></div></section>`;
 {{#if yongin}}
-    const chip = (id, label, extra = "") => `<button class="btn ${homeKid === id ? "btn-3d" : "btn-soft"}" style="height:38px;font-size:13px;padding:0 14px;flex:0 0 auto" onclick="pickKid('${id}')">${extra}${esc(label)}</button>`;
+    const chip = (id, label, extra = "") => `<button class="btn ${homeKid === id ? "btn-3d" : "btn-soft"}" style="height:38px;font-size:13px;padding:0 14px;flex:0 0 auto" onclick="pickKid('${jsq(id)}')">${extra}${esc(label)}</button>`;
 {{#else}}
     const chip = (id, label, extra = "") => `<button class="btn ${homeKid === id ? "btn-3d" : "btn-soft"}" style="height:38px;font-size:13px;padding:0 14px;flex:0 0 auto" onclick="pickKid('${jsq(id)}')">${extra}${esc(label)}</button>`;
 {{/if}}
@@ -574,7 +580,7 @@ function viewHome() {
     const ownCount = ks.filter(k => homeKid === "all" || k.id === homeKid).reduce((n, k) => n + (((kidSchool(k) || {}).events || []).length), 0);
     mine = `<section class="section"><div class="sec-head"><h2>우리 아이 다가오는 일정</h2>${ks.length < MAX_KIDS ? `<button onclick="go('kid/new')">+ 아이 추가</button>` : ""}</div>
       ${chips}
-      <div class="lift card-pad">${list.map(g => g.mine ? `<div style="cursor:pointer" onclick="go('myev/${g.myId}')">${evRow(g, `✏️ 내 일정 · ${g.end !== g.date ? mdw(g.date) + " ~ " + md(g.end) : mdw(g.date)}`, g.kid && ks.length > 1 ? kidPill(g.kid) : "")}</div>` : g.kid ? evRow(g, `${g.school} · ${g.end !== g.date ? mdw(g.date) + " ~ " + md(g.end) : mdw(g.date)}`, ks.length > 1 ? kidPill(g.kid) : "") : evRow(g)).join("")}
+      <div class="lift card-pad">${list.map(g => g.mine ? `<div style="cursor:pointer" onclick="go('myev/${jsq(g.myId)}')">${evRow(g, `✏️ 내 일정 · ${g.end !== g.date ? mdw(g.date) + " ~ " + md(g.end) : mdw(g.date)}`, g.kid && ks.length > 1 ? kidPill(g.kid) : "")}</div>` : g.kid ? evRow(g, `${g.school} · ${g.end !== g.date ? mdw(g.date) + " ~ " + md(g.end) : mdw(g.date)}`, ks.length > 1 ? kidPill(g.kid) : "") : evRow(g)).join("")}
       ${ownCount ? "" : `<div class="empty">학교가 아직 나이스에 학사일정을 많이 등록하지 않았어요. 등록되면 자동으로 여기에 나타나요.</div>`}
       <button class="btn btn-soft" style="width:100%;height:42px;margin-top:10px;font-size:13px;color:var(--indigo)" onclick="go('myev/new')">+ 내 일정 추가 (준비물·병원·생일 등)</button>
       ${evs.length > 3 ? `<button onclick="homeAllEv=!homeAllEv;render()" style="width:100%;border:0;background:none;padding:12px 0 4px;font:inherit;font-size:13px;font-weight:700;color:var(--indigo);cursor:pointer">${homeAllEv ? "접기 ▲" : `일정 더보기 (${Math.min(evs.length, 8) - 3}개 더) ▼`}</button>` : ""}</div></section>`;
@@ -679,7 +685,7 @@ function viewMyEv(id) {
     <h1 style="font-size:25px;font-weight:800;margin-top:14px">${ed ? "내 일정 수정" : "내 일정 추가"}</h1>
     <p style="font-size:13px;color:var(--muted);margin:6px 0 0">이 휴대폰에만 저장돼요. 홈 일정과 '오늘 아침 체크'에 함께 보여요.</p>
     <section class="section"><div class="sec-head"><h2>누구 일정이에요?</h2></div>
-      <div style="display:flex;gap:8px;overflow-x:auto;padding:2px">${ks.map(k => chip(f.kid === k.id, esc(k.name), `myForm.kid='${k.id}';render()`)).join("")}${chip(f.kid === "all", "가족 전체", "myForm.kid='all';render()")}</div></section>
+      <div style="display:flex;gap:8px;overflow-x:auto;padding:2px">${ks.map(k => chip(f.kid === k.id, esc(k.name), `myForm.kid='${jsq(k.id)}';render()`)).join("")}${chip(f.kid === "all", "가족 전체", "myForm.kid='all';render()")}</div></section>
     <section class="section"><div class="sec-head"><h2>무슨 일정이에요?</h2></div>
       <input id="mytitle" maxlength="30" placeholder="예: 체험학습 신청서 내기" value="${esc(f.title)}" style="${inp}" oninput="myForm.title=this.value">
       <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:10px">${MY_QUICK.map(q => `<button class="btn btn-soft" style="height:34px;font-size:12.5px;padding:0 12px" onclick="myForm.title='${q}';render()">${q}</button>`).join("")}</div></section>
@@ -689,7 +695,7 @@ function viewMyEv(id) {
         <label style="flex:1;min-width:0"><span style="display:block;font-size:12px;font-weight:700;color:var(--muted);margin:0 0 4px 2px">끝나는 날 (선택)</span><input type="date" value="${esc(f.end)}" min="${esc(f.start)}" style="${inp}" onchange="myForm.end=this.value"></label></div>
       <div style="display:flex;gap:8px;margin-top:12px">${[["none", "한 번"], ["w", "매주"], ["y", "매년"]].map(([k, l]) => chip(f.rep === k, l, `myForm.rep='${k}';render()`)).join("")}</div></section>
     <button class="btn btn-3d" style="width:100%;height:54px;margin-top:24px;font-size:15px" onclick="saveMyEv()">${ed ? "저장하기" : "추가하기"}</button>
-    ${ed ? `<button class="btn btn-soft" style="width:100%;height:46px;margin-top:10px;color:var(--coral-ink)" onclick="delMyEv('${ed.id}')">이 일정 지우기</button>` : ""}`;
+    ${ed ? `<button class="btn btn-soft" style="width:100%;height:46px;margin-top:10px;color:var(--coral-ink)" onclick="delMyEv('${jsq(ed.id)}')">이 일정 지우기</button>` : ""}`;
 }
 function saveMyEv() {
   const f = myForm; if (!f) return;
@@ -1116,8 +1122,8 @@ function viewLibraryDetail(key) {
       <div style="display:flex;flex-direction:column;gap:14px;margin-top:14px">${l.rooms.map(roomDetail).join("")}</div>`
     : l.status === "none" ? `<div class="lift empty" style="margin-top:16px">이 도서관은 실시간 좌석 정보를 공개하지 않아요.<br>운영시간·휴관일은 도서관 홈페이지에서 확인해 주세요.</div>`
     : `<div class="lift empty" style="margin-top:16px">${esc(l.message || "지금은 좌석 정보가 없어요.")}<br>운영하는 날 다시 확인해 주세요.</div>`}
-    ${l.link ? `<a class="btn btn-soft" style="width:100%;height:48px;margin-top:18px;font-size:14px" href="${esc(l.link)}" target="_blank" rel="noopener">좌석 배치도 보기 (도서관 사이트) ↗</a>` : ""}
-    ${l.home ? `<a class="btn btn-soft" style="width:100%;height:48px;margin-top:18px;font-size:14px" href="${esc(l.home)}" target="_blank" rel="noopener">도서관 홈페이지 ↗</a>` : ""}
+    ${l.link ? `<a class="btn btn-soft" style="width:100%;height:48px;margin-top:18px;font-size:14px" href="${esc(safeUrl(l.link))}" target="_blank" rel="noopener">좌석 배치도 보기 (도서관 사이트) ↗</a>` : ""}
+    ${l.home ? `<a class="btn btn-soft" style="width:100%;height:48px;margin-top:18px;font-size:14px" href="${esc(safeUrl(l.home))}" target="_blank" rel="noopener">도서관 홈페이지 ↗</a>` : ""}
     ${l.status === "none" ? "" : `<div class="foot">좌석 수는 운영시간에 30분마다 모아 와요. 몇 번 자리가 비었는지는 도서관 사이트에서 볼 수 있어요.</div>`}`;
 {{#else}}
       <div><h1 style="font-size:26px;font-weight:800">${esc(l.name)}</h1><p style="font-size:13px;color:var(--muted);margin-top:4px">{{name}} ${esc(l.gu)}</p></div>
@@ -1207,7 +1213,7 @@ function bookRow(b) {
   const inner = `<span class="rk">${b.rank}</span>${coverImg(b, "cv")}
     <div style="flex:1;min-width:0"><div class="tt">${esc(b.title)}</div><div class="au">${b.series > 1 ? `<b style="color:var(--indigo)">시리즈 ${b.series}권</b> · ` : ""}${esc([b.author, b.publisher].filter(Boolean).join(" · "))}</div></div>`;
 {{#if yongin}}
-  return b.link ? `<a class="book" href="${esc(b.link)}" target="_blank" rel="noopener" onclick="trackEvent('책-클릭')">${inner}<span style="color:var(--muted)">↗</span></a>` : `<div class="book">${inner}</div>`;
+  return b.link ? `<a class="book" href="${esc(safeUrl(b.link))}" target="_blank" rel="noopener" onclick="trackEvent('책-클릭')">${inner}<span style="color:var(--muted)">↗</span></a>` : `<div class="book">${inner}</div>`;
 {{#else}}
   return b.link ? `<a class="book" href="${esc(safeUrl(b.link))}" target="_blank" rel="noopener" onclick="trackEvent('책-클릭')">${inner}<span style="color:var(--muted)">↗</span></a>` : `<div class="book">${inner}</div>`;
 {{/if}}
@@ -1283,7 +1289,7 @@ function cityRow(e) {
     going ? `<span class="pill pill-indigo">진행 중</span>` : `<span class="pill ${dday(e.start) <= 7 ? "pill-indigo" : "pill-gray"}">${ddayText(dday(e.start))}</span>`,
     e.grade ? `<span class="pill pill-gray">${esc(e.grade.length > 12 ? e.grade.slice(0, 12) + "…" : e.grade)}</span>` : ""].join("");
 {{#if yongin}}
-  return `<a class="ev" href="${esc(e.link)}" target="_blank" rel="noopener" onclick='evOpen({src:"city"})'>
+  return `<a class="ev" href="${esc(safeUrl(e.link))}" target="_blank" rel="noopener" onclick='evOpen({src:"city"})'>
 {{#else}}
   return `<a class="ev" href="${esc(safeUrl(e.link))}" target="_blank" rel="noopener" onclick='evOpen({src:"city"})'>
 {{/if}}
@@ -1300,7 +1306,7 @@ function libRow(e) {
     left ? `<span class="pill pill-gray">신청 ${left[1]}/${left[2]}</span>` : ""].join("");
   const apply = e.applyEnd ? (open ? `접수 ~${md(e.applyEnd)}` : e.applyStart ? `접수 ${md(e.applyStart)}부터` : "") : "";
 {{#if yongin}}
-  return `<a class="ev" href="${esc(e.link)}" target="_blank" rel="noopener" onclick='evOpen({src:"lib"})'>
+  return `<a class="ev" href="${esc(safeUrl(e.link))}" target="_blank" rel="noopener" onclick='evOpen({src:"lib"})'>
 {{#else}}
   return `<a class="ev" href="${esc(safeUrl(e.link))}" target="_blank" rel="noopener" onclick='evOpen({src:"lib"})'>
 {{/if}}
@@ -1397,7 +1403,7 @@ function viewKid(arg, pre) {
 {{#if yongin}}
       <p style="font-size:12px;color:var(--muted);line-height:1.6;margin-top:10px">교육청에 등록된 {{f.sgg}} 학원·교습소 목록에서 골라요. 요일·시간을 넣고 <b>📅 캘린더에 추가</b>를 누르면 휴대폰 캘린더가 수업 시작·끝 10분 전에 알려 줘요. 시간이 바뀌면 캘린더에서 예전 일정을 지우고 다시 추가해 주세요.<br>학원 정보는 접속한 본인 휴대폰에만 저장돼요.</p></section>
     <button class="btn btn-3d" style="width:100%;height:54px;margin-top:24px;font-size:15px" onclick="saveKid('${editing ? editing.id : ""}')">${editing ? "저장하기" : "등록하기"}</button>
-    ${editing ? `<button class="btn btn-soft" style="width:100%;height:46px;margin-top:12px;color:var(--coral-ink)" onclick="deleteKid('${editing.id}')">${kidForm.arm ? "한 번 더 누르면 삭제돼요" : "이 아이 삭제"}</button>` : ""}`;
+    ${editing ? `<button class="btn btn-soft" style="width:100%;height:46px;margin-top:12px;color:var(--coral-ink)" onclick="deleteKid('${jsq(editing.id)}')">${kidForm.arm ? "한 번 더 누르면 삭제돼요" : "이 아이 삭제"}</button>` : ""}`;
 {{#else}}
       <p style="font-size:12px;color:var(--muted);line-height:1.6;margin-top:10px">교육청에 등록된 {{f.sgg}} 학원·교습소 목록에서 골라요. 요일·시간을 넣고 <b>📅 캘린더에 추가</b>를 누르면 휴대폰 캘린더가 수업 시작·끝 10분 전에 알려 줘요. 시간이 바뀌면 캘린더에서 예전 일정을 지우고 다시 추가해 주세요.<br>학원 정보는 접속한 본인 휴대폰에만 저장돼요.<br>앞으로 동의한 분들의 학원 정보만 <b>이름 없이</b> 모아 "우리 동네 인기 학원"을 보여 드릴 예정이에요.</p></section>
     <button class="btn btn-3d" style="width:100%;height:54px;margin-top:24px;font-size:15px" onclick="saveKid('${jsq(editing ? editing.id : "")}')">${editing ? "저장하기" : "등록하기"}</button>
@@ -1810,7 +1816,7 @@ function jobRow(j, care) {
     ? [j.org, where, j.qual].filter(Boolean).join(" · ")
     : [j.org, where, j.workStart ? `근무 ${md(j.workStart)}~${j.workEnd ? md(j.workEnd) : ""}` : "", j.pay].filter(Boolean).join(" · ");
 {{#if yongin}}
-  return `<a class="ev" href="${esc(j.link)}" target="_blank" rel="noopener" onclick="trackEvent('일자리-${care ? "어린이집" : "학교"}')">
+  return `<a class="ev" href="${esc(safeUrl(j.link))}" target="_blank" rel="noopener" onclick="trackEvent('일자리-${care ? "어린이집" : "학교"}')">
 {{#else}}
   return `<a class="ev" href="${esc(safeUrl(j.link))}" target="_blank" rel="noopener" onclick="trackEvent('일자리-${care ? "어린이집" : "학교"}')">
 {{/if}}
@@ -2046,7 +2052,7 @@ const NEWS = [
 ];
 function newsDate(d) { const [y, m, dd] = d.split("-").map(Number); return `${m}월 ${dd}일`; }
 // 새 버전으로 바뀐 걸 홈 맨 위에 한 번 알려 줌 (닫거나 소식을 보면 사라짐)
-const APP_VER = "1.0.66";
+const APP_VER = "1.0.67";
 let UPDATED_FROM = null;
 const IS_NEW_PHONE = !store("edu.appVer");   // 이 휴대폰에서 처음 열었는지 (예전에 쓴 적 있으면 앱 버전이 남아 있음)
 (function () { const last = store("edu.appVer"); if (last && last !== APP_VER) UPDATED_FROM = last; if (!last) store("edu.appVer", APP_VER); })();
@@ -2518,7 +2524,7 @@ function hsRow(x, er) {
     <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">${kindTag}${td ? (td.open ? tag(x.k === "약국" ? "지금 영업 중" : "지금 진료 중", "#E6F6EF", "#127A52") : tag(x.k === "약국" ? "영업 시간 아님" : "진료 시간 아님", "#F1F3F8", "#5C6478")) : ""}${km != null ? tag(km < 1 ? Math.round(km * 1000) + "m" : km.toFixed(1) + "km", "#F4F2FF", "#5B4FD6") : ""}</div>
     <div style="font-size:15.5px;font-weight:800;margin-top:6px;line-height:1.4">${esc(x.n)}</div>
     <div style="font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.5">${esc([(x.d || []).slice(0, 3).join("·"), x.a].filter(Boolean).join(" · "))}${td ? `<br>${esc(td.text)}` : ""}</div>
-    <div style="display:flex;gap:8px;margin-top:10px">${tel ? `<a class="btn ${er ? "btn-3d" : "btn-soft"}" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="tel:${esc(tel)}" onclick="trackEvent('병원-전화${er ? "-응급실" : ""}')">📞 전화</a>` : ""}<a class="btn btn-soft" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="${esc(map)}" target="_blank" rel="noopener" onclick="trackEvent('병원-길찾기')">📍 길찾기</a>${x.u ? `<a class="btn btn-soft" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="${esc(x.u)}" target="_blank" rel="noopener" onclick="trackEvent('병원-홈페이지')">홈페이지 ›</a>` : ""}</div></div>`;
+    <div style="display:flex;gap:8px;margin-top:10px">${tel ? `<a class="btn ${er ? "btn-3d" : "btn-soft"}" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="tel:${esc(tel)}" onclick="trackEvent('병원-전화${er ? "-응급실" : ""}')">📞 전화</a>` : ""}<a class="btn btn-soft" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="${esc(map)}" target="_blank" rel="noopener" onclick="trackEvent('병원-길찾기')">📍 길찾기</a>${x.u ? `<a class="btn btn-soft" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="${esc(safeUrl(x.u))}" target="_blank" rel="noopener" onclick="trackEvent('병원-홈페이지')">홈페이지 ›</a>` : ""}</div></div>`;
 }
 function homeOpenKids() {   // 홈: 지금 문 연 소아과 바로가기 (밤·주말엔 문구를 바꿔요)
   const n = new Date(), h = n.getHours(), wk = n.getDay() === 0 || n.getDay() === 6;
@@ -2605,7 +2611,7 @@ function bnCard(x) {
     ${x.org ? `<div style="font-size:12px;color:var(--muted);margin-top:2px">${esc(x.org)}</div>` : ""}
     ${x.sum ? `<div style="font-size:13px;margin-top:7px;line-height:1.55">${esc(x.sum)}</div>` : ""}
     ${who.length ? `<div style="font-size:12px;color:var(--muted);margin-top:7px">대상 · ${esc(who.join(", "))}</div>` : ""}
-    <div style="display:flex;gap:8px;margin-top:11px">${x.link ? `<a class="btn btn-soft" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="${esc(x.link)}" target="_blank" rel="noopener" onclick="trackEvent('혜택-자세히')">자세히 보기 ›</a>` : ""}${tel ? `<a class="btn btn-soft" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="tel:${esc(tel)}" onclick="trackEvent('혜택-전화')">📞 문의</a>` : ""}</div>
+    <div style="display:flex;gap:8px;margin-top:11px">${x.link ? `<a class="btn btn-soft" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="${esc(safeUrl(x.link))}" target="_blank" rel="noopener" onclick="trackEvent('혜택-자세히')">자세히 보기 ›</a>` : ""}${tel ? `<a class="btn btn-soft" style="flex:1;height:38px;font-size:13px;text-decoration:none" href="tel:${esc(tel)}" onclick="trackEvent('혜택-전화')">📞 문의</a>` : ""}</div>
     ${[x.apply ? "신청 · " + x.apply : "", !tel && x.telTxt ? "문의 · " + x.telTxt : ""].filter(Boolean).map(t => `<div style="font-size:11.5px;color:var(--muted);margin-top:6px">${esc(t)}</div>`).join("")}</div>`;
 }
 function viewBene(keepFocus) {

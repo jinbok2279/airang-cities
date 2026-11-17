@@ -237,7 +237,7 @@ def post(url, form, tries=3, timeout=40):
         except Exception as e:
             print(f"  다시 시도 {i + 1}/{tries}: {e}")
             time.sleep(4)
-    raise RuntimeError("접속 실패: " + url)
+    raise RuntimeError("접속 실패: " + url.split("?")[0])  # 열쇠가 로그에 남지 않게
 
 
 def ggac_events(today):

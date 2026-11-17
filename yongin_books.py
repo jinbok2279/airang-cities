@@ -90,7 +90,7 @@ def fetch(url, params, tries=3):
         except Exception as e:  # 일시 오류는 다시 시도
             print(f"  다시 시도 {i + 1}/{tries}: {e}")
             time.sleep(5)
-    raise RuntimeError("접속 실패: " + url)
+    raise RuntimeError("접속 실패: " + url.split("?")[0])  # 열쇠가 로그에 남지 않게
 
 
 def book_items(html):
