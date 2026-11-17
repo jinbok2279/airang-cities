@@ -258,7 +258,8 @@ function reportErr(msg, where) {
     gc(g => g.count({ path: "오류-" + id, title: (msg + " @" + where + " v" + (typeof APP_VER !== "undefined" ? APP_VER : "")).slice(0, 200), event: true }));
   } catch (e) {}
 }
-window.addEventListener("error", e => reportErr(e.message, (e.filename || "").split("/").pop() + ":" + e.lineno));
+// 휴대폰 앱(네이버·카카오 등) 안의 브라우저가 몰래 넣은 스크립트 오류는 우리 코드가 아니라서 뺌 (예: navigation_performance_logger_android "Java object is gone")
+window.addEventListener("error", e => { const f = e.filename || ""; if (f && !f.startsWith(location.origin)) return; reportErr(e.message, f.split("/").pop() + ":" + e.lineno); });
 window.addEventListener("unhandledrejection", e => { const r = e.reason; reportErr(r && (r.message || r), "promise"); });
 const DATA_URL = "latest.json";
 const KEY_SCHOOL = "edu.school";
