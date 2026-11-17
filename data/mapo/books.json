@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16 10:49:01",
+  "updated_at": "2026-11-17 13:01:31",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -27,7 +27,18 @@
           "isbn": "9788950968243",
           "loans": 7,
           "rank": 2,
-          "series": 8
+          "series": 7
+        },
+        {
+          "title": "후덜덜 식당",
+          "author": "강효미, 유영근",
+          "publisher": "지학사",
+          "cover": "https://image.aladin.co.kr/product/34349/24/cover200/k362932999_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6918737",
+          "isbn": "9791162041697",
+          "loans": 7,
+          "rank": 3,
+          "series": 1
         },
         {
           "title": "자본주의 편의점",
@@ -37,7 +48,7 @@
           "link": "https://data4library.kr/bookV?seq=6988305",
           "isbn": "9791168091504",
           "loans": 7,
-          "rank": 3,
+          "rank": 4,
           "series": 1
         },
         {
@@ -48,7 +59,7 @@
           "link": "https://data4library.kr/bookV?seq=7294075",
           "isbn": "9791168091580",
           "loans": 7,
-          "rank": 4,
+          "rank": 5,
           "series": 1
         },
         {
@@ -59,19 +70,8 @@
           "link": "https://data4library.kr/bookV?seq=7063907",
           "isbn": "9791193031957",
           "loans": 7,
-          "rank": 5,
-          "series": 1
-        },
-        {
-          "title": "고양이 해결사 깜냥",
-          "author": "홍민정 동화, 김재희 그림",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/32756/52/cover/8936448528_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6780194",
-          "isbn": "9788936448523",
-          "loans": 6,
           "rank": 6,
-          "series": 4
+          "series": 1
         },
         {
           "title": "건방이의 건방진 수련기",
@@ -129,17 +129,6 @@
           "series": 1
         },
         {
-          "title": "후덜덜 식당",
-          "author": "강효미, 유영근",
-          "publisher": "지학사",
-          "cover": "https://image.aladin.co.kr/product/34349/24/cover200/k362932999_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6918737",
-          "isbn": "9791162041697",
-          "loans": 6,
-          "rank": 12,
-          "series": 1
-        },
-        {
           "title": "정재승의 로봇 탐구 보고서 :어린이와 함께하는 인공지능 프로젝트",
           "author": "정재은,김현민 그림",
           "publisher": "어크로스출판그룹",
@@ -147,7 +136,7 @@
           "link": "https://data4library.kr/bookV?seq=7254668",
           "isbn": "9791167742865",
           "loans": 6,
-          "rank": 13,
+          "rank": 12,
           "series": 1
         },
         {
@@ -158,18 +147,18 @@
           "link": "https://data4library.kr/bookV?seq=6525944",
           "isbn": "9791168412477",
           "loans": 6,
-          "rank": 14,
+          "rank": 13,
           "series": 1
         },
         {
-          "title": "내 멋대로 행운 뽑기",
-          "author": "최은옥 글, 김무연 그림",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/27859/64/cover/8934984910_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6087792",
-          "isbn": "9788934984917",
-          "loans": 5,
-          "rank": 15,
+          "title": "마이 가디언",
+          "author": "이재문 글, 무디 그림",
+          "publisher": "이지북",
+          "cover": "https://image.aladin.co.kr/product/35293/98/cover200/k612035761_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6981527",
+          "isbn": "9791193914519",
+          "loans": 6,
+          "rank": 14,
           "series": 1
         },
         {
@@ -180,7 +169,7 @@
           "link": "https://data4library.kr/bookV?seq=2620746",
           "isbn": "9788936442798",
           "loans": 5,
-          "rank": 16,
+          "rank": 15,
           "series": 1
         },
         {
@@ -191,8 +180,19 @@
           "link": "https://data4library.kr/bookV?seq=2646690",
           "isbn": "9788936442804",
           "loans": 5,
-          "rank": 17,
+          "rank": 16,
           "series": 1
+        },
+        {
+          "title": "고양이 해결사 깜냥",
+          "author": "홍민정 동화, 김재희 그림",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/28612/9/cover/8936448137_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6378029",
+          "isbn": "9788936448134",
+          "loans": 5,
+          "rank": 17,
+          "series": 3
         },
         {
           "title": "언제나 다정 죽집",
@@ -312,6 +312,17 @@
           "series": 1
         },
         {
+          "title": "사춘기는 처음이라 :갑자기 낯설어진 나를 과학으로 이해하다",
+          "author": "이광렬, 일러스트: 뚜비",
+          "publisher": "클랩북스",
+          "cover": "https://image.aladin.co.kr/product/38756/77/cover200/k442136656_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7229397",
+          "isbn": "9791193941607",
+          "loans": 3,
+          "rank": 8,
+          "series": 1
+        },
+        {
           "title": "Tyranny of merit :can we find the common good?",
           "author": "Michael J. Sandel",
           "publisher": "Picador USA",
@@ -319,7 +330,7 @@
           "link": "https://data4library.kr/bookV?seq=6416236",
           "isbn": "9781250800060",
           "loans": 2,
-          "rank": 8,
+          "rank": 9,
           "series": 1
         },
         {
@@ -330,7 +341,7 @@
           "link": "https://data4library.kr/bookV?seq=6576936",
           "isbn": "9781536228656",
           "loans": 2,
-          "rank": 9,
+          "rank": 10,
           "series": 1
         },
         {
@@ -341,7 +352,7 @@
           "link": "https://data4library.kr/bookV?seq=7198120",
           "isbn": "9788901299181",
           "loans": 2,
-          "rank": 10,
+          "rank": 11,
           "series": 1
         },
         {
@@ -352,7 +363,7 @@
           "link": "https://data4library.kr/bookV?seq=7350410",
           "isbn": "9788901300788",
           "loans": 2,
-          "rank": 11,
+          "rank": 12,
           "series": 1
         },
         {
@@ -363,7 +374,7 @@
           "link": "https://data4library.kr/bookV?seq=2259262",
           "isbn": "9788925512761",
           "loans": 2,
-          "rank": 12,
+          "rank": 13,
           "series": 1
         },
         {
@@ -374,7 +385,7 @@
           "link": "https://data4library.kr/bookV?seq=7244950",
           "isbn": "9788925569574",
           "loans": 2,
-          "rank": 13,
+          "rank": 14,
           "series": 1
         },
         {
@@ -385,7 +396,7 @@
           "link": "https://data4library.kr/bookV?seq=7269541",
           "isbn": "9788925569611",
           "loans": 2,
-          "rank": 14,
+          "rank": 15,
           "series": 1
         },
         {
@@ -396,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=6884602",
           "isbn": "9788930041683",
           "loans": 2,
-          "rank": 15,
+          "rank": 16,
           "series": 1
         },
         {
@@ -407,7 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=3921678",
           "isbn": "9788932473901",
           "loans": 2,
-          "rank": 16,
+          "rank": 17,
           "series": 1
         },
         {
@@ -418,7 +429,7 @@
           "link": "https://data4library.kr/bookV?seq=6938502",
           "isbn": "9788934941330",
           "loans": 2,
-          "rank": 17,
+          "rank": 18,
           "series": 1
         },
         {
@@ -429,7 +440,7 @@
           "link": "https://data4library.kr/bookV?seq=6398861",
           "isbn": "9788934949244",
           "loans": 2,
-          "rank": 18,
+          "rank": 19,
           "series": 1
         },
         {
@@ -439,17 +450,6 @@
           "cover": "https://image.aladin.co.kr/product/16839/4/cover/k492534773_1.jpg",
           "link": "https://data4library.kr/bookV?seq=3423096",
           "isbn": "9788936434267",
-          "loans": 2,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "클라라와 태양 :가즈오 이시구로 장편소설",
-          "author": "가즈오 이시구로, 홍한별",
-          "publisher": "민음사",
-          "cover": "https://image.aladin.co.kr/product/26722/1/cover/8937417561_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5945053",
-          "isbn": "9788937417566",
           "loans": 2,
           "rank": 20,
           "series": 1
@@ -468,7 +468,7 @@
           "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7073819",
           "isbn": "9791141602376",
-          "loans": 46,
+          "loans": 47,
           "rank": 1,
           "series": 1
         },
@@ -479,7 +479,7 @@
           "cover": "https://image.aladin.co.kr/product/36101/66/cover200/893643974x_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7035395",
           "isbn": "9788936439743",
-          "loans": 41,
+          "loans": 40,
           "rank": 2,
           "series": 1
         },
@@ -490,7 +490,7 @@
           "cover": "https://bookthumb-phinf.pstatic.net/cover/071/902/07190270.jpg?type=m1&udate=20170801",
           "link": "https://data4library.kr/bookV?seq=1938053",
           "isbn": "9788998441012",
-          "loans": 38,
+          "loans": 35,
           "rank": 3,
           "series": 1
         },
@@ -539,14 +539,25 @@
           "series": 1
         },
         {
+          "title": "프로젝트 헤일메리",
+          "author": "앤디 위어 지음, 강동혁 옮김",
+          "publisher": "RHK(알에이치코리아)",
+          "cover": "https://image.aladin.co.kr/product/27045/43/cover/8925588730_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5969086",
+          "isbn": "9788925588735",
+          "loans": 29,
+          "rank": 8,
+          "series": 1
+        },
+        {
           "title": "작별하지 않는다 :한강 장편소설",
           "author": "한강",
           "publisher": "문학동네",
           "cover": "https://image.aladin.co.kr/product/27877/5/cover/8954682154_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6086446",
           "isbn": "9788954682152",
-          "loans": 30,
-          "rank": 8,
+          "loans": 29,
+          "rank": 9,
           "series": 1
         },
         {
@@ -556,41 +567,8 @@
           "cover": "https://image.aladin.co.kr/product/37172/36/cover200/k662031678_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7149374",
           "isbn": "9791141602451",
-          "loans": 30,
-          "rank": 9,
-          "series": 1
-        },
-        {
-          "title": "프로젝트 헤일메리",
-          "author": "앤디 위어 지음, 강동혁 옮김",
-          "publisher": "RHK(알에이치코리아)",
-          "cover": "https://image.aladin.co.kr/product/27045/43/cover/8925588730_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5969086",
-          "isbn": "9788925588735",
           "loans": 29,
           "rank": 10,
-          "series": 1
-        },
-        {
-          "title": "소년이 온다 :한강 장편소설",
-          "author": "한강",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=2037399",
-          "isbn": "9788936434120",
-          "loans": 29,
-          "rank": 11,
-          "series": 1
-        },
-        {
-          "title": "지푸라기 왕관을 쓴 여자 :박상영 장편소설",
-          "author": "박상영",
-          "publisher": "인플루엔셜",
-          "cover": "https://image.aladin.co.kr/product/39834/40/cover200/k032130812_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7297888",
-          "isbn": "9791168344044",
-          "loans": 27,
-          "rank": 12,
           "series": 1
         },
         {
@@ -600,8 +578,19 @@
           "cover": "https://image.aladin.co.kr/product/39581/25/cover200/k692139247_2.jpg",
           "link": "https://data4library.kr/bookV?seq=7282052",
           "isbn": "9791172134297",
+          "loans": 28,
+          "rank": 11,
+          "series": 1
+        },
+        {
+          "title": "소년이 온다 :한강 장편소설",
+          "author": "한강",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=2037399",
+          "isbn": "9788936434120",
           "loans": 27,
-          "rank": 13,
+          "rank": 12,
           "series": 1
         },
         {
@@ -612,29 +601,7 @@
           "link": "https://data4library.kr/bookV?seq=5359157",
           "isbn": "9788954654753",
           "loans": 26,
-          "rank": 14,
-          "series": 1
-        },
-        {
-          "title": "괴테는 모든 것을 말했다",
-          "author": "스즈키 유이 지음, 이지수 옮김",
-          "publisher": "콘텐츠그룹 포레스트",
-          "cover": "https://image.aladin.co.kr/product/37676/59/cover200/k212032349_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7177757",
-          "isbn": "9791194530701",
-          "loans": 26,
-          "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "나의 완벽한 장례식 :조현선 장편소설",
-          "author": "조현선",
-          "publisher": "책읽어주는남자",
-          "cover": "https://image.aladin.co.kr/product/38357/53/cover200/k952135368_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7204893",
-          "isbn": "9791124038192",
-          "loans": 25,
-          "rank": 16,
+          "rank": 13,
           "series": 1
         },
         {
@@ -644,8 +611,8 @@
           "cover": "https://image.aladin.co.kr/product/34474/76/cover200/k292932634_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6933234",
           "isbn": "9791141601300",
-          "loans": 25,
-          "rank": 17,
+          "loans": 26,
+          "rank": 14,
           "series": 1
         },
         {
@@ -655,8 +622,8 @@
           "cover": "https://image.aladin.co.kr/product/39169/48/cover200/k622138169_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7259572",
           "isbn": "9791194344438",
-          "loans": 25,
-          "rank": 18,
+          "loans": 26,
+          "rank": 15,
           "series": 1
         },
         {
@@ -667,16 +634,49 @@
           "link": "https://data4library.kr/bookV?seq=7312107",
           "isbn": "9788936439996",
           "loans": 24,
+          "rank": 16,
+          "series": 1
+        },
+        {
+          "title": "나의 완벽한 장례식 :조현선 장편소설",
+          "author": "조현선",
+          "publisher": "책읽어주는남자",
+          "cover": "https://image.aladin.co.kr/product/38357/53/cover200/k952135368_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7204893",
+          "isbn": "9791124038192",
+          "loans": 24,
+          "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "그랬다고 적었다 :김애란 산문",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/40019/36/cover200/k742130236_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7312549",
+          "isbn": "9791141618575",
+          "loans": 24,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "불편한 편의점 :김호연 장편소설",
+          "author": "김호연",
+          "publisher": "나무옆의자",
+          "cover": "https://image.aladin.co.kr/product/26942/84/cover/k582730818_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5962217",
+          "isbn": "9791161571188",
+          "loans": 24,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "고양이 해결사 깜냥",
-          "author": "홍민정 동화, 김재희 그림",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/39375/36/cover200/8936450530_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7271608",
-          "isbn": "9788936450533",
+          "title": "괴테는 모든 것을 말했다",
+          "author": "스즈키 유이 지음, 이지수 옮김",
+          "publisher": "콘텐츠그룹 포레스트",
+          "cover": "https://image.aladin.co.kr/product/37676/59/cover200/k212032349_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7177757",
+          "isbn": "9791194530701",
           "loans": 24,
           "rank": 20,
           "series": 1
