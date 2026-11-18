@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17 13:16:30",
+  "updated_at": "2026-11-18 12:44:21",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -25,8 +25,19 @@
           "cover": "https://image.aladin.co.kr/product/38239/56/cover200/k782034524_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7198467",
           "isbn": "9791198948793",
-          "loans": 5,
+          "loans": 6,
           "rank": 2,
+          "series": 1
+        },
+        {
+          "title": "정재승의 인간 탐구 보고서",
+          "author": "정재은,특대호 원고: 오경은",
+          "publisher": "아울북(북이십일 아울북)",
+          "cover": "https://image.aladin.co.kr/product/34474/75/cover200/8950969300_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6933235",
+          "isbn": "9788950969301",
+          "loans": 5,
+          "rank": 3,
           "series": 1
         },
         {
@@ -37,7 +48,7 @@
           "link": "https://data4library.kr/bookV?seq=2682623",
           "isbn": "9780007310524",
           "loans": 4,
-          "rank": 3,
+          "rank": 4,
           "series": 1
         },
         {
@@ -48,40 +59,7 @@
           "link": "https://data4library.kr/bookV?seq=5503838",
           "isbn": "9780516255187",
           "loans": 4,
-          "rank": 4,
-          "series": 1
-        },
-        {
-          "title": "Stories of Pirates (Paperback, 영국판)",
-          "author": "Russel Punter (지은이)",
-          "publisher": "Usborne",
-          "cover": "https://image.aladin.co.kr/product/94/83/cover/0746057717_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=2480831",
-          "isbn": "9780746057711",
-          "loans": 4,
           "rank": 5,
-          "series": 1
-        },
-        {
-          "title": "Stories of robots",
-          "author": "Russell Punter, illustrated by Andrew Hamilton",
-          "publisher": "Usborne",
-          "cover": "https://image.aladin.co.kr/product/94/83/cover/0746060033_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=2079068",
-          "isbn": "9780746060032",
-          "loans": 4,
-          "rank": 6,
-          "series": 1
-        },
-        {
-          "title": "Stories of Dinosaurs (Paperback)",
-          "author": "러셀 푼터 (지은이)",
-          "publisher": "Usborne Publishing Ltd",
-          "cover": "https://image.aladin.co.kr/product/5694/62/cover/0746074263_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=2595785",
-          "isbn": "9780746074268",
-          "loans": 4,
-          "rank": 7,
           "series": 1
         },
         {
@@ -92,7 +70,7 @@
           "link": "https://data4library.kr/bookV?seq=6882124",
           "isbn": "9788934925705",
           "loans": 4,
-          "rank": 8,
+          "rank": 6,
           "series": 1
         },
         {
@@ -103,30 +81,19 @@
           "link": "https://data4library.kr/bookV?seq=2402919",
           "isbn": "9788937839696",
           "loans": 4,
-          "rank": 9,
-          "series": 1
-        },
-        {
-          "title": "정재승의 인간 탐구 보고서",
-          "author": "정재은,특대호 원고: 오경은",
-          "publisher": "아울북(북이십일 아울북)",
-          "cover": "https://image.aladin.co.kr/product/34474/75/cover200/8950969300_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6933235",
-          "isbn": "9788950969301",
-          "loans": 4,
-          "rank": 10,
+          "rank": 7,
           "series": 1
         },
         {
           "title": "그리스 로마 신화",
           "author": "김민희,정보 강대진",
           "publisher": "아울북(북이십일 아울북)",
-          "cover": "https://image.aladin.co.kr/product/29057/0/cover/8950971623_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6420979",
-          "isbn": "9788950971625",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/132/045/13204504.jpg?type=m1&udate=20180117",
+          "link": "https://data4library.kr/bookV?seq=3692898",
+          "isbn": "9788950971380",
           "loans": 4,
-          "rank": 11,
-          "series": 1
+          "rank": 8,
+          "series": 6
         },
         {
           "title": "놓지 마 과학!",
@@ -136,7 +103,7 @@
           "link": "https://data4library.kr/bookV?seq=3271612",
           "isbn": "9788960869646",
           "loans": 4,
-          "rank": 12,
+          "rank": 9,
           "series": 2
         },
         {
@@ -147,7 +114,7 @@
           "link": "https://data4library.kr/bookV?seq=7203711",
           "isbn": "9788965467762",
           "loans": 4,
-          "rank": 13,
+          "rank": 10,
           "series": 1
         },
         {
@@ -158,7 +125,7 @@
           "link": "https://data4library.kr/bookV?seq=7022584",
           "isbn": "9791130664606",
           "loans": 4,
-          "rank": 14,
+          "rank": 11,
           "series": 1
         },
         {
@@ -169,18 +136,7 @@
           "link": "https://data4library.kr/bookV?seq=7276765",
           "isbn": "9791130677415",
           "loans": 4,
-          "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "설민석의 한국사 대모험",
-          "author": "설민석,정현희",
-          "publisher": "휴먼큐브",
-          "cover": "https://image.aladin.co.kr/product/25259/92/cover/k052633102_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5776020",
-          "isbn": "9791165382704",
-          "loans": 4,
-          "rank": 16,
+          "rank": 12,
           "series": 1
         },
         {
@@ -191,7 +147,7 @@
           "link": "https://data4library.kr/bookV?seq=6722523",
           "isbn": "9791168090767",
           "loans": 4,
-          "rank": 17,
+          "rank": 13,
           "series": 2
         },
         {
@@ -202,7 +158,7 @@
           "link": "https://data4library.kr/bookV?seq=7084392",
           "isbn": "9791168091283",
           "loans": 4,
-          "rank": 18,
+          "rank": 14,
           "series": 1
         },
         {
@@ -213,7 +169,7 @@
           "link": "https://data4library.kr/bookV?seq=6484677",
           "isbn": "9791168412132",
           "loans": 4,
-          "rank": 19,
+          "rank": 15,
           "series": 1
         },
         {
@@ -223,6 +179,50 @@
           "cover": "https://image.aladin.co.kr/product/34875/95/cover200/k482933053_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6956464",
           "isbn": "9791168419018",
+          "loans": 4,
+          "rank": 16,
+          "series": 1
+        },
+        {
+          "title": "엄마가 사라진 날",
+          "author": "고정욱, 이예숙",
+          "publisher": "한솔수북",
+          "cover": "https://image.aladin.co.kr/product/19345/62/cover/k872635812_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5416293",
+          "isbn": "9791170282877",
+          "loans": 4,
+          "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "흔한남매 과학 탐험대",
+          "author": "원작: 흔한남매, 임혜영",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/35418/49/cover200/k522035522_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=6990638",
+          "isbn": "9791173320101",
+          "loans": 4,
+          "rank": 18,
+          "series": 2
+        },
+        {
+          "title": "열혈 세종대왕",
+          "author": "박지연,이지운",
+          "publisher": "아울북(북이십일 아울북)",
+          "cover": "https://image.aladin.co.kr/product/37230/77/cover200/k392031800_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7153693",
+          "isbn": "9791173571312",
+          "loans": 4,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "아, 이게 철학이구나! :'왜?'가 '내 생각'이 되는 순간",
+          "author": "지하늘 글·그림",
+          "publisher": "위즈덤하우스",
+          "cover": "https://image.aladin.co.kr/product/38751/6/cover200/k512136041_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7228733",
+          "isbn": "9791175910423",
           "loans": 4,
           "rank": 20,
           "series": 1
@@ -235,6 +235,50 @@
       "desc": "용산구 공공도서관 · 청소년(14~19세) 대출 · 최근 1달",
       "books": [
         {
+          "title": "이기적 유전자 :진화론의 새로운 패러다임",
+          "author": "리처드 도킨스 지음, 이상임 옮김",
+          "publisher": "을유문화사",
+          "cover": "https://image.aladin.co.kr/product/751/8/cover/8932471630_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=1089663",
+          "isbn": "9788932471631",
+          "loans": 3,
+          "rank": 1,
+          "series": 1
+        },
+        {
+          "title": "(건국대통령) 이승만 :생애·사상·업적의 새로운 조명",
+          "author": "유영익 지음",
+          "publisher": "일조각",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/072/088/07208848.jpg?type=m1&udate=20150816",
+          "link": "https://data4library.kr/bookV?seq=1938528",
+          "isbn": "9788933706503",
+          "loans": 3,
+          "rank": 2,
+          "series": 1
+        },
+        {
+          "title": "6.25와 이승만, 프란체스카의 난중일기 (보급판)",
+          "author": "프란체스카 도너 리 (지은이), 조혜자 (옮긴이)",
+          "publisher": "기파랑(기파랑에크리)",
+          "cover": "https://image.aladin.co.kr/product/1469/37/cover/8965239982_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2805417",
+          "isbn": "9788965239987",
+          "loans": 3,
+          "rank": 3,
+          "series": 1
+        },
+        {
+          "title": "중요한 몸 :성의 담론적 한계에 관하여 =Bodies that matter : on the discursive limits of \"sex\"",
+          "author": "주디스 버틀러, 감수 및 해제: 김은수",
+          "publisher": "알렙",
+          "cover": "https://image.aladin.co.kr/product/38326/26/cover200/k642034341_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7216880",
+          "isbn": "9791124300008",
+          "loans": 3,
+          "rank": 4,
+          "series": 1
+        },
+        {
           "title": "사춘기 엄마의 오장육부 :이 고약한 시절을 건너는 엄마 동지들에게",
           "author": "나민애 지음",
           "publisher": "서교책방",
@@ -242,7 +286,29 @@
           "link": "https://data4library.kr/bookV?seq=7252446",
           "isbn": "9791124497029",
           "loans": 3,
-          "rank": 1,
+          "rank": 5,
+          "series": 1
+        },
+        {
+          "title": "감정 서커스 :내 그림자와 마주하는 곳",
+          "author": "리디아 브란코비치 글·그림, 장미란 옮김",
+          "publisher": "책읽는곰",
+          "cover": "https://image.aladin.co.kr/product/35731/27/cover200/k172036531_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7009787",
+          "isbn": "9791158365141",
+          "loans": 3,
+          "rank": 6,
+          "series": 1
+        },
+        {
+          "title": "나의 감정 호텔 - 쓰고 그리며 알아 가는 내 마음",
+          "author": "리디아 브란코비치 (지은이), 장미란 (옮긴이)",
+          "publisher": "책읽는곰",
+          "cover": "https://image.aladin.co.kr/product/38560/65/cover200/k812135954_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7217506",
+          "isbn": "9791158365998",
+          "loans": 3,
+          "rank": 7,
           "series": 1
         },
         {
@@ -253,7 +319,7 @@
           "link": "https://data4library.kr/bookV?seq=2673037",
           "isbn": "8809348271170",
           "loans": 2,
-          "rank": 2,
+          "rank": 8,
           "series": 1
         },
         {
@@ -264,7 +330,7 @@
           "link": "https://data4library.kr/bookV?seq=1055980",
           "isbn": "9780060530921",
           "loans": 2,
-          "rank": 3,
+          "rank": 9,
           "series": 1
         },
         {
@@ -275,7 +341,7 @@
           "link": "https://data4library.kr/bookV?seq=6410040",
           "isbn": "9788901256603",
           "loans": 2,
-          "rank": 4,
+          "rank": 10,
           "series": 1
         },
         {
@@ -286,7 +352,7 @@
           "link": "https://data4library.kr/bookV?seq=6684700",
           "isbn": "9788901271514",
           "loans": 2,
-          "rank": 5,
+          "rank": 11,
           "series": 1
         },
         {
@@ -297,29 +363,7 @@
           "link": "https://data4library.kr/bookV?seq=7112522",
           "isbn": "9788925573304",
           "loans": 2,
-          "rank": 6,
-          "series": 1
-        },
-        {
-          "title": "이기적 유전자 :진화론의 새로운 패러다임",
-          "author": "리처드 도킨스 지음, 이상임 옮김",
-          "publisher": "을유문화사",
-          "cover": "https://image.aladin.co.kr/product/751/8/cover/8932471630_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=1089663",
-          "isbn": "9788932471631",
-          "loans": 2,
-          "rank": 7,
-          "series": 1
-        },
-        {
-          "title": "(건국대통령) 이승만 :생애·사상·업적의 새로운 조명",
-          "author": "유영익 지음",
-          "publisher": "일조각",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/072/088/07208848.jpg?type=m1&udate=20150816",
-          "link": "https://data4library.kr/bookV?seq=1938528",
-          "isbn": "9788933706503",
-          "loans": 2,
-          "rank": 8,
+          "rank": 12,
           "series": 1
         },
         {
@@ -330,7 +374,7 @@
           "link": "https://data4library.kr/bookV?seq=5746037",
           "isbn": "9788934990802",
           "loans": 2,
-          "rank": 9,
+          "rank": 13,
           "series": 1
         },
         {
@@ -341,7 +385,7 @@
           "link": "https://data4library.kr/bookV?seq=2373387",
           "isbn": "9788954615204",
           "loans": 2,
-          "rank": 10,
+          "rank": 14,
           "series": 2
         },
         {
@@ -352,7 +396,7 @@
           "link": "https://data4library.kr/bookV?seq=1207834",
           "isbn": "9788957075975",
           "loans": 2,
-          "rank": 11,
+          "rank": 15,
           "series": 1
         },
         {
@@ -363,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=1122696",
           "isbn": "9788961091558",
           "loans": 2,
-          "rank": 12,
+          "rank": 16,
           "series": 1
         },
         {
@@ -374,18 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=2368741",
           "isbn": "9788962245226",
           "loans": 2,
-          "rank": 13,
-          "series": 1
-        },
-        {
-          "title": "6.25와 이승만, 프란체스카의 난중일기 (보급판)",
-          "author": "프란체스카 도너 리 (지은이), 조혜자 (옮긴이)",
-          "publisher": "기파랑(기파랑에크리)",
-          "cover": "https://image.aladin.co.kr/product/1469/37/cover/8965239982_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=2805417",
-          "isbn": "9788965239987",
-          "loans": 2,
-          "rank": 14,
+          "rank": 17,
           "series": 1
         },
         {
@@ -396,7 +429,7 @@
           "link": "https://data4library.kr/bookV?seq=7205547",
           "isbn": "9788969526434",
           "loans": 2,
-          "rank": 15,
+          "rank": 18,
           "series": 1
         },
         {
@@ -407,7 +440,7 @@
           "link": "https://data4library.kr/bookV?seq=2374145",
           "isbn": "9788972976196",
           "loans": 2,
-          "rank": 16,
+          "rank": 19,
           "series": 1
         },
         {
@@ -417,39 +450,6 @@
           "cover": "https://shopping-phinf.pstatic.net/main_6051723/60517235628.20260620071206.jpg",
           "link": "https://data4library.kr/bookV?seq=7288893",
           "isbn": "9791124272466",
-          "loans": 2,
-          "rank": 17,
-          "series": 1
-        },
-        {
-          "title": "중요한 몸 :성의 담론적 한계에 관하여 =Bodies that matter : on the discursive limits of \"sex\"",
-          "author": "주디스 버틀러, 감수 및 해제: 김은수",
-          "publisher": "알렙",
-          "cover": "https://image.aladin.co.kr/product/38326/26/cover200/k642034341_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7216880",
-          "isbn": "9791124300008",
-          "loans": 2,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "일하면서 바로 써먹는 아웃풋×성과 도감 :적게 일하고 더 많이 성과 내는 뇌과학 기반 80가지 작은 습관",
-          "author": "가바사와 시온 지음, 전경아 옮김",
-          "publisher": "현대지성",
-          "cover": "https://image.aladin.co.kr/product/38541/73/cover200/k752135430_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7216349",
-          "isbn": "9791139729504",
-          "loans": 2,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "약속의 세대 :백온유 소설",
-          "author": "백온유",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/38829/70/cover200/k732137187_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7235227",
-          "isbn": "9791141615819",
           "loans": 2,
           "rank": 20,
           "series": 1
@@ -468,7 +468,7 @@
           "cover": "https://image.aladin.co.kr/product/36101/66/cover200/893643974x_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7035395",
           "isbn": "9788936439743",
-          "loans": 23,
+          "loans": 25,
           "rank": 1,
           "series": 1
         },
@@ -479,7 +479,7 @@
           "cover": "https://image.aladin.co.kr/product/39536/43/cover200/k182139749_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7280669",
           "isbn": "9791141617226",
-          "loans": 23,
+          "loans": 25,
           "rank": 2,
           "series": 1
         },
@@ -490,8 +490,19 @@
           "cover": "https://bookthumb-phinf.pstatic.net/cover/071/902/07190270.jpg?type=m1&udate=20170801",
           "link": "https://data4library.kr/bookV?seq=1938053",
           "isbn": "9788998441012",
-          "loans": 20,
+          "loans": 21,
           "rank": 3,
+          "series": 1
+        },
+        {
+          "title": "투명한 나선",
+          "author": "히가시노 게이고, 김선영",
+          "publisher": "교보문고",
+          "cover": "https://image.aladin.co.kr/product/39802/11/cover200/k082130602_3.jpg",
+          "link": "https://data4library.kr/bookV?seq=7297704",
+          "isbn": "9791170614043",
+          "loans": 20,
+          "rank": 4,
           "series": 1
         },
         {
@@ -502,7 +513,7 @@
           "link": "https://data4library.kr/bookV?seq=7282052",
           "isbn": "9791172134297",
           "loans": 20,
-          "rank": 4,
+          "rank": 5,
           "series": 1
         },
         {
@@ -512,8 +523,8 @@
           "cover": "https://image.aladin.co.kr/product/37676/59/cover200/k212032349_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7177757",
           "isbn": "9791194530701",
-          "loans": 20,
-          "rank": 5,
+          "loans": 19,
+          "rank": 6,
           "series": 1
         },
         {
@@ -524,7 +535,7 @@
           "link": "https://data4library.kr/bookV?seq=7149374",
           "isbn": "9791141602451",
           "loans": 18,
-          "rank": 6,
+          "rank": 7,
           "series": 1
         },
         {
@@ -535,18 +546,18 @@
           "link": "https://data4library.kr/bookV?seq=7243246",
           "isbn": "9791155819227",
           "loans": 18,
-          "rank": 7,
+          "rank": 8,
           "series": 1
         },
         {
-          "title": "투명한 나선",
-          "author": "히가시노 게이고, 김선영",
-          "publisher": "교보문고",
-          "cover": "https://image.aladin.co.kr/product/39802/11/cover200/k082130602_3.jpg",
-          "link": "https://data4library.kr/bookV?seq=7297704",
-          "isbn": "9791170614043",
-          "loans": 18,
-          "rank": 8,
+          "title": "소년이 온다 :한강 장편소설",
+          "author": "한강",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=2037399",
+          "isbn": "9788936434120",
+          "loans": 17,
+          "rank": 9,
           "series": 1
         },
         {
@@ -557,7 +568,18 @@
           "link": "https://data4library.kr/bookV?seq=7282009",
           "isbn": "9788936439965",
           "loans": 17,
-          "rank": 9,
+          "rank": 10,
+          "series": 1
+        },
+        {
+          "title": "부의 갈림길 :대전환의 시작, 다시 쓰는 투자 포트폴리오",
+          "author": "오건영 지음",
+          "publisher": "콘텐츠그룹 포레스트",
+          "cover": "https://image.aladin.co.kr/product/39443/89/cover200/k232139499_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7276721",
+          "isbn": "9791124591048",
+          "loans": 17,
+          "rank": 11,
           "series": 1
         },
         {
@@ -568,30 +590,30 @@
           "link": "https://data4library.kr/bookV?seq=7201499",
           "isbn": "9791141615055",
           "loans": 17,
-          "rank": 10,
-          "series": 1
-        },
-        {
-          "title": "돈의 심리학 :당신은 왜 부자가 되지 못했는가",
-          "author": "모건 하우절 지음, 이지연 옮김",
-          "publisher": "인플루엔셜",
-          "cover": "https://image.aladin.co.kr/product/25967/85/cover/k412737326_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5846583",
-          "isbn": "9791191056372",
-          "loans": 17,
-          "rank": 11,
-          "series": 1
-        },
-        {
-          "title": "부의 갈림길 :대전환의 시작, 다시 쓰는 투자 포트폴리오",
-          "author": "오건영 지음",
-          "publisher": "콘텐츠그룹 포레스트",
-          "cover": "https://image.aladin.co.kr/product/39443/89/cover200/k232139499_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7276721",
-          "isbn": "9791124591048",
-          "loans": 16,
           "rank": 12,
           "series": 1
+        },
+        {
+          "title": "흔한남매 이상한 나라의 고전 읽기",
+          "author": "최재훈 글, 정주연 그림",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/38204/99/cover200/k192034812_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7197694",
+          "isbn": "9791175485334",
+          "loans": 17,
+          "rank": 13,
+          "series": 1
+        },
+        {
+          "title": "똥볶이 할멈 :K-히어로 판타지",
+          "author": "강효미, 김무연",
+          "publisher": "따끈따끈책방",
+          "cover": "https://image.aladin.co.kr/product/36757/22/cover200/k472030292_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7093150",
+          "isbn": "9791198948762",
+          "loans": 17,
+          "rank": 14,
+          "series": 2
         },
         {
           "title": "안녕이라 그랬어 :김애란 소설",
@@ -601,7 +623,7 @@
           "link": "https://data4library.kr/bookV?seq=7073819",
           "isbn": "9791141602376",
           "loans": 16,
-          "rank": 13,
+          "rank": 15,
           "series": 1
         },
         {
@@ -612,7 +634,18 @@
           "link": "https://data4library.kr/bookV?seq=7222787",
           "isbn": "9791167764119",
           "loans": 16,
-          "rank": 14,
+          "rank": 16,
+          "series": 1
+        },
+        {
+          "title": "주와 연 :청예 장편소설",
+          "author": "청예",
+          "publisher": "인플루엔셜",
+          "cover": "https://shopping-phinf.pstatic.net/main_6064140/60641400804.20260630090120.jpg",
+          "link": "https://data4library.kr/bookV?seq=7292520",
+          "isbn": "9791168343887",
+          "loans": 16,
+          "rank": 17,
           "series": 1
         },
         {
@@ -623,61 +656,28 @@
           "link": "https://data4library.kr/bookV?seq=7290381",
           "isbn": "9791175488458",
           "loans": 16,
-          "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "똥볶이 할멈 :K-히어로 판타지",
-          "author": "강효미, 김무연",
-          "publisher": "따끈따끈책방",
-          "cover": "https://image.aladin.co.kr/product/38239/56/cover200/k782034524_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7198467",
-          "isbn": "9791198948793",
-          "loans": 16,
-          "rank": 16,
-          "series": 1
-        },
-        {
-          "title": "소년이 온다 :한강 장편소설",
-          "author": "한강",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=2037399",
-          "isbn": "9788936434120",
-          "loans": 15,
-          "rank": 17,
-          "series": 1
-        },
-        {
-          "title": "홍학의 자리 :정해연 장편소설",
-          "author": "정해연",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/27587/94/cover/8954681158_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6050062",
-          "isbn": "9788954681155",
-          "loans": 15,
           "rank": 18,
           "series": 1
         },
         {
-          "title": "주와 연 :청예 장편소설",
-          "author": "청예",
+          "title": "돈의 심리학 :당신은 왜 부자가 되지 못했는가",
+          "author": "모건 하우절 지음, 이지연 옮김",
           "publisher": "인플루엔셜",
-          "cover": "https://shopping-phinf.pstatic.net/main_6064140/60641400804.20260630090120.jpg",
-          "link": "https://data4library.kr/bookV?seq=7292520",
-          "isbn": "9791168343887",
-          "loans": 15,
+          "cover": "https://image.aladin.co.kr/product/25967/85/cover/k412737326_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5846583",
+          "isbn": "9791191056372",
+          "loans": 16,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "흔한남매 과학 탐험대",
-          "author": "원작: 흔한남매, 임혜영",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/37906/10/cover200/k712033833_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7187385",
-          "isbn": "9791173324123",
-          "loans": 15,
+          "title": "설민석의 한국사 대모험",
+          "author": "설민석,정현희",
+          "publisher": "Dankkum i(단꿈아이)",
+          "cover": "https://image.aladin.co.kr/product/39380/14/cover200/k682139776_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7273337",
+          "isbn": "9791194616634",
+          "loans": 16,
           "rank": 20,
           "series": 1
         }
