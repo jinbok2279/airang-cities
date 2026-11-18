@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-17 12:35:26",
+ "updated_at": "2026-11-18 12:02:35",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -109,26 +109,6 @@
   }
  ],
  "lib": [
-  {
-   "id": "RS261019133151115695",
-   "title": "(주말가족) 해찬솔유아숲",
-   "lib": "해찬솔유아숲체험원",
-   "target": "가족(만3세이상)",
-   "place": "해찬솔유아숲체험원",
-   "start": "2026-10-20",
-   "end": "2026-11-30",
-   "period": "",
-   "applyStart": "2026-10-20",
-   "applyEnd": "2026-11-19",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "교육체험",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261019133151115695"
-  },
   {
    "id": "RS261009151339691975",
    "title": "(11월) 세곡놀이터",
@@ -295,10 +275,10 @@
    "lib": "서울특별시 강남구 언주로107길 4 2층 (역삼동) 2층 서울형 키즈카페",
    "target": "유아",
    "place": "서울특별시 강남구 언주로107길 4 2층 (역삼동) 2층 서울형 키즈카페",
-   "start": "2026-11-17",
+   "start": "2026-11-18",
    "end": "2026-11-30",
    "period": "",
-   "applyStart": "2026-11-17",
+   "applyStart": "2026-11-18",
    "applyEnd": "2026-11-30",
    "apply": "",
    "count": "",
@@ -315,10 +295,10 @@
    "lib": "서울특별시 강남구 남부순환로391길 25 강남성은교회 2층 (대치동)",
    "target": "유아",
    "place": "서울특별시 강남구 남부순환로391길 25 강남성은교회 2층 (대치동)",
-   "start": "2026-11-17",
+   "start": "2026-11-18",
    "end": "2026-11-30",
    "period": "",
-   "applyStart": "2026-11-17",
+   "applyStart": "2026-11-18",
    "applyEnd": "2026-11-30",
    "apply": "",
    "count": "",
@@ -470,6 +450,21 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159857&menuNo=200009",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a857851cf140413a8c2ff47e256cd53c&thumb=Y"
+  },
+  {
+   "id": "S365c8fdd79",
+   "title": "Inward and Beyond (안으로 그리고 그 너머로) 변은아 개인전",
+   "start": "2026-12-07",
+   "end": "2026-12-27",
+   "place": "북카페 레벤 ",
+   "time": "10:00 ~ 18:00",
+   "grade": "누구나",
+   "price": "",
+   "free": true,
+   "kind": "전시/미술",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160210&menuNo=200009",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f1e97e5aee504375bc796c50119c2f38&thumb=Y"
   },
   {
    "id": "S7a8165d5af",
