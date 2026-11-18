@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17 12:18:31",
+  "updated_at": "2026-11-18 11:48:39",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -8,6 +8,17 @@
       "desc": "부천시 공공도서관 · 초등(8~13세) 대출 · 최근 1달",
       "books": [
         {
+          "title": "흔한남매",
+          "author": "원작: 흔한남매, 유난희",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/37191/81/cover200/k042031295_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7150726",
+          "isbn": "9791173479939",
+          "loans": 11,
+          "rank": 1,
+          "series": 8
+        },
+        {
           "title": "흔한남매 과학 탐험대",
           "author": "원작: 흔한남매, 임혜영",
           "publisher": "김영사",
@@ -15,7 +26,7 @@
           "link": "https://data4library.kr/bookV?seq=6793070",
           "isbn": "9788934946625",
           "loans": 10,
-          "rank": 1,
+          "rank": 2,
           "series": 1
         },
         {
@@ -26,29 +37,7 @@
           "link": "https://data4library.kr/bookV?seq=5397461",
           "isbn": "9788936456894",
           "loans": 10,
-          "rank": 2,
-          "series": 1
-        },
-        {
-          "title": "흔한남매",
-          "author": "원작: 흔한남매, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/24307/73/cover/k822630592_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=5686627",
-          "isbn": "9791164135592",
-          "loans": 10,
           "rank": 3,
-          "series": 10
-        },
-        {
-          "title": "이상한 무인 사진관",
-          "author": "서아람 글, 안병현 그림",
-          "publisher": "라곰스쿨",
-          "cover": "https://image.aladin.co.kr/product/34180/10/cover200/k912931215_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6893935",
-          "isbn": "9791193939031",
-          "loans": 10,
-          "rank": 4,
           "series": 1
         },
         {
@@ -58,20 +47,9 @@
           "cover": "https://image.aladin.co.kr/product/33398/15/cover/k562938512_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6831155",
           "isbn": "9791168414488",
-          "loans": 9,
-          "rank": 5,
-          "series": 4
-        },
-        {
-          "title": "흔한남매 이상한 나라의 고전 읽기",
-          "author": "최재훈 글, 정주연 그림",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/34773/6/cover200/k412933022_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6951918",
-          "isbn": "9791168418950",
-          "loans": 9,
-          "rank": 6,
-          "series": 4
+          "loans": 10,
+          "rank": 4,
+          "series": 5
         },
         {
           "title": "설민석의 한국사 대모험",
@@ -80,9 +58,31 @@
           "cover": "https://image.aladin.co.kr/product/19007/0/cover/k242635997_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5400516",
           "isbn": "9791188874293",
+          "loans": 10,
+          "rank": 5,
+          "series": 9
+        },
+        {
+          "title": "흔한남매 이상한 나라의 고전 읽기",
+          "author": "최재훈 글, 정주연 그림",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/31222/3/cover/k112831250_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6647602",
+          "isbn": "9791168415034",
+          "loans": 9,
+          "rank": 6,
+          "series": 4
+        },
+        {
+          "title": "이상한 무인 사진관",
+          "author": "서아람 글, 안병현 그림",
+          "publisher": "라곰스쿨",
+          "cover": "https://image.aladin.co.kr/product/34180/10/cover200/k912931215_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6893935",
+          "isbn": "9791193939031",
           "loans": 9,
           "rank": 7,
-          "series": 7
+          "series": 1
         },
         {
           "title": "5번 레인",
@@ -118,26 +118,15 @@
           "series": 1
         },
         {
-          "title": "흔한남매 이무기 :이해하면 무서운 이야기",
-          "author": "원작: 흔한남매, 도니패밀리",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/32095/72/cover/k502834901_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6735778",
-          "isbn": "9791168415577",
-          "loans": 8,
-          "rank": 11,
-          "series": 1
-        },
-        {
           "title": "슈뻘맨의 숨은 과학 찾기 :엉뚱 도전 속에 숨은 과학 상식",
           "author": "슈뻘맨 원작, 류수형 그림",
           "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/33334/30/cover/k722938698_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6825216",
-          "isbn": "9791168417786",
+          "cover": "https://image.aladin.co.kr/product/34121/18/cover200/k102931996_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6890521",
+          "isbn": "9791168418462",
           "loans": 8,
-          "rank": 12,
-          "series": 2
+          "rank": 11,
+          "series": 3
         },
         {
           "title": "채사장의 지대넓얕 :지적 대화를 위한 넓고 얕은 지식",
@@ -147,7 +136,7 @@
           "link": "https://data4library.kr/bookV?seq=6784542",
           "isbn": "9791193487006",
           "loans": 8,
-          "rank": 13,
+          "rank": 12,
           "series": 1
         },
         {
@@ -158,18 +147,7 @@
           "link": "https://data4library.kr/bookV?seq=5996157",
           "isbn": "9788936448011",
           "loans": 7,
-          "rank": 14,
-          "series": 1
-        },
-        {
-          "title": "건방이의 건방진 수련기",
-          "author": "천효정 글, 강경수 그림",
-          "publisher": "비룡소",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/130/092/13009204.jpg?type=m1&udate=20180102",
-          "link": "https://data4library.kr/bookV?seq=3678466",
-          "isbn": "9788949195797",
-          "loans": 7,
-          "rank": 15,
+          "rank": 13,
           "series": 1
         },
         {
@@ -180,7 +158,7 @@
           "link": "https://data4library.kr/bookV?seq=6468028",
           "isbn": "9788950983154",
           "loans": 7,
-          "rank": 16,
+          "rank": 14,
           "series": 1
         },
         {
@@ -191,7 +169,7 @@
           "link": "https://data4library.kr/bookV?seq=6630275",
           "isbn": "9788954690690",
           "loans": 7,
-          "rank": 17,
+          "rank": 15,
           "series": 1
         },
         {
@@ -202,8 +180,8 @@
           "link": "https://data4library.kr/bookV?seq=6657898",
           "isbn": "9791168090750",
           "loans": 7,
-          "rank": 18,
-          "series": 3
+          "rank": 16,
+          "series": 1
         },
         {
           "title": "불꽃 수영 대회",
@@ -213,17 +191,39 @@
           "link": "https://data4library.kr/bookV?seq=6996856",
           "isbn": "9791168342491",
           "loans": 7,
+          "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "흔한남매 이무기 :이해하면 무서운 이야기",
+          "author": "원작: 흔한남매, 도니패밀리",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/32095/72/cover/k502834901_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6735778",
+          "isbn": "9791168415577",
+          "loans": 7,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "이상한 무인 아이스크림 가게",
+          "author": "서아람 글, 안병현 그림",
+          "publisher": "라곰스쿨",
+          "cover": "https://image.aladin.co.kr/product/31311/83/cover/k072832888_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6655341",
+          "isbn": "9791189686710",
+          "loans": 7,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "빨간내복야코 어린이 상식 :이거 모르면 지구인 아님",
-          "author": "원작: 빨간내복야코, 도니패밀리",
-          "publisher": "아울북(북이십일 아울북)",
-          "cover": "https://image.aladin.co.kr/product/36097/59/cover200/k282038962_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7036916",
-          "isbn": "9791173571749",
-          "loans": 7,
+          "title": "잘못 뽑은 반장",
+          "author": "이은재 글, 서영경 그림",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/370/95/cover/8934933704_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2312794",
+          "isbn": "9788934933700",
+          "loans": 6,
           "rank": 20,
           "series": 1
         }
@@ -246,6 +246,17 @@
           "series": 1
         },
         {
+          "title": "불편한 편의점 :김호연 장편소설",
+          "author": "김호연",
+          "publisher": "나무옆의자",
+          "cover": "https://image.aladin.co.kr/product/26942/84/cover/k582730818_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5962217",
+          "isbn": "9791161571188",
+          "loans": 5,
+          "rank": 2,
+          "series": 1
+        },
+        {
           "title": "도둑맞은 집중력 :집중력 위기의 시대, 삶의 주도권을 되찾는 법",
           "author": "요한 하리 지음, 김하현 옮김",
           "publisher": "어크로스(어크로스출판그룹)",
@@ -253,7 +264,7 @@
           "link": "https://data4library.kr/bookV?seq=6682845",
           "isbn": "9791167740984",
           "loans": 5,
-          "rank": 2,
+          "rank": 3,
           "series": 1
         },
         {
@@ -263,17 +274,6 @@
           "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
           "link": "https://data4library.kr/bookV?seq=2037399",
           "isbn": "9788936434120",
-          "loans": 4,
-          "rank": 3,
-          "series": 1
-        },
-        {
-          "title": "불편한 편의점 :김호연 장편소설",
-          "author": "김호연",
-          "publisher": "나무옆의자",
-          "cover": "https://image.aladin.co.kr/product/26942/84/cover/k582730818_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5962217",
-          "isbn": "9791161571188",
           "loans": 4,
           "rank": 4,
           "series": 1
@@ -334,17 +334,6 @@
           "series": 1
         },
         {
-          "title": "여덟 단어 :인생을 대하는 우리의 자세",
-          "author": "박웅현 지음",
-          "publisher": "북하우스 퍼블리셔스",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/072/024/07202413.jpg?type=m1&udate=20140911",
-          "link": "https://data4library.kr/bookV?seq=1940355",
-          "isbn": "9788956056531",
-          "loans": 3,
-          "rank": 10,
-          "series": 1
-        },
-        {
           "title": "종의 기원 =정유정 장편소설 /The origin of species",
           "author": "정유정",
           "publisher": "은행나무",
@@ -352,7 +341,7 @@
           "link": "https://data4library.kr/bookV?seq=3151708",
           "isbn": "9788956609959",
           "loans": 3,
-          "rank": 11,
+          "rank": 10,
           "series": 1
         },
         {
@@ -363,7 +352,7 @@
           "link": "https://data4library.kr/bookV?seq=5384532",
           "isbn": "9788962622713",
           "loans": 3,
-          "rank": 12,
+          "rank": 11,
           "series": 1
         },
         {
@@ -374,7 +363,7 @@
           "link": "https://data4library.kr/bookV?seq=1583350",
           "isbn": "9788995151204",
           "loans": 3,
-          "rank": 13,
+          "rank": 12,
           "series": 1
         },
         {
@@ -385,7 +374,7 @@
           "link": "https://data4library.kr/bookV?seq=6513267",
           "isbn": "9791135474545",
           "loans": 3,
-          "rank": 14,
+          "rank": 13,
           "series": 1
         },
         {
@@ -396,7 +385,7 @@
           "link": "https://data4library.kr/bookV?seq=7002474",
           "isbn": "9791136797865",
           "loans": 3,
-          "rank": 15,
+          "rank": 14,
           "series": 3
         },
         {
@@ -407,7 +396,7 @@
           "link": "https://data4library.kr/bookV?seq=6890523",
           "isbn": "9791141600945",
           "loans": 3,
-          "rank": 16,
+          "rank": 15,
           "series": 1
         },
         {
@@ -418,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=6933234",
           "isbn": "9791141601300",
           "loans": 3,
-          "rank": 17,
+          "rank": 16,
           "series": 1
         },
         {
@@ -429,7 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=7149374",
           "isbn": "9791141602451",
           "loans": 3,
-          "rank": 18,
+          "rank": 17,
           "series": 1
         },
         {
@@ -440,7 +429,7 @@
           "link": "https://data4library.kr/bookV?seq=5477614",
           "isbn": "9791158511487",
           "loans": 3,
-          "rank": 19,
+          "rank": 18,
           "series": 1
         },
         {
@@ -450,6 +439,17 @@
           "cover": "https://image.aladin.co.kr/product/27073/68/cover/k012731588_2.jpg",
           "link": "https://data4library.kr/bookV?seq=5971255",
           "isbn": "9791165215491",
+          "loans": 3,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "미적분의 쓸모 :보통 사람들도 이해하는 새로운 미래의 언어",
+          "author": "한화택 지음",
+          "publisher": "길벗",
+          "cover": "https://image.aladin.co.kr/product/29493/82/cover/k872837946_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6466167",
+          "isbn": "9791165219550",
           "loans": 3,
           "rank": 20,
           "series": 1
@@ -462,37 +462,26 @@
       "desc": "부천시 공공도서관 · 전 연령 · 최근 1달",
       "books": [
         {
-          "title": "소년이 온다 :한강 장편소설",
-          "author": "한강",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=2037399",
-          "isbn": "9788936434120",
-          "loans": 53,
-          "rank": 1,
-          "series": 1
-        },
-        {
           "title": "불편한 편의점 :김호연 장편소설",
           "author": "김호연",
           "publisher": "나무옆의자",
           "cover": "https://image.aladin.co.kr/product/26942/84/cover/k582730818_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5962217",
           "isbn": "9791161571188",
-          "loans": 52,
-          "rank": 2,
+          "loans": 54,
+          "rank": 1,
           "series": 2
         },
         {
-          "title": "흔한남매",
-          "author": "원작: 흔한남매, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/33815/12/cover200/k832930683_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6863020",
-          "isbn": "9791168418011",
-          "loans": 43,
-          "rank": 3,
-          "series": 9
+          "title": "소년이 온다 :한강 장편소설",
+          "author": "한강",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=2037399",
+          "isbn": "9788936434120",
+          "loans": 51,
+          "rank": 2,
+          "series": 1
         },
         {
           "title": "가공범",
@@ -501,20 +490,20 @@
           "cover": "https://image.aladin.co.kr/product/36786/80/cover200/k472030698_2.jpg",
           "link": "https://data4library.kr/bookV?seq=7094855",
           "isbn": "9791170612759",
-          "loans": 43,
-          "rank": 4,
+          "loans": 45,
+          "rank": 3,
           "series": 1
         },
         {
-          "title": "이중 하나는 거짓말 :김애란 장편소설",
-          "author": "김애란",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/34474/76/cover200/k292932634_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6933234",
-          "isbn": "9791141601300",
+          "title": "흔한남매",
+          "author": "원작: 흔한남매, 유난희",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/33815/12/cover200/k832930683_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6863020",
+          "isbn": "9791168418011",
           "loans": 42,
-          "rank": 5,
-          "series": 1
+          "rank": 4,
+          "series": 9
         },
         {
           "title": "혼모노 :성해나 소설집",
@@ -524,7 +513,29 @@
           "link": "https://data4library.kr/bookV?seq=7035395",
           "isbn": "9788936439743",
           "loans": 41,
+          "rank": 5,
+          "series": 1
+        },
+        {
+          "title": "페인트 :이희영 장편소설",
+          "author": "이희영",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/18958/95/cover/893645689x_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5397461",
+          "isbn": "9788936456894",
+          "loans": 39,
           "rank": 6,
+          "series": 1
+        },
+        {
+          "title": "안녕이라 그랬어 :김애란 소설",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7073819",
+          "isbn": "9791141602376",
+          "loans": 39,
+          "rank": 7,
           "series": 1
         },
         {
@@ -535,39 +546,28 @@
           "link": "https://data4library.kr/bookV?seq=6065686",
           "isbn": "9791191824001",
           "loans": 39,
-          "rank": 7,
-          "series": 1
-        },
-        {
-          "title": "안녕이라 그랬어 :김애란 소설",
-          "author": "김애란",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7073819",
-          "isbn": "9791141602376",
-          "loans": 38,
           "rank": 8,
           "series": 1
         },
         {
-          "title": "슈뻘맨의 숨은 과학 찾기 :엉뚱 도전 속에 숨은 과학 상식",
-          "author": "슈뻘맨 원작, 류수형 그림",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/32359/59/cover/k332935467_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6754113",
-          "isbn": "9791168415188",
-          "loans": 37,
+          "title": "이중 하나는 거짓말 :김애란 장편소설",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/34474/76/cover200/k292932634_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6933234",
+          "isbn": "9791141601300",
+          "loans": 38,
           "rank": 9,
           "series": 1
         },
         {
-          "title": "홍학의 자리 :정해연 장편소설",
-          "author": "정해연",
+          "title": "작별하지 않는다 :한강 장편소설",
+          "author": "한강",
           "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/27587/94/cover/8954681158_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6050062",
-          "isbn": "9788954681155",
-          "loans": 36,
+          "cover": "https://image.aladin.co.kr/product/27877/5/cover/8954682154_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6086446",
+          "isbn": "9788954682152",
+          "loans": 37,
           "rank": 10,
           "series": 1
         },
@@ -578,8 +578,30 @@
           "cover": "https://image.aladin.co.kr/product/37172/36/cover200/k662031678_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7149374",
           "isbn": "9791141602451",
-          "loans": 36,
+          "loans": 37,
           "rank": 11,
+          "series": 1
+        },
+        {
+          "title": "슈뻘맨의 숨은 과학 찾기 :엉뚱 도전 속에 숨은 과학 상식",
+          "author": "슈뻘맨 원작, 류수형 그림",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/32359/59/cover/k332935467_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6754113",
+          "isbn": "9791168415188",
+          "loans": 37,
+          "rank": 12,
+          "series": 2
+        },
+        {
+          "title": "홍학의 자리 :정해연 장편소설",
+          "author": "정해연",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/27587/94/cover/8954681158_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6050062",
+          "isbn": "9788954681155",
+          "loans": 36,
+          "rank": 13,
           "series": 1
         },
         {
@@ -590,28 +612,6 @@
           "link": "https://data4library.kr/bookV?seq=6682845",
           "isbn": "9791167740984",
           "loans": 36,
-          "rank": 12,
-          "series": 1
-        },
-        {
-          "title": "페인트 :이희영 장편소설",
-          "author": "이희영",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/18958/95/cover/893645689x_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5397461",
-          "isbn": "9788936456894",
-          "loans": 35,
-          "rank": 13,
-          "series": 1
-        },
-        {
-          "title": "작별하지 않는다 :한강 장편소설",
-          "author": "한강",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/27877/5/cover/8954682154_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6086446",
-          "isbn": "9788954682152",
-          "loans": 35,
           "rank": 14,
           "series": 1
         },
@@ -622,7 +622,7 @@
           "cover": "https://bookthumb-phinf.pstatic.net/cover/071/902/07190270.jpg?type=m1&udate=20170801",
           "link": "https://data4library.kr/bookV?seq=1938053",
           "isbn": "9788998441012",
-          "loans": 35,
+          "loans": 34,
           "rank": 15,
           "series": 1
         },
@@ -633,7 +633,7 @@
           "cover": "https://image.aladin.co.kr/product/28685/95/cover/k362836265_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6389692",
           "isbn": "9791197377143",
-          "loans": 35,
+          "loans": 34,
           "rank": 16,
           "series": 1
         },
@@ -644,39 +644,39 @@
           "cover": "https://image.aladin.co.kr/product/29137/2/cover/8936434594_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6428779",
           "isbn": "9788936434595",
-          "loans": 33,
+          "loans": 32,
           "rank": 17,
           "series": 1
         },
         {
-          "title": "죽이고 싶은 아이 :이꽃님 장편소설",
-          "author": "이꽃님",
-          "publisher": "우리학교",
-          "cover": "https://image.aladin.co.kr/product/34179/34/cover200/k122931213_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6893936",
-          "isbn": "9791167552723",
-          "loans": 32,
+          "title": "흔한남매 이상한 나라의 고전 읽기",
+          "author": "최재훈 글, 정주연 그림",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/32387/47/cover/k882935883_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6756170",
+          "isbn": "9791168416314",
+          "loans": 31,
           "rank": 18,
           "series": 1
         },
         {
-          "title": "(흔한남매) 별난 세계 여행",
-          "author": "흔한남매 원작, 정주연 그림",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/31704/70/cover/k952833687_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6695722",
-          "isbn": "9791168415355",
-          "loans": 31,
+          "title": "이처럼 사소한 것들 :클레어 키건 소설",
+          "author": "클레어 키건, 홍한별",
+          "publisher": "다산북스",
+          "cover": "https://shopping-phinf.pstatic.net/main_4390280/43902803626.20231108182642.jpg",
+          "link": "https://data4library.kr/bookV?seq=6791651",
+          "isbn": "9791130646381",
+          "loans": 30,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "흔한남매 과학 탐험대",
-          "author": "원작: 흔한남매, 임혜영",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/33107/58/cover/8934938226_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6809895",
-          "isbn": "9788934938224",
+          "title": "흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식",
+          "author": "원작: 흔한남매, 유난희",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/25812/8/cover/k352736335_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5833702",
+          "isbn": "9791164137121",
           "loans": 30,
           "rank": 20,
           "series": 1
