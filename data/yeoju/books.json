@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17 13:30:20",
+  "updated_at": "2026-11-18 13:01:15",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -8,6 +8,17 @@
       "desc": "여주시 공공도서관 · 초등(8~13세) 대출 · 최근 1달",
       "books": [
         {
+          "title": "진시황의 책 교실 :책은 왜 읽어야 할까?",
+          "author": "이향안 글, 이경석 그림",
+          "publisher": "시공사",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/110/386/11038678.jpg?type=m1&udate=20160927",
+          "link": "https://data4library.kr/bookV?seq=3348592",
+          "isbn": "9788952782489",
+          "loans": 5,
+          "rank": 1,
+          "series": 1
+        },
+        {
           "title": "타키 포오 스파이 지구 탐사대 1 - 열대 우림",
           "author": "노지영 (지은이), 캐릭온TV (원작), 정주연 (그림)",
           "publisher": "대원키즈",
@@ -15,7 +26,7 @@
           "link": "https://data4library.kr/bookV?seq=7345761",
           "isbn": "9791142364228",
           "loans": 5,
-          "rank": 1,
+          "rank": 2,
           "series": 1
         },
         {
@@ -26,8 +37,19 @@
           "link": "https://data4library.kr/bookV?seq=6831155",
           "isbn": "9791168414488",
           "loans": 5,
-          "rank": 2,
+          "rank": 3,
           "series": 2
+        },
+        {
+          "title": "제로의 비밀수첩 쉿!",
+          "author": "강정연 글, 보람 그림",
+          "publisher": "사계절(사계절출판사)",
+          "cover": "https://image.aladin.co.kr/product/33256/31/cover/k492938664_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6820619",
+          "isbn": "9791169811835",
+          "loans": 5,
+          "rank": 4,
+          "series": 1
         },
         {
           "title": "식물은 떡잎부터 다르다고요?! :비교하며 배우는 식물 분류의 기초",
@@ -36,28 +58,6 @@
           "cover": "https://image.aladin.co.kr/product/4923/99/cover/8932373841_1.jpg",
           "link": "https://data4library.kr/bookV?seq=2614550",
           "isbn": "9788932373843",
-          "loans": 4,
-          "rank": 3,
-          "series": 1
-        },
-        {
-          "title": "외로움 탐지견 고독 - 2026년 제32회 황금도깨비상 대상 수상작",
-          "author": "천준아 (지은이), 불곰 (그림)",
-          "publisher": "비룡소",
-          "cover": "https://image.aladin.co.kr/product/40145/87/cover200/8949122138_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7344105",
-          "isbn": "9788949122137",
-          "loans": 4,
-          "rank": 4,
-          "series": 1
-        },
-        {
-          "title": "진시황의 책 교실 :책은 왜 읽어야 할까?",
-          "author": "이향안 글, 이경석 그림",
-          "publisher": "시공사",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/110/386/11038678.jpg?type=m1&udate=20160927",
-          "link": "https://data4library.kr/bookV?seq=3348592",
-          "isbn": "9788952782489",
           "loans": 4,
           "rank": 5,
           "series": 1
@@ -107,58 +107,25 @@
           "series": 1
         },
         {
-          "title": "헨리의 자유 상자",
-          "author": "엘린 레빈 글, 김향이 옮김",
-          "publisher": "뜨인돌어린이",
-          "cover": "https://image.aladin.co.kr/product/286/64/cover/8992130759_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=2272893",
-          "isbn": "9788992130752",
+          "title": "어린이 감정 요리법 :스스로 감정을 이해하고, 자기 감정의 주인으로 성장하기",
+          "author": "마크 네미로프,옮김: 서연",
+          "publisher": "아이맘",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/079/181/07918143.jpg?type=m1&udate=20150717",
+          "link": "https://data4library.kr/bookV?seq=2368063",
+          "isbn": "9788997291038",
           "loans": 4,
           "rank": 10,
           "series": 1
         },
         {
-          "title": "아이라서 어른이라서",
-          "author": "노가미 아키라,송태욱 옮김",
-          "publisher": "너머학교",
-          "cover": "https://image.aladin.co.kr/product/10419/39/cover/8994407553_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3418348",
-          "isbn": "9788994407555",
+          "title": "흔한남매 과학 탐험대",
+          "author": "원작: 흔한남매, 임혜영",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/37906/10/cover200/k712033833_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7187385",
+          "isbn": "9791173324123",
           "loans": 4,
           "rank": 11,
-          "series": 1
-        },
-        {
-          "title": "타키 포오 네버 다이 과학 어드벤처 4 : AI·로봇이 온다! - 캐릭온TV 과학 학습만화",
-          "author": "박시연 (지은이), 캐릭온TV (원작), 팀키즈 (그림), 김덕진 (감수)",
-          "publisher": "대원키즈",
-          "cover": "https://image.aladin.co.kr/product/40027/93/cover200/k392130533_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7314258",
-          "isbn": "9791142361302",
-          "loans": 4,
-          "rank": 12,
-          "series": 1
-        },
-        {
-          "title": "의사 어벤저스 :어린이 의학 동화",
-          "author": "고희정, 조승연",
-          "publisher": "가나문화콘텐츠",
-          "cover": "https://image.aladin.co.kr/product/40087/71/cover200/k702130345_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7317312",
-          "isbn": "9791168091597",
-          "loans": 4,
-          "rank": 13,
-          "series": 1
-        },
-        {
-          "title": "제로의 비밀수첩 쉿!",
-          "author": "강정연 글, 보람 그림",
-          "publisher": "사계절(사계절출판사)",
-          "cover": "https://image.aladin.co.kr/product/33256/31/cover/k492938664_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6820619",
-          "isbn": "9791169811835",
-          "loans": 4,
-          "rank": 14,
           "series": 1
         },
         {
@@ -169,7 +136,7 @@
           "link": "https://data4library.kr/bookV?seq=7188658",
           "isbn": "9791175484290",
           "loans": 4,
-          "rank": 15,
+          "rank": 12,
           "series": 1
         },
         {
@@ -180,7 +147,7 @@
           "link": "https://data4library.kr/bookV?seq=7315560",
           "isbn": "9791175911154",
           "loans": 4,
-          "rank": 16,
+          "rank": 13,
           "series": 1
         },
         {
@@ -191,7 +158,7 @@
           "link": "https://data4library.kr/bookV?seq=3437889",
           "isbn": "9791185099927",
           "loans": 4,
-          "rank": 17,
+          "rank": 14,
           "series": 1
         },
         {
@@ -202,7 +169,7 @@
           "link": "https://data4library.kr/bookV?seq=3672976",
           "isbn": "9791187287674",
           "loans": 4,
-          "rank": 18,
+          "rank": 15,
           "series": 1
         },
         {
@@ -213,17 +180,50 @@
           "link": "https://data4library.kr/bookV?seq=3635009",
           "isbn": "9791188535026",
           "loans": 4,
+          "rank": 16,
+          "series": 1
+        },
+        {
+          "title": "(나에게 들려주는) 예쁜 말",
+          "author": "김종원, 나래",
+          "publisher": "상상아카데미",
+          "cover": "https://image.aladin.co.kr/product/33273/48/cover/k172938774_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6820941",
+          "isbn": "9791193379158",
+          "loans": 4,
+          "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "정승제의 수학 대모험 4 - 분수와 소수 : 승제네 피자 가게",
+          "author": "설민석, 조영선 (지은이), 재담웹툰랩 (그림), 정승제 (감수)",
+          "publisher": "단꿈아이",
+          "cover": "https://image.aladin.co.kr/product/40135/63/cover200/k162131467_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7344382",
+          "isbn": "9791194616719",
+          "loans": 4,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "Magic Tree House #29 : Christmas in Camelot (Magic Tree House #29)",
+          "author": "메리 폽 어즈번",
+          "publisher": "RandomHouseBooksforYoungReaders",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/060/616/06061676.jpg?type=m1&udate=20161123",
+          "link": "https://data4library.kr/bookV?seq=2533682",
+          "isbn": "9780375858123",
+          "loans": 3,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "돌고 도는 물",
-          "author": "박지은, 김홍열",
-          "publisher": "스푼북",
-          "cover": "https://image.aladin.co.kr/product/21773/4/cover/k992636007_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5529522",
-          "isbn": "9791190267243",
-          "loans": 4,
+          "title": "Magic Tree House #30: Haunted Castle on Hallows Eve No. 30",
+          "author": "OSBORNE|Mary Pope",
+          "publisher": "RandomHouse",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/063/288/06328804.jpg?type=m1&udate=20161123",
+          "link": "https://data4library.kr/bookV?seq=2533683",
+          "isbn": "9780375860904",
+          "loans": 3,
           "rank": 20,
           "series": 1
         }
@@ -323,17 +323,6 @@
           "series": 1
         },
         {
-          "title": "논어",
-          "author": "배병삼, 조미자",
-          "publisher": "웅진씽크빅",
-          "cover": "https://image.aladin.co.kr/product/15647/14/cover/scm4635536491701.png",
-          "link": "https://data4library.kr/bookV?seq=2657065",
-          "isbn": "9788901092652",
-          "loans": 1,
-          "rank": 9,
-          "series": 1
-        },
-        {
           "title": "관점의 기술 - 새로운 것은 이미 우리 눈앞에 있다",
           "author": "타나카 타츠야 (지은이), 김윤경 (옮긴이)",
           "publisher": "알에이치코리아(RHK)",
@@ -341,7 +330,7 @@
           "link": "https://data4library.kr/bookV?seq=7360892",
           "isbn": "9788925568065",
           "loans": 1,
-          "rank": 10,
+          "rank": 9,
           "series": 1
         },
         {
@@ -352,7 +341,7 @@
           "link": "https://data4library.kr/bookV?seq=3857740",
           "isbn": "9788926330760",
           "loans": 1,
-          "rank": 11,
+          "rank": 10,
           "series": 2
         },
         {
@@ -363,7 +352,7 @@
           "link": "https://data4library.kr/bookV?seq=2377651",
           "isbn": "9788926793633",
           "loans": 1,
-          "rank": 12,
+          "rank": 11,
           "series": 1
         },
         {
@@ -374,7 +363,7 @@
           "link": "https://data4library.kr/bookV?seq=7313021",
           "isbn": "9788927723714",
           "loans": 1,
-          "rank": 13,
+          "rank": 12,
           "series": 1
         },
         {
@@ -385,7 +374,7 @@
           "link": "https://data4library.kr/bookV?seq=3406471",
           "isbn": "9788927808329",
           "loans": 1,
-          "rank": 14,
+          "rank": 13,
           "series": 1
         },
         {
@@ -396,7 +385,7 @@
           "link": "https://data4library.kr/bookV?seq=3754015",
           "isbn": "9788930089661",
           "loans": 1,
-          "rank": 15,
+          "rank": 14,
           "series": 1
         },
         {
@@ -407,7 +396,7 @@
           "link": "https://data4library.kr/bookV?seq=5377758",
           "isbn": "9788930238182",
           "loans": 1,
-          "rank": 16,
+          "rank": 15,
           "series": 1
         },
         {
@@ -418,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=6864198",
           "isbn": "9788932042725",
           "loans": 1,
-          "rank": 17,
+          "rank": 16,
           "series": 1
         },
         {
@@ -429,7 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=6969047",
           "isbn": "9788932043272",
           "loans": 1,
-          "rank": 18,
+          "rank": 17,
           "series": 1
         },
         {
@@ -440,7 +429,7 @@
           "link": "https://data4library.kr/bookV?seq=7007544",
           "isbn": "9788932324067",
           "loans": 1,
-          "rank": 19,
+          "rank": 18,
           "series": 1
         },
         {
@@ -450,6 +439,17 @@
           "cover": "https://image.aladin.co.kr/product/31192/81/cover/893495096x_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6646147",
           "isbn": "9788934950967",
+          "loans": 1,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "팩트풀니스 :우리가 세상을 오해하는 10가지 이유와 세상이 생각보다 괜찮은 이유",
+          "author": "한스 로슬링,이창신",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/18456/45/cover/8934985062_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5371595",
+          "isbn": "9788934985068",
           "loans": 1,
           "rank": 20,
           "series": 1
@@ -462,17 +462,6 @@
       "desc": "여주시 공공도서관 · 전 연령 · 최근 1달",
       "books": [
         {
-          "title": "한국사 이상현상 연구원 :최인서 소설",
-          "author": "최인서",
-          "publisher": "빅피시",
-          "cover": "https://image.aladin.co.kr/product/40090/97/cover200/k962130440_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7316990",
-          "isbn": "9791124137635",
-          "loans": 9,
-          "rank": 1,
-          "series": 1
-        },
-        {
           "title": "혼모노 :성해나 소설집",
           "author": "성해나",
           "publisher": "창비",
@@ -480,7 +469,62 @@
           "link": "https://data4library.kr/bookV?seq=7035395",
           "isbn": "9788936439743",
           "loans": 8,
+          "rank": 1,
+          "series": 1
+        },
+        {
+          "title": "짹짹 참새의 아침",
+          "author": "린환장 글, 전수정 옮김",
+          "publisher": "보림출판사",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/072/091/07209160.jpg?type=m1&udate=20141127",
+          "link": "https://data4library.kr/bookV?seq=1944651",
+          "isbn": "9788943309077",
+          "loans": 8,
           "rank": 2,
+          "series": 1
+        },
+        {
+          "title": "치과 의사 드소토 선생님",
+          "author": "윌리엄 스타이그 글 그림, 조은수 옮김",
+          "publisher": "비룡소",
+          "cover": "https://image.aladin.co.kr/product/14/61/cover/8949110091_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=328039",
+          "isbn": "9788949110097",
+          "loans": 8,
+          "rank": 3,
+          "series": 1
+        },
+        {
+          "title": "커다란 순무 :우크라이나 옛이야기",
+          "author": "이반 프랑코 글, 김경미 옮김",
+          "publisher": "비룡소",
+          "cover": "https://image.aladin.co.kr/product/8176/5/cover/894919144x_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3152987",
+          "isbn": "9788949191447",
+          "loans": 8,
+          "rank": 4,
+          "series": 1
+        },
+        {
+          "title": "찰리, 샬럿, 금빛 카나리아",
+          "author": "찰스 키핑 글·그림, 서애경 옮김",
+          "publisher": "사계절출판사",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/062/552/06255291.jpg?type=m1&udate=20150718",
+          "link": "https://data4library.kr/bookV?seq=1061123",
+          "isbn": "9788958284598",
+          "loans": 8,
+          "rank": 5,
+          "series": 1
+        },
+        {
+          "title": "짧은 귀 토끼와 눈치 없는 친구",
+          "author": "다원시 글, 심윤섭 옮김",
+          "publisher": "고래이야기",
+          "cover": "https://image.aladin.co.kr/product/5585/9/cover/8991941486_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2622803",
+          "isbn": "9788991941489",
+          "loans": 8,
+          "rank": 6,
           "series": 1
         },
         {
@@ -491,18 +535,40 @@
           "link": "https://data4library.kr/bookV?seq=2499303",
           "isbn": "9788995640647",
           "loans": 8,
-          "rank": 3,
+          "rank": 7,
+          "series": 1
+        },
+        {
+          "title": "한국사 이상현상 연구원 :최인서 소설",
+          "author": "최인서",
+          "publisher": "빅피시",
+          "cover": "https://image.aladin.co.kr/product/40090/97/cover200/k962130440_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7316990",
+          "isbn": "9791124137635",
+          "loans": 8,
+          "rank": 8,
           "series": 1
         },
         {
           "title": "흔한남매 과학 탐험대",
           "author": "원작: 흔한남매, 임혜영",
           "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/37061/72/cover200/k632030237_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7143072",
-          "isbn": "9791173322914",
+          "cover": "https://image.aladin.co.kr/product/39117/44/cover200/k652137351_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7254664",
+          "isbn": "9791173325953",
           "loans": 8,
-          "rank": 4,
+          "rank": 9,
+          "series": 1
+        },
+        {
+          "title": "거미와 농부",
+          "author": "안혜경 지음",
+          "publisher": "곰세마리",
+          "cover": "https://image.aladin.co.kr/product/33824/68/cover200/k852930890_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6865062",
+          "isbn": "9791193366042",
+          "loans": 8,
+          "rank": 10,
           "series": 1
         },
         {
@@ -513,18 +579,7 @@
           "link": "https://data4library.kr/bookV?seq=6896023",
           "isbn": "9791194100003",
           "loans": 8,
-          "rank": 5,
-          "series": 1
-        },
-        {
-          "title": "계수나무 과자점",
-          "author": "김지안 (지은이)",
-          "publisher": "위즈덤하우스",
-          "cover": "https://image.aladin.co.kr/product/37225/84/cover200/k462031700_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7153077",
-          "isbn": "9791194770268",
-          "loans": 8,
-          "rank": 6,
+          "rank": 11,
           "series": 1
         },
         {
@@ -535,7 +590,7 @@
           "link": "https://data4library.kr/bookV?seq=6751826",
           "isbn": "9788901274218",
           "loans": 7,
-          "rank": 7,
+          "rank": 12,
           "series": 1
         },
         {
@@ -546,7 +601,7 @@
           "link": "https://data4library.kr/bookV?seq=7005921",
           "isbn": "9788901292304",
           "loans": 7,
-          "rank": 8,
+          "rank": 13,
           "series": 1
         },
         {
@@ -557,7 +612,7 @@
           "link": "https://data4library.kr/bookV?seq=6532815",
           "isbn": "9788936455873",
           "loans": 7,
-          "rank": 9,
+          "rank": 14,
           "series": 1
         },
         {
@@ -568,7 +623,7 @@
           "link": "https://data4library.kr/bookV?seq=329102",
           "isbn": "9788943302191",
           "loans": 7,
-          "rank": 10,
+          "rank": 15,
           "series": 1
         },
         {
@@ -579,18 +634,7 @@
           "link": "https://data4library.kr/bookV?seq=1883276",
           "isbn": "9788943308988",
           "loans": 7,
-          "rank": 11,
-          "series": 1
-        },
-        {
-          "title": "짹짹 참새의 아침",
-          "author": "린환장 글, 전수정 옮김",
-          "publisher": "보림출판사",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/072/091/07209160.jpg?type=m1&udate=20141127",
-          "link": "https://data4library.kr/bookV?seq=1944651",
-          "isbn": "9788943309077",
-          "loans": 7,
-          "rank": 12,
+          "rank": 16,
           "series": 1
         },
         {
@@ -601,18 +645,7 @@
           "link": "https://data4library.kr/bookV?seq=3172111",
           "isbn": "9788949101842",
           "loans": 7,
-          "rank": 13,
-          "series": 1
-        },
-        {
-          "title": "치과 의사 드소토 선생님",
-          "author": "윌리엄 스타이그 글 그림, 조은수 옮김",
-          "publisher": "비룡소",
-          "cover": "https://image.aladin.co.kr/product/14/61/cover/8949110091_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=328039",
-          "isbn": "9788949110097",
-          "loans": 7,
-          "rank": 14,
+          "rank": 17,
           "series": 1
         },
         {
@@ -623,60 +656,27 @@
           "link": "https://data4library.kr/bookV?seq=339263",
           "isbn": "9788949110523",
           "loans": 7,
-          "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "커다란 순무 :우크라이나 옛이야기",
-          "author": "이반 프랑코 글, 김경미 옮김",
-          "publisher": "비룡소",
-          "cover": "https://image.aladin.co.kr/product/8176/5/cover/894919144x_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3152987",
-          "isbn": "9788949191447",
-          "loans": 7,
-          "rank": 16,
-          "series": 1
-        },
-        {
-          "title": "밥먹기 싫어",
-          "author": "크리스틴 슈나이더 지음, 이연수 옮김",
-          "publisher": "그린북",
-          "cover": "https://image.aladin.co.kr/product/39/73/cover/8955880448_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=267869",
-          "isbn": "9788955880441",
-          "loans": 7,
-          "rank": 17,
-          "series": 1
-        },
-        {
-          "title": "찰리, 샬럿, 금빛 카나리아",
-          "author": "찰스 키핑 글·그림, 서애경 옮김",
-          "publisher": "사계절출판사",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/062/552/06255291.jpg?type=m1&udate=20150718",
-          "link": "https://data4library.kr/bookV?seq=1061123",
-          "isbn": "9788958284598",
-          "loans": 7,
           "rank": 18,
           "series": 1
         },
         {
-          "title": "나는 티라노사우루스다",
-          "author": "미야니시 타츠야 글·그림, 허경실 옮김",
-          "publisher": "달리",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/066/700/06670095.jpg?type=m1&udate=20170906",
-          "link": "https://data4library.kr/bookV?seq=2375103",
-          "isbn": "9788959980932",
+          "title": "나는 뽀글머리",
+          "author": "야마니시 겐이치 지음, 고향옥 옮김",
+          "publisher": "비룡소",
+          "cover": "https://image.aladin.co.kr/product/2554/17/cover/8949112426_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2425788",
+          "isbn": "9788949112428",
           "loans": 7,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "잠들지 못하는 밤",
-          "author": "강경수 글·그림",
-          "publisher": "처음주니어",
-          "cover": "https://image.aladin.co.kr/product/1189/44/cover/8961552503_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=1171559",
-          "isbn": "9788961552509",
+          "title": "나뭇잎이 달아나요",
+          "author": "올레 쾨네케 그림·글, 임정은 옮김",
+          "publisher": "시공사",
+          "cover": "https://image.aladin.co.kr/product/195/44/cover/8952751388_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2198183",
+          "isbn": "9788952751386",
           "loans": 7,
           "rank": 20,
           "series": 1
