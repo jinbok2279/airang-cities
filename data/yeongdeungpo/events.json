@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18 12:44:40",
+ "updated_at": "2026-11-19 12:20:53",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -46,6 +46,21 @@
    "src": "kopis",
    "link": "https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF300900",
    "img": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300900_260914_164631.gif"
+  },
+  {
+   "id": "Se57596e6ec",
+   "title": "동물의 사육제에 초대받은 하피스트",
+   "start": "2026-12-23",
+   "end": "2026-11-23",
+   "place": "영산아트홀(여의도)",
+   "time": "19:30~21:00",
+   "grade": "가족, 청소년, 성인, 클래식 애호가",
+   "price": "R석 50,000원 / S석 30,000원",
+   "free": false,
+   "kind": "클래식",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160235&menuNo=200008",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d2cb8d4db921406586d6085639d3e170&thumb=Y"
   },
   {
    "id": "KPF305478",
@@ -210,10 +225,10 @@
    "lib": "서울특별시 영등포구 시흥대로 625 상가 2층 (대림동, 영등포자이르네)",
    "target": "유아",
    "place": "서울특별시 영등포구 시흥대로 625 상가 2층 (대림동, 영등포자이르네)",
-   "start": "2026-11-18",
+   "start": "2026-11-19",
    "end": "2026-11-30",
    "period": "",
-   "applyStart": "2026-11-18",
+   "applyStart": "2026-11-19",
    "applyEnd": "2026-11-30",
    "apply": "",
    "count": "",
@@ -230,10 +245,10 @@
    "lib": "서울특별시 영등포구 신길로40길 5 육아종합지원센터 3층 (신길동)",
    "target": "유아",
    "place": "서울특별시 영등포구 신길로40길 5 육아종합지원센터 3층 (신길동)",
-   "start": "2026-11-18",
+   "start": "2026-11-19",
    "end": "2026-11-30",
    "period": "",
-   "applyStart": "2026-11-18",
+   "applyStart": "2026-11-19",
    "applyEnd": "2026-11-30",
    "apply": "",
    "count": "",
@@ -250,10 +265,10 @@
    "lib": "서울특별시 영등포구 국제금융로 39 지하1층 (여의도동, 브라이튼 여의도)",
    "target": "유아",
    "place": "서울특별시 영등포구 국제금융로 39 지하1층 (여의도동, 브라이튼 여의도)",
-   "start": "2026-11-18",
+   "start": "2026-11-19",
    "end": "2026-11-30",
    "period": "",
-   "applyStart": "2026-11-18",
+   "applyStart": "2026-11-19",
    "applyEnd": "2026-11-30",
    "apply": "",
    "count": "",
@@ -305,6 +320,21 @@
    "src": "yeyak",
    "kind": "청년정보",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261116160905481151"
+  },
+  {
+   "id": "S6658205631",
+   "title": "11월 국회문화극장 [로보카폴리와 함께 신나는 국회 문화 나들이]",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "place": "국회의원회관 대회의실",
+   "time": "19:00",
+   "grade": "누구나",
+   "price": "",
+   "free": true,
+   "kind": "콘서트",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160228&menuNo=200008",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=9534a7b492044f7197f487d1cd632b04&thumb=Y"
   },
   {
    "id": "Sffa6debe3b",
@@ -360,6 +390,21 @@
    "src": "yeyak",
    "kind": "교육체험",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261018173902027878"
+  },
+  {
+   "id": "Sd70905b7ef",
+   "title": "국회 개방 정오의 콘서트 [11월 국회 버스킹]",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "place": "국회 중앙잔디광장(국회도서관 방면)",
+   "time": "12:10~13:00",
+   "grade": "누구나",
+   "price": "",
+   "free": true,
+   "kind": "콘서트",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160127&menuNo=200008",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=daeceee78ea34b07bc302e332c8f4487&thumb=Y"
   },
   {
    "id": "S95b9e4927e",
@@ -477,36 +522,6 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261105172434508467"
   },
   {
-   "id": "S6658205631",
-   "title": "11월 국회문화극장 [로보카폴리와 함께 신나는 국회 문화 나들이]",
-   "start": "2026-11-19",
-   "end": "2026-11-19",
-   "place": "국회의원회관 대회의실",
-   "time": "19:00",
-   "grade": "누구나",
-   "price": "",
-   "free": true,
-   "kind": "콘서트",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160228&menuNo=200008",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=9534a7b492044f7197f487d1cd632b04&thumb=Y"
-  },
-  {
-   "id": "Sd70905b7ef",
-   "title": "국회 개방 정오의 콘서트 [11월 국회 버스킹]",
-   "start": "2026-11-19",
-   "end": "2026-11-19",
-   "place": "국회 중앙잔디광장(국회도서관 방면)",
-   "time": "12:10~13:00",
-   "grade": "누구나",
-   "price": "",
-   "free": true,
-   "kind": "콘서트",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160127&menuNo=200008",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=daeceee78ea34b07bc302e332c8f4487&thumb=Y"
-  },
-  {
    "id": "S8185b0c038",
    "title": "2026 카즈미 타테이시 트리오 내한공연-지브리, 재즈를 만나다-(서울)",
    "start": "2026-12-22",
@@ -520,6 +535,26 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158691&menuNo=200008",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ae89ba10b5c64459b3e2fe3942048f84&thumb=Y"
+  },
+  {
+   "id": "RS261118171030308960",
+   "title": "청년들을 위한 취업특강",
+   "lib": "서울시 노동자복지관",
+   "target": "청년",
+   "place": "서울시 노동자복지관",
+   "start": "2026-11-20",
+   "end": "2026-12-08",
+   "period": "",
+   "applyStart": "2026-11-20",
+   "applyEnd": "2026-12-01",
+   "apply": "",
+   "count": "",
+   "status": "접수전",
+   "btn": "",
+   "free": true,
+   "src": "yeyak",
+   "kind": "청년정보",
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261118171030308960"
   }
  ]
 }
