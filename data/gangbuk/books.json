@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 12:29:13",
+  "updated_at": "2026-11-19 12:08:33",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -82,7 +82,7 @@
           "isbn": "9791173326516",
           "loans": 5,
           "rank": 7,
-          "series": 2
+          "series": 1
         },
         {
           "title": "(처음 읽는) 삼국지",
@@ -107,23 +107,23 @@
           "series": 1
         },
         {
+          "title": "언제나 다정 죽집",
+          "author": "우신영 글, 서영 그림",
+          "publisher": "비룡소",
+          "cover": "https://image.aladin.co.kr/product/34576/10/cover200/8949122073_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=6939094",
+          "isbn": "9788949122076",
+          "loans": 4,
+          "rank": 10,
+          "series": 1
+        },
+        {
           "title": "전략 삼국지 1~60 세트 - 전60권",
           "author": "요코야마 미츠테루 (지은이), 이길진 (옮긴이)",
           "publisher": "AK(에이케이)커뮤니케이션즈",
           "cover": "https://image.aladin.co.kr/product/10132/61/cover/k992536373_1.jpg",
           "link": "https://data4library.kr/bookV?seq=3415355",
           "isbn": "9791127401511",
-          "loans": 4,
-          "rank": 10,
-          "series": 1
-        },
-        {
-          "title": "오지랖 도깨비 오지랑",
-          "author": "김혜정 글, 신민재 그림",
-          "publisher": "다산북스",
-          "cover": "https://image.aladin.co.kr/product/30461/0/cover/k372830475_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6590601",
-          "isbn": "9791130694061",
           "loans": 4,
           "rank": 11,
           "series": 1
@@ -173,17 +173,6 @@
           "series": 2
         },
         {
-          "title": "흔한남매 이무기 :이해하면 무서운 이야기",
-          "author": "원작: 흔한남매, 도니패밀리",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/34240/43/cover200/k252931432_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=6900046",
-          "isbn": "9791168418516",
-          "loans": 4,
-          "rank": 16,
-          "series": 1
-        },
-        {
           "title": "민쩌미의 쩜그레 시즌2 1",
           "author": "배아이 (지은이), 민쩌미 (원작), 라임스튜디오 (그림), 우니꼬코리아 (감수)",
           "publisher": "겜툰",
@@ -191,7 +180,7 @@
           "link": "https://data4library.kr/bookV?seq=7250540",
           "isbn": "9791168442955",
           "loans": 4,
-          "rank": 17,
+          "rank": 16,
           "series": 1
         },
         {
@@ -202,18 +191,7 @@
           "link": "https://data4library.kr/bookV?seq=6892657",
           "isbn": "9791169232920",
           "loans": 4,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "상담 교사 추락 사건 :제1회 소원어린이문학상 대상 수상작",
-          "author": "정율리, 해마",
-          "publisher": "소원나무",
-          "cover": "https://image.aladin.co.kr/product/38270/23/cover200/k132034837_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7200185",
-          "isbn": "9791174760395",
-          "loans": 4,
-          "rank": 19,
+          "rank": 17,
           "series": 1
         },
         {
@@ -223,6 +201,28 @@
           "cover": "https://shopping-phinf.pstatic.net/main_6045167/60451679190.20260615125826.jpg",
           "link": "https://data4library.kr/bookV?seq=7282688",
           "isbn": "9791175910867",
+          "loans": 4,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "슈퍼 코딱지 히어로",
+          "author": "박세랑 쓰고 그림",
+          "publisher": "Fika Junior(피카주니어)",
+          "cover": "https://image.aladin.co.kr/product/39470/11/cover200/k482139318_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7279447",
+          "isbn": "9791192869551",
+          "loans": 4,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "설민석의 그리스 로마 신화 대모험 17 - 자신을 사랑한 나르키소스",
+          "author": "설민석, 남이담 (지은이), 스튜디오 담 (그림), 김원익 (감수)",
+          "publisher": "단꿈아이",
+          "cover": "https://image.aladin.co.kr/product/40322/19/cover200/k082131396_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7356504",
+          "isbn": "9791194616740",
           "loans": 4,
           "rank": 20,
           "series": 1
@@ -444,12 +444,12 @@
           "series": 1
         },
         {
-          "title": "영릉에서 :박솔뫼 소설집",
-          "author": "박솔뫼",
+          "title": "해가 지는 곳으로 :최진영 장편소설",
+          "author": "최진영",
           "publisher": "민음사",
-          "cover": "https://image.aladin.co.kr/product/37174/41/cover200/8937422794_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7149375",
-          "isbn": "9788937422799",
+          "cover": "https://image.aladin.co.kr/product/11281/18/cover/893747316x_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3468676",
+          "isbn": "9788937473166",
           "loans": 2,
           "rank": 20,
           "series": 1
@@ -468,7 +468,7 @@
           "cover": "https://image.aladin.co.kr/product/10132/61/cover/k992536373_1.jpg",
           "link": "https://data4library.kr/bookV?seq=3415355",
           "isbn": "9791127401511",
-          "loans": 25,
+          "loans": 30,
           "rank": 1,
           "series": 1
         },
@@ -490,7 +490,7 @@
           "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
           "link": "https://data4library.kr/bookV?seq=2037399",
           "isbn": "9788936434120",
-          "loans": 17,
+          "loans": 19,
           "rank": 3,
           "series": 1
         },
@@ -501,7 +501,7 @@
           "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7073819",
           "isbn": "9791141602376",
-          "loans": 16,
+          "loans": 17,
           "rank": 4,
           "series": 1
         },
@@ -572,13 +572,13 @@
           "series": 1
         },
         {
-          "title": "읽으면서 바로 써먹는 어린이 24권 세트 - 전24권",
-          "author": "한날, 이수인 (지은이)",
-          "publisher": "파란정원",
-          "cover": "https://image.aladin.co.kr/product/35894/81/cover200/k852037984_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7019865",
-          "isbn": "9791158682941",
-          "loans": 14,
+          "title": "프로젝트 헤일메리",
+          "author": "앤디 위어 지음, 강동혁 옮김",
+          "publisher": "RHK(알에이치코리아)",
+          "cover": "https://image.aladin.co.kr/product/27045/43/cover/8925588730_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5969086",
+          "isbn": "9788925588735",
+          "loans": 12,
           "rank": 11,
           "series": 1
         },
@@ -589,7 +589,7 @@
           "cover": "https://image.aladin.co.kr/product/40013/75/cover200/8936439995_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7312107",
           "isbn": "9788936439996",
-          "loans": 13,
+          "loans": 12,
           "rank": 12,
           "series": 1
         },
@@ -616,6 +616,28 @@
           "series": 1
         },
         {
+          "title": "절창 :구병모 장편소설",
+          "author": "구병모",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/37172/36/cover200/k662031678_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7149374",
+          "isbn": "9791141602451",
+          "loans": 12,
+          "rank": 15,
+          "series": 1
+        },
+        {
+          "title": "읽으면서 바로 써먹는 어린이 24권 세트 - 전24권",
+          "author": "한날, 이수인 (지은이)",
+          "publisher": "파란정원",
+          "cover": "https://image.aladin.co.kr/product/35894/81/cover200/k852037984_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7019865",
+          "isbn": "9791158682941",
+          "loans": 12,
+          "rank": 16,
+          "series": 1
+        },
+        {
           "title": "돈의 속성 :최상위 부자가 말하는 돈에 대한 모든 것",
           "author": "김승호",
           "publisher": "Snowfox(스노우폭스북스)",
@@ -623,18 +645,7 @@
           "link": "https://data4library.kr/bookV?seq=5678862",
           "isbn": "9791188331796",
           "loans": 12,
-          "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "프로젝트 헤일메리",
-          "author": "앤디 위어 지음, 강동혁 옮김",
-          "publisher": "RHK(알에이치코리아)",
-          "cover": "https://image.aladin.co.kr/product/27045/43/cover/8925588730_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5969086",
-          "isbn": "9788925588735",
-          "loans": 11,
-          "rank": 16,
+          "rank": 17,
           "series": 1
         },
         {
@@ -645,7 +656,7 @@
           "link": "https://data4library.kr/bookV?seq=6614564",
           "isbn": "9788937473401",
           "loans": 11,
-          "rank": 17,
+          "rank": 18,
           "series": 1
         },
         {
@@ -655,17 +666,6 @@
           "cover": "https://image.aladin.co.kr/product/27541/91/cover/8954681174_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6045915",
           "isbn": "9788954681179",
-          "loans": 11,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "시간의 감촉 :은희경 장편소설",
-          "author": "은희경",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/39536/43/cover200/k182139749_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7280669",
-          "isbn": "9791141617226",
           "loans": 11,
           "rank": 19,
           "series": 1
