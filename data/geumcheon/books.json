@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19 12:13:56",
+  "updated_at": "2026-11-20 11:56:37",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -151,17 +151,6 @@
           "series": 2
         },
         {
-          "title": "의사 어벤저스 :어린이 의학 동화",
-          "author": "고희정, 조승연",
-          "publisher": "가나문화콘텐츠",
-          "cover": "https://image.aladin.co.kr/product/37021/82/cover200/k482030628_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7140683",
-          "isbn": "9791168091542",
-          "loans": 3,
-          "rank": 14,
-          "series": 1
-        },
-        {
           "title": "흔한남매 오해요 :귀염 뽀짝 부캐들과 펼치는 초단편 콩트 만화",
           "author": "원작: 흔한남매, 유난희",
           "publisher": "미래엔",
@@ -169,8 +158,19 @@
           "link": "https://data4library.kr/bookV?seq=6409046",
           "isbn": "9791168410930",
           "loans": 3,
-          "rank": 15,
+          "rank": 14,
           "series": 1
+        },
+        {
+          "title": "흔한남매 이상한 나라의 고전 읽기",
+          "author": "최재훈 글, 정주연 그림",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/33575/91/cover/k582939392_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6840920",
+          "isbn": "9791168415331",
+          "loans": 3,
+          "rank": 15,
+          "series": 2
         },
         {
           "title": "(흔한남매) 흔한 게임",
@@ -184,17 +184,6 @@
           "series": 1
         },
         {
-          "title": "파뿌리24",
-          "author": "원작: 파뿌리, 이정태",
-          "publisher": "겜툰",
-          "cover": "https://image.aladin.co.kr/product/31105/22/cover/k702831636_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6643420",
-          "isbn": "9791168440579",
-          "loans": 3,
-          "rank": 17,
-          "series": 1
-        },
-        {
           "title": "열세 살의 비밀",
           "author": "민후",
           "publisher": "교보문고",
@@ -202,7 +191,7 @@
           "link": "https://data4library.kr/bookV?seq=6777615",
           "isbn": "9791170610380",
           "loans": 3,
-          "rank": 18,
+          "rank": 17,
           "series": 1
         },
         {
@@ -213,7 +202,7 @@
           "link": "https://data4library.kr/bookV?seq=6892247",
           "isbn": "9791171712267",
           "loans": 3,
-          "rank": 19,
+          "rank": 18,
           "series": 1
         },
         {
@@ -223,6 +212,17 @@
           "cover": "https://image.aladin.co.kr/product/35626/39/cover200/k772036293_2.jpg",
           "link": "https://data4library.kr/bookV?seq=7005477",
           "isbn": "9791171713417",
+          "loans": 3,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "슈뻘맨의 슈퍼 상식 월드컵",
+          "author": "원작: 슈뻘맨, 이혜림",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/35796/38/cover200/k602036459_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7016078",
+          "isbn": "9791173320989",
           "loans": 3,
           "rank": 20,
           "series": 1
@@ -589,9 +589,31 @@
           "cover": "https://image.aladin.co.kr/product/27587/94/cover/8954681158_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6050062",
           "isbn": "9788954681155",
-          "loans": 9,
+          "loans": 10,
           "rank": 12,
           "series": 1
+        },
+        {
+          "title": "안녕이라 그랬어 :김애란 소설",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7073819",
+          "isbn": "9791141602376",
+          "loans": 9,
+          "rank": 13,
+          "series": 1
+        },
+        {
+          "title": "흔한남매",
+          "author": "원작: 흔한남매, 유난희",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/23568/96/cover/k992638123_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5635121",
+          "isbn": "9791164134847",
+          "loans": 9,
+          "rank": 14,
+          "series": 4
         },
         {
           "title": "흉담 :전건우 장편소설",
@@ -601,7 +623,7 @@
           "link": "https://data4library.kr/bookV?seq=7255135",
           "isbn": "9791168343764",
           "loans": 9,
-          "rank": 13,
+          "rank": 15,
           "series": 1
         },
         {
@@ -612,7 +634,7 @@
           "link": "https://data4library.kr/bookV?seq=7312107",
           "isbn": "9788936439996",
           "loans": 8,
-          "rank": 14,
+          "rank": 16,
           "series": 1
         },
         {
@@ -623,41 +645,19 @@
           "link": "https://data4library.kr/bookV?seq=5941926",
           "isbn": "9788949123493",
           "loans": 8,
-          "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "나의 완벽한 장례식 :조현선 장편소설",
-          "author": "조현선",
-          "publisher": "책읽어주는남자",
-          "cover": "https://image.aladin.co.kr/product/38357/53/cover200/k952135368_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7204893",
-          "isbn": "9791124038192",
-          "loans": 8,
-          "rank": 16,
-          "series": 1
-        },
-        {
-          "title": "안녕이라 그랬어 :김애란 소설",
-          "author": "김애란",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7073819",
-          "isbn": "9791141602376",
-          "loans": 8,
           "rank": 17,
           "series": 1
         },
         {
-          "title": "흔한남매",
-          "author": "원작: 흔한남매, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/23568/96/cover/k992638123_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5635121",
-          "isbn": "9791164134847",
+          "title": "이중 하나는 거짓말 :김애란 장편소설",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/34474/76/cover200/k292932634_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6933234",
+          "isbn": "9791141601300",
           "loans": 8,
           "rank": 18,
-          "series": 3
+          "series": 1
         },
         {
           "title": "주와 연 :청예 장편소설",
