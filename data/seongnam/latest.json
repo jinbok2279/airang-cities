@@ -1,28 +1,12 @@
 {
   "region": "성남시",
-  "updated_at": "2026-11-19 10:58:00",
+  "updated_at": "2026-11-20 10:51:30",
   "period": {
-    "from": "20261119",
-    "to": "20270118"
+    "from": "20261120",
+    "to": "20270119"
   },
   "school_count": 156,
   "public_holidays": [
-    {
-      "date": "2026-11-19",
-      "name": "재량휴업일"
-    },
-    {
-      "date": "2026-11-19",
-      "name": "대학수학능력시험(재량휴업일)"
-    },
-    {
-      "date": "2026-11-19",
-      "name": "대학수학능력시험"
-    },
-    {
-      "date": "2026-11-19",
-      "name": "대입수능고사"
-    },
     {
       "date": "2026-12-25",
       "name": "성탄절"
@@ -146,697 +130,17 @@
     {
       "date": "2027-01-18",
       "name": "동계방학"
+    },
+    {
+      "date": "2027-01-19",
+      "name": "겨울방학"
+    },
+    {
+      "date": "2027-01-19",
+      "name": "동계방학"
     }
   ],
   "highlights": [
-    {
-      "school": "계원예술고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일-수능(1,2,3학년)",
-      "holiday": true
-    },
-    {
-      "school": "금광중학교",
-      "level": "중학교",
-      "gu": "중원구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "낙생고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "낙원중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "내정중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력평가실시",
-      "holiday": true
-    },
-    {
-      "school": "내정중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "늘푸른고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "늘푸른중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일(대입수능)",
-      "holiday": true
-    },
-    {
-      "school": "대원중학교",
-      "level": "중학교",
-      "gu": "중원구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "돌마고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "동광고등학교",
-      "level": "고등학교",
-      "gu": "중원구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "동광중학교",
-      "level": "중학교",
-      "gu": "중원구",
-      "date": "2026-11-19",
-      "name": "대입수학능력평가",
-      "holiday": true
-    },
-    {
-      "school": "매송중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "백현중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대입수능일(재량휴업일)",
-      "holiday": true
-    },
-    {
-      "school": "보평고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "보평중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험일",
-      "holiday": true
-    },
-    {
-      "school": "복정고등학교",
-      "level": "고등학교",
-      "gu": "수정구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험일",
-      "holiday": true
-    },
-    {
-      "school": "분당경영고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "수학능력시험일",
-      "holiday": true
-    },
-    {
-      "school": "분당고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력평가_1,2학년 휴업일",
-      "holiday": true
-    },
-    {
-      "school": "분당고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "분당구미중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일(대학수학능력시험)",
-      "holiday": true
-    },
-    {
-      "school": "분당대진고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험일(재량휴업일)-1,2학년",
-      "holiday": true
-    },
-    {
-      "school": "분당대진고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "분당아람고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "분당영덕여자고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험일",
-      "holiday": true
-    },
-    {
-      "school": "분당중앙고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "분당중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수능일",
-      "holiday": true
-    },
-    {
-      "school": "불곡고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "불곡중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "수능일(재량휴업일)",
-      "holiday": true
-    },
-    {
-      "school": "삼평중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "삼평중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "상원여자중학교",
-      "level": "중학교",
-      "gu": "수정구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험(학교장재량휴업일)",
-      "holiday": true
-    },
-    {
-      "school": "샛별중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "서현고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "학교장재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "서현고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "서현중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "성남고등학교",
-      "level": "고등학교",
-      "gu": "중원구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "성남동중학교",
-      "level": "중학교",
-      "gu": "중원구",
-      "date": "2026-11-19",
-      "name": "학교장재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "성남문원중학교",
-      "level": "중학교",
-      "gu": "수정구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "성남서중학교",
-      "level": "중학교",
-      "gu": "수정구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험 재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "성남송현초등학교",
-      "level": "초등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "겨울AI축제",
-      "holiday": false
-    },
-    {
-      "school": "성남여자고등학교",
-      "level": "고등학교",
-      "gu": "중원구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "성남여자중학교",
-      "level": "중학교",
-      "gu": "수정구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "성남외국어고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "성남중학교",
-      "level": "중학교",
-      "gu": "중원구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "성남테크노과학고등학교",
-      "level": "고등학교",
-      "gu": "중원구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "성보경영고등학교",
-      "level": "고등학교",
-      "gu": "수정구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "성일고등학교",
-      "level": "고등학교",
-      "gu": "중원구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험(휴업일)",
-      "holiday": true
-    },
-    {
-      "school": "성일중학교",
-      "level": "중학교",
-      "gu": "중원구",
-      "date": "2026-11-19",
-      "name": "대입수능일",
-      "holiday": true
-    },
-    {
-      "school": "송림고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "송림중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "수내고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "수내중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "수진중학교",
-      "level": "중학교",
-      "gu": "수정구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "숭신고등학교",
-      "level": "고등학교",
-      "gu": "중원구",
-      "date": "2026-11-19",
-      "name": "대입수능",
-      "holiday": true
-    },
-    {
-      "school": "신백현중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "학교장재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "야탑고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "야탑고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "야탑중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대입수능일",
-      "holiday": true
-    },
-    {
-      "school": "양영디지털고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "양영디지털고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "양영중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "영성중학교",
-      "level": "중학교",
-      "gu": "중원구",
-      "date": "2026-11-19",
-      "name": "학교장 재량휴업일(대학수학능력시험)",
-      "holiday": true
-    },
-    {
-      "school": "운중고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "운중중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "위례중앙중학교",
-      "level": "중학교",
-      "gu": "수정구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "위례한빛고등학교",
-      "level": "고등학교",
-      "gu": "수정구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험일",
-      "holiday": true
-    },
-    {
-      "school": "위례한빛중학교",
-      "level": "중학교",
-      "gu": "수정구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "은행중학교",
-      "level": "중학교",
-      "gu": "중원구",
-      "date": "2026-11-19",
-      "name": "학교장재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "이매고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "이매중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "수능시험일",
-      "holiday": true
-    },
-    {
-      "school": "이우고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "이우고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "이우고 신입학 전형",
-      "holiday": true
-    },
-    {
-      "school": "이우중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "장안중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일(대학수학능력시험)",
-      "holiday": true
-    },
-    {
-      "school": "창성중학교",
-      "level": "중학교",
-      "gu": "수정구",
-      "date": "2026-11-19",
-      "name": "재량휴업",
-      "holiday": true
-    },
-    {
-      "school": "태원고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "태평중학교",
-      "level": "중학교",
-      "gu": "수정구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "판교고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "판교대장중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일(대학수학능력시험)",
-      "holiday": true
-    },
-    {
-      "school": "판교중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "수능재량휴업",
-      "holiday": true
-    },
-    {
-      "school": "풍생고등학교",
-      "level": "고등학교",
-      "gu": "수정구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험실시",
-      "holiday": true
-    },
-    {
-      "school": "풍생중학교",
-      "level": "중학교",
-      "gu": "수정구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "하탑중학교",
-      "level": "중학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "재량휴업일",
-      "holiday": true
-    },
-    {
-      "school": "한솔고등학교",
-      "level": "고등학교",
-      "gu": "분당구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
-    {
-      "school": "효성고등학교",
-      "level": "고등학교",
-      "gu": "수정구",
-      "date": "2026-11-19",
-      "name": "대학수학능력시험",
-      "holiday": true
-    },
     {
       "school": "낙생고등학교",
       "level": "고등학교",
@@ -20796,6 +20100,1142 @@
       "date": "2027-01-18",
       "name": "겨울방학",
       "holiday": true
+    },
+    {
+      "school": "검단초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "계원예술고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "구미초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "금광중학교",
+      "level": "중학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "금빛초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "금상초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "낙생고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "낙원중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "내정중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "내정초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "늘푸른고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "늘푸른중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "늘푸른초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "단남초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "단대초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "당촌초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대원중학교",
+      "level": "중학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대원중학교",
+      "level": "중학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대일초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "대하초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "도촌중학교",
+      "level": "중학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "도촌초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "돌마고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "돌마초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "동광고등학교",
+      "level": "고등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "동광중학교",
+      "level": "중학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "매송중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "백현초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "보평고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "보평중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "복정고등학교",
+      "level": "고등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "분당경영고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "분당고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "분당구미중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "분당대진고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "분당영덕여자고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "분당중앙고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "방학",
+      "holiday": true
+    },
+    {
+      "school": "분당중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "분당초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "불곡고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "불곡중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "불곡초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "학년말 방학",
+      "holiday": true
+    },
+    {
+      "school": "불정초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "산운초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "삼평중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상대원초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상원여자중학교",
+      "level": "중학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "상탑초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "샛별중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서당초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서현고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서현중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "서현초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남고등학교",
+      "level": "고등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "방학일",
+      "holiday": true
+    },
+    {
+      "school": "성남동중학교",
+      "level": "중학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남동초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남매송초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남문원중학교",
+      "level": "중학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "성남미금초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남북초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남서중학교",
+      "level": "중학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남서초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남송현초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남수정초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남신기초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남신흥초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남양지초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남여수초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남여자고등학교",
+      "level": "고등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남여자중학교",
+      "level": "중학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남외국어고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남은행초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남장안초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남정자초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남제일초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남중앙초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남중학교",
+      "level": "중학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성남화랑초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성보경영고등학교",
+      "level": "고등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성수초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성일고등학교",
+      "level": "고등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성일정보고등학교",
+      "level": "고등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "성일중학교",
+      "level": "중학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "송림고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "송림중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "수내고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "수내중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "수내초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "수진중학교",
+      "level": "중학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "수진초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "숭신고등학교",
+      "level": "고등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "숭신중학교",
+      "level": "중학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "신백현중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "신백현초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "안말초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "야탑고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "야탑중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "야탑초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양영디지털고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "방학일",
+      "holiday": true
+    },
+    {
+      "school": "양영중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "양영초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "영성중학교",
+      "level": "중학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "오리초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "왕남초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "운중고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "운중중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "운중초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "위례고운초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "위례중앙중학교",
+      "level": "중학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "위례중앙초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "위례푸른초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "위례한빛고등학교",
+      "level": "고등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "위례한빛중학교",
+      "level": "중학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학(전학년)",
+      "holiday": true
+    },
+    {
+      "school": "위례한빛초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "위례해솔초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "은행중학교",
+      "level": "중학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이매고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이매중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이매초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이우고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "이우중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "장안중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "중부초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "중원초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "중탑초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "창성중학교",
+      "level": "중학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "청솔초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "초림초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "탄천초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "태평초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "판교고등학교",
+      "level": "고등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "판교대장중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "동계방학중",
+      "holiday": true
+    },
+    {
+      "school": "판교대장초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "판교중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "판교초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "하원초등학교",
+      "level": "초등학교",
+      "gu": "중원구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "하탑중학교",
+      "level": "중학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "하탑초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "한솔초등학교",
+      "level": "초등학교",
+      "gu": "분당구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
+    },
+    {
+      "school": "효성고등학교",
+      "level": "고등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "동계방학",
+      "holiday": true
+    },
+    {
+      "school": "희망대초등학교",
+      "level": "초등학교",
+      "gu": "수정구",
+      "date": "2027-01-19",
+      "name": "겨울방학",
+      "holiday": true
     }
   ],
   "schools": [
@@ -20914,6 +21354,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -21061,6 +21506,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -21176,6 +21626,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -21286,6 +21741,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -21394,6 +21854,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -21571,6 +22036,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -21706,6 +22176,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -21717,11 +22192,6 @@
       "gu": "분당구",
       "dong": "구미동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "전교임원선거",
-          "holiday": false
-        },
         {
           "date": "2026-12-14",
           "name": "졸업식",
@@ -21856,6 +22326,11 @@
           "date": "2027-01-18",
           "name": "학년말 방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "학년말 방학",
+          "holiday": true
         }
       ]
     },
@@ -21969,6 +22444,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -22086,6 +22566,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -22189,6 +22674,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -22306,6 +22796,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -22421,6 +22916,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -22531,6 +23031,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -22551,6 +23056,11 @@
           "date": "2027-01-18",
           "name": "졸업식",
           "holiday": false
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -22562,11 +23072,6 @@
       "gu": "분당구",
       "dong": "삼평동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "겨울AI축제",
-          "holiday": false
-        },
         {
           "date": "2026-11-20",
           "name": "겨울AI축제",
@@ -22719,6 +23224,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -22911,6 +23421,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -23031,6 +23546,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -23144,6 +23664,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -23266,6 +23791,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -23369,6 +23899,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -23476,6 +24011,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -23489,12 +24029,12 @@
       "events": [
         {
           "date": "2026-12-31",
-          "name": "졸업식",
+          "name": "종업식",
           "holiday": false
         },
         {
           "date": "2026-12-31",
-          "name": "종업식",
+          "name": "졸업식",
           "holiday": false
         },
         {
@@ -23554,6 +24094,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -23669,6 +24214,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -23791,6 +24341,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -23874,6 +24429,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -23991,6 +24551,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -24104,6 +24669,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -24286,6 +24856,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -24399,6 +24974,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -24521,6 +25101,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -24636,6 +25221,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -24724,6 +25314,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -24839,6 +25434,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -25021,6 +25621,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -25136,6 +25741,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -25239,6 +25849,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -25368,6 +25983,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -25510,6 +26130,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -25618,6 +26243,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -25733,6 +26363,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -25920,6 +26555,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -26033,6 +26673,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -26155,6 +26800,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -26263,6 +26913,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -26380,6 +27035,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -26488,6 +27148,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -26675,6 +27340,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -26790,6 +27460,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -26888,6 +27563,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -27000,6 +27680,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -27083,6 +27768,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -27198,6 +27888,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -27320,6 +28015,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -27430,6 +28130,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -27508,6 +28213,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -27618,6 +28328,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -27742,6 +28457,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -27894,6 +28614,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -28004,6 +28729,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -28112,6 +28842,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -28238,6 +28973,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -28346,6 +29086,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -28463,6 +29208,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -28573,6 +29323,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -28681,6 +29436,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -28798,6 +29558,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -28906,6 +29671,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -29023,6 +29793,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -29034,11 +29809,6 @@
       "gu": "분당구",
       "dong": "판교동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "리더십캠프",
@@ -29173,6 +29943,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -29184,16 +29959,6 @@
       "gu": "분당구",
       "dong": "수내동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력평가실시",
-          "holiday": true
-        },
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "진로활동",
@@ -29348,6 +30113,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -29359,11 +30129,6 @@
       "gu": "분당구",
       "dong": "정자동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일(대입수능)",
-          "holiday": true
-        },
         {
           "date": "2027-01-07",
           "name": "겨울방학식",
@@ -29423,6 +30188,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -29434,11 +30204,6 @@
       "gu": "분당구",
       "dong": "이매동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-12-07",
           "name": "2학기 2차 정기시험",
@@ -29533,6 +30298,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -29544,11 +30314,6 @@
       "gu": "분당구",
       "dong": "정자동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대입수능일(재량휴업일)",
-          "holiday": true
-        },
         {
           "date": "2026-12-31",
           "name": "방학식",
@@ -29564,11 +30329,6 @@
       "gu": "분당구",
       "dong": "백현동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험일",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -29683,6 +30443,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -29694,11 +30459,6 @@
       "gu": "분당구",
       "dong": "구미동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일(대학수학능력시험)",
-          "holiday": true
-        },
         {
           "date": "2026-11-25",
           "name": "교육과정평가회(5교시운영)",
@@ -29798,6 +30558,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -29809,11 +30574,6 @@
       "gu": "분당구",
       "dong": "정자동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수능일",
-          "holiday": true
-        },
         {
           "date": "2027-01-07",
           "name": "겨울방학",
@@ -29873,6 +30633,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -29884,11 +30649,6 @@
       "gu": "분당구",
       "dong": "구미동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "수능일(재량휴업일)",
-          "holiday": true
-        },
         {
           "date": "2026-11-23",
           "name": "2학기 2차 지필평가",
@@ -30038,6 +30798,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -30049,16 +30814,6 @@
       "gu": "분당구",
       "dong": "삼평동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-12-14",
           "name": "2학기 2차 지필평가(1,2학년)",
@@ -30153,6 +30908,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -30164,11 +30924,6 @@
       "gu": "분당구",
       "dong": "수내동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-23",
           "name": "학부모상담주간",
@@ -30268,6 +31023,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -30279,11 +31039,6 @@
       "gu": "분당구",
       "dong": "서현동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "진로체험",
@@ -30418,6 +31173,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -30429,11 +31189,6 @@
       "gu": "분당구",
       "dong": "이매동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -30553,6 +31308,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -30564,11 +31324,6 @@
       "gu": "분당구",
       "dong": "수내동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2027-01-05",
           "name": "겨울방학식",
@@ -30638,6 +31393,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -30649,11 +31409,6 @@
       "gu": "분당구",
       "dong": "백현동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "학교장재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-12-16",
           "name": "2학기2차지필평가",
@@ -30733,6 +31488,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -30744,11 +31504,6 @@
       "gu": "분당구",
       "dong": "야탑동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대입수능일",
-          "holiday": true
-        },
         {
           "date": "2026-12-07",
           "name": "정기시험",
@@ -30838,6 +31593,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -30849,11 +31609,6 @@
       "gu": "분당구",
       "dong": "서현동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-12-08",
           "name": "2학기 2차 정기시험",
@@ -30973,6 +31728,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -30984,11 +31744,6 @@
       "gu": "분당구",
       "dong": "운중동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "잡월드체험",
@@ -31098,6 +31853,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -31109,11 +31869,6 @@
       "gu": "분당구",
       "dong": "이매동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "수능시험일",
-          "holiday": true
-        },
         {
           "date": "2026-11-25",
           "name": "동아리활동",
@@ -31223,6 +31978,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -31234,11 +31994,6 @@
       "gu": "분당구",
       "dong": "동원동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -31323,6 +32078,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -31334,11 +32094,6 @@
       "gu": "분당구",
       "dong": "분당동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일(대학수학능력시험)",
-          "holiday": true
-        },
         {
           "date": "2026-12-02",
           "name": "교육과정평가회",
@@ -31438,6 +32193,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -31458,11 +32218,6 @@
       "gu": "분당구",
       "dong": "대장동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일(대학수학능력시험)",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "성적처리이의신청",
@@ -31582,6 +32337,11 @@
           "date": "2027-01-18",
           "name": "동계방학중",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "동계방학중",
+          "holiday": true
         }
       ]
     },
@@ -31593,11 +32353,6 @@
       "gu": "분당구",
       "dong": "판교동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "수능재량휴업",
-          "holiday": true
-        },
         {
           "date": "2027-01-07",
           "name": "겨울방학",
@@ -31657,6 +32412,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -31668,11 +32428,6 @@
       "gu": "분당구",
       "dong": "야탑동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-12-01",
           "name": "2차지필평가",
@@ -31817,6 +32572,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -31828,11 +32588,6 @@
       "gu": "수정구",
       "dong": "단대동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험(학교장재량휴업일)",
-          "holiday": true
-        },
         {
           "date": "2026-11-23",
           "name": "3학년 정기시험",
@@ -31932,6 +32687,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -31943,11 +32703,6 @@
       "gu": "수정구",
       "dong": "단대동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-11-24",
           "name": "다문화교육",
@@ -32052,6 +32807,11 @@
           "date": "2027-01-18",
           "name": "동계방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "동계방학",
+          "holiday": true
         }
       ]
     },
@@ -32063,11 +32823,6 @@
       "gu": "수정구",
       "dong": "단대동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험 재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2027-01-07",
           "name": "겨울방학",
@@ -32127,6 +32882,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -32138,11 +32898,6 @@
       "gu": "수정구",
       "dong": "신흥동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-12-15",
           "name": "2차 지필평가",
@@ -32222,6 +32977,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -32233,11 +32993,6 @@
       "gu": "수정구",
       "dong": "수진동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2027-01-07",
           "name": "겨울방학",
@@ -32297,6 +33052,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -32308,11 +33068,6 @@
       "gu": "수정구",
       "dong": "창곡동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-27",
           "name": "학생자치임원선거",
@@ -32422,6 +33177,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -32433,11 +33193,6 @@
       "gu": "수정구",
       "dong": "창곡동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-12-08",
           "name": "2학기 2차지필(1,2)",
@@ -32537,6 +33292,11 @@
           "date": "2027-01-18",
           "name": "겨울방학(전학년)",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학(전학년)",
+          "holiday": true
         }
       ]
     },
@@ -32548,11 +33308,6 @@
       "gu": "수정구",
       "dong": "산성동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업",
-          "holiday": true
-        },
         {
           "date": "2026-11-23",
           "name": "2차정기시험",
@@ -32642,6 +33397,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -32652,13 +33412,7 @@
       "address": "경기도 성남시 수정구 제일로 223",
       "gu": "수정구",
       "dong": "태평동",
-      "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        }
-      ]
+      "events": []
     },
     {
       "code": "7551044",
@@ -32668,11 +33422,6 @@
       "gu": "수정구",
       "dong": "수진동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-23",
           "name": "개교기념일",
@@ -32749,11 +33498,6 @@
       "dong": "금광동",
       "events": [
         {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
-        {
           "date": "2026-12-15",
           "name": "2회 지필평가(1,2학년)",
           "holiday": false
@@ -32797,6 +33541,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -32808,11 +33557,6 @@
       "gu": "중원구",
       "dong": "금광동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-11-23",
           "name": "2학기 2차 정기시험",
@@ -32900,6 +33644,16 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -33077,6 +33831,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -33088,11 +33847,6 @@
       "gu": "중원구",
       "dong": "성남동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대입수학능력평가",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업",
@@ -33227,6 +33981,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -33238,11 +33997,6 @@
       "gu": "중원구",
       "dong": "금광동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "학교장재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "진로활동",
@@ -33347,6 +34101,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -33358,11 +34117,6 @@
       "gu": "중원구",
       "dong": "성남동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-12-14",
           "name": "2학기 2차 정기시험",
@@ -33427,6 +34181,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -33438,11 +34197,6 @@
       "gu": "중원구",
       "dong": "",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대입수능일",
-          "holiday": true
-        },
         {
           "date": "2027-01-08",
           "name": "겨울방학",
@@ -33495,6 +34249,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -33637,6 +34396,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -33649,11 +34413,6 @@
       "dong": "하대원동",
       "events": [
         {
-          "date": "2026-11-19",
-          "name": "학교장 재량휴업일(대학수학능력시험)",
-          "holiday": true
-        },
-        {
           "date": "2026-12-15",
           "name": "2차 정기시험",
           "holiday": false
@@ -33665,12 +34424,12 @@
         },
         {
           "date": "2027-01-07",
-          "name": "졸업식",
+          "name": "종업식",
           "holiday": false
         },
         {
           "date": "2027-01-07",
-          "name": "종업식",
+          "name": "졸업식",
           "holiday": false
         },
         {
@@ -33727,6 +34486,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -33738,11 +34502,6 @@
       "gu": "중원구",
       "dong": "은행동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "학교장재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-11-24",
           "name": "2학기 2차 지필평가",
@@ -33847,6 +34606,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -33858,11 +34622,6 @@
       "gu": "분당구",
       "dong": "정자동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일-수능(1,2,3학년)",
-          "holiday": true
-        },
         {
           "date": "2026-11-23",
           "name": "전공시험(무용)",
@@ -34027,6 +34786,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -34038,11 +34802,6 @@
       "gu": "분당구",
       "dong": "판교동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "개교기념일휴업",
@@ -34242,6 +35001,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -34253,11 +35017,6 @@
       "gu": "분당구",
       "dong": "정자동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-12-15",
           "name": "겨울방학",
@@ -34432,6 +35191,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -34443,11 +35207,6 @@
       "gu": "분당구",
       "dong": "이매동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -34512,6 +35271,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -34523,11 +35287,6 @@
       "gu": "분당구",
       "dong": "백현동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-23",
           "name": "2학기 2차 정기시험",
@@ -34652,6 +35411,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -34663,11 +35427,6 @@
       "gu": "분당구",
       "dong": "금곡동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "수학능력시험일",
-          "holiday": true
-        },
         {
           "date": "2026-12-23",
           "name": "졸업식",
@@ -34807,6 +35566,11 @@
           "date": "2027-01-18",
           "name": "동계방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "동계방학",
+          "holiday": true
         }
       ]
     },
@@ -34818,16 +35582,6 @@
       "gu": "분당구",
       "dong": "수내동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력평가_1,2학년 휴업일",
-          "holiday": true
-        },
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-23",
           "name": "2학기 2차 정기시험",
@@ -34972,6 +35726,11 @@
           "date": "2027-01-18",
           "name": "동계방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "동계방학",
+          "holiday": true
         }
       ]
     },
@@ -34983,16 +35742,6 @@
       "gu": "분당구",
       "dong": "분당동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험일(재량휴업일)-1,2학년",
-          "holiday": true
-        },
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "전학공의 날",
@@ -35177,6 +35926,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -35188,11 +35942,6 @@
       "gu": "분당구",
       "dong": "야탑동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-12-10",
           "name": "2학기 2차 정기시험",
@@ -35233,11 +35982,6 @@
       "gu": "분당구",
       "dong": "야탑동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험일",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -35367,6 +36111,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -35378,11 +36127,6 @@
       "gu": "분당구",
       "dong": "정자동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -35502,6 +36246,11 @@
           "date": "2027-01-18",
           "name": "방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "방학",
+          "holiday": true
         }
       ]
     },
@@ -35513,11 +36262,6 @@
       "gu": "분당구",
       "dong": "구미동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-23",
           "name": "2학기 3학년 2차 정기시험",
@@ -35627,6 +36371,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -35638,16 +36387,6 @@
       "gu": "분당구",
       "dong": "서현동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "학교장재량휴업일",
-          "holiday": true
-        },
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "학교장재량휴업일",
@@ -35837,6 +36576,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -35848,11 +36592,6 @@
       "gu": "분당구",
       "dong": "백현동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "학교장재량휴업일",
@@ -36002,6 +36741,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -36013,11 +36757,6 @@
       "gu": "분당구",
       "dong": "이매동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -36162,6 +36901,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -36173,11 +36917,6 @@
       "gu": "분당구",
       "dong": "수내동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-11-24",
           "name": "교육공동체 토론회",
@@ -36282,6 +37021,11 @@
           "date": "2027-01-18",
           "name": "동계방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "동계방학",
+          "holiday": true
         }
       ]
     },
@@ -36293,16 +37037,6 @@
       "gu": "분당구",
       "dong": "야탑동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -36407,6 +37141,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -36418,16 +37157,6 @@
       "gu": "분당구",
       "dong": "서현동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
         {
           "date": "2026-12-01",
           "name": "2차 정기시험",
@@ -36517,6 +37246,11 @@
           "date": "2027-01-18",
           "name": "방학일",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "방학일",
+          "holiday": true
         }
       ]
     },
@@ -36528,11 +37262,6 @@
       "gu": "분당구",
       "dong": "",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -36717,6 +37446,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -36728,11 +37462,6 @@
       "gu": "분당구",
       "dong": "이매동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -36862,6 +37591,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -36873,16 +37607,6 @@
       "gu": "분당구",
       "dong": "동원동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
-        {
-          "date": "2026-11-19",
-          "name": "이우고 신입학 전형",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "이우고 신입학 전형",
@@ -36967,6 +37691,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -36978,11 +37707,6 @@
       "gu": "분당구",
       "dong": "야탑동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -37058,11 +37782,6 @@
       "gu": "분당구",
       "dong": "삼평동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-12-16",
           "name": "2차정기시험",
@@ -37157,6 +37876,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -37168,11 +37892,6 @@
       "gu": "분당구",
       "dong": "정자동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-23",
           "name": "2학기 2차 지필평가(3학년)",
@@ -37248,11 +37967,6 @@
       "gu": "수정구",
       "dong": "복정동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험일",
-          "holiday": true
-        },
         {
           "date": "2026-11-25",
           "name": "지필평가 2학기 2차(3학년)",
@@ -37357,6 +38071,11 @@
           "date": "2027-01-18",
           "name": "동계방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "동계방학",
+          "holiday": true
         }
       ]
     },
@@ -37368,11 +38087,6 @@
       "gu": "수정구",
       "dong": "단대동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-12-02",
           "name": "동아리활동",
@@ -37452,6 +38166,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -37463,11 +38182,6 @@
       "gu": "수정구",
       "dong": "창곡동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험일",
-          "holiday": true
-        },
         {
           "date": "2026-11-27",
           "name": "2학기 2차 지필평가",
@@ -37577,6 +38291,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -37588,11 +38307,6 @@
       "gu": "수정구",
       "dong": "수진동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험실시",
-          "holiday": true
-        },
         {
           "date": "2026-11-23",
           "name": "개교기념일",
@@ -37653,11 +38367,6 @@
       "gu": "수정구",
       "dong": "심곡동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -37922,6 +38631,11 @@
           "date": "2027-01-18",
           "name": "동계방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "동계방학",
+          "holiday": true
         }
       ]
     },
@@ -37933,11 +38647,6 @@
       "gu": "중원구",
       "dong": "성남동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -38097,6 +38806,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -38108,11 +38822,6 @@
       "gu": "중원구",
       "dong": "성남동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -38212,6 +38921,11 @@
           "date": "2027-01-18",
           "name": "방학일",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "방학일",
+          "holiday": true
         }
       ]
     },
@@ -38223,11 +38937,6 @@
       "gu": "중원구",
       "dong": "성남동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -38327,6 +39036,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -38338,16 +39052,6 @@
       "gu": "중원구",
       "dong": "하대원동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "재량휴업일",
-          "holiday": true
-        },
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험",
-          "holiday": false
-        },
         {
           "date": "2026-11-23",
           "name": "졸업사정회",
@@ -38408,11 +39112,6 @@
       "gu": "중원구",
       "dong": "성남동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대학수학능력시험(휴업일)",
-          "holiday": true
-        },
         {
           "date": "2026-11-23",
           "name": "2학기 2차 정기시험(3학년)",
@@ -38505,6 +39204,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
@@ -38642,6 +39346,11 @@
           "date": "2027-01-18",
           "name": "겨울방학",
           "holiday": true
+        },
+        {
+          "date": "2027-01-19",
+          "name": "겨울방학",
+          "holiday": true
         }
       ]
     },
@@ -38653,11 +39362,6 @@
       "gu": "중원구",
       "dong": "금광동",
       "events": [
-        {
-          "date": "2026-11-19",
-          "name": "대입수능",
-          "holiday": true
-        },
         {
           "date": "2026-11-20",
           "name": "재량휴업일",
@@ -38800,6 +39504,11 @@
         },
         {
           "date": "2027-01-18",
+          "name": "겨울방학",
+          "holiday": true
+        },
+        {
+          "date": "2027-01-19",
           "name": "겨울방학",
           "holiday": true
         }
