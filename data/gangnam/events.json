@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-19 11:43:43",
+ "updated_at": "2026-11-20 11:22:30",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -270,10 +270,10 @@
    "lib": "서울특별시 강남구 언주로107길 4 2층 (역삼동) 2층 서울형 키즈카페",
    "target": "유아",
    "place": "서울특별시 강남구 언주로107길 4 2층 (역삼동) 2층 서울형 키즈카페",
-   "start": "2026-11-19",
+   "start": "2026-11-20",
    "end": "2026-11-30",
    "period": "",
-   "applyStart": "2026-11-19",
+   "applyStart": "2026-11-20",
    "applyEnd": "2026-11-30",
    "apply": "",
    "count": "",
@@ -290,10 +290,10 @@
    "lib": "서울특별시 강남구 남부순환로391길 25 강남성은교회 2층 (대치동)",
    "target": "유아",
    "place": "서울특별시 강남구 남부순환로391길 25 강남성은교회 2층 (대치동)",
-   "start": "2026-11-19",
+   "start": "2026-11-20",
    "end": "2026-11-30",
    "period": "",
-   "applyStart": "2026-11-19",
+   "applyStart": "2026-11-20",
    "applyEnd": "2026-11-30",
    "apply": "",
    "count": "",
@@ -335,6 +335,21 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159714&menuNo=200009",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bb8f2e8d55af4dd59366566f8a5f2811&thumb=Y"
+  },
+  {
+   "id": "S456f9b1e80",
+   "title": "[역삼푸른솔도서관] 작가힙톡(Hip-Talk) [지금, 삶을 쓰다]",
+   "start": "2026-11-20",
+   "end": "2026-11-27",
+   "place": "역삼푸른솔도서관 프로그램실",
+   "time": "19:00~21:00",
+   "grade": "성인",
+   "price": "",
+   "free": true,
+   "kind": "교육/체험",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160145&menuNo=200011",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=77ae30ec58b8449995b8cd70d8257de7&thumb=Y"
   },
   {
    "id": "S250fb32590",
@@ -385,21 +400,6 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160204&menuNo=200009",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bda1b58d1cc44da79ac843a4c10741be&thumb=Y"
-  },
-  {
-   "id": "S456f9b1e80",
-   "title": "[역삼푸른솔도서관] 작가힙톡(Hip-Talk) [지금, 삶을 쓰다]",
-   "start": "2026-11-20",
-   "end": "2026-11-27",
-   "place": "역삼푸른솔도서관 프로그램실",
-   "time": "19:00~21:00",
-   "grade": "성인",
-   "price": "",
-   "free": true,
-   "kind": "교육/체험",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160145&menuNo=200011",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=77ae30ec58b8449995b8cd70d8257de7&thumb=Y"
   },
   {
    "id": "S6c016ccce4",
@@ -475,6 +475,21 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160068&menuNo=200008",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=028bbf4f30e742e79261f5d44de4bc11&thumb=Y"
+  },
+  {
+   "id": "S0290f70a49",
+   "title": "제51회 대한민국전승공예대전",
+   "start": "2026-12-16",
+   "end": "2026-12-24",
+   "place": "국가무형유산전수교육관 2, 3층 전시장 '결', '올'",
+   "time": "10:00 ~ 19:00 / 휴관 없음",
+   "grade": "누구나",
+   "price": "",
+   "free": true,
+   "kind": "전시/미술",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160245&menuNo=200009",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=154fae42a97b4ad28fa7907d35bbf3a9&thumb=Y"
   }
  ]
 }
