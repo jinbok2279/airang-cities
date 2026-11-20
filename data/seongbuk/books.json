@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19 12:20:34",
+  "updated_at": "2026-11-20 12:04:32",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -8,6 +8,17 @@
       "desc": "성북구 공공도서관 · 초등(8~13세) 대출 · 최근 1달",
       "books": [
         {
+          "title": "흔한남매 과학 탐험대",
+          "author": "원작: 흔한남매, 임혜영",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/37906/10/cover200/k712033833_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7187385",
+          "isbn": "9791173324123",
+          "loans": 8,
+          "rank": 1,
+          "series": 3
+        },
+        {
           "title": "밤낮 레스토랑",
           "author": "글·노예지",
           "publisher": "북스그라운드",
@@ -15,19 +26,8 @@
           "link": "https://data4library.kr/bookV?seq=7283531",
           "isbn": "9791168343900",
           "loans": 7,
-          "rank": 1,
-          "series": 1
-        },
-        {
-          "title": "흔한남매 과학 탐험대",
-          "author": "원작: 흔한남매, 임혜영",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/37906/10/cover200/k712033833_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7187385",
-          "isbn": "9791173324123",
-          "loans": 7,
           "rank": 2,
-          "series": 2
+          "series": 1
         },
         {
           "title": "빨간내복야코 안 읽으면 완전 위험한 과학책",
@@ -49,7 +49,7 @@
           "isbn": "9791194616047",
           "loans": 7,
           "rank": 4,
-          "series": 4
+          "series": 6
         },
         {
           "title": "고양이 해결사 깜냥",
@@ -60,7 +60,7 @@
           "isbn": "9788936448134",
           "loans": 6,
           "rank": 5,
-          "series": 2
+          "series": 4
         },
         {
           "title": "(읽으면서 바로 써먹는) 어린이 맞춤법 행성",
@@ -93,7 +93,7 @@
           "isbn": "9791168419018",
           "loans": 6,
           "rank": 8,
-          "series": 2
+          "series": 3
         },
         {
           "title": "놓지 마 과학!",
@@ -246,6 +246,17 @@
           "series": 1
         },
         {
+          "title": "숨결이 바람 될 때 :서른여섯 젊은 의사의 마지막 순간",
+          "author": "폴 칼라니티 지음, 이종인 옮김",
+          "publisher": "흐름출판",
+          "cover": "https://image.aladin.co.kr/product/8992/81/cover/8965961955_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3289350",
+          "isbn": "9788965961956",
+          "loans": 4,
+          "rank": 2,
+          "series": 1
+        },
+        {
           "title": "역사의 쓸모 :자유롭고 떳떳한 삶을 위한 22가지 통찰",
           "author": "최태성 지음",
           "publisher": "다산북스",
@@ -253,7 +264,7 @@
           "link": "https://data4library.kr/bookV?seq=5428401",
           "isbn": "9791130621968",
           "loans": 4,
-          "rank": 2,
+          "rank": 3,
           "series": 1
         },
         {
@@ -264,7 +275,7 @@
           "link": "https://data4library.kr/bookV?seq=2037399",
           "isbn": "9788936434120",
           "loans": 3,
-          "rank": 3,
+          "rank": 4,
           "series": 1
         },
         {
@@ -275,7 +286,7 @@
           "link": "https://data4library.kr/bookV?seq=3838693",
           "isbn": "9788936458768",
           "loans": 3,
-          "rank": 4,
+          "rank": 5,
           "series": 1
         },
         {
@@ -285,17 +296,6 @@
           "cover": "https://image.aladin.co.kr/product/19874/76/cover/8936477196_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5448422",
           "isbn": "9788936477196",
-          "loans": 3,
-          "rank": 5,
-          "series": 1
-        },
-        {
-          "title": "숨결이 바람 될 때 :서른여섯 젊은 의사의 마지막 순간",
-          "author": "폴 칼라니티 지음, 이종인 옮김",
-          "publisher": "흐름출판",
-          "cover": "https://image.aladin.co.kr/product/8992/81/cover/8965961955_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3289350",
-          "isbn": "9788965961956",
           "loans": 3,
           "rank": 6,
           "series": 1
@@ -323,17 +323,6 @@
           "series": 1
         },
         {
-          "title": "우리동네 도서관 :차인표 장편소설",
-          "author": "차인표",
-          "publisher": "이츠북스",
-          "cover": "https://image.aladin.co.kr/product/39308/40/cover200/k582138031_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7268596",
-          "isbn": "9791194531395",
-          "loans": 3,
-          "rank": 9,
-          "series": 1
-        },
-        {
           "title": "나는 풍요로웠고, 지구는 달라졌다",
           "author": "호프 자런, 김은령",
           "publisher": "김영사",
@@ -341,7 +330,7 @@
           "link": "https://data4library.kr/bookV?seq=5747866",
           "isbn": "9788934990307",
           "loans": 2,
-          "rank": 10,
+          "rank": 9,
           "series": 1
         },
         {
@@ -352,7 +341,7 @@
           "link": "https://data4library.kr/bookV?seq=1864943",
           "isbn": "9788936456450",
           "loans": 2,
-          "rank": 11,
+          "rank": 10,
           "series": 1
         },
         {
@@ -362,6 +351,17 @@
           "cover": "https://image.aladin.co.kr/product/24944/10/cover/8937473291_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5744567",
           "isbn": "9788937473296",
+          "loans": 2,
+          "rank": 11,
+          "series": 1
+        },
+        {
+          "title": "Paint it rock :남무성의 만화로 보는 록의 역사",
+          "author": "남무성",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/4843/83/cover/8937834820_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2648012",
+          "isbn": "9788937834820",
           "loans": 2,
           "rank": 12,
           "series": 1
@@ -479,7 +479,7 @@
           "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7073819",
           "isbn": "9791141602376",
-          "loans": 36,
+          "loans": 35,
           "rank": 2,
           "series": 1
         },
@@ -567,7 +567,7 @@
           "cover": "https://image.aladin.co.kr/product/40019/36/cover200/k742130236_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7312549",
           "isbn": "9791141618575",
-          "loans": 25,
+          "loans": 26,
           "rank": 10,
           "series": 1
         },
@@ -583,17 +583,6 @@
           "series": 1
         },
         {
-          "title": "나의 완벽한 장례식 :조현선 장편소설",
-          "author": "조현선",
-          "publisher": "책읽어주는남자",
-          "cover": "https://image.aladin.co.kr/product/38357/53/cover200/k952135368_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7204893",
-          "isbn": "9791124038192",
-          "loans": 23,
-          "rank": 12,
-          "series": 1
-        },
-        {
           "title": "아코디언 :천명관 장편소설",
           "author": "천명관",
           "publisher": "창비",
@@ -601,7 +590,7 @@
           "link": "https://data4library.kr/bookV?seq=7282009",
           "isbn": "9788936439965",
           "loans": 22,
-          "rank": 13,
+          "rank": 12,
           "series": 1
         },
         {
@@ -612,8 +601,30 @@
           "link": "https://data4library.kr/bookV?seq=7271608",
           "isbn": "9788936450533",
           "loans": 22,
+          "rank": 13,
+          "series": 3
+        },
+        {
+          "title": "나의 완벽한 장례식 :조현선 장편소설",
+          "author": "조현선",
+          "publisher": "책읽어주는남자",
+          "cover": "https://image.aladin.co.kr/product/38357/53/cover200/k952135368_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7204893",
+          "isbn": "9791124038192",
+          "loans": 22,
           "rank": 14,
-          "series": 2
+          "series": 1
+        },
+        {
+          "title": "사춘기 엄마의 오장육부 :이 고약한 시절을 건너는 엄마 동지들에게",
+          "author": "나민애 지음",
+          "publisher": "서교책방",
+          "cover": "https://image.aladin.co.kr/product/39067/21/cover200/k662137858_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7252446",
+          "isbn": "9791124497029",
+          "loans": 22,
+          "rank": 15,
+          "series": 1
         },
         {
           "title": "흔한남매 과학 탐험대",
@@ -623,7 +634,7 @@
           "link": "https://data4library.kr/bookV?seq=7143072",
           "isbn": "9791173322914",
           "loans": 22,
-          "rank": 15,
+          "rank": 16,
           "series": 2
         },
         {
@@ -634,49 +645,38 @@
           "link": "https://data4library.kr/bookV?seq=7177757",
           "isbn": "9791194530701",
           "loans": 22,
-          "rank": 16,
-          "series": 1
-        },
-        {
-          "title": "사춘기 엄마의 오장육부 :이 고약한 시절을 건너는 엄마 동지들에게",
-          "author": "나민애 지음",
-          "publisher": "서교책방",
-          "cover": "https://image.aladin.co.kr/product/39067/21/cover200/k662137858_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7252446",
-          "isbn": "9791124497029",
-          "loans": 21,
           "rank": 17,
           "series": 1
         },
         {
-          "title": "서리꽃 :조정래 장편소설",
-          "author": "조정래",
-          "publisher": "해냄(해냄출판사)",
-          "cover": "https://image.aladin.co.kr/product/40064/80/cover200/k062130041_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7316383",
-          "isbn": "9791167141644",
-          "loans": 21,
+          "title": "빵충 사육 준수 사항",
+          "author": "김혜영 (지은이)",
+          "publisher": "안전가옥",
+          "cover": "https://image.aladin.co.kr/product/39872/66/cover200/k242130313_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7301611",
+          "isbn": "9791194891178",
+          "loans": 22,
           "rank": 18,
           "series": 1
         },
         {
-          "title": "지푸라기 왕관을 쓴 여자 :박상영 장편소설",
-          "author": "박상영",
-          "publisher": "인플루엔셜",
-          "cover": "https://image.aladin.co.kr/product/39834/40/cover200/k032130812_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7297888",
-          "isbn": "9791168344044",
+          "title": "작별하지 않는다 :한강 장편소설",
+          "author": "한강",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/27877/5/cover/8954682154_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6086446",
+          "isbn": "9788954682152",
           "loans": 21,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "가공범",
-          "author": "히가시노 게이고, 김선영",
-          "publisher": "교보문고",
-          "cover": "https://image.aladin.co.kr/product/36786/80/cover200/k472030698_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7094855",
-          "isbn": "9791170612759",
+          "title": "시간의 감촉 :은희경 장편소설",
+          "author": "은희경",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/39536/43/cover200/k182139749_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7280669",
+          "isbn": "9791141617226",
           "loans": 21,
           "rank": 20,
           "series": 1
