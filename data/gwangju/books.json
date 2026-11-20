@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19 11:58:45",
+  "updated_at": "2026-11-20 11:42:31",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -16,7 +16,18 @@
           "isbn": "9791164134847",
           "loans": 11,
           "rank": 1,
-          "series": 18
+          "series": 16
+        },
+        {
+          "title": "흔한남매 흔한 게임 3",
+          "author": "흔한남매 (원작), 권나혜 (글), 도니패밀리 (그림), 흔한컴퍼니 (감수)",
+          "publisher": "미래엔아이세움",
+          "cover": "https://image.aladin.co.kr/product/37092/9/cover200/k972030153_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7145587",
+          "isbn": "9791173479922",
+          "loans": 8,
+          "rank": 2,
+          "series": 1
         },
         {
           "title": "모두의 수영장",
@@ -25,17 +36,6 @@
           "cover": "https://image.aladin.co.kr/product/37542/39/cover200/k962032124_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7170551",
           "isbn": "9791168343252",
-          "loans": 7,
-          "rank": 2,
-          "series": 1
-        },
-        {
-          "title": "슈뻘맨의 슈퍼 상식 월드컵",
-          "author": "원작: 슈뻘맨, 이혜림",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/35796/38/cover200/k602036459_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7016078",
-          "isbn": "9791173320989",
           "loans": 7,
           "rank": 3,
           "series": 1
@@ -49,29 +49,7 @@
           "isbn": "9791173471780",
           "loans": 7,
           "rank": 4,
-          "series": 4
-        },
-        {
-          "title": "흔한남매 흔한 게임 3",
-          "author": "흔한남매 (원작), 권나혜 (글), 도니패밀리 (그림), 흔한컴퍼니 (감수)",
-          "publisher": "미래엔아이세움",
-          "cover": "https://image.aladin.co.kr/product/37092/9/cover200/k972030153_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7145587",
-          "isbn": "9791173479922",
-          "loans": 7,
-          "rank": 5,
-          "series": 1
-        },
-        {
-          "title": "에그박사 :Egg&bugs",
-          "author": "원작: 에그박사, 홍종현",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/37822/25/cover200/k452033590_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7182532",
-          "isbn": "9791175483972",
-          "loans": 7,
-          "rank": 6,
-          "series": 1
+          "series": 3
         },
         {
           "title": "(코믹 메이플스토리) 수학도둑 :창의사고력 강화, 수리논술력을 키워 주는 스토리텔링 수학의 선구자!",
@@ -81,7 +59,7 @@
           "link": "https://data4library.kr/bookV?seq=3422641",
           "isbn": "9788926385999",
           "loans": 6,
-          "rank": 7,
+          "rank": 5,
           "series": 2
         },
         {
@@ -92,7 +70,7 @@
           "link": "https://data4library.kr/bookV?seq=5833701",
           "isbn": "9791164137176",
           "loans": 6,
-          "rank": 8,
+          "rank": 6,
           "series": 1
         },
         {
@@ -103,8 +81,8 @@
           "link": "https://data4library.kr/bookV?seq=6756170",
           "isbn": "9791168416314",
           "loans": 6,
-          "rank": 9,
-          "series": 4
+          "rank": 7,
+          "series": 2
         },
         {
           "title": "(코믹 메이플스토리) 수학도둑 :언제 어디에서나 원리를 응용하여 문제를 격파하는 수학의 해결사!",
@@ -114,7 +92,18 @@
           "link": "https://data4library.kr/bookV?seq=6520013",
           "isbn": "9791169235174",
           "loans": 6,
-          "rank": 10,
+          "rank": 8,
+          "series": 1
+        },
+        {
+          "title": "슈뻘맨의 슈퍼 상식 월드컵",
+          "author": "원작: 슈뻘맨, 이혜림",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/35796/38/cover200/k602036459_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7016078",
+          "isbn": "9791173320989",
+          "loans": 6,
+          "rank": 9,
           "series": 1
         },
         {
@@ -124,6 +113,17 @@
           "cover": "https://image.aladin.co.kr/product/38157/3/cover200/k452034402_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7196281",
           "isbn": "9791173577079",
+          "loans": 6,
+          "rank": 10,
+          "series": 1
+        },
+        {
+          "title": "에그박사 :Egg&bugs",
+          "author": "원작: 에그박사, 홍종현",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/37822/25/cover200/k452033590_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7182532",
+          "isbn": "9791175483972",
           "loans": 6,
           "rank": 11,
           "series": 1
@@ -173,6 +173,17 @@
           "series": 1
         },
         {
+          "title": "타키포오 얼렁뚱땅 상식스쿨",
+          "author": "원작: 캐릭온TV, 조수현",
+          "publisher": "대원씨아이",
+          "cover": "https://image.aladin.co.kr/product/38193/40/cover200/k542034607_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7197288",
+          "isbn": "9791142339653",
+          "loans": 5,
+          "rank": 16,
+          "series": 1
+        },
+        {
           "title": "당연하게도 나는 너를 :이꽃님 장편소설",
           "author": "이꽃님",
           "publisher": "우리학교",
@@ -180,7 +191,18 @@
           "link": "https://data4library.kr/bookV?seq=6650932",
           "isbn": "9791167550972",
           "loans": 5,
-          "rank": 16,
+          "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "실수해도 망한 건 아니야 :생각의 함정에서 벗어나는 12가지 방법",
+          "author": "이현아, 송선옥",
+          "publisher": "우리학교",
+          "cover": "https://image.aladin.co.kr/product/39377/11/cover200/k412139772_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7273236",
+          "isbn": "9791167553867",
+          "loans": 5,
+          "rank": 18,
           "series": 1
         },
         {
@@ -191,7 +213,7 @@
           "link": "https://data4library.kr/bookV?seq=6738249",
           "isbn": "9791168341180",
           "loans": 5,
-          "rank": 17,
+          "rank": 19,
           "series": 1
         },
         {
@@ -201,28 +223,6 @@
           "cover": "https://image.aladin.co.kr/product/30112/78/cover/k402839980_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6558774",
           "isbn": "9791168413078",
-          "loans": 5,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "흔한남매 이무기 :이해하면 무서운 이야기",
-          "author": "원작: 흔한남매, 도니패밀리",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/32095/72/cover/k502834901_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6735778",
-          "isbn": "9791168415577",
-          "loans": 5,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "(흔한남매) 별난 세계 여행",
-          "author": "흔한남매 원작, 정주연 그림",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/34172/56/cover200/k432931118_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6893831",
-          "isbn": "9791168418424",
           "loans": 5,
           "rank": 20,
           "series": 1
@@ -389,6 +389,17 @@
           "series": 1
         },
         {
+          "title": "내가 틀릴 수도 있습니다 =숲속의 현자가 전하는 마지막 인생수업 /I may be wrong",
+          "author": "비욘 나티코 린데블라드 지음, 박미경 옮김",
+          "publisher": "다산북스",
+          "cover": "https://image.aladin.co.kr/product/29269/12/cover/k822837807_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6445483",
+          "isbn": "9791130689890",
+          "loans": 2,
+          "rank": 15,
+          "series": 1
+        },
+        {
           "title": "IT 용어 상식 사전",
           "author": "강소희,최보미 지음",
           "publisher": "길벗",
@@ -396,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=7051106",
           "isbn": "9791140714513",
           "loans": 2,
-          "rank": 15,
+          "rank": 16,
           "series": 1
         },
         {
@@ -406,17 +417,6 @@
           "cover": "https://image.aladin.co.kr/product/34597/89/cover200/k042933677_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6943406",
           "isbn": "9791158742300",
-          "loans": 2,
-          "rank": 16,
-          "series": 1
-        },
-        {
-          "title": "부모는 가장 좋은 입시 멘토다 :꼴찌에서 의대 입학까지, 성적 급상승의 핵심 변수",
-          "author": "박성오 지음",
-          "publisher": "미디어숲",
-          "cover": "https://image.aladin.co.kr/product/38648/5/cover200/k842136511_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7225468",
-          "isbn": "9791158749194",
           "loans": 2,
           "rank": 17,
           "series": 1
@@ -473,6 +473,17 @@
           "series": 22
         },
         {
+          "title": "흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식",
+          "author": "원작: 흔한남매, 유난희",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/34875/95/cover200/k482933053_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6956464",
+          "isbn": "9791168419018",
+          "loans": 17,
+          "rank": 2,
+          "series": 10
+        },
+        {
           "title": "야옹이 수영 교실",
           "author": "신현경 글, 노예지 그림",
           "publisher": "인플루엔셜",
@@ -480,19 +491,8 @@
           "link": "https://data4library.kr/bookV?seq=6738249",
           "isbn": "9791168341180",
           "loans": 16,
-          "rank": 2,
-          "series": 1
-        },
-        {
-          "title": "흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식",
-          "author": "원작: 흔한남매, 유난희",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/29541/3/cover/k292837956_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6469920",
-          "isbn": "9791168411852",
-          "loans": 16,
           "rank": 3,
-          "series": 9
+          "series": 1
         },
         {
           "title": "(흔한남매) 별난 방탈출 :탈출 미션 스토리북",
@@ -506,13 +506,13 @@
           "series": 5
         },
         {
-          "title": "(흔한남매) 흔한 게임",
-          "author": "원작: 흔한남매, 도니패밀리",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/35728/24/cover200/k702036432_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7009790",
-          "isbn": "9791173470660",
-          "loans": 14,
+          "title": "흔한남매 흔한 게임 3",
+          "author": "흔한남매 (원작), 권나혜 (글), 도니패밀리 (그림), 흔한컴퍼니 (감수)",
+          "publisher": "미래엔아이세움",
+          "cover": "https://image.aladin.co.kr/product/37092/9/cover200/k972030153_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7145587",
+          "isbn": "9791173479922",
+          "loans": 15,
           "rank": 5,
           "series": 3
         },
@@ -520,23 +520,12 @@
           "title": "흔한남매 이상한 나라의 고전 읽기",
           "author": "최재훈 글, 정주연 그림",
           "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/38204/99/cover200/k192034812_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7197694",
-          "isbn": "9791175485334",
-          "loans": 14,
-          "rank": 6,
-          "series": 6
-        },
-        {
-          "title": "불편한 편의점 :김호연 장편소설",
-          "author": "김호연",
-          "publisher": "나무옆의자",
-          "cover": "https://image.aladin.co.kr/product/26942/84/cover/k582730818_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5962217",
-          "isbn": "9791161571188",
+          "cover": "https://image.aladin.co.kr/product/30340/91/cover/k052839448_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6576357",
+          "isbn": "9791168413955",
           "loans": 13,
-          "rank": 7,
-          "series": 1
+          "rank": 6,
+          "series": 5
         },
         {
           "title": "흔한남매 이무기 :이해하면 무서운 이야기",
@@ -546,8 +535,19 @@
           "link": "https://data4library.kr/bookV?seq=6735778",
           "isbn": "9791168415577",
           "loans": 13,
-          "rank": 8,
+          "rank": 7,
           "series": 2
+        },
+        {
+          "title": "(비마이펫) 멍냥연구소 :온 세상 반려가족 필수 반려동물 교양만화",
+          "author": "원작: 비마이펫, 박지영",
+          "publisher": "서울문화사",
+          "cover": "https://shopping-phinf.pstatic.net/main_5250131/52501311335.20250115064633.jpg",
+          "link": "https://data4library.kr/bookV?seq=7002451",
+          "isbn": "9791169233958",
+          "loans": 13,
+          "rank": 8,
+          "series": 1
         },
         {
           "title": "수박 수영장 :안녕달 그림책",
@@ -561,6 +561,17 @@
           "series": 1
         },
         {
+          "title": "불편한 편의점 :김호연 장편소설",
+          "author": "김호연",
+          "publisher": "나무옆의자",
+          "cover": "https://image.aladin.co.kr/product/26942/84/cover/k582730818_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5962217",
+          "isbn": "9791161571188",
+          "loans": 12,
+          "rank": 10,
+          "series": 1
+        },
+        {
           "title": "에그박사 19 - 자연 생물 관찰 만화",
           "author": "에그박사 (원작), 박송이 (글), 홍종현 (그림), 이승현 (감수)",
           "publisher": "미래엔아이세움",
@@ -568,29 +579,40 @@
           "link": "https://data4library.kr/bookV?seq=7344394",
           "isbn": "9791175488885",
           "loans": 12,
-          "rank": 10,
+          "rank": 11,
           "series": 1
         },
         {
-          "title": "(정승제의) 수학 대모험",
-          "author": "설민석,재담웹툰랩",
-          "publisher": "단꿈아이",
-          "cover": "https://image.aladin.co.kr/product/38729/56/cover200/k732136845_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7227763",
-          "isbn": "9791194616696",
-          "loans": 12,
-          "rank": 11,
+          "title": "흔한남매 과학 탐험대",
+          "author": "원작: 흔한남매, 임혜영",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/34553/89/cover200/8934935197_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6937593",
+          "isbn": "9788934935193",
+          "loans": 11,
+          "rank": 12,
+          "series": 1
+        },
+        {
+          "title": "엄마가 유령이 되었어!",
+          "author": "노부미 글·그림, 이기웅 옮김",
+          "publisher": "길벗어린이",
+          "cover": "https://image.aladin.co.kr/product/8350/97/cover/8955823509_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3153716",
+          "isbn": "9788955823509",
+          "loans": 11,
+          "rank": 13,
           "series": 1
         },
         {
           "title": "(처음 읽는) 그리스 로마 신화 =First Greek mythology",
           "author": "최설희, 한현동",
           "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/24890/93/cover/k682632377_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5738760",
-          "isbn": "9791164135851",
+          "cover": "https://image.aladin.co.kr/product/24136/50/cover/k182639748_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5676293",
+          "isbn": "9791164135226",
           "loans": 11,
-          "rank": 12,
+          "rank": 14,
           "series": 1
         },
         {
@@ -601,7 +623,7 @@
           "link": "https://data4library.kr/bookV?seq=7170551",
           "isbn": "9791168343252",
           "loans": 11,
-          "rank": 13,
+          "rank": 15,
           "series": 1
         },
         {
@@ -612,7 +634,7 @@
           "link": "https://data4library.kr/bookV?seq=6409046",
           "isbn": "9791168410930",
           "loans": 11,
-          "rank": 14,
+          "rank": 16,
           "series": 1
         },
         {
@@ -623,7 +645,7 @@
           "link": "https://data4library.kr/bookV?seq=6718946",
           "isbn": "9791168415591",
           "loans": 11,
-          "rank": 15,
+          "rank": 17,
           "series": 1
         },
         {
@@ -634,38 +656,16 @@
           "link": "https://data4library.kr/bookV?seq=6893831",
           "isbn": "9791168418424",
           "loans": 11,
-          "rank": 16,
-          "series": 1
-        },
-        {
-          "title": "(비마이펫) 멍냥연구소 :온 세상 반려가족 필수 반려동물 교양만화",
-          "author": "원작: 비마이펫, 박지영",
-          "publisher": "서울문화사",
-          "cover": "https://shopping-phinf.pstatic.net/main_5250131/52501311335.20250115064633.jpg",
-          "link": "https://data4library.kr/bookV?seq=7002451",
-          "isbn": "9791169233958",
-          "loans": 11,
-          "rank": 17,
-          "series": 1
-        },
-        {
-          "title": "슈뻘맨의 숨은 생물 찾기 :관찰하며 배우는 생물 지식",
-          "author": "원작: 슈뻘맨, 류수형",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/36665/44/cover200/k462030289_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7086482",
-          "isbn": "9791173477683",
-          "loans": 11,
           "rank": 18,
           "series": 1
         },
         {
-          "title": "에그박사 :Egg&bugs",
-          "author": "원작: 에그박사, 홍종현",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/37822/25/cover200/k452033590_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7182532",
-          "isbn": "9791175483972",
+          "title": "빨간내복야코 안 읽으면 완전 위험한 과학책",
+          "author": "빨간내복야코 원작, 이영아 그림",
+          "publisher": "위즈덤하우스",
+          "cover": "https://image.aladin.co.kr/product/35626/39/cover200/k772036293_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7005477",
+          "isbn": "9791171713417",
           "loans": 11,
           "rank": 19,
           "series": 1
