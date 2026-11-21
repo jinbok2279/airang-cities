@@ -97,7 +97,7 @@ function render(near) {
   const card = ([k, n, c, gu]) => `
     <a class="lift city ${near === k ? "near" : ""}" style="--c:${c}" href="${url(k)}" onclick="pick('${k}')">
       ${near === k ? `<span class="badge">가까운 곳</span>` : ""}
-      <div class="pic" style="background-image:url(img/hero-${k}-800.webp)"></div>
+      <div class="pic" data-bg="img/hero-${k}-800.webp"></div>
       <img class="ic" src="img/ic-${k}.png" alt="">
       <div class="body"><div class="nm">아이랑 <span>${n}</span></div><div class="gu">${gu}</div><div class="bar"></div></div>
     </a>`;
@@ -109,11 +109,17 @@ function render(near) {
         <div class="list">${["강원", "충북", "세종", "대전", "전북", "전남", "광주", "경북", "경남", "대구", "울산", "부산", "제주"].map(x => `<span>${x}</span>`).join("")}</div>
         <a class="ask" href="${ASK}">✉️ 우리 지역도 열어 주세요</a></div>`
     : `<div class="grid">${CITIES.filter(x => x[6] === tab).map(card).join("")}</div>`;
+  lazyPics();
   const last = CITIES.find(x => x[0] === store.get("airang.city"));
   document.getElementById("again").innerHTML = last ? `
     <a class="lift again" style="--c:${last[2]}" href="${url(last[0])}"><img src="img/ic-${last[0]}.png" alt="">
       <div class="t"><small>지난번에 본 도시</small><b>아이랑 ${last[1]}</b></div><span class="go">바로 가기 ›</span></a>` : "";
 }
+// 사진은 화면에 보일 때만 받기 (첫 방문 데이터 줄이기)
+const picIO = "IntersectionObserver" in window ? new IntersectionObserver(es => es.forEach(e => {
+  if (!e.isIntersecting) return; const el = e.target; el.style.backgroundImage = `url(${el.dataset.bg})`; picIO.unobserve(el);
+}), { rootMargin: "200px 0px" }) : null;
+function lazyPics() { document.querySelectorAll(".pic[data-bg]").forEach(el => picIO ? picIO.observe(el) : (el.style.backgroundImage = `url(${el.dataset.bg})`)); }
 function locate() {
   if (!navigator.geolocation) return;
   navigator.geolocation.getCurrentPosition(p => {
