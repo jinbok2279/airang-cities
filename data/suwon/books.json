@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 11:01:46",
+  "updated_at": "2026-11-22 10:04:23",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -8,23 +8,23 @@
       "desc": "수원시 공공도서관 · 초등(8~13세) 대출 · 최근 1달",
       "books": [
         {
+          "title": "사피엔스 :그래픽 히스토리",
+          "author": "원작·각색: 유발 하라리, 김명주",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/28335/55/cover/8934944188_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6339236",
+          "isbn": "9788934944188",
+          "loans": 5,
+          "rank": 1,
+          "series": 1
+        },
+        {
           "title": "위풍당당 여우 꼬리",
           "author": "손원평 글, 만물상 그림",
           "publisher": "창비",
           "cover": "https://image.aladin.co.kr/product/30178/38/cover/8936448269_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6563261",
           "isbn": "9788936448264",
-          "loans": 5,
-          "rank": 1,
-          "series": 1
-        },
-        {
-          "title": "(읽다 보면 저절로 알게 되는) 신비한 공감말 사전",
-          "author": "글·양작가",
-          "publisher": "파란정원",
-          "cover": "https://image.aladin.co.kr/product/26615/68/cover/k082739035_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5932599",
-          "isbn": "9791158681937",
           "loans": 5,
           "rank": 2,
           "series": 1
@@ -52,6 +52,17 @@
           "series": 1
         },
         {
+          "title": "(읽다 보면 저절로 알게 되는) 신비한 공감말 사전",
+          "author": "글·양작가",
+          "publisher": "파란정원",
+          "cover": "https://image.aladin.co.kr/product/26615/68/cover/k082739035_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5932599",
+          "isbn": "9791158681937",
+          "loans": 4,
+          "rank": 5,
+          "series": 1
+        },
+        {
           "title": "발자국 탐정 왈녹",
           "author": "백연화 글, 지은 그림",
           "publisher": "지학사",
@@ -59,29 +70,7 @@
           "link": "https://data4library.kr/bookV?seq=7036992",
           "isbn": "9791162041888",
           "loans": 4,
-          "rank": 5,
-          "series": 1
-        },
-        {
-          "title": "비밀의 보석 가게 마석관",
-          "author": "히로시마 레이코 글, 김정화 옮김",
-          "publisher": "길벗스쿨",
-          "cover": "https://image.aladin.co.kr/product/27890/37/cover/k642734204_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6088197",
-          "isbn": "9791164063819",
-          "loans": 4,
           "rank": 6,
-          "series": 1
-        },
-        {
-          "title": "(이상한 과자 가게) 전천당",
-          "author": "히로시마 레이코 글, 김정화 옮김",
-          "publisher": "길벗스쿨",
-          "cover": "https://image.aladin.co.kr/product/29734/44/cover/k662838597_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6497886",
-          "isbn": "9791164064410",
-          "loans": 4,
-          "rank": 7,
           "series": 1
         },
         {
@@ -91,6 +80,17 @@
           "cover": "https://image.aladin.co.kr/product/26746/40/cover/k242730481_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5947324",
           "isbn": "9791164137633",
+          "loans": 4,
+          "rank": 7,
+          "series": 1
+        },
+        {
+          "title": "설민석의 한국사 대모험",
+          "author": "설민석,정현희",
+          "publisher": "휴먼큐브",
+          "cover": "https://image.aladin.co.kr/product/27426/6/cover/k602733272_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6037961",
+          "isbn": "9791165382940",
           "loans": 4,
           "rank": 8,
           "series": 1
@@ -195,17 +195,6 @@
           "series": 1
         },
         {
-          "title": "비밀의 신 한피라리",
-          "author": "히로시마 레이코 글, 송지현 옮김",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/33078/46/cover/8934919647_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6810342",
-          "isbn": "9788934919643",
-          "loans": 3,
-          "rank": 18,
-          "series": 1
-        },
-        {
           "title": "(연두와 푸름이의) 기묘한 여름 캠프",
           "author": "이분희 글, 차상미 그림",
           "publisher": "김영사",
@@ -213,7 +202,7 @@
           "link": "https://data4library.kr/bookV?seq=6741719",
           "isbn": "9788934940944",
           "loans": 3,
-          "rank": 19,
+          "rank": 18,
           "series": 1
         },
         {
@@ -223,6 +212,17 @@
           "cover": "https://image.aladin.co.kr/product/30540/2/cover/8934944277_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6596481",
           "isbn": "9788934944270",
+          "loans": 3,
+          "rank": 19,
+          "series": 1
+        },
+        {
+          "title": "흔한남매 과학 탐험대",
+          "author": "원작: 흔한남매, 임혜영",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/31325/63/cover/8934944544_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6657232",
+          "isbn": "9788934944546",
           "loans": 3,
           "rank": 20,
           "series": 1
@@ -479,7 +479,7 @@
           "cover": "https://image.aladin.co.kr/product/23651/80/cover/8936447696_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5642562",
           "isbn": "9788936447694",
-          "loans": 14,
+          "loans": 13,
           "rank": 2,
           "series": 2
         },
@@ -517,12 +517,12 @@
           "series": 1
         },
         {
-          "title": "세금 내는 아이들",
-          "author": "옥효진 글, 김미연 그림",
-          "publisher": "한경BP",
-          "cover": "https://image.aladin.co.kr/product/27324/68/cover/8947547263_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6002590",
-          "isbn": "9788947547260",
+          "title": "혼모노 :성해나 소설집",
+          "author": "성해나",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/36101/66/cover200/893643974x_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7035395",
+          "isbn": "9788936439743",
           "loans": 11,
           "rank": 6,
           "series": 1
@@ -550,14 +550,25 @@
           "series": 1
         },
         {
-          "title": "혼모노 :성해나 소설집",
-          "author": "성해나",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/36101/66/cover200/893643974x_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7035395",
-          "isbn": "9788936439743",
+          "title": "사피엔스 :그래픽 히스토리",
+          "author": "원작·각색: 유발 하라리, 김명주",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/28335/55/cover/8934944188_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6339236",
+          "isbn": "9788934944188",
           "loans": 10,
           "rank": 9,
+          "series": 1
+        },
+        {
+          "title": "이중 하나는 거짓말 :김애란 장편소설",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/34474/76/cover200/k292932634_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6933234",
+          "isbn": "9791141601300",
+          "loans": 10,
+          "rank": 10,
           "series": 1
         },
         {
@@ -568,7 +579,7 @@
           "link": "https://data4library.kr/bookV?seq=5962217",
           "isbn": "9791161571188",
           "loans": 10,
-          "rank": 10,
+          "rank": 11,
           "series": 1
         },
         {
@@ -579,18 +590,18 @@
           "link": "https://data4library.kr/bookV?seq=6681065",
           "isbn": "9788936429010",
           "loans": 10,
-          "rank": 11,
+          "rank": 12,
           "series": 1
         },
         {
-          "title": "사피엔스 :그래픽 히스토리",
-          "author": "원작·각색: 유발 하라리, 김명주",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/28335/55/cover/8934944188_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6339236",
-          "isbn": "9788934944188",
-          "loans": 9,
-          "rank": 12,
+          "title": "세금 내는 아이들",
+          "author": "옥효진 글, 김미연 그림",
+          "publisher": "한경BP",
+          "cover": "https://image.aladin.co.kr/product/27324/68/cover/8947547263_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6002590",
+          "isbn": "9788947547260",
+          "loans": 10,
+          "rank": 13,
           "series": 1
         },
         {
@@ -600,17 +611,6 @@
           "cover": "https://bookthumb-phinf.pstatic.net/cover/069/524/06952498.jpg?type=m1&udate=20120628",
           "link": "https://data4library.kr/bookV?seq=2373768",
           "isbn": "9788937883309",
-          "loans": 9,
-          "rank": 13,
-          "series": 1
-        },
-        {
-          "title": "7년 동안의 잠 :박완서 그림동화",
-          "author": "박완서, 김세현",
-          "publisher": "작가정신",
-          "cover": "https://image.aladin.co.kr/product/11007/52/cover/k482531972_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=2617217",
-          "isbn": "9788972887683",
           "loans": 9,
           "rank": 14,
           "series": 1
@@ -638,6 +638,17 @@
           "series": 1
         },
         {
+          "title": "그리스 로마 신화",
+          "author": "김민희,정보 강대진",
+          "publisher": "아울북(북이십일 아울북)",
+          "cover": "https://image.aladin.co.kr/product/29749/67/cover/895097164x_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6499425",
+          "isbn": "9788950971649",
+          "loans": 8,
+          "rank": 17,
+          "series": 1
+        },
+        {
           "title": "암행어사 박아지",
           "author": "천효정 글, 호산 그림",
           "publisher": "비룡소",
@@ -645,38 +656,27 @@
           "link": "https://data4library.kr/bookV?seq=6965386",
           "isbn": "9788949143019",
           "loans": 8,
-          "rank": 17,
-          "series": 1
-        },
-        {
-          "title": "마법천자문 :손오공의 한자 대탐험",
-          "author": "스튜디오시리얼,정수영",
-          "publisher": "아울북",
-          "cover": "https://image.aladin.co.kr/product/24081/64/cover/8950987740_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5670909",
-          "isbn": "9788950987749",
-          "loans": 8,
           "rank": 18,
           "series": 1
         },
         {
-          "title": "해든 버거",
-          "author": "동지아 글, 윤정주 그림",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/38849/62/cover200/k592137703_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7237610",
-          "isbn": "9791141615796",
+          "title": "별이 빛나는 고양이 마을 2 : 아기 고양이를 부탁해!",
+          "author": "히요 (지은이), 고양이와 스프 (원작), 루체 (그림)",
+          "publisher": "다산어린이",
+          "cover": "https://shopping-phinf.pstatic.net/main_5092589/50925892624.20241019054923.jpg",
+          "link": "https://data4library.kr/bookV?seq=6964314",
+          "isbn": "9791130657950",
           "loans": 8,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "(신) 퇴마록 =신세편 /The new exorcism chronicles",
-          "author": "이우혁",
-          "publisher": "오팬하우스",
-          "cover": "https://shopping-phinf.pstatic.net/main_6051723/60517235299.20260619144917.jpg",
-          "link": "https://data4library.kr/bookV?seq=7286722",
-          "isbn": "9791175773370",
+          "title": "에그박사 :Egg&bugs",
+          "author": "원작: 에그박사, 홍종현",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/39090/69/cover200/k422137052_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7253150",
+          "isbn": "9791175487598",
           "loans": 8,
           "rank": 20,
           "series": 1
