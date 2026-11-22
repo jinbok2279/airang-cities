@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 12:10:07",
+  "updated_at": "2026-11-22 11:13:48",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -8,15 +8,15 @@
       "desc": "연수구 공공도서관 · 초등(8~13세) 대출 · 최근 1달",
       "books": [
         {
-          "title": "(흔한 남매) 세계사 탐험대",
-          "author": "원작: 흔한남매,팀키즈",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/35393/94/cover200/k382035919_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=6988312",
-          "isbn": "9791173320224",
-          "loans": 12,
+          "title": "흔한남매 이상한 나라의 고전 읽기",
+          "author": "최재훈 글, 정주연 그림",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/39198/67/cover200/k082138881_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7262240",
+          "isbn": "9791175487840",
+          "loans": 13,
           "rank": 1,
-          "series": 4
+          "series": 3
         },
         {
           "title": "물리박사 김상욱의 수상한 연구실 :어린이를 위한 세상의 모든 과학",
@@ -25,19 +25,30 @@
           "cover": "https://image.aladin.co.kr/product/39066/27/cover200/k342137756_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7251833",
           "isbn": "9791171174843",
-          "loans": 11,
+          "loans": 12,
           "rank": 2,
           "series": 1
         },
         {
-          "title": "흔한남매 이상한 나라의 고전 읽기",
-          "author": "최재훈 글, 정주연 그림",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/38204/99/cover200/k192034812_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7197694",
-          "isbn": "9791175485334",
+          "title": "너구리 라면 가게",
+          "author": "최설희, 김덕영",
+          "publisher": "다산북스",
+          "cover": "https://image.aladin.co.kr/product/38729/67/cover200/k392136846_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7227761",
+          "isbn": "9791130675268",
           "loans": 11,
           "rank": 3,
+          "series": 1
+        },
+        {
+          "title": "(흔한 남매) 세계사 탐험대",
+          "author": "원작: 흔한남매,팀키즈",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/35393/94/cover200/k382035919_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=6988312",
+          "isbn": "9791173320224",
+          "loans": 11,
+          "rank": 4,
           "series": 3
         },
         {
@@ -48,7 +59,7 @@
           "link": "https://data4library.kr/bookV?seq=7253150",
           "isbn": "9791175487598",
           "loans": 11,
-          "rank": 4,
+          "rank": 5,
           "series": 3
         },
         {
@@ -59,19 +70,30 @@
           "link": "https://data4library.kr/bookV?seq=7224629",
           "isbn": "9791194616627",
           "loans": 11,
-          "rank": 5,
+          "rank": 6,
           "series": 2
         },
         {
-          "title": "너구리 라면 가게",
-          "author": "최설희, 김덕영",
-          "publisher": "다산북스",
-          "cover": "https://image.aladin.co.kr/product/38729/67/cover200/k392136846_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7227761",
-          "isbn": "9791130675268",
-          "loans": 10,
-          "rank": 6,
+          "title": "(설민석의) 그리스 로마 신화 대모험",
+          "author": "설민석,스튜디오 담",
+          "publisher": "Dankkum i(단꿈아이)",
+          "cover": "https://image.aladin.co.kr/product/39735/95/cover200/k562130804_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7294076",
+          "isbn": "9791194616733",
+          "loans": 11,
+          "rank": 7,
           "series": 1
+        },
+        {
+          "title": "벌거벗은 세계사",
+          "author": "이현희,최호정",
+          "publisher": "아울북(북이십일 아울북)",
+          "cover": "https://image.aladin.co.kr/product/33915/31/cover200/8950900912_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6874185",
+          "isbn": "9788950900915",
+          "loans": 10,
+          "rank": 8,
+          "series": 2
         },
         {
           "title": "후덜덜 식당",
@@ -81,7 +103,7 @@
           "link": "https://data4library.kr/bookV?seq=6822419",
           "isbn": "9791162041567",
           "loans": 10,
-          "rank": 7,
+          "rank": 9,
           "series": 2
         },
         {
@@ -92,8 +114,8 @@
           "link": "https://data4library.kr/bookV?seq=5777315",
           "isbn": "9791164136261",
           "loans": 10,
-          "rank": 8,
-          "series": 2
+          "rank": 10,
+          "series": 3
         },
         {
           "title": "(설민석의) 우리 고전 대모험",
@@ -103,30 +125,8 @@
           "link": "https://data4library.kr/bookV?seq=6875576",
           "isbn": "9791193031421",
           "loans": 10,
-          "rank": 9,
-          "series": 2
-        },
-        {
-          "title": "흔한남매 과학 탐험대",
-          "author": "원작: 흔한남매, 임혜영",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/34553/89/cover200/8934935197_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6937593",
-          "isbn": "9788934935193",
-          "loans": 9,
-          "rank": 10,
-          "series": 1
-        },
-        {
-          "title": "벌거벗은 세계사",
-          "author": "이현희,최호정",
-          "publisher": "아울북(북이십일 아울북)",
-          "cover": "https://image.aladin.co.kr/product/33915/31/cover200/8950900912_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6874185",
-          "isbn": "9788950900915",
-          "loans": 9,
           "rank": 11,
-          "series": 1
+          "series": 2
         },
         {
           "title": "다있소 과학",
@@ -140,15 +140,26 @@
           "series": 1
         },
         {
-          "title": "변호사 어벤저스 :어린이 법학 동화",
-          "author": "고희정, 최미란",
-          "publisher": "가나문화콘텐츠",
-          "cover": "https://image.aladin.co.kr/product/38606/51/cover200/k602136576_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7223823",
-          "isbn": "9791168091313",
+          "title": "(흔한남매) 별난 방탈출 :탈출 미션 스토리북",
+          "author": "흔한남매 원작, 차차 그림",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/25813/3/cover/k172736336_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5833701",
+          "isbn": "9791164137176",
           "loans": 9,
           "rank": 13,
           "series": 1
+        },
+        {
+          "title": "빨간내복야코 안 읽으면 완전 위험한 과학책",
+          "author": "빨간내복야코 원작, 이영아 그림",
+          "publisher": "위즈덤하우스",
+          "cover": "https://image.aladin.co.kr/product/34968/12/cover200/k342934566_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6959950",
+          "isbn": "9791171712793",
+          "loans": 9,
+          "rank": 14,
+          "series": 2
         },
         {
           "title": "(빨간내복야코) 어휘 절대 안 틀리는 책",
@@ -157,17 +168,6 @@
           "cover": "https://image.aladin.co.kr/product/36485/19/cover200/k412039019_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7068137",
           "isbn": "9791171714247",
-          "loans": 9,
-          "rank": 14,
-          "series": 1
-        },
-        {
-          "title": "(설민석의) 그리스 로마 신화 대모험",
-          "author": "설민석,스튜디오 담",
-          "publisher": "Dankkum i(단꿈아이)",
-          "cover": "https://image.aladin.co.kr/product/39735/95/cover200/k562130804_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7294076",
-          "isbn": "9791194616733",
           "loans": 9,
           "rank": 15,
           "series": 1
@@ -184,23 +184,23 @@
           "series": 1
         },
         {
+          "title": "흔한남매 과학 탐험대",
+          "author": "원작: 흔한남매, 임혜영",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/34553/89/cover200/8934935197_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6937593",
+          "isbn": "9788934935193",
+          "loans": 8,
+          "rank": 17,
+          "series": 1
+        },
+        {
           "title": "푸른 사자 와니니 :이현 장편동화",
           "author": "이현, 그린이: 오윤화",
           "publisher": "창비",
           "cover": "https://image.aladin.co.kr/product/36859/73/cover200/8936443445_2.jpg",
           "link": "https://data4library.kr/bookV?seq=7100845",
           "isbn": "9788936443443",
-          "loans": 8,
-          "rank": 17,
-          "series": 1
-        },
-        {
-          "title": "고양이 해결사 깜냥",
-          "author": "홍민정 동화, 김재희 그림",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/34815/56/cover200/8936448757_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6954185",
-          "isbn": "9788936448752",
           "loans": 8,
           "rank": 18,
           "series": 1
@@ -217,12 +217,12 @@
           "series": 1
         },
         {
-          "title": "슬기로운 외국어 생활 - 제15회 비룡소 문학상 수상작",
-          "author": "이지혜 (지은이), 심보영 (그림)",
-          "publisher": "비룡소",
-          "cover": "https://image.aladin.co.kr/product/40030/92/cover200/8949162717_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7313766",
-          "isbn": "9788949162713",
+          "title": "정재승의 인류 탐험 보고서",
+          "author": "차유진,김현민",
+          "publisher": "아울북(북이십일 아울북)",
+          "cover": "https://image.aladin.co.kr/product/27637/74/cover/8950996502_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6061650",
+          "isbn": "9788950996505",
           "loans": 8,
           "rank": 20,
           "series": 1
@@ -235,17 +235,6 @@
       "desc": "연수구 공공도서관 · 청소년(14~19세) 대출 · 최근 1달",
       "books": [
         {
-          "title": "미적분의 쓸모 :미래를 예측하는 새로운 언어",
-          "author": "한화택 지음",
-          "publisher": "길벗",
-          "cover": "https://image.aladin.co.kr/product/27073/68/cover/k012731588_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=5971255",
-          "isbn": "9791165215491",
-          "loans": 5,
-          "rank": 1,
-          "series": 1
-        },
-        {
           "title": "빼앗긴 문화재에도 봄은 오는가",
           "author": "서해경 지음, 이선주 그림",
           "publisher": "풀빛미디어",
@@ -253,7 +242,7 @@
           "link": "https://data4library.kr/bookV?seq=2668049",
           "isbn": "9788967340124",
           "loans": 4,
-          "rank": 2,
+          "rank": 1,
           "series": 1
         },
         {
@@ -264,7 +253,29 @@
           "link": "https://data4library.kr/bookV?seq=7143076",
           "isbn": "9791167553300",
           "loans": 4,
+          "rank": 2,
+          "series": 1
+        },
+        {
+          "title": "파리대왕",
+          "author": "윌리엄 골딩 지음, 유종호 옮김",
+          "publisher": "민음사",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/000/006/00000613.jpg?type=m1&udate=20140108",
+          "link": "https://data4library.kr/bookV?seq=2376337",
+          "isbn": "9788937460197",
+          "loans": 3,
           "rank": 3,
+          "series": 1
+        },
+        {
+          "title": "내일은 실험왕 :본격 대결 과학실험 만화",
+          "author": "곰돌이 co. ,홍종현",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/5714/29/cover/8937839687_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2620383",
+          "isbn": "9788937839689",
+          "loans": 3,
+          "rank": 4,
           "series": 1
         },
         {
@@ -275,7 +286,7 @@
           "link": "https://data4library.kr/bookV?seq=3699193",
           "isbn": "9788954650212",
           "loans": 3,
-          "rank": 4,
+          "rank": 5,
           "series": 1
         },
         {
@@ -286,7 +297,7 @@
           "link": "https://data4library.kr/bookV?seq=6642859",
           "isbn": "9788954691154",
           "loans": 3,
-          "rank": 5,
+          "rank": 6,
           "series": 1
         },
         {
@@ -297,18 +308,18 @@
           "link": "https://data4library.kr/bookV?seq=7020795",
           "isbn": "9788972918660",
           "loans": 3,
-          "rank": 6,
+          "rank": 7,
           "series": 1
         },
         {
-          "title": "최종 경고 : 6도의 멸종 :기후변화의 종료, 기후붕괴의 시작",
-          "author": "마크 라이너스 지음, 김아림 옮김",
-          "publisher": "세종(세종서적)",
-          "cover": "https://image.aladin.co.kr/product/28583/76/cover/8984079715_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6372514",
-          "isbn": "9788984079717",
+          "title": "뇌 과학이 인생에 필요한 순간 :내 마음의 한계를 넘어서고 싶을 때",
+          "author": "김대수 지음",
+          "publisher": "다산북스",
+          "cover": "https://image.aladin.co.kr/product/26943/94/cover/k082730819_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5962213",
+          "isbn": "9791130637112",
           "loans": 3,
-          "rank": 7,
+          "rank": 8,
           "series": 1
         },
         {
@@ -319,7 +330,7 @@
           "link": "https://data4library.kr/bookV?seq=7239959",
           "isbn": "9791130675633",
           "loans": 3,
-          "rank": 8,
+          "rank": 9,
           "series": 1
         },
         {
@@ -330,7 +341,7 @@
           "link": "https://data4library.kr/bookV?seq=6520187",
           "isbn": "9791130692258",
           "loans": 3,
-          "rank": 9,
+          "rank": 10,
           "series": 1
         },
         {
@@ -341,7 +352,7 @@
           "link": "https://data4library.kr/bookV?seq=6651081",
           "isbn": "9791130697550",
           "loans": 3,
-          "rank": 10,
+          "rank": 11,
           "series": 1
         },
         {
@@ -352,7 +363,7 @@
           "link": "https://data4library.kr/bookV?seq=6513267",
           "isbn": "9791135474545",
           "loans": 3,
-          "rank": 11,
+          "rank": 12,
           "series": 1
         },
         {
@@ -363,18 +374,29 @@
           "link": "https://data4library.kr/bookV?seq=5962217",
           "isbn": "9791161571188",
           "loans": 3,
-          "rank": 12,
+          "rank": 13,
+          "series": 2
+        },
+        {
+          "title": "미적분의 쓸모 :미래를 예측하는 새로운 언어",
+          "author": "한화택 지음",
+          "publisher": "길벗",
+          "cover": "https://image.aladin.co.kr/product/27073/68/cover/k012731588_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=5971255",
+          "isbn": "9791165215491",
+          "loans": 3,
+          "rank": 14,
           "series": 1
         },
         {
-          "title": "서리꽃 :조정래 장편소설",
-          "author": "조정래",
-          "publisher": "해냄(해냄출판사)",
-          "cover": "https://image.aladin.co.kr/product/40064/80/cover200/k062130041_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7316383",
-          "isbn": "9791167141644",
+          "title": "1분 과학 =과학에서 출발해 철학으로 나아가는 1분 드라마.1 minute science",
+          "author": "이재범 지음, 최준석 그림",
+          "publisher": "위즈덤하우스",
+          "cover": "https://image.aladin.co.kr/product/34595/80/cover200/k582933671_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6944116",
+          "isbn": "9791171712694",
           "loans": 3,
-          "rank": 13,
+          "rank": 15,
           "series": 1
         },
         {
@@ -385,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=6842415",
           "isbn": "9791172100124",
           "loans": 3,
-          "rank": 14,
+          "rank": 16,
           "series": 1
         },
         {
@@ -396,7 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=7073824",
           "isbn": "9791172634001",
           "loans": 3,
-          "rank": 15,
+          "rank": 17,
           "series": 1
         },
         {
@@ -407,7 +429,7 @@
           "link": "https://data4library.kr/bookV?seq=7315560",
           "isbn": "9791175911154",
           "loans": 3,
-          "rank": 16,
+          "rank": 18,
           "series": 1
         },
         {
@@ -418,7 +440,7 @@
           "link": "https://data4library.kr/bookV?seq=3692955",
           "isbn": "9791185428321",
           "loans": 3,
-          "rank": 17,
+          "rank": 19,
           "series": 1
         },
         {
@@ -429,28 +451,6 @@
           "link": "https://data4library.kr/bookV?seq=7020792",
           "isbn": "9791192372730",
           "loans": 3,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "공유경제는 공유하지 않는다 :긱이코노미의 민낯과 무너지는 플랫폼 노동자",
-          "author": "알렉산드리아 J. 래브넬 지음, 김고명 옮김",
-          "publisher": "롤러코스터",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/164/403/16440340.jpg?type=m1&udate=20200730",
-          "link": "https://data4library.kr/bookV?seq=5733842",
-          "isbn": "9791196874964",
-          "loans": 3,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "Pumpkin Patch (Paperback)",
-          "author": "MARGARET MCNAMARA|Mi Gordon",
-          "publisher": "Simon&Schuster",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/005/676/00567666.jpg?type=m1&udate=20120316",
-          "link": "https://data4library.kr/bookV?seq=2697388",
-          "isbn": "9780689858741",
-          "loans": 2,
           "rank": 20,
           "series": 1
         }
@@ -468,30 +468,19 @@
           "cover": "https://shopping-phinf.pstatic.net/main_6041993/60419931459.20260612143521.jpg",
           "link": "https://data4library.kr/bookV?seq=7282009",
           "isbn": "9788936439965",
-          "loans": 32,
+          "loans": 33,
           "rank": 1,
           "series": 1
         },
         {
-          "title": "이중 하나는 거짓말 :김애란 장편소설",
-          "author": "김애란",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/34474/76/cover200/k292932634_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6933234",
-          "isbn": "9791141601300",
+          "title": "투명한 나선",
+          "author": "히가시노 게이고, 김선영",
+          "publisher": "교보문고",
+          "cover": "https://image.aladin.co.kr/product/39802/11/cover200/k082130602_3.jpg",
+          "link": "https://data4library.kr/bookV?seq=7297704",
+          "isbn": "9791170614043",
           "loans": 31,
           "rank": 2,
-          "series": 1
-        },
-        {
-          "title": "안녕이라 그랬어 :김애란 소설",
-          "author": "김애란",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7073819",
-          "isbn": "9791141602376",
-          "loans": 31,
-          "rank": 3,
           "series": 1
         },
         {
@@ -502,29 +491,7 @@
           "link": "https://data4library.kr/bookV?seq=1938053",
           "isbn": "9788998441012",
           "loans": 30,
-          "rank": 4,
-          "series": 1
-        },
-        {
-          "title": "투명한 나선",
-          "author": "히가시노 게이고, 김선영",
-          "publisher": "교보문고",
-          "cover": "https://image.aladin.co.kr/product/39802/11/cover200/k082130602_3.jpg",
-          "link": "https://data4library.kr/bookV?seq=7297704",
-          "isbn": "9791170614043",
-          "loans": 30,
-          "rank": 5,
-          "series": 1
-        },
-        {
-          "title": "빨간내복야코 안 읽으면 완전 위험한 과학책",
-          "author": "빨간내복야코 원작, 이영아 그림",
-          "publisher": "위즈덤하우스",
-          "cover": "https://image.aladin.co.kr/product/38491/8/cover200/k272135117_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7210480",
-          "isbn": "9791175910218",
-          "loans": 30,
-          "rank": 6,
+          "rank": 3,
           "series": 1
         },
         {
@@ -534,9 +501,42 @@
           "cover": "https://image.aladin.co.kr/product/35371/5/cover200/k792035405_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6986836",
           "isbn": "9791173114038",
+          "loans": 30,
+          "rank": 4,
+          "series": 6
+        },
+        {
+          "title": "빨간내복야코 안 읽으면 완전 위험한 과학책",
+          "author": "빨간내복야코 원작, 이영아 그림",
+          "publisher": "위즈덤하우스",
+          "cover": "https://image.aladin.co.kr/product/38491/8/cover200/k272135117_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7210480",
+          "isbn": "9791175910218",
+          "loans": 30,
+          "rank": 5,
+          "series": 1
+        },
+        {
+          "title": "흔한남매 이상한 나라의 고전 읽기",
+          "author": "최재훈 글, 정주연 그림",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/39198/67/cover200/k082138881_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7262240",
+          "isbn": "9791175487840",
           "loans": 29,
+          "rank": 6,
+          "series": 2
+        },
+        {
+          "title": "안녕이라 그랬어 :김애란 소설",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7073819",
+          "isbn": "9791141602376",
+          "loans": 28,
           "rank": 7,
-          "series": 8
+          "series": 1
         },
         {
           "title": "혼모노 :성해나 소설집",
@@ -545,8 +545,30 @@
           "cover": "https://image.aladin.co.kr/product/36101/66/cover200/893643974x_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7035395",
           "isbn": "9788936439743",
-          "loans": 28,
+          "loans": 27,
           "rank": 8,
+          "series": 1
+        },
+        {
+          "title": "이중 하나는 거짓말 :김애란 장편소설",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/34474/76/cover200/k292932634_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6933234",
+          "isbn": "9791141601300",
+          "loans": 27,
+          "rank": 9,
+          "series": 1
+        },
+        {
+          "title": "너구리 라면 가게",
+          "author": "최설희, 김덕영",
+          "publisher": "다산북스",
+          "cover": "https://image.aladin.co.kr/product/38729/67/cover200/k392136846_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7227761",
+          "isbn": "9791130675268",
+          "loans": 26,
+          "rank": 10,
           "series": 1
         },
         {
@@ -556,8 +578,8 @@
           "cover": "https://image.aladin.co.kr/product/26942/84/cover/k582730818_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5962217",
           "isbn": "9791161571188",
-          "loans": 27,
-          "rank": 9,
+          "loans": 26,
+          "rank": 11,
           "series": 1
         },
         {
@@ -567,9 +589,42 @@
           "cover": "https://image.aladin.co.kr/product/31830/75/cover/k082833126_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6705275",
           "isbn": "9791168415409",
-          "loans": 27,
-          "rank": 10,
+          "loans": 26,
+          "rank": 12,
           "series": 2
+        },
+        {
+          "title": "슈뻘맨의 숨은 과학 찾기 :엉뚱 도전 속에 숨은 과학 상식",
+          "author": "슈뻘맨 원작, 류수형 그림",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/34121/18/cover200/k102931996_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6890521",
+          "isbn": "9791168418462",
+          "loans": 26,
+          "rank": 13,
+          "series": 2
+        },
+        {
+          "title": "가공범",
+          "author": "히가시노 게이고, 김선영",
+          "publisher": "교보문고",
+          "cover": "https://image.aladin.co.kr/product/36786/80/cover200/k472030698_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7094855",
+          "isbn": "9791170612759",
+          "loans": 26,
+          "rank": 14,
+          "series": 1
+        },
+        {
+          "title": "(흔한 남매) 세계사 탐험대",
+          "author": "원작: 흔한남매,팀키즈",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/36303/57/cover200/k262038346_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7053936",
+          "isbn": "9791173321757",
+          "loans": 26,
+          "rank": 15,
+          "series": 1
         },
         {
           "title": "똥볶이 할멈 :K-히어로 판타지",
@@ -579,61 +634,6 @@
           "link": "https://data4library.kr/bookV?seq=6307324",
           "isbn": "9791190409124",
           "loans": 26,
-          "rank": 11,
-          "series": 1
-        },
-        {
-          "title": "홍학의 자리 :정해연 장편소설",
-          "author": "정해연",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/27587/94/cover/8954681158_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6050062",
-          "isbn": "9788954681155",
-          "loans": 25,
-          "rank": 12,
-          "series": 1
-        },
-        {
-          "title": "서리꽃 :조정래 장편소설",
-          "author": "조정래",
-          "publisher": "해냄(해냄출판사)",
-          "cover": "https://image.aladin.co.kr/product/40064/80/cover200/k062130041_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7316383",
-          "isbn": "9791167141644",
-          "loans": 25,
-          "rank": 13,
-          "series": 1
-        },
-        {
-          "title": "흔한남매 이상한 나라의 고전 읽기",
-          "author": "최재훈 글, 정주연 그림",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/32387/47/cover/k882935883_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6756170",
-          "isbn": "9791168416314",
-          "loans": 25,
-          "rank": 14,
-          "series": 3
-        },
-        {
-          "title": "슈뻘맨의 숨은 과학 찾기 :엉뚱 도전 속에 숨은 과학 상식",
-          "author": "슈뻘맨 원작, 류수형 그림",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/34121/18/cover200/k102931996_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6890521",
-          "isbn": "9791168418462",
-          "loans": 25,
-          "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "가공범",
-          "author": "히가시노 게이고, 김선영",
-          "publisher": "교보문고",
-          "cover": "https://image.aladin.co.kr/product/36786/80/cover200/k472030698_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7094855",
-          "isbn": "9791170612759",
-          "loans": 25,
           "rank": 16,
           "series": 1
         },
@@ -660,23 +660,23 @@
           "series": 1
         },
         {
-          "title": "너구리 라면 가게",
-          "author": "최설희, 김덕영",
-          "publisher": "다산북스",
-          "cover": "https://image.aladin.co.kr/product/38729/67/cover200/k392136846_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7227761",
-          "isbn": "9791130675268",
+          "title": "장돌이네 떡집",
+          "author": "김리리 글, 김이랑 그림",
+          "publisher": "비룡소",
+          "cover": "https://image.aladin.co.kr/product/36260/13/cover200/8949162652_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7051192",
+          "isbn": "9788949162652",
           "loans": 24,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "(흔한 남매) 세계사 탐험대",
-          "author": "원작: 흔한남매,팀키즈",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/36303/57/cover200/k262038346_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7053936",
-          "isbn": "9791173321757",
+          "title": "홍학의 자리 :정해연 장편소설",
+          "author": "정해연",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/27587/94/cover/8954681158_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6050062",
+          "isbn": "9788954681155",
           "loans": 24,
           "rank": 20,
           "series": 1
