@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 10:56:03",
+  "updated_at": "2026-11-23 11:24:14",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -8,17 +8,6 @@
       "desc": "중구 공공도서관 · 초등(8~13세) 대출 · 최근 1달",
       "books": [
         {
-          "title": "바바파파 1+2집 40종세트 (20DVD+20CD)",
-          "author": "",
-          "publisher": "엠엔브이",
-          "cover": "https://image.aladin.co.kr/product/10842/90/cover/d462735520_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3612646",
-          "isbn": "8809079265387",
-          "loans": 5,
-          "rank": 1,
-          "series": 1
-        },
-        {
           "title": "변호사 어벤저스 :어린이 법학 동화",
           "author": "고희정, 최미란",
           "publisher": "가나문화콘텐츠",
@@ -26,7 +15,7 @@
           "link": "https://data4library.kr/bookV?seq=7102990",
           "isbn": "9791168091290",
           "loans": 3,
-          "rank": 2,
+          "rank": 1,
           "series": 1
         },
         {
@@ -37,8 +26,19 @@
           "link": "https://data4library.kr/bookV?seq=6810259",
           "isbn": "9791168416789",
           "loans": 3,
-          "rank": 3,
+          "rank": 2,
           "series": 2
+        },
+        {
+          "title": "내일은 실험왕 :본격 대결 과학실험 만화 시즌2",
+          "author": "스토리 a., 홍종현",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/34350/90/cover200/k302932994_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6918792",
+          "isbn": "9791168418592",
+          "loans": 3,
+          "rank": 3,
+          "series": 1
         },
         {
           "title": "Oxford Reading Tree: Level 9: More Stories A: the Flying Machine (Paperback)",
@@ -118,6 +118,17 @@
           "series": 1
         },
         {
+          "title": "내일은 실험왕 :본격 대결 과학실험 만화",
+          "author": "곰돌이 co. ,홍종현",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/7582/76/cover/8937839717_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3116697",
+          "isbn": "9788937839719",
+          "loans": 2,
+          "rank": 11,
+          "series": 1
+        },
+        {
           "title": "우다다 꽁냥파크",
           "author": "권혁진 글, 심보영 그림",
           "publisher": "비룡소",
@@ -125,7 +136,7 @@
           "link": "https://data4library.kr/bookV?seq=6666455",
           "isbn": "9788949168081",
           "loans": 2,
-          "rank": 11,
+          "rank": 12,
           "series": 2
         },
         {
@@ -136,7 +147,7 @@
           "link": "https://data4library.kr/bookV?seq=6657755",
           "isbn": "9788950917074",
           "loans": 2,
-          "rank": 12,
+          "rank": 13,
           "series": 1
         },
         {
@@ -147,7 +158,7 @@
           "link": "https://data4library.kr/bookV?seq=5857188",
           "isbn": "9788954677158",
           "loans": 2,
-          "rank": 13,
+          "rank": 14,
           "series": 1
         },
         {
@@ -158,7 +169,7 @@
           "link": "https://data4library.kr/bookV?seq=6917383",
           "isbn": "9788968308246",
           "loans": 2,
-          "rank": 14,
+          "rank": 15,
           "series": 1
         },
         {
@@ -169,7 +180,7 @@
           "link": "https://data4library.kr/bookV?seq=2841769",
           "isbn": "9788994780399",
           "loans": 2,
-          "rank": 15,
+          "rank": 16,
           "series": 1
         },
         {
@@ -180,7 +191,7 @@
           "link": "https://data4library.kr/bookV?seq=1041330",
           "isbn": "9788996187424",
           "loans": 2,
-          "rank": 16,
+          "rank": 17,
           "series": 1
         },
         {
@@ -191,7 +202,7 @@
           "link": "https://data4library.kr/bookV?seq=3674083",
           "isbn": "9791156396031",
           "loans": 2,
-          "rank": 17,
+          "rank": 18,
           "series": 1
         },
         {
@@ -202,7 +213,7 @@
           "link": "https://data4library.kr/bookV?seq=6484170",
           "isbn": "9791158682422",
           "loans": 2,
-          "rank": 18,
+          "rank": 19,
           "series": 1
         },
         {
@@ -212,17 +223,6 @@
           "cover": "https://image.aladin.co.kr/product/37068/28/cover200/k462030434_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7143922",
           "isbn": "9791159955259",
-          "loans": 2,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "후덜덜 식당",
-          "author": "강효미, 유영근",
-          "publisher": "지학사",
-          "cover": "https://image.aladin.co.kr/product/33281/1/cover/k282938979_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6822419",
-          "isbn": "9791162041567",
           "loans": 2,
           "rank": 20,
           "series": 1
@@ -235,6 +235,39 @@
       "desc": "중구 공공도서관 · 청소년(14~19세) 대출 · 최근 1달",
       "books": [
         {
+          "title": "(와다 하루키의) 한국전쟁 전사",
+          "author": "와다 하루키 지음, 조윤수 옮김",
+          "publisher": "청아출판사",
+          "cover": "https://image.aladin.co.kr/product/32144/44/cover/8936812297_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=6740321",
+          "isbn": "9788936812294",
+          "loans": 2,
+          "rank": 1,
+          "series": 1
+        },
+        {
+          "title": "사기 열전",
+          "author": "사마천, 김원중",
+          "publisher": "민음사",
+          "cover": "https://image.aladin.co.kr/product/29624/57/cover/8937464101_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6484597",
+          "isbn": "9788937464102",
+          "loans": 2,
+          "rank": 2,
+          "series": 1
+        },
+        {
+          "title": "가이디드 타로 - 막힘없이 타로 카드를 해석한다",
+          "author": "스테파니 카포니 (지은이), 손은혜 (옮긴이), 올리비아 서 (감수)",
+          "publisher": "페르아미카실렌티아루네",
+          "cover": "https://image.aladin.co.kr/product/29617/86/cover/8974402742_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6484639",
+          "isbn": "9788974402747",
+          "loans": 2,
+          "rank": 3,
+          "series": 1
+        },
+        {
           "title": "Model Misfit (Paperback)",
           "author": "Holly Smale",
           "publisher": "HarperCollinsChildren'sBooks",
@@ -242,7 +275,7 @@
           "link": "https://data4library.kr/bookV?seq=3363199",
           "isbn": "9780007489466",
           "loans": 1,
-          "rank": 1,
+          "rank": 4,
           "series": 1
         },
         {
@@ -253,7 +286,7 @@
           "link": "https://data4library.kr/bookV?seq=6928561",
           "isbn": "9780063419803",
           "loans": 1,
-          "rank": 2,
+          "rank": 5,
           "series": 1
         },
         {
@@ -264,7 +297,7 @@
           "link": "https://data4library.kr/bookV?seq=2379171",
           "isbn": "9780198483069",
           "loans": 1,
-          "rank": 3,
+          "rank": 6,
           "series": 1
         },
         {
@@ -275,18 +308,7 @@
           "link": "https://data4library.kr/bookV?seq=2379189",
           "isbn": "9780198483366",
           "loans": 1,
-          "rank": 4,
-          "series": 1
-        },
-        {
-          "title": "1984 (Mass Market Paperback, 미국판)",
-          "author": "조지 오웰 (지은이)",
-          "publisher": "Signet",
-          "cover": "https://image.aladin.co.kr/product/47/23/cover/0451524934_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=2430859",
-          "isbn": "9780451524935",
-          "loans": 1,
-          "rank": 5,
+          "rank": 7,
           "series": 1
         },
         {
@@ -297,7 +319,7 @@
           "link": "https://data4library.kr/bookV?seq=5962696",
           "isbn": "9781492682721",
           "loans": 1,
-          "rank": 6,
+          "rank": 8,
           "series": 1
         },
         {
@@ -308,7 +330,7 @@
           "link": "https://data4library.kr/bookV?seq=1113594",
           "isbn": "9788901110806",
           "loans": 1,
-          "rank": 7,
+          "rank": 9,
           "series": 1
         },
         {
@@ -319,7 +341,7 @@
           "link": "https://data4library.kr/bookV?seq=5582455",
           "isbn": "9788901238210",
           "loans": 1,
-          "rank": 8,
+          "rank": 10,
           "series": 1
         },
         {
@@ -330,7 +352,7 @@
           "link": "https://data4library.kr/bookV?seq=6035605",
           "isbn": "9788901251486",
           "loans": 1,
-          "rank": 9,
+          "rank": 11,
           "series": 1
         },
         {
@@ -341,7 +363,7 @@
           "link": "https://data4library.kr/bookV?seq=6486156",
           "isbn": "9788901260679",
           "loans": 1,
-          "rank": 10,
+          "rank": 12,
           "series": 1
         },
         {
@@ -352,7 +374,7 @@
           "link": "https://data4library.kr/bookV?seq=5655490",
           "isbn": "9788904167029",
           "loans": 1,
-          "rank": 11,
+          "rank": 13,
           "series": 1
         },
         {
@@ -363,7 +385,7 @@
           "link": "https://data4library.kr/bookV?seq=7019837",
           "isbn": "9788915999039",
           "loans": 1,
-          "rank": 12,
+          "rank": 14,
           "series": 1
         },
         {
@@ -374,7 +396,7 @@
           "link": "https://data4library.kr/bookV?seq=2600158",
           "isbn": "9788918031842",
           "loans": 1,
-          "rank": 13,
+          "rank": 15,
           "series": 1
         },
         {
@@ -385,7 +407,7 @@
           "link": "https://data4library.kr/bookV?seq=7220367",
           "isbn": "9788920054266",
           "loans": 1,
-          "rank": 14,
+          "rank": 16,
           "series": 1
         },
         {
@@ -396,7 +418,7 @@
           "link": "https://data4library.kr/bookV?seq=7312360",
           "isbn": "9788920055607",
           "loans": 1,
-          "rank": 15,
+          "rank": 17,
           "series": 1
         },
         {
@@ -407,7 +429,7 @@
           "link": "https://data4library.kr/bookV?seq=1179679",
           "isbn": "9788925543215",
           "loans": 1,
-          "rank": 16,
+          "rank": 18,
           "series": 1
         },
         {
@@ -418,7 +440,7 @@
           "link": "https://data4library.kr/bookV?seq=2427221",
           "isbn": "9788925551678",
           "loans": 1,
-          "rank": 17,
+          "rank": 19,
           "series": 1
         },
         {
@@ -428,28 +450,6 @@
           "cover": "https://image.aladin.co.kr/product/3824/54/cover/8925551756_1.jpg",
           "link": "https://data4library.kr/bookV?seq=2604432",
           "isbn": "9788925551753",
-          "loans": 1,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "(Maths quest) 보물 동굴의 단서",
-          "author": "데이비드 글러버 글, 어린이를 위한 수학교육연구회 옮김",
-          "publisher": "알에이치코리아",
-          "cover": "https://image.aladin.co.kr/product/4241/78/cover/8925551772_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=2611719",
-          "isbn": "9788925551777",
-          "loans": 1,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "(엔비디아 젠슨 황) 생각하는 기계",
-          "author": "스티븐 위트 지음, 백우진 옮김",
-          "publisher": "RHK(알에이치코리아)",
-          "cover": "https://image.aladin.co.kr/product/36387/23/cover200/8925573768_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7060215",
-          "isbn": "9788925573762",
           "loans": 1,
           "rank": 20,
           "series": 1
@@ -468,8 +468,19 @@
           "cover": "https://image.aladin.co.kr/product/37676/59/cover200/k212032349_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7177757",
           "isbn": "9791194530701",
-          "loans": 12,
+          "loans": 11,
           "rank": 1,
+          "series": 1
+        },
+        {
+          "title": "프로젝트 헤일메리",
+          "author": "앤디 위어 지음, 강동혁 옮김",
+          "publisher": "RHK(알에이치코리아)",
+          "cover": "https://image.aladin.co.kr/product/27045/43/cover/8925588730_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5969086",
+          "isbn": "9788925588735",
+          "loans": 10,
+          "rank": 2,
           "series": 1
         },
         {
@@ -480,7 +491,7 @@
           "link": "https://data4library.kr/bookV?seq=5857188",
           "isbn": "9788954677158",
           "loans": 10,
-          "rank": 2,
+          "rank": 3,
           "series": 1
         },
         {
@@ -491,29 +502,7 @@
           "link": "https://data4library.kr/bookV?seq=1938053",
           "isbn": "9788998441012",
           "loans": 10,
-          "rank": 3,
-          "series": 1
-        },
-        {
-          "title": "이 지랄맞음이 쌓여 축제가 되겠지 :조승리 에세이",
-          "author": "조승리",
-          "publisher": "달 출판사",
-          "cover": "https://image.aladin.co.kr/product/33696/25/cover/k962939047_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6854342",
-          "isbn": "9791158161767",
-          "loans": 10,
           "rank": 4,
-          "series": 1
-        },
-        {
-          "title": "고전이 답했다 :마땅히 살아야 할 삶에 대하여",
-          "author": "고명환 지음",
-          "publisher": "라곰",
-          "cover": "https://image.aladin.co.kr/product/34526/60/cover200/k622932853_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=6935936",
-          "isbn": "9791193939130",
-          "loans": 10,
-          "rank": 5,
           "series": 1
         },
         {
@@ -524,18 +513,18 @@
           "link": "https://data4library.kr/bookV?seq=7276296",
           "isbn": "9791193904435",
           "loans": 9,
-          "rank": 6,
+          "rank": 5,
           "series": 1
         },
         {
-          "title": "프로젝트 헤일메리",
-          "author": "앤디 위어 지음, 강동혁 옮김",
-          "publisher": "RHK(알에이치코리아)",
-          "cover": "https://image.aladin.co.kr/product/27045/43/cover/8925588730_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5969086",
-          "isbn": "9788925588735",
-          "loans": 8,
-          "rank": 7,
+          "title": "빵충 사육 준수 사항",
+          "author": "김혜영 (지은이)",
+          "publisher": "안전가옥",
+          "cover": "https://image.aladin.co.kr/product/39872/66/cover200/k242130313_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7301611",
+          "isbn": "9791194891178",
+          "loans": 9,
+          "rank": 6,
           "series": 1
         },
         {
@@ -546,18 +535,7 @@
           "link": "https://data4library.kr/bookV?seq=7312107",
           "isbn": "9788936439996",
           "loans": 8,
-          "rank": 8,
-          "series": 1
-        },
-        {
-          "title": "데미안",
-          "author": "헤르만 헤세, 전영애",
-          "publisher": "민음사",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/000/051/00005186.jpg?type=m1&udate=20160509",
-          "link": "https://data4library.kr/bookV?seq=2374415",
-          "isbn": "9788937460449",
-          "loans": 8,
-          "rank": 9,
+          "rank": 7,
           "series": 1
         },
         {
@@ -567,6 +545,28 @@
           "cover": "https://image.aladin.co.kr/product/27587/94/cover/8954681158_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6050062",
           "isbn": "9788954681155",
+          "loans": 8,
+          "rank": 8,
+          "series": 1
+        },
+        {
+          "title": "안녕이라 그랬어 :김애란 소설",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7073819",
+          "isbn": "9791141602376",
+          "loans": 8,
+          "rank": 9,
+          "series": 1
+        },
+        {
+          "title": "이 지랄맞음이 쌓여 축제가 되겠지 :조승리 에세이",
+          "author": "조승리",
+          "publisher": "달 출판사",
+          "cover": "https://image.aladin.co.kr/product/33696/25/cover/k962939047_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6854342",
+          "isbn": "9791158161767",
           "loans": 8,
           "rank": 10,
           "series": 1
@@ -583,12 +583,12 @@
           "series": 1
         },
         {
-          "title": "빵충 사육 준수 사항",
-          "author": "김혜영 (지은이)",
-          "publisher": "안전가옥",
-          "cover": "https://image.aladin.co.kr/product/39872/66/cover200/k242130313_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7301611",
-          "isbn": "9791194891178",
+          "title": "고전이 답했다 :마땅히 살아야 할 삶에 대하여",
+          "author": "고명환 지음",
+          "publisher": "라곰",
+          "cover": "https://image.aladin.co.kr/product/34526/60/cover200/k622932853_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=6935936",
+          "isbn": "9791193939130",
           "loans": 8,
           "rank": 12,
           "series": 1
@@ -616,6 +616,28 @@
           "series": 1
         },
         {
+          "title": "데미안",
+          "author": "헤르만 헤세, 전영애",
+          "publisher": "민음사",
+          "cover": "https://bookthumb-phinf.pstatic.net/cover/000/051/00005186.jpg?type=m1&udate=20160509",
+          "link": "https://data4library.kr/bookV?seq=2374415",
+          "isbn": "9788937460449",
+          "loans": 7,
+          "rank": 15,
+          "series": 1
+        },
+        {
+          "title": "엄마가 유령이 되었어!",
+          "author": "노부미 글·그림, 이기웅 옮김",
+          "publisher": "길벗어린이",
+          "cover": "https://image.aladin.co.kr/product/8350/97/cover/8955823509_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3153716",
+          "isbn": "9788955823509",
+          "loans": 7,
+          "rank": 16,
+          "series": 1
+        },
+        {
           "title": "빵도둑",
           "author": "시바타 케이코 글·그림, 황진희 옮김",
           "publisher": "길벗어린이",
@@ -623,7 +645,18 @@
           "link": "https://data4library.kr/bookV?seq=5943198",
           "isbn": "9788955825961",
           "loans": 7,
-          "rank": 15,
+          "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "트렌드 코리아 2027 - 2027 대한민국 소비트렌드 전망",
+          "author": "김난도, 전미영, 최지혜, 권정윤, 한다혜, 이혜원, 이수진, 전다현, 서유현, 이준영, 이향은, 김나은, 문지수 (지은이)",
+          "publisher": "미래의창",
+          "cover": "https://image.aladin.co.kr/product/40134/41/cover200/k642131067_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7342619",
+          "isbn": "9791124073483",
+          "loans": 7,
+          "rank": 18,
           "series": 1
         },
         {
@@ -634,18 +667,7 @@
           "link": "https://data4library.kr/bookV?seq=7000945",
           "isbn": "9791140712250",
           "loans": 7,
-          "rank": 16,
-          "series": 1
-        },
-        {
-          "title": "안녕이라 그랬어 :김애란 소설",
-          "author": "김애란",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7073819",
-          "isbn": "9791141602376",
-          "loans": 7,
-          "rank": 17,
+          "rank": 19,
           "series": 1
         },
         {
@@ -655,28 +677,6 @@
           "cover": "https://image.aladin.co.kr/product/40019/36/cover200/k742130236_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7312549",
           "isbn": "9791141618575",
-          "loans": 7,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "아주 작은 습관의 힘 :최고의 변화는 어떻게 만들어지는가",
-          "author": "제임스 클리어 지음, 이한이 옮김",
-          "publisher": "비즈니스북스",
-          "cover": "https://image.aladin.co.kr/product/18228/51/cover/k832534441_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5368180",
-          "isbn": "9791162540640",
-          "loans": 7,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "흉담 :전건우 장편소설",
-          "author": "전건우",
-          "publisher": "인플루엔셜",
-          "cover": "https://image.aladin.co.kr/product/39128/54/cover200/k232137457_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7255135",
-          "isbn": "9791168343764",
           "loans": 7,
           "rank": 20,
           "series": 1
