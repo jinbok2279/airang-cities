@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 10:58:55",
+  "updated_at": "2026-11-23 11:28:27",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -16,7 +16,18 @@
           "isbn": "9791168414471",
           "loans": 5,
           "rank": 1,
-          "series": 7
+          "series": 6
+        },
+        {
+          "title": "놓지 마 과학!",
+          "author": "글·신태훈,나승훈",
+          "publisher": "위즈덤하우스",
+          "cover": "https://image.aladin.co.kr/product/31953/75/cover/k552833157_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6718347",
+          "isbn": "9791168126336",
+          "loans": 4,
+          "rank": 2,
+          "series": 9
         },
         {
           "title": "슈뻘맨의 슈퍼 상식 월드컵",
@@ -26,7 +37,7 @@
           "link": "https://data4library.kr/bookV?seq=7100842",
           "isbn": "9791173322822",
           "loans": 4,
-          "rank": 2,
+          "rank": 3,
           "series": 1
         },
         {
@@ -37,19 +48,8 @@
           "link": "https://data4library.kr/bookV?seq=7089795",
           "isbn": "9791173477263",
           "loans": 4,
-          "rank": 3,
-          "series": 2
-        },
-        {
-          "title": "놓지 마 과학!",
-          "author": "글·신태훈,나승훈",
-          "publisher": "위즈덤하우스",
-          "cover": "https://image.aladin.co.kr/product/23416/73/cover/k962638285_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5601705",
-          "isbn": "9791190630184",
-          "loans": 4,
           "rank": 4,
-          "series": 7
+          "series": 2
         },
         {
           "title": "급식왕 go",
@@ -162,6 +162,17 @@
           "series": 1
         },
         {
+          "title": "마이 가디언",
+          "author": "이재문 글, 무디 그림",
+          "publisher": "이지북",
+          "cover": "https://image.aladin.co.kr/product/36627/36/cover200/k432030678_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7082920",
+          "isbn": "9791193914953",
+          "loans": 3,
+          "rank": 15,
+          "series": 1
+        },
+        {
           "title": "Not now, Bernard",
           "author": "David McKee",
           "publisher": "Red Fox",
@@ -169,7 +180,7 @@
           "link": "https://data4library.kr/bookV?seq=930115",
           "isbn": "9780099240501",
           "loans": 2,
-          "rank": 15,
+          "rank": 16,
           "series": 1
         },
         {
@@ -180,7 +191,7 @@
           "link": "https://data4library.kr/bookV?seq=2498800",
           "isbn": "9780230015838",
           "loans": 2,
-          "rank": 16,
+          "rank": 17,
           "series": 1
         },
         {
@@ -191,7 +202,7 @@
           "link": "https://data4library.kr/bookV?seq=2530485",
           "isbn": "9780435904388",
           "loans": 2,
-          "rank": 17,
+          "rank": 18,
           "series": 1
         },
         {
@@ -202,7 +213,7 @@
           "link": "https://data4library.kr/bookV?seq=2417484",
           "isbn": "9780689846939",
           "loans": 2,
-          "rank": 18,
+          "rank": 19,
           "series": 1
         },
         {
@@ -212,17 +223,6 @@
           "cover": "https://image.aladin.co.kr/product/283/71/cover/8953299462_1.jpg",
           "link": "https://data4library.kr/bookV?seq=3106424",
           "isbn": "9788926320358",
-          "loans": 2,
-          "rank": 19,
-          "series": 3
-        },
-        {
-          "title": "걱정 세탁소 :걱정을 세탁해 드립니다!",
-          "author": "홍민정 글, 김도아 그림",
-          "publisher": "좋은책신사고 좋은책어린이",
-          "cover": "https://image.aladin.co.kr/product/23284/60/cover/8928318041_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5594638",
-          "isbn": "9788928318049",
           "loans": 2,
           "rank": 20,
           "series": 1
@@ -468,7 +468,7 @@
           "cover": "https://image.aladin.co.kr/product/39872/66/cover200/k242130313_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7301611",
           "isbn": "9791194891178",
-          "loans": 22,
+          "loans": 21,
           "rank": 1,
           "series": 1
         },
@@ -528,23 +528,23 @@
           "series": 1
         },
         {
-          "title": "주와 연 :청예 장편소설",
-          "author": "청예",
-          "publisher": "인플루엔셜",
-          "cover": "https://shopping-phinf.pstatic.net/main_6064140/60641400804.20260630090120.jpg",
-          "link": "https://data4library.kr/bookV?seq=7292520",
-          "isbn": "9791168343887",
-          "loans": 13,
-          "rank": 7,
-          "series": 1
-        },
-        {
           "title": "한국사 이상현상 연구원 :최인서 소설",
           "author": "최인서",
           "publisher": "빅피시",
           "cover": "https://image.aladin.co.kr/product/40090/97/cover200/k962130440_2.jpg",
           "link": "https://data4library.kr/bookV?seq=7316990",
           "isbn": "9791124137635",
+          "loans": 12,
+          "rank": 7,
+          "series": 1
+        },
+        {
+          "title": "주와 연 :청예 장편소설",
+          "author": "청예",
+          "publisher": "인플루엔셜",
+          "cover": "https://shopping-phinf.pstatic.net/main_6064140/60641400804.20260630090120.jpg",
+          "link": "https://data4library.kr/bookV?seq=7292520",
+          "isbn": "9791168343887",
           "loans": 12,
           "rank": 8,
           "series": 1
@@ -572,35 +572,35 @@
           "series": 1
         },
         {
-          "title": "인비인 :성해나 기담집",
-          "author": "성해나",
-          "publisher": "한겨레출판",
-          "cover": "https://image.aladin.co.kr/product/39581/25/cover200/k692139247_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7282052",
-          "isbn": "9791172134297",
-          "loans": 11,
-          "rank": 11,
-          "series": 1
-        },
-        {
-          "title": "세네카, 오늘을 빼앗기고 있는 당신에게",
-          "author": "루키우스 안나이우스 세네카",
-          "publisher": "논픽션",
-          "cover": "https://shopping-phinf.pstatic.net/main_6056845/60568459498.20260623201840.jpg",
-          "link": "https://data4library.kr/bookV?seq=7288912",
-          "isbn": "9791199489561",
-          "loans": 11,
-          "rank": 12,
-          "series": 1
-        },
-        {
           "title": "찌니주의보 :정지아 장편소설",
           "author": "정지아",
           "publisher": "창비",
           "cover": "https://image.aladin.co.kr/product/40013/75/cover200/8936439995_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7312107",
           "isbn": "9788936439996",
-          "loans": 10,
+          "loans": 11,
+          "rank": 11,
+          "series": 1
+        },
+        {
+          "title": "시간의 감촉 :은희경 장편소설",
+          "author": "은희경",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/39536/43/cover200/k182139749_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7280669",
+          "isbn": "9791141617226",
+          "loans": 11,
+          "rank": 12,
+          "series": 1
+        },
+        {
+          "title": "그랬다고 적었다 :김애란 산문",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/40019/36/cover200/k742130236_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7312549",
+          "isbn": "9791141618575",
+          "loans": 11,
           "rank": 13,
           "series": 1
         },
@@ -627,23 +627,23 @@
           "series": 1
         },
         {
-          "title": "시간의 감촉 :은희경 장편소설",
-          "author": "은희경",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/39536/43/cover200/k182139749_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7280669",
-          "isbn": "9791141617226",
+          "title": "인생을 위한 최소한의 생각",
+          "author": "신영준,고영성 지음",
+          "publisher": "상상스퀘어",
+          "cover": "https://image.aladin.co.kr/product/38548/11/cover200/k192135753_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7216392",
+          "isbn": "9791124248171",
           "loans": 10,
           "rank": 16,
           "series": 1
         },
         {
-          "title": "그랬다고 적었다 :김애란 산문",
-          "author": "김애란",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/40019/36/cover200/k742130236_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7312549",
-          "isbn": "9791141618575",
+          "title": "놓지 마 과학!",
+          "author": "글·신태훈,나승훈",
+          "publisher": "위즈덤하우스",
+          "cover": "https://image.aladin.co.kr/product/31953/75/cover/k552833157_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6718347",
+          "isbn": "9791168126336",
           "loans": 10,
           "rank": 17,
           "series": 1
