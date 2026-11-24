@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23 11:25:26",
+ "updated_at": "2026-11-24 15:29:26",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -59,6 +59,21 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160256&menuNo=200011",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=879de08516ab454e8a79afb5e0a2e544&thumb=Y"
+  },
+  {
+   "id": "S295abd81b3",
+   "title": "[미림아트갤러리] 조상영 개인전 《생태계의 몸에서 사이보그의 몸까지》",
+   "start": "2026-11-22",
+   "end": "2026-11-28",
+   "place": "미림아트갤러리 (종로구 인사동길 11-1 미림아트 3F)",
+   "time": "10:00~18:00",
+   "grade": "누구나",
+   "price": "",
+   "free": true,
+   "kind": "전시/미술",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160255&menuNo=200009",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=21c29c4bc1c744f5a2fe35b959bf68f0&thumb=Y"
   },
   {
    "id": "S1e3dd283af",
@@ -299,6 +314,21 @@
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b8dc41a8f9c34f68aa60c8029a55dc78&thumb=Y"
   },
   {
+   "id": "Sb8e4d0d187",
+   "title": "그림책의 안쪽: 일본 그림책 작가 3인의 창작 노트",
+   "start": "2026-11-28",
+   "end": "2027-01-14",
+   "place": "아트센터림 1층 아트윈도우, 2층 갤러리 1,2관",
+   "time": "11:00~18:00, 월요일 휴관",
+   "grade": "누구나",
+   "price": "",
+   "free": true,
+   "kind": "전시/미술",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160278&menuNo=200009",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=2d0cdaa6a5ca408b9862f4578cbdb9ad&thumb=Y"
+  },
+  {
    "id": "S9a5bf3c793",
    "title": "[세종문화회관] 2026 누구나 클래식 with 원주시립교향악단",
    "start": "2026-12-01",
@@ -526,46 +556,6 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261023104443869949"
   },
   {
-   "id": "RXML-JN220501",
-   "title": "서울형 키즈카페 종로구 혜화동점(종로 혜명 아이들 상상놀이터)",
-   "lib": "서울특별시 종로구 성균관로 91 올림픽기념국민생활관 2층 (혜화동)",
-   "target": "어린이,유아",
-   "place": "서울특별시 종로구 성균관로 91 올림픽기념국민생활관 2층 (혜화동)",
-   "start": "2026-11-23",
-   "end": "2026-11-30",
-   "period": "",
-   "applyStart": "2026-11-23",
-   "applyEnd": "2026-11-30",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": false,
-   "src": "yeyak",
-   "kind": "서울형키즈카페",
-   "link": "https://umppa.seoul.go.kr/icare/user/kidsCafeResve/BD_selectKidsCafeResveCal.do?q_fcltyId=JN220501"
-  },
-  {
-   "id": "RXML-JN260701",
-   "title": "서울형 키즈카페 종로구 숭인1동점(소담누리 놀이터)",
-   "lib": "서울특별시 종로구 동망산길 62  (숭인동)",
-   "target": "유아",
-   "place": "서울특별시 종로구 동망산길 62  (숭인동)",
-   "start": "2026-11-23",
-   "end": "2026-11-30",
-   "period": "",
-   "applyStart": "2026-11-23",
-   "applyEnd": "2026-11-30",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": false,
-   "src": "yeyak",
-   "kind": "서울형키즈카페",
-   "link": "https://umppa.seoul.go.kr/icare/user/kidsCafeResve/BD_selectKidsCafeResveCal.do?q_fcltyId=JN260701"
-  },
-  {
    "id": "RS261021141228813099",
    "title": "(주말) 개도치 판화 공방",
    "lib": "서울시립 미술아카이브 배움동",
@@ -604,6 +594,46 @@
    "src": "yeyak",
    "kind": "산림여가",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260720144234747958"
+  },
+  {
+   "id": "RXML-JN220501",
+   "title": "서울형 키즈카페 종로구 혜화동점(종로 혜명 아이들 상상놀이터)",
+   "lib": "서울특별시 종로구 성균관로 91 올림픽기념국민생활관 2층 (혜화동)",
+   "target": "어린이,유아",
+   "place": "서울특별시 종로구 성균관로 91 올림픽기념국민생활관 2층 (혜화동)",
+   "start": "2026-11-24",
+   "end": "2026-12-07",
+   "period": "",
+   "applyStart": "2026-11-24",
+   "applyEnd": "2026-12-07",
+   "apply": "",
+   "count": "",
+   "status": "접수중",
+   "btn": "",
+   "free": false,
+   "src": "yeyak",
+   "kind": "서울형키즈카페",
+   "link": "https://umppa.seoul.go.kr/icare/user/kidsCafeResve/BD_selectKidsCafeResveCal.do?q_fcltyId=JN220501"
+  },
+  {
+   "id": "RXML-JN260701",
+   "title": "서울형 키즈카페 종로구 숭인1동점(소담누리 놀이터)",
+   "lib": "서울특별시 종로구 동망산길 62  (숭인동)",
+   "target": "유아",
+   "place": "서울특별시 종로구 동망산길 62  (숭인동)",
+   "start": "2026-11-24",
+   "end": "2026-12-07",
+   "period": "",
+   "applyStart": "2026-11-24",
+   "applyEnd": "2026-12-07",
+   "apply": "",
+   "count": "",
+   "status": "접수중",
+   "btn": "",
+   "free": false,
+   "src": "yeyak",
+   "kind": "서울형키즈카페",
+   "link": "https://umppa.seoul.go.kr/icare/user/kidsCafeResve/BD_selectKidsCafeResveCal.do?q_fcltyId=JN260701"
   },
   {
    "id": "RS260913113451623739",
@@ -884,6 +914,26 @@
    "src": "yeyak",
    "kind": "산림여가",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260720140536671080"
+  },
+  {
+   "id": "RS261123095159938255",
+   "title": "옛 서울시장 공관의 역사와 한양도성의 의미(2026년 12월)",
+   "lib": "한양도성 혜화동 전시안내센터(옛 시장공관)",
+   "target": "성인, 청소년, 초등학생(3학년 이상)",
+   "place": "한양도성 혜화동 전시안내센터(옛 시장공관)",
+   "start": "2026-12-01",
+   "end": "2026-12-31",
+   "period": "",
+   "applyStart": "2026-11-24",
+   "applyEnd": "2026-12-31",
+   "apply": "",
+   "count": "",
+   "status": "접수중",
+   "btn": "",
+   "free": true,
+   "src": "yeyak",
+   "kind": "전시/관람",
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261123095159938255"
   },
   {
    "id": "RS261118174231495743",
@@ -1428,6 +1478,21 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261120094235570725"
   },
   {
+   "id": "S8c70fa9688",
+   "title": "[서울역사박물관] 2026년 딜쿠샤 개관 5주년 기념 작은전시 [딜쿠샤 앳 홈]",
+   "start": "2026-12-01",
+   "end": "2027-06-27",
+   "place": "서울역사박물관 딜쿠샤",
+   "time": "화-일 9:00~18:00",
+   "grade": "누구나",
+   "price": "",
+   "free": true,
+   "kind": "전시/미술",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160283&menuNo=200009",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a24e192080094b389308b00c4768b163&thumb=Y"
+  },
+  {
    "id": "S3c537c38d9",
    "title": "2026 제11회 서화·공예 명장대전",
    "start": "2026-12-16",
@@ -1458,6 +1523,21 @@
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=add819e95c874a0ea517f2d016c61e49&thumb=Y"
   },
   {
+   "id": "S7fc7eb3d0f",
+   "title": "[도암 키즈 아카데미] 2027 DOAM WINTER KIDS ART CAMP: 겨울을 바라보는 세 가지 시선",
+   "start": "2027-01-09",
+   "end": "2027-01-23",
+   "place": "도암갤러리내 아카데미실",
+   "time": "10:30~12:00 (총 3회, 단회차 신청가능, 90분 수업)",
+   "grade": "초등학교 1~6학년(초등학교 입학 예정자 제외)",
+   "price": "회당 35,000원",
+   "free": false,
+   "kind": "교육/체험",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160281&menuNo=200011",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=63916726906c488cbe08ad40791e8ba8&thumb=Y"
+  },
+  {
    "id": "RS261122114202189657",
    "title": "[서울공예박물관] SeMoCA 학예직무연수 신청 안내",
    "lib": "서울공예박물관 교육동 1층 강당",
@@ -1476,26 +1556,6 @@
    "src": "yeyak",
    "kind": "공예/취미",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261122114202189657"
-  },
-  {
-   "id": "RS261106090449533986",
-   "title": "[서울한옥홍보관] 서울한옥답사",
-   "lib": "서울한옥홍보관",
-   "target": "제한없음",
-   "place": "서울한옥홍보관",
-   "start": "2026-11-28",
-   "end": "2026-11-28",
-   "period": "",
-   "applyStart": "2026-11-23",
-   "applyEnd": "2026-11-28",
-   "apply": "",
-   "count": "",
-   "status": "접수전",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "문화행사",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261106090449533986"
   },
   {
    "id": "RS261121095141967694",
