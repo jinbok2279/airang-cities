@@ -69,7 +69,7 @@ def office_phone(p):
 
 
 def goe_jobs():
-    out, seen = [], set()
+    out, seen, failed = [], set(), []
     for cd, kind in KINDS.items():
         n = 0
         for page in range(1, 6):
@@ -79,6 +79,8 @@ def goe_jobs():
                 html = http(GOE_LIST, form)
             except Exception as e:
                 print("  교육청 목록 실패:", kind, e)
+                if page == 1:
+                    failed.append(kind)
                 break
             items = re.findall(r"<li>\s*<a href=\"javascript:goView\('(\d+)'\);?\">(.*?)</a>\s*</li>", html, re.S)
             for sn, body in items:
@@ -110,6 +112,8 @@ def goe_jobs():
                 break
             time.sleep(0.5)
         print(f"  교육청 {kind}: {n}건")
+    if len(failed) == len(KINDS):
+        raise RuntimeError("교육청 목록에 하나도 접속 못 함")
     return out
 
 
@@ -122,6 +126,8 @@ def care_jobs():
             html = http(CARE_LIST, form)
         except Exception as e:
             print("  어린이집 목록 실패:", e)
+            if page == 0:
+                raise
             break
         t = Tree(); t.feed(html)
         rows = []
@@ -174,12 +180,13 @@ def main():
         print("경기도가 아니라 채용 정보는 건너뜀")
         return
     school, care = [], []
+    ok = 0   # 접속에 성공한 출처 수 (0건이어도 성공이면 "공고 없음"으로 저장)
     try:
-        school = goe_jobs()
+        school = goe_jobs(); ok += 1
     except Exception as e:
         print("교육청 채용 실패:", e)
     try:
-        care = care_jobs()
+        care = care_jobs(); ok += 1
     except Exception as e:
         print("어린이집 구인 실패:", e)
     old = {}
@@ -192,8 +199,10 @@ def main():
         school = [j for j in old["school"] if (j.get("applyEnd") or "9") >= today]
     if not care and old.get("care"):
         care = [j for j in old["care"] if (j.get("applyEnd") or "9") >= today]
-    if not school and not care:
+    if not school and not care and not ok:
         raise SystemExit("채용 정보를 하나도 가져오지 못했습니다")
+    if not school and not care:
+        print("지금 올라온 채용 공고가 없어요 (접속은 정상) — 빈 목록으로 저장")
     school.sort(key=lambda j: (j.get("applyEnd") or "9", j["org"]))
     care.sort(key=lambda j: (j.get("reg") or ""), reverse=True)
     os.makedirs("output", exist_ok=True)
