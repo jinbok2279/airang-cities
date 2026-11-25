@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24 15:05:04",
+  "updated_at": "2026-11-25 13:45:03",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -8,17 +8,6 @@
       "desc": "마포구 공공도서관 · 초등(8~13세) 대출 · 최근 1달",
       "books": [
         {
-          "title": "정재승의 인간 탐구 보고서",
-          "author": "정재은,특대호 원고: 오경은",
-          "publisher": "아울북(북이십일 아울북)",
-          "cover": "https://image.aladin.co.kr/product/37230/39/cover200/8950983508_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7153696",
-          "isbn": "9788950983505",
-          "loans": 8,
-          "rank": 1,
-          "series": 4
-        },
-        {
           "title": "호랑이 빵집",
           "author": "서지원, 홍그림",
           "publisher": "지학사",
@@ -26,8 +15,19 @@
           "link": "https://data4library.kr/bookV?seq=6766102",
           "isbn": "9791162041512",
           "loans": 8,
-          "rank": 2,
+          "rank": 1,
           "series": 2
+        },
+        {
+          "title": "정재승의 인간 탐구 보고서",
+          "author": "정재은,특대호 원고: 오경은",
+          "publisher": "아울북(북이십일 아울북)",
+          "cover": "https://image.aladin.co.kr/product/37230/39/cover200/8950983508_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7153696",
+          "isbn": "9788950983505",
+          "loans": 7,
+          "rank": 2,
+          "series": 6
         },
         {
           "title": "정재승의 로봇 탐구 보고서 :어린이와 함께하는 인공지능 프로젝트",
@@ -85,25 +85,14 @@
           "series": 1
         },
         {
-          "title": "과학 덕후 젤라토",
-          "author": "고희정 글, 김선배 그림",
-          "publisher": "토토북",
-          "cover": "https://image.aladin.co.kr/product/39100/16/cover200/8964965523_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7253931",
-          "isbn": "9788964965528",
+          "title": "시간 고양이",
+          "author": "박미연 글, 이소연 그림",
+          "publisher": "이지북",
+          "cover": "https://image.aladin.co.kr/product/39132/25/cover200/k672137557_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7255461",
+          "isbn": "9791124035290",
           "loans": 6,
           "rank": 8,
-          "series": 1
-        },
-        {
-          "title": "마이 가디언",
-          "author": "이재문 글, 무디 그림",
-          "publisher": "이지북",
-          "cover": "https://image.aladin.co.kr/product/39402/30/cover200/k252139975_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7273829",
-          "isbn": "9791124035337",
-          "loans": 6,
-          "rank": 9,
           "series": 1
         },
         {
@@ -114,7 +103,7 @@
           "link": "https://data4library.kr/bookV?seq=6900321",
           "isbn": "9791160342147",
           "loans": 6,
-          "rank": 10,
+          "rank": 9,
           "series": 1
         },
         {
@@ -125,7 +114,7 @@
           "link": "https://data4library.kr/bookV?seq=7294075",
           "isbn": "9791168091580",
           "loans": 6,
-          "rank": 11,
+          "rank": 10,
           "series": 1
         },
         {
@@ -136,8 +125,8 @@
           "link": "https://data4library.kr/bookV?seq=6525944",
           "isbn": "9791168412477",
           "loans": 6,
-          "rank": 12,
-          "series": 1
+          "rank": 11,
+          "series": 2
         },
         {
           "title": "(처음 읽는) 삼국지",
@@ -147,7 +136,7 @@
           "link": "https://data4library.kr/bookV?seq=7051191",
           "isbn": "9791173113581",
           "loans": 6,
-          "rank": 13,
+          "rank": 12,
           "series": 1
         },
         {
@@ -158,7 +147,7 @@
           "link": "https://data4library.kr/bookV?seq=5709267",
           "isbn": "9791190908184",
           "loans": 6,
-          "rank": 14,
+          "rank": 13,
           "series": 1
         },
         {
@@ -168,6 +157,17 @@
           "cover": "https://image.aladin.co.kr/product/36428/40/cover200/k062039295_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7063907",
           "isbn": "9791193031957",
+          "loans": 6,
+          "rank": 14,
+          "series": 1
+        },
+        {
+          "title": "멈출 수 없는 우리",
+          "author": "유발 하라리 글, 김명주 옮김",
+          "publisher": "김영사",
+          "cover": "https://image.aladin.co.kr/product/35296/93/cover200/k662035265_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6981428",
+          "isbn": "9791194330875",
           "loans": 6,
           "rank": 15,
           "series": 1
@@ -217,12 +217,12 @@
           "series": 1
         },
         {
-          "title": "내 인생 최악의 일주일",
-          "author": "이바 아모리스,김영진",
-          "publisher": "비룡소",
-          "cover": "https://image.aladin.co.kr/product/37604/85/cover200/8949144565_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7173549",
-          "isbn": "9788949144566",
+          "title": "마법천자문 :손오공의 한자 대탐험",
+          "author": "스튜디오시리얼,정수영",
+          "publisher": "아울북",
+          "cover": "https://image.aladin.co.kr/product/27526/22/cover/8950995905_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=6045918",
+          "isbn": "9788950995904",
           "loans": 5,
           "rank": 20,
           "series": 1
@@ -235,17 +235,6 @@
       "desc": "마포구 공공도서관 · 청소년(14~19세) 대출 · 최근 1달",
       "books": [
         {
-          "title": "바깥은 여름 :김애란 소설",
-          "author": "김애란",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/15533/81/cover/k852533629_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3451595",
-          "isbn": "9788954646079",
-          "loans": 4,
-          "rank": 1,
-          "series": 1
-        },
-        {
           "title": "미적분, 놀라운 일상의 공식",
           "author": "구라모토 다카후미 지음, 김소영 옮김",
           "publisher": "미디어숲",
@@ -253,7 +242,7 @@
           "link": "https://data4library.kr/bookV?seq=6943406",
           "isbn": "9791158742300",
           "loans": 4,
-          "rank": 2,
+          "rank": 1,
           "series": 1
         },
         {
@@ -263,6 +252,17 @@
           "cover": "https://image.aladin.co.kr/product/7233/44/cover/895277518x_1.jpg",
           "link": "https://data4library.kr/bookV?seq=3105262",
           "isbn": "9788952775184",
+          "loans": 3,
+          "rank": 2,
+          "series": 1
+        },
+        {
+          "title": "바깥은 여름 :김애란 소설",
+          "author": "김애란",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/15533/81/cover/k852533629_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=3451595",
+          "isbn": "9788954646079",
           "loans": 3,
           "rank": 3,
           "series": 1
@@ -301,12 +301,12 @@
           "series": 1
         },
         {
-          "title": "Tyranny of merit :can we find the common good?",
-          "author": "Michael J. Sandel",
-          "publisher": "Picador USA",
-          "cover": "https://image.aladin.co.kr/product/25904/44/cover/1250800064_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=6416236",
-          "isbn": "9781250800060",
+          "title": "불안 세대 :디지털 세계는 우리 아이들을 어떻게 병들게 하는가",
+          "author": "조너선 하이트 지음, 이충호 옮김",
+          "publisher": "웅진씽크빅",
+          "cover": "https://image.aladin.co.kr/product/34372/90/cover200/8901285894_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6922788",
+          "isbn": "9788901285894",
           "loans": 2,
           "rank": 7,
           "series": 1
@@ -468,7 +468,7 @@
           "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7073819",
           "isbn": "9791141602376",
-          "loans": 43,
+          "loans": 45,
           "rank": 1,
           "series": 1
         },
@@ -479,7 +479,7 @@
           "cover": "https://image.aladin.co.kr/product/36101/66/cover200/893643974x_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7035395",
           "isbn": "9788936439743",
-          "loans": 39,
+          "loans": 40,
           "rank": 2,
           "series": 1
         },
@@ -490,7 +490,7 @@
           "cover": "https://bookthumb-phinf.pstatic.net/cover/071/902/07190270.jpg?type=m1&udate=20170801",
           "link": "https://data4library.kr/bookV?seq=1938053",
           "isbn": "9788998441012",
-          "loans": 34,
+          "loans": 36,
           "rank": 3,
           "series": 1
         },
@@ -501,7 +501,7 @@
           "cover": "https://image.aladin.co.kr/product/37172/36/cover200/k662031678_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7149374",
           "isbn": "9791141602451",
-          "loans": 33,
+          "loans": 36,
           "rank": 4,
           "series": 1
         },
@@ -517,25 +517,14 @@
           "series": 1
         },
         {
-          "title": "시간의 감촉 :은희경 장편소설",
-          "author": "은희경",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/39536/43/cover200/k182139749_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7280669",
-          "isbn": "9791141617226",
-          "loans": 31,
-          "rank": 6,
-          "series": 1
-        },
-        {
           "title": "급류 :정대건 장편소설",
           "author": "정대건",
           "publisher": "민음사",
           "cover": "https://image.aladin.co.kr/product/30769/24/cover/8937473402_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6614564",
           "isbn": "9788937473401",
-          "loans": 30,
-          "rank": 7,
+          "loans": 32,
+          "rank": 6,
           "series": 1
         },
         {
@@ -545,7 +534,18 @@
           "cover": "https://image.aladin.co.kr/product/27045/43/cover/8925588730_1.jpg",
           "link": "https://data4library.kr/bookV?seq=5969086",
           "isbn": "9788925588735",
-          "loans": 29,
+          "loans": 31,
+          "rank": 7,
+          "series": 1
+        },
+        {
+          "title": "시간의 감촉 :은희경 장편소설",
+          "author": "은희경",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/39536/43/cover200/k182139749_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7280669",
+          "isbn": "9791141617226",
+          "loans": 31,
           "rank": 8,
           "series": 1
         },
@@ -561,13 +561,13 @@
           "series": 1
         },
         {
-          "title": "홍학의 자리 :정해연 장편소설",
-          "author": "정해연",
+          "title": "이중 하나는 거짓말 :김애란 장편소설",
+          "author": "김애란",
           "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/27587/94/cover/8954681158_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6050062",
-          "isbn": "9788954681155",
-          "loans": 28,
+          "cover": "https://image.aladin.co.kr/product/34474/76/cover200/k292932634_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6933234",
+          "isbn": "9791141601300",
+          "loans": 29,
           "rank": 10,
           "series": 1
         },
@@ -583,23 +583,23 @@
           "series": 1
         },
         {
-          "title": "아몬드 :손원평 장편소설",
-          "author": "손원평",
+          "title": "소년이 온다 :한강 장편소설",
+          "author": "한강",
           "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/16839/4/cover/k492534773_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3423096",
-          "isbn": "9788936434267",
+          "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=2037399",
+          "isbn": "9788936434120",
           "loans": 26,
           "rank": 12,
           "series": 1
         },
         {
-          "title": "이중 하나는 거짓말 :김애란 장편소설",
-          "author": "김애란",
+          "title": "홍학의 자리 :정해연 장편소설",
+          "author": "정해연",
           "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/34474/76/cover200/k292932634_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6933234",
-          "isbn": "9791141601300",
+          "cover": "https://image.aladin.co.kr/product/27587/94/cover/8954681158_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6050062",
+          "isbn": "9788954681155",
           "loans": 26,
           "rank": 13,
           "series": 1
@@ -616,36 +616,25 @@
           "series": 1
         },
         {
-          "title": "소년이 온다 :한강 장편소설",
-          "author": "한강",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/4086/97/cover/8936434128_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=2037399",
-          "isbn": "9788936434120",
-          "loans": 25,
-          "rank": 15,
-          "series": 1
-        },
-        {
-          "title": "불편한 편의점 :김호연 장편소설",
-          "author": "김호연",
-          "publisher": "나무옆의자",
-          "cover": "https://image.aladin.co.kr/product/26942/84/cover/k582730818_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5962217",
-          "isbn": "9791161571188",
-          "loans": 25,
-          "rank": 16,
-          "series": 1
-        },
-        {
           "title": "인비인 :성해나 기담집",
           "author": "성해나",
           "publisher": "한겨레출판",
           "cover": "https://image.aladin.co.kr/product/39581/25/cover200/k692139247_2.jpg",
           "link": "https://data4library.kr/bookV?seq=7282052",
           "isbn": "9791172134297",
+          "loans": 26,
+          "rank": 15,
+          "series": 1
+        },
+        {
+          "title": "지푸라기 왕관을 쓴 여자 :박상영 장편소설",
+          "author": "박상영",
+          "publisher": "인플루엔셜",
+          "cover": "https://image.aladin.co.kr/product/39834/40/cover200/k032130812_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7297888",
+          "isbn": "9791168344044",
           "loans": 25,
-          "rank": 17,
+          "rank": 16,
           "series": 1
         },
         {
@@ -655,6 +644,17 @@
           "cover": "https://image.aladin.co.kr/product/39725/90/cover200/8936429698_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7293332",
           "isbn": "9788936429690",
+          "loans": 24,
+          "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "나의 완벽한 장례식 :조현선 장편소설",
+          "author": "조현선",
+          "publisher": "책읽어주는남자",
+          "cover": "https://image.aladin.co.kr/product/38357/53/cover200/k952135368_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7204893",
+          "isbn": "9791124038192",
           "loans": 24,
           "rank": 18,
           "series": 1
@@ -671,13 +671,13 @@
           "series": 1
         },
         {
-          "title": "나의 완벽한 장례식 :조현선 장편소설",
-          "author": "조현선",
-          "publisher": "책읽어주는남자",
-          "cover": "https://image.aladin.co.kr/product/38357/53/cover200/k952135368_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7204893",
-          "isbn": "9791124038192",
-          "loans": 23,
+          "title": "단 한 번의 삶",
+          "author": "김영하",
+          "publisher": "복복서가",
+          "cover": "https://image.aladin.co.kr/product/36114/12/cover200/s602038067_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7035659",
+          "isbn": "9791191114768",
+          "loans": 24,
           "rank": 20,
           "series": 1
         }
