@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 14:17:37",
+  "updated_at": "2026-11-26 13:45:23",
   "source": "도서관 정보나루 (국립중앙도서관)",
   "lists": [
     {
@@ -19,17 +19,6 @@
           "series": 3
         },
         {
-          "title": "놓지 마 과학!",
-          "author": "글·신태훈,나승훈",
-          "publisher": "위즈덤하우스",
-          "cover": "https://image.aladin.co.kr/product/29305/35/cover/k992837600_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6449054",
-          "isbn": "9791168122369",
-          "loans": 7,
-          "rank": 2,
-          "series": 3
-        },
-        {
           "title": "밤낮 레스토랑",
           "author": "글·노예지",
           "publisher": "북스그라운드",
@@ -37,7 +26,7 @@
           "link": "https://data4library.kr/bookV?seq=7283531",
           "isbn": "9791168343900",
           "loans": 7,
-          "rank": 3,
+          "rank": 2,
           "series": 1
         },
         {
@@ -47,6 +36,17 @@
           "cover": "https://image.aladin.co.kr/product/30881/96/cover/k672831283_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6624071",
           "isbn": "9791168414822",
+          "loans": 7,
+          "rank": 3,
+          "series": 6
+        },
+        {
+          "title": "놓지 마 과학!",
+          "author": "글·신태훈,나승훈",
+          "publisher": "위즈덤하우스",
+          "cover": "https://image.aladin.co.kr/product/34155/83/cover200/k032931590_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6892247",
+          "isbn": "9791171712267",
           "loans": 7,
           "rank": 4,
           "series": 5
@@ -63,59 +63,37 @@
           "series": 1
         },
         {
+          "title": "진실한 동물도감",
+          "author": "글쓴이: 최형선, 그린이: 차야다",
+          "publisher": "인플루엔셜",
+          "cover": "https://image.aladin.co.kr/product/37135/4/cover200/k622031277_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7147039",
+          "isbn": "9791168343146",
+          "loans": 6,
+          "rank": 6,
+          "series": 1
+        },
+        {
           "title": "흔한남매",
           "author": "원작: 흔한남매, 유난희",
           "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/34618/90/cover200/k522933982_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6945239",
-          "isbn": "9791168418844",
-          "loans": 6,
-          "rank": 6,
-          "series": 2
-        },
-        {
-          "title": "별별 직업 상담소",
-          "author": "요시타케 신스케 글·그림, 권남희 옮김",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/36099/18/cover200/k122038963_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7033301",
-          "isbn": "9791173320927",
+          "cover": "https://image.aladin.co.kr/product/30518/41/cover/k422830492_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6594703",
+          "isbn": "9791168414471",
           "loans": 6,
           "rank": 7,
-          "series": 1
+          "series": 3
         },
         {
           "title": "에그박사 :Egg&bugs",
           "author": "원작: 에그박사, 홍종현",
           "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/36471/25/cover200/k032039912_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7067147",
-          "isbn": "9791173476259",
+          "cover": "https://image.aladin.co.kr/product/32932/88/cover/k672936940_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6796711",
+          "isbn": "9791168416840",
           "loans": 6,
           "rank": 8,
           "series": 2
-        },
-        {
-          "title": "설민석의 한국사 대모험",
-          "author": "설민석,정현희",
-          "publisher": "휴먼큐브",
-          "cover": "https://bookthumb-phinf.pstatic.net/cover/134/447/13444720.jpg?type=m1&udate=20180326",
-          "link": "https://data4library.kr/bookV?seq=3724093",
-          "isbn": "9791188874088",
-          "loans": 6,
-          "rank": 9,
-          "series": 3
-        },
-        {
-          "title": "백앤아 :교양이 층층 쌓이는 점프 맵",
-          "author": "원작: 백앤아, 돌만",
-          "publisher": "샌드박스네트워크",
-          "cover": "https://image.aladin.co.kr/product/34009/10/cover200/k582931865_3.jpg",
-          "link": "https://data4library.kr/bookV?seq=6883250",
-          "isbn": "9791192504360",
-          "loans": 6,
-          "rank": 10,
-          "series": 1
         },
         {
           "title": "Teddy Bear, Teddy Bear",
@@ -125,7 +103,7 @@
           "link": "https://data4library.kr/bookV?seq=2496332",
           "isbn": "9780867888249",
           "loans": 5,
-          "rank": 11,
+          "rank": 9,
           "series": 1
         },
         {
@@ -136,7 +114,7 @@
           "link": "https://data4library.kr/bookV?seq=6308100",
           "isbn": "9788934980056",
           "loans": 5,
-          "rank": 12,
+          "rank": 10,
           "series": 1
         },
         {
@@ -147,8 +125,19 @@
           "link": "https://data4library.kr/bookV?seq=6808527",
           "isbn": "9788950968502",
           "loans": 5,
-          "rank": 13,
-          "series": 2
+          "rank": 11,
+          "series": 1
+        },
+        {
+          "title": "내 인생 치트 키 :실수를 삭제하시겠습니까?",
+          "author": "이재문 글, 유리 그림",
+          "publisher": "위즈덤하우스",
+          "cover": "",
+          "link": "https://data4library.kr/bookV?seq=5332855",
+          "isbn": "9788962479959",
+          "loans": 5,
+          "rank": 12,
+          "series": 1
         },
         {
           "title": "오싹오싹 친구들! 끔찍한 샐러드",
@@ -157,6 +146,17 @@
           "cover": "https://image.aladin.co.kr/product/38534/92/cover200/8964965477_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7215207",
           "isbn": "9788964965474",
+          "loans": 5,
+          "rank": 13,
+          "series": 1
+        },
+        {
+          "title": "다판다 편의점",
+          "author": "강효미 글, 밤코 그림",
+          "publisher": "다산북스",
+          "cover": "https://image.aladin.co.kr/product/38361/19/cover200/k002135362_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7204070",
+          "isbn": "9791130673738",
           "loans": 5,
           "rank": 14,
           "series": 1
@@ -173,25 +173,36 @@
           "series": 1
         },
         {
-          "title": "진실한 동물도감",
-          "author": "글쓴이: 최형선, 그린이: 차야다",
-          "publisher": "인플루엔셜",
-          "cover": "https://image.aladin.co.kr/product/37135/4/cover200/k622031277_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7147039",
-          "isbn": "9791168343146",
+          "title": "호랑이 빵집",
+          "author": "서지원, 홍그림",
+          "publisher": "지학사",
+          "cover": "https://image.aladin.co.kr/product/30782/50/cover/k052832579_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6653477",
+          "isbn": "9791162041376",
           "loans": 5,
           "rank": 16,
           "series": 1
         },
         {
-          "title": "흔한남매 이무기 :이해하면 무서운 이야기",
-          "author": "원작: 흔한남매, 도니패밀리",
-          "publisher": "미래엔",
-          "cover": "https://image.aladin.co.kr/product/34240/43/cover200/k252931432_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=6900046",
-          "isbn": "9791168418516",
+          "title": "변호사 어벤저스 :어린이 법학 동화",
+          "author": "고희정, 최미란",
+          "publisher": "가나문화콘텐츠",
+          "cover": "https://image.aladin.co.kr/product/35854/54/cover200/k872037475_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7018021",
+          "isbn": "9791168091269",
           "loans": 5,
           "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "(흔한남매) 수수께끼 어드벤처 :수수께끼로 배우는 교과 지식",
+          "author": "원작: 흔한남매, 도니패밀리",
+          "publisher": "미래엔",
+          "cover": "https://image.aladin.co.kr/product/33188/45/cover/k742937532_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6814802",
+          "isbn": "9791168417656",
+          "loans": 5,
+          "rank": 18,
           "series": 1
         },
         {
@@ -202,27 +213,16 @@
           "link": "https://data4library.kr/bookV?seq=7076245",
           "isbn": "9791169514101",
           "loans": 5,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "어쩌다 좋은 일이 생길지도",
-          "author": "요시타케 신스케 글·그림, 고향옥 옮김",
-          "publisher": "김영사",
-          "cover": "https://image.aladin.co.kr/product/36281/68/cover200/k582038030_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7055141",
-          "isbn": "9791173321771",
-          "loans": 5,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "똥볶이 할멈 :K-히어로 판타지",
-          "author": "강효미, 김무연",
-          "publisher": "따끈따끈책방",
-          "cover": "https://image.aladin.co.kr/product/27982/44/cover/k832734228_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6307324",
-          "isbn": "9791190409124",
+          "title": "물리박사 김상욱의 수상한 연구실 :어린이를 위한 세상의 모든 과학",
+          "author": "김하연, 정순규",
+          "publisher": "아울북(북이십일 아울북)",
+          "cover": "https://image.aladin.co.kr/product/32610/91/cover/k172935541_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6772776",
+          "isbn": "9791171171019",
           "loans": 5,
           "rank": 20,
           "series": 1
@@ -279,17 +279,6 @@
           "series": 1
         },
         {
-          "title": "왜 세계의 절반은 굶주리는가? :유엔 식량특별조사관이 아들에게 들려주는 기아의 진실",
-          "author": "장 지글러 지음, 유영미 옮김",
-          "publisher": "갈라파고스",
-          "cover": "https://image.aladin.co.kr/product/7964/67/cover/k042434338_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=3131003",
-          "isbn": "9791187038030",
-          "loans": 3,
-          "rank": 5,
-          "series": 1
-        },
-        {
           "title": "작별인사 :김영하 장편소설",
           "author": "김영하",
           "publisher": "복복서가",
@@ -297,51 +286,7 @@
           "link": "https://data4library.kr/bookV?seq=6446085",
           "isbn": "9791191114225",
           "loans": 3,
-          "rank": 6,
-          "series": 1
-        },
-        {
-          "title": "Horrible Harry and the Drop of Doom (Paperback)",
-          "author": "수지 클라인 (지은이)",
-          "publisher": "Puffin",
-          "cover": "https://image.aladin.co.kr/product/106/5/cover/0140372563_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=2482727",
-          "isbn": "9780140372564",
-          "loans": 2,
-          "rank": 7,
-          "series": 1
-        },
-        {
-          "title": "Horrible Harry and the Green Slime (Paperback)",
-          "author": "Suzy Kline (지은이)",
-          "publisher": "Puffin",
-          "cover": "https://image.aladin.co.kr/product/117/86/cover/0140389709_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=2482756",
-          "isbn": "9780140389708",
-          "loans": 2,
-          "rank": 8,
-          "series": 1
-        },
-        {
-          "title": "Horrible Harry and the Christmas Surprise (Paperback)",
-          "author": "수지 클라인 (지은이)",
-          "publisher": "Puffin",
-          "cover": "https://image.aladin.co.kr/product/108/70/cover/0141301457_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=2482724",
-          "isbn": "9780141301457",
-          "loans": 2,
-          "rank": 9,
-          "series": 1
-        },
-        {
-          "title": "Horrible Harry and the Locked Closet (Paperback) - Horrible Harry",
-          "author": "Suzy Kline (지은이), 프랭크 렘키위츠 (그림)",
-          "publisher": "Puffin",
-          "cover": "https://image.aladin.co.kr/product/95/31/cover/0142404519_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=2482874",
-          "isbn": "9780142404515",
-          "loans": 2,
-          "rank": 10,
+          "rank": 5,
           "series": 1
         },
         {
@@ -352,7 +297,7 @@
           "link": "https://data4library.kr/bookV?seq=2979635",
           "isbn": "9780375867033",
           "loans": 2,
-          "rank": 11,
+          "rank": 6,
           "series": 1
         },
         {
@@ -363,7 +308,7 @@
           "link": "https://data4library.kr/bookV?seq=2979637",
           "isbn": "9780375867040",
           "loans": 2,
-          "rank": 12,
+          "rank": 7,
           "series": 1
         },
         {
@@ -374,7 +319,7 @@
           "link": "https://data4library.kr/bookV?seq=2979639",
           "isbn": "9780375868832",
           "loans": 2,
-          "rank": 13,
+          "rank": 8,
           "series": 1
         },
         {
@@ -385,7 +330,7 @@
           "link": "https://data4library.kr/bookV?seq=2979640",
           "isbn": "9780375868849",
           "loans": 2,
-          "rank": 14,
+          "rank": 9,
           "series": 1
         },
         {
@@ -396,7 +341,7 @@
           "link": "https://data4library.kr/bookV?seq=2979638",
           "isbn": "9780375868856",
           "loans": 2,
-          "rank": 15,
+          "rank": 10,
           "series": 1
         },
         {
@@ -407,7 +352,7 @@
           "link": "https://data4library.kr/bookV?seq=2534837",
           "isbn": "9780448453682",
           "loans": 2,
-          "rank": 16,
+          "rank": 11,
           "series": 1
         },
         {
@@ -418,7 +363,7 @@
           "link": "https://data4library.kr/bookV?seq=2534838",
           "isbn": "9780448453699",
           "loans": 2,
-          "rank": 17,
+          "rank": 12,
           "series": 1
         },
         {
@@ -429,7 +374,7 @@
           "link": "https://data4library.kr/bookV?seq=2534839",
           "isbn": "9780448453705",
           "loans": 2,
-          "rank": 18,
+          "rank": 13,
           "series": 1
         },
         {
@@ -440,16 +385,71 @@
           "link": "https://data4library.kr/bookV?seq=2534786",
           "isbn": "9780448455709",
           "loans": 2,
+          "rank": 14,
+          "series": 1
+        },
+        {
+          "title": "The Burglar's Breakfast (Paperback)",
+          "author": "Felecity Everett (지은이)",
+          "publisher": "Usborne",
+          "cover": "https://image.aladin.co.kr/product/94/83/cover/0746048564_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2414286",
+          "isbn": "9780746048566",
+          "loans": 2,
+          "rank": 15,
+          "series": 1
+        },
+        {
+          "title": "The Frog Prince (Paperback, 영국판)",
+          "author": "Grimm Brothers (지은이)",
+          "publisher": "Usborne",
+          "cover": "https://image.aladin.co.kr/product/94/83/cover/0746070233_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2442451",
+          "isbn": "9780746070239",
+          "loans": 2,
+          "rank": 16,
+          "series": 1
+        },
+        {
+          "title": "Titanic",
+          "author": "by Anna Claybourne, Katie Daynes",
+          "publisher": "",
+          "cover": "",
+          "link": "https://data4library.kr/bookV?seq=2699357",
+          "isbn": "9780746078068",
+          "loans": 2,
+          "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "The Ugly Duckling (Paperback)",
+          "author": "한스 크리스티안 안데르센 (지은이)",
+          "publisher": "Usborne",
+          "cover": "https://image.aladin.co.kr/product/101/98/cover/0746091540_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2496108",
+          "isbn": "9780746091548",
+          "loans": 2,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "The Runaway Pancake (Paperback)",
+          "author": "Mairi Mackinnon (지은이)",
+          "publisher": "Usborne",
+          "cover": "https://image.aladin.co.kr/product/101/98/cover/0746091583_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2496106",
+          "isbn": "9780746091586",
+          "loans": 2,
           "rank": 19,
           "series": 1
         },
         {
-          "title": "Lunch money",
-          "author": "Andrew Clements, illustrations by Brian Selznick",
-          "publisher": "Alladic Paperbacks",
-          "cover": "https://image.aladin.co.kr/product/99/2/cover/0689866852_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=2482987",
-          "isbn": "9780689866852",
+          "title": "The Hare and the Tortoise (Paperback)",
+          "author": "Mairi Mackinnon (지은이)",
+          "publisher": "Usborne",
+          "cover": "https://image.aladin.co.kr/product/101/98/cover/0746091648_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=2496133",
+          "isbn": "9780746091647",
           "loans": 2,
           "rank": 20,
           "series": 1
@@ -468,7 +468,7 @@
           "cover": "https://bookthumb-phinf.pstatic.net/cover/071/902/07190270.jpg?type=m1&udate=20170801",
           "link": "https://data4library.kr/bookV?seq=1938053",
           "isbn": "9788998441012",
-          "loans": 30,
+          "loans": 32,
           "rank": 1,
           "series": 1
         },
@@ -479,8 +479,30 @@
           "cover": "https://image.aladin.co.kr/product/36101/66/cover200/893643974x_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7035395",
           "isbn": "9788936439743",
-          "loans": 25,
+          "loans": 24,
           "rank": 2,
+          "series": 1
+        },
+        {
+          "title": "가호",
+          "author": "무라카미 하루키 (지은이), 홍은주 (옮긴이)",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/40321/63/cover200/k242131684_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7354143",
+          "isbn": "9791141691370",
+          "loans": 23,
+          "rank": 3,
+          "series": 1
+        },
+        {
+          "title": "투명한 나선",
+          "author": "히가시노 게이고, 김선영",
+          "publisher": "교보문고",
+          "cover": "https://image.aladin.co.kr/product/39802/11/cover200/k082130602_3.jpg",
+          "link": "https://data4library.kr/bookV?seq=7297704",
+          "isbn": "9791170614043",
+          "loans": 23,
+          "rank": 4,
           "series": 1
         },
         {
@@ -491,7 +513,7 @@
           "link": "https://data4library.kr/bookV?seq=7149374",
           "isbn": "9791141602451",
           "loans": 21,
-          "rank": 3,
+          "rank": 5,
           "series": 1
         },
         {
@@ -502,40 +524,29 @@
           "link": "https://data4library.kr/bookV?seq=7312549",
           "isbn": "9791141618575",
           "loans": 21,
-          "rank": 4,
-          "series": 1
-        },
-        {
-          "title": "투명한 나선",
-          "author": "히가시노 게이고, 김선영",
-          "publisher": "교보문고",
-          "cover": "https://image.aladin.co.kr/product/39802/11/cover200/k082130602_3.jpg",
-          "link": "https://data4library.kr/bookV?seq=7297704",
-          "isbn": "9791170614043",
-          "loans": 20,
-          "rank": 5,
-          "series": 1
-        },
-        {
-          "title": "빵충 사육 준수 사항",
-          "author": "김혜영 (지은이)",
-          "publisher": "안전가옥",
-          "cover": "https://image.aladin.co.kr/product/39872/66/cover200/k242130313_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7301611",
-          "isbn": "9791194891178",
-          "loans": 20,
           "rank": 6,
           "series": 1
         },
         {
-          "title": "가호",
-          "author": "무라카미 하루키 (지은이), 홍은주 (옮긴이)",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/40321/63/cover200/k242131684_2.jpg",
-          "link": "https://data4library.kr/bookV?seq=7354143",
-          "isbn": "9791141691370",
-          "loans": 19,
+          "title": "아코디언 :천명관 장편소설",
+          "author": "천명관",
+          "publisher": "창비",
+          "cover": "https://shopping-phinf.pstatic.net/main_6041993/60419931459.20260612143521.jpg",
+          "link": "https://data4library.kr/bookV?seq=7282009",
+          "isbn": "9788936439965",
+          "loans": 20,
           "rank": 7,
+          "series": 1
+        },
+        {
+          "title": "찌니주의보 :정지아 장편소설",
+          "author": "정지아",
+          "publisher": "창비",
+          "cover": "https://image.aladin.co.kr/product/40013/75/cover200/8936439995_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7312107",
+          "isbn": "9788936439996",
+          "loans": 20,
+          "rank": 8,
           "series": 1
         },
         {
@@ -545,19 +556,19 @@
           "cover": "https://image.aladin.co.kr/product/32991/71/cover/k502936654_1.jpg",
           "link": "https://data4library.kr/bookV?seq=6802275",
           "isbn": "9791168417199",
-          "loans": 19,
-          "rank": 8,
+          "loans": 20,
+          "rank": 9,
           "series": 4
         },
         {
-          "title": "아코디언 :천명관 장편소설",
-          "author": "천명관",
-          "publisher": "창비",
-          "cover": "https://shopping-phinf.pstatic.net/main_6041993/60419931459.20260612143521.jpg",
-          "link": "https://data4library.kr/bookV?seq=7282009",
-          "isbn": "9788936439965",
-          "loans": 18,
-          "rank": 9,
+          "title": "빵충 사육 준수 사항",
+          "author": "김혜영 (지은이)",
+          "publisher": "안전가옥",
+          "cover": "https://image.aladin.co.kr/product/39872/66/cover200/k242130313_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=7301611",
+          "isbn": "9791194891178",
+          "loans": 20,
+          "rank": 10,
           "series": 1
         },
         {
@@ -567,8 +578,41 @@
           "cover": "https://image.aladin.co.kr/product/36566/52/cover200/k462039240_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7073819",
           "isbn": "9791141602376",
+          "loans": 19,
+          "rank": 11,
+          "series": 1
+        },
+        {
+          "title": "세네카, 오늘을 빼앗기고 있는 당신에게",
+          "author": "루키우스 안나이우스 세네카",
+          "publisher": "논픽션",
+          "cover": "https://shopping-phinf.pstatic.net/main_6056845/60568459498.20260623201840.jpg",
+          "link": "https://data4library.kr/bookV?seq=7288912",
+          "isbn": "9791199489561",
+          "loans": 19,
+          "rank": 12,
+          "series": 1
+        },
+        {
+          "title": "작별하지 않는다 :한강 장편소설",
+          "author": "한강",
+          "publisher": "문학동네",
+          "cover": "https://image.aladin.co.kr/product/27877/5/cover/8954682154_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=6086446",
+          "isbn": "9788954682152",
           "loans": 18,
-          "rank": 10,
+          "rank": 13,
+          "series": 1
+        },
+        {
+          "title": "불편한 편의점 :김호연 장편소설",
+          "author": "김호연",
+          "publisher": "나무옆의자",
+          "cover": "https://image.aladin.co.kr/product/26942/84/cover/k582730818_1.jpg",
+          "link": "https://data4library.kr/bookV?seq=5962217",
+          "isbn": "9791161571188",
+          "loans": 18,
+          "rank": 14,
           "series": 1
         },
         {
@@ -579,7 +623,7 @@
           "link": "https://data4library.kr/bookV?seq=7279843",
           "isbn": "9791193235966",
           "loans": 18,
-          "rank": 11,
+          "rank": 15,
           "series": 1
         },
         {
@@ -590,40 +634,7 @@
           "link": "https://data4library.kr/bookV?seq=7259572",
           "isbn": "9791194344438",
           "loans": 18,
-          "rank": 12,
-          "series": 1
-        },
-        {
-          "title": "세네카, 오늘을 빼앗기고 있는 당신에게",
-          "author": "루키우스 안나이우스 세네카",
-          "publisher": "논픽션",
-          "cover": "https://shopping-phinf.pstatic.net/main_6056845/60568459498.20260623201840.jpg",
-          "link": "https://data4library.kr/bookV?seq=7288912",
-          "isbn": "9791199489561",
-          "loans": 18,
-          "rank": 13,
-          "series": 1
-        },
-        {
-          "title": "찌니주의보 :정지아 장편소설",
-          "author": "정지아",
-          "publisher": "창비",
-          "cover": "https://image.aladin.co.kr/product/40013/75/cover200/8936439995_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=7312107",
-          "isbn": "9788936439996",
-          "loans": 17,
-          "rank": 14,
-          "series": 1
-        },
-        {
-          "title": "불편한 편의점 :김호연 장편소설",
-          "author": "김호연",
-          "publisher": "나무옆의자",
-          "cover": "https://image.aladin.co.kr/product/26942/84/cover/k582730818_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=5962217",
-          "isbn": "9791161571188",
-          "loans": 17,
-          "rank": 15,
+          "rank": 16,
           "series": 1
         },
         {
@@ -634,7 +645,29 @@
           "link": "https://data4library.kr/bookV?seq=6338450",
           "isbn": "9791164139880",
           "loans": 17,
-          "rank": 16,
+          "rank": 17,
+          "series": 1
+        },
+        {
+          "title": "가공범",
+          "author": "히가시노 게이고, 김선영",
+          "publisher": "교보문고",
+          "cover": "https://image.aladin.co.kr/product/36786/80/cover200/k472030698_2.jpg",
+          "link": "https://data4library.kr/bookV?seq=7094855",
+          "isbn": "9791170612759",
+          "loans": 17,
+          "rank": 18,
+          "series": 1
+        },
+        {
+          "title": "테오 :앨런 레비 장편소설",
+          "author": "앨런 레비, 노지양",
+          "publisher": "OFH(오팬하우스)",
+          "cover": "https://shopping-phinf.pstatic.net/main_6055035/60550358682.20260623071214.jpg",
+          "link": "https://data4library.kr/bookV?seq=7288796",
+          "isbn": "9791175772892",
+          "loans": 17,
+          "rank": 19,
           "series": 1
         },
         {
@@ -644,40 +677,7 @@
           "cover": "https://image.aladin.co.kr/product/37539/55/cover200/k392032120_1.jpg",
           "link": "https://data4library.kr/bookV?seq=7173365",
           "isbn": "9791192559100",
-          "loans": 16,
-          "rank": 17,
-          "series": 1
-        },
-        {
-          "title": "독서의 기술 =책은 어떻게 삶의 무기가 되는가 /The art of reading",
-          "author": "고명환 지음",
-          "publisher": "라곰",
-          "cover": "https://shopping-phinf.pstatic.net/main_6058347/60583478236.20260624104607.jpg",
-          "link": "https://data4library.kr/bookV?seq=7289879",
-          "isbn": "9791193939666",
-          "loans": 16,
-          "rank": 18,
-          "series": 1
-        },
-        {
-          "title": "급류 :정대건 장편소설",
-          "author": "정대건",
-          "publisher": "민음사",
-          "cover": "https://image.aladin.co.kr/product/30769/24/cover/8937473402_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6614564",
-          "isbn": "9788937473401",
-          "loans": 15,
-          "rank": 19,
-          "series": 1
-        },
-        {
-          "title": "작별하지 않는다 :한강 장편소설",
-          "author": "한강",
-          "publisher": "문학동네",
-          "cover": "https://image.aladin.co.kr/product/27877/5/cover/8954682154_1.jpg",
-          "link": "https://data4library.kr/bookV?seq=6086446",
-          "isbn": "9788954682152",
-          "loans": 15,
+          "loans": 17,
           "rank": 20,
           "series": 1
         }
