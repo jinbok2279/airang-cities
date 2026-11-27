@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26 12:47:40",
+ "updated_at": "2026-11-27 12:51:31",
  "source": "서울시 문화행사·공공서비스예약·공연예술통합전산망·한국관광공사·문화포털",
  "city": [
   {
@@ -29,21 +29,6 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156701&menuNo=200011",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6bbaf409b1094f6d869081497b8571b5&thumb=Y"
-  },
-  {
-   "id": "Sc8800b1b9f",
-   "title": "[서울생활사박물관] 2026년 조각조각 서울이야기 엮기(초등5~6학년 학급단체)",
-   "start": "2026-04-02",
-   "end": "2026-11-26",
-   "place": "서울생활사박물관",
-   "time": "10:00~12:00",
-   "grade": "초등5~6학년 학급단체",
-   "price": "",
-   "free": true,
-   "kind": "교육/체험",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156700&menuNo=200011",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bfea6f07006b4186bf9e33dc85c239f6&thumb=Y"
   },
   {
    "id": "Sc3c1268246",
@@ -106,6 +91,21 @@
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=9407318681064f028d407ee59a8d1f09&thumb=Y"
   },
   {
+   "id": "S487ddd1164",
+   "title": "[서울시립과학관] 특별기획전 [겉은 바삭하게, 속은 과학으로]",
+   "start": "2026-11-27",
+   "end": "2027-05-30",
+   "place": "서울시립과학관 X전시실",
+   "time": "9:30~17:30 (월요일 휴관)",
+   "grade": "누구나",
+   "price": "",
+   "free": true,
+   "kind": "전시/미술",
+   "src": "seoul",
+   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160303&menuNo=200009",
+   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d1172baddc714f16b29b7e7fc2fd7620&thumb=Y"
+  },
+  {
    "id": "KPF301364",
    "title": "겨울왕국 [서울 노원]",
    "start": "2026-11-28",
@@ -153,24 +153,24 @@
  ],
  "lib": [
   {
-   "id": "RS261001092854130834",
-   "title": "(평일 오전)2026년 11월 불암산나비정원 단체 관람",
-   "lib": "불암산 나비정원",
-   "target": "성인, 어린이, 유아, 장애인, 청소년",
-   "place": "불암산 나비정원",
-   "start": "2026-11-02",
-   "end": "2026-11-27",
+   "id": "RS260408090912009374",
+   "title": "[노원정원지원센터/일] - 반려식물학교 11월 '꼬마가드닝'",
+   "lib": "노원정원지원센터",
+   "target": "어린이(만 5세 ~ 8세)",
+   "place": "노원정원지원센터",
+   "start": "2026-11-15",
+   "end": "2026-11-29",
    "period": "",
-   "applyStart": "2026-10-05",
-   "applyEnd": "2026-11-26",
+   "applyStart": "2026-10-10",
+   "applyEnd": "2026-11-29",
    "apply": "",
    "count": "",
    "status": "접수중",
    "btn": "",
-   "free": true,
+   "free": false,
    "src": "yeyak",
    "kind": "교육체험",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261001092854130834"
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260408090912009374"
   },
   {
    "id": "RS260224140741661414",
@@ -218,10 +218,10 @@
    "lib": "서울특별시 노원구 동일로203길 73 중평공원 내 (하계동)",
    "target": "유아",
    "place": "서울특별시 노원구 동일로203길 73 중평공원 내 (하계동)",
-   "start": "2026-11-26",
+   "start": "2026-11-27",
    "end": "2026-12-07",
    "period": "",
-   "applyStart": "2026-11-26",
+   "applyStart": "2026-11-27",
    "applyEnd": "2026-12-07",
    "apply": "",
    "count": "",
@@ -238,10 +238,10 @@
    "lib": "서울특별시 노원구 상계로9나길 25 빛가온교회 드림센터 1층 (상계동)",
    "target": "유아",
    "place": "서울특별시 노원구 상계로9나길 25 빛가온교회 드림센터 1층 (상계동)",
-   "start": "2026-11-26",
+   "start": "2026-11-27",
    "end": "2026-12-07",
    "period": "",
-   "applyStart": "2026-11-26",
+   "applyStart": "2026-11-27",
    "applyEnd": "2026-12-07",
    "apply": "",
    "count": "",
@@ -271,6 +271,26 @@
    "src": "yeyak",
    "kind": "자연/과학",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260423100150413637"
+  },
+  {
+   "id": "RS260908110510933550",
+   "title": "2026년 하반기 가족 과학 실험교실 '과학에 물들다' (11/29 ~ 12/20)",
+   "lib": "서울시립과학관",
+   "target": "성인(보호자), 초등학생(초등학교 4학년 이상)",
+   "place": "서울시립과학관",
+   "start": "2026-10-27",
+   "end": "2026-12-20",
+   "period": "",
+   "applyStart": "2026-11-03",
+   "applyEnd": "2026-12-17",
+   "apply": "",
+   "count": "",
+   "status": "접수중",
+   "btn": "",
+   "free": false,
+   "src": "yeyak",
+   "kind": "자연/과학",
+   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260908110510933550"
   },
   {
    "id": "RS260508193232952522",
@@ -555,26 +575,6 @@
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261117172414215626"
   },
   {
-   "id": "RS261119112019264870",
-   "title": "[서울청년센터노원] <12월 두시티톡 - 겨울의 첫날, 쿠키가 내리는 날>",
-   "lib": "서울청년센터 노원",
-   "target": "청년",
-   "place": "서울청년센터 노원",
-   "start": "2026-11-19",
-   "end": "2026-12-01",
-   "period": "",
-   "applyStart": "2026-11-19",
-   "applyEnd": "2026-11-26",
-   "apply": "",
-   "count": "",
-   "status": "접수중",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "청년정보",
-   "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261119112019264870"
-  },
-  {
    "id": "RS260114180626282983",
    "title": "북부종합사회복지관 소나무학교 신입생 모집",
    "lib": "북부종합사회복지관",
@@ -593,21 +593,6 @@
    "src": "yeyak",
    "kind": "교양/어학",
    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260114180626282983"
-  },
-  {
-   "id": "S85cec6cc34",
-   "title": "삼육대학교 큐레토리얼 프로젝트 기획전 [LAYER LAYER LAYER]",
-   "start": "2026-11-24",
-   "end": "2026-11-26",
-   "place": "삼육대학교 박물관 지하1층",
-   "time": "10:00~16:00",
-   "grade": "누구나",
-   "price": "",
-   "free": true,
-   "kind": "전시/미술",
-   "src": "seoul",
-   "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160264&menuNo=200009",
-   "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6ef27738745846d785b1e7840e706928&thumb=Y"
   },
   {
    "id": "RS260910100256256439",
@@ -663,26 +648,6 @@
    "src": "seoul",
    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160153&menuNo=200011",
    "img": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=378fa6143c1242c1979f56ee5194729f&thumb=Y"
-  },
-  {
-   "id": "RXML-3477",
-   "title": "[양육자] 부모마음 충전소 11/26(목) 10:00~12:00",
-   "lib": "거점 1호 우리동네키움센터 (3층 모임방)",
-   "target": "성인",
-   "place": "거점 1호 우리동네키움센터 (3층 모임방)",
-   "start": "2026-11-26",
-   "end": "2026-11-26",
-   "period": "",
-   "applyStart": "2026-11-12",
-   "applyEnd": "2026-11-25",
-   "apply": "",
-   "count": "",
-   "status": "접수전",
-   "btn": "",
-   "free": true,
-   "src": "yeyak",
-   "kind": "교육체험",
-   "link": "https://umppa.seoul.go.kr/icare/user/chilProgrm/orgideaExprnCtzn/BD_selectOrgideaExprnCtzn.do?q_progrmCl=1000&q_placeCode=100&q_progrmSn=3477"
   }
  ]
 }
