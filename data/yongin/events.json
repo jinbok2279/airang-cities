@@ -1,20 +1,7 @@
 {
- "updated_at": "2026-11-26 12:23:00",
+ "updated_at": "2026-11-27 12:29:32",
  "source": "용인시청 문화달력 · 용인시도서관 문화행사",
  "city": [
-  {
-   "id": "16900",
-   "title": "삼성화재 모빌리티뮤지엄과 함께하는 용인시립예술단의 찾아가는 음악회 뮤지엄 콘서트",
-   "start": "2026-10-24",
-   "end": "2026-11-28",
-   "place": "",
-   "time": "오후 2시",
-   "grade": "전체관람등급",
-   "price": "무료",
-   "free": true,
-   "src": "city",
-   "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16900"
-  },
   {
    "id": "16942",
    "title": "[예술놀이터] 숲속의 기억_나무 그늘 아래",
@@ -81,6 +68,20 @@
    "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16941"
   },
   {
+   "id": "Ca30ed7c2bc",
+   "title": "[용인] 매직컬 스크루지",
+   "start": "2026-11-25",
+   "end": "2026-12-27",
+   "place": "용인어린이상상의숲 공연놀이터",
+   "time": "20261125 ~ 20261227",
+   "grade": "",
+   "price": "",
+   "free": false,
+   "src": "culture",
+   "link": "https://www.mcst.go.kr/kor/s_culture/culture/cultureView.jsp?pSeq=78775",
+   "img": "http://www.culture.go.kr/upload/rdf/26/11/rdf_2026110621194983322.gif"
+  },
+  {
    "id": "16979",
    "title": "보테니컬 아트 문화센터 회원전 < 제4회 자연을 남기다>",
    "start": "2026-11-25",
@@ -92,19 +93,6 @@
    "free": true,
    "src": "city",
    "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16979"
-  },
-  {
-   "id": "16985",
-   "title": "전국풍류자랑 < 오작교 아리랑>",
-   "start": "2026-11-26",
-   "end": "2026-11-26",
-   "place": "큰어울마당",
-   "time": "19:30",
-   "grade": "전체관람등급",
-   "price": "전석 무료",
-   "free": true,
-   "src": "city",
-   "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16985"
   },
   {
    "id": "17014",
@@ -209,6 +197,19 @@
    "free": false,
    "src": "city",
    "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=16990"
+  },
+  {
+   "id": "17021",
+   "title": "2026 용인 대중예술 아카데미 성과공유 STAGE!",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "place": "마루홀",
+   "time": "15:00",
+   "grade": "전체관람등급",
+   "price": "무료",
+   "free": true,
+   "src": "city",
+   "link": "https://www.yongin.go.kr/partInfo/cultureArt/BD_selectCultureArt.do?q_showIdx=17021"
   },
   {
    "id": "16999",
@@ -407,7 +408,7 @@
    "applyStart": "2026-11-19",
    "applyEnd": "2026-11-27",
    "apply": "2026.11.19(목) 10:00 ~ 2026.11.27(금) 17:00",
-   "count": "13/15",
+   "count": "12/15",
    "status": "접수중",
    "btn": "신청하기",
    "free": true,
@@ -426,7 +427,7 @@
    "applyStart": "2026-11-24",
    "applyEnd": "2026-11-30",
    "apply": "2026.11.24(화) 10:00 ~ 2026.11.30(월) 23:59",
-   "count": "8/20",
+   "count": "10/20",
    "status": "접수중",
    "btn": "신청하기",
    "free": true,
@@ -445,7 +446,7 @@
    "applyStart": "2026-11-20",
    "applyEnd": "2026-11-30",
    "apply": "2026.11.20(금) 10:00 ~ 2026.11.30(월) 23:59",
-   "count": "2/10",
+   "count": "3/10",
    "status": "접수중",
    "btn": "신청하기",
    "free": true,
@@ -464,7 +465,7 @@
    "applyStart": "2026-11-19",
    "applyEnd": "2026-12-01",
    "apply": "2026.11.19(목) 10:00 ~ 2026.12.01(화) 17:00",
-   "count": "11/15",
+   "count": "12/15",
    "status": "접수중",
    "btn": "신청하기",
    "free": true,
